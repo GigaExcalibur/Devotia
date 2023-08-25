@@ -39,6 +39,7 @@
 #define SkillScroll 0xBC
 
 #include "EngineHacks/SkillSystem/skill_definitions.event"
+#include "EngineHacks/SkillSystem/skill_definitions_devotia.event"
 
 // #define __DEBUG__ // Uncomment to get the Debug startup menu :p
 

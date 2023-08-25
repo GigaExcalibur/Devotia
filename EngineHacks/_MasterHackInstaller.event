@@ -234,3 +234,5 @@ POP
     MESSAGE "Using EMS Save/Suspend Expansion"
     #include "Necessary/ExpandedModularSave/ExModularSave.event"
 
+  //Devotia Hax
+  #include "DevotiaHax/DevotiaHaxInstaller.event"

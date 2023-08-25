@@ -210,61 +210,61 @@
     RMenu(ST_Class,ST_HP,ST_Level,ST_Res,0x26,0x78,0x543)
 
   ST_HP:
-    RMenu(ST_Level,0,0,ST_Mov,0x6,0x88,0x544)
+    RMenu(ST_Level,0,0,ST_Res,0x6,0x88,0x544)
 
 
 
   ST_Str:
-    RMenu(PersonalDataRText,ST_Mag,ST_Name,ST_Con,0x66,0x18,0x546)
+    RMenu(PersonalDataRText,ST_Mag,ST_Name,ST_Mov,0x66,0x18,0x546)
 
   ST_Mag:
-    RMenu(ST_Str,ST_Skl,ST_Name,ST_Aid,0x66,0x28,0x547)
+    RMenu(ST_Str,ST_Skl,ST_Name,ST_Con,0x66,0x28,0x547)
 
   ST_Skl:
-    RMenu(ST_Mag,ST_Spd,ST_Name,ST_Cond,0x66,0x38,0x548)
+    RMenu(ST_Mag,ST_Spd,ST_Name,ST_Aid,0x66,0x38,0x548)
 
   ST_Spd:
     RMenu(ST_Skl,ST_Luck,ST_Name,ST_Affin,0x66,0x48,0x549)
 
   ST_Luck:
-    RMenu(ST_Spd,ST_Def,ST_Name,ST_Talk,0x66,0x58,0x54a)
+    RMenu(ST_Spd,ST_Def,ST_Name,ST_Skills,0x66,0x58,0x54a)
 
   ST_Def:
-    RMenu(ST_Luck,ST_Res,ST_Class,ST_Skills,0x66,0x68,0x54b)
+    RMenu(ST_Luck,ST_Res,ST_Class,ST_Trv,0x66,0x68,0x54b)
 
   ST_Res:
-    RMenu(ST_Def,ST_Mov,ST_Exp,ST_Skill1,0x66,0x78,0x54c)
+    RMenu(ST_Def,0,ST_Exp,ST_Talk,0x66,0x78,0x54c)
 
   ST_Mov:
-    RMenu(ST_Res,ST_Con,ST_Exp,ST_Skill1,0x66,0x88,0x54d,MovHPDescGetter)
+    RMenu(PersonalDataRText,ST_Con,ST_Str,0,0xa6,0x18,0x54d,MovHPDescGetter)
 
   ST_Con:
-    RMenu(PersonalDataRText,ST_Aid,ST_Str,0,0xA6,0x18,0x54e)
+    RMenu(ST_Mov,ST_Aid,ST_Mag,0,0xA6,0x28,0x54e)
 
   ST_Aid:
-    RMenu(ST_Con,ST_Cond,ST_Mag,0,0xa6,0x28,0x54F)
+    RMenu(ST_Con,ST_Affin,ST_Skl,0,0xa6,0x38,0x54F)
 
-  ST_Cond:
-    RMenu(ST_Aid,ST_Affin,ST_Skl,0,0xa6,0x38,0x552,ConditionGetter)
+  ST_Trv:
+    RMenu(ST_Skills,ST_Talk,ST_Def,0,0xa6,0x68,0x550)
 
   ST_Affin:
     #ifdef LEADERSHIP_STARS
-      RMenu(ST_Cond,ST_Talk,ST_Spd,0,0xa6,0x48,LeadRText)
+      //RMenu(ST_Cond,ST_Talk,ST_Spd,0,0xa6,0x48,LeadRText)
     #else
-      RMenu(ST_Cond,ST_Talk,ST_Spd,0,0xa6,0x48,0x551)
+      RMenu(ST_Aid,ST_Skills,ST_Spd,0,0xa6,0x48,0x551)
     #endif
 
   //ST_Cond:
     //RMenu(ST_Affin,ST_Talk,ST_Spd,0,0xA6,0x48,0x552,ConditionGetter)
 
   ST_Talk:
-    RMenu(ST_Affin,ST_Skills,ST_Luck,0,0xA6,0x58,SS_TalkRText)
+    RMenu(ST_Trv,0,ST_Res,0,0xA6,0x78,SS_TalkRText)
 
   ST_Skills:
-    RMenu(ST_Talk,ST_Skill1,ST_Def,0,0xA6,0x68,SS_SkillsRText)
+    RMenu(ST_Affin,ST_Trv,ST_Luck,ST_Skill1,0xA6,0x58,SS_SkillsRText)
 
   ST_Skill1:
-    RMenu(ST_Skills,ST_Skill4,ST_Res,ST_Skill2,0xa6,0x78,0,RTextLoop,SkillDescGetter)
+    RMenu(ST_Affin,ST_Trv,ST_Skills,0,0xbe,0x58,0,RTextLoop,SkillDescGetter)
 
   ST_Skill2:
     RMenu(ST_Skills,ST_Skill5,ST_Skill1,ST_Skill3,0xbe,0x78,1,RTextLoop,SkillDescGetter+4)

@@ -85,8 +85,8 @@ ldr		r0,[r0,#28]		@res growth getter
 draw_growth_at 18, 15
 ldr		r0,[sp,#0xC]
 ldr		r0,[r0]			@hp growth getter (not displaying because there's no room atm)
-draw_growth_at 18, 17
-draw_textID_at 13, 17, textID=0x4E9, growth_func=1 @hp name
+draw_growth_at 25, 3
+draw_textID_at 21, 3, textID=0x4E9, growth_func=1 @hp name
 b		NextColumn
 .ltorg
 
@@ -95,15 +95,16 @@ b		ShowStats3
 
 NextColumn:
 
-draw_textID_at 21, 3, textID=0x4f7 @con
-draw_con_bar_with_getter_at 24, 3
+draw_textID_at 21, 5, textID=0x4f7 @con
+draw_con_bar_with_getter_at 24, 5
 
 
-draw_textID_at 21, 5, textID=0x4f8 @aid
-draw_number_at 25, 5, 0x80189B8, 2 @aid getter
-draw_aid_icon_at 26, 5
+draw_textID_at 21, 7, textID=0x4f8 @aid
+draw_number_at 25, 7, 0x80189B8, 2 @aid getter
+draw_aid_icon_at 26, 7
 
-draw_status_text_at 21, 7
+@draw_status_text_at 21, 7
+draw_trv_text_at 21, 13
 
 draw_textID_at 21, 9, textID=0x4f1 @affin
 
@@ -112,11 +113,11 @@ draw_affinity_icon_at 24, 9
 
 ldr r0,=TalkTextIDLink
 ldrh r0,[r0]
-draw_talk_text_at 21, 11
+draw_talk_text_at 21, 15
 
 ldr r0,=SkillsTextIDLink
 ldrh r0, [r0]
-draw_textID_at 21, 13, colour=White @skills
+draw_textID_at 21, 11, colour=Yellow @skills
 
 Nexty:
 
@@ -131,8 +132,8 @@ draw_spd_bar_at 16, 9
 draw_luck_bar_at 16, 11
 draw_def_bar_at 16, 13
 draw_res_bar_at 16, 15
-draw_textID_at 13, 17, 0x4f6 @move
-draw_move_bar_with_getter_at 16, 17
+draw_textID_at 21, 3, 0x4f6 @move
+draw_move_bar_with_getter_at 24, 3
 
 b		NextColumn
 .ltorg
@@ -150,8 +151,9 @@ mov r6, r0
 ldrb r0, [r6] 
 cmp r0, #0
 beq SkillEnd
-draw_skill_icon_at 21, 15
+draw_skill_icon_at 24, 11
 
+/*
 ldrb r0, [r6,#1]
 cmp r0, #0
 beq SkillEnd
@@ -176,6 +178,7 @@ ldrb r0, [r6, #5]
 cmp r0, #0
 beq SkillEnd
 draw_skill_icon_at 27, 17
+*/
 
 SkillEnd:
 

@@ -1617,10 +1617,10 @@ Advantage Chaser: When attacking[N]
 with weapon triangle advantage,[N]
 unit makes a guaranteed follow-up.[X]
 
-
-
-
-
+## SD_Generic
+As a faceless and generic member[N]
+of the ensemble cast, this unit[N]
+does not possess any skills.[X]
 
 
 

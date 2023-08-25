@@ -8,6 +8,73 @@ HP Bars[.][X]
 # 0x00B2
 Set health bar display[X]
 
+# 0x4fe
+STR[X]
+
+# 0x4ff
+MAG[X]
+
+# 0x4EC
+DEX[X]
+
+# 0x4ed
+SPD[X]
+
+# 0x4ee
+LCK[X]
+
+# 0x4ef
+DEF[X]
+
+# 0x4f0
+RES[X]
+
+# 0x4f6
+MOV[X]
+
+# 0x4f7
+CON[X]
+
+# 0x4f9
+Hold[X]
+
+# 0x542
+How much a unit has left to grow[N]
+before they hit their limit.[X]
+
+# 0x543
+How much more time in battle a unit[N]
+needs to noticeably improve.[X]
+
+# 0x544
+How much a unit can get the snot[N]
+beaten out of them at once.[X]
+
+# 0x546
+Raw physical strength, good for both arm[N]
+wrestling and, well, fighting to the death.[X]
+
+# 0x547
+Intelligence, wisdom, IQ, how many hours[N]
+the unit worked out at the library.[X]
+
+# 0x548
+How deft a unit is with their hands.[N]
+Somehow affects critical hits.[X]
+
+# 0x549
+Speed[X]
+
+# 0x54A
+The likelihood a unit is to not[N]
+die from random heart failure.[X]
+
+# 0x54B
+Defense[X]
+
+# 0x54C
+Res[X]
+
 #0x3A LearnedSkillText
 //first text ID in the free block
 Learned  [X]
@@ -121,3 +188,39 @@ a skill when used.[X]
 #include "skilldesc_text.txt"
 
 #include "unitinfo_text.txt"
+
+## IronBroadswordName
+Silver Broadsword[X]
+
+## IronGreatlanceName
+Silver Greatlance[X]
+
+## IronHamaxeName
+Silver Hamaxe[X]
+
+## IronBarebowName
+Silver Barebow[X]
+
+## IgnisArdereName
+Ignis Ardere[X]
+
+## GlaciesClaudereName
+Glacies Claudere[X]
+
+## TonitrusCanereName
+Tonitrus Canere[X]
+
+## VentusSaltareName
+Ventus Saltare[X]
+
+## LuxCongerereName
+Lux Congerere[X]
+
+## TenebraeOperiereName
+Tenebrae Operiere[X]
+
+## HPRecoveryPelletName
+HP Recovery Pellet[X]
+
+## BladeOfTheRuinedKingName
+^{Blade of the Ruined King}[X]

@@ -611,7 +611,7 @@
 #define SteadyStanceID 251
 #define SturdyStanceID 252
 #define SwiftStanceID 253
-#define WardingStanceID 254
+#define WardingStanceID 255
 #define SpectrumStanceID 255
 //By Sme
 #define AlertStanceID 245

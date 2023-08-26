@@ -1,0 +1,10 @@
+#define CharacterAgeTableEntry(charID, age) "PUSH; ORG CharacterAgeTable+charID; BYTE age; POP"
+
+CharacterAgeTable:
+FILL 0xFF
+
+CharacterAgeTableEntry(Klaudia, 21)
+CharacterAgeTableEntry(Omen, 49)
+CharacterAgeTableEntry(Josephine, 28)
+CharacterAgeTableEntry(Emerson, 21)
+CharacterAgeTableEntry(Beth, 14)

@@ -1,2 +1,48 @@
 // Devotia skill defs
-#define GenericID 254
+
+// Core skills. These are either non-displayed class skills or generic personals.
+
+// Shove: you know the drill. All non-thief infantry.
+#undef ShoveID
+#define ShoveID 1
+
+// Canto: you know the drill. All mounts.
+#undef CantoID
+#define CantoID 2
+
+// Cunning: combines Steal and Locktouch. All sneaky infantry.
+#undef CunningID
+#define CunningID 3
+
+// Dance: "Play", you know the drill. For Bard.
+#undef DanceID
+#define DanceID 4
+
+// Generic: filler personal skill for generics.
+#define GenericID 5
+
+// Stalwart: "Nullify", immune to effective damage. For bosses.
+#define StalwartID 6
+
+// Personal skills. Now we're getting to the good stuff
+
+// Lucky Seven: Gain +2 Hit/Avoid for every deployed ally whose age is a multiple of 7 (excludes user).
+#define LuckySevenKlaudiaID 7
+
+// Soulblade: When attacking with swords, hit the average of foe's DEF and RES.
+#define SoulbladeID 8
+
+// Serenade: After combat, allies in 2 spaces get +2 DEF/RES for one turn.
+#define SerenadeID 9
+
+// Grounded: If unit initiates combat without moving, +2 maximum range.
+#define GroundedID 10
+
+// Wallflower: If foe was unable to counterattack, unit can move 2 spaces after combat.
+#define WallflowerID 11
+
+// Cam skill
+#define WaveShredderID 12
+
+// Nimble Fingers: Cunning as a free action (maybe no speed check?)
+#define NimbleFingersID 13

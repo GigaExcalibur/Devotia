@@ -1,10 +1,10 @@
 INLINE PersonalSkillTable,Skill
 None,0x0
-Eirika,CharismaID
-Seth,SaviorID
-Gilliam,RallyDefID
-Franz,SealStrID
-Moulder,RallyResID
+0x01 Klaudia,LuckySevenKlaudiaID
+0x02 Omen,SoulbladeID
+0x03 Josephine,SerenadeID
+0x04 Emerson,GroundedID
+0x05 Beth,WallflowerID
 Vanessa,SpurSpdID
 Ross,ParagonID
 Neimi,RallyLukID

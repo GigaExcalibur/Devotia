@@ -44,10 +44,6 @@ taken, +1 to damage dealt.[X]
 Canto: Can move again[N]
 after certain actions.[X]
 
-## SD_Cunning
-Cunning: Can steal items, pick[N]
-locks, and see in darkness.[X]
-
 ## SD_Lethality
 Lethality: Instantly kill opponent.[N]
 (Skill/2 % activation)[X]
@@ -533,10 +529,6 @@ Skill activation rate.[X]
 ## SD_RightfulGod
 Rightful God: +30% to[N]
 Skill activation rate.[X]
-
-## SD_LuckySeven
-Lucky Seven: +20 Hit and Avoid[N]
-until the 7th turn.[X]
 
 ## SD_OddRhythm
 Odd Rhythm: +10 Hit and Avoid[N]
@@ -1622,6 +1614,45 @@ As a faceless and generic member[N]
 of the ensemble cast, this unit[N]
 does not possess any skills.[X]
 
+## SD_Stalwart
+As an enemy commander a cut above[N]
+the rest of the rabble, unit is[N]
+immune to all effective damage.[X]
 
+## SD_Cunning
+Cunning: Unit can steal items[N]
+off foes and pick the locks of[N]
+any chest or door.[X]
 
+## SD_LuckySeven
+Lucky Seven: Unit gains +2 HIT/AVO[N]
+for every deployed ally who age[N]
+is divisible by 7 (excludes unit).[X]
 
+## SD_Soulblade
+Soulblade: When attacking with swords,[N]
+unit attacks the average of foe's DEF[N]
+and RES.[X]
+
+## SD_Serenade
+Serenade: After attacking, allies in[N]
+2 spaces get +2 DEF/RES for one turn.[X]
+
+## SD_Grounded
+Grounded: If unit initiates combat[N]
+without moving, +2 maximum range.[X]
+
+## SD_Wallflower
+Wallflower: If foe was unable to[N]
+counter, unit can move 2 spaces[N]
+after combat.[X]
+
+## SD_WaveShredder
+Wave Shredder: Unit can smite an[N]
+ally 2 spaces. Next combat, ally[N]
+ignores their weapon's weight.[X]
+
+## SD_NimbleFingers
+Nimble Fingers: Unit can steal[N]
+and pick locks as a free action.[N]
+Removes speed check for stealing.[X]

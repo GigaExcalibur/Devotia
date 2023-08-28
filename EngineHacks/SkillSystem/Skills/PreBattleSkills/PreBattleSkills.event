@@ -376,6 +376,13 @@ StunningSmile:
 POIN SkillTester
 WORD StunningSmileID
 
+ALIGN 4
+LuckySevenKlaudia:
+#incbin "LuckySevenKlaudia/LuckySevenKlaudia.dmp"
+POIN SkillTester
+WORD LuckySevenKlaudiaID
+POIN AgeGetter
+
 #include "KeenFighter/Installer.event" 
 
 

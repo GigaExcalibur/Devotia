@@ -3,8 +3,8 @@ Klaudia[X]
 
 ## KlaudiaDesc
 Heir apparent to House Orsolle.[N]
-Unwavering in her devotion to[N]
-the honor of House Sarka.[X]
+Unwavering in devotion to[N]
+House Sarka's eternal glory.[X]
 
 ## OmenName
 Omen[X]
@@ -158,12 +158,6 @@ Maris' assigned retainer. Serves her[N]
 lady dutifully, taking selfish pride[N]
 in seeing the smile on her face.[X]
 
-#define Maeve 0x15
-#define Evren 0x16
-#define Dane 0x17
-#define Ulrich 0x18
-#define Emille 0x19
-
 ## MaeveName
 Maeve[X]
 
@@ -208,7 +202,7 @@ devote herself to study of elder magic.[X]
 ^{Maybelline}[X]
 
 ## MaybellineDesc
-Aimless mercenary looking for work.[N]
+Self-proclaimed super-heroic mercenary.[N]
 Romanticizes sailing the seven seas, a[N]
 desire borne from reading fantasy.[X]
 
@@ -281,14 +275,8 @@ Willa[X]
 
 ## WillaDesc
 House Calicos' Master of Arms.[N]
-Uhhhhh I need more details to[N]
-know how to best finish this.[X]
-
-#define Calvin 0x24
-#define Clovis 0x25
-#define Orion 0x26
-#define Astraea 0x27
-#define Ansel 0x28
+Hailed as a prodigy fighter elevated[N]
+from commoner status to serve.[X]
 
 ## CalvinName
 Calvin[X]
@@ -309,10 +297,15 @@ and volunteers at a church regularly.[X]
 ## OrionName
 Orion[X]
 
-## OrionDesc
+## OrionFirstDesc
 Drek's lauded Arcane General. Traumatized[N]
 as a common soldier, he fights only to[N]
-shield children from the same fate.[X]
+shield children from suffering the same.[X]
+
+## OrionSecondDesc
+Drek's lauded Arcane General, imprisoned[N]
+for treason. Will sacrifice anything to[N]
+protect children from horrors of war.[X]
 
 ## AstraeaName
 Astraea[X]
@@ -335,7 +328,7 @@ Azar[X]
 
 ## AzarDesc
 The Wisterians' former second-in-command.[N]
-Born to follow, not lead, and follows[N]
+Born to follow, not lead, and obeys[N]
 orders as loyally as the hound he rides.[X]
 
 ## EvelynName
@@ -360,7 +353,7 @@ Brynhild[X]
 ## BrynhildDesc
 Head of House Sarka's Royal Guard.[N]
 Strives for perfection in everything,[N]
-and wants the same for her children.[X]
+and imposes the same on her children.[X]
 
 ## RamiName
 Rami[X]

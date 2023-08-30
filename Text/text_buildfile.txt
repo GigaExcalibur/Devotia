@@ -189,6 +189,8 @@ a skill when used.[X]
 
 #include "unitinfo_text.txt"
 
+#include "TableText/TableTextInstaller.event"
+
 ## IronBroadswordName
 Silver Broadsword[X]
 

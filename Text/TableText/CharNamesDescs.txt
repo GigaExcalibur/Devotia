@@ -1,0 +1,387 @@
+## KlaudiaName
+Klaudia[X]
+
+## KlaudiaDesc
+Heir apparent to House Orsolle.[N]
+Unwavering in her devotion to[N]
+the honor of House Sarka.[X]
+
+## OmenName
+Omen[X]
+
+## OmenDesc
+Lord Orsolle's principal retainer. Cold[N]
+and aloof, he's content to remain as[N]
+the dagger always at his lord's side.[X]
+
+## JosephineName
+^{Josephine}[X]
+
+## JosephineDesc
+Royal knight in service to House Orsolle.[N]
+To cope with her dashed dreams, her wit[N]
+spits venom in the verses she composes.[X]
+
+## EmersonName
+Emerson[X]
+
+## EmersonDesc
+Wandering hedge knight currently working[N]
+in Meraly. Their unusual armaments are[N]
+a tribute to their martyred parents.[X]
+
+## BethName
+Beth[X]
+
+## BethDesc
+Young and pragmatic villager looking for[N]
+a way to move up in the world. Always[N]
+taught to get her hands dirty if needed.[X]
+
+## CamName
+Cam[X]
+
+## CamDesc
+Formerly a pirate of a Drekkan crew.[N]
+In times of strife, it's best to anchor[N]
+oneself to the strongest man around.[X]
+
+## GiselleName
+Giselle[X]
+
+## GiselleDesc
+One of Meraly's myriad street urchins.[N]
+Bitter and hateful for her circumstances,[N]
+but has too many faces in mind to shank.[X]
+
+## LeviaName
+Levia[X]
+
+## LeviaDesc
+The middle child and only princess of[N]
+House Sarka. Wholly disinterested in her[N]
+station, she prefers the company of one.[X]
+
+## StuartName
+Stuart[X]
+
+## StuartDesc
+Levia's assigned retainer. A born fighter[N]
+with a temper to match to his skill with[N]
+a blade. Levia doesn't mind one bit.[X]
+
+## BearName
+Bear[X]
+
+## BearDesc
+Claimed to have been raised by a sleuth[N]
+of the animal. As such, he is free from[N]
+the pressures and practices of society.[X]
+
+## EstellaName
+Estella[X]
+
+## EstellaDesc
+Formerly a volunteer soldier of Drek.[N]
+Picked up her weapons to support her[N]
+sister, the only family she has left.[X]
+
+## CarinaName
+Carina[X]
+
+## CarinaDesc
+Formerly a sellsword contractor of Drek.[N]
+Laid down her weapons to support her[N]
+sister, the only family she has left.[X]
+
+## NiravName
+Nirav[X]
+
+## NiravDesc
+Fiercely independent foreign wyvern rider.[N]
+Has a taste for the finer things in life,[N]
+but disdain for the setting of such.[X]
+
+## AlmaName
+Alma[X]
+
+## AlmaDesc
+Unnerving and off-putting dark mage.[N]
+Hyperfixated on the grainy particulars[N]
+of death, resurrection, and in between.[X]
+
+## RoswellName
+Roswell[X]
+
+## RoswellDesc
+Easygoing and laidback rural horseman.[N]
+Flunked out of the knight academy, so[N]
+maybe *too* easygoing and laidback.[X]
+
+## HongChenName
+^{Hong Chen}[X]
+
+## HongChenDesc
+Professional sword arm and hobby artist.[N]
+To them, every speck of dried paint is[N]
+one second that can never be recovered.[X]
+
+## DarinaName
+Darina[X]
+
+## DarinaDesc
+The lord of a foreign house, currently[N]
+investigating the theft of several relics.[N]
+Coincedentally on vacation, too.[X]
+
+## EugeniaName
+Eugenia[X]
+
+## EugeniaDesc
+The heir to a merchant family, currently[N]
+investigating the theft of several relics.[N]
+Coincedentally on vacation, too.[X]
+
+## MarisName
+Maris[X]
+
+## MarisDesc
+The snobby and privileged heir to House[N]
+Calicos. Airy and ignorant to the way[N]
+of life outside her castle walls.[X]
+
+## PhillipaName
+Phillipa[X]
+
+## PhillipaDesc
+Maris' assigned retainer. Serves her[N]
+lady dutifully, taking selfish pride[N]
+in seeing the smile on her face.[X]
+
+#define Maeve 0x15
+#define Evren 0x16
+#define Dane 0x17
+#define Ulrich 0x18
+#define Emille 0x19
+
+## MaeveName
+Maeve[X]
+
+## MaeveDesc
+Self-sufficient hunter within Skograd.[N]
+Standoffish and antisocial, preferring[N]
+animal honesty to human deceit.[X]
+
+## EvrenName
+Evren[X]
+
+## EvrenDesc
+The crown prince of royal House Sarka.[N]
+Noble and honest to a fault, doing all[N]
+he can to protect his younger siblings.[X]
+
+## DaneName
+Dane[X]
+
+## DaneDesc
+Evren's assigned retainer. Ever uncritical,[N]
+he believes his lord's protection will let[N]
+him live to see his family another day.[X]
+
+## UlrichName
+Ulrich[X]
+
+## UlrichDesc
+Royal knight and nepotism hire of Sarka.[N]
+A natural people pleaser, he strives to[N]
+exceed the expecations of his new duty.[X]
+
+## EmilleName
+Emille[X]
+
+## EmilleDesc
+Royal knight and nepotism hire of Sarka.[N]
+A deviant, she shuns weapon training to[N]
+devote herself to study of elder magic.[X]
+
+## MaybellineName
+^{Maybelline}[X]
+
+## MaybellineDesc
+Aimless mercenary looking for work.[N]
+Romanticizes sailing the seven seas, a[N]
+desire borne from reading fantasy.[X]
+
+## LuxName
+Lux[X]
+
+## LuxDesc
+One of Drek's numerous bodies for the[N]
+meat grinder. Made peace with it after[N]
+being torn from his mother years prior.[X]
+
+## EkaitzName
+Ekaitz[X]
+
+## EkaitzDesc
+Liutenant of renowned sellsword company[N]
+Aleyna's Mercenaries. A reformed gambler,[N]
+mellowed out after years on the run.[X]
+
+## BriaName
+Bria[X]
+
+## BriaDesc
+Cheerful griffon rider serving in Drek.[N]
+In her own words, she's never had a bad[N]
+day in her life. Her past says otherwise.[X]
+
+## JaufreaName
+Jaufrea[X]
+
+## JaufreaDesc
+Court musician with dreams of grandeur.[N]
+Smitted with chivalric romance, she[N]
+delights in watching such acts from afar.[X]
+
+## KylieName
+Kylie[X]
+
+## KylieDesc
+Rebel agent flying over from Stoflam.[N]
+Overbearing, she deserted her post to[N]
+ensure the safety of her sister in Meraly.[X]
+
+## ElliotName
+Elliot[X]
+
+## ElliotDesc
+Young bard from a Wolffian orphanage.[N]
+Possesses enough street smarts to keep[N]
+a dozen kids from losing their families.[X]
+
+## LuairName
+Luair[X]
+
+## LuairDesc
+Knight Academy sword combat instructor.[N]
+Disapproves of the school's corruption,[N]
+but too lazy to do anything about it.[X]
+
+## AxelName
+Axel[X]
+
+## AxelDesc
+Knight Academy student, graduated early[N]
+due to the war. All too eager to die[N]
+in battle to become a real man.[X]
+
+## WillaName
+Willa[X]
+
+## WillaDesc
+House Calicos' Master of Arms.[N]
+Uhhhhh I need more details to[N]
+know how to best finish this.[X]
+
+#define Calvin 0x24
+#define Clovis 0x25
+#define Orion 0x26
+#define Astraea 0x27
+#define Ansel 0x28
+
+## CalvinName
+Calvin[X]
+
+## CalvinDesc
+Suspiciously wealthy citizen of Skograd.[N]
+In spite of his fortune, he lives frugally[N]
+and skulks in the shadows in public.[X]
+
+## ClovisName
+Clovis[X]
+
+## ClovisDesc
+Suspiciously wealthy citizen of Skograd.[N]
+In spite of his fortune, he lives frugally[N]
+and volunteers at a church regularly.[X]
+
+## OrionName
+Orion[X]
+
+## OrionDesc
+Drek's lauded Arcane General. Traumatized[N]
+as a common soldier, he fights only to[N]
+shield children from the same fate.[X]
+
+## AstraeaName
+Astraea[X]
+
+## AstraeaDesc
+The stoic runaway heir to House Circe.[N]
+Kept in isolation to be groomed into a[N]
+proper lady, they lack all social skills.[X]
+
+## AnselName
+Ansel[X]
+
+## AnselDesc
+Head monk at Wolffia's monastery.[N]
+Protective and pious by nature,[N]
+unflinching about pain by circumstance.[X]
+
+## AzarName
+Azar[X]
+
+## AzarDesc
+The Wisterians' former second-in-command.[N]
+Born to follow, not lead, and follows[N]
+orders as loyally as the hound he rides.[X]
+
+## EvelynName
+Evelyn[X]
+
+## EvelynDesc
+Drek's lauded Knight General. She once[N]
+fought for her family's security, but[N]
+those halcyon days have since passed.[X]
+
+## AleynaName
+Aleyna[X]
+
+## AleynaDesc
+Captain of renowned Aleyna's Mercenaries.[N]
+Unable to find a life outside of battle,[N]
+they find contentment in managing it.[X]
+
+## BrynhildName
+Brynhild[X]
+
+## BrynhildDesc
+Head of House Sarka's Royal Guard.[N]
+Strives for perfection in everything,[N]
+and wants the same for her children.[X]
+
+## RamiName
+Rami[X]
+
+## RamiDesc
+Headmaster of Meraly's Magic Academy.[N]
+Such positions aren't granted honestly,[N]
+and one must always keep their secrets.[X]
+
+## SamilName
+Samil[X]
+
+## SamilDesc
+Former seneschal of House Wolffia and[N]
+wandering fortune teller. Although can[N]
+a full history truly fit in three lines?[X]
+
+## KynanName
+Kynan[X]
+
+## KynanDesc
+The youngest prince of House Sarka.[N]
+Too young to be scarred by war, but[N]
+then again, are we not all so?[X]

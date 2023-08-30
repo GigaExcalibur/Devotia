@@ -1,0 +1,22 @@
+## MageLordName
+Mage Lord[X]
+
+## MageLordDesc
+Adept members of House Orsolle,[N]
+classically trained in anima[N]
+magic for combat service.[X]
+
+## GremoryLordName
+Gremory Lord[X]
+
+## GremoryLordDesc
+The noble lord of House Orsolle,[N]
+whose grace with lances and all[N]
+magic belies their brutality.[X]
+
+## LancerName
+Lancer[X]
+
+## LancerDesc
+A distinctly non-mounted lance footsoldier.[N]
+No noteworthy aspects, save disposability.[X]

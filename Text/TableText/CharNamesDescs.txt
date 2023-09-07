@@ -371,10 +371,10 @@ Former seneschal of House Wolffia and[N]
 wandering fortune teller. Although can[N]
 a full history truly fit in three lines?[X]
 
-## KynanName
-Kynan[X]
+## CetusName
+Cetus[X]
 
-## KynanDesc
+## CetusDesc
 The youngest prince of House Sarka.[N]
 Too young to be scarred by war, but[N]
 then again, are we not all so?[X]

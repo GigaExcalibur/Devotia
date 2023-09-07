@@ -1,0 +1,110 @@
+// Lords
+#define MageLord 0x01
+#define GremoryLord 0x02
+#define Princess 0x03
+#define MasterKnight 0x04
+
+// Swordmen
+#define Myrmidon 0x05
+#define Trueblade 0x06
+#define Mercenary 0x07
+#define Hero 0x08
+#define Runelord 0x09
+
+// Scoundrels
+#define Thief 0x0A
+#define Rogue 0x0B
+#define Hunter 0x0C
+#define Marksman 0x0D
+#define Trickster 0x0E
+
+// Pikemen
+#define Lancer 0x0F
+#define Halberdier 0x10
+#define Villager 0x11
+#define Starosta 0x12
+#define Warmaster 0x13
+
+// Axemen
+#define Woodsman 0x14
+#define Varangian 0x15
+#define Pirate 0x16
+#define Berserker 0x17
+#define Raider 0x18
+#define Ravager 0x19
+
+// Armors
+#define SwordArmor 0x1A
+#define Dreadnought 0x1B
+#define LanceArmor 0x1C
+#define Chevalier 0x1D
+#define AxeArmor 0x1E
+#define Cataphract 0x1F
+#define MageArmor 0x20
+#define Thaumachine 0x21
+#define Harbinger 0x22
+
+// Magi
+#define AnimaMage 0x23
+#define Spellmaster 0x24
+#define LightMage 0x25
+#define Starseer 0x26
+#define DarkMage 0x27
+#define Necromancer 0x28
+#define Sage 0x29
+#define Sorcerer 0x2A
+
+// Healers
+#define Cleric 0x2B
+#define Valkyrie 0x2C
+#define Trobairitz 0x2D
+#define Thaumaturge 0x2E
+#define Templar 0x2F
+
+// Horsemen
+#define SwordCavalier 0x30
+#define Cuirassier 0x31
+#define LanceCavalier 0x32
+#define Chasseur 0x33
+#define AxeCavalier 0x35 // skip one for gorgon egg
+#define Forester 0x36
+#define Scout 0x3F // skip a couple for trainees and manaketes
+#define Ranger 0x40
+
+// Fliers
+#define Windrider 0x41
+#define SeraphWing 0x42
+#define Harrier 0x43
+#define DaemonWing 0x44
+#define Dracorider 0x45
+#define Dracolord 0x46
+#define Bombardier 0x48 // skip one for recruit
+#define Barbarossa 0x49
+#define Falconeer 0x4A
+
+// Decadences
+#define BowArmor 0x4B
+#define Juggernaut 0x4C
+#define Malignant 0x4D
+#define Melusine 0x4E
+#define Drifter 0x4F
+#define Adventurer 0x52 // skip two for fleet and phantom
+#define Spellstrider 0x54 // skip one for entombed
+#define Strategist 0x55
+#define Skirmisher 0x56
+#define Oliphantier 0x57
+#define Wolfssegner 0x58
+#define Savior 0x59
+#define Champion 0x5A
+
+// Uniques
+#define Warlock 0x5B
+#define Bard 0x5C
+#define CrownPrince 0x5D
+#define Prince 0x5E
+#define Therion 0x5F
+#define TherionWister 0x60
+#define Scourge 0x61
+#define Overlord 0x63 // skip one for gorgon egg
+#define Agastya 0x64
+#define GremoryLordZakaria 0x73 // skip a bunch for hardcoded stuff

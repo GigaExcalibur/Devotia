@@ -1,2 +1,11 @@
 #include "AgeGetter/Installer.event"
+// Me!
+
 #include "AwakeningStyleDurability/AwakeningStyleDurability.event"
+// Me!
+
+#include "UnitMenuWidth/UnitMenuWidth.event"
+// 7743, me
+
+#include "SacredWeaponFlash/weapon_battle_flash.event"
+// 7743

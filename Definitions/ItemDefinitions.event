@@ -1,0 +1,206 @@
+// SWORDS
+#define IronSword 0x01
+#define SteelSword 0x02
+#define SilverSword 0x03
+#define IronSabre 0x04
+#define SteelSabre 0x05
+#define SilverSabre 0x06
+#define IronBroadsword 0x07
+#define SteelBroadsword 0x08
+#define SilverBroadsword 0x09
+#define LightBrand 0x0A
+#define Wyrmslayer 0x0B
+#define Lancereaver 0x0C
+#define RubySword 0x0D
+#define KillingEdge 0x0E
+#define QuickSword 0x0F
+#define LegendarySword 0x91 // Audhulma's old slot
+
+// LANCES
+#define IronLance 0x10
+#define SteelLance 0x11
+#define SilverLance 0x12
+#define IronGlaive 0x13
+#define SteelGlaive 0x14
+#define SilverGlaive 0x15
+#define IronGreatlance 0x16
+#define SteelGreatlance 0x17
+#define SilverGreatlance 0x18
+#define Javelin 0x19
+#define Spear 0x1A
+#define Axereaver 0x1B
+#define SapphireLance 0x1C
+#define KillerLance 0x1D
+#define Battleflag 0x1E
+#define LegendaryLance 0x8E // Vidofnir's old slot
+
+// AXES
+#define IronAxe 0x1F
+#define SteelAxe 0x20
+#define SilverAxe 0x21
+#define IronVoulge 0x22
+#define SteelVoulge 0x23
+#define SilverVoulge 0x24
+#define IronHamaxe 0x25
+#define SteelHamaxe 0x26
+#define SilverHamaxe 0x27
+#define HandAxe 0x28
+#define Tomahawk 0x29
+#define Swordreaver 0x2A
+#define EmeraldAxe 0x2B
+#define KillerAxe 0x2C
+#define RaiderAxe 0x2D
+#define DevilAxe 0x2E
+#define LegendaryAxe 0x93 // Garm's old slot
+
+// BOWS
+#define IronBow 0x2F
+#define SteelBow 0x30
+#define SilverBow 0x31
+#define IronComposite 0x32
+#define SteelComposite 0x33
+#define SilverComposite 0x34
+#define IronBarebow 0x38 // Skip 3 for ballistae
+#define SteelBarebow 0x39
+#define SilverBarebow 0x3A
+#define Minibow 0x3B
+#define Shortbow 0x3C
+#define Longbow 0x3D
+#define Greatbow 0x3F // Skip one for Excalibur 
+#define KillerBow 0x40
+#define RadiantBow 0x41
+#define LegendaryBow 0x94 // Nidhogg's old slot
+
+// STAVES
+#define FortuneStaff 0x42 // All of these end in Staff because i think it looks nicer
+#define FocusStaff 0x43
+#define FleetfootStaff 0x44
+#define FomentStaff 0x45
+#define BroadenStaff 0x46
+#define StrideStaff 0x47
+#define HealStaff 0x4B // Vanilla slots below here
+#define MendStaff 0x4C
+#define RecoverStaff 0x4D
+#define PhysicStaff 0x4E
+#define FortifyStaff 0x4F
+#define RestoreStaff 0x50
+#define SilenceStaff 0x51
+#define SleepStaff 0x52
+#define BerserkStaff 0x53
+#define WarpStaff 0x54
+#define RescueStaff 0x55
+#define TorchStaff 0x56
+#define HammerneStaff 0x57
+#define UnlockStaff 0x58
+#define BarrierStaff 0x59
+#define LegendaryStaff 0x8C // Latona's old slot
+
+// ANIMA
+#define Fireball 0x48
+#define FireStorm 0x49
+#define IgnisArdere 0x5A // 5A is Dragon Axe, so safe
+#define Tremor 0x81 // Skip a lot of consumables
+#define Dasher 0x82
+#define TerrasVoltare 0x83
+#define Icewind 0x82
+#define Blizzard 0x83
+#define GlaciesClaudere 0x84
+#define LightningBolt 0x86 // We're gonna be skipping around here
+#define LightningBlast 0x8B
+#define TonitrusCanere 0x8D
+#define Vexflame 0x8F
+#define Tradewinds 0x90
+#define TradeTempest 0x95
+#define VentusSaltare 0x96
+#define SweepingGale 0xA1
+#define GigaExcalibur 0x3E // WHOOOOOO YEAHHHHHH
+
+// LIGHT
+#define HolyLight 0xA7
+#define Luminescence 0xA8
+#define LuxCongerere 0xAA
+#define Justice 0xAB
+#define Righteous 0xAC
+#define Absolution 0xAD
+#define HeavenlyShine 0xAE
+#define DivineBrilliance 0xAF
+#define SacredEffulgence 0xB0
+#define Surge 0xB1
+#define Elsurge 0xB2
+#define Deluge 0xB3
+#define Vexaura 0xB4
+#define Resire 0xB6
+#define Nosferatu 0xBA
+#define LegendaryLight 0x87 // Ivaldi's old slot
+
+// DARK
+#define MoonlightWaltz 0xBB
+#define NightOde 0xBD
+#define TenebraeOperiere 0xBE
+#define Malice 0xBF
+#define Resentment 0xC0
+#define Malevolence 0xC1
+#define Swarm 0xC2
+#define Carraeu 0xC3
+#define Verrine 0xC4
+#define Void 0xC5
+#define Expanse 0xC6
+#define Singularity 0xC7
+#define Vexshadow 0xC8
+#define Ruin 0xC9
+#define Solstice 0xCA
+#define Regoliath 0x4A // Gleipnir's old slot
+
+// ITEMS
+#define 
+
+// PRFS
+#define Cataclysmaelstrom 0x85 // Klaudia (Sieglinde's old slot)
+#define TevyesBlade 0xCB // Zero and Ulrich
+#define Sirventes 0xCC // Josephine
+#define ParentalHeirloom 0xCD // Emerson
+#define Wallflower 0xCE // Beth
+// Cam
+#define Marietta 0xD0 // Giselle
+#define SarkanFestal 0xD1 // Levia
+// Stuart
+#define Pugi 0xD3 // Bear
+#define Sirius 0xD4 // Estella
+#define Procyon 0xD5 // Carina
+#define Spectacular 0xD6 // Nirav
+// Alma
+// Roswell
+#define SpecificKatti 0xD8 // Hong Chen
+#define ArrowOfFortune 0xD9 // Darina
+#define WindyRefrain 0xDA // Eugenia
+#define Clarion 0xDB // Maris
+// Phillipa
+// Maeve
+// Dane
+#define Eclipse 0xDF // Evie
+#define Yamaha 0xE0 // Maybelline
+// Lux
+#define BewilderingGrace 0xE2 // Ekaitz
+// Bria
+#define Invest 0xE4 // Jaufrea
+// Kylie
+// Luair
+// Axel
+// Willa
+#define Mooneater 0xE9 // Calvin
+// Clovis
+#define Alniyat 0xEB // Orion
+#define DeathTempest 0xEC // Astraea
+// Ansel
+// Azar
+#define DoubleTomahawk 0xEF // Evelyn
+#define Benediction 0xF0 // Aleyna
+// Brynhild
+#define DarkestNight 0xF2 // Rami
+#define Karma 0xF3 // Samil
+#define Amiti 0xF4 // Kynan
+// Ranun
+// Fernyiges
+// Cassandra
+
+// ...Wow! I totally expected to have to remove IER data

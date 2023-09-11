@@ -1,0 +1,25 @@
+## MalakRobeName
+Malak Robe[X]
+
+## MalakRobeDesc
+A fragment of a brace exterior that once[N]
+binded legendary warrior Nova Gbadamosi.[N]
++5 HP upon use.[X]
+
+## 
+
+##
+
+## 
+
+vanilla name	reference	new name
+---------------------------------------------
+angelic robe 	nova		malak robe
+energy drop		n/a			fresh demitasse
+spirit dust		n/a			aged spirits
+secret book		saiful		enlightening manual
+speedwing		sophy		zephyr wing
+dracoshield		karisma		drake varma
+talisman		amadi		memory amulet
+body ring		n/a			protein supplement
+swiftsole		luis		nebulizer

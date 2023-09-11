@@ -70,8 +70,13 @@ WORD 8
 MovRallyAmount_Link: 
 WORD 2 
 
+#define EngagePoisonDamagePerStack 3
 
-#define DebuffEntrySize 8 // Number of bytes 
+EngagePoisonAmount_Link:
+WORD EngagePoisonDamagePerStack
+
+
+#define DebuffEntrySize 9 // Number of bytes
 
 // NOTE: If you wish to use more bits in the debuff table, please use the provided functions for ease of use. 
 /*
@@ -154,7 +159,9 @@ WORD MiscOffset+2
 ArmorMarchBitOffset_Link: 
 WORD MiscOffset+3
 VigorDanceBitOffset_Link:
-WORD MiscOffset+4 
+WORD MiscOffset+4
+EngagePoisonBitOffset_Link:
+WORD MiscOffset+5 // Stores values 0-3, so 2 bits
 
 
 ALIGN 4 

@@ -10,5 +10,8 @@
 #include "SacredWeaponFlash/weapon_battle_flash.event"
 // 7743
 
+#include "SupportStuff/SupportStuff.event"
+// Gamma
+
 //#include "EngagePoison/Installer.event"
 // Me!

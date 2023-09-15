@@ -1,0 +1,27 @@
+PUSH
+
+// Number of lines down to start support list
+ORG 0x876A4 
+BYTE 0x03
+
+// VRAM buffer before starting text
+ORG 0x876CE 
+BYTE 0x40
+
+// Number of max convos before support list glows green
+ORG 0x876B4
+BYTE 0x20
+
+// X-Offset of the support partner name in list
+ORG 0x87722
+SHORT 0x3104
+
+// X-Offset of the support rank in list
+ORG 0x87748
+SHORT 0x340D
+
+//  X-coordinate of list
+ORG 0x87784
+WORD 0x02003D3D
+
+POP

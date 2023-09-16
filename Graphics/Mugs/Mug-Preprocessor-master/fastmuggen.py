@@ -2,7 +2,7 @@
 
 #setting up files
 mugs = open("png.txt","r")
-installer = open("Mug Installer.event","w")
+installer = open("MugInstaller.event","w")
 #going through each line of png.txt to generate installer
 line = mugs.readline()
 while line:

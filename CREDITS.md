@@ -1,6 +1,13 @@
-Note: This list is incomplete and insufficiently organized. If you contributed
-something that you'd like special recognition for, please make a pull request
-adding yourself!
+# Portraits
+Klaudia - Zerimagi
+Zero - Dragz
+Josephine - MeatOfJustice
+Emerson - Levin64
+Beth - XVI
+Wister - MegaCowSawMan
+Ranun - Peerless
+Cam - Mieke
+Giselle - Cravat
 
 # Skill contributors
 

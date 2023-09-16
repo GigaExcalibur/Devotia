@@ -10,24 +10,16 @@ MSS_page3:
 page_start
 
 mov r0, r8
-blh      MagCheck
-cmp     r0,#0x0
-beq     NotMag
-draw_weapon_rank_at 1, 1, Anima, 0
-draw_weapon_rank_at 1, 3, Light, 1
-draw_weapon_rank_at 9, 1, Dark, 2
-draw_weapon_rank_at 9, 3, Staff, 3
-b       EndRanks
-.ltorg
-
-NotMag:
 draw_weapon_rank_at 1, 1, Sword, 0
 draw_weapon_rank_at 1, 3, Lance, 1
-draw_weapon_rank_at 9, 1, Axe, 2
-draw_weapon_rank_at 9, 3, Bow, 3
-
-EndRanks:
-
+draw_weapon_rank_at 1, 5, Axe, 2
+draw_weapon_rank_at 1, 7, Bow, 3
+draw_weapon_rank_at 1, 9, Staff, 0
+draw_weapon_rank_at 1, 11, Anima, 1
+draw_weapon_rank_at 1, 13, Light, 2
+draw_weapon_rank_at 1, 15, Dark, 3
 blh      DrawSupports
+
+draw_textID_at 22, 3, textID=0x056, width=5, colour=Blue
 
 page_end

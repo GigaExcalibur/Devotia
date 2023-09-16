@@ -1,0 +1,191 @@
+## HeHim
+He/Him[X]
+
+## SheHer
+She/Her[X]
+
+## TheyThem
+They/Them[X]
+
+## HeThey
+He/They[X]
+
+## TheyHe
+They/He[X]
+
+## SheThey
+She/They[X]
+
+## TheyShe
+They/She[X]
+
+## SheHe
+She/He[X]
+
+## TheySheHe
+They/She/He[X]
+
+## HeTheyShe
+He/They/She[X]
+
+## SheHeThey
+She/He/They[X]
+
+## Age14
+14[X]
+
+## Age17
+17[X]
+
+## RamisFunnyAge
+70 (17.5 in leap years!)
+
+## Age18
+18[X]
+
+## Age20
+20[X]
+
+## Age21
+21[X]
+
+## Age22
+22[X]
+
+## Age23
+23[X]
+
+## Age24
+24[X]
+
+## Age25
+25[X]
+
+## Age27
+27[X]
+
+## Age28
+28[X]
+
+## Age31
+31[X]
+
+## Age32
+32[X]
+
+## Age33
+33[X]
+
+## Age35
+35[X]
+
+## Age40
+40[X]
+
+## Age42
+42[X]
+
+## Age45
+45[X]
+
+## Age49
+49[X]
+
+## Age73
+73[X]
+
+## FiveFootOne
+5'1" / 154.9 cm[X]
+
+## FiveFootTwo
+5'2" / 157.5 cm[X]
+
+## FiveFootThree
+5'3" / 160 cm[X]
+
+## FiveFootFour
+5'4" / 162.6 cm[X]
+
+## FiveFootFive
+5'5" / 165.1 cm[X]
+
+## FiveFootSix
+5'6" / 167.6 cm[X]
+
+## FiveFootSeven
+5'7" / 170.2 cm[X]
+
+## FiveFootEight
+5'8" / 172.7 cm[X]
+
+## FiveFootNine
+5'9" / 175.3 cm[X]
+
+## FiveFootTen
+5'10" / 177.8 cm[X]
+
+## FiveFootEleven
+5'11" / 180.3 cm[X]
+
+## SixFoot
+6'0" / 182.9 cm[X]
+
+## SixFootOne
+6'1" / 185.4 cm[X]
+
+## SixFootTwo
+6'2" / 188 cm[X]
+
+## SixFootThree
+6'3" / 190.5 cm[X]
+
+## SixFootFour
+6'4" / 193 cm[X]
+
+## SixFootFive
+6'5" / 195.6 cm[X]
+
+## KlaudiaFullName
+Klaudia el-Ouahed[X]
+
+## KlaudiaHobby
+Lighting Fireworks[X]
+
+## KlaudiaBirthday
+October 27[X]
+
+## ZeroFullName
+Zero Roth[X]
+
+## ZeroHobby
+Throwing knives[X]
+
+## ZeroBirthday
+July 29[X]
+
+## JosephineFullName
+Josephine Ventadorn[X]
+
+## JosephineHobby
+Composing poetry[X]
+
+## JosephineBirthday
+January 20[X]
+
+## EmersonFullName
+Wesley Emerson[X]
+
+## EmersonHobby
+No time for that.[X]
+
+## EmersonBirthday
+September 4[X]
+
+## BethFullName
+Bethelyn Tiller[X]
+
+## BethHobby
+Gossipping[X]
+
+## BethBirthday
+June 15[X]

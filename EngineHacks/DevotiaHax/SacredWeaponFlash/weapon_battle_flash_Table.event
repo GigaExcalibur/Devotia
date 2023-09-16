@@ -1,0 +1,12 @@
+weapon_battle_flash_Table:
+BYTE 0x3E //Excalibur
+BYTE 0x4A //Gleipnir
+BYTE 0x85 //Sieglinde
+BYTE 0x87 //Ivaldi
+BYTE 0x8E //Vidofnir
+BYTE 0x91 //Audhulma
+BYTE 0x92 //Siegmund
+BYTE 0x93 //Garm
+BYTE 0x94 //Nidhogg
+
+BYTE 0x00 //Terminator

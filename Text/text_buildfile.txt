@@ -38,6 +38,12 @@ CON[X]
 # 0x4f9
 Hold[X]
 
+# 0x4F5
+Avo[X]
+
+# 0x518
+C.Avo[X]
+
 # 0x542
 How much a unit has left to grow[N]
 before they hit their limit.[X]
@@ -75,6 +81,99 @@ Defense[X]
 # 0x54C
 Res[X]
 
+# 0x690
+ Check Status[X]
+
+# 0x69A
+ View Unit List[X]
+
+# 0x69B
+ Config Settings[X]
+
+# 0x69C
+ Open Playbill[X]
+ 
+# 0x69F
+ Suspend Game[X]
+ 
+# 0x6A0
+ End Turn[X]
+ 
+# 0x067A
+ Seize Throne[X]
+
+# 0x067B
+ Attack Foe[.][X]
+
+# 0x067C
+ Use Staff[X]
+
+# 0x067D
+ Refresh Ally[X]
+
+# 0x067E
+ Refresh Ally[X]
+
+# 0x067F
+ Steal Item[X]
+
+# 0x0680
+ Initiate Talk[X]
+
+# 0x0681
+ Initiate Support[X]
+
+# 0x0682
+ Visit House[X]
+
+# 0x0683
+ Unlock Chest[X]
+
+# 0x0684
+ Unlock Door[X]
+
+# 0x0685
+ Browse Armory[X]
+
+# 0x0686
+ Browse Vendor[X]
+
+# 0x0687
+ Browse Secret[X]
+
+# 0x0688
+ Register Arena[X]
+
+# 0x0689
+ Rescue Ally[X]
+
+# 0x068A
+ Drop Ally[X]
+
+# 0x068B
+ Take Ally[X]
+
+# 0x068C
+ Give Ally[X]
+
+# 0x068D
+ View Equipment[X]
+
+# 0x068E
+ Trade Items[X]
+
+# 0x068F
+ Open Supply[X]
+
+# 0x0693
+ Raise Dead[X]
+
+# 0x0694
+ Pick Lock[X]
+
+# 0x0695
+ Wait In Place[X]
+
 #0x3A LearnedSkillText
 //first text ID in the free block
 Learned  [X]
@@ -85,16 +184,22 @@ Learned  [X]
 
 #0xd4c LikesText
 //first text ID in the free block
-Likes:[X]
+Name:[X]
 
 #0xd4d DislikesText 
-*{Dislikes}:[X]
+Prns:[X]
 
 #0xd4e HeightText
 Height:[X]
 
 #0xd4f AgeText
 Age:[X]
+
+#0xd50 BirthdayText
+Bday:[X]
+
+#0xd51 HobbyText
+Hobby:[X]
 
 ## HouseText
 //first text ID in the free block
@@ -136,7 +241,7 @@ Destroy this village[N]
 for items and gold.[X]
 
 ## EscapeName
- Escape[X]
+ Escape Map[X]
 
 ## EscapeDesc
 Have this unit[N]

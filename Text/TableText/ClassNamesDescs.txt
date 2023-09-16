@@ -14,9 +14,605 @@ The noble lord of House Orsolle,[N]
 whose grace with lances and all[N]
 magic belies their brutality.[X]
 
+## PrincessName
+Princess[X]
+
+## PrincessDesc
+Noble members of the Sarka bloodline.[N]
+Naturally gifted in healing magic,[N]
+and deft as a fencer as well.[X]
+
+## MasterKnightName
+^{Master} ^{Knight}[X]
+
+## MasterKnightDesc
+Combat-capable nobles of House Sarka,[N]
+possessing aptitude in all physical[N]
+weapon types to dominate in battle.[X]
+
+## MyrmidonName
+Myrmidon[X]
+
+## MyrmidonDesc
+Sword students in training. Taught[N]
+to value speed over raw strength.[X]
+
+## TruebladeName
+Trueblade[X]
+
+## TruebladeDesc
+Sword masters who completed training.[N]
+Masters in the art of quick strikes.[X]
+
+## MercenaryName
+Mercenary[X]
+
+## MercenaryDesc
+All-rounded sellsword contractors[N]
+with a penchant for magic resistance.[X]
+
+## HeroName
+Hero[X]
+
+## HeroDesc
+Legendary sword and axe brandishers[N]
+whose names go down in folk myth.[X]
+
+## RunelordName
+Runelord[X]
+
+## RunelordDesc
+Renegade practioners of swords and dark[N]
+magic, forgoing any duelists' honor.[N]
+Can steal enemies' possessions.[X]
+
+## ThiefName
+Thief[X]
+
+## ThiefDesc
+Battlefield lurkers using swords[N]
+to open both locks and wounds.[N]
+Can steal enemies' possessions.[X]
+
+## RogueName
+Rogue[X]
+
+## RogueDesc
+Crown prince of combat thieves, stealing[N]
+everything in sight with nigh a whisper.[N]
+Can steal enemies' possessions.[X]
+
+## HunterName
+Hunter[X]
+
+## HunterDesc
+Calm and cautious bow infantry that[N]
+hunt all manner of living targets.[X]
+
+## MarksmanName
+Marksman[X]
+
+## MarksmanDesc
+Saggitary snipers whose supremacy with[N]
+bows shreds the very skies themselves.[X]
+
+## TricksterName
+Trickster[X]
+
+## TricksterDesc
+Cunning and crafty combatants flexible[N]
+with both close swords and distant bows.[X]
+
 ## LancerName
 Lancer[X]
 
 ## LancerDesc
-A distinctly non-mounted lance footsoldier.[N]
+Distinctly non-mounted lance footsoldiers.[N]
 No noteworthy aspects, save disposability.[X]
+
+## HalberdierName
+Halberdier[X]
+
+## HalberdierDesc
+Proficient spearmen who've overcome the[N]
+mediocrity of their previous station.[X]
+
+## VillagerName
+Villager[X]
+
+## VillagerDesc
+An ordinary civilian, forced to pick up[N]
+lances for combat rather than labor.[X]
+
+## StarostaName
+Starosta[X]
+
+## StarostaDesc
+Community elders granted their title for[N]
+exemplary performance in warfare.[X]
+
+## WarmasterName
+Warmaster[X]
+
+## WarmasterDesc
+Master fighters who require no support[N]
+to single-handedly shred enemy formations.[X]
+
+## WoodsmanName
+Woodsman[X]
+
+## WoodsmanDesc
+Untrained fighters whose axe strength[N]
+comes from chopping wood, not heads.[X]
+
+## VarangianName
+Varangian[X]
+
+## VarangianDesc
+Burly yet reliable bodyguards able to[N]
+rend foes in half with axes and bows.[X]
+
+## PirateName
+Pirate[X]
+
+## PirateDesc
+Brash seamen who'd sacrifice any bit[N]
+of defense for the brawl of a lifetime.[X]
+
+## BerserkerName
+Berserker[X]
+
+## BerserkerDesc
+Glass cannon marauders who lash forward[N]
+with no regard for their own safety.[X]
+
+## RaiderName
+Raider[X]
+
+## RaiderDesc
+Mounted brigands who, due to having no[N]
+home to call their own, destroy others'.[X]
+
+## RavagerName
+Ravager[X]
+
+## RavagerDesc
+Highwaymen who only have their trusty[N]
+war-hound to call their true companion.[X]
+
+## SwordArmorName
+Sword Armor[X]
+
+## SwordArmorDesc
+Armored vanguards that deflect hits.[N]
+This variant is trained in swords.[X]
+
+## DreadnoughtName
+Dreadnought[X]
+
+## DreadnoughtDesc
+Frontliners whose shining armor makes[N]
+them impervious from physical damage.[X]
+
+## LanceArmorName
+Lance Armor[X]
+
+## LanceArmorDesc
+Armored vanguards that deflect hits.[N]
+This variant is trained in lances.[X]
+
+## ChevalierName
+Chevalier[X]
+
+## ChevalierDesc
+Heavily armored cavalry meant to ride[N]
+in and deliver their army to victory.[X]
+
+## AxeArmorName
+Axe Armor[X]
+
+## AxeArmorDesc
+Armored vanguards that deflect hits.[N]
+This variant is trained in axes.[X]
+
+## CataphractName
+Cataphract[X]
+
+## CataphractDesc
+Heavily armored cavalry meant to ride in[N]
+and cleave enemy battalions in half.[X]
+
+## MageArmorName
+Mage Armor[X]
+
+## MageArmorDesc
+Armored vanguards that deflect hits.[N]
+An exception to have studied light magic.[X]
+
+## ThaumachineName
+Thaumachine[X]
+
+## ThaumachineDesc
+Hulking behemoths of armor that act as[N]
+catalysts for immense magical carnage.[X]
+
+## HarbingerName
+Harbinger[X]
+
+## HarbingerDesc
+Common alias of Drek's Knight General.[N]
+Atop her pitch-black warhorse, she[N]
+slays enemies with a reaper's force.[X]
+
+## AnimaMageName
+Anima Mage[X]
+
+## AnimaMageDesc
+Students of magic, often of high birth.[N]
+This variant studied the school of anima.[X]
+
+## SpellmasterName
+Spellmaster[X]
+
+## SpellmasterDesc
+Title of one to overcome their past and[N]
+finish their study on their own terms.[N]
+See the fruits of their efforts firsthand.[X]
+
+## LightMageName
+Light Mage[X]
+
+## LightMageDesc
+Students of magic, often of high birth.[N]
+This variant studied the school of light.[X]
+
+## StarseerName
+Starseer[X]
+
+## StarseerDesc
+Lithe and graceful beacons of stability[N]
+within the chaos and bloodshed.[X]
+
+## DarkMageName
+Dark Mage[X]
+
+## DarkMageDesc
+Students of magic, often of high birth.[N]
+This variant studied the school of dark.[X]
+
+## NecromancerName
+Necromancer[X]
+
+## NecromancerDesc
+Summoners of the dead who disregard the[N]
+very sancticty of life itself.[X]
+
+## SageName
+Sage[X]
+
+## SageDesc
+Common alias of Drek's Arcane General.[N]
+Staff in one hand and tome in the other,[N]
+he burns enemies with ironic remorse.[X]
+
+## SorcererName
+Sorcerer[X]
+
+## SorcererDesc
+Elder magic casters decimating all in[N]
+their path atop a blitzing steed.[X]
+
+## ClericName
+Cleric[X]
+
+## ClericDesc
+Generous staff wielders who refuse to[N]
+fight, but support allies all the same.[X]
+
+## ValkyrieName
+Valkyrie[X]
+
+## ValkyrieDesc
+Mounted medics wielding swords to defend[N]
+themselves while performing their duty.[X]
+
+## TrobairitzName
+Trobairitz[X]
+
+## TrobairitzDesc
+Traveling poets spinning their words[N]
+and using staves to heal allies.[X]
+
+## ThaumaturgeName
+Thaumaturge[X]
+
+## ThaumaturgeDesc
+Expert composers whose works can spell[N]
+both destruction and salvation.[X]
+
+## TemplarName
+Templar[X]
+
+## TemplarDesc
+Axe-wielding apothecaries prepared to[N]
+amputate any malignant tumor to heal.[X]
+
+## SwordCavalierName
+^{Sword Cavalier}[X]
+
+## SwordCavalierDesc
+Chivalrous horseman nobly knighted.[N]
+This variant is trained in swords.[X]
+
+## CuirassierName
+Cuirassier[X]
+
+## CuirassierDesc
+Noble paladins who stand a cut above[N]
+the common soldier on warhorses.[X]
+
+## LanceCavalierName
+^{Lance Cavalier}[X]
+
+## LanceCavalierDesc
+Chivalrous horseman nobly knighted.[N]
+This variant is trained in lances.[X]
+
+## ChasseurName
+Chasseur[X]
+
+## ChasseurDesc
+Royal knights that use their position[N]
+to loyally advance their lord's banner.[X]
+
+## AxeCavalierName
+^{Axe Cavalier}[X]
+
+## AxeCavalierDesc
+Chivalrous horseman nobly knighted.[N]
+This variant is trained in axes.[X]
+
+## ForesterName
+Forester[X]
+
+## ForesterDesc
+Down-to-earth advanced horsemen who[N]
+have the upper hand on all terrain.[X]
+
+## ScoutName
+Scout[X]
+
+## ScoutDesc
+Light cavalry whose job it is to pick[N]
+off fliers and fleeing wounded enemies.[X]
+
+## RangerName
+Ranger[X]
+
+## RangerDesc
+Elite bow cavalry whose flurry of arrows[N]
+pierces holes in entire enemy formations.[X]
+
+## WindriderName
+Windrider[X]
+
+## WindriderDesc
+Quick pegasus riders who absorb magic[N]
+attacks, but are felled by arrows.[X]
+
+## SeraphWingName
+Seraph Wing[X]
+
+## SeraphWingDesc
+Pegasus knights who pride themselves on[N]
+flying support with swords and staves.[X]
+
+## HarrierName
+Harrier[X]
+
+## HarrierDesc
+Fliers whose focus on airborne dark magic[N]
+comes at the steep cost of all bulk.[X]
+
+## DaemonWingName
+Daemon Wing[X]
+
+## DaemonWingDesc
+Hellion ebon riders whose magic opens[N]
+dark rifts in the sky itself.[X]
+
+## DracoriderName
+Dracorider[X]
+
+## DracoriderDesc
+Stoflam's signature wyvern riders. They're[N]
+called the lords of the sky for a reason.[X]
+
+## DracolordName
+Dracolord[X]
+
+## DracolordDesc
+Thought I was kidding about wyverns being[N]
+the lords of the sky? You'll regret that.[X]
+
+## BombardierName
+Bombardier[X]
+
+## BombardierDesc
+Drek's pride and job griddon riders. They[N]
+excel in shreddding other fliers' wings.[X]
+
+## BarbarossaName
+Barbarossa[X]
+
+## BarbarossaDesc
+Drek's elite griffon knights. Their[N]
+arrows block out all sunlight.[X]
+
+## FalconeerName
+Falconeer[X]
+
+## FalconeerDesc
+Regal pegasi who are both graceful[N]
+and ruthless airborne killers.[X]
+
+## BowArmorName
+Bow Armor[X]
+
+## BowArmorDesc
+Armored vanguards that deflect hits.[N]
+An exception to be trained in bows.[X]
+
+## JuggernautName
+Juggernaut[X]
+
+## JuggernautDesc
+Emerson's self-taught fighting style,[N]
+combining lances and bows into a[N]
+solo armored enemy decimator.[X]
+
+## MalignantName
+Malignant[X]
+
+## MalignantDesc
+Frosty magic-wielding wyvern riders[N]
+that know no pack or master.[X]
+
+## MelusineName
+Melusine[X]
+
+## MelusineDesc
+Nirav's signature magical dragon,[N]
+terrorizing the skies with lightning[N]
+axe bolts and anima magic blasts.[X]
+
+## DrifterName
+Drifter[X]
+
+## DrifterDesc
+Wandering archers with resistance[N]
+to ward off any magic attacks.[X]
+
+## AdventurerName
+Adventurer[X]
+
+## AdventurerDesc
+Darina's self-proclaimed title, juggling[N]
+bows and staves to toy with enemies and[N]
+live up to her noble lineage.[X]
+
+## SpellstriderName
+Spellstrider[X]
+
+## SpellstriderDesc
+Secretarial units surveying the battle[N]
+from horseback and assisting as needed.[X]
+
+## StrategistName
+Strategist[X]
+
+## StrategistDesc
+Eugenia's official position, possessing[N]
+both networking and combat skills with[N]
+the use of anima magic and staves.[X]
+
+## SkirmisherName
+Skirmisher[X]
+
+## SkirmisherDesc
+Guerrila bow cavalry specializing in[N]
+lightning-fast hit and run tactics.[X]
+
+## OliphantierName
+Oliphantier[X]
+
+## OliphantierDesc
+Ekaitz's trusty gilded horse. A lifetime[N]
+spent on the run together gave them an[N]
+unbreakable bond and synced movement.[X]
+
+## WolfssegnerName
+Wolfssegner[X]
+
+## WolfssegnerDesc
+Calvin's deragatory nickname, granted[N]
+for betraying his comrades 7 years ago.[N]
+At least it matches his wolf, though![X]
+
+## SaviorName
+Savior[X]
+
+## SaviorDesc
+Clovis' pet name by Calvin. Once could[N]
+argue it contradicts his aptitude for[N]
+dark magic, but Calvin would disagree.[X]
+
+## ChampionName
+Champion[X]
+
+## ChampionDesc
+Aleyna's revered title as a commander.[N]
+They don't care for it, letting their[N]
+swords and axes speak for themselves.[X]
+
+## WarlockName
+Warlock[X]
+
+## WarlockDesc
+Straightforward yet advanced slingers[N]
+of both natural and elder magic.[X]
+
+## BardName
+Bard[X]
+
+## BardDesc
+Performers whose refreshing cheers ill[N]
+befit the despair of conflict.[X]
+
+## CrownPrinceName
+Crown Prince[X]
+
+## CrownPrinceDesc
+Evren's title as the eldest son of[N]
+House Sarka. Clad in gold armor, he[N]
+both cleaves enemies and heals allies.[X]
+
+## PrinceName
+Prince[X]
+
+## PrinceDesc
+Cetus' title as the only remaining heir[N]
+to House Sarka. From his pegasus, he[N]
+delivers relief to allies from above.[X]
+
+## TherionName
+Therion[X]
+
+## TherionDesc
+To the common people, a representative[N]
+of their resentment. To the elite, a[N]
+wild beast that needs to be culled.[X]
+
+## ScourgeName
+Scourge[X]
+
+## ScourgeDesc
+Common alias of Drek's Hawk General.[N]
+Forgoing moral conventions, she dips[N]
+her arrows in torturous poison.[X]
+
+## OverlordName
+Overlord[X]
+
+## OverlordDesc
+The roots of Sarka's rule run deeper[N]
+than any tree. To uproot them is to[N]
+burn their pedigree to cinders.[X]
+
+## AgastyaName
+Agastya[X]
+
+## AgastyaDesc
+Drek is a nation of structure and order.[N]
+Each man is a cog in the machine, and[N]
+the High Commander turns the gears.[X]

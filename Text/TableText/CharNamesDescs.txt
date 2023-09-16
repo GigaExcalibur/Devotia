@@ -2,15 +2,15 @@
 Klaudia[X]
 
 ## KlaudiaDesc
-Heir apparent to House Orsolle.[N]
+Heir apparent to House Ouahed.[N]
 Unwavering in devotion to[N]
 House Sarka's eternal glory.[X]
 
-## OmenName
-Omen[X]
+## ZeroName
+Zero[X]
 
-## OmenDesc
-Lord Orsolle's principal retainer. Cold[N]
+## ZeroDesc
+Lord Ouahed's principal retainer. Cold[N]
 and aloof, he's content to remain as[N]
 the dagger always at his lord's side.[X]
 
@@ -18,7 +18,7 @@ the dagger always at his lord's side.[X]
 ^{Josephine}[X]
 
 ## JosephineDesc
-Royal knight in service to House Orsolle.[N]
+Royal knight in service to House Ouahed.[N]
 To cope with her dashed dreams, her wit[N]
 spits venom in the verses she composes.[X]
 
@@ -297,15 +297,10 @@ and volunteers at a church regularly.[X]
 ## OrionName
 Orion[X]
 
-## OrionFirstDesc
-Drek's lauded Arcane General. Traumatized[N]
-as a common soldier, he fights only to[N]
-shield children from suffering the same.[X]
-
-## OrionSecondDesc
-Drek's lauded Arcane General, imprisoned[N]
-for treason. Will sacrifice anything to[N]
-protect children from horrors of war.[X]
+## OrionDesc
+Drek's former lauded Arcane General.[N]
+Once imprisoned for treason, he defected[N]
+to continue his work protecting children.[X]
 
 ## AstraeaName
 Astraea[X]
@@ -326,7 +321,12 @@ unflinching about pain by circumstance.[X]
 ## AzarName
 Azar[X]
 
-## AzarDesc
+## AzarFirstDesc
+The Wisterians' second-in-command.[N]
+Born to follow, not lead, and obeys[N]
+orders as loyally as the hound he rides.[X]
+
+## AzarSecondDesc
 The Wisterians' former second-in-command.[N]
 Born to follow, not lead, and obeys[N]
 orders as loyally as the hound he rides.[X]
@@ -335,9 +335,9 @@ orders as loyally as the hound he rides.[X]
 Evelyn[X]
 
 ## EvelynDesc
-Drek's lauded Knight General. She once[N]
-fought for her family's security, but[N]
-those halcyon days have since passed.[X]
+Drek's former lauded Knight General.[N]
+Reunited with her only son, she severed[N]
+every connection to her military career.[X]
 
 ## AleynaName
 Aleyna[X]
@@ -371,10 +371,58 @@ Former seneschal of House Wolffia and[N]
 wandering fortune teller. Although can[N]
 a full history truly fit in three lines?[X]
 
-## KynanName
-Kynan[X]
+## CetusName
+Cetus[X]
 
-## KynanDesc
+## CetusDesc
 The youngest prince of House Sarka.[N]
 Too young to be scarred by war, but[N]
 then again, are we not all so?[X]
+
+## WisterName
+Wister[X]
+
+## WisterDesc
+Chief of a small village in Wolffia.[N]
+Commanding in both voice and presence,[N]
+stoked a rebellion against his masters.[X]
+
+## PeasantName
+Peasant[X]
+
+## PeasantDesc
+An ordinary and untrained commoner of[N]
+the Wolffian countryside. Swayed to[N]
+rebel by Wister's emphatic speeches.[X]
+
+## CrocodileName
+Crocodile[X]
+
+## CrocodileDesc
+Desperate captain of a Drekkan crew.[N]
+Unable to pillage in Cassandra's regime,[N]
+he's forced to pick at Meralian prey.[X]
+
+## MarauderName
+Marauder[X]
+
+## MarauderDesc
+Starving outcasts of Drekkan society,[N]
+subsisting by razing homes and stealing[N]
+belongings of unlucky souls they pass.[X]
+
+## HafeezName
+Hafeez[X]
+
+## HafeezDesc
+Drek's lauded Arcane General. Traumatized[N]
+as a common soldier, he fights only to[N]
+shield children from suffering the same.[X]
+
+## OperiereName
+Operiere[X]
+
+## OperiereDesc
+Drek's lauded Knight General. She once[N]
+fought for her family's security, but[N]
+those halcyon days have since passed.[X]

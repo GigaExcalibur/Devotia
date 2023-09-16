@@ -1,2 +1,4 @@
 #include "CharNamesDescs.txt"
 #include "ClassNamesDescs.txt"
+#include "ItemNamesDescs.txt"
+#include "PersonalData.txt"

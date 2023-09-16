@@ -1,0 +1,20 @@
+ALIGN 4
+InflictEngagePoison:
+#incbin "InflictEngagePoison.dmp"
+POIN GetUnitDebuffEntry
+POIN PackData_Signed
+POIN UnpackData_Signed
+WORD EngagePoisonBitOffset_Link
+
+ALIGN 4
+EngagePoisonPrebattle:
+#incbin "EngagePoisonPrebattle.dmp"
+POIN GetUnitDebuffEntry
+POIN UnpackData_Signed
+WORD EngagePoisonBitOffset_Link
+WORD EngagePoisonAmount_Link
+
+/* Steps:
+- Reserve a bit in the debuff table for engage poison
+- Set that bit in the post-combat loop
+- Check if bit is set in prebattle loop, increase damage if so

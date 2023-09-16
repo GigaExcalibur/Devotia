@@ -1,0 +1,7 @@
+## MalakRobeName
+Malak Robe[X]
+
+## MalakRobeDesc
+A fragment of a brace exterior that once[N]
+binded legendary warrior Nova Gbadamosi.[N]
++5 HP upon use.[X]

@@ -1,5 +1,6 @@
+// Playerz
 #define Klaudia 0x01
-#define Omen 0x02
+#define Zero 0x02
 #define Josephine 0x03
 #define Emerson 0x04
 #define Beth 0x05
@@ -44,4 +45,23 @@
 #define Brynhild 0x2C
 #define Rami 0x2D
 #define Samil 0x2E
-#define Tiamat 0x2F
+#define Cetus 0x2F
+
+// Enemiez
+#define Wister 0x46
+#define Peasant 0x47
+#define Crocodile 0x47
+#define Marauder 0x48
+#define Hafeez 0x49 // to not reveal recruitability in intermission
+#define Operiere 0x4A // to not reveal recruitability in intermission
+#define Winnehild 0x4B // unrecruitable but needs to show uniform stats
+#define Nolier 0x4C // unrecruitable but needs to show uniform stats
+#define Terrance 0x4D
+#define Graminea 0x4E
+#define WarmongerCaptain 0x4F
+#define Warmonger 0x50
+#define DrekkanSubcaptain 0x51
+#define Trooper 0x52
+#define Contractor 0x51
+#define CountGraminea 0x52
+#define Lictor 0x53

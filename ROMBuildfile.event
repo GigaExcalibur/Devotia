@@ -16,6 +16,10 @@
     #include "Tables/TableInstaller.event"
     MESSAGE Used table space ends at currentOffset
 	
+	//Graphics
+	#include "Graphics/GraphicsInstaller.event"
+	MESSAGE Used graphics space ends at currentOffset
+	
 	//Supports
 	#include "Supports/SupportsInstaller.event"
 	MESSAGE Used support space ends at currentOffset

@@ -124,17 +124,17 @@ UNIT Cetus Prince 0x1 0xA1	  [20,32] 0b 0x0 0x0 0x0 [0x0] [0x0]
 UNIT
 
 EnemyUnits:
-UNIT Morva_Ch20 0x3B 0x40 0xA5    [15,2] 0b 0x0 0x0 0x0 [WretchedAir,0x0,0x0,0x0] AttackInRangeAI
-UNIT ONeill Therion 0x40 Level(20, Enemy, True)     [8,23] 0b 0x0 0x0 0x0 [BattleAxe, HandAxe] AttackInRangeAI
+UNIT Hafeez 0x3B 0x40 0xA5    [15,2] 0b 0x0 0x0 0x0 [WretchedAir,0x0,0x0,0x0] AttackInRangeAI
+UNIT Wister Therion 0x40 Level(20, Enemy, True)     [8,23] 0b 0x0 0x0 0x0 [BattleAxe, HandAxe] AttackInRangeAI
 UNIT Breguet Overlord 0x40 0xA5     [5,18] 0 0 0 0 [SteelLance, Javelin] AttackInRangeAI
 UNIT Bone Scourge 0x40 0xA5       [11,17] 0 0 0 0 [SteelAxe, HandAxe] AttackInRangeAI
 UNIT Bazba Agastya 0x40 0xA5      [16,18] 0 0 0 0 [SteelAxe, HandAxe] AttackInRangeAI
-UNIT Saar Knight 0x40 0xA5        [8,15] 0 0 0 0 [SteelLance, Javelin] AttackInRangeAI
-UNIT Novala Shaman 0x40 0xA5      [12,13] 0 0 0 0 [Nosferatu] AttackInRangeAI
-UNIT Murray Cavalier 0x40 0xA5    [3,13] 0 0 0 0 [SteelSword, Javelin] AttackInRangeAI
+UNIT Saar Starosta 0x40 0xA5        [8,15] 0 0 0 0 [SteelLance, Javelin] AttackInRangeAI
+UNIT Novala Starseer 0x40 0xA5      [12,13] 0 0 0 0 [Nosferatu] AttackInRangeAI
+UNIT Murray Necromancer 0x40 0xA5    [3,13] 0 0 0 0 [SteelSword, Javelin] AttackInRangeAI
 UNIT Tirado General 0x40 0xA5     [16,9] 0 0 0 0 [SilverLance, Javelin] AttackInRangeAI
 UNIT Binks Warrior 0x40 0xA5      [1,10] 0 0 0 0 [SteelAxe, SteelBow] AttackInRangeAI
-UNIT Pablo Sage 0x40 0xA5         [5,11] 0 0 0 0 [Elfire, Purge] AttackInRangeAI
+UNIT Pablo Spellmaster 0x40 0xA5         [5,11] 0 0 0 0 [Elfire, Purge] AttackInRangeAI
 UNIT
 
 EnemyUnits2:

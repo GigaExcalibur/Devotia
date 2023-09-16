@@ -307,22 +307,25 @@
   RMenu(ST_Inventory3,ST_Inventory5,ST_Name2,0,0x68,0x48,3,ItemDescLooper,ItemDescGetter)
 
   ST_Inventory5: 
-  RMenu(ST_Inventory4,ST_Atk,ST_Name2,ST_Rng,0x68,0x58,4,ItemDescLooper,ItemDescGetter)
+  RMenu(ST_Inventory4,ST_Atk,ST_Name2,ST_AS,0x68,0x58,4,ItemDescLooper,ItemDescGetter)
 
   ST_Atk: 
-  RMenu(ST_Inventory5,ST_Hit,ST_Exp2,ST_Crit,0x76,0x78,0x55C)
+  RMenu(ST_Inventory5,ST_Hit,ST_Class2,ST_AS,0x70,0x68,0x55C)
 
   ST_Hit: 
-  RMenu(ST_Atk,0,ST_HP2,ST_Avo,0x76,0x88,0x55D)
+  RMenu(ST_Atk,ST_Crit,ST_Exp2,ST_Avo,0x70,0x78,0x55D)
 
-  ST_Rng: 
-  RMenu(ST_Inventory5,ST_Crit,ST_Atk,0,0xAE,0x68,0x55E)
+  ST_AS: 
+  RMenu(ST_Inventory5,ST_Avo,ST_Atk,0,0xAE,0x68,AttackSpeedStatScreenDesc)
 
   ST_Crit: 
-  RMenu(ST_Rng,ST_Avo,ST_Atk,0,0xAE,0x78,0x55F)
+  RMenu(ST_Hit,0,ST_HP2,ST_CritAvo,0x70,0x88,0x55F)
 
   ST_Avo: 
-  RMenu(ST_Crit,0,ST_Hit,0,0xAE,0x88,0x560)
+  RMenu(ST_AS,ST_CritAvo,ST_Hit,0,0xAE,0x78,0x560)
+  
+  ST_CritAvo:
+  RMenu(ST_Avo,0, ST_Crit,0,0xAE, 0x88, CritAvoidStatScreenDesc)
 
   
   ST_Name2: 
@@ -335,10 +338,10 @@
   RMenu(ST_Class2,ST_HP2,0,ST_Exp2,0x6,0x78,0x542)
 
   ST_Exp2: 
-  RMenu(ST_Class2,ST_HP2,ST_Level2,ST_Atk,0x26,0x78,0x543)
+  RMenu(ST_Class2,ST_HP2,ST_Level2,ST_Hit,0x26,0x78,0x543)
 
   ST_HP2: 
-  RMenu(ST_Level2,0,0,ST_Hit,0x6,0x88,0x544)
+  RMenu(ST_Level2,0,0,ST_Crit,0x6,0x88,0x544)
 
 
 

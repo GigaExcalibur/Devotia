@@ -93,3 +93,10 @@ Supports[X]
 ## SupportsDesc
 Characters whom this unit gives and[N]
 receives bonuses from when adjacent.[X]
+
+## AttackSpeedStatScreenDesc
+sanic speed lmao xd[X]
+
+## CritAvoidStatScreenDesc
+The degree to which your unit is[N]
+guarded against enemy criticals.[X]

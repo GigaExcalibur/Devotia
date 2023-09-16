@@ -38,6 +38,12 @@ CON[X]
 # 0x4f9
 Hold[X]
 
+# 0x4F5
+Avo[X]
+
+# 0x518
+C.Avo[X]
+
 # 0x542
 How much a unit has left to grow[N]
 before they hit their limit.[X]

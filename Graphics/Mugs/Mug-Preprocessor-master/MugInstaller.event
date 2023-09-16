@@ -1,0 +1,63 @@
+ALIGN 4
+BethMugLabel:
+#incbin "Beth_mug.dmp"
+#incbin "Beth_frames.dmp"
+#incbin "Beth_palette.dmp"
+#incbin "Beth_minimug.dmp"
+
+ALIGN 4
+CamMugLabel:
+#incbin "Cam_mug.dmp"
+#incbin "Cam_frames.dmp"
+#incbin "Cam_palette.dmp"
+#incbin "Cam_minimug.dmp"
+
+ALIGN 4
+EmersonMugLabel:
+#incbin "Emerson_mug.dmp"
+#incbin "Emerson_frames.dmp"
+#incbin "Emerson_palette.dmp"
+#incbin "Emerson_minimug.dmp"
+
+ALIGN 4
+GiselleMugLabel:
+#incbin "Giselle_mug.dmp"
+#incbin "Giselle_frames.dmp"
+#incbin "Giselle_palette.dmp"
+#incbin "Giselle_minimug.dmp"
+
+ALIGN 4
+JosephineMugLabel:
+#incbin "Josephine_mug.dmp"
+#incbin "Josephine_frames.dmp"
+#incbin "Josephine_palette.dmp"
+#incbin "Josephine_minimug.dmp"
+
+ALIGN 4
+KlaudiaMugLabel:
+#incbin "Klaudia_mug.dmp"
+#incbin "Klaudia_frames.dmp"
+#incbin "Klaudia_palette.dmp"
+#incbin "Klaudia_minimug.dmp"
+
+ALIGN 4
+RanunMugLabel:
+#incbin "Ranun_mug.dmp"
+#incbin "Ranun_frames.dmp"
+#incbin "Ranun_palette.dmp"
+#incbin "Ranun_minimug.dmp"
+
+ALIGN 4
+WisterMugLabel:
+#incbin "Wister_mug.dmp"
+#incbin "Wister_frames.dmp"
+#incbin "Wister_palette.dmp"
+#incbin "Wister_minimug.dmp"
+
+ALIGN 4
+ZeroMugLabel:
+#incbin "Zero_mug.dmp"
+#incbin "Zero_frames.dmp"
+#incbin "Zero_palette.dmp"
+#incbin "Zero_minimug.dmp"
+

@@ -2,7 +2,7 @@
 Mage Lord[X]
 
 ## MageLordDesc
-Adept members of House Orsolle,[N]
+Adept members of House Ouahed,[N]
 classically trained in anima[N]
 magic for combat service.[X]
 
@@ -10,7 +10,7 @@ magic for combat service.[X]
 Gremory Lord[X]
 
 ## GremoryLordDesc
-The noble lord of House Orsolle,[N]
+The noble lord of House Ouahed,[N]
 whose grace with lances and all[N]
 magic belies their brutality.[X]
 
@@ -62,8 +62,8 @@ whose names go down in folk myth.[X]
 Runelord[X]
 
 ## RunelordDesc
-Renegade practioners of swords and dark[N]
-magic, forgoing any duelists' honor.[N]
+Renegade dread fighers of swords and[N]
+dark magic, forgoing duelists' honor.[N]
 Can steal enemies' possessions.[X]
 
 ## ThiefName
@@ -78,15 +78,15 @@ Can steal enemies' possessions.[X]
 Rogue[X]
 
 ## RogueDesc
-Crown prince of combat thieves, stealing[N]
-everything in sight with nigh a whisper.[N]
+Crown prince of combat thieves, looting[N]
+all in sight with naught a whisper.[N]
 Can steal enemies' possessions.[X]
 
 ## HunterName
 Hunter[X]
 
 ## HunterDesc
-Calm and cautious bow infantry that[N]
+Slow and steady bow infantry that[N]
 hunt all manner of living targets.[X]
 
 ## MarksmanName
@@ -128,14 +128,15 @@ lances for combat rather than labor.[X]
 Starosta[X]
 
 ## StarostaDesc
-Community elders granted their title for[N]
-exemplary performance in warfare.[X]
+Beth's rewarded position as a community[N]
+leader. With this position comes complete[N]
+dominance over the weapon triangle.[X]
 
 ## WarmasterName
 Warmaster[X]
 
 ## WarmasterDesc
-Master fighters who require no support[N]
+Masters of arms who require no support[N]
 to single-handedly shred enemy formations.[X]
 
 ## WoodsmanName
@@ -240,7 +241,7 @@ catalysts for immense magical carnage.[X]
 Harbinger[X]
 
 ## HarbingerDesc
-Common alias of Drek's Knight General.[N]
+Evelyn's alias as Drek's Knight General.[N]
 Atop her pitch-black warhorse, she[N]
 slays enemies with a reaper's force.[X]
 
@@ -255,9 +256,9 @@ This variant studied the school of anima.[X]
 Spellmaster[X]
 
 ## SpellmasterDesc
-Title of one to overcome their past and[N]
-finish their study on their own terms.[N]
-See the fruits of their efforts firsthand.[X]
+Astraea's graduated rank, awarded for[N]
+completion of their study and moving[N]
+on from the shadow of their past.[X]
 
 ## LightMageName
 Light Mage[X]
@@ -270,8 +271,9 @@ This variant studied the school of light.[X]
 Starseer[X]
 
 ## StarseerDesc
-Lithe and graceful beacons of stability[N]
-within the chaos and bloodshed.[X]
+Maris' bestowed moniker as a master[N]
+monk, lighting up the battlefield[N]
+both literally and figuratively.[X]
 
 ## DarkMageName
 Dark Mage[X]
@@ -284,14 +286,15 @@ This variant studied the school of dark.[X]
 Necromancer[X]
 
 ## NecromancerDesc
-Summoners of the dead who disregard the[N]
-very sancticty of life itself.[X]
+Alma's reputed profession as a summoner[N]
+of the dead who casts away the sanctity[N]
+of life itself in their pursuits.[X]
 
 ## SageName
 Sage[X]
 
 ## SageDesc
-Common alias of Drek's Arcane General.[N]
+Orion's alias as Drek's Arcane General.[N]
 Staff in one hand and tome in the other,[N]
 he burns enemies with ironic remorse.[X]
 
@@ -366,7 +369,7 @@ Royal knights that use their position[N]
 to loyally advance their lord's banner.[X]
 
 ## AxeCavalierName
-^{Axe Cavalier}[X]
+Axe Cavalier[X]
 
 ## AxeCavalierDesc
 Chivalrous horseman nobly knighted.[N]
@@ -419,7 +422,7 @@ Daemon Wing[X]
 
 ## DaemonWingDesc
 Hellion ebon riders whose magic opens[N]
-dark rifts in the sky itself.[X]
+pitch-black rifts in the sky itself.[X]
 
 ## DracoriderName
 Dracorider[X]
@@ -560,7 +563,7 @@ Warlock[X]
 
 ## WarlockDesc
 Straightforward yet advanced slingers[N]
-of both natural and elder magic.[X]
+of both natural, holy, and elder magic.[X]
 
 ## BardName
 Bard[X]
@@ -597,22 +600,22 @@ wild beast that needs to be culled.[X]
 Scourge[X]
 
 ## ScourgeDesc
-Common alias of Drek's Hawk General.[N]
-Forgoing moral conventions, she dips[N]
-her arrows in torturous poison.[X]
+Blaire's alias as Drek's Hawk General.[N]
+Forgoing moral conventions, she coats[N]
+her arrows and lances in deadly poison.[X]
 
 ## OverlordName
 Overlord[X]
 
 ## OverlordDesc
 The roots of Sarka's rule run deeper[N]
-than any tree. To uproot them is to[N]
-burn their pedigree to cinders.[X]
+than any tree. It takes burning their[N]
+pedigree to cinders to stamp them out.[X]
 
 ## AgastyaName
 Agastya[X]
 
 ## AgastyaDesc
-Drek is a nation of structure and order.[N]
+Drek is a nation of progress and order.[N]
 Each man is a cog in the machine, and[N]
 the High Commander turns the gears.[X]

@@ -1,6 +1,6 @@
 // Playerz
 #define Klaudia 0x01
-#define Omen 0x02
+#define Zero 0x02
 #define Josephine 0x03
 #define Emerson 0x04
 #define Beth 0x05

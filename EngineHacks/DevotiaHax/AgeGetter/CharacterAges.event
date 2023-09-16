@@ -4,7 +4,7 @@ CharacterAgeTable:
 FILL 0xFF
 
 CharacterAgeTableEntry(Klaudia, 21)
-CharacterAgeTableEntry(Omen, 49)
+CharacterAgeTableEntry(Zero, 49)
 CharacterAgeTableEntry(Josephine, 28)
 CharacterAgeTableEntry(Emerson, 21)
 CharacterAgeTableEntry(Beth, 14)

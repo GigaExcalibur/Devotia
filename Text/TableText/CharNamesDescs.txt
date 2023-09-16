@@ -2,15 +2,15 @@
 Klaudia[X]
 
 ## KlaudiaDesc
-Heir apparent to House Orsolle.[N]
+Heir apparent to House Ouahed.[N]
 Unwavering in devotion to[N]
 House Sarka's eternal glory.[X]
 
-## OmenName
-Omen[X]
+## ZeroName
+Zero[X]
 
-## OmenDesc
-Lord Orsolle's principal retainer. Cold[N]
+## ZeroDesc
+Lord Ouahed's principal retainer. Cold[N]
 and aloof, he's content to remain as[N]
 the dagger always at his lord's side.[X]
 
@@ -18,7 +18,7 @@ the dagger always at his lord's side.[X]
 ^{Josephine}[X]
 
 ## JosephineDesc
-Royal knight in service to House Orsolle.[N]
+Royal knight in service to House Ouahed.[N]
 To cope with her dashed dreams, her wit[N]
 spits venom in the verses she composes.[X]
 

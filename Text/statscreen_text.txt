@@ -69,13 +69,17 @@ Bad[X]
 ## SS_BiorhythmWorst
 Worst[X]
 
-## LikesDesc
-A list of things this[N]
-character enjoys.[X]
+## FullNameDesc
+This character's full name.[X]
 
-## DislikesDesc
-A list of things this[N]
-character does not enjoy.[X]
+## PronounsDesc
+This character's preferred pronouns.[X]
+
+## HobbyDesc
+This character's primary hobby.[X]
+
+## BirthdayDesc
+This character's birthday.[X]
 
 ## AgeDesc
 This character's current age.[X]
@@ -85,3 +89,7 @@ This character's height.[X]
 
 ## SupportsText
 Supports[X]
+
+## SupportsDesc
+Characters whom this unit gives and[N]
+receives bonuses from when adjacent.[X]

@@ -20,6 +20,6 @@ draw_weapon_rank_at 1, 13, Light, 2
 draw_weapon_rank_at 1, 15, Dark, 3
 blh      DrawSupports
 
-draw_textID_at 22, 3, textID=0x054, width=5, colour=Blue
+draw_textID_at 22, 3, textID=0x056, width=5, colour=Blue
 
 page_end

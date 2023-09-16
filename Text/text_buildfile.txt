@@ -178,16 +178,22 @@ Learned  [X]
 
 #0xd4c LikesText
 //first text ID in the free block
-Likes:[X]
+Name:[X]
 
 #0xd4d DislikesText 
-*{Dislikes}:[X]
+Prns:[X]
 
 #0xd4e HeightText
 Height:[X]
 
 #0xd4f AgeText
 Age:[X]
+
+#0xd50 BirthdayText
+Bday:[X]
+
+#0xd51 HobbyText
+Hobby:[X]
 
 ## HouseText
 //first text ID in the free block

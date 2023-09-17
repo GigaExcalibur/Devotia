@@ -40,8 +40,20 @@ Sorcerer - Pikmin, Nuramon, Der
 Cleric - TopazLight
 Thaumaturge - Der
 Templar - Der
-
-
+Physical Cavaliers - Flasuban, Tordo45
+Cuirassier - L95
+Chasseur - L95
+Forester - RobertFPY
+Scout - Flasuban
+Ranger - Flasuban
+Windrider - Flasuban
+Seraph Wing - CamusZekeSirius
+Harrier - Ayr
+Daemon Wing - Ayr
+Dracorider - Flasuban
+Dracolord - Flasuban
+Bombardier - N426
+Barbarossa - N426
 
 # Skill contributors
 

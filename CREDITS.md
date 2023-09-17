@@ -54,6 +54,23 @@ Dracorider - Flasuban
 Dracolord - Flasuban
 Bombardier - N426
 Barbarossa - N426
+Bow Armor - Agro, Blademaster
+Juggernaut - SALVAGED, BoneManSeth
+Malignant/Melusine - MeatOfJustice
+Drifter - Der
+Adventurer - ArcherBias
+Spellstrider - Pikmin, Der
+Oliphantier - Pikmin, Der
+Wolfssegner - dw about it
+Savior - Permafrost
+Champion - Unknown
+Bard - MeatOfJustice
+CrownPrince - Shin19
+Prince - WarPath
+Therion - L95
+Therion (Wister) - Zoramine Fae
+Scourge - N426
+Overlord - Blood
 
 # Skill contributors
 

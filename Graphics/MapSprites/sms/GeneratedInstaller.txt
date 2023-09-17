@@ -1,0 +1,103 @@
+//Generated - do not edit
+//Copy paste the /* */ section into your definitions if desired.
+//Please copy the SetSMS and SetMMS section to change SMS size and MMS AP. 
+ 
+ 
+ 
+/* 
+//First free SMS is 107
+#define Archer_F_Improved_Derstand 107 
+#define Archsage_F_Brunnya_Jiege_TLPstand 108 
+#define Bard_M_Fancy_MeatOfJusticestand 109 
+#define Berserker_M_Axe_ISstand 110 
+#define Berserker_M_Axe_Wolf_Rider_Zoraminestand 111 
+#define Bishop_M_Hatless_Permafroststand 112 
+#define Bow_Knight_F_Bow_flasubanstand 113 
+#define Bow_Knight_M_Der_Pikminstand 114 
+#define Brigand_M_Wolf_Rider_Axe_Zoraminestand 115 
+#define Cavalier_F_Lance_Tordo45stand 116 
+#define Cavalier_F_Revision_Axe_flasuban_Tordo45stand 117 
+#define Cavalier_F_Revision_Sword_flasuban_Tordo45stand 118 
+#define Cleric_F_Caped_Staff_topazlightstand 119 
+#define Custom_Flier_Deva_F_Ayrstand 120 
+#define Custom_Flier_Nephilim_F_Ayrstand 121 
+#define Dark_Knight_Hood_Pikmin_Nuramon_Derstand 122 
+#define Dragoon_M_v2_Lance_Pikmin_Unknownstand 123 
+#define Dread_Fighter_F_Nuramonstand 124 
+#define Druid_M_ISstand 125 
+#define Fighter_M_Revamped_Axe_Alusqstand 126 
+#define General_U_Sword_Norikinsstand 127 
+#define Gold_Knight_M_Axe_Pikmin_Derstand 128 
+#define Gold_Knight_U_Lance_Hypergammaspacesstand 129 
+#define Great_Knight_F_Axe_bloodstand 130 
+#define Great_Lord_F_Eirika_Sword_ISstand 131 
+#define Greil_Lord_M_Unknownstand 132 
+#define Griffon_Rider_U_Bow_N426stand 133 
+#define Griffon_Rider_U_Lance_N426stand 134 
+#define Halberdier_M_20_TBAstand 135 
+#define Hero_F_ISstand 136 
+#define Hunter_M_MeatOfJusticestand 137 
+#define Juggernautstand 138 
+#define King_U_Bulwark_Axe_bloodstand 139 
+#define Knight_U_Axe_Agrostand 140 
+#define Knight_U_Bow_Agro_Blademasterstand 141 
+#define Knight_U_FE10Style_Magic_flasubanstand 142 
+#define Knight_U_Lance_Alt_16x16_Agrostand 143 
+#define Knight_U_Sword_16x16_Agrostand 144 
+#define Lord_F_Hector_Axe_Shin19stand 145 
+#define Lord_M_Ephraim_Axe_ZoramineFaestand 146 
+#define Mage_F_ISstand 147 
+#define Mage_F_Light_Mage_Leo_Link_L95stand 148 
+#define Mage_Knight_F_ISstand 149 
+#define Mage_Lord_F_Eliwood_16x16_TyTheBubstand 150 
+#define Marksman_M_Nuramonstyle_ArcherBiasstand 151 
+#define Master_of_Arms_F_Archerbiasstand 152 
+#define Mercenary_F_Sword_Agrostand 153 
+#define Myrmidon_M_Sword_ISstand 154 
+#define Necromancer_M_Lyon_ISstand 155 
+#define Nomad_M_ISstand 156 
+#define Paladin_F_Axe_L95stand 157 
+#define Paladin_F_Lance_L95stand 158 
+#define Paladin_F_Sword_RobertFPYstand 159 
+#define Pegasi_F_T1_Staff_WarPathstand 160 
+#define Pegasi_F_T1_Sword_Flasubanstand 161 
+#define Pegasi_F_T2_Lance_ISstand 162 
+#define Pirate_M_Axe_ISstand 163 
+#define Ranger_F_Improved_Bow_flasubanstand 164 
+#define Recruit_F_Amelia_Lance_ISstand 165 
+#define Rogue_F_Unknownstand 166 
+#define Sage_F_Battle_Sage_Sword_topazlightstand 167 
+#define Sage_M_ISstand 168 
+#define Saint_F_Meliastand 169 
+#define Seraph_Knight_F_Lance_CamusZekeSiriusstand 170 
+#define Sergeant_F_Spud_Dora_Dragostand 171 
+#define Shaman_M_ISstand 172 
+#define Sniper_M_ArcherBiasstand 173 
+#define Soldier_M_FE10Style_v2_Lance_flasubanstand 174 
+#define Summoner_M_16x16_ISstand 175 
+#define Swordmaster_M_FE10Style_Sword_L95stand 176 
+#define Swordmaster_M_ISstand 177 
+#define Thaumachinestand 178 
+#define Thief_F_ISstand 179 
+#define Trickster_M_Redone_StreetHero_bloodstand 180 
+#define Troubadour_F_ISstand 181 
+#define Troubadour_F_Thaumaturge_Pikmin_Derstand 182 
+#define Valkyrie_F_ISstand 183 
+#define Valkyrie_F_NonReligious_Staff_Derstand 184 
+#define Warrior_M_Axe_ISstand 185 
+#define War_Monk_M_Axe_Derstand 186 
+#define Wicked_Flier_U_MeatOfJusticestand 187 
+#define Wyvern_Lord_M_Helmless_Axe_flasubanstand 188 
+#define Wyvern_Rider_F_Axe_flasubanstand 189 
+ 
+ 
+//First free MMS is 127 and will show up if you've expanded classes.
+#define Archer_F_Improved_Derwalk 127 
+#define Archsage_F_Brunnya_Jiege_TLPwalk 128 
+#define Bard_M_Fancy_MeatOfJusticewalk 129 
+#define Berserker_M_Axe_ISwalk 130 
+#define Berserker_M_Axe_Wolf_Rider_Zoraminewalk 131 
+#define Bishop_M_Hatless_Permafrostwalk 132 
+#define Bow_Knight_F_Bow_flasubanwalk 133 
+#define Bow_Knight_M_Der_Pikminwalk 134 
+#define Brigand_M_Wolf_Rider_Axe_Zoraminewalk 135 

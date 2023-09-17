@@ -6,78 +6,78 @@
  
 /* 
 //First free SMS is 107
-#define 25c9115a01baa7afc00010d6900dd4e903d7b443 107 
-#define Archer_F_Improved_Derstand 108 
-#define Archsage_F_Brunnya_Jiege_TLPstand 109 
-#define Bard_M_Fancy_MeatOfJusticestand 110 
-#define Berserker_M_Axe_ISstand 111 
-#define Berserker_M_Axe_Wolf_Rider_Zoraminestand 112 
-#define Bishop_M_Hatless_Permafroststand 113 
-#define Bow_Knight_F_Bow_flasubanstand 114 
-#define Bow_Knight_M_Der_Pikminstand 115 
-#define Brigand_M_Wolf_Rider_Axe_Zoraminestand 116 
-#define Cavalier_F_Lance_Tordo45stand 117 
-#define Cavalier_F_Revision_Axe_flasuban_Tordo45stand 118 
-#define Cavalier_F_Revision_Sword_flasuban_Tordo45stand 119 
-#define Cleric_F_Caped_Staff_topazlightstand 120 
-#define Custom_Flier_Deva_F_Ayrstand 121 
-#define Custom_Flier_Nephilim_F_Ayrstand 122 
-#define Dark_Knight_Hood_Pikmin_Nuramon_Derstand 123 
-#define Dragoon_M_v2_Lance_Pikmin_Unknownstand 124 
-#define Dread_Fighter_F_Nuramonstand 125 
-#define Druid_M_ISstand 126 
-#define Fighter_M_Revamped_Axe_Alusqstand 127 
-#define General_U_Sword_Norikinsstand 128 
-#define Gold_Knight_M_Axe_Pikmin_Derstand 129 
-#define Gold_Knight_U_Lance_Hypergammaspacesstand 130 
-#define Great_Knight_F_Axe_bloodstand 131 
-#define Great_Lord_F_Eirika_Sword_ISstand 132 
-#define Greil_Lord_M_Unknownstand 133 
-#define Griffon_Rider_U_Bow_N426stand 134 
-#define Griffon_Rider_U_Lance_N426stand 135 
-#define Halberdier_M_2.0_TBAstand 136 
-#define Hero_F_ISstand 137 
-#define Hunter_M_MeatOfJusticestand 138 
+#define Archer_F_Improved_Derstand 107 
+#define Archsage_F_Brunnya_Jiege_TLPstand 108 
+#define Bard_M_Fancy_MeatOfJusticestand 109 
+#define Berserker_M_Axe_ISstand 110 
+#define Berserker_M_Axe_Wolf_Rider_Zoraminestand 111 
+#define Bishop_M_Hatless_Permafroststand 112 
+#define Bow_Knight_F_Bow_flasubanstand 113 
+#define Bow_Knight_M_Der_Pikminstand 114 
+#define Brigand_M_Wolf_Rider_Axe_Zoraminestand 115 
+#define Cavalier_F_Lance_Tordo45stand 116 
+#define Cavalier_F_Revision_Axe_flasuban_Tordo45stand 117 
+#define Cavalier_F_Revision_Sword_flasuban_Tordo45stand 118 
+#define Cleric_F_Caped_Staff_topazlightstand 119 
+#define Custom_Flier_Deva_F_Ayrstand 120 
+#define Custom_Flier_Nephilim_F_Ayrstand 121 
+#define Dark_Knight_Hood_Pikmin_Nuramon_Derstand 122 
+#define Dragoon_M_v2_Lance_Pikmin_Unknownstand 123 
+#define Dread_Fighter_F_Nuramonstand 124 
+#define Druid_M_ISstand 125 
+#define Fighter_M_Revamped_Axe_Alusqstand 126 
+#define General_U_Sword_Norikinsstand 127 
+#define Gold_Knight_M_Axe_Pikmin_Derstand 128 
+#define Gold_Knight_U_Lance_Hypergammaspacesstand 129 
+#define Great_Knight_F_Axe_bloodstand 130 
+#define Great_Lord_F_Eirika_Sword_ISstand 131 
+#define Greil_Lord_M_Unknownstand 132 
+#define Griffon_Rider_U_Bow_N426stand 133 
+#define Griffon_Rider_U_Lance_N426stand 134 
+#define Halberdier_M_20_TBAstand 135 
+#define Hero_F_ISstand 136 
+#define Hunter_M_MeatOfJusticestand 137 
+#define Juggernautstand 138 
 #define King_U_Bulwark_Axe_bloodstand 139 
 #define Knight_U_Axe_Agrostand 140 
 #define Knight_U_Bow_Agro_Blademasterstand 141 
 #define Knight_U_FE10Style_Magic_flasubanstand 142 
-#define Knight_U_Helmetless_Bow_Shield_Back_SALVAGED_BoneSethManstand 143 
-#define Knight_U_Lance_Alt_16x16_Agrostand 144 
-#define Knight_U_Sword_16x16_Agrostand 145 
-#define Lord_F_Hector_Axe_Shin19stand 146 
-#define Lord_M_Ephraim_Axe_ZoramineFaestand 147 
-#define Mage_F_ISstand 148 
-#define Mage_F_Light_Mage_Leo_Link_L95stand 149 
-#define Mage_Knight_F_ISstand 150 
-#define Mage_Lord_F_Eliwood_16x16_TyTheBubstand 151 
-#define Marksman_M_Nuramonstyle_ArcherBiasstand 152 
-#define Master_of_Arms_F_Archerbiasstand 153 
-#define Mercenary_F_Sword_Agrostand 154 
-#define Myrmidon_M_Sword_ISstand 155 
-#define Necromancer_M_Lyon_ISstand 156 
-#define Nomad_M_ISstand 157 
-#define Paladin_F_Axe_L95stand 158 
-#define Paladin_F_Lance_L95stand 159 
-#define Paladin_F_Sword_RobertFPYstand 160 
-#define Pegasi_F_T1_Staff_WarPathstand 161 
-#define Pegasi_F_T1_Sword_Flasubanstand 162 
-#define Pegasi_F_T2_Lance_ISstand 163 
-#define Pirate_M_Axe_ISstand 164 
-#define Ranger_F_Improved_Bow_flasubanstand 165 
-#define Recruit_F_Amelia_Lance_ISstand 166 
-#define Rogue_F_Unknownstand 167 
-#define Sage_F_Battle_Sage_Sword_topazlightstand 168 
-#define Sage_M_ISstand 169 
-#define Saint_F_Meliastand 170 
-#define Seraph_Knight_F_Lance_CamusZekeSiriusstand 171 
-#define Sergeant_F_Spud_Dora_Dragostand 172 
-#define Shaman_M_ISstand 173 
-#define Sniper_M_ArcherBiasstand 174 
-#define Soldier_M_FE10Style_v2_Lance_flasubanstand 175 
-#define Summoner_M_16x16_ISstand 176 
-#define Swordmaster_M_FE10Style_Sword_L95stand 177 
-#define Swordmaster_M_ISstand 178 
+#define Knight_U_Lance_Alt_16x16_Agrostand 143 
+#define Knight_U_Sword_16x16_Agrostand 144 
+#define Lord_F_Hector_Axe_Shin19stand 145 
+#define Lord_M_Ephraim_Axe_ZoramineFaestand 146 
+#define Mage_F_ISstand 147 
+#define Mage_F_Light_Mage_Leo_Link_L95stand 148 
+#define Mage_Knight_F_ISstand 149 
+#define Mage_Lord_F_Eliwood_16x16_TyTheBubstand 150 
+#define Marksman_M_Nuramonstyle_ArcherBiasstand 151 
+#define Master_of_Arms_F_Archerbiasstand 152 
+#define Mercenary_F_Sword_Agrostand 153 
+#define Myrmidon_M_Sword_ISstand 154 
+#define Necromancer_M_Lyon_ISstand 155 
+#define Nomad_M_ISstand 156 
+#define Paladin_F_Axe_L95stand 157 
+#define Paladin_F_Lance_L95stand 158 
+#define Paladin_F_Sword_RobertFPYstand 159 
+#define Pegasi_F_T1_Staff_WarPathstand 160 
+#define Pegasi_F_T1_Sword_Flasubanstand 161 
+#define Pegasi_F_T2_Lance_ISstand 162 
+#define Pirate_M_Axe_ISstand 163 
+#define Ranger_F_Improved_Bow_flasubanstand 164 
+#define Recruit_F_Amelia_Lance_ISstand 165 
+#define Rogue_F_Unknownstand 166 
+#define Sage_F_Battle_Sage_Sword_topazlightstand 167 
+#define Sage_M_ISstand 168 
+#define Saint_F_Meliastand 169 
+#define Seraph_Knight_F_Lance_CamusZekeSiriusstand 170 
+#define Sergeant_F_Spud_Dora_Dragostand 171 
+#define Shaman_M_ISstand 172 
+#define Sniper_M_ArcherBiasstand 173 
+#define Soldier_M_FE10Style_v2_Lance_flasubanstand 174 
+#define Summoner_M_16x16_ISstand 175 
+#define Swordmaster_M_FE10Style_Sword_L95stand 176 
+#define Swordmaster_M_ISstand 177 
+#define Thaumachinestand 178 
 #define Thief_F_ISstand 179 
 #define Trickster_M_Redone_StreetHero_bloodstand 180 
 #define Troubadour_F_ISstand 181 
@@ -92,78 +92,78 @@
  
  
 //First free MMS is 127 and will show up if you've expanded classes.
-#define 610c98ebcdd437ef19888e0e38742e691689b9e2 127 
-#define Archer_F_Improved_Derwalk 128 
-#define Archsage_F_Brunnya_Jiege_TLPwalk 129 
-#define Bard_M_Fancy_MeatOfJusticewalk 130 
-#define Berserker_M_Axe_ISwalk 131 
-#define Berserker_M_Axe_Wolf_Rider_Zoraminewalk 132 
-#define Bishop_M_Hatless_Permafrostwalk 133 
-#define Bow_Knight_F_Bow_flasubanwalk 134 
-#define Bow_Knight_M_Der_Pikminwalk 135 
-#define Brigand_M_Wolf_Rider_Axe_Zoraminewalk 136 
-#define Cavalier_F_Revision_Axe_flasuban_Tordo45walk 137 
-#define Cavalier_F_Revision_Lance_flasuban_Tordo45walk 138 
-#define Cavalier_F_Revision_Sword_flasuban_Tordo45walk 139 
-#define Cleric_F_Caped_Staff_topazlightwalk 140 
-#define Custom_Flier_Deva_F_Ayrwalk 141 
-#define Custom_Flier_Nephilim_F_Ayrwalk 142 
-#define Dark_Knight_Hood_Pikmin_Nuramon_Derwalk 143 
-#define Dragoon_M_v2_Lance_Pikmin_Unknownwalk 144 
-#define Dread_Fighter_F_Nuramonwalk 145 
-#define Druid_M_ISwalk 146 
-#define Fighter_M_Revamped_Axe_Alusqwalk 147 
-#define General_U_Sword_Norikinswalk 148 
-#define Gold_Knight_M_Axe_Pikmin_Derwalk 149 
-#define Gold_Knight_U_Lance_Hypergammaspaceswalk 150 
-#define Great_Knight_F_Axe_bloodwalk 151 
-#define Great_Lord_F_Eirika_Sword_ISwalk 152 
-#define Greil_Lord_M_Unknownwalk 153 
-#define Griffon_Rider_U_Bow_N426walk 154 
-#define Griffon_Rider_U_Lance_N426walk 155 
-#define Halberdier_M_2.0_TBAwalk 156 
-#define Hero_F_Sword_ISwalk 157 
-#define Hunter_M_MeatOfJusticewalk 158 
+#define Archer_F_Improved_Derwalk 127 
+#define Archsage_F_Brunnya_Jiege_TLPwalk 128 
+#define Bard_M_Fancy_MeatOfJusticewalk 129 
+#define Berserker_M_Axe_ISwalk 130 
+#define Berserker_M_Axe_Wolf_Rider_Zoraminewalk 131 
+#define Bishop_M_Hatless_Permafrostwalk 132 
+#define Bow_Knight_F_Bow_flasubanwalk 133 
+#define Bow_Knight_M_Der_Pikminwalk 134 
+#define Brigand_M_Wolf_Rider_Axe_Zoraminewalk 135 
+#define Cavalier_F_Revision_Axe_flasuban_Tordo45walk 136 
+#define Cavalier_F_Revision_Lance_flasuban_Tordo45walk 137 
+#define Cavalier_F_Revision_Sword_flasuban_Tordo45walk 138 
+#define Cleric_F_Caped_Staff_topazlightwalk 139 
+#define Custom_Flier_Deva_F_Ayrwalk 140 
+#define Custom_Flier_Nephilim_F_Ayrwalk 141 
+#define Dark_Knight_Hood_Pikmin_Nuramon_Derwalk 142 
+#define Dragoon_M_v2_Lance_Pikmin_Unknownwalk 143 
+#define Dread_Fighter_F_Nuramonwalk 144 
+#define Druid_M_ISwalk 145 
+#define Fighter_M_Revamped_Axe_Alusqwalk 146 
+#define General_U_Sword_Norikinswalk 147 
+#define Gold_Knight_M_Axe_Pikmin_Derwalk 148 
+#define Gold_Knight_U_Lance_Hypergammaspaceswalk 149 
+#define Great_Knight_F_Axe_bloodwalk 150 
+#define Great_Lord_F_Eirika_Sword_ISwalk 151 
+#define Greil_Lord_M_Unknownwalk 152 
+#define Griffon_Rider_U_Bow_N426walk 153 
+#define Griffon_Rider_U_Lance_N426walk 154 
+#define Halberdier_M_20_TBAwalk 155 
+#define Hero_F_Sword_ISwalk 156 
+#define Hunter_M_MeatOfJusticewalk 157 
+#define Juggernautwalk 158 
 #define King_U_Bulwark_Axe_bloodwalk 159 
 #define Knight_U_Axe_Agrowalk 160 
 #define Knight_U_Bow_Agrowalk 161 
 #define Knight_U_FE10Style_Magic_flasubanwalk 162 
-#define Knight_U_Helmetless_Bow_Shield_Back_SALVAGED_BoneSethManwalk 163 
-#define Knight_U_Lance_ISwalk 164 
-#define Knight_U_Sword_Agrowalk 165 
-#define Lord_F_Hector_Axe_Shin19walk 166 
-#define Lord_M_Ephraim_Axe_ZoramineFaewalk 167 
-#define Mage_F_ISwalk 168 
-#define Mage_F_Light_Mage_Leo_Link_L95walk 169 
-#define Mage_Knight_F_ISwalk 170 
-#define Mage_Lord_F_Eliwood_TyTheBubwalk 171 
-#define Marksman_M_Nuramonstyle_ArcherBiaswalk 172 
-#define Master_of_Arms_F_Archerbiaswalk 173 
-#define Mercenary_F_Sword_Agrowalk 174 
-#define Myrmidon_M_Sword_ISwalk 175 
-#define Necromancer_M_Lyon_ISwalk 176 
-#define Nomad_M_ISwalk 177 
-#define Paladin_F_Axe_L95walk 178 
-#define Paladin_F_Lance_L95walk 179 
-#define Paladin_F_Sword_RobertFPYwalk 180 
-#define Pegasi_F_T1_Staff_WarPathwalk 181 
-#define Pegasi_F_T1_Sword_Flasubanwalk 182 
-#define Pegasi_F_T2_Lance_ISwalk 183 
-#define Pirate_M_Axe_ISwalk 184 
-#define Ranger_F_Improved_Bow_flasubanwalk 185 
-#define Recruit_F_Amelia_Lance_ISwalk 186 
-#define Rogue_F_Unknownwalk 187 
-#define Sage_F_Battle_Sage_Sword_topazlightwalk 188 
-#define Sage_M_ISwalk 189 
-#define Saint_F_Meliawalk 190 
-#define Seraph_Knight_F_Lance_CamusZekeSiriuswalk 191 
-#define Sergeant_F_Spud_Dora_Dragowalk 192 
-#define Shaman_M_ISwalk 193 
-#define Sniper_M_ArcherBiaswalk 194 
-#define Soldier_M_FE10Style_v2_Lance_flasubanwalk 195 
-#define Summoner_M_ISwalk 196 
-#define Swordmaster_M_FE10Style_Sword_L95walk 197 
-#define Swordmaster_M_ISwalk 198 
+#define Knight_U_Lance_ISwalk 163 
+#define Knight_U_Sword_Agrowalk 164 
+#define Lord_F_Hector_Axe_Shin19walk 165 
+#define Lord_M_Ephraim_Axe_ZoramineFaewalk 166 
+#define Mage_F_ISwalk 167 
+#define Mage_F_Light_Mage_Leo_Link_L95walk 168 
+#define Mage_Knight_F_ISwalk 169 
+#define Mage_Lord_F_Eliwood_TyTheBubwalk 170 
+#define Marksman_M_Nuramonstyle_ArcherBiaswalk 171 
+#define Master_of_Arms_F_Archerbiaswalk 172 
+#define Mercenary_F_Sword_Agrowalk 173 
+#define Myrmidon_M_Sword_ISwalk 174 
+#define Necromancer_M_Lyon_ISwalk 175 
+#define Nomad_M_ISwalk 176 
+#define Paladin_F_Axe_L95walk 177 
+#define Paladin_F_Lance_L95walk 178 
+#define Paladin_F_Sword_RobertFPYwalk 179 
+#define Pegasi_F_T1_Staff_WarPathwalk 180 
+#define Pegasi_F_T1_Sword_Flasubanwalk 181 
+#define Pegasi_F_T2_Lance_ISwalk 182 
+#define Pirate_M_Axe_ISwalk 183 
+#define Ranger_F_Improved_Bow_flasubanwalk 184 
+#define Recruit_F_Amelia_Lance_ISwalk 185 
+#define Rogue_F_Unknownwalk 186 
+#define Sage_F_Battle_Sage_Sword_topazlightwalk 187 
+#define Sage_M_ISwalk 188 
+#define Saint_F_Meliawalk 189 
+#define Seraph_Knight_F_Lance_CamusZekeSiriuswalk 190 
+#define Sergeant_F_Spud_Dora_Dragowalk 191 
+#define Shaman_M_ISwalk 192 
+#define Sniper_M_ArcherBiaswalk 193 
+#define Soldier_M_FE10Style_v2_Lance_flasubanwalk 194 
+#define Summoner_M_ISwalk 195 
+#define Swordmaster_M_FE10Style_Sword_L95walk 196 
+#define Swordmaster_M_ISwalk 197 
+#define Thaumachinewalk 198 
 #define Thief_F_ISwalk 199 
 #define Trickster_M_Redone_StreetHero_bloodwalk 200 
 #define Troubadour_F_ISwalk 201 
@@ -184,7 +184,6 @@
 //Copy from here 
 PUSH 
  
-SetSMS(25c9115a01baa7afc00010d6900dd4e903d7b443, 1, 25c9115a01baa7afc00010d6900dd4e903d7b443_Data) 
 SetSMS(Archer_F_Improved_Derstand, 1, Archer_F_Improved_Derstand_Data) 
 SetSMS(Archsage_F_Brunnya_Jiege_TLPstand, 1, Archsage_F_Brunnya_Jiege_TLPstand_Data) 
 SetSMS(Bard_M_Fancy_MeatOfJusticestand, 1, Bard_M_Fancy_MeatOfJusticestand_Data) 
@@ -213,14 +212,14 @@ SetSMS(Great_Lord_F_Eirika_Sword_ISstand, 1, Great_Lord_F_Eirika_Sword_ISstand_D
 SetSMS(Greil_Lord_M_Unknownstand, 1, Greil_Lord_M_Unknownstand_Data) 
 SetSMS(Griffon_Rider_U_Bow_N426stand, 1, Griffon_Rider_U_Bow_N426stand_Data) 
 SetSMS(Griffon_Rider_U_Lance_N426stand, 1, Griffon_Rider_U_Lance_N426stand_Data) 
-SetSMS(Halberdier_M_2.0_TBAstand, 1, Halberdier_M_2.0_TBAstand_Data) 
+SetSMS(Halberdier_M_20_TBAstand, 1, Halberdier_M_20_TBAstand_Data) 
 SetSMS(Hero_F_ISstand, 1, Hero_F_ISstand_Data) 
 SetSMS(Hunter_M_MeatOfJusticestand, 1, Hunter_M_MeatOfJusticestand_Data) 
+SetSMS(Juggernautstand, 1, Juggernautstand_Data) 
 SetSMS(King_U_Bulwark_Axe_bloodstand, 1, King_U_Bulwark_Axe_bloodstand_Data) 
 SetSMS(Knight_U_Axe_Agrostand, 1, Knight_U_Axe_Agrostand_Data) 
 SetSMS(Knight_U_Bow_Agro_Blademasterstand, 1, Knight_U_Bow_Agro_Blademasterstand_Data) 
 SetSMS(Knight_U_FE10Style_Magic_flasubanstand, 1, Knight_U_FE10Style_Magic_flasubanstand_Data) 
-SetSMS(Knight_U_Helmetless_Bow_Shield_Back_SALVAGED_BoneSethManstand, 1, Knight_U_Helmetless_Bow_Shield_Back_SALVAGED_BoneSethManstand_Data) 
 SetSMS(Knight_U_Lance_Alt_16x16_Agrostand, 1, Knight_U_Lance_Alt_16x16_Agrostand_Data) 
 SetSMS(Knight_U_Sword_16x16_Agrostand, 1, Knight_U_Sword_16x16_Agrostand_Data) 
 SetSMS(Lord_F_Hector_Axe_Shin19stand, 1, Lord_F_Hector_Axe_Shin19stand_Data) 
@@ -256,6 +255,7 @@ SetSMS(Soldier_M_FE10Style_v2_Lance_flasubanstand, 1, Soldier_M_FE10Style_v2_Lan
 SetSMS(Summoner_M_16x16_ISstand, 1, Summoner_M_16x16_ISstand_Data) 
 SetSMS(Swordmaster_M_FE10Style_Sword_L95stand, 1, Swordmaster_M_FE10Style_Sword_L95stand_Data) 
 SetSMS(Swordmaster_M_ISstand, 1, Swordmaster_M_ISstand_Data) 
+SetSMS(Thaumachinestand, 1, Thaumachinestand_Data) 
 SetSMS(Thief_F_ISstand, 1, Thief_F_ISstand_Data) 
 SetSMS(Trickster_M_Redone_StreetHero_bloodstand, 1, Trickster_M_Redone_StreetHero_bloodstand_Data) 
 SetSMS(Troubadour_F_ISstand, 1, Troubadour_F_ISstand_Data) 
@@ -269,7 +269,6 @@ SetSMS(Wyvern_Lord_M_Helmless_Axe_flasubanstand, 1, Wyvern_Lord_M_Helmless_Axe_f
 SetSMS(Wyvern_Rider_F_Axe_flasubanstand, 1, Wyvern_Rider_F_Axe_flasubanstand_Data) 
  
  
-SetMMS(610c98ebcdd437ef19888e0e38742e691689b9e2, 610c98ebcdd437ef19888e0e38742e691689b9e2_Data, DemonKingAP) 
 SetMMS(Archer_F_Improved_Derwalk, Archer_F_Improved_Derwalk_Data, DemonKingAP) 
 SetMMS(Archsage_F_Brunnya_Jiege_TLPwalk, Archsage_F_Brunnya_Jiege_TLPwalk_Data, DemonKingAP) 
 SetMMS(Bard_M_Fancy_MeatOfJusticewalk, Bard_M_Fancy_MeatOfJusticewalk_Data, DemonKingAP) 
@@ -298,14 +297,14 @@ SetMMS(Great_Lord_F_Eirika_Sword_ISwalk, Great_Lord_F_Eirika_Sword_ISwalk_Data, 
 SetMMS(Greil_Lord_M_Unknownwalk, Greil_Lord_M_Unknownwalk_Data, DemonKingAP) 
 SetMMS(Griffon_Rider_U_Bow_N426walk, Griffon_Rider_U_Bow_N426walk_Data, DemonKingAP) 
 SetMMS(Griffon_Rider_U_Lance_N426walk, Griffon_Rider_U_Lance_N426walk_Data, DemonKingAP) 
-SetMMS(Halberdier_M_2.0_TBAwalk, Halberdier_M_2.0_TBAwalk_Data, DemonKingAP) 
+SetMMS(Halberdier_M_20_TBAwalk, Halberdier_M_20_TBAwalk_Data, DemonKingAP) 
 SetMMS(Hero_F_Sword_ISwalk, Hero_F_Sword_ISwalk_Data, DemonKingAP) 
 SetMMS(Hunter_M_MeatOfJusticewalk, Hunter_M_MeatOfJusticewalk_Data, DemonKingAP) 
+SetMMS(Juggernautwalk, Juggernautwalk_Data, DemonKingAP) 
 SetMMS(King_U_Bulwark_Axe_bloodwalk, King_U_Bulwark_Axe_bloodwalk_Data, DemonKingAP) 
 SetMMS(Knight_U_Axe_Agrowalk, Knight_U_Axe_Agrowalk_Data, DemonKingAP) 
 SetMMS(Knight_U_Bow_Agrowalk, Knight_U_Bow_Agrowalk_Data, DemonKingAP) 
 SetMMS(Knight_U_FE10Style_Magic_flasubanwalk, Knight_U_FE10Style_Magic_flasubanwalk_Data, DemonKingAP) 
-SetMMS(Knight_U_Helmetless_Bow_Shield_Back_SALVAGED_BoneSethManwalk, Knight_U_Helmetless_Bow_Shield_Back_SALVAGED_BoneSethManwalk_Data, DemonKingAP) 
 SetMMS(Knight_U_Lance_ISwalk, Knight_U_Lance_ISwalk_Data, DemonKingAP) 
 SetMMS(Knight_U_Sword_Agrowalk, Knight_U_Sword_Agrowalk_Data, DemonKingAP) 
 SetMMS(Lord_F_Hector_Axe_Shin19walk, Lord_F_Hector_Axe_Shin19walk_Data, DemonKingAP) 
@@ -341,6 +340,7 @@ SetMMS(Soldier_M_FE10Style_v2_Lance_flasubanwalk, Soldier_M_FE10Style_v2_Lance_f
 SetMMS(Summoner_M_ISwalk, Summoner_M_ISwalk_Data, DemonKingAP) 
 SetMMS(Swordmaster_M_FE10Style_Sword_L95walk, Swordmaster_M_FE10Style_Sword_L95walk_Data, DemonKingAP) 
 SetMMS(Swordmaster_M_ISwalk, Swordmaster_M_ISwalk_Data, DemonKingAP) 
+SetMMS(Thaumachinewalk, Thaumachinewalk_Data, DemonKingAP) 
 SetMMS(Thief_F_ISwalk, Thief_F_ISwalk_Data, DemonKingAP) 
 SetMMS(Trickster_M_Redone_StreetHero_bloodwalk, Trickster_M_Redone_StreetHero_bloodwalk_Data, DemonKingAP) 
 SetMMS(Troubadour_F_ISwalk, Troubadour_F_ISwalk_Data, DemonKingAP) 
@@ -359,10 +359,6 @@ POP
  
  
 //SMS Image Data 
- 
-ALIGN 4 
-25c9115a01baa7afc00010d6900dd4e903d7b443_Data: 
-#incbin "dmp/25c9115a01baa7afc00010d6900dd4e903d7b443.dmp" 
  
 ALIGN 4 
 Archer_F_Improved_Derstand_Data: 
@@ -477,8 +473,8 @@ Griffon_Rider_U_Lance_N426stand_Data:
 #incbin "dmp/Griffon_Rider_U_Lance_N426stand.dmp" 
  
 ALIGN 4 
-Halberdier_M_2.0_TBAstand_Data: 
-#incbin "dmp/Halberdier_M_2.0_TBAstand.dmp" 
+Halberdier_M_20_TBAstand_Data: 
+#incbin "dmp/Halberdier_M_20_TBAstand.dmp" 
  
 ALIGN 4 
 Hero_F_ISstand_Data: 
@@ -487,6 +483,10 @@ Hero_F_ISstand_Data:
 ALIGN 4 
 Hunter_M_MeatOfJusticestand_Data: 
 #incbin "dmp/Hunter_M_MeatOfJusticestand.dmp" 
+ 
+ALIGN 4 
+Juggernautstand_Data: 
+#incbin "dmp/Juggernautstand.dmp" 
  
 ALIGN 4 
 King_U_Bulwark_Axe_bloodstand_Data: 
@@ -503,10 +503,6 @@ Knight_U_Bow_Agro_Blademasterstand_Data:
 ALIGN 4 
 Knight_U_FE10Style_Magic_flasubanstand_Data: 
 #incbin "dmp/Knight_U_FE10Style_Magic_flasubanstand.dmp" 
- 
-ALIGN 4 
-Knight_U_Helmetless_Bow_Shield_Back_SALVAGED_BoneSethManstand_Data: 
-#incbin "dmp/Knight_U_Helmetless_Bow_Shield_Back_SALVAGED_BoneSethManstand.dmp" 
  
 ALIGN 4 
 Knight_U_Lance_Alt_16x16_Agrostand_Data: 
@@ -649,6 +645,10 @@ Swordmaster_M_ISstand_Data:
 #incbin "dmp/Swordmaster_M_ISstand.dmp" 
  
 ALIGN 4 
+Thaumachinestand_Data: 
+#incbin "dmp/Thaumachinestand.dmp" 
+ 
+ALIGN 4 
 Thief_F_ISstand_Data: 
 #incbin "dmp/Thief_F_ISstand.dmp" 
  
@@ -696,10 +696,6 @@ Wyvern_Rider_F_Axe_flasubanstand_Data:
  
  
 //MMS Image Data 
- 
-ALIGN 4 
-610c98ebcdd437ef19888e0e38742e691689b9e2_Data: 
-#incbin "dmp/610c98ebcdd437ef19888e0e38742e691689b9e2.dmp" 
  
 ALIGN 4 
 Archer_F_Improved_Derwalk_Data: 
@@ -814,8 +810,8 @@ Griffon_Rider_U_Lance_N426walk_Data:
 #incbin "dmp/Griffon_Rider_U_Lance_N426walk.dmp" 
  
 ALIGN 4 
-Halberdier_M_2.0_TBAwalk_Data: 
-#incbin "dmp/Halberdier_M_2.0_TBAwalk.dmp" 
+Halberdier_M_20_TBAwalk_Data: 
+#incbin "dmp/Halberdier_M_20_TBAwalk.dmp" 
  
 ALIGN 4 
 Hero_F_Sword_ISwalk_Data: 
@@ -824,6 +820,10 @@ Hero_F_Sword_ISwalk_Data:
 ALIGN 4 
 Hunter_M_MeatOfJusticewalk_Data: 
 #incbin "dmp/Hunter_M_MeatOfJusticewalk.dmp" 
+ 
+ALIGN 4 
+Juggernautwalk_Data: 
+#incbin "dmp/Juggernautwalk.dmp" 
  
 ALIGN 4 
 King_U_Bulwark_Axe_bloodwalk_Data: 
@@ -840,10 +840,6 @@ Knight_U_Bow_Agrowalk_Data:
 ALIGN 4 
 Knight_U_FE10Style_Magic_flasubanwalk_Data: 
 #incbin "dmp/Knight_U_FE10Style_Magic_flasubanwalk.dmp" 
- 
-ALIGN 4 
-Knight_U_Helmetless_Bow_Shield_Back_SALVAGED_BoneSethManwalk_Data: 
-#incbin "dmp/Knight_U_Helmetless_Bow_Shield_Back_SALVAGED_BoneSethManwalk.dmp" 
  
 ALIGN 4 
 Knight_U_Lance_ISwalk_Data: 
@@ -984,6 +980,10 @@ Swordmaster_M_FE10Style_Sword_L95walk_Data:
 ALIGN 4 
 Swordmaster_M_ISwalk_Data: 
 #incbin "dmp/Swordmaster_M_ISwalk.dmp" 
+ 
+ALIGN 4 
+Thaumachinewalk_Data: 
+#incbin "dmp/Thaumachinewalk.dmp" 
  
 ALIGN 4 
 Thief_F_ISwalk_Data: 

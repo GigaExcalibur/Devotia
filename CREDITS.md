@@ -9,6 +9,69 @@ Ranun - Peerless
 Cam - Mieke
 Giselle - Cravat
 
+# Map Sprites
+Mage Lord - TyTheBub
+Gremory Lord - Pikmin, Unknown
+Princess - TopazLight
+Mercenary - Agro
+Runelord - Nuramon
+Rogue - Unknown
+Hunter - MeatOfJustice
+Marksman - ArcherBias
+Trickster - StreetHero, Blood
+Lancer - Flasuban
+Halberdier - TBA
+Starosta - Spud, Dora Drago
+Warmaster - ArcherBias
+Woodsman - Alusq
+Raider - Zoramine Fae
+Ravager - Zoramine Fae
+Sword/Lance/Axe Armors - Agro
+Dreadnought - Norikins
+Chevalier - Hypergammaspaces
+Cataphract - Pikmin, Der
+Mage Armor - Flasuban
+Thaumachine - WarPath
+Harbinger - Blood
+Spellmaster - Jiege, TLP
+Light Mage - Leo_Link, L95
+Starseer - Melia
+Sorcerer - Pikmin, Nuramon, Der
+Cleric - TopazLight
+Thaumaturge - Der
+Templar - Der
+Physical Cavaliers - Flasuban, Tordo45
+Cuirassier - L95
+Chasseur - L95
+Forester - RobertFPY
+Scout - Flasuban
+Ranger - Flasuban
+Windrider - Flasuban
+Seraph Wing - CamusZekeSirius
+Harrier - Ayr
+Daemon Wing - Ayr
+Dracorider - Flasuban
+Dracolord - Flasuban
+Bombardier - N426
+Barbarossa - N426
+Bow Armor - Agro, Blademaster
+Juggernaut - SALVAGED, BoneManSeth
+Malignant/Melusine - MeatOfJustice
+Drifter - Der
+Adventurer - ArcherBias
+Spellstrider - Pikmin, Der
+Oliphantier - Pikmin, Der
+Wolfssegner - dw about it
+Savior - Permafrost
+Champion - Unknown
+Bard - MeatOfJustice
+CrownPrince - Shin19
+Prince - WarPath
+Therion - L95
+Therion (Wister) - Zoramine Fae
+Scourge - N426
+Overlord - Blood
+
 # Skill contributors
 
 - circleseverywhere

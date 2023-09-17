@@ -411,6 +411,22 @@ Starving outcasts of Drekkan society,[N]
 subsisting by razing homes and stealing[N]
 belongings of unlucky souls they pass.[X]
 
+## FernyigesName
+Fernyiges[X]
+
+## FernyigesDesc
+Iron-fisted ruler of all of Meraly.[N]
+Feels it is his responsibility, as[N]
+his alone, to make it bear fruit.[X]
+
+## ZakariaName
+Zakaria[X]
+
+## ZakariaDesc
+Current lord of House Ouahed. Demure and[N]
+soft-spoken now, his early years were[N]
+full of revelry and irreperable mistakes.[X]
+
 ## HafeezName
 Hafeez[X]
 
@@ -426,3 +442,19 @@ Operiere[X]
 Drek's lauded Knight General. She once[N]
 fought for her family's security, but[N]
 those halcyon days have since passed.[X]
+
+## WinnehildName
+Winnehild[X]
+
+## WinnehildDesc
+Drek's lauded Hawk General. Enthralled[N]
+by violence, she earned the position by[N]
+killer her predecessor last regime.[X]
+
+## NolierName
+Noiler[X]
+
+## NoilerDesc
+Drek's eminent High Commander. Origins in[N]
+the empire's church, her primary goal is[N]
+to uphold her citizens' moral integrity.[X]

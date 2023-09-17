@@ -9,6 +9,20 @@ Ranun - Peerless
 Cam - Mieke
 Giselle - Cravat
 
+# Map Sprites
+Mage Lord - TyTheBub
+Gremory Lord - Pikmin, Unknown
+Princess - TopazLight
+Mercenary - Agro
+Runelord - Nuramon
+Rogue - Unknown
+Hunter - MeatOfJustice
+Marksman - ArcherBias
+Trickster - StreetHero, Blood
+Lancer - Flasuban
+Halberdier - TBA
+
+
 # Skill contributors
 
 - circleseverywhere

@@ -1,0 +1,47 @@
+//Generated - do not edit
+//Copy paste the /* */ section into your definitions if desired.
+//Please copy the SetSMS and SetMMS section to change SMS size and MMS AP. 
+ 
+ 
+ 
+/* 
+//First free SMS is 107
+#define Mage_Lord_F_Eliwood_16x16_TyTheBubstand 107 
+ 
+ 
+//First free MMS is 127 and will show up if you've expanded classes.
+#define Mage_Lord_F_Eliwood_TyTheBubwalk 127 
+ 
+*/ 
+ 
+ 
+ 
+/* 
+//Copy from here 
+PUSH 
+ 
+SetSMS(Mage_Lord_F_Eliwood_16x16_TyTheBubstand, 1, Mage_Lord_F_Eliwood_16x16_TyTheBubstand_Data) 
+ 
+ 
+SetMMS(Mage_Lord_F_Eliwood_TyTheBubwalk, Mage_Lord_F_Eliwood_TyTheBubwalk_Data, DemonKingAP) 
+ 
+POP 
+//Copy until here 
+*/ 
+ 
+ 
+//SMS Image Data 
+ 
+ALIGN 4 
+Mage_Lord_F_Eliwood_16x16_TyTheBubstand_Data: 
+#incbin "dmp/Mage_Lord_F_Eliwood_16x16_TyTheBubstand.dmp" 
+ 
+ 
+ 
+ 
+//MMS Image Data 
+ 
+ALIGN 4 
+Mage_Lord_F_Eliwood_TyTheBubwalk_Data: 
+#incbin "dmp/Mage_Lord_F_Eliwood_TyTheBubwalk.dmp" 
+ 

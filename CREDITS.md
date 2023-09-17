@@ -21,6 +21,18 @@ Marksman - ArcherBias
 Trickster - StreetHero, Blood
 Lancer - Flasuban
 Halberdier - TBA
+Starosta - Spud, Dora Drago
+Warmaster - ArcherBias
+Woodsman - Alusq
+Raider - Zoramine Fae
+Ravager - Zoramine Fae
+Sword/Lance/Axe Armors - Agro
+Dreadnought - Norikins
+Chevalier - Hypergammaspaces
+Cataphract - Pikmin, Der
+Mage Armor - Flasuban
+Thaumachine - WarPath
+Harbinger - Blood
 
 
 # Skill contributors

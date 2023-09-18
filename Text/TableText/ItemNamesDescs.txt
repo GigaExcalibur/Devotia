@@ -539,3 +539,79 @@ Ruin[X]
 
 ## SolsticeName
 Solstice[X]
+
+## GigaExcaliburName
+Giga Excalibur[X]
+
+## RegoliathName
+Regoliath[X]
+
+## CataclysmaelstromName
+Cataclysmaelstrom[X]
+
+## CataclysmaelstromDesc
+[lock]Klaudia. Fire/wind magic combo.[N]
+Magnifies the weapon triangle.[X]
+
+## TevyesBladeName
+Tevye's Blade[X]
+
+## TevyesBladeDesc
+[lock]Ulrich. Belonged to his father.[N]
+Restores HP as damage dealt, and[N]
+hits weaker of foe's DEF/RES.[X]
+
+## SirventesName
+Sirventes[X]
+
+## SirventesDesc
+[lock]Josephine. Biting political parody.[N]
+Post-combat, adjacents heal 30% HP.[X]
+
+## ParentalHeirloomName
+Parental Heirloom[X]
+
+## ParentalHeirloomDesc
+[lock]Emerson. To be inherited when ready.[X]
+
+## MariettaName
+Marietta[X]
+
+## MariettaDesc
+[lock]Giselle. After combat, foe takes[N]
++3 true damage in future combats.[N]
+Stacks up to 3 times.[X]
+
+## SarkanFestalName
+Sarkan Festal[X]
+
+## SarkanFestalDesc
+[lock]Levia. Conduit for healing energy.[N]
+Heals 7+MAG HP; +2 SPD for 1 turn.[X]
+
+## PugiName
+Pugi[X]
+
+## PugiDesc
+[lock]Bear. Different than a voulge.[X]
+
+## SiriusName
+Sirius[X]
+
+## SiriusDesc
+[lock]Estella. Brightest Canis major.[N]
++30 Avoid when foe initiates.[X]
+
+## ProcyonName
+Procyon[X]
+
+## ProcyonDesc
+[lock]Carina. Brightest Canis minor.[N]
+User always strikes first.[X]
+
+## SpectactularName
+Spectacular[X]
+
+## SpectacularDesc
+[lock]Nirav. Let's put on a good show.[N]
++50 crit if foe can counter.[X]

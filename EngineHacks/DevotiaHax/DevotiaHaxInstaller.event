@@ -36,3 +36,10 @@
 
 #include "StealWithFullInv/Installer.event"
 // Vesly
+
+#include "ShowHealAmount/Installer.event"
+// Contro
+
+#include "SendInventoryOnDeath/Installer.event"
+// Contro
+

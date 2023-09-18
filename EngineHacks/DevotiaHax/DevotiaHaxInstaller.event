@@ -1,3 +1,6 @@
+#include "ExtendWeaponDescBox/Installer.event"
+// Vesly
+
 #include "AgeGetter/Installer.event"
 // Me!
 
@@ -20,9 +23,6 @@
 // Nat
 
 #include "ExpandGoalWindow/ExpandGoalWindow.event"
-// Vesly
-
-#include "ExtendWeaponDescBox/Installer.event"
 // Vesly
 
 #include "GroupAI/Installer.event"

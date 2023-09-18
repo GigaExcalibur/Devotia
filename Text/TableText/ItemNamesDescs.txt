@@ -574,6 +574,13 @@ Parental Heirloom[X]
 ## ParentalHeirloomDesc
 [lock]Emerson. To be inherited when ready.[X]
 
+## LateBloomerName
+Late Bloomer[X]
+
+## LateBloomerDesc
+Beth[lock] Crafted painstakingly by hand.[N]
+Neutral in all triangle matchups.[X]
+
 ## MariettaName
 Marietta[X]
 
@@ -599,19 +606,26 @@ Pugi[X]
 Sirius[X]
 
 ## SiriusDesc
-[lock]Estella. Brightest Canis major.[N]
+Estella[lock] Brightest Canis major.[N]
 +30 Avoid when foe initiates.[X]
 
 ## ProcyonName
 Procyon[X]
 
 ## ProcyonDesc
-[lock]Carina. Brightest Canis minor.[N]
+Carina[lock] Brightest Canis minor.[N]
 User always strikes first.[X]
 
 ## SpectactularName
 Spectacular[X]
 
 ## SpectacularDesc
-[lock]Nirav. Let's put on a good show.[N]
+Nirav[lock] Let's put on a good show.[N]
 +50 crit if foe can counter.[X]
+
+## yuh
+hnnnnnnnnnnnnnnnnnnh[N]
+hnnnnnnnnnnnnnnnnnnh[N]
+hnnnnnnnnnnnnnnnnnnh[N]
+hnnnnnnnnnnnnnnnnnnh[N]
+hnnnnnnnnnnnnnnnnnnh[X]

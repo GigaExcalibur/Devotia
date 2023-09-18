@@ -296,6 +296,8 @@ a skill when used.[X]
 
 #include "TableText/TableTextInstaller.event"
 
+#include "ChapterText/ChapterTextInstaller.event"
+
 ## IronBroadswordName
 Silver Broadsword[X]
 

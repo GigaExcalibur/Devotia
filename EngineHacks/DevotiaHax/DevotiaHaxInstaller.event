@@ -21,3 +21,18 @@
 
 #include "ExpandGoalWindow/ExpandGoalWindow.event"
 // Vesly
+
+#include "ExtendWeaponDescBox/Installer.event"
+// Vesly
+
+#include "GroupAI/Installer.event"
+// Vesly
+
+#include "PreventAttacking/Installer.event"
+// Vesly
+
+#include "SetStatus/SetStatusInstaller.event"
+// Vesly
+
+#include "StealWithFullInv/Installer.event"
+// Vesly

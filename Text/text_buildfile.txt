@@ -297,39 +297,3 @@ a skill when used.[X]
 #include "TableText/TableTextInstaller.event"
 
 #include "ChapterText/ChapterTextInstaller.event"
-
-## IronBroadswordName
-Silver Broadsword[X]
-
-## IronGreatlanceName
-Silver Greatlance[X]
-
-## IronHamaxeName
-Silver Hamaxe[X]
-
-## IronBarebowName
-Silver Barebow[X]
-
-## IgnisArdereName
-Ignis Ardere[X]
-
-## GlaciesClaudereName
-Glacies Claudere[X]
-
-## TonitrusCanereName
-Tonitrus Canere[X]
-
-## VentusSaltareName
-Ventus Saltare[X]
-
-## LuxCongerereName
-Lux Congerere[X]
-
-## TenebraeOperiereName
-Tenebrae Operiere[X]
-
-## HPRecoveryPelletName
-HP Recovery Pellet[X]
-
-## BladeOfTheRuinedKingName
-^{Blade of the Ruined King}[X]

@@ -1,7 +1,541 @@
-## MalakRobeName
-Malak Robe[X]
+## IronWeaponDesc
+The everyman's instrument.[X]
 
-## MalakRobeDesc
-A fragment of a brace exterior that once[N]
-binded legendary warrior Nova Gbadamosi.[N]
-+5 HP upon use.[X]
+## SteelWeaponDesc
+The irregular's instrument.[X]
+
+## SilverWeaponDesc
+The veteran's instrument.[X]
+
+## IndustrialWeaponDesc
+Churned from a Drekkan factory.[N]
+Scales off STR; targets RES.[X]
+
+## HeavyWeaponDesc
+Blunt in its brutality.[N]
+Cannot double; user strikes last.[X]
+
+## RangedWeaponDesc
+Throwable for extra reach.[X]
+
+## KillingWeaponDesc
+Discreet in its lethality.[X]
+
+## ReaverWeaponDesc
+Evaginates the weapon triangle.[X]
+
+## DoubleTriangleWeaponDesc
+Magnifies the weapon triangle.[X]
+
+## LightBrandDesc
+Glows with arcane infusement.[N]
+Phys at melee; magic at range.[X]
+
+## BraveWeaponDesc
+Bestows wielder with valor.[N]
+All attacks are consecutive.[X]
+
+## WyrmslayerDesc
+Ancient Drekkan theurgistic creation.[N]
+Hungers for old draconic blood.[X]
+
+## UncounterableWeaponDesc
+Flies the wielder's cause.[N]
+Foe cannot counterattack.[X]
+
+## RaiderAxeDesc
+Offense is the best defense.[N]
+-5 DEF/RES, +3 SPD.[X]
+
+## DevilAxeDesc
+The die has already been cast...[N]
+(31 - LCK%) chance to backfire.[X]
+
+## MinibowDesc
+Lower draw weight for close shots.[N]
+Cannot attack at range.[X]
+
+## LongbowDesc
+Higher draw weight for long shots.[X]
+
+## ShortbowDesc
+Scholars will debate this[N]
+for centuries to come.[X]
+
+## RadiantBowDesc
+Glows with arcane infusement.[N]
+Attacks are magical.[X]
+
+## IronSwordName
+Iron Sword[X]
+
+## SteelSwordName
+Steel Sword[X]
+
+## SilverSwordName
+Silver Sword[X]
+
+## IronSabreName
+Iron Sabre[X]
+
+## SteelSabreName
+Steel Sabre[X]
+
+## SilverSabreName
+Silver Sabre[X]
+
+## IronBroadswordName
+Iron Broadsword[X]
+
+## SteelBroadswordName
+Steel Broadsword[X]
+
+## SilverBroadswordName
+Silver Broadsword[X]
+
+## LightBrandName
+Light Brand[X]
+
+## WyrmslayerName
+Wyrmslayer[X]
+
+## LancereaverName
+Lancereaver[X]
+
+## RubySwordName
+Ruby Sword[X]
+
+## KillingEdgeName
+Killing Edge[X]
+
+## QuickSwordName
+Quick Sword[X]
+
+## IronLanceName
+Iron Lance[X]
+
+## SteelLanceName
+Steel Lance[X]
+
+## SilverLanceName
+Silver Lance[X]
+
+## IronGlaiveName
+Iron Glaive[X]
+
+## SteelGlaiveName
+Steel Glaive[X]
+
+## SilverGlaiveName
+Silver Glaive[X]
+
+## IronGreatlanceName
+Iron Greatlance[X]
+
+## SteelGreatlanceName
+Steel Greatlance[X]
+
+## SilverGreatlanceName
+Silver Greatlance[X]
+
+## JavelinName
+Javelin[X]
+
+## SpearName
+Spear[X]
+
+## AxereaverName
+Axereaver[X]
+
+## SapphireLanceName
+Sapphire Lance[X]
+
+## KillerLanceName
+Killer Lance[X]
+
+## BattleflagName
+Battleflag[X]
+
+## IronAxeName
+Iron Axe[X]
+
+## SteelAxeName
+Steel Axe[X]
+
+## SilverAxeName
+Silver Axe[X]
+
+## IronVoulgeName
+Iron Voulge[X]
+
+## SteelVoulgeName
+Steel Voulge[X]
+
+## SilverVoulgeName
+Silver Voulge[X]
+
+## IronHamaxeName
+Iron Hamaxe[X]
+
+## SteelHamaxeName
+Steel Hamaxe[X]
+
+## SilverHamaxeName
+Silver Hamaxe[X]
+
+## HandAxeName
+Hand Axe[X]
+
+## TomahawkName
+Tomahawk[X]
+
+## SwordreaverName
+Swordreaver[X]
+
+## EmeraldAxeName
+Emerald Axe[X]
+
+## KillerAxeName
+Killer Axe[X]
+
+## RaiderAxeName
+Raider Axe[X]
+
+## DevilAxeName
+Devil Axe[X]
+
+## IronBowName
+Iron Bow[X]
+
+## SteelBowName
+Steel Bow[X]
+
+## SilverBowName
+Silver Bow[X]
+
+## IronCompositeName
+Iron Composite[X]
+
+## SteelCompositeName
+Steel Composite[X]
+
+## SilverCompositeName
+Silver Composite[X]
+
+## MinibowName
+Minibow[X]
+
+## ShortbowName
+Shortbow[X]
+
+## LongbowName
+Longbow[X]
+
+## GreatbowName
+Greatbow[X]
+
+## KillerBowName
+Killer Bow[X]
+
+## RadiantBowName
+Radiant Bow[X]
+
+## FortuneStaffName
+Fortune[X]
+
+## FortuneStaffDesc
+Blesses allies with good luck.[N]
++30 Crit Avoid for 1 turn.[X]
+
+## FocusStaffName
+Focus[X]
+
+## FocusStaffDesc
+Blesses allies with concentration.[N]
++30 Hit for 1 turn.[X]
+
+## FleetfootStaffName
+Fleetfoot[X]
+
+## FleetfootStaffDesc
+Blesses allies with quick reflexes.[N]
++30 Avoid for 1 turn.[X]
+
+## BroadenStaffName
+Broaden[X]
+
+## BroadenStaffDesc
+Bolsters allies' physique.[N]
++4 CON for 1 turn.[X]
+
+## StrideStaffName
+Stride[X]
+
+## StrideStaffDesc
+Bolsters allies' swiftness.[N]
++4 MOV for 1 turn.[X]
+
+## HealStaffName
+Heal[X]
+
+## HealStaffDesc
+Magically treats allies' wounds.[N]
+Restores (7 + MAG/2) HP to ally.[X]
+
+## MendStaffName
+Mend[X]
+
+## MendStaffDesc
+Magically cures allies' wounds.[N]
+Restores (14 + MAG/2) HP to ally.[X]
+
+## RecoverStaffName
+Recover[X]
+
+## RecoverStaffDesc
+Miraculously cures allies' wounds.[N]
+Restores (28 + MAG/2) HP to an ally.[X]
+
+## PhysicStaffName
+Physic[X]
+
+## PhysicStaffDesc
+Cures allies' wounds from a distance.[N]
+Restores (21 + MAG/2) HP to an ally.[X]
+
+## FortifyStaffName
+Fortify[X]
+
+## FortifyStaffDesc
+Cures all nearby allies' wounds.[N]
+Restores (21 + MAG/2) HP to targets.[X]
+
+## WarpStaffName
+Warp[X]
+
+## WarpStaffDesc
+Breaks the fabric of space.[N]
+Warps ally to a faraway tile.[X]
+
+## RescueStaffName
+Rescue[X]
+
+## RescueStaffDesc
+Breaks the fabric of space.[N]
+Brings faraway ally adjacent.[X]
+
+## BarrierStaffName
+Barrier[X]
+
+## BarrierStaffDesc
+Blesses allies with magical ward.[N]
++7 RES, diminishes 1/turn.[X]
+
+## IronTomeDesc
+Initiate combat spell.[X]
+
+## SteelTomeDesc
+Textbook combat spell.[X]
+
+## SilverTomeDesc
+Hermetical combat spell.[X]
+
+## IndustrialTomeDesc
+Drekkan avart-garde war magick.[N]
+Scales off MAG; targets DEF.[X]
+
+## HeavyTomeDesc
+Single concentrated magical blast.[N]
+Cannot double; user strikes last.[X]
+
+## AlwaysHitTomeDesc
+The light sees all enemy movement.[N]
+Wielder's attacks always hit.[X]
+
+## ExtendedRangeTomeDesc
+Embrace the dark you call a home.[X]
+
+## DrainHPTomeDesc
+Cheats the natural life cycle.[N]
+Restores HP = 50% of damage dealt.[X]
+
+## IgnoreDefenseTomeDesc
+Wards will not save you.[N]
+Ignores 50% of foe's resistance.[X]
+
+## FireballName
+Fireball[X]
+
+## FireballDesc
+Initiate combat spell.[N]
+Effective against flammable foes.[X]
+
+## FireStormName
+Fire Storm[X]
+
+## FireStormDesc
+Textbook combat spell.[N]
+Effective against flammable foes.[X]
+
+## IgnisArdereName
+Ignis Ardere[X]
+
+## IgnisArdereDesc
+Hermetical combat spell.[N]
+Effective against flammable foes.[X]
+
+## LightningBoltName
+Lightning Bolt[X]
+
+## LightningBoltDesc
+Initiate combat spell.[N]
+Effective against doused foes.[X]
+
+## LightningBlastName
+Lightning Blast[X]
+
+## LightningBlastDesc
+Textbook combat spell.[N]
+Effective against doused foes.[X]
+
+## TonitrusCanereName
+Tonitrus Canere[X]
+
+## TonitrusCanereDesc
+Hermetical combat spell.[N]
+Effective against doused foes.[X]
+
+## TradewindsName
+Tradewinds[X]
+
+## TradewindsDesc
+Initiate combat spell.[N]
+Effective against flying foes.[X]
+
+## TradeTempestName
+Trade Tempest[X]
+
+## TradeTempestDesc
+Textbook combat spell.[N]
+Effective against flying foes.[X]
+
+## VentusSaltareName
+Ventus Saltare[X]
+
+## VentusSaltareDesc
+Hermetical combat spell.[N]
+Effective against flying foes.[X]
+
+## TremorName
+Tremor[X]
+
+## DasherName
+Dasher[X]
+
+## TerrasVoltareName
+Terras Voltare[X]
+
+## IcewindName
+Icewind[X]
+
+## BlizzardName
+Blizzard[X]
+
+## GlaciesClaudereName
+Glacies Claudere[X]
+
+## VexflameName
+Vexflame[X]
+
+## SweepingGaleName
+Sweeping Gale[X]
+
+## HolyLightName
+Holy Light[X]
+
+## LuminescenceName
+Luminescence[X]
+
+## LuxCongerereName
+Lux Congerere[X]
+
+## JusticeName
+Justice[X]
+
+## RighteousName
+Righteous[X]
+
+## AbsolutionName
+Absolution[X]
+
+## HeavenlyShineName
+Heavenly Shine[X]
+
+## DivineBrillianceName
+Divine Brilliance[X]
+
+## SacredEffulgenceName
+Sacred Effulgence[X]
+
+## SurgeName
+Surge[X]
+
+## ElsurgeName
+Elsurge[X]
+
+## DelugeName
+Deluge[X]
+
+## VexauraName
+Vexaura[X]
+
+## ResireName
+Resire[X]
+
+## NosferatuName
+Nosferatu[X]
+
+## MoonlightWaltzName
+Moonlight Waltz[X]
+
+## NightOdeName
+Night Ode[X]
+
+## TenebraeOperiereName
+Tenebrae Operiere[X]
+
+## MaliceName
+Malice[X]
+
+## ResentmentName
+Resentment[X]
+
+## MalevolenceName
+Malevolence[X]
+
+## SwarmZName
+Swarm Z[X]
+
+## CarreauVName
+Carreau V[X]
+
+## VerrineLName
+Verrine L[X]
+
+## VoidName
+Void[X]
+
+## ExpanseName
+Expanse[X]
+
+## SingularityName
+Singularity[X]
+
+## VexshadowName
+Vexshadow[X]
+
+## RuinName
+Ruin[X]
+
+## SolsticeName
+Solstice[X]

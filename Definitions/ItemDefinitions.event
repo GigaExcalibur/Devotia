@@ -102,8 +102,8 @@
 #define Tremor 0x81 // Skip a lot of consumables
 #define Dasher 0x82
 #define TerrasVoltare 0x83
-#define Icewind 0x82
-#define Blizzard 0x83
+#define Icewind 0x78 // I fucked up.
+#define Blizzard 0x92 // I fucked up.
 #define GlaciesClaudere 0x84
 #define LightningBolt 0x86 // We're gonna be skipping around here
 #define LightningBlast 0x8B

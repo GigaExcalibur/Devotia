@@ -222,6 +222,15 @@ Steel Composite[X]
 ## SilverCompositeName
 Silver Composite[X]
 
+## IronBarebowName
+Iron Barebow[X]
+
+## SteelBarebowName
+Steel Barebow[X]
+
+## SilverBarebowName
+Silver Barebow[X]
+
 ## MinibowName
 Minibow[X]
 
@@ -550,14 +559,14 @@ Regoliath[X]
 Cataclysmaelstrom[X]
 
 ## CataclysmaelstromDesc
-[lock]Klaudia. Fire/wind magic combo.[N]
+Klaudia[lock] Fire/wind magic combo.[N]
 Magnifies the weapon triangle.[X]
 
 ## TevyesBladeName
 Tevye's Blade[X]
 
 ## TevyesBladeDesc
-[lock]Ulrich. Belonged to his father.[N]
+Ulrich[lock] Belonged to his father.[N]
 Restores HP as damage dealt, and[N]
 hits weaker of foe's DEF/RES.[X]
 
@@ -565,27 +574,27 @@ hits weaker of foe's DEF/RES.[X]
 Sirventes[X]
 
 ## SirventesDesc
-[lock]Josephine. Biting political parody.[N]
+Josephine[lock] Biting political satire.[N]
 Post-combat, adjacents heal 30% HP.[X]
 
 ## ParentalHeirloomName
 Parental Heirloom[X]
 
 ## ParentalHeirloomDesc
-[lock]Emerson. To be inherited when ready.[X]
+Emerson[lock] To be inherited when ready.[X]
 
 ## LateBloomerName
 Late Bloomer[X]
 
 ## LateBloomerDesc
-Beth[lock] Crafted painstakingly by hand.[N]
+Beth[lock] Crafted slowly by hand.[N]
 Neutral in all triangle matchups.[X]
 
 ## MariettaName
 Marietta[X]
 
 ## MariettaDesc
-[lock]Giselle. After combat, foe takes[N]
+Giselle[lock] After combat, foe takes[N]
 +3 true damage in future combats.[N]
 Stacks up to 3 times.[X]
 
@@ -593,14 +602,14 @@ Stacks up to 3 times.[X]
 Sarkan Festal[X]
 
 ## SarkanFestalDesc
-[lock]Levia. Conduit for healing energy.[N]
+Levia[lock] Conduit for healing energy.[N]
 Heals 7+MAG HP; +2 SPD for 1 turn.[X]
 
 ## PugiName
 Pugi[X]
 
 ## PugiDesc
-[lock]Bear. Different than a voulge.[X]
+Bear[lock] Different than a voulge.[X]
 
 ## SiriusName
 Sirius[X]

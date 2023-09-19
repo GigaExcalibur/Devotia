@@ -33,6 +33,7 @@
 #define IsMagic 0x00000002
 #define IsStaff 0x00000004
 #define Indestructible 0x00000008
+#define DevotiaWeapon IsWeapon|Indestructible
 #define Unsellable 0x00000010
 #define IsBrave 0x00000020
 #define MagicDamage 0x00000040
@@ -62,7 +63,6 @@
 
 //Used For Consolidated AdvWeaponLocks 
 #define AdvWeaponLock 0x01000000
-
 
 // Weapon Effect
 #define NoEffect 0x0

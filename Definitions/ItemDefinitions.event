@@ -102,8 +102,8 @@
 #define Tremor 0x81 // Skip a lot of consumables
 #define Dasher 0x82
 #define TerrasVoltare 0x83
-#define Icewind 0x82
-#define Blizzard 0x83
+#define Icewind 0x78 // I fucked up.
+#define Blizzard 0x92 // I fucked up.
 #define GlaciesClaudere 0x84
 #define LightningBolt 0x86 // We're gonna be skipping around here
 #define LightningBlast 0x8B
@@ -140,9 +140,9 @@
 #define Malice 0xBF
 #define Resentment 0xC0
 #define Malevolence 0xC1
-#define Swarm 0xC2
-#define Carraeu 0xC3
-#define Verrine 0xC4
+#define SwarmZ 0xC2
+#define CarraeuV 0xC3
+#define VerrineL 0xC4
 #define Void 0xC5
 #define Expanse 0xC6
 #define Singularity 0xC7
@@ -158,7 +158,7 @@
 #define TevyesBlade 0xCB // Zero and Ulrich
 #define Sirventes 0xCC // Josephine
 #define ParentalHeirloom 0xCD // Emerson
-#define Wallflower 0xCE // Beth
+#define LateBloomer 0xCE // Beth
 // Cam
 #define Marietta 0xD0 // Giselle
 #define SarkanFestal 0xD1 // Levia

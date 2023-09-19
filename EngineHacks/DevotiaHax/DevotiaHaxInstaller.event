@@ -1,3 +1,6 @@
+#include "ExtendWeaponDescBox/Installer.event"
+// Vesly
+
 #include "AgeGetter/Installer.event"
 // Me!
 
@@ -18,3 +21,25 @@
 
 #include "StatScreenBlink/SSBlink.event"
 // Nat
+
+#include "ExpandGoalWindow/ExpandGoalWindow.event"
+// Vesly
+
+#include "GroupAI/Installer.event"
+// Vesly
+
+#include "PreventAttacking/Installer.event"
+// Vesly
+
+#include "SetStatus/SetStatusInstaller.event"
+// Vesly
+
+#include "StealWithFullInv/Installer.event"
+// Vesly
+
+#include "ShowHealAmount/Installer.event"
+// Contro
+
+#include "SendInventoryOnDeath/Installer.event"
+// Contro
+

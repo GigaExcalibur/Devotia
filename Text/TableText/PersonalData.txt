@@ -31,6 +31,12 @@ He/They/She[X]
 ## SheHeThey
 She/He/They[X]
 
+## StuartsFunnyPronouns
+Nor/Mal[X]
+
+## AzarsFunnyPronouns
+All of them.[X]
+
 ## Age14
 14[X]
 

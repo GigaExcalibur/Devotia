@@ -1,114 +1,114 @@
 INLINE MagCharTable,Base Magic,Magic Growth
 None,0,0
-Eirika,0,25
-Seth,2,10
-Gilliam,0,5
-Franz,1,10
-Moulder,3,40
-Vanessa,2,25
-Ross,0,5
-Neimi,2,15
-Colm,1,10
-Garcia,0,5
-Innes,1,10
-Lute,5,65
-Natasha,1,60
-Cormag,0,5
-Ephraim,0,15
-Forde,1,10
-Kyle,0,10
-Amelia,2,25
-Artur,5,50
-Gerik,0,10
-Tethys,0,5
-Marisa,1,10
-Saleh,11,30
-Ewan,2,45
-L'Arachel,5,50
-Dozla,0,5
-+AC0-0,0,50
-Rennac,3,35
-Duessel,0,5
-Myrrh,2,85
-Knoll,10,50
-Joshua,0,20
-Syrene,4,20
-Tana,2,15
-Lyon,13,50
-Orson,3,10
-Glen,2,0
-Selena,10,40
-Valter,2,10
-Riev,10,45
-Caellach,2,5
-Fado,4,5
-Ismaire,7,15
-Hayden,2,10
-FakeEirika,0,0
-+AC0-0,0,0
+0x01 Klaudia,0,49
+0x02 Zero,0,105
+0x03 Josephine,0,56
+0x04 Emerson,0,14
+0x05 Beth,0,42
+0x06 Cam,0,25
+0x07 Giselle,0,5
+0x08 Levia,0,15
+0x09 Stuart,0,10
+0x0A Bear,0,5
+0x0B Estella,0,10
+0x0C Carina,0,65
+0x0D Nirav,0,60
+0x0E Alma,0,5
+0x0F Roswell,0,15
+0x10 Hong Chen,0,10
+0x11 Darina,0,10
+0x12 Eugenia,0,25
+0x13 Maris,0,50
+0x14 Phillipa,0,10
+0x15 Maeve,0,5
+0x16 Evren,0,10
+0x17 Dane,0,30
+0x18 Ulrich,0,45
+0x19 Evie,0,50
+0x1A Maybelline,0,5
+0x1B Lux,0,50
+0x1C Ekaitz,0,35
+0x1D Bria,0,5
+0x1E Jaufrea,0,85
+0x1F Kylie,0,50
+0x20 Elliot,0,20
+0x21 Luair,0,20
+0x22 Axel,0,15
+0x23 Willa,0,50
+0x24 Calvin,0,10
+0x25 Clovis,0,0
+0x26 Orion,0,40
+0x27 Astraea,0,10
+0x28 Ansel,0,45
+0x29 Azar,0,5
+0x2A Evelyn,0,5
+0x2B Aleyna,0,15
+0x2C Brynhild,0,10
+0x2D Rami,0,0
+0x2E Samil,0,0
+0x2F Cetus,0,0
 0,0,0
 0,0,0
 0,0,0
-0,0,0
-+AC0-0,0,0
-+AC0-0,0,0
-+AC0-0,0,0
-+AC0-0,0,0
-+AC0-0,0,0
-+AC0-0,0,0
-+AC0-0,0,0
-+AC0-0,0,0
+#NAME?,0,0
+#NAME?,0,0
+#NAME?,0,0
+#NAME?,0,0
+#NAME?,0,0
+#NAME?,0,0
+#NAME?,0,0
+#NAME?,0,0
 Lyon's Summon,0,0
-+AC0-0,0,0
-+AC0-0,0,0
+#NAME?,0,0
+#NAME?,0,0
 Knoll's Summon,0,0
 Ewan's Summon,0,0
-Lyon (Ch 17),13,50
-Morva (Ch 20),6,85
-Orson (Ch 5x),3,10
-Valter (Ch 15),2,5
-Selena (Ch 10B +ACY- 13B),10,40
-Valter (Prologue),2,5
+Lyon (Ch 17),0,50
+Morva (Ch 20),0,85
+Orson (Ch 5x),0,10
+Valter (Ch 15),0,5
+Selena (Ch 10B +ACY- 13B),0,40
+Valter (Prologue),0,5
 Breguet (Ch 1),0,5
 Bone (Ch 2),0,5
-Bazba (Ch 3),1,10
-Entombed (Ch 4),1,5
-Saar (Ch 5),1,5
-Novala (Ch 6),8,50
-Murray (Ch 7),2,5
-Tirado (Ch 8),3,15
-Binks (Ch 9A),2,10
-Pablo (Ch 10A),8,50
-Maelduin (Ch 12A),2,10
-Aias (Ch 13A),2,5
-Carlyle (Ch 14A),5,30
-Caellach (Ch 15),3,5
-Pablo (Ch 13A),8,50
+Bazba (Ch 3),0,10
+Entombed (Ch 4),0,5
+Saar (Ch 5),0,5
+Novala (Ch 6),0,50
+Murray (Ch 7),0,5
+Tirado (Ch 8),0,15
+Binks (Ch 9A),0,10
+Pablo (Ch 10A),0,50
+Maelduin (Ch 12A),0,10
+Aias (Ch 13A),0,5
+Carlyle (Ch 14A),0,30
+Caellach (Ch 15),0,5
+Pablo (Ch 13A),0,50
 0,0,0
-Gorgon (Ch 18),10,65
-Riev (Ch 19 +ACY- 20),10,45
-0,0,0
-0,0,0
-Gheb (Ch 9B),2,5
-Beran (Ch 10B),3,15
-Cyclops (Ch 12B),2,5
-Wight (Ch 11A),2,5
-Deathgoyle (Ch 11B),3,5
-Entombed (Monster Boss),3,5
+Gorgon (Ch 18),0,65
+Riev (Ch 19 +ACY- 20),0,45
 0,0,0
 0,0,0
+Gheb (Ch 9B),0,5
+Beran (Ch 10B),0,15
+Cyclops (Ch 12B),0,5
+Wight (Ch 11A),0,5
+Deathgoyle (Ch 11B),0,5
+Entombed (Monster Boss),0,5
 0,0,0
-+AC0-0,0,0
-Hunter (Ch 16),3,10
-+AC0-0,0,0
+0,0,0
+0,0,0
+#NAME?,0,0
+Hunter (Ch 16),0,10
+#NAME?,0,0
 Brigand,0,0
 0,0,0
 O'Neill (Prologue),0,5
 Glen (Cutscene),0,0
-Zonta (Ch 5x),1,5
-Vigarde (Ch 14B),5,15
-Lyon (Ch Final),20,20
-Orson (Ch 16),3,5
+Zonta (Ch 5x),0,5
+Vigarde (Ch 14B),0,15
+Lyon (Ch Final),0,20
+Orson (Ch 16),0,5
 0,0,0
 0,0,0
 0,0,0

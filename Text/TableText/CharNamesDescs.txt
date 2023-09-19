@@ -3,7 +3,7 @@ Klaudia[X]
 
 ## KlaudiaDesc
 Heir apparent to House Ouahed.[N]
-Unwavering in devotion to[N]
+Unwavering in her devotion to[N]
 House Sarka's eternal glory.[X]
 
 ## ZeroName
@@ -188,7 +188,7 @@ Ulrich[X]
 ## UlrichDesc
 Royal knight and nepotism hire of Sarka.[N]
 A natural people pleaser, he strives to[N]
-exceed the expecations of his new duty.[X]
+exceed the expectations of his new duty.[X]
 
 ## EmilleName
 Emille[X]
@@ -218,7 +218,7 @@ being torn from his mother years prior.[X]
 Ekaitz[X]
 
 ## EkaitzDesc
-Liutenant of renowned sellsword company[N]
+Lieutenant of renowned sellsword company[N]
 Aleyna's Mercenaries. A reformed gambler,[N]
 mellowed out after years on the run.[X]
 
@@ -298,7 +298,7 @@ and volunteers at a church regularly.[X]
 Orion[X]
 
 ## OrionDesc
-Drek's former lauded Arcane General.[N]
+Drek's formerly lauded Arcane General.[N]
 Once imprisoned for treason, he defected[N]
 to continue his work protecting children.[X]
 
@@ -335,7 +335,7 @@ orders as loyally as the hound he rides.[X]
 Evelyn[X]
 
 ## EvelynDesc
-Drek's former lauded Knight General.[N]
+Drek's formerly lauded Knight General.[N]
 Reunited with her only son, she severed[N]
 every connection to her military career.[X]
 

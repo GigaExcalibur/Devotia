@@ -190,10 +190,10 @@ Royal knight and nepotism hire of Sarka.[N]
 A natural people pleaser, he strives to[N]
 exceed the expectations of his new duty.[X]
 
-## EmilleName
-Emille[X]
+## EvieName
+Evie[X]
 
-## EmilleDesc
+## EvieDesc
 Royal knight and nepotism hire of Sarka.[N]
 A deviant, she shuns weapon training to[N]
 devote herself to study of elder magic.[X]

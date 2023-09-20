@@ -85,14 +85,14 @@ The stat that snake oil pure water[N]
 salesmen tell you is underrated.[X]
 
 # 0x690
- Ch. Status[X]
+ Ch. status[X]
  
 # 0x6E0
 Look at chapter information such as[N]
 enemy count, gold, and turn number.[X]
 
 # 0x69A
- Unit List[X]
+ Unit list[X]
  
 # 0x6DF
 View properties of all units[N]
@@ -109,7 +109,7 @@ Learn details about the cast and[N]
 crew that brought you Devotia![X]
  
 # 0x6A0
- End Turn[X]
+ End turn[X]
 
 #0x3A LearnedSkillText
 //first text ID in the free block

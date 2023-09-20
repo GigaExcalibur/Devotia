@@ -100,3 +100,10 @@ sanic speed lmao xd[X]
 ## CritAvoidStatScreenDesc
 The degree to which your unit is[N]
 guarded against enemy criticals.[X]
+
+## BackstageName
+ Backstage[X]
+ 
+## BackstageDesc
+View an exclusive tour of[N]
+Devotia behind the scenes.[X]

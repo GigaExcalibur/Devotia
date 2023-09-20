@@ -1,8 +1,8 @@
 PUSH
 
 ORG 0x59D216 // Chapter menu width
-BYTE 0xB
+BYTE 0x9
 ORG $1CA86 // Chapter menu right side x-coordinate
-BYTE 0x12
+BYTE 0x15
 
 POP

@@ -43,3 +43,5 @@
 #include "SendInventoryOnDeath/Installer.event"
 // Contro
 
+#include "GuideEvent/shinan.event"
+// Shinan

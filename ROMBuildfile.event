@@ -23,6 +23,10 @@
 	//Supports
 	#include "Supports/SupportsInstaller.event"
 	MESSAGE Used support space ends at currentOffset
+	
+	//Music
+	#include "Music/MusicInstaller.event"
+	MESSAGE Used music space ends at currentOffset
 
     //Engine Hacks
     #include "EngineHacks/_MasterHackInstaller.event"

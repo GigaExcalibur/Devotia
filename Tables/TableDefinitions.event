@@ -18,7 +18,6 @@
   //#define PersonalMusicTable 0x758a60
 //#endif
 
-
 //Weapon Ranks
 #define NoRank 0
 #define ERank 1

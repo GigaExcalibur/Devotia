@@ -1,9981 +1,9563 @@
-        .include "MPlayDef.s"
+	.include "MPlayDef.s"
 
-        .equ    FortuneRavine_grp, voicegroup000
-        .equ    FortuneRavine_pri, 0
-        .equ    FortuneRavine_rev, 0
-        .equ    FortuneRavine_key, 0
+	.equ	song01_grp, voicegroup000
+	.equ	song01_pri, 0
+	.equ	song01_rev, 0
+	.equ	song01_mvl, 127
+	.equ	song01_key, 0
+	.equ	song01_tbs, 1
+	.equ	song01_exg, 0
+	.equ	song01_cmp, 1
 
-        .section .rodata
-        .global FortuneRavine
-        .align  2
-
-@****************** Track 0 (Midi-Chn.0) ******************@
-
-FortuneRavine_0:
-        .byte   KEYSH , FortuneRavine_key+0
-@ 000   ----------------------------------------
-        .byte   TEMPO , 120/2
-        .byte   W24
-@ 001   ----------------------------------------
-        .byte   TEMPO , 90/2
-        .byte           VOL   , 95
-        .byte           VOICE , 39
-        .byte   W96
-@ 002   ----------------------------------------
-        .byte   W96
-@ 003   ----------------------------------------
-        .byte   W96
-@ 004   ----------------------------------------
-        .byte   W96
-@ 005   ----------------------------------------
-FortuneRavine_0_5:
-        .byte           N04   , An0 , v127
-        .byte   W06
-        .byte                   An0
-        .byte   W06
-        .byte                   An0
-        .byte   W06
-        .byte                   An0
-        .byte   W18
-        .byte           N12
-        .byte   W24
-        .byte                   An0
-        .byte   W24
-        .byte           N06   , An0 , v074
-        .byte   W06
-        .byte                   En0 , v080
-        .byte   W06
-        .byte   PEND
-@ 006   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 007   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 008   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 009   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 010   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 011   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 012   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 013   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 014   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 015   ----------------------------------------
-FortuneRavine_0_15:
-        .byte           N04   , Cn1 , v127
-        .byte   W06
-        .byte                   Cn1
-        .byte   W06
-        .byte                   Cn1
-        .byte   W06
-        .byte                   Cn1
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte           N04   , Dn1
-        .byte   W06
-        .byte                   Dn1
-        .byte   W06
-        .byte                   Dn1
-        .byte   W06
-        .byte                   Dn1
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte                   Cn1
-        .byte   W06
-        .byte                   Dn1
-        .byte   W06
-        .byte                   Fn1
-        .byte   W06
-        .byte                   Dn1
-        .byte   W06
-        .byte   PEND
-@ 016   ----------------------------------------
-FortuneRavine_0_16:
-        .byte           N04   , An0 , v127
-        .byte   W06
-        .byte                   An0
-        .byte   W06
-        .byte                   An0
-        .byte   W06
-        .byte                   An0
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte                   Gn0
-        .byte   W06
-        .byte                   An0
-        .byte   W12
-        .byte                   Cn1
-        .byte   W06
-        .byte                   An0
-        .byte   W12
-        .byte                   Dn1
-        .byte   W06
-        .byte           N12   , An0
-        .byte   W12
-        .byte           N06   , En0 , v080
-        .byte   W06
-        .byte   PEND
-@ 017   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_15
-@ 018   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_16
-@ 019   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 020   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 021   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 022   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 023   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 024   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 025   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_15
-@ 026   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_16
-@ 027   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_15
-@ 028   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_16
-@ 029   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 030   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 031   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 032   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 033   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 034   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 035   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 036   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 037   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 038   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 039   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 040   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 041   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 042   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 043   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_15
-@ 044   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_16
-@ 045   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_15
-@ 046   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_16
-@ 047   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 048   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 049   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 050   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 051   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 052   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 053   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_15
-@ 054   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_16
-@ 055   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_15
-@ 056   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_16
-@ 057   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 058   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 059   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 060   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 061   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 062   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 063   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 064   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_0_5
-@ 065   ----------------------------------------
-        .byte   FINE
-
-@****************** Track 1 (Midi-Chn.1) ******************@
-
-FortuneRavine_1:
-        .byte   KEYSH , FortuneRavine_key+0
-@ 000   ----------------------------------------
-        .byte   W24
-@ 001   ----------------------------------------
-        .byte           VOL   , 95
-        .byte           VOICE , 61
-        .byte   W96
-@ 002   ----------------------------------------
-        .byte   W96
-@ 003   ----------------------------------------
-        .byte   W96
-@ 004   ----------------------------------------
-        .byte   W96
-@ 005   ----------------------------------------
-        .byte   W96
-@ 006   ----------------------------------------
-        .byte   W96
-@ 007   ----------------------------------------
-        .byte   W96
-@ 008   ----------------------------------------
-        .byte   W96
-@ 009   ----------------------------------------
-        .byte   W96
-@ 010   ----------------------------------------
-        .byte   W96
-@ 011   ----------------------------------------
-        .byte   W96
-@ 012   ----------------------------------------
-        .byte   W96
-@ 013   ----------------------------------------
-        .byte   W96
-@ 014   ----------------------------------------
-        .byte   W96
-@ 015   ----------------------------------------
-        .byte   W96
-@ 016   ----------------------------------------
-        .byte   W96
-@ 017   ----------------------------------------
-FortuneRavine_1_17:
-        .byte           N06   , As3 , v127
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte           N15   , Dn4
-        .byte   W18
-        .byte           N06
-        .byte   W06
-        .byte                   En4
-        .byte   W06
-        .byte           N30   , Fn4
-        .byte   W36
-        .byte           N06
-        .byte   W06
-        .byte                   Gn4
-        .byte   W06
-        .byte           N78   , An4
-        .byte   W06
-        .byte   PEND
-@ 018   ----------------------------------------
-        .byte   W96
-@ 019   ----------------------------------------
-FortuneRavine_1_19:
-        .byte           N54   , En4 , v127
-        .byte   W54
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte           N12   , Bn3
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte   PEND
-@ 020   ----------------------------------------
-FortuneRavine_1_20:
-        .byte           N48   , Gn3 , v127
-        .byte   W48
-        .byte           N06
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   Bn3
-        .byte   W06
-        .byte           N12
-        .byte   W12
-        .byte           N06   , Cn4
-        .byte   W06
-        .byte                   Gn3
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte   PEND
-@ 021   ----------------------------------------
-        .byte           TIE   , En3
-        .byte   W96
-@ 022   ----------------------------------------
-        .byte   W72
-        .byte           EOT
-        .byte   W24
-@ 023   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_1_19
-@ 024   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_1_20
-@ 025   ----------------------------------------
-FortuneRavine_1_25:
-        .byte           N06   , Bn3 , v127
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte           N12   , En4
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte           N12   , Gn4
-        .byte   W12
-        .byte           N06   , An4
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte           N12   , Gn4
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte                   An4
-        .byte   W06
-        .byte           N78   , Bn4
-        .byte   W06
-        .byte   PEND
-@ 026   ----------------------------------------
-        .byte   W96
-@ 027   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_1_25
-@ 028   ----------------------------------------
-        .byte   W96
-@ 029   ----------------------------------------
-        .byte   W96
-@ 030   ----------------------------------------
-        .byte   W96
-@ 031   ----------------------------------------
-        .byte   W96
-@ 032   ----------------------------------------
-        .byte   W96
-@ 033   ----------------------------------------
-        .byte   W96
-@ 034   ----------------------------------------
-        .byte   W96
-@ 035   ----------------------------------------
-        .byte   W96
-@ 036   ----------------------------------------
-        .byte   W96
-@ 037   ----------------------------------------
-        .byte   W96
-@ 038   ----------------------------------------
-        .byte   W96
-@ 039   ----------------------------------------
-        .byte   W96
-@ 040   ----------------------------------------
-        .byte   W96
-@ 041   ----------------------------------------
-        .byte   W96
-@ 042   ----------------------------------------
-        .byte   W96
-@ 043   ----------------------------------------
-        .byte   W96
-@ 044   ----------------------------------------
-        .byte   W96
-@ 045   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_1_17
-@ 046   ----------------------------------------
-        .byte   W96
-@ 047   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_1_19
-@ 048   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_1_20
-@ 049   ----------------------------------------
-        .byte           TIE   , En3 , v127
-        .byte   W96
-@ 050   ----------------------------------------
-        .byte   W72
-        .byte           EOT
-        .byte   W24
-@ 051   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_1_19
-@ 052   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_1_20
-@ 053   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_1_25
-@ 054   ----------------------------------------
-        .byte   W96
-@ 055   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_1_25
-@ 056   ----------------------------------------
-        .byte   W96
-@ 057   ----------------------------------------
-        .byte   W96
-@ 058   ----------------------------------------
-        .byte   W96
-@ 059   ----------------------------------------
-        .byte   W96
-@ 060   ----------------------------------------
-        .byte   W96
-@ 061   ----------------------------------------
-        .byte   W96
-@ 062   ----------------------------------------
-        .byte   W96
-@ 063   ----------------------------------------
-        .byte   W96
-@ 064   ----------------------------------------
-        .byte   W96
-@ 065   ----------------------------------------
-        .byte   FINE
-
-@****************** Track 2 (Midi-Chn.2) ******************@
-
-FortuneRavine_2:
-        .byte   KEYSH , FortuneRavine_key+0
-@ 000   ----------------------------------------
-        .byte   W24
-@ 001   ----------------------------------------
-        .byte           PAN   , c_v-34
-        .byte           VOICE , 48
-        .byte           VOL   , 61
-        .byte   W09
-        .byte                   62
-        .byte   W03
-        .byte                   64
-        .byte   W03
-        .byte                   65
-        .byte   W06
-        .byte                   66
-        .byte   W06
-        .byte                   68
-        .byte   W06
-        .byte                   69
-        .byte   W03
-        .byte                   70
-        .byte   W03
-        .byte                   71
-        .byte   W06
-        .byte                   72
-        .byte   W03
-        .byte                   73
-        .byte   W03
-        .byte                   74
-        .byte   W03
-        .byte                   75
-        .byte   W03
-        .byte                   76
-        .byte   W06
-        .byte                   77
-        .byte   W03
-        .byte                   78
-        .byte   W03
-        .byte                   79
-        .byte   W03
-        .byte                   80
-        .byte   W06
-        .byte                   81
-        .byte   W03
-        .byte                   82
-        .byte   W03
-        .byte                   83
-        .byte   W06
-        .byte                   84
-        .byte   W03
-        .byte                   85
-        .byte   W03
-@ 002   ----------------------------------------
-        .byte   W03
-        .byte                   84
-        .byte   W03
-        .byte                   83
-        .byte   W06
-        .byte                   82
-        .byte   W03
-        .byte                   81
-        .byte   W06
-        .byte                   80
-        .byte   W06
-        .byte                   79
-        .byte   W03
-        .byte                   78
-        .byte   W03
-        .byte                   77
-        .byte   W03
-        .byte                   76
-        .byte   W12
-        .byte                   75
-        .byte   W03
-        .byte                   73
-        .byte   W03
-        .byte                   72
-        .byte   W06
-        .byte                   71
-        .byte   W09
-        .byte                   70
-        .byte   W03
-        .byte                   69
-        .byte   W03
-        .byte                   68
-        .byte   W06
-        .byte                   67
-        .byte   W03
-        .byte                   66
-        .byte   W06
-        .byte                   65
-        .byte   W06
-@ 003   ----------------------------------------
-        .byte           N96   , En3 , v107
-        .byte   W04
-        .byte           VOL   , 66
-        .byte   W05
-        .byte                   67
-        .byte   W03
-        .byte                   68
-        .byte   W04
-        .byte                   69
-        .byte   W05
-        .byte                   70
-        .byte   W03
-        .byte                   71
-        .byte   W06
-        .byte                   72
-        .byte   W06
-        .byte                   73
-        .byte   W03
-        .byte                   74
-        .byte   W01
-        .byte                   75
-        .byte   W03
-        .byte                   76
-        .byte   W09
-        .byte                   77
-        .byte   W03
-        .byte                   78
-        .byte   W05
-        .byte                   79
-        .byte   W01
-        .byte                   80
-        .byte   W08
-        .byte                   81
-        .byte   W03
-        .byte                   82
-        .byte   W04
-        .byte                   83
-        .byte   W06
-        .byte                   84
-        .byte   W02
-        .byte                   85
-        .byte   W03
-        .byte                   86
-        .byte   W03
-        .byte                   87
-        .byte   W03
-        .byte                   86
-        .byte   W03
-@ 004   ----------------------------------------
-        .byte                   85
-        .byte           N96   , Dn3
-        .byte   W03
-        .byte           VOL   , 84
-        .byte   W01
-        .byte                   83
-        .byte   W06
-        .byte                   82
-        .byte   W05
-        .byte                   81
-        .byte   W03
-        .byte                   80
-        .byte   W06
-        .byte                   79
-        .byte   W03
-        .byte                   78
-        .byte   W03
-        .byte                   77
-        .byte   W01
-        .byte                   76
-        .byte   W11
-        .byte                   75
-        .byte   W03
-        .byte                   73
-        .byte   W03
-        .byte                   72
-        .byte   W04
-        .byte                   71
-        .byte   W08
-        .byte                   70
-        .byte   W03
-        .byte                   69
-        .byte   W03
-        .byte                   68
-        .byte   W04
-        .byte                   67
-        .byte   W03
-        .byte                   66
-        .byte   W05
-        .byte                   65
-        .byte   W06
-        .byte                   64
-        .byte   W03
-        .byte                   63
-        .byte   W03
-        .byte                   61
-        .byte   W03
-        .byte                   62
-        .byte   W03
-@ 005   ----------------------------------------
-        .byte                   63
-        .byte           N96   , Gn2
-        .byte   W01
-        .byte           VOL   , 64
-        .byte   W03
-        .byte                   65
-        .byte   W06
-        .byte                   66
-        .byte   W05
-        .byte                   67
-        .byte   W03
-        .byte                   68
-        .byte   W03
-        .byte                   69
-        .byte   W06
-        .byte                   70
-        .byte   W01
-        .byte                   71
-        .byte   W06
-        .byte                   72
-        .byte   W06
-        .byte                   73
-        .byte   W02
-        .byte                   74
-        .byte   W03
-        .byte                   75
-        .byte   W03
-        .byte                   76
-        .byte   W07
-        .byte                   77
-        .byte   W03
-        .byte                   78
-        .byte   W02
-        .byte                   79
-        .byte   W04
-        .byte                   80
-        .byte   W05
-        .byte                   81
-        .byte   W04
-        .byte                   82
-        .byte   W05
-        .byte                   83
-        .byte   W04
-        .byte                   84
-        .byte   W05
-        .byte                   86
-        .byte   W03
-        .byte                   87
-        .byte   W03
-        .byte                   84
-        .byte   W03
-@ 006   ----------------------------------------
-        .byte                   85
-        .byte           N96   , Dn3
-        .byte   W04
-        .byte           VOL   , 84
-        .byte   W03
-        .byte                   83
-        .byte   W06
-        .byte                   82
-        .byte   W03
-        .byte                   81
-        .byte   W06
-        .byte                   80
-        .byte   W06
-        .byte                   79
-        .byte   W03
-        .byte                   78
-        .byte   W03
-        .byte                   77
-        .byte   W03
-        .byte                   76
-        .byte   W09
-        .byte                   75
-        .byte   W02
-        .byte                   74
-        .byte   W04
-        .byte                   73
-        .byte   W03
-        .byte                   72
-        .byte   W06
-        .byte                   71
-        .byte   W06
-        .byte                   70
-        .byte   W02
-        .byte                   69
-        .byte   W07
-        .byte                   68
-        .byte   W02
-        .byte                   67
-        .byte   W04
-        .byte                   66
-        .byte   W06
-        .byte                   65
-        .byte   W06
-        .byte                   64
-        .byte   W02
-@ 007   ----------------------------------------
-FortuneRavine_2_7:
-        .byte           VOL   , 63
-        .byte           N96   , En3 , v107
-        .byte   W03
-        .byte           VOL   , 64
-        .byte   W03
-        .byte                   65
-        .byte   W06
-        .byte                   66
-        .byte   W06
-        .byte                   67
-        .byte   W03
-        .byte                   68
-        .byte   W01
-        .byte                   69
-        .byte   W08
-        .byte                   70
-        .byte   W01
-        .byte                   71
-        .byte   W08
-        .byte                   72
-        .byte   W04
-        .byte                   73
-        .byte   W03
-        .byte                   74
-        .byte   W05
-        .byte                   76
-        .byte   W09
-        .byte                   77
-        .byte   W03
-        .byte                   78
-        .byte   W03
-        .byte                   79
-        .byte   W03
-        .byte                   80
-        .byte   W06
-        .byte                   81
-        .byte   W06
-        .byte                   82
-        .byte   W01
-        .byte                   83
-        .byte   W08
-        .byte                   84
-        .byte   W01
-        .byte                   85
-        .byte   W03
-        .byte                   86
-        .byte   W02
-        .byte   PEND
-@ 008   ----------------------------------------
-FortuneRavine_2_8:
-        .byte           VOL   , 87
-        .byte           N96   , Fs3 , v107
-        .byte   W09
-        .byte           VOL   , 86
-        .byte   W03
-        .byte                   85
-        .byte   W03
-        .byte                   84
-        .byte   W03
-        .byte                   83
-        .byte   W06
-        .byte                   82
-        .byte   W03
-        .byte                   81
-        .byte   W03
-        .byte                   80
-        .byte   W06
-        .byte                   79
-        .byte   W03
-        .byte                   78
-        .byte   W03
-        .byte                   77
-        .byte   W03
-        .byte                   76
-        .byte   W09
-        .byte                   75
-        .byte   W03
-        .byte                   74
-        .byte   W03
-        .byte                   73
-        .byte   W03
-        .byte                   72
-        .byte   W03
-        .byte                   71
-        .byte   W09
-        .byte                   69
-        .byte   W06
-        .byte                   68
-        .byte   W03
-        .byte                   67
-        .byte   W03
-        .byte                   66
-        .byte   W06
-        .byte                   65
-        .byte   W03
-        .byte   PEND
-@ 009   ----------------------------------------
-        .byte   W96
-@ 010   ----------------------------------------
-        .byte   W96
-@ 011   ----------------------------------------
-        .byte   W96
-@ 012   ----------------------------------------
-        .byte   W96
-@ 013   ----------------------------------------
-        .byte   W96
-@ 014   ----------------------------------------
-        .byte   W96
-@ 015   ----------------------------------------
-        .byte   W96
-@ 016   ----------------------------------------
-FortuneRavine_2_16:
-        .byte           PAN   , c_v+63
-        .byte           VOL   , 43
-        .byte           VOICE , 61
-        .byte   W96
-        .byte   PEND
-@ 017   ----------------------------------------
-FortuneRavine_2_17:
-        .byte   W12
-        .byte           N06   , As3 , v127
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte           N15   , Dn4
-        .byte   W18
-        .byte           N06
-        .byte   W06
-        .byte                   En4
-        .byte   W06
-        .byte           N30   , Fn4
-        .byte   W36
-        .byte           N06
-        .byte   W06
-        .byte   PEND
-@ 018   ----------------------------------------
-FortuneRavine_2_18:
-        .byte           N06   , Gn4 , v127
-        .byte   W06
-        .byte           N78   , An4
-        .byte   W90
-        .byte   PEND
-@ 019   ----------------------------------------
-FortuneRavine_2_19:
-        .byte   W12
-        .byte           N54   , En4 , v127
-        .byte   W54
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte           N12   , Bn3
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte   PEND
-@ 020   ----------------------------------------
-FortuneRavine_2_20:
-        .byte           N06   , Cn4 , v127
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte           N48   , Gn3
-        .byte   W48
-        .byte           N06
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   Bn3
-        .byte   W06
-        .byte           N12
-        .byte   W12
-        .byte           N06   , Cn4
-        .byte   W06
-        .byte   PEND
-@ 021   ----------------------------------------
-FortuneRavine_2_21:
-        .byte           N06   , Gn3 , v127
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte           TIE   , En3
-        .byte   W84
-        .byte   PEND
-@ 022   ----------------------------------------
-        .byte   W84
-        .byte           EOT
-        .byte   W12
-@ 023   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_2_19
-@ 024   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_2_20
-@ 025   ----------------------------------------
-FortuneRavine_2_25:
-        .byte           N06   , Gn3 , v127
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   Bn3
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte           N12   , En4
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte           N12   , Gn4
-        .byte   W12
-        .byte           N06   , An4
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte           N12   , Gn4
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte   PEND
-@ 026   ----------------------------------------
-FortuneRavine_2_26:
-        .byte           N06   , An4 , v127
-        .byte   W06
-        .byte           N78   , Bn4
-        .byte   W90
-        .byte   PEND
-@ 027   ----------------------------------------
-FortuneRavine_2_27:
-        .byte   W12
-        .byte           N06   , Bn3 , v127
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte           N12   , En4
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte           N12   , Gn4
-        .byte   W12
-        .byte           N06   , An4
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte           N12   , Gn4
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte   PEND
-@ 028   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_2_26
-@ 029   ----------------------------------------
-FortuneRavine_2_29:
-        .byte           PAN   , c_v-34
-        .byte           VOL   , 65
-        .byte           VOICE , 48
-        .byte   W06
-        .byte           VOL   , 66
-        .byte   W06
-        .byte                   67
-        .byte   W03
-        .byte                   68
-        .byte   W03
-        .byte                   69
-        .byte   W06
-        .byte                   70
-        .byte   W03
-        .byte                   71
-        .byte   W06
-        .byte                   72
-        .byte   W06
-        .byte                   74
-        .byte   W03
-        .byte                   75
-        .byte   W03
-        .byte                   76
-        .byte   W09
-        .byte                   77
-        .byte   W03
-        .byte                   78
-        .byte   W03
-        .byte                   79
-        .byte   W03
-        .byte                   80
-        .byte   W06
-        .byte                   81
-        .byte   W06
-        .byte                   82
-        .byte   W03
-        .byte                   83
-        .byte   W06
-        .byte                   85
-        .byte   W03
-        .byte                   86
-        .byte   W03
-        .byte                   87
-        .byte   W03
-        .byte                   86
-        .byte   W03
-        .byte   PEND
-@ 030   ----------------------------------------
-FortuneRavine_2_30:
-        .byte           VOL   , 85
-        .byte   W03
-        .byte                   84
-        .byte   W03
-        .byte                   83
-        .byte   W06
-        .byte                   82
-        .byte   W03
-        .byte                   53
-        .byte   W03
-        .byte                   54
-        .byte   W07
-        .byte                   55
-        .byte   W03
-        .byte                   56
-        .byte   W06
-        .byte                   57
-        .byte   W09
-        .byte                   58
-        .byte   W03
-        .byte                   59
-        .byte   W02
-        .byte           N48   , Dn3 , v107
-        .byte   W01
-        .byte           VOL   , 60
-        .byte   W03
-        .byte                   61
-        .byte   W12
-        .byte                   62
-        .byte   W03
-        .byte                   63
-        .byte   W03
-        .byte                   64
-        .byte   W03
-        .byte                   65
-        .byte   W09
-        .byte                   66
-        .byte   W06
-        .byte                   67
-        .byte   W03
-        .byte                   68
-        .byte   W05
-        .byte   PEND
-@ 031   ----------------------------------------
-FortuneRavine_2_31:
-        .byte           VOL   , 69
-        .byte           N96   , En3 , v107
-        .byte   W06
-        .byte           VOL   , 70
-        .byte   W04
-        .byte                   71
-        .byte   W08
-        .byte                   72
-        .byte   W06
-        .byte                   73
-        .byte   W03
-        .byte                   74
-        .byte   W04
-        .byte                   75
-        .byte   W03
-        .byte                   76
-        .byte   W11
-        .byte                   77
-        .byte   W03
-        .byte                   78
-        .byte   W04
-        .byte                   79
-        .byte   W05
-        .byte                   80
-        .byte   W06
-        .byte                   81
-        .byte   W06
-        .byte                   82
-        .byte   W06
-        .byte                   83
-        .byte   W06
-        .byte                   84
-        .byte   W03
-        .byte                   85
-        .byte   W03
-        .byte                   86
-        .byte   W03
-        .byte                   87
-        .byte   W06
-        .byte   PEND
-@ 032   ----------------------------------------
-FortuneRavine_2_32:
-        .byte           VOL   , 84
-        .byte           N96   , Dn3 , v107
-        .byte   W03
-        .byte           VOL   , 83
-        .byte   W04
-        .byte                   82
-        .byte   W03
-        .byte                   81
-        .byte   W05
-        .byte                   80
-        .byte   W06
-        .byte                   79
-        .byte   W03
-        .byte                   78
-        .byte   W03
-        .byte                   77
-        .byte   W01
-        .byte                   76
-        .byte   W09
-        .byte                   75
-        .byte   W02
-        .byte                   74
-        .byte   W03
-        .byte                   73
-        .byte   W03
-        .byte                   72
-        .byte   W04
-        .byte                   71
-        .byte   W06
-        .byte                   70
-        .byte   W02
-        .byte                   69
-        .byte   W06
-        .byte                   68
-        .byte   W01
-        .byte                   67
-        .byte   W03
-        .byte                   66
-        .byte   W06
-        .byte                   65
-        .byte   W05
-        .byte                   64
-        .byte   W03
-        .byte                   63
-        .byte   W03
-        .byte                   62
-        .byte   W03
-        .byte                   65
-        .byte   W09
-        .byte   PEND
-@ 033   ----------------------------------------
-FortuneRavine_2_33:
-        .byte           VOL   , 66
-        .byte           N96   , Gn2 , v107
-        .byte   W04
-        .byte           VOL   , 67
-        .byte   W03
-        .byte                   68
-        .byte   W05
-        .byte                   69
-        .byte   W06
-        .byte                   70
-        .byte   W03
-        .byte                   71
-        .byte   W07
-        .byte                   72
-        .byte   W06
-        .byte                   73
-        .byte   W03
-        .byte                   74
-        .byte   W03
-        .byte                   75
-        .byte   W03
-        .byte                   76
-        .byte   W12
-        .byte                   77
-        .byte   W03
-        .byte                   78
-        .byte   W03
-        .byte                   79
-        .byte   W05
-        .byte                   80
-        .byte   W06
-        .byte                   81
-        .byte   W06
-        .byte                   82
-        .byte   W04
-        .byte                   83
-        .byte   W08
-        .byte                   84
-        .byte   W01
-        .byte                   85
-        .byte   W03
-        .byte                   86
-        .byte   W02
-        .byte   PEND
-@ 034   ----------------------------------------
-FortuneRavine_2_34:
-        .byte           N96   , Dn3 , v107
-        .byte   W01
-        .byte           VOL   , 87
-        .byte   W05
-        .byte                   84
-        .byte   W01
-        .byte                   83
-        .byte   W06
-        .byte                   82
-        .byte   W03
-        .byte                   81
-        .byte   W06
-        .byte                   80
-        .byte   W06
-        .byte                   79
-        .byte   W03
-        .byte                   78
-        .byte   W03
-        .byte                   77
-        .byte   W03
-        .byte                   76
-        .byte   W09
-        .byte                   75
-        .byte   W02
-        .byte                   74
-        .byte   W04
-        .byte                   73
-        .byte   W03
-        .byte                   72
-        .byte   W06
-        .byte                   71
-        .byte   W06
-        .byte                   70
-        .byte   W02
-        .byte                   69
-        .byte   W07
-        .byte                   68
-        .byte   W02
-        .byte                   67
-        .byte   W04
-        .byte                   66
-        .byte   W06
-        .byte                   65
-        .byte   W06
-        .byte                   64
-        .byte   W02
-        .byte   PEND
-@ 035   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_2_7
-@ 036   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_2_8
-@ 037   ----------------------------------------
-        .byte   W96
-@ 038   ----------------------------------------
-        .byte   W96
-@ 039   ----------------------------------------
-        .byte   W96
-@ 040   ----------------------------------------
-        .byte   W96
-@ 041   ----------------------------------------
-        .byte   W96
-@ 042   ----------------------------------------
-        .byte   W96
-@ 043   ----------------------------------------
-        .byte   W96
-@ 044   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_2_16
-@ 045   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_2_17
-@ 046   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_2_18
-@ 047   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_2_19
-@ 048   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_2_20
-@ 049   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_2_21
-@ 050   ----------------------------------------
-        .byte   W84
-        .byte           EOT   , En3
-        .byte   W12
-@ 051   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_2_19
-@ 052   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_2_20
-@ 053   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_2_25
-@ 054   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_2_26
-@ 055   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_2_27
-@ 056   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_2_26
-@ 057   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_2_29
-@ 058   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_2_30
-@ 059   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_2_31
-@ 060   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_2_32
-@ 061   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_2_33
-@ 062   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_2_34
-@ 063   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_2_7
-@ 064   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_2_8
-@ 065   ----------------------------------------
-        .byte   FINE
-
-@****************** Track 3 (Midi-Chn.3) ******************@
-
-FortuneRavine_3:
-        .byte   KEYSH , FortuneRavine_key+0
-@ 000   ----------------------------------------
-        .byte   W24
-@ 001   ----------------------------------------
-        .byte           PAN   , c_v+36
-        .byte           VOL   , 87
-        .byte           VOICE , 48
-        .byte   W90
-        .byte           VOL   , 83
-        .byte   W01
-        .byte                   84
-        .byte   W02
-        .byte                   85
-        .byte   W01
-        .byte                   86
-        .byte   W02
-@ 002   ----------------------------------------
-FortuneRavine_3_2:
-        .byte           VOL   , 85
-        .byte           N96   , Dn2 , v107
-        .byte   W03
-        .byte           VOL   , 84
-        .byte   W03
-        .byte                   83
-        .byte   W06
-        .byte                   82
-        .byte   W03
-        .byte                   81
-        .byte   W06
-        .byte                   80
-        .byte   W06
-        .byte                   79
-        .byte   W03
-        .byte                   78
-        .byte   W03
-        .byte                   77
-        .byte   W03
-        .byte                   76
-        .byte   W09
-        .byte                   75
-        .byte   W01
-        .byte                   74
-        .byte   W03
-        .byte                   73
-        .byte   W05
-        .byte                   72
-        .byte   W04
-        .byte                   71
-        .byte   W08
-        .byte                   70
-        .byte   W01
-        .byte                   69
-        .byte   W08
-        .byte                   68
-        .byte   W01
-        .byte                   67
-        .byte   W03
-        .byte                   66
-        .byte   W08
-        .byte                   65
-        .byte   W04
-        .byte                   64
-        .byte   W05
-        .byte   PEND
-@ 003   ----------------------------------------
-        .byte           N96   , Cn2
-        .byte   W01
-        .byte           VOL   , 65
-        .byte   W05
-        .byte                   66
-        .byte   W07
-        .byte                   67
-        .byte   W03
-        .byte                   68
-        .byte   W03
-        .byte                   69
-        .byte   W06
-        .byte                   70
-        .byte   W02
-        .byte                   71
-        .byte   W07
-        .byte                   72
-        .byte   W06
-        .byte                   73
-        .byte   W03
-        .byte                   74
-        .byte   W03
-        .byte                   75
-        .byte   W02
-        .byte                   76
-        .byte   W09
-        .byte                   77
-        .byte   W04
-        .byte                   78
-        .byte   W03
-        .byte                   79
-        .byte   W02
-        .byte                   80
-        .byte   W07
-        .byte                   81
-        .byte   W05
-        .byte                   82
-        .byte   W04
-        .byte                   83
-        .byte   W05
-        .byte                   84
-        .byte   W04
-        .byte                   86
-        .byte   W02
-        .byte                   85
-        .byte   W03
-@ 004   ----------------------------------------
-        .byte                   84
-        .byte           N96   , Dn1
-        .byte   W03
-        .byte           VOL   , 83
-        .byte   W04
-        .byte                   82
-        .byte   W03
-        .byte                   81
-        .byte   W05
-        .byte                   80
-        .byte   W06
-        .byte                   79
-        .byte   W03
-        .byte                   78
-        .byte   W03
-        .byte                   77
-        .byte   W01
-        .byte                   76
-        .byte   W09
-        .byte                   75
-        .byte   W02
-        .byte                   74
-        .byte   W03
-        .byte                   73
-        .byte   W03
-        .byte                   72
-        .byte   W04
-        .byte                   71
-        .byte   W06
-        .byte                   70
-        .byte   W02
-        .byte                   69
-        .byte   W06
-        .byte                   68
-        .byte   W01
-        .byte                   67
-        .byte   W03
-        .byte                   66
-        .byte   W06
-        .byte                   65
-        .byte   W05
-        .byte                   64
-        .byte   W03
-        .byte                   63
-        .byte   W03
-        .byte                   62
-        .byte   W03
-        .byte                   61
-        .byte   W03
-        .byte                   62
-        .byte   W01
-        .byte                   63
-        .byte   W05
-@ 005   ----------------------------------------
-        .byte                   87
-        .byte           N96   , Gn1
-        .byte   W01
-        .byte           VOL   , 65
-        .byte   W06
-        .byte                   66
-        .byte   W08
-        .byte                   67
-        .byte   W03
-        .byte                   68
-        .byte   W03
-        .byte                   69
-        .byte   W06
-        .byte                   70
-        .byte   W03
-        .byte                   71
-        .byte   W07
-        .byte                   72
-        .byte   W05
-        .byte                   73
-        .byte   W06
-        .byte                   74
-        .byte   W01
-        .byte                   75
-        .byte   W03
-        .byte                   76
-        .byte   W09
-        .byte                   77
-        .byte   W03
-        .byte                   78
-        .byte   W05
-        .byte                   79
-        .byte   W01
-        .byte                   80
-        .byte   W08
-        .byte                   81
-        .byte   W06
-        .byte                   82
-        .byte   W03
-        .byte                   83
-        .byte   W06
-        .byte                   84
-        .byte   W03
-@ 006   ----------------------------------------
-        .byte                   85
-        .byte           N96   , An1
-        .byte   W04
-        .byte           VOL   , 84
-        .byte   W03
-        .byte                   83
-        .byte   W06
-        .byte                   82
-        .byte   W03
-        .byte                   81
-        .byte   W06
-        .byte                   80
-        .byte   W06
-        .byte                   79
-        .byte   W03
-        .byte                   78
-        .byte   W03
-        .byte                   77
-        .byte   W03
-        .byte                   76
-        .byte   W09
-        .byte                   75
-        .byte   W02
-        .byte                   74
-        .byte   W04
-        .byte                   73
-        .byte   W03
-        .byte                   72
-        .byte   W06
-        .byte                   71
-        .byte   W06
-        .byte                   70
-        .byte   W02
-        .byte                   69
-        .byte   W07
-        .byte                   68
-        .byte   W02
-        .byte                   67
-        .byte   W04
-        .byte                   66
-        .byte   W06
-        .byte                   65
-        .byte   W06
-        .byte                   64
-        .byte   W02
-@ 007   ----------------------------------------
-        .byte                   63
-        .byte           N96   , Cn2
-        .byte   W03
-        .byte           VOL   , 64
-        .byte   W03
-        .byte                   65
-        .byte   W06
-        .byte                   66
-        .byte   W06
-        .byte                   67
-        .byte   W03
-        .byte                   68
-        .byte   W01
-        .byte                   69
-        .byte   W08
-        .byte                   70
-        .byte   W01
-        .byte                   71
-        .byte   W08
-        .byte                   72
-        .byte   W04
-        .byte                   73
-        .byte   W03
-        .byte                   74
-        .byte   W05
-        .byte                   76
-        .byte   W09
-        .byte                   77
-        .byte   W03
-        .byte                   78
-        .byte   W03
-        .byte                   79
-        .byte   W03
-        .byte                   80
-        .byte   W06
-        .byte                   81
-        .byte   W06
-        .byte                   82
-        .byte   W01
-        .byte                   83
-        .byte   W08
-        .byte                   84
-        .byte   W01
-        .byte                   85
-        .byte   W03
-        .byte                   86
-        .byte   W02
-@ 008   ----------------------------------------
-        .byte                   87
-        .byte           N96   , Dn2
-        .byte   W09
-        .byte           VOL   , 86
-        .byte   W03
-        .byte                   85
-        .byte   W03
-        .byte                   84
-        .byte   W03
-        .byte                   83
-        .byte   W06
-        .byte                   82
-        .byte   W03
-        .byte                   81
-        .byte   W03
-        .byte                   80
-        .byte   W06
-        .byte                   79
-        .byte   W03
-        .byte                   78
-        .byte   W03
-        .byte                   77
-        .byte   W03
-        .byte                   76
-        .byte   W09
-        .byte                   75
-        .byte   W03
-        .byte                   74
-        .byte   W03
-        .byte                   73
-        .byte   W03
-        .byte                   72
-        .byte   W03
-        .byte                   71
-        .byte   W09
-        .byte                   69
-        .byte   W06
-        .byte                   68
-        .byte   W03
-        .byte                   67
-        .byte   W03
-        .byte                   66
-        .byte   W06
-        .byte                   65
-        .byte   W03
-@ 009   ----------------------------------------
-        .byte   W96
-@ 010   ----------------------------------------
-        .byte   W96
-@ 011   ----------------------------------------
-        .byte   W96
-@ 012   ----------------------------------------
-        .byte   W96
-@ 013   ----------------------------------------
-        .byte   W96
-@ 014   ----------------------------------------
-        .byte   W96
-@ 015   ----------------------------------------
-        .byte   W96
-@ 016   ----------------------------------------
-FortuneRavine_3_16:
-        .byte           PAN   , c_v-64
-        .byte           VOL   , 39
-        .byte           VOICE , 61
-        .byte   W96
-        .byte   PEND
-@ 017   ----------------------------------------
-FortuneRavine_3_17:
-        .byte   W24
-        .byte           N06   , As3 , v127
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte           N15   , Dn4
-        .byte   W18
-        .byte           N06
-        .byte   W06
-        .byte                   En4
-        .byte   W06
-        .byte           N30   , Fn4
-        .byte   W30
-        .byte   PEND
-@ 018   ----------------------------------------
-FortuneRavine_3_18:
-        .byte   W06
-        .byte           N06   , Fn4 , v127
-        .byte   W06
-        .byte                   Gn4
-        .byte   W06
-        .byte           N78   , An4
-        .byte   W78
-        .byte   PEND
-@ 019   ----------------------------------------
-FortuneRavine_3_19:
-        .byte   W24
-        .byte           N54   , En4 , v127
-        .byte   W54
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte           N12   , Bn3
-        .byte   W06
-        .byte   PEND
-@ 020   ----------------------------------------
-FortuneRavine_3_20:
-        .byte   W06
-        .byte           N06   , Bn3 , v127
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte           N48   , Gn3
-        .byte   W48
-        .byte           N06
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   Bn3
-        .byte   W06
-        .byte           N12
-        .byte   W06
-        .byte   PEND
-@ 021   ----------------------------------------
-FortuneRavine_3_21:
-        .byte   W06
-        .byte           N06   , Cn4 , v127
-        .byte   W06
-        .byte                   Gn3
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte           TIE   , En3
-        .byte   W72
-        .byte   PEND
-@ 022   ----------------------------------------
-        .byte   W96
-@ 023   ----------------------------------------
-FortuneRavine_3_23:
-        .byte           EOT   , En3
-        .byte   W24
-        .byte           N54   , En4 , v127
-        .byte   W54
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte           N12   , Bn3
-        .byte   W06
-        .byte   PEND
-@ 024   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_3_20
-@ 025   ----------------------------------------
-FortuneRavine_3_25:
-        .byte   W06
-        .byte           N06   , Cn4 , v127
-        .byte   W06
-        .byte                   Gn3
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   Bn3
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte           N12   , En4
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte           N12   , Gn4
-        .byte   W12
-        .byte           N06   , An4
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte           N12   , Gn4
-        .byte   W06
-        .byte   PEND
-@ 026   ----------------------------------------
-FortuneRavine_3_26:
-        .byte   W06
-        .byte           N06   , Gn4 , v127
-        .byte   W06
-        .byte                   An4
-        .byte   W06
-        .byte           N78   , Bn4
-        .byte   W78
-        .byte   PEND
-@ 027   ----------------------------------------
-FortuneRavine_3_27:
-        .byte   W24
-        .byte           N06   , Bn3 , v127
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte           N12   , En4
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte           N12   , Gn4
-        .byte   W12
-        .byte           N06   , An4
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte           N12   , Gn4
-        .byte   W06
-        .byte   PEND
-@ 028   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_3_26
-@ 029   ----------------------------------------
-FortuneRavine_3_29:
-        .byte           PAN   , c_v+36
-        .byte           VOL   , 59
-        .byte           VOICE , 48
-        .byte   W01
-        .byte           VOL   , 46
-        .byte           N44   , An2 , v107 , gtp3
-        .byte   W03
-        .byte           VOL   , 47
-        .byte   W03
-        .byte                   48
-        .byte   W03
-        .byte                   49
-        .byte   W03
-        .byte                   50
-        .byte   W11
-        .byte                   51
-        .byte   W03
-        .byte                   52
-        .byte   W04
-        .byte                   53
-        .byte   W03
-        .byte                   54
-        .byte   W08
-        .byte                   55
-        .byte   W03
-        .byte                   56
-        .byte   W03
-        .byte           N48   , Gn2
-        .byte   W03
-        .byte           VOL   , 57
-        .byte   W09
-        .byte                   58
-        .byte   W03
-        .byte                   59
-        .byte   W03
-        .byte                   60
-        .byte   W03
-        .byte                   61
-        .byte   W10
-        .byte                   62
-        .byte   W03
-        .byte                   63
-        .byte   W05
-        .byte                   64
-        .byte   W03
-        .byte                   65
-        .byte   W06
-        .byte   PEND
-@ 030   ----------------------------------------
-FortuneRavine_3_30:
-        .byte           N96   , Dn2 , v107
-        .byte   W01
-        .byte           VOL   , 66
-        .byte   W06
-        .byte                   67
-        .byte   W03
-        .byte                   68
-        .byte   W05
-        .byte                   69
-        .byte   W07
-        .byte                   70
-        .byte   W03
-        .byte                   71
-        .byte   W08
-        .byte                   72
-        .byte   W06
-        .byte                   73
-        .byte   W03
-        .byte                   74
-        .byte   W12
-        .byte                   73
-        .byte   W06
-        .byte                   72
-        .byte   W06
-        .byte                   71
-        .byte   W06
-        .byte                   70
-        .byte   W06
-        .byte                   68
-        .byte   W06
-        .byte                   69
-        .byte   W06
-        .byte                   70
-        .byte   W06
-        .byte   PEND
-@ 031   ----------------------------------------
-FortuneRavine_3_31:
-        .byte           VOL   , 71
-        .byte           N96   , Cn2 , v107
-        .byte   W06
-        .byte           VOL   , 72
-        .byte   W12
-        .byte                   74
-        .byte   W06
-        .byte                   75
-        .byte   W06
-        .byte                   76
-        .byte   W12
-        .byte                   77
-        .byte   W06
-        .byte                   79
-        .byte   W06
-        .byte                   80
-        .byte   W12
-        .byte                   81
-        .byte   W06
-        .byte                   82
-        .byte   W06
-        .byte                   83
-        .byte   W06
-        .byte                   84
-        .byte   W06
-        .byte                   85
-        .byte   W06
-        .byte   PEND
-@ 032   ----------------------------------------
-FortuneRavine_3_32:
-        .byte           VOL   , 87
-        .byte           N96   , Dn1 , v107
-        .byte   W12
-        .byte           VOL   , 85
-        .byte   W06
-        .byte                   83
-        .byte   W06
-        .byte                   82
-        .byte   W06
-        .byte                   81
-        .byte   W06
-        .byte                   80
-        .byte   W06
-        .byte                   79
-        .byte   W06
-        .byte                   78
-        .byte   W06
-        .byte                   76
-        .byte   W12
-        .byte                   74
-        .byte   W06
-        .byte                   73
-        .byte   W06
-        .byte                   72
-        .byte   W06
-        .byte                   71
-        .byte   W06
-        .byte                   68
-        .byte   W06
-        .byte   PEND
-@ 033   ----------------------------------------
-FortuneRavine_3_33:
-        .byte           VOL   , 69
-        .byte           N96   , Gn1 , v107
-        .byte   W06
-        .byte           VOL   , 70
-        .byte   W06
-        .byte                   71
-        .byte   W06
-        .byte                   72
-        .byte   W06
-        .byte                   73
-        .byte   W06
-        .byte                   75
-        .byte   W06
-        .byte                   76
-        .byte   W12
-        .byte                   77
-        .byte   W06
-        .byte                   79
-        .byte   W06
-        .byte                   80
-        .byte   W06
-        .byte                   81
-        .byte   W12
-        .byte                   82
-        .byte   W06
-        .byte                   83
-        .byte   W06
-        .byte                   86
-        .byte   W06
-        .byte   PEND
-@ 034   ----------------------------------------
-FortuneRavine_3_34:
-        .byte           VOL   , 84
-        .byte           N96   , An1 , v107
-        .byte   W06
-        .byte           VOL   , 83
-        .byte   W06
-        .byte                   82
-        .byte   W06
-        .byte                   81
-        .byte   W06
-        .byte                   80
-        .byte   W06
-        .byte                   79
-        .byte   W06
-        .byte                   78
-        .byte   W06
-        .byte                   76
-        .byte   W12
-        .byte                   75
-        .byte   W06
-        .byte                   74
-        .byte   W06
-        .byte                   72
-        .byte   W06
-        .byte                   71
-        .byte   W12
-        .byte                   69
-        .byte   W12
-        .byte   PEND
-@ 035   ----------------------------------------
-FortuneRavine_3_35:
-        .byte           VOL   , 67
-        .byte           N96   , Cn2 , v107
-        .byte   W06
-        .byte           VOL   , 68
-        .byte   W06
-        .byte                   69
-        .byte   W06
-        .byte                   71
-        .byte   W12
-        .byte                   72
-        .byte   W06
-        .byte                   74
-        .byte   W06
-        .byte                   76
-        .byte   W12
-        .byte                   77
-        .byte   W06
-        .byte                   79
-        .byte   W06
-        .byte                   80
-        .byte   W06
-        .byte                   81
-        .byte   W06
-        .byte                   82
-        .byte   W06
-        .byte                   83
-        .byte   W06
-        .byte                   84
-        .byte   W06
-        .byte   PEND
-@ 036   ----------------------------------------
-FortuneRavine_3_36:
-        .byte           VOL   , 86
-        .byte           N96   , Dn2 , v107
-        .byte   W06
-        .byte           VOL   , 83
-        .byte   W12
-        .byte                   81
-        .byte   W06
-        .byte                   80
-        .byte   W06
-        .byte                   79
-        .byte   W06
-        .byte                   78
-        .byte   W06
-        .byte                   76
-        .byte   W12
-        .byte                   74
-        .byte   W06
-        .byte                   72
-        .byte   W06
-        .byte                   71
-        .byte   W12
-        .byte                   69
-        .byte   W06
-        .byte                   68
-        .byte   W06
-        .byte                   66
-        .byte   W06
-        .byte   PEND
-@ 037   ----------------------------------------
-        .byte   W96
-@ 038   ----------------------------------------
-        .byte   W96
-@ 039   ----------------------------------------
-        .byte   W96
-@ 040   ----------------------------------------
-        .byte   W96
-@ 041   ----------------------------------------
-        .byte   W96
-@ 042   ----------------------------------------
-        .byte   W96
-@ 043   ----------------------------------------
-        .byte   W96
-@ 044   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_3_16
-@ 045   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_3_17
-@ 046   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_3_18
-@ 047   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_3_19
-@ 048   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_3_20
-@ 049   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_3_21
-@ 050   ----------------------------------------
-        .byte   W96
-@ 051   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_3_23
-@ 052   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_3_20
-@ 053   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_3_25
-@ 054   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_3_26
-@ 055   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_3_27
-@ 056   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_3_26
-@ 057   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_3_29
-@ 058   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_3_30
-@ 059   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_3_31
-@ 060   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_3_32
-@ 061   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_3_33
-@ 062   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_3_34
-@ 063   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_3_35
-@ 064   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_3_36
-@ 065   ----------------------------------------
-        .byte   FINE
-
-@****************** Track 4 (Midi-Chn.4) ******************@
-
-FortuneRavine_4:
-        .byte   KEYSH , FortuneRavine_key+0
-@ 000   ----------------------------------------
-        .byte   W24
-@ 001   ----------------------------------------
-        .byte           PAN   , c_v-54
-        .byte           VOL   , 69
-        .byte           VOICE , 48
-        .byte   W96
-@ 002   ----------------------------------------
-        .byte   W96
-@ 003   ----------------------------------------
-        .byte   W96
-@ 004   ----------------------------------------
-        .byte   W96
-@ 005   ----------------------------------------
-        .byte   W96
-@ 006   ----------------------------------------
-        .byte   W96
-@ 007   ----------------------------------------
-        .byte   W96
-@ 008   ----------------------------------------
-        .byte   W96
-@ 009   ----------------------------------------
-FortuneRavine_4_9:
-        .byte           N04   , Fs3 , v127
-        .byte   W06
-        .byte                   Fs3
-        .byte   W06
-        .byte                   Fs3
-        .byte   W06
-        .byte                   En3
-        .byte   W06
-        .byte                   En3 , v080
-        .byte   W06
-        .byte                   En3 , v070
-        .byte   W06
-        .byte                   En3 , v060
-        .byte   W06
-        .byte                   En3 , v055
-        .byte   W54
-        .byte   PEND
-@ 010   ----------------------------------------
-FortuneRavine_4_10:
-        .byte           N04   , Gn3 , v127
-        .byte   W06
-        .byte                   Gn3
-        .byte   W06
-        .byte                   Gn3
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   An3 , v080
-        .byte   W06
-        .byte                   An3 , v070
-        .byte   W06
-        .byte                   An3 , v060
-        .byte   W06
-        .byte                   An3 , v055
-        .byte   W54
-        .byte   PEND
-@ 011   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_4_9
-@ 012   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_4_10
-@ 013   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_4_9
-@ 014   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_4_10
-@ 015   ----------------------------------------
-FortuneRavine_4_15:
-        .byte           N04   , Gn3 , v127
-        .byte   W06
-        .byte                   Gn3
-        .byte   W06
-        .byte                   Gn3
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   An3 , v080
-        .byte   W06
-        .byte                   An3 , v070
-        .byte   W06
-        .byte                   Cn4 , v127
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte                   Dn4 , v080
-        .byte   W06
-        .byte                   Dn4 , v070
-        .byte   W06
-        .byte                   Dn4 , v060
-        .byte   W06
-        .byte                   Dn4 , v055
-        .byte   W18
-        .byte   PEND
-@ 016   ----------------------------------------
-        .byte   W96
-@ 017   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_4_15
-@ 018   ----------------------------------------
-        .byte   W96
-@ 019   ----------------------------------------
-FortuneRavine_4_19:
-        .byte           N06   , Dn4 , v127
-        .byte   W06
-        .byte                   Dn4 , v060
-        .byte   W06
-        .byte                   Dn4 , v050
-        .byte   W06
-        .byte                   Cn4 , v127
-        .byte   W06
-        .byte                   Cn4 , v060
-        .byte   W06
-        .byte                   Cn4 , v050
-        .byte   W06
-        .byte                   Dn4 , v127
-        .byte   W06
-        .byte                   Dn4 , v060
-        .byte   W06
-        .byte                   Dn4 , v050
-        .byte   W06
-        .byte                   Cn4 , v127
-        .byte   W06
-        .byte                   Cn4 , v060
-        .byte   W06
-        .byte                   Cn4 , v050
-        .byte   W06
-        .byte           N18   , Bn3 , v127
-        .byte   W18
-        .byte           N06   , Bn3 , v060
-        .byte   W06
-        .byte   PEND
-@ 020   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_4_19
-@ 021   ----------------------------------------
-FortuneRavine_4_21:
-        .byte           N06   , Dn4 , v127
-        .byte   W18
-        .byte                   Cn4
-        .byte   W18
-        .byte                   Dn4
-        .byte   W18
-        .byte                   Cn4
-        .byte   W18
-        .byte           N18   , Bn3
-        .byte   W24
-        .byte   PEND
-@ 022   ----------------------------------------
-FortuneRavine_4_22:
-        .byte           N06   , Dn4 , v127
-        .byte   W18
-        .byte                   Cn4
-        .byte   W18
-        .byte                   Dn4
-        .byte   W18
-        .byte                   Cn4
-        .byte   W18
-        .byte           N18   , Gn4
-        .byte   W24
-        .byte   PEND
-@ 023   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_4_21
-@ 024   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_4_21
-@ 025   ----------------------------------------
-FortuneRavine_4_25:
-        .byte           N06   , En4 , v127
-        .byte   W18
-        .byte                   En4
-        .byte   W18
-        .byte                   Dn4
-        .byte   W18
-        .byte                   Dn4
-        .byte   W18
-        .byte           N18
-        .byte   W24
-        .byte   PEND
-@ 026   ----------------------------------------
-FortuneRavine_4_26:
-        .byte           N06   , Dn4 , v127
-        .byte   W18
-        .byte                   Dn4
-        .byte   W18
-        .byte                   Dn4
-        .byte   W18
-        .byte                   Dn4
-        .byte   W18
-        .byte           N18   , Cn4
-        .byte   W24
-        .byte   PEND
-@ 027   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_4_25
-@ 028   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_4_26
-@ 029   ----------------------------------------
-        .byte   W96
-@ 030   ----------------------------------------
-        .byte   W96
-@ 031   ----------------------------------------
-        .byte   W96
-@ 032   ----------------------------------------
-        .byte   W96
-@ 033   ----------------------------------------
-        .byte   W96
-@ 034   ----------------------------------------
-        .byte   W96
-@ 035   ----------------------------------------
-        .byte   W96
-@ 036   ----------------------------------------
-        .byte   W96
-@ 037   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_4_9
-@ 038   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_4_10
-@ 039   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_4_9
-@ 040   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_4_10
-@ 041   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_4_9
-@ 042   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_4_10
-@ 043   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_4_15
-@ 044   ----------------------------------------
-        .byte   W96
-@ 045   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_4_15
-@ 046   ----------------------------------------
-        .byte   W96
-@ 047   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_4_19
-@ 048   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_4_19
-@ 049   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_4_21
-@ 050   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_4_22
-@ 051   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_4_21
-@ 052   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_4_21
-@ 053   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_4_25
-@ 054   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_4_26
-@ 055   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_4_25
-@ 056   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_4_26
-@ 057   ----------------------------------------
-        .byte   W96
-@ 058   ----------------------------------------
-        .byte   W96
-@ 059   ----------------------------------------
-        .byte   W96
-@ 060   ----------------------------------------
-        .byte   W96
-@ 061   ----------------------------------------
-        .byte   W96
-@ 062   ----------------------------------------
-        .byte   W96
-@ 063   ----------------------------------------
-        .byte   W96
-@ 064   ----------------------------------------
-        .byte   W96
-@ 065   ----------------------------------------
-        .byte   FINE
-
-@****************** Track 5 (Midi-Chn.5) ******************@
-
-FortuneRavine_5:
-        .byte   KEYSH , FortuneRavine_key+0
-@ 000   ----------------------------------------
-        .byte   W24
-@ 001   ----------------------------------------
-        .byte           PAN   , c_v+56
-        .byte           VOL   , 69
-        .byte           VOICE , 48
-        .byte   W96
-@ 002   ----------------------------------------
-        .byte   W96
-@ 003   ----------------------------------------
-        .byte   W96
-@ 004   ----------------------------------------
-        .byte   W96
-@ 005   ----------------------------------------
-        .byte   W96
-@ 006   ----------------------------------------
-        .byte   W96
-@ 007   ----------------------------------------
-        .byte   W96
-@ 008   ----------------------------------------
-        .byte   W96
-@ 009   ----------------------------------------
-FortuneRavine_5_9:
-        .byte           N04   , Dn3 , v127
-        .byte   W06
-        .byte                   Dn3
-        .byte   W06
-        .byte                   Dn3
-        .byte   W06
-        .byte                   Cn3
-        .byte   W06
-        .byte                   Cn3 , v080
-        .byte   W06
-        .byte                   Cn3 , v070
-        .byte   W06
-        .byte                   Cn3 , v060
-        .byte   W06
-        .byte                   Cn3 , v055
-        .byte   W54
-        .byte   PEND
-@ 010   ----------------------------------------
-FortuneRavine_5_10:
-        .byte           N04   , En3 , v127
-        .byte   W06
-        .byte                   En3
-        .byte   W06
-        .byte                   En3
-        .byte   W06
-        .byte                   Fs3
-        .byte   W06
-        .byte                   Fs3 , v080
-        .byte   W06
-        .byte                   Fs3 , v070
-        .byte   W06
-        .byte                   Fs3 , v060
-        .byte   W06
-        .byte                   Fs3 , v055
-        .byte   W54
-        .byte   PEND
-@ 011   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_5_9
-@ 012   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_5_10
-@ 013   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_5_9
-@ 014   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_5_10
-@ 015   ----------------------------------------
-FortuneRavine_5_15:
-        .byte           N04   , Ds3 , v127
-        .byte   W06
-        .byte                   Ds3
-        .byte   W06
-        .byte                   Ds3
-        .byte   W06
-        .byte                   Fn3
-        .byte   W06
-        .byte                   Fn3 , v080
-        .byte   W06
-        .byte                   Fn3 , v070
-        .byte   W06
-        .byte                   An3 , v127
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   Bn3
-        .byte   W06
-        .byte                   Bn3 , v080
-        .byte   W06
-        .byte                   Bn3 , v070
-        .byte   W06
-        .byte                   Bn3 , v060
-        .byte   W06
-        .byte                   Bn3 , v055
-        .byte   W18
-        .byte   PEND
-@ 016   ----------------------------------------
-        .byte   W96
-@ 017   ----------------------------------------
-FortuneRavine_5_17:
-        .byte           N04   , Ds3 , v127
-        .byte   W06
-        .byte                   Ds3
-        .byte   W06
-        .byte                   Ds3
-        .byte   W06
-        .byte                   Fn3
-        .byte   W06
-        .byte                   Fs3 , v080
-        .byte   W06
-        .byte                   Fs3 , v070
-        .byte   W06
-        .byte                   An3 , v127
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   Bn3
-        .byte   W06
-        .byte                   Bn3 , v080
-        .byte   W06
-        .byte                   Bn3 , v070
-        .byte   W06
-        .byte                   Bn3 , v060
-        .byte   W06
-        .byte                   Bn3 , v055
-        .byte   W18
-        .byte   PEND
-@ 018   ----------------------------------------
-        .byte   W96
-@ 019   ----------------------------------------
-FortuneRavine_5_19:
-        .byte           N06   , An3 , v127
-        .byte   W06
-        .byte                   An3 , v060
-        .byte   W06
-        .byte                   An3 , v050
-        .byte   W06
-        .byte                   Gn3 , v127
-        .byte   W06
-        .byte                   Gn3 , v060
-        .byte   W06
-        .byte                   Gn3 , v050
-        .byte   W06
-        .byte                   An3 , v127
-        .byte   W06
-        .byte                   An3 , v060
-        .byte   W06
-        .byte                   An3 , v050
-        .byte   W06
-        .byte                   Gn3 , v127
-        .byte   W06
-        .byte                   Gn3 , v060
-        .byte   W06
-        .byte                   Gn3 , v050
-        .byte   W06
-        .byte           N18   , Gn3 , v127
-        .byte   W18
-        .byte           N06   , Gn3 , v060
-        .byte   W06
-        .byte   PEND
-@ 020   ----------------------------------------
-FortuneRavine_5_20:
-        .byte           N06   , An3 , v127
-        .byte   W06
-        .byte                   An3 , v060
-        .byte   W06
-        .byte                   An3 , v050
-        .byte   W06
-        .byte                   Gn3 , v127
-        .byte   W06
-        .byte                   Gn3 , v060
-        .byte   W06
-        .byte                   Gn3 , v050
-        .byte   W06
-        .byte                   An3 , v127
-        .byte   W06
-        .byte                   An3 , v060
-        .byte   W06
-        .byte                   An3 , v050
-        .byte   W06
-        .byte                   Gn3 , v127
-        .byte   W06
-        .byte                   Gn3 , v060
-        .byte   W06
-        .byte                   Gn3 , v050
-        .byte   W06
-        .byte           N18   , An3 , v127
-        .byte   W18
-        .byte           N06   , An3 , v060
-        .byte   W06
-        .byte   PEND
-@ 021   ----------------------------------------
-FortuneRavine_5_21:
-        .byte           N06   , An3 , v127
-        .byte   W18
-        .byte                   Gn3
-        .byte   W18
-        .byte                   An3
-        .byte   W18
-        .byte                   Gn3
-        .byte   W18
-        .byte           N18
-        .byte   W24
-        .byte   PEND
-@ 022   ----------------------------------------
-FortuneRavine_5_22:
-        .byte           N06   , An3 , v127
-        .byte   W18
-        .byte                   Gn3
-        .byte   W18
-        .byte                   An3
-        .byte   W18
-        .byte                   Gn3
-        .byte   W18
-        .byte           N18   , En4
-        .byte   W24
-        .byte   PEND
-@ 023   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_5_21
-@ 024   ----------------------------------------
-FortuneRavine_5_24:
-        .byte           N06   , An3 , v127
-        .byte   W18
-        .byte                   Gn3
-        .byte   W18
-        .byte                   An3
-        .byte   W18
-        .byte                   Gn3
-        .byte   W18
-        .byte           N18   , An3
-        .byte   W24
-        .byte   PEND
-@ 025   ----------------------------------------
-FortuneRavine_5_25:
-        .byte           N06   , Cn4 , v127
-        .byte   W18
-        .byte                   Cn4
-        .byte   W18
-        .byte                   An3
-        .byte   W18
-        .byte                   An3
-        .byte   W18
-        .byte           N18
-        .byte   W24
-        .byte   PEND
-@ 026   ----------------------------------------
-FortuneRavine_5_26:
-        .byte           N06   , An3 , v127
-        .byte   W18
-        .byte                   An3
-        .byte   W18
-        .byte                   An3
-        .byte   W18
-        .byte                   An3
-        .byte   W18
-        .byte           N18   , Gn3
-        .byte   W24
-        .byte   PEND
-@ 027   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_5_25
-@ 028   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_5_26
-@ 029   ----------------------------------------
-        .byte   W96
-@ 030   ----------------------------------------
-        .byte   W96
-@ 031   ----------------------------------------
-        .byte   W96
-@ 032   ----------------------------------------
-        .byte   W96
-@ 033   ----------------------------------------
-        .byte   W96
-@ 034   ----------------------------------------
-        .byte   W96
-@ 035   ----------------------------------------
-        .byte   W96
-@ 036   ----------------------------------------
-        .byte   W96
-@ 037   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_5_9
-@ 038   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_5_10
-@ 039   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_5_9
-@ 040   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_5_10
-@ 041   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_5_9
-@ 042   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_5_10
-@ 043   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_5_15
-@ 044   ----------------------------------------
-        .byte   W96
-@ 045   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_5_17
-@ 046   ----------------------------------------
-        .byte   W96
-@ 047   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_5_19
-@ 048   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_5_20
-@ 049   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_5_21
-@ 050   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_5_22
-@ 051   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_5_21
-@ 052   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_5_24
-@ 053   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_5_25
-@ 054   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_5_26
-@ 055   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_5_25
-@ 056   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_5_26
-@ 057   ----------------------------------------
-        .byte   W96
-@ 058   ----------------------------------------
-        .byte   W96
-@ 059   ----------------------------------------
-        .byte   W96
-@ 060   ----------------------------------------
-        .byte   W96
-@ 061   ----------------------------------------
-        .byte   W96
-@ 062   ----------------------------------------
-        .byte   W96
-@ 063   ----------------------------------------
-        .byte   W96
-@ 064   ----------------------------------------
-        .byte   W96
-@ 065   ----------------------------------------
-        .byte   FINE
-
-@****************** Track 6 (Midi-Chn.6) ******************@
-
-FortuneRavine_6:
-        .byte   KEYSH , FortuneRavine_key+0
-@ 000   ----------------------------------------
-        .byte   W24
-@ 001   ----------------------------------------
-        .byte           VOL   , 74
-        .byte           VOICE , 40
-        .byte   W96
-@ 002   ----------------------------------------
-        .byte   W96
-@ 003   ----------------------------------------
-        .byte   W96
-@ 004   ----------------------------------------
-        .byte   W96
-@ 005   ----------------------------------------
-        .byte   W96
-@ 006   ----------------------------------------
-        .byte   W96
-@ 007   ----------------------------------------
-        .byte   W96
-@ 008   ----------------------------------------
-        .byte   W96
-@ 009   ----------------------------------------
-FortuneRavine_6_9:
-        .byte           VOL   , 62
-        .byte           N54   , En4 , v127
-        .byte   W10
-        .byte           VOL   , 63
-        .byte   W03
-        .byte                   64
-        .byte   W05
-        .byte                   65
-        .byte   W06
-        .byte                   66
-        .byte   W01
-        .byte                   67
-        .byte   W02
-        .byte                   68
-        .byte   W04
-        .byte                   69
-        .byte   W02
-        .byte                   70
-        .byte   W01
-        .byte                   71
-        .byte   W03
-        .byte                   73
-        .byte   W17
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte           N12   , Bn3
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte   PEND
-@ 010   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_1_20
-@ 011   ----------------------------------------
-FortuneRavine_6_11:
-        .byte           TIE   , En3 , v127
-        .byte   W07
-        .byte           VOL   , 72
-        .byte   W44
-        .byte   W01
-        .byte                   71
-        .byte   W09
-        .byte                   70
-        .byte   W17
-        .byte                   69
-        .byte   W15
-        .byte                   68
-        .byte   W03
-        .byte   PEND
-@ 012   ----------------------------------------
-FortuneRavine_6_12:
-        .byte   W07
-        .byte           VOL   , 67
-        .byte   W05
-        .byte                   66
-        .byte   W12
-        .byte                   65
-        .byte   W07
-        .byte                   64
-        .byte   W05
-        .byte                   63
-        .byte   W09
-        .byte                   62
-        .byte   W07
-        .byte                   61
-        .byte   W03
-        .byte                   60
-        .byte   W05
-        .byte                   59
-        .byte   W01
-        .byte                   58
-        .byte   W05
-        .byte                   56
-        .byte   W04
-        .byte                   55
-        .byte   W02
-        .byte           EOT   , En3
-        .byte           VOL   , 54
-        .byte   W01
-        .byte                   53
-        .byte   W02
-        .byte                   52
-        .byte   W03
-        .byte                   51
-        .byte   W01
-        .byte                   50
-        .byte   W02
-        .byte                   48
-        .byte   W03
-        .byte                   47
-        .byte   W01
-        .byte                   46
-        .byte   W02
-        .byte                   44
-        .byte   W09
-        .byte   PEND
-@ 013   ----------------------------------------
-FortuneRavine_6_13:
-        .byte           VOL   , 65
-        .byte           N54   , En4 , v127
-        .byte   W07
-        .byte           VOL   , 66
-        .byte   W12
-        .byte                   67
-        .byte   W02
-        .byte                   68
-        .byte   W06
-        .byte                   69
-        .byte   W04
-        .byte                   70
-        .byte   W03
-        .byte                   71
-        .byte   W02
-        .byte                   72
-        .byte   W03
-        .byte                   73
-        .byte   W01
-        .byte                   74
-        .byte   W14
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte           N12   , Bn3
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte   PEND
-@ 014   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_1_20
-@ 015   ----------------------------------------
-FortuneRavine_6_15:
-        .byte           N06   , As3 , v127
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte           N15   , Dn4
-        .byte   W18
-        .byte           N06
-        .byte   W06
-        .byte                   En4
-        .byte   W06
-        .byte           N32   , Fn4 , v127 , gtp1
-        .byte   W01
-        .byte           VOL   , 73
-        .byte   W20
-        .byte                   72
-        .byte   W10
-        .byte                   71
-        .byte   W05
-        .byte                   70
-        .byte           N06
-        .byte   W06
-        .byte                   Gn4
-        .byte   W01
-        .byte           VOL   , 69
-        .byte   W05
-        .byte           N96   , An4
-        .byte   W03
-        .byte           VOL   , 68
-        .byte   W03
-        .byte   PEND
-@ 016   ----------------------------------------
-FortuneRavine_6_16:
-        .byte   W03
-        .byte           VOL   , 67
-        .byte   W01
-        .byte                   66
-        .byte   W06
-        .byte                   65
-        .byte   W06
-        .byte                   64
-        .byte   W03
-        .byte                   63
-        .byte   W02
-        .byte                   62
-        .byte   W04
-        .byte                   61
-        .byte   W02
-        .byte                   60
-        .byte   W04
-        .byte                   59
-        .byte   W03
-        .byte                   58
-        .byte   W05
-        .byte                   56
-        .byte   W06
-        .byte                   55
-        .byte   W01
-        .byte                   54
-        .byte   W02
-        .byte                   53
-        .byte   W01
-        .byte                   52
-        .byte   W05
-        .byte                   51
-        .byte   W01
-        .byte                   50
-        .byte   W05
-        .byte                   48
-        .byte   W04
-        .byte                   46
-        .byte   W03
-        .byte                   45
-        .byte   W02
-        .byte                   44
-        .byte   W04
-        .byte                   42
-        .byte   W02
-        .byte                   41
-        .byte   W01
-        .byte                   40
-        .byte   W02
-        .byte                   39
-        .byte   W04
-        .byte                   37
-        .byte   W03
-        .byte                   36
-        .byte   W03
-        .byte                   34
-        .byte   W08
-        .byte   PEND
-@ 017   ----------------------------------------
-        .byte   W96
-@ 018   ----------------------------------------
-        .byte   W96
-@ 019   ----------------------------------------
-        .byte   W96
-@ 020   ----------------------------------------
-        .byte   W96
-@ 021   ----------------------------------------
-        .byte   W96
-@ 022   ----------------------------------------
-        .byte   W96
-@ 023   ----------------------------------------
-        .byte   W96
-@ 024   ----------------------------------------
-FortuneRavine_6_24:
-        .byte           PAN   , c_v-34
-        .byte           VOL   , 69
-        .byte           VOICE , 68
-        .byte   W96
-        .byte   PEND
-@ 025   ----------------------------------------
-FortuneRavine_6_25:
-        .byte           N06   , Gn2 , v127
-        .byte   W06
-        .byte                   An2
-        .byte   W06
-        .byte                   Bn2
-        .byte   W06
-        .byte           N12   , Cn3
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte                   Dn3
-        .byte   W06
-        .byte           N12   , En3
-        .byte   W12
-        .byte           N06   , Fs3
-        .byte   W06
-        .byte                   Dn3
-        .byte   W06
-        .byte           N12   , En3
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte                   Fs3
-        .byte   W06
-        .byte           N90   , Gn3
-        .byte   W06
-        .byte   PEND
-@ 026   ----------------------------------------
-FortuneRavine_6_26:
-        .byte   W48
-        .byte           VOL   , 68
-        .byte   W03
-        .byte                   66
-        .byte   W03
-        .byte                   65
-        .byte   W03
-        .byte                   63
-        .byte   W03
-        .byte                   60
-        .byte   W03
-        .byte                   57
-        .byte   W03
-        .byte                   54
-        .byte   W03
-        .byte                   50
-        .byte   W03
-        .byte                   45
-        .byte   W03
-        .byte                   40
-        .byte   W03
-        .byte                   35
-        .byte   W03
-        .byte                   30
-        .byte   W03
-        .byte                   23
-        .byte   W12
-        .byte   PEND
-@ 027   ----------------------------------------
-FortuneRavine_6_27:
-        .byte           VOL   , 69
-        .byte           N06   , Gn2 , v127
-        .byte   W06
-        .byte                   An2
-        .byte   W06
-        .byte                   Bn2
-        .byte   W06
-        .byte           N12   , Cn3
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte                   Dn3
-        .byte   W06
-        .byte           N12   , En3
-        .byte   W12
-        .byte           N06   , Fs3
-        .byte   W06
-        .byte                   Dn3
-        .byte   W06
-        .byte           N12   , En3
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte                   Fs3
-        .byte   W06
-        .byte           N90   , Gn3
-        .byte   W06
-        .byte   PEND
-@ 028   ----------------------------------------
-FortuneRavine_6_28:
-        .byte   W44
-        .byte   W02
-        .byte           VOL   , 68
-        .byte   W02
-        .byte                   67
-        .byte   W03
-        .byte                   66
-        .byte   W03
-        .byte                   65
-        .byte   W03
-        .byte                   64
-        .byte   W01
-        .byte                   62
-        .byte   W03
-        .byte                   60
-        .byte   W02
-        .byte                   59
-        .byte   W01
-        .byte                   58
-        .byte   W02
-        .byte                   57
-        .byte   W01
-        .byte                   55
-        .byte   W02
-        .byte                   54
-        .byte   W01
-        .byte                   52
-        .byte   W02
-        .byte                   50
-        .byte   W01
-        .byte                   49
-        .byte   W02
-        .byte                   47
-        .byte   W01
-        .byte                   45
-        .byte   W02
-        .byte                   43
-        .byte   W01
-        .byte                   40
-        .byte   W02
-        .byte                   38
-        .byte   W01
-        .byte                   37
-        .byte   W02
-        .byte                   34
-        .byte   W01
-        .byte                   31
-        .byte   W02
-        .byte                   28
-        .byte   W01
-        .byte                   26
-        .byte   W02
-        .byte                   24
-        .byte   W06
-        .byte   PEND
-@ 029   ----------------------------------------
-        .byte   W96
-@ 030   ----------------------------------------
-        .byte   W96
-@ 031   ----------------------------------------
-        .byte   W96
-@ 032   ----------------------------------------
-        .byte   W96
-@ 033   ----------------------------------------
-FortuneRavine_6_33:
-        .byte           PAN   , c_v+0
-        .byte           VOL   , 74
-        .byte           VOICE , 40
-        .byte   W96
-        .byte   PEND
-@ 034   ----------------------------------------
-        .byte   W96
-@ 035   ----------------------------------------
-        .byte   W96
-@ 036   ----------------------------------------
-        .byte   W96
-@ 037   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_6_9
-@ 038   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_1_20
-@ 039   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_6_11
-@ 040   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_6_12
-@ 041   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_6_13
-@ 042   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_1_20
-@ 043   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_6_15
-@ 044   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_6_16
-@ 045   ----------------------------------------
-        .byte   W96
-@ 046   ----------------------------------------
-        .byte   W96
-@ 047   ----------------------------------------
-        .byte   W96
-@ 048   ----------------------------------------
-        .byte   W96
-@ 049   ----------------------------------------
-        .byte   W96
-@ 050   ----------------------------------------
-        .byte   W96
-@ 051   ----------------------------------------
-        .byte   W96
-@ 052   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_6_24
-@ 053   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_6_25
-@ 054   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_6_26
-@ 055   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_6_27
-@ 056   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_6_28
-@ 057   ----------------------------------------
-        .byte   W96
-@ 058   ----------------------------------------
-        .byte   W96
-@ 059   ----------------------------------------
-        .byte   W96
-@ 060   ----------------------------------------
-        .byte   W96
-@ 061   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_6_33
-@ 062   ----------------------------------------
-        .byte   W96
-@ 063   ----------------------------------------
-        .byte   W96
-@ 064   ----------------------------------------
-        .byte   W96
-@ 065   ----------------------------------------
-        .byte   FINE
-
-@****************** Track 7 (Midi-Chn.7) ******************@
-
-FortuneRavine_7:
-        .byte   KEYSH , FortuneRavine_key+0
-@ 000   ----------------------------------------
-        .byte   W24
-@ 001   ----------------------------------------
-FortuneRavine_7_1:
-        .byte           PAN   , c_v-64
-        .byte           VOL   , 43
-        .byte           VOICE , 40
-        .byte   W96
-        .byte   PEND
-@ 002   ----------------------------------------
-        .byte   W96
-@ 003   ----------------------------------------
-        .byte   W96
-@ 004   ----------------------------------------
-        .byte   W96
-@ 005   ----------------------------------------
-        .byte   W96
-@ 006   ----------------------------------------
-        .byte   W96
-@ 007   ----------------------------------------
-        .byte   W96
-@ 008   ----------------------------------------
-        .byte   W96
-@ 009   ----------------------------------------
-FortuneRavine_7_9:
-        .byte   W08
-        .byte           VOL   , 36
-        .byte           N54   , En4 , v127
-        .byte   W06
-        .byte           VOL   , 37
-        .byte   W10
-        .byte                   38
-        .byte   W08
-        .byte                   39
-        .byte   W03
-        .byte                   40
-        .byte   W04
-        .byte                   41
-        .byte   W03
-        .byte                   42
-        .byte   W03
-        .byte                   43
-        .byte   W17
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte           N12   , Bn3
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte                   Cn4
-        .byte   W04
-        .byte   PEND
-@ 010   ----------------------------------------
-FortuneRavine_7_10:
-        .byte   W02
-        .byte           N06   , Dn4 , v127
-        .byte   W06
-        .byte           N48   , Gn3
-        .byte   W48
-        .byte           N06
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   Bn3
-        .byte   W06
-        .byte           N12
-        .byte   W12
-        .byte           N06   , Cn4
-        .byte   W06
-        .byte                   Gn3
-        .byte   W04
-        .byte   PEND
-@ 011   ----------------------------------------
-FortuneRavine_7_11:
-        .byte   W02
-        .byte           N06   , An3 , v127
-        .byte   W06
-        .byte           TIE   , En3
-        .byte   W36
-        .byte   W03
-        .byte           VOL   , 42
-        .byte   W22
-        .byte                   41
-        .byte   W24
-        .byte   W03
-        .byte   PEND
-@ 012   ----------------------------------------
-FortuneRavine_7_12:
-        .byte   W05
-        .byte           VOL   , 40
-        .byte   W10
-        .byte                   39
-        .byte   W17
-        .byte                   38
-        .byte   W12
-        .byte                   37
-        .byte   W13
-        .byte                   36
-        .byte   W06
-        .byte                   35
-        .byte   W06
-        .byte                   34
-        .byte   W05
-        .byte                   33
-        .byte   W04
-        .byte                   32
-        .byte   W02
-        .byte           EOT   , En3
-        .byte   W01
-        .byte           VOL   , 31
-        .byte   W03
-        .byte                   30
-        .byte   W03
-        .byte                   29
-        .byte   W02
-        .byte                   28
-        .byte   W04
-        .byte                   27
-        .byte   W02
-        .byte                   26
-        .byte   W01
-        .byte   PEND
-@ 013   ----------------------------------------
-FortuneRavine_7_13:
-        .byte   W08
-        .byte           VOL   , 38
-        .byte           N54   , En4 , v127
-        .byte   W07
-        .byte           VOL   , 39
-        .byte   W14
-        .byte                   40
-        .byte   W06
-        .byte                   41
-        .byte   W07
-        .byte                   42
-        .byte   W03
-        .byte                   43
-        .byte   W17
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte           N12   , Bn3
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte                   Cn4
-        .byte   W04
-        .byte   PEND
-@ 014   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_7_10
-@ 015   ----------------------------------------
-FortuneRavine_7_15:
-        .byte   W02
-        .byte           N06   , An3 , v127
-        .byte   W06
-        .byte                   As3
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte           N15   , Dn4
-        .byte   W18
-        .byte           N06
-        .byte   W06
-        .byte                   En4
-        .byte   W06
-        .byte           N32   , Fn4 , v127 , gtp1
-        .byte   W24
-        .byte   W01
-        .byte           VOL   , 42
-        .byte   W11
-        .byte                   41
-        .byte           N06
-        .byte   W06
-        .byte                   Gn4
-        .byte   W04
-        .byte   PEND
-@ 016   ----------------------------------------
-FortuneRavine_7_16:
-        .byte   W02
-        .byte           N96   , An4 , v127
-        .byte   W03
-        .byte           VOL   , 40
-        .byte   W06
-        .byte                   39
-        .byte   W07
-        .byte                   38
-        .byte   W06
-        .byte                   37
-        .byte   W08
-        .byte                   36
-        .byte   W03
-        .byte                   35
-        .byte   W07
-        .byte                   34
-        .byte   W05
-        .byte                   33
-        .byte   W06
-        .byte                   32
-        .byte   W03
-        .byte                   31
-        .byte   W04
-        .byte                   30
-        .byte   W05
-        .byte                   29
-        .byte   W03
-        .byte                   28
-        .byte   W04
-        .byte                   27
-        .byte   W03
-        .byte                   26
-        .byte   W06
-        .byte                   25
-        .byte   W02
-        .byte                   24
-        .byte   W03
-        .byte                   23
-        .byte   W04
-        .byte                   22
-        .byte   W03
-        .byte                   21
-        .byte   W03
-        .byte   PEND
-@ 017   ----------------------------------------
-        .byte                   20
-        .byte   W96
-@ 018   ----------------------------------------
-        .byte   W96
-@ 019   ----------------------------------------
-        .byte   W96
-@ 020   ----------------------------------------
-        .byte   W96
-@ 021   ----------------------------------------
-        .byte   W96
-@ 022   ----------------------------------------
-        .byte   W96
-@ 023   ----------------------------------------
-        .byte   W96
-@ 024   ----------------------------------------
-FortuneRavine_7_24:
-        .byte           PAN   , c_v+46
-        .byte           VOL   , 78
-        .byte           VOICE , 65
-        .byte   W96
-        .byte   PEND
-@ 025   ----------------------------------------
-FortuneRavine_7_25:
-        .byte           N06   , En2 , v127
-        .byte   W06
-        .byte                   Fs2
-        .byte   W06
-        .byte                   Gn2
-        .byte   W06
-        .byte           N12   , An2
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte                   Bn2
-        .byte   W06
-        .byte           N12   , Cn3
-        .byte   W12
-        .byte           N06   , Dn3
-        .byte   W06
-        .byte                   Bn2
-        .byte   W06
-        .byte           N12   , Cn3
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte                   Dn3
-        .byte   W06
-        .byte           N90   , En3
-        .byte   W06
-        .byte   PEND
-@ 026   ----------------------------------------
-FortuneRavine_7_26:
-        .byte   W18
-        .byte           VOL   , 77
-        .byte   W12
-        .byte                   76
-        .byte   W03
-        .byte                   75
-        .byte   W03
-        .byte                   74
-        .byte   W03
-        .byte                   73
-        .byte   W03
-        .byte                   72
-        .byte   W03
-        .byte                   70
-        .byte   W03
-        .byte                   69
-        .byte   W03
-        .byte                   67
-        .byte   W03
-        .byte                   65
-        .byte   W03
-        .byte                   63
-        .byte   W03
-        .byte                   60
-        .byte   W03
-        .byte                   58
-        .byte   W03
-        .byte                   55
-        .byte   W03
-        .byte                   53
-        .byte   W03
-        .byte                   50
-        .byte   W03
-        .byte                   46
-        .byte   W03
-        .byte                   43
-        .byte   W03
-        .byte                   40
-        .byte   W03
-        .byte                   36
-        .byte   W03
-        .byte                   32
-        .byte   W09
-        .byte   PEND
-@ 027   ----------------------------------------
-FortuneRavine_7_27:
-        .byte           VOL   , 78
-        .byte           N06   , En2 , v127
-        .byte   W06
-        .byte                   Fs2
-        .byte   W06
-        .byte                   Gn2
-        .byte   W06
-        .byte           N12   , An2
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte                   Bn2
-        .byte   W06
-        .byte           N12   , Cn3
-        .byte   W12
-        .byte           N06   , Dn3
-        .byte   W06
-        .byte                   Bn2
-        .byte   W06
-        .byte           N12   , Cn3
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte                   Dn3
-        .byte   W06
-        .byte           N90   , En3
-        .byte   W06
-        .byte   PEND
-@ 028   ----------------------------------------
-FortuneRavine_7_28:
-        .byte   W24
-        .byte   W03
-        .byte           VOL   , 77
-        .byte   W09
-        .byte                   76
-        .byte   W03
-        .byte                   74
-        .byte   W03
-        .byte                   73
-        .byte   W03
-        .byte                   72
-        .byte   W03
-        .byte                   69
-        .byte   W03
-        .byte                   67
-        .byte   W03
-        .byte                   64
-        .byte   W03
-        .byte                   62
-        .byte   W03
-        .byte                   59
-        .byte   W03
-        .byte                   55
-        .byte   W03
-        .byte                   51
-        .byte   W03
-        .byte                   47
-        .byte   W03
-        .byte                   43
-        .byte   W03
-        .byte                   38
-        .byte   W03
-        .byte                   33
-        .byte   W18
-        .byte   PEND
-@ 029   ----------------------------------------
-        .byte   W96
-@ 030   ----------------------------------------
-        .byte   W96
-@ 031   ----------------------------------------
-        .byte   W96
-@ 032   ----------------------------------------
-        .byte   W96
-@ 033   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_7_1
-@ 034   ----------------------------------------
-        .byte   W96
-@ 035   ----------------------------------------
-        .byte   W96
-@ 036   ----------------------------------------
-        .byte   W96
-@ 037   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_7_9
-@ 038   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_7_10
-@ 039   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_7_11
-@ 040   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_7_12
-@ 041   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_7_13
-@ 042   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_7_10
-@ 043   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_7_15
-@ 044   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_7_16
-@ 045   ----------------------------------------
-        .byte           VOL   , 20
-        .byte   W96
-@ 046   ----------------------------------------
-        .byte   W96
-@ 047   ----------------------------------------
-        .byte   W96
-@ 048   ----------------------------------------
-        .byte   W96
-@ 049   ----------------------------------------
-        .byte   W96
-@ 050   ----------------------------------------
-        .byte   W96
-@ 051   ----------------------------------------
-        .byte   W96
-@ 052   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_7_24
-@ 053   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_7_25
-@ 054   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_7_26
-@ 055   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_7_27
-@ 056   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_7_28
-@ 057   ----------------------------------------
-        .byte   W96
-@ 058   ----------------------------------------
-        .byte   W96
-@ 059   ----------------------------------------
-        .byte   W96
-@ 060   ----------------------------------------
-        .byte   W96
-@ 061   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_7_1
-@ 062   ----------------------------------------
-        .byte   W96
-@ 063   ----------------------------------------
-        .byte   W96
-@ 064   ----------------------------------------
-        .byte   W96
-@ 065   ----------------------------------------
-        .byte   FINE
-
-@****************** Track 8 (Midi-Chn.8) ******************@
-
-FortuneRavine_8:
-        .byte   KEYSH , FortuneRavine_key+0
-@ 000   ----------------------------------------
-        .byte   W24
-@ 001   ----------------------------------------
-        .byte           PAN   , c_v+63
-        .byte           VOL   , 39
-        .byte           VOICE , 40
-        .byte   W96
-@ 002   ----------------------------------------
-        .byte   W96
-@ 003   ----------------------------------------
-        .byte   W96
-@ 004   ----------------------------------------
-        .byte   W96
-@ 005   ----------------------------------------
-        .byte   W96
-@ 006   ----------------------------------------
-        .byte   W96
-@ 007   ----------------------------------------
-        .byte   W96
-@ 008   ----------------------------------------
-        .byte   W96
-@ 009   ----------------------------------------
-FortuneRavine_8_9:
-        .byte   W16
-        .byte           VOL   , 33
-        .byte           N54   , En4 , v127
-        .byte   W13
-        .byte           VOL   , 34
-        .byte   W11
-        .byte                   35
-        .byte   W03
-        .byte                   36
-        .byte   W06
-        .byte                   37
-        .byte   W01
-        .byte                   38
-        .byte   W03
-        .byte                   39
-        .byte   W17
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte           N12   , Bn3
-        .byte   W12
-        .byte           N06
-        .byte   W02
-        .byte   PEND
-@ 010   ----------------------------------------
-FortuneRavine_8_10:
-        .byte   W04
-        .byte           N06   , Cn4 , v127
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte           N48   , Gn3
-        .byte   W48
-        .byte           N06
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   Bn3
-        .byte   W06
-        .byte           N12
-        .byte   W12
-        .byte           N06   , Cn4
-        .byte   W02
-        .byte   PEND
-@ 011   ----------------------------------------
-FortuneRavine_8_11:
-        .byte   W04
-        .byte           N06   , Gn3 , v127
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte           TIE   , En3
-        .byte   W07
-        .byte           VOL   , 38
-        .byte   W54
-        .byte                   37
-        .byte   W17
-        .byte                   36
-        .byte   W02
-        .byte   PEND
-@ 012   ----------------------------------------
-FortuneRavine_8_12:
-        .byte   W23
-        .byte           VOL   , 35
-        .byte   W17
-        .byte                   34
-        .byte   W12
-        .byte                   33
-        .byte   W16
-        .byte                   32
-        .byte   W08
-        .byte                   31
-        .byte   W04
-        .byte                   30
-        .byte   W05
-        .byte                   29
-        .byte   W03
-        .byte           EOT   , En3
-        .byte   W01
-        .byte           VOL   , 28
-        .byte   W03
-        .byte                   27
-        .byte   W03
-        .byte                   26
-        .byte   W01
-        .byte   PEND
-@ 013   ----------------------------------------
-FortuneRavine_8_13:
-        .byte   W02
-        .byte           VOL   , 25
-        .byte   W03
-        .byte                   24
-        .byte   W02
-        .byte                   23
-        .byte   W09
-        .byte                   34
-        .byte           N54   , En4 , v127
-        .byte   W07
-        .byte           VOL   , 35
-        .byte   W14
-        .byte                   36
-        .byte   W10
-        .byte                   37
-        .byte   W03
-        .byte                   38
-        .byte   W05
-        .byte                   39
-        .byte   W15
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte           N12   , Bn3
-        .byte   W12
-        .byte           N06
-        .byte   W02
-        .byte   PEND
-@ 014   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_8_10
-@ 015   ----------------------------------------
-FortuneRavine_8_15:
-        .byte   W04
-        .byte           N06   , Gn3 , v127
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   As3
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte           N15   , Dn4
-        .byte   W18
-        .byte           N06
-        .byte   W06
-        .byte                   En4
-        .byte   W06
-        .byte           N32   , Fn4 , v127 , gtp1
-        .byte   W21
-        .byte           VOL   , 38
-        .byte   W15
-        .byte                   37
-        .byte           N06
-        .byte   W02
-        .byte   PEND
-@ 016   ----------------------------------------
-FortuneRavine_8_16:
-        .byte   W04
-        .byte           N06   , Gn4 , v127
-        .byte   W01
-        .byte           VOL   , 36
-        .byte   W05
-        .byte           N96   , An4
-        .byte   W09
-        .byte           VOL   , 35
-        .byte   W07
-        .byte                   34
-        .byte   W09
-        .byte                   33
-        .byte   W06
-        .byte                   32
-        .byte   W06
-        .byte                   31
-        .byte   W05
-        .byte                   30
-        .byte   W06
-        .byte                   29
-        .byte   W06
-        .byte                   28
-        .byte   W04
-        .byte                   27
-        .byte   W05
-        .byte                   26
-        .byte   W04
-        .byte                   25
-        .byte   W03
-        .byte                   24
-        .byte   W05
-        .byte                   23
-        .byte   W04
-        .byte                   22
-        .byte   W03
-        .byte                   21
-        .byte   W04
-        .byte   PEND
-@ 017   ----------------------------------------
-FortuneRavine_8_17:
-        .byte   W02
-        .byte           VOL   , 20
-        .byte   W02
-        .byte                   19
-        .byte   W04
-        .byte                   18
-        .byte   W88
-        .byte   PEND
-@ 018   ----------------------------------------
-        .byte   W96
-@ 019   ----------------------------------------
-        .byte   W96
-@ 020   ----------------------------------------
-        .byte   W96
-@ 021   ----------------------------------------
-        .byte   W96
-@ 022   ----------------------------------------
-        .byte   W96
-@ 023   ----------------------------------------
-        .byte   W96
-@ 024   ----------------------------------------
-        .byte   W96
-@ 025   ----------------------------------------
-        .byte   W96
-@ 026   ----------------------------------------
-        .byte   W96
-@ 027   ----------------------------------------
-        .byte   W96
-@ 028   ----------------------------------------
-        .byte   W96
-@ 029   ----------------------------------------
-        .byte   W96
-@ 030   ----------------------------------------
-        .byte   W96
-@ 031   ----------------------------------------
-        .byte   W96
-@ 032   ----------------------------------------
-        .byte   W96
-@ 033   ----------------------------------------
-        .byte   W96
-@ 034   ----------------------------------------
-        .byte   W96
-@ 035   ----------------------------------------
-        .byte   W96
-@ 036   ----------------------------------------
-        .byte   W96
-@ 037   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_8_9
-@ 038   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_8_10
-@ 039   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_8_11
-@ 040   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_8_12
-@ 041   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_8_13
-@ 042   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_8_10
-@ 043   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_8_15
-@ 044   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_8_16
-@ 045   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_8_17
-@ 046   ----------------------------------------
-        .byte   W96
-@ 047   ----------------------------------------
-        .byte   W96
-@ 048   ----------------------------------------
-        .byte   W96
-@ 049   ----------------------------------------
-        .byte   W96
-@ 050   ----------------------------------------
-        .byte   W96
-@ 051   ----------------------------------------
-        .byte   W96
-@ 052   ----------------------------------------
-        .byte   W96
-@ 053   ----------------------------------------
-        .byte   W96
-@ 054   ----------------------------------------
-        .byte   W96
-@ 055   ----------------------------------------
-        .byte   W96
-@ 056   ----------------------------------------
-        .byte   W96
-@ 057   ----------------------------------------
-        .byte   W96
-@ 058   ----------------------------------------
-        .byte   W96
-@ 059   ----------------------------------------
-        .byte   W96
-@ 060   ----------------------------------------
-        .byte   W96
-@ 061   ----------------------------------------
-        .byte   W96
-@ 062   ----------------------------------------
-        .byte   W96
-@ 063   ----------------------------------------
-        .byte   W96
-@ 064   ----------------------------------------
-        .byte   W96
-@ 065   ----------------------------------------
-        .byte   FINE
-
-@***************** Track 9 (Midi-Chn.10) ******************@
-
-FortuneRavine_9:
-        .byte   KEYSH , FortuneRavine_key+0
-@ 000   ----------------------------------------
-        .byte   W24
-@ 001   ----------------------------------------
-        .byte           VOICE , 48
-        .byte           VOL   , 48
-        .byte           TIE   , An2 , v124
-        .byte   W01
-        .byte           VOL   , 49
-        .byte   W03
-        .byte                   50
-        .byte   W05
-        .byte                   51
-        .byte   W01
-        .byte                   52
-        .byte   W02
-        .byte                   53
-        .byte   W01
-        .byte                   54
-        .byte   W05
-        .byte                   55
-        .byte   W01
-        .byte                   56
-        .byte   W03
-        .byte                   57
-        .byte   W03
-        .byte                   58
-        .byte   W02
-        .byte                   59
-        .byte   W03
-        .byte                   60
-        .byte   W01
-        .byte                   61
-        .byte   W05
-        .byte                   62
-        .byte   W03
-        .byte                   64
-        .byte   W03
-        .byte                   65
-        .byte   W03
-        .byte                   66
-        .byte   W03
-        .byte                   67
-        .byte   W03
-        .byte                   69
-        .byte   W04
-        .byte                   70
-        .byte   W02
-        .byte                   71
-        .byte   W03
-        .byte                   72
-        .byte   W04
-        .byte                   73
-        .byte   W02
-        .byte                   74
-        .byte   W01
-        .byte                   75
-        .byte   W02
-        .byte                   76
-        .byte   W04
-        .byte                   77
-        .byte   W03
-        .byte                   78
-        .byte   W02
-        .byte                   79
-        .byte   W01
-        .byte                   80
-        .byte   W03
-        .byte                   81
-        .byte   W03
-        .byte                   82
-        .byte   W03
-        .byte                   83
-        .byte   W03
-        .byte                   84
-        .byte   W02
-        .byte                   85
-        .byte   W01
-        .byte                   86
-        .byte   W02
-@ 002   ----------------------------------------
-FortuneRavine_9_2:
-        .byte           VOL   , 85
-        .byte   W03
-        .byte                   84
-        .byte   W03
-        .byte                   83
-        .byte   W06
-        .byte                   82
-        .byte   W03
-        .byte                   81
-        .byte   W06
-        .byte                   80
-        .byte   W06
-        .byte                   79
-        .byte   W03
-        .byte                   78
-        .byte   W03
-        .byte                   77
-        .byte   W03
-        .byte                   76
-        .byte   W09
-        .byte                   75
-        .byte   W01
-        .byte                   74
-        .byte   W03
-        .byte                   73
-        .byte   W05
-        .byte                   72
-        .byte   W04
-        .byte                   71
-        .byte   W08
-        .byte                   70
-        .byte   W01
-        .byte                   69
-        .byte   W08
-        .byte                   68
-        .byte   W01
-        .byte                   67
-        .byte   W03
-        .byte                   66
-        .byte   W08
-        .byte                   65
-        .byte   W04
-        .byte                   64
-        .byte   W05
-        .byte   PEND
-@ 003   ----------------------------------------
-FortuneRavine_9_3:
-        .byte           EOT   , An2
-        .byte           N96   , Gn2 , v107
-        .byte   W01
-        .byte           VOL   , 65
-        .byte   W05
-        .byte                   66
-        .byte   W07
-        .byte                   67
-        .byte   W03
-        .byte                   68
-        .byte   W03
-        .byte                   69
-        .byte   W06
-        .byte                   70
-        .byte   W02
-        .byte                   71
-        .byte   W07
-        .byte                   72
-        .byte   W06
-        .byte                   73
-        .byte   W03
-        .byte                   74
-        .byte   W03
-        .byte                   75
-        .byte   W02
-        .byte                   76
-        .byte   W09
-        .byte                   77
-        .byte   W04
-        .byte                   78
-        .byte   W03
-        .byte                   79
-        .byte   W02
-        .byte                   80
-        .byte   W07
-        .byte                   81
-        .byte   W05
-        .byte                   82
-        .byte   W04
-        .byte                   83
-        .byte   W05
-        .byte                   84
-        .byte   W04
-        .byte                   86
-        .byte   W02
-        .byte                   85
-        .byte   W03
-        .byte   PEND
-@ 004   ----------------------------------------
-FortuneRavine_9_4:
-        .byte           VOL   , 84
-        .byte           N96   , Fs2 , v107
-        .byte   W03
-        .byte           VOL   , 83
-        .byte   W04
-        .byte                   82
-        .byte   W03
-        .byte                   81
-        .byte   W05
-        .byte                   80
-        .byte   W06
-        .byte                   79
-        .byte   W03
-        .byte                   78
-        .byte   W03
-        .byte                   77
-        .byte   W01
-        .byte                   76
-        .byte   W09
-        .byte                   75
-        .byte   W02
-        .byte                   74
-        .byte   W03
-        .byte                   73
-        .byte   W03
-        .byte                   72
-        .byte   W04
-        .byte                   71
-        .byte   W06
-        .byte                   70
-        .byte   W02
-        .byte                   69
-        .byte   W06
-        .byte                   68
-        .byte   W01
-        .byte                   67
-        .byte   W03
-        .byte                   66
-        .byte   W06
-        .byte                   65
-        .byte   W05
-        .byte                   64
-        .byte   W03
-        .byte                   63
-        .byte   W03
-        .byte                   62
-        .byte   W03
-        .byte                   61
-        .byte   W03
-        .byte                   62
-        .byte   W01
-        .byte                   63
-        .byte   W05
-        .byte   PEND
-@ 005   ----------------------------------------
-FortuneRavine_9_5:
-        .byte           VOL   , 64
-        .byte           N96   , Dn2 , v107
-        .byte   W01
-        .byte           VOL   , 65
-        .byte   W06
-        .byte                   66
-        .byte   W08
-        .byte                   67
-        .byte   W03
-        .byte                   68
-        .byte   W03
-        .byte                   69
-        .byte   W06
-        .byte                   70
-        .byte   W03
-        .byte                   71
-        .byte   W07
-        .byte                   72
-        .byte   W05
-        .byte                   73
-        .byte   W06
-        .byte                   74
-        .byte   W01
-        .byte                   75
-        .byte   W03
-        .byte                   76
-        .byte   W09
-        .byte                   77
-        .byte   W03
-        .byte                   78
-        .byte   W05
-        .byte                   79
-        .byte   W01
-        .byte                   80
-        .byte   W08
-        .byte                   81
-        .byte   W06
-        .byte                   82
-        .byte   W03
-        .byte                   83
-        .byte   W06
-        .byte                   84
-        .byte   W03
-        .byte   PEND
-@ 006   ----------------------------------------
-FortuneRavine_9_6:
-        .byte           VOL   , 85
-        .byte           N96   , Fs2 , v107
-        .byte   W04
-        .byte           VOL   , 84
-        .byte   W03
-        .byte                   83
-        .byte   W06
-        .byte                   82
-        .byte   W03
-        .byte                   81
-        .byte   W06
-        .byte                   80
-        .byte   W06
-        .byte                   79
-        .byte   W03
-        .byte                   78
-        .byte   W03
-        .byte                   77
-        .byte   W03
-        .byte                   76
-        .byte   W09
-        .byte                   75
-        .byte   W02
-        .byte                   74
-        .byte   W04
-        .byte                   73
-        .byte   W03
-        .byte                   72
-        .byte   W06
-        .byte                   71
-        .byte   W06
-        .byte                   70
-        .byte   W02
-        .byte                   69
-        .byte   W07
-        .byte                   68
-        .byte   W02
-        .byte                   67
-        .byte   W04
-        .byte                   66
-        .byte   W06
-        .byte                   65
-        .byte   W06
-        .byte                   64
-        .byte   W02
-        .byte   PEND
-@ 007   ----------------------------------------
-FortuneRavine_9_7:
-        .byte           VOL   , 63
-        .byte           N96   , Gn2 , v107
-        .byte   W03
-        .byte           VOL   , 64
-        .byte   W03
-        .byte                   65
-        .byte   W06
-        .byte                   66
-        .byte   W06
-        .byte                   67
-        .byte   W03
-        .byte                   68
-        .byte   W01
-        .byte                   69
-        .byte   W08
-        .byte                   70
-        .byte   W01
-        .byte                   71
-        .byte   W08
-        .byte                   72
-        .byte   W04
-        .byte                   73
-        .byte   W03
-        .byte                   74
-        .byte   W05
-        .byte                   76
-        .byte   W09
-        .byte                   77
-        .byte   W03
-        .byte                   78
-        .byte   W03
-        .byte                   79
-        .byte   W03
-        .byte                   80
-        .byte   W06
-        .byte                   81
-        .byte   W06
-        .byte                   82
-        .byte   W01
-        .byte                   83
-        .byte   W08
-        .byte                   84
-        .byte   W01
-        .byte                   85
-        .byte   W03
-        .byte                   86
-        .byte   W02
-        .byte   PEND
-@ 008   ----------------------------------------
-FortuneRavine_9_8:
-        .byte           VOL   , 87
-        .byte           N96   , An2 , v107
-        .byte   W09
-        .byte           VOL   , 86
-        .byte   W03
-        .byte                   85
-        .byte   W03
-        .byte                   84
-        .byte   W03
-        .byte                   83
-        .byte   W06
-        .byte                   82
-        .byte   W03
-        .byte                   81
-        .byte   W03
-        .byte                   80
-        .byte   W06
-        .byte                   79
-        .byte   W03
-        .byte                   78
-        .byte   W03
-        .byte                   77
-        .byte   W03
-        .byte                   76
-        .byte   W09
-        .byte                   75
-        .byte   W03
-        .byte                   74
-        .byte   W03
-        .byte                   73
-        .byte   W03
-        .byte                   72
-        .byte   W03
-        .byte                   71
-        .byte   W09
-        .byte                   69
-        .byte   W06
-        .byte                   68
-        .byte   W03
-        .byte                   67
-        .byte   W03
-        .byte                   66
-        .byte   W06
-        .byte                   65
-        .byte   W03
-        .byte   PEND
-@ 009   ----------------------------------------
-FortuneRavine_9_9:
-        .byte           VOL   , 48
-        .byte           TIE   , An2 , v124
-        .byte   W01
-        .byte           VOL   , 49
-        .byte   W03
-        .byte                   50
-        .byte   W05
-        .byte                   51
-        .byte   W01
-        .byte                   52
-        .byte   W02
-        .byte                   53
-        .byte   W01
-        .byte                   54
-        .byte   W05
-        .byte                   55
-        .byte   W01
-        .byte                   56
-        .byte   W03
-        .byte                   57
-        .byte   W03
-        .byte                   58
-        .byte   W02
-        .byte                   59
-        .byte   W03
-        .byte                   60
-        .byte   W01
-        .byte                   61
-        .byte   W05
-        .byte                   62
-        .byte   W03
-        .byte                   64
-        .byte   W03
-        .byte                   65
-        .byte   W03
-        .byte                   66
-        .byte   W03
-        .byte                   67
-        .byte   W03
-        .byte                   69
-        .byte   W04
-        .byte                   70
-        .byte   W02
-        .byte                   71
-        .byte   W03
-        .byte                   72
-        .byte   W04
-        .byte                   73
-        .byte   W02
-        .byte                   74
-        .byte   W01
-        .byte                   75
-        .byte   W02
-        .byte                   76
-        .byte   W04
-        .byte                   77
-        .byte   W03
-        .byte                   78
-        .byte   W02
-        .byte                   79
-        .byte   W01
-        .byte                   80
-        .byte   W03
-        .byte                   81
-        .byte   W03
-        .byte                   82
-        .byte   W03
-        .byte                   83
-        .byte   W03
-        .byte                   84
-        .byte   W02
-        .byte                   85
-        .byte   W01
-        .byte                   86
-        .byte   W02
-        .byte   PEND
-@ 010   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_3_2
-@ 011   ----------------------------------------
-FortuneRavine_9_11:
-        .byte           EOT   , An2
-        .byte           N96   , Cn2 , v107
-        .byte           N96   , Gn2
-        .byte           N96   , En3
-        .byte   W01
-        .byte           VOL   , 65
-        .byte   W05
-        .byte                   66
-        .byte   W07
-        .byte                   67
-        .byte   W03
-        .byte                   68
-        .byte   W03
-        .byte                   69
-        .byte   W06
-        .byte                   70
-        .byte   W02
-        .byte                   71
-        .byte   W07
-        .byte                   72
-        .byte   W06
-        .byte                   73
-        .byte   W03
-        .byte                   74
-        .byte   W03
-        .byte                   75
-        .byte   W02
-        .byte                   76
-        .byte   W09
-        .byte                   77
-        .byte   W04
-        .byte                   78
-        .byte   W03
-        .byte                   79
-        .byte   W02
-        .byte                   80
-        .byte   W07
-        .byte                   81
-        .byte   W05
-        .byte                   82
-        .byte   W04
-        .byte                   83
-        .byte   W05
-        .byte                   84
-        .byte   W04
-        .byte                   86
-        .byte   W02
-        .byte                   85
-        .byte   W03
-        .byte   PEND
-@ 012   ----------------------------------------
-FortuneRavine_9_12:
-        .byte           VOL   , 84
-        .byte           N96   , Dn2 , v107
-        .byte           N96   , Fs2
-        .byte           N96   , Dn3
-        .byte   W03
-        .byte           VOL   , 83
-        .byte   W04
-        .byte                   82
-        .byte   W03
-        .byte                   81
-        .byte   W05
-        .byte                   80
-        .byte   W06
-        .byte                   79
-        .byte   W03
-        .byte                   78
-        .byte   W03
-        .byte                   77
-        .byte   W01
-        .byte                   76
-        .byte   W09
-        .byte                   75
-        .byte   W02
-        .byte                   74
-        .byte   W03
-        .byte                   73
-        .byte   W03
-        .byte                   72
-        .byte   W04
-        .byte                   71
-        .byte   W06
-        .byte                   70
-        .byte   W02
-        .byte                   69
-        .byte   W06
-        .byte                   68
-        .byte   W01
-        .byte                   67
-        .byte   W03
-        .byte                   66
-        .byte   W06
-        .byte                   65
-        .byte   W05
-        .byte                   64
-        .byte   W03
-        .byte                   63
-        .byte   W03
-        .byte                   62
-        .byte   W03
-        .byte                   61
-        .byte   W03
-        .byte                   62
-        .byte   W01
-        .byte                   63
-        .byte   W05
-        .byte   PEND
-@ 013   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_9_9
-@ 014   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_3_2
-@ 015   ----------------------------------------
-FortuneRavine_9_15:
-        .byte           EOT   , An2
-        .byte           VOL   , 63
-        .byte           N36   , Ds2 , v107
-        .byte           N36   , As2
-        .byte           N36   , Gn3
-        .byte   W04
-        .byte           VOL   , 64
-        .byte   W02
-        .byte                   65
-        .byte   W04
-        .byte                   66
-        .byte   W06
-        .byte                   67
-        .byte   W03
-        .byte                   68
-        .byte   W03
-        .byte                   69
-        .byte   W09
-        .byte                   71
-        .byte   W05
-        .byte                   72
-        .byte           N60   , Fn2
-        .byte           N60   , Cn3
-        .byte           N60   , An3
-        .byte   W06
-        .byte           VOL   , 73
-        .byte   W04
-        .byte                   74
-        .byte   W02
-        .byte                   75
-        .byte   W01
-        .byte                   76
-        .byte   W09
-        .byte                   77
-        .byte   W03
-        .byte                   78
-        .byte   W03
-        .byte                   79
-        .byte   W02
-        .byte                   80
-        .byte   W06
-        .byte                   81
-        .byte   W06
-        .byte                   82
-        .byte   W04
-        .byte                   83
-        .byte   W03
-        .byte                   84
-        .byte   W06
-        .byte                   86
-        .byte   W02
-        .byte                   87
-        .byte   W03
-        .byte   PEND
-@ 016   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_9_12
-@ 017   ----------------------------------------
-FortuneRavine_9_17:
-        .byte           N36   , Ds2 , v107
-        .byte           N36   , As2
-        .byte           N36   , Gn3
-        .byte   W04
-        .byte           VOL   , 64
-        .byte   W02
-        .byte                   65
-        .byte   W04
-        .byte                   66
-        .byte   W06
-        .byte                   67
-        .byte   W03
-        .byte                   68
-        .byte   W03
-        .byte                   69
-        .byte   W09
-        .byte                   71
-        .byte   W05
-        .byte                   72
-        .byte           N60   , Fn2
-        .byte           N60   , Cn3
-        .byte           N60   , An3
-        .byte   W06
-        .byte           VOL   , 73
-        .byte   W04
-        .byte                   74
-        .byte   W02
-        .byte                   75
-        .byte   W01
-        .byte                   76
-        .byte   W09
-        .byte                   77
-        .byte   W03
-        .byte                   78
-        .byte   W03
-        .byte                   79
-        .byte   W02
-        .byte                   80
-        .byte   W06
-        .byte                   81
-        .byte   W06
-        .byte                   82
-        .byte   W04
-        .byte                   83
-        .byte   W03
-        .byte                   84
-        .byte   W06
-        .byte                   86
-        .byte   W02
-        .byte                   87
-        .byte   W03
-        .byte   PEND
-@ 018   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_9_12
-@ 019   ----------------------------------------
-        .byte   W96
-@ 020   ----------------------------------------
-        .byte   W96
-@ 021   ----------------------------------------
-        .byte   W96
-@ 022   ----------------------------------------
-        .byte   W96
-@ 023   ----------------------------------------
-        .byte   W96
-@ 024   ----------------------------------------
-        .byte   W96
-@ 025   ----------------------------------------
-        .byte   W96
-@ 026   ----------------------------------------
-        .byte   W96
-@ 027   ----------------------------------------
-        .byte   W96
-@ 028   ----------------------------------------
-        .byte   W96
-@ 029   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_9_9
-@ 030   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_9_2
-@ 031   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_9_3
-@ 032   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_9_4
-@ 033   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_9_5
-@ 034   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_9_6
-@ 035   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_9_7
-@ 036   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_9_8
-@ 037   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_9_9
-@ 038   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_3_2
-@ 039   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_9_11
-@ 040   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_9_12
-@ 041   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_9_9
-@ 042   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_3_2
-@ 043   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_9_15
-@ 044   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_9_12
-@ 045   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_9_17
-@ 046   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_9_12
-@ 047   ----------------------------------------
-        .byte   W96
-@ 048   ----------------------------------------
-        .byte   W96
-@ 049   ----------------------------------------
-        .byte   W96
-@ 050   ----------------------------------------
-        .byte   W96
-@ 051   ----------------------------------------
-        .byte   W96
-@ 052   ----------------------------------------
-        .byte   W96
-@ 053   ----------------------------------------
-        .byte   W96
-@ 054   ----------------------------------------
-        .byte   W96
-@ 055   ----------------------------------------
-        .byte   W96
-@ 056   ----------------------------------------
-        .byte   W96
-@ 057   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_9_9
-@ 058   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_9_2
-@ 059   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_9_3
-@ 060   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_9_4
-@ 061   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_9_5
-@ 062   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_9_6
-@ 063   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_9_7
-@ 064   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_9_8
-@ 065   ----------------------------------------
-        .byte   FINE
-
-@***************** Track 10 (Midi-Chn.11) *****************@
-
-FortuneRavine_10:
-        .byte   KEYSH , FortuneRavine_key+0
-@ 000   ----------------------------------------
-        .byte   W24
-@ 001   ----------------------------------------
-        .byte           VOL   , 69
-        .byte           VOICE , 48
-        .byte   W96
-@ 002   ----------------------------------------
-        .byte   W96
-@ 003   ----------------------------------------
-        .byte   W96
-@ 004   ----------------------------------------
-        .byte   W96
-@ 005   ----------------------------------------
-        .byte   W96
-@ 006   ----------------------------------------
-        .byte   W96
-@ 007   ----------------------------------------
-        .byte   W96
-@ 008   ----------------------------------------
-        .byte   W96
-@ 009   ----------------------------------------
-FortuneRavine_10_9:
-        .byte           N04   , An2 , v127
-        .byte   W06
-        .byte                   An2
-        .byte   W06
-        .byte                   An2
-        .byte   W06
-        .byte                   An2
-        .byte   W06
-        .byte                   An2 , v080
-        .byte   W06
-        .byte                   An2 , v070
-        .byte   W06
-        .byte                   An2 , v060
-        .byte   W06
-        .byte                   An2 , v055
-        .byte   W54
-        .byte   PEND
-@ 010   ----------------------------------------
-FortuneRavine_10_10:
-        .byte           N04   , Cn3 , v127
-        .byte   W06
-        .byte                   Cn3
-        .byte   W06
-        .byte                   Cn3
-        .byte   W06
-        .byte                   Dn3
-        .byte   W06
-        .byte                   Dn3 , v080
-        .byte   W06
-        .byte                   Dn3 , v070
-        .byte   W06
-        .byte                   Dn3 , v060
-        .byte   W06
-        .byte                   Dn3 , v055
-        .byte   W54
-        .byte   PEND
-@ 011   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_10_9
-@ 012   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_10_10
-@ 013   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_10_9
-@ 014   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_10_10
-@ 015   ----------------------------------------
-FortuneRavine_10_15:
-        .byte           N04   , Cn3 , v127
-        .byte   W06
-        .byte                   Cn3
-        .byte   W06
-        .byte                   Cn3
-        .byte   W06
-        .byte                   Dn3
-        .byte   W06
-        .byte                   Dn3 , v080
-        .byte   W06
-        .byte                   Dn3 , v070
-        .byte   W06
-        .byte                   Fn3 , v127
-        .byte   W06
-        .byte                   Fn3
-        .byte   W06
-        .byte                   Fn3
-        .byte   W06
-        .byte                   Gn3
-        .byte   W06
-        .byte                   Gn3 , v080
-        .byte   W06
-        .byte                   Gn3 , v070
-        .byte   W06
-        .byte                   Gn3 , v060
-        .byte   W06
-        .byte                   Gn3 , v055
-        .byte   W18
-        .byte   PEND
-@ 016   ----------------------------------------
-        .byte   W96
-@ 017   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_10_15
-@ 018   ----------------------------------------
-        .byte   W96
-@ 019   ----------------------------------------
-FortuneRavine_10_19:
-        .byte           N06   , En3 , v127
-        .byte   W06
-        .byte                   En3 , v060
-        .byte   W06
-        .byte                   En3 , v050
-        .byte   W06
-        .byte                   Dn3 , v127
-        .byte   W06
-        .byte                   Dn3 , v060
-        .byte   W06
-        .byte                   Dn3 , v050
-        .byte   W06
-        .byte                   En3 , v127
-        .byte   W06
-        .byte                   En3 , v060
-        .byte   W06
-        .byte                   En3 , v050
-        .byte   W06
-        .byte                   Dn3 , v127
-        .byte   W06
-        .byte                   Dn3 , v060
-        .byte   W06
-        .byte                   Dn3 , v050
-        .byte   W06
-        .byte           N18   , Dn3 , v127
-        .byte   W18
-        .byte           N06   , Dn3 , v060
-        .byte   W06
-        .byte   PEND
-@ 020   ----------------------------------------
-FortuneRavine_10_20:
-        .byte           N06   , En3 , v127
-        .byte   W06
-        .byte                   En3 , v060
-        .byte   W06
-        .byte                   En3 , v050
-        .byte   W06
-        .byte                   Dn3 , v127
-        .byte   W06
-        .byte                   Dn3 , v060
-        .byte   W06
-        .byte                   Dn3 , v050
-        .byte   W06
-        .byte                   En3 , v127
-        .byte   W06
-        .byte                   En3 , v060
-        .byte   W06
-        .byte                   En3 , v050
-        .byte   W06
-        .byte                   Dn3 , v127
-        .byte   W06
-        .byte                   Dn3 , v060
-        .byte   W06
-        .byte                   Dn3 , v050
-        .byte   W06
-        .byte           N18   , En3 , v127
-        .byte   W18
-        .byte           N06   , En3 , v060
-        .byte   W06
-        .byte   PEND
-@ 021   ----------------------------------------
-FortuneRavine_10_21:
-        .byte           N06   , En3 , v127
-        .byte   W06
-        .byte                   En3 , v060
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   En3 , v050
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   Dn3 , v127
-        .byte   W06
-        .byte                   Dn3 , v060
-        .byte           N06   , Gn3
-        .byte           N06   , Cn4
-        .byte   W06
-        .byte                   Dn3 , v050
-        .byte           N06   , Gn3
-        .byte           N06   , Cn4
-        .byte   W06
-        .byte                   En3 , v127
-        .byte   W06
-        .byte                   En3 , v060
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   En3 , v050
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   Dn3 , v127
-        .byte   W06
-        .byte                   Dn3 , v060
-        .byte           N06   , Gn3
-        .byte           N06   , Cn4
-        .byte   W06
-        .byte                   Dn3 , v050
-        .byte           N06   , Gn3
-        .byte           N06   , Cn4
-        .byte   W06
-        .byte           N18   , En3 , v127
-        .byte   W18
-        .byte           N06   , En3 , v060
-        .byte           N06   , Gn3
-        .byte           N06   , Bn3
-        .byte   W06
-        .byte   PEND
-@ 022   ----------------------------------------
-FortuneRavine_10_22:
-        .byte           N06   , En3 , v127
-        .byte   W06
-        .byte                   En3 , v060
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   En3 , v050
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   Dn3 , v127
-        .byte   W06
-        .byte                   Dn3 , v060
-        .byte           N06   , Gn3
-        .byte           N06   , Cn4
-        .byte   W06
-        .byte                   Dn3 , v050
-        .byte           N06   , Gn3
-        .byte           N06   , Cn4
-        .byte   W06
-        .byte                   En3 , v127
-        .byte   W06
-        .byte                   En3 , v060
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   En3 , v050
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   Dn3 , v127
-        .byte   W06
-        .byte                   Dn3 , v060
-        .byte           N06   , Gn3
-        .byte           N06   , Cn4
-        .byte   W06
-        .byte                   Dn3 , v050
-        .byte           N06   , Gn3
-        .byte           N06   , Cn4
-        .byte   W06
-        .byte           N18   , Bn3 , v127
-        .byte   W18
-        .byte           N06   , Bn3 , v060
-        .byte           N06   , En4
-        .byte           N06   , Gn4
-        .byte   W06
-        .byte   PEND
-@ 023   ----------------------------------------
-FortuneRavine_10_23:
-        .byte           N06   , En3 , v127
-        .byte   W06
-        .byte                   En3 , v060
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   En3 , v050
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   Dn3 , v127
-        .byte   W06
-        .byte                   Dn3 , v060
-        .byte           N06   , Gn3
-        .byte           N06   , Cn4
-        .byte   W06
-        .byte                   Dn3 , v050
-        .byte           N06   , Gn3
-        .byte           N06   , Cn4
-        .byte   W06
-        .byte                   En3 , v127
-        .byte   W06
-        .byte                   En3 , v060
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   En3 , v050
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   Dn3 , v127
-        .byte   W06
-        .byte                   Dn3 , v060
-        .byte           N06   , Gn3
-        .byte           N06   , Cn4
-        .byte   W06
-        .byte                   Dn3 , v050
-        .byte           N06   , Gn3
-        .byte           N06   , Cn4
-        .byte   W06
-        .byte           N18   , Dn3 , v127
-        .byte   W18
-        .byte           N06   , Dn3 , v060
-        .byte           N06   , Gn3
-        .byte           N06   , Bn3
-        .byte   W06
-        .byte   PEND
-@ 024   ----------------------------------------
-FortuneRavine_10_24:
-        .byte           N06   , En3 , v127
-        .byte   W06
-        .byte                   En3 , v060
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   En3 , v050
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   Dn3 , v127
-        .byte   W06
-        .byte                   Dn3 , v060
-        .byte           N06   , Gn3
-        .byte           N06   , Cn4
-        .byte   W06
-        .byte                   Dn3 , v050
-        .byte           N06   , Gn3
-        .byte           N06   , Cn4
-        .byte   W06
-        .byte                   En3 , v127
-        .byte   W06
-        .byte                   En3 , v060
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   En3 , v050
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   Dn3 , v127
-        .byte   W06
-        .byte                   Dn3 , v060
-        .byte           N06   , Gn3
-        .byte           N06   , Cn4
-        .byte   W06
-        .byte                   Dn3 , v050
-        .byte           N06   , Gn3
-        .byte           N06   , Cn4
-        .byte   W06
-        .byte           N18   , Fs3 , v127
-        .byte   W18
-        .byte           N06   , Fs3 , v060
-        .byte           N06   , An3
-        .byte           N06   , Bn3
-        .byte   W06
-        .byte   PEND
-@ 025   ----------------------------------------
-FortuneRavine_10_25:
-        .byte           N06   , Gn3 , v127
-        .byte   W06
-        .byte                   Gn3 , v060
-        .byte           N06   , Cn4
-        .byte           N06   , En4
-        .byte   W06
-        .byte                   Gn3 , v050
-        .byte           N06   , Cn4
-        .byte           N06   , En4
-        .byte   W06
-        .byte                   Gn3 , v127
-        .byte   W06
-        .byte                   Gn3 , v060
-        .byte           N06   , Cn4
-        .byte           N06   , En4
-        .byte   W06
-        .byte                   Gn3 , v050
-        .byte           N06   , Cn4
-        .byte           N06   , En4
-        .byte   W06
-        .byte                   Fs3 , v127
-        .byte   W06
-        .byte                   Fs3 , v060
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   Fs3 , v050
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   Fs3 , v127
-        .byte   W06
-        .byte                   Fs3 , v060
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   Fs3 , v050
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte           N18   , Fs3 , v127
-        .byte   W18
-        .byte           N06   , Fs3 , v060
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte   PEND
-@ 026   ----------------------------------------
-FortuneRavine_10_26:
-        .byte           N06   , En3 , v127
-        .byte   W06
-        .byte                   En3 , v060
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   En3 , v050
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   En3 , v127
-        .byte   W06
-        .byte                   En3 , v060
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   En3 , v050
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   En3 , v127
-        .byte   W06
-        .byte                   En3 , v060
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   En3 , v050
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   En3 , v127
-        .byte   W06
-        .byte                   Dn3 , v060
-        .byte           N06   , Gn3
-        .byte           N06   , Cn4
-        .byte   W06
-        .byte                   Dn3 , v050
-        .byte           N06   , Gn3
-        .byte           N06   , Cn4
-        .byte   W06
-        .byte           N18   , Dn3 , v127
-        .byte   W18
-        .byte           N06   , Dn3 , v060
-        .byte           N06   , Gn3
-        .byte           N06   , Cn4
-        .byte   W06
-        .byte   PEND
-@ 027   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_10_25
-@ 028   ----------------------------------------
-FortuneRavine_10_28:
-        .byte           N06   , En3 , v127
-        .byte   W06
-        .byte                   En3 , v060
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   En3 , v050
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   En3 , v127
-        .byte   W06
-        .byte                   En3 , v060
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   En3 , v050
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   En3 , v127
-        .byte   W06
-        .byte                   En3 , v060
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   En3 , v050
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   En3 , v127
-        .byte   W06
-        .byte                   En3 , v060
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   En3 , v050
-        .byte           N06   , An3
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte           N18   , Dn3 , v127
-        .byte   W18
-        .byte           N06   , Dn3 , v060
-        .byte           N06   , Gn3
-        .byte           N06   , Cn4
-        .byte   W06
-        .byte   PEND
-@ 029   ----------------------------------------
-        .byte   W96
-@ 030   ----------------------------------------
-        .byte   W96
-@ 031   ----------------------------------------
-        .byte   W96
-@ 032   ----------------------------------------
-        .byte   W96
-@ 033   ----------------------------------------
-        .byte   W96
-@ 034   ----------------------------------------
-        .byte   W96
-@ 035   ----------------------------------------
-        .byte   W96
-@ 036   ----------------------------------------
-        .byte   W96
-@ 037   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_10_9
-@ 038   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_10_10
-@ 039   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_10_9
-@ 040   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_10_10
-@ 041   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_10_9
-@ 042   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_10_10
-@ 043   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_10_15
-@ 044   ----------------------------------------
-        .byte   W96
-@ 045   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_10_15
-@ 046   ----------------------------------------
-        .byte   W96
-@ 047   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_10_19
-@ 048   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_10_20
-@ 049   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_10_21
-@ 050   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_10_22
-@ 051   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_10_23
-@ 052   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_10_24
-@ 053   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_10_25
-@ 054   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_10_26
-@ 055   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_10_25
-@ 056   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_10_28
-@ 057   ----------------------------------------
-        .byte   W96
-@ 058   ----------------------------------------
-        .byte   W96
-@ 059   ----------------------------------------
-        .byte   W96
-@ 060   ----------------------------------------
-        .byte   W96
-@ 061   ----------------------------------------
-        .byte   W96
-@ 062   ----------------------------------------
-        .byte   W96
-@ 063   ----------------------------------------
-        .byte   W96
-@ 064   ----------------------------------------
-        .byte   W96
-@ 065   ----------------------------------------
-        .byte   FINE
-
-@***************** Track 11 (Midi-Chn.12) *****************@
-
-FortuneRavine_11:
-        .byte   KEYSH , FortuneRavine_key+0
-@ 000   ----------------------------------------
-        .byte   W24
-@ 001   ----------------------------------------
-        .byte           VOL   , 82
-        .byte           VOICE , 10
-        .byte           N06   , An3 , v010
-        .byte   W06
-        .byte                   Cn4 , v013
-        .byte   W06
-        .byte                   Gn4 , v017
-        .byte   W06
-        .byte                   Cn4 , v021
-        .byte   W06
-        .byte                   Fs4 , v025
-        .byte   W06
-        .byte                   Dn4 , v028
-        .byte   W06
-        .byte                   An3 , v032
-        .byte   W06
-        .byte                   Cn4 , v036
-        .byte   W06
-        .byte                   Gn4 , v039
-        .byte   W06
-        .byte                   Cn4 , v043
-        .byte   W06
-        .byte                   Fs4 , v046
-        .byte   W06
-        .byte                   Dn4 , v050
-        .byte   W06
-        .byte                   An3 , v055
-        .byte   W06
-        .byte                   Cn4 , v058
-        .byte   W06
-        .byte                   Gn4 , v062
-        .byte   W06
-        .byte                   Cn4 , v065
-        .byte   W06
-@ 002   ----------------------------------------
-        .byte                   Fs4 , v069
-        .byte   W06
-        .byte                   Dn4 , v073
-        .byte   W06
-        .byte                   An3 , v076
-        .byte   W06
-        .byte                   Cn4 , v080
-        .byte   W06
-        .byte                   Gn4 , v084
-        .byte   W06
-        .byte                   Cn4 , v088
-        .byte   W06
-        .byte                   Fs4 , v092
-        .byte   W06
-        .byte                   Dn4 , v095
-        .byte   W06
-        .byte                   An3 , v099
-        .byte   W06
-        .byte                   Cn4 , v102
-        .byte   W06
-        .byte                   Gn4 , v106
-        .byte   W06
-        .byte                   Cn4 , v110
-        .byte   W06
-        .byte                   Fs4 , v114
-        .byte   W06
-        .byte                   Dn4 , v118
-        .byte   W06
-        .byte                   An3 , v121
-        .byte   W06
-        .byte                   Cn4 , v125
-        .byte   W06
-@ 003   ----------------------------------------
-FortuneRavine_11_3:
-        .byte           N06   , Gn4 , v127
-        .byte   W06
-        .byte                   Cn4 , v126
-        .byte   W06
-        .byte                   Fs4 , v125
-        .byte   W06
-        .byte                   Dn4 , v123
-        .byte   W06
-        .byte                   An3 , v122
-        .byte   W06
-        .byte                   Cn4 , v120
-        .byte   W06
-        .byte                   Gn4 , v119
-        .byte   W06
-        .byte                   Cn4 , v118
-        .byte   W06
-        .byte                   Fs4 , v116
-        .byte   W06
-        .byte                   Dn4 , v115
-        .byte   W06
-        .byte                   An3 , v114
-        .byte   W06
-        .byte                   Cn4 , v112
-        .byte   W06
-        .byte                   Gn4 , v111
-        .byte   W06
-        .byte                   Cn4 , v110
-        .byte   W06
-        .byte                   Fs4 , v108
-        .byte   W06
-        .byte                   Dn4 , v107
-        .byte   W06
-        .byte   PEND
-@ 004   ----------------------------------------
-FortuneRavine_11_4:
-        .byte           N06   , An3 , v106
-        .byte   W06
-        .byte                   Cn4 , v104
-        .byte   W06
-        .byte                   Gn4 , v103
-        .byte   W06
-        .byte                   Cn4 , v101
-        .byte   W06
-        .byte                   Fs4 , v100
-        .byte   W06
-        .byte                   Dn4 , v099
-        .byte   W06
-        .byte                   An3 , v097
-        .byte   W06
-        .byte                   Cn4 , v096
-        .byte   W06
-        .byte                   Gn4 , v095
-        .byte   W06
-        .byte                   Cn4 , v093
-        .byte   W06
-        .byte                   Fs4 , v092
-        .byte   W06
-        .byte                   Dn4 , v090
-        .byte   W06
-        .byte                   An3 , v089
-        .byte   W06
-        .byte                   Cn4 , v088
-        .byte   W06
-        .byte                   Gn4 , v086
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte   PEND
-@ 005   ----------------------------------------
-FortuneRavine_11_5:
-        .byte           N06   , An3 , v088
-        .byte   W06
-        .byte                   Cn4 , v089
-        .byte   W06
-        .byte                   Gn4 , v090
-        .byte   W06
-        .byte                   Cn4 , v091
-        .byte   W06
-        .byte                   Fs4 , v092
-        .byte   W06
-        .byte                   Dn4 , v094
-        .byte   W06
-        .byte                   An3 , v095
-        .byte   W06
-        .byte                   Cn4 , v096
-        .byte   W06
-        .byte                   Gn4 , v097
-        .byte   W06
-        .byte                   Cn4 , v098
-        .byte   W06
-        .byte                   Fs4 , v099
-        .byte   W06
-        .byte                   Dn4 , v101
-        .byte   W06
-        .byte                   An3 , v102
-        .byte   W06
-        .byte                   Cn4 , v103
-        .byte   W06
-        .byte                   Gn4 , v104
-        .byte   W06
-        .byte                   Cn4 , v105
-        .byte   W06
-        .byte   PEND
-@ 006   ----------------------------------------
-FortuneRavine_11_6:
-        .byte           N06   , Fs4 , v107
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte                   An3 , v109
-        .byte   W06
-        .byte                   Cn4 , v110
-        .byte   W06
-        .byte                   Gn4 , v111
-        .byte   W06
-        .byte                   Cn4 , v112
-        .byte   W06
-        .byte                   Fs4 , v114
-        .byte   W06
-        .byte                   Dn4 , v115
-        .byte   W06
-        .byte                   An3 , v116
-        .byte   W06
-        .byte                   Cn4 , v117
-        .byte   W06
-        .byte                   Gn4 , v118
-        .byte   W06
-        .byte                   Cn4 , v120
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte                   Dn4 , v122
-        .byte   W06
-        .byte                   An3 , v123
-        .byte   W06
-        .byte                   Cn4 , v124
-        .byte   W06
-        .byte   PEND
-@ 007   ----------------------------------------
-FortuneRavine_11_7:
-        .byte           N06   , Gn4 , v125
-        .byte   W06
-        .byte                   Cn4 , v127
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte                   An3 , v126
-        .byte   W06
-        .byte                   Cn4 , v125
-        .byte   W06
-        .byte                   Gn4 , v124
-        .byte   W06
-        .byte                   Cn4 , v123
-        .byte   W06
-        .byte                   Fs4 , v122
-        .byte   W06
-        .byte                   Dn4 , v121
-        .byte   W06
-        .byte                   An3 , v120
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Gn4 , v119
-        .byte   W06
-        .byte                   Cn4 , v118
-        .byte   W06
-        .byte                   Fs4 , v117
-        .byte   W06
-        .byte                   Dn4 , v116
-        .byte   W06
-        .byte   PEND
-@ 008   ----------------------------------------
-FortuneRavine_11_8:
-        .byte           N06   , An3 , v115
-        .byte   W06
-        .byte                   Cn4 , v114
-        .byte   W06
-        .byte                   Gn4 , v113
-        .byte   W06
-        .byte                   Cn4 , v112
-        .byte   W06
-        .byte                   Fs4 , v111
-        .byte   W06
-        .byte                   Dn4 , v110
-        .byte   W06
-        .byte                   An3 , v109
-        .byte   W06
-        .byte                   Cn4 , v108
-        .byte   W06
-        .byte                   Gn4 , v107
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Fs4 , v106
-        .byte   W06
-        .byte                   Dn4 , v105
-        .byte   W06
-        .byte                   An3 , v104
-        .byte   W06
-        .byte                   Cn4 , v103
-        .byte   W06
-        .byte                   Gn4 , v102
-        .byte   W06
-        .byte                   Cn4 , v101
-        .byte   W06
-        .byte   PEND
-@ 009   ----------------------------------------
-FortuneRavine_11_9:
-        .byte           N06   , Fs4 , v100
-        .byte   W06
-        .byte                   Dn4 , v099
-        .byte   W06
-        .byte                   An3 , v098
-        .byte   W06
-        .byte                   Cn4 , v099
-        .byte   W06
-        .byte                   Gn4 , v100
-        .byte   W06
-        .byte                   Cn4 , v101
-        .byte   W06
-        .byte                   Fs4 , v102
-        .byte   W06
-        .byte                   Dn4 , v103
-        .byte   W06
-        .byte                   An3 , v104
-        .byte   W06
-        .byte                   Cn4 , v106
-        .byte   W06
-        .byte                   Gn4 , v107
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Fs4 , v108
-        .byte   W06
-        .byte                   Dn4 , v109
-        .byte   W06
-        .byte                   An3 , v111
-        .byte   W06
-        .byte                   Cn4 , v112
-        .byte   W06
-        .byte   PEND
-@ 010   ----------------------------------------
-FortuneRavine_11_10:
-        .byte           N06   , Gn4 , v113
-        .byte   W06
-        .byte                   Cn4 , v114
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte                   Dn4 , v116
-        .byte   W06
-        .byte                   An3 , v117
-        .byte   W06
-        .byte                   Cn4 , v118
-        .byte   W06
-        .byte                   Gn4 , v119
-        .byte   W06
-        .byte                   Cn4 , v120
-        .byte   W06
-        .byte                   Fs4 , v121
-        .byte   W06
-        .byte                   Dn4 , v122
-        .byte   W06
-        .byte                   An3 , v123
-        .byte   W06
-        .byte                   Cn4 , v124
-        .byte   W06
-        .byte                   Gn4 , v125
-        .byte   W06
-        .byte                   Cn4 , v126
-        .byte   W06
-        .byte                   Fs4 , v127
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte   PEND
-@ 011   ----------------------------------------
-FortuneRavine_11_11:
-        .byte           N06   , An3 , v127
-        .byte   W06
-        .byte                   Cn4 , v126
-        .byte   W06
-        .byte                   Gn4 , v125
-        .byte   W06
-        .byte                   Cn4 , v124
-        .byte   W06
-        .byte                   Fs4 , v123
-        .byte   W06
-        .byte                   Dn4 , v122
-        .byte   W06
-        .byte                   An3 , v121
-        .byte   W06
-        .byte                   Cn4 , v120
-        .byte   W06
-        .byte                   Gn4
-        .byte   W06
-        .byte                   Cn4 , v119
-        .byte   W06
-        .byte                   Fs4 , v118
-        .byte   W06
-        .byte                   Dn4 , v117
-        .byte   W06
-        .byte                   An3 , v116
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Gn4 , v115
-        .byte   W06
-        .byte                   Cn4 , v114
-        .byte   W06
-        .byte   PEND
-@ 012   ----------------------------------------
-FortuneRavine_11_12:
-        .byte           N06   , Fs4 , v113
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte                   An3 , v112
-        .byte   W06
-        .byte                   Cn4 , v111
-        .byte   W06
-        .byte                   Gn4 , v110
-        .byte   W06
-        .byte                   Cn4 , v109
-        .byte   W06
-        .byte                   Fs4 , v108
-        .byte   W06
-        .byte                   Dn4 , v107
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   Cn4 , v106
-        .byte   W06
-        .byte                   Gn4 , v105
-        .byte   W06
-        .byte                   Cn4 , v104
-        .byte   W06
-        .byte                   Fs4 , v103
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte                   An3 , v102
-        .byte   W06
-        .byte                   Cn4 , v101
-        .byte   W06
-        .byte   PEND
-@ 013   ----------------------------------------
-FortuneRavine_11_13:
-        .byte           N06   , Gn4 , v100
-        .byte   W06
-        .byte                   Cn4 , v101
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte                   Dn4 , v102
-        .byte   W06
-        .byte                   An3 , v103
-        .byte   W06
-        .byte                   Cn4 , v104
-        .byte   W06
-        .byte                   Gn4 , v105
-        .byte   W06
-        .byte                   Cn4 , v106
-        .byte   W06
-        .byte                   Fs4 , v107
-        .byte   W06
-        .byte                   Dn4 , v108
-        .byte   W06
-        .byte                   An3 , v109
-        .byte   W06
-        .byte                   Cn4 , v110
-        .byte   W06
-        .byte                   Gn4 , v111
-        .byte   W06
-        .byte                   Cn4 , v112
-        .byte   W06
-        .byte                   Fs4 , v113
-        .byte   W06
-        .byte                   Dn4 , v114
-        .byte   W06
-        .byte   PEND
-@ 014   ----------------------------------------
-FortuneRavine_11_14:
-        .byte           N06   , An3 , v114
-        .byte   W06
-        .byte                   Cn4 , v115
-        .byte   W06
-        .byte                   Gn4 , v116
-        .byte   W06
-        .byte                   Cn4 , v117
-        .byte   W06
-        .byte                   Fs4 , v118
-        .byte   W06
-        .byte                   Dn4 , v119
-        .byte   W06
-        .byte                   An3 , v120
-        .byte   W06
-        .byte                   Cn4 , v121
-        .byte   W06
-        .byte                   Gn4 , v122
-        .byte   W06
-        .byte                   Cn4 , v123
-        .byte   W06
-        .byte                   Fs4 , v124
-        .byte   W06
-        .byte                   Dn4 , v125
-        .byte   W06
-        .byte                   An3 , v126
-        .byte   W06
-        .byte                   Cn4 , v127
-        .byte   W06
-        .byte                   Gn4
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte   PEND
-@ 015   ----------------------------------------
-FortuneRavine_11_15:
-        .byte           N06   , As4 , v127
-        .byte   W06
-        .byte                   Fn4 , v126
-        .byte   W06
-        .byte                   Ds4
-        .byte   W06
-        .byte                   As3 , v125
-        .byte   W06
-        .byte                   As4 , v124
-        .byte   W06
-        .byte                   Ds4 , v123
-        .byte   W06
-        .byte                   Cn5
-        .byte   W06
-        .byte                   Fn4 , v122
-        .byte   W06
-        .byte                   Cn4 , v121
-        .byte   W06
-        .byte                   Fn4
-        .byte   W06
-        .byte                   Cn5 , v120
-        .byte   W06
-        .byte                   Fn4
-        .byte   W06
-        .byte                   Bn4 , v119
-        .byte   W06
-        .byte                   Gn4 , v118
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte                   Fn4 , v117
-        .byte   W06
-        .byte   PEND
-@ 016   ----------------------------------------
-FortuneRavine_11_16:
-        .byte           N06   , Gn4 , v116
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Fs4 , v115
-        .byte   W06
-        .byte                   Dn4 , v114
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Gn4 , v115
-        .byte   W06
-        .byte                   Cn4 , v116
-        .byte   W06
-        .byte                   Fs4 , v117
-        .byte   W06
-        .byte                   Dn4 , v118
-        .byte   W06
-        .byte                   An3 , v119
-        .byte   W06
-        .byte                   Cn4 , v120
-        .byte   W06
-        .byte                   Gn4 , v121
-        .byte   W06
-        .byte                   Cn4 , v122
-        .byte   W06
-        .byte                   Fs4 , v123
-        .byte   W06
-        .byte                   Dn4 , v124
-        .byte   W06
-        .byte   PEND
-@ 017   ----------------------------------------
-FortuneRavine_11_17:
-        .byte           N06   , Cn4 , v125
-        .byte   W06
-        .byte                   Ds4
-        .byte   W06
-        .byte                   As4 , v124
-        .byte   W06
-        .byte                   Ds4 , v123
-        .byte   W06
-        .byte                   An4
-        .byte   W06
-        .byte                   Fn4 , v122
-        .byte   W06
-        .byte                   Dn4 , v121
-        .byte   W06
-        .byte                   Fn4
-        .byte   W06
-        .byte                   Cn5 , v120
-        .byte   W06
-        .byte                   Fn4
-        .byte   W06
-        .byte                   Bn4 , v119
-        .byte   W06
-        .byte                   Gn4 , v118
-        .byte   W06
-        .byte                   Dn4 , v117
-        .byte   W06
-        .byte                   Fn4
-        .byte   W06
-        .byte                   Cn5 , v116
-        .byte   W06
-        .byte                   Fn4 , v115
-        .byte   W06
-        .byte   PEND
-@ 018   ----------------------------------------
-FortuneRavine_11_18:
-        .byte           N06   , Fs4 , v115
-        .byte   W06
-        .byte                   Dn4 , v114
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   Cn4 , v115
-        .byte   W06
-        .byte                   Gn4 , v116
-        .byte   W06
-        .byte                   Cn4 , v117
-        .byte   W06
-        .byte                   Fs4 , v118
-        .byte   W06
-        .byte                   Dn4 , v119
-        .byte   W06
-        .byte                   An3 , v120
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Gn4 , v121
-        .byte   W06
-        .byte                   Cn4 , v122
-        .byte   W06
-        .byte                   Fs4 , v123
-        .byte   W06
-        .byte                   Dn4 , v124
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   Cn4 , v125
-        .byte   W06
-        .byte   PEND
-@ 019   ----------------------------------------
-FortuneRavine_11_19:
-        .byte           N06   , Gn4 , v126
-        .byte   W06
-        .byte                   Cn4 , v127
-        .byte   W06
-        .byte                   Fs4 , v126
-        .byte   W06
-        .byte                   Dn4 , v124
-        .byte   W06
-        .byte                   An3 , v123
-        .byte   W06
-        .byte                   Cn4 , v122
-        .byte   W06
-        .byte                   Gn4 , v121
-        .byte   W06
-        .byte                   Cn4 , v120
-        .byte   W06
-        .byte                   Fs4 , v119
-        .byte   W06
-        .byte                   Dn4 , v118
-        .byte   W06
-        .byte                   An3 , v116
-        .byte   W06
-        .byte                   Cn4 , v115
-        .byte   W06
-        .byte                   Gn4 , v114
-        .byte   W06
-        .byte                   Cn4 , v113
-        .byte   W06
-        .byte                   Fs4 , v112
-        .byte   W06
-        .byte                   Dn4 , v111
-        .byte   W06
-        .byte   PEND
-@ 020   ----------------------------------------
-FortuneRavine_11_20:
-        .byte           N06   , An3 , v110
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Gn4 , v111
-        .byte   W06
-        .byte                   Cn4 , v112
-        .byte   W06
-        .byte                   Fs4 , v113
-        .byte   W06
-        .byte                   Dn4 , v114
-        .byte   W06
-        .byte                   An3 , v115
-        .byte   W06
-        .byte                   Cn4 , v116
-        .byte   W06
-        .byte                   Gn4 , v117
-        .byte   W06
-        .byte                   Cn4 , v118
-        .byte   W06
-        .byte                   Fs4 , v119
-        .byte   W06
-        .byte                   Dn4 , v120
-        .byte   W06
-        .byte                   An3 , v121
-        .byte   W06
-        .byte                   Cn4 , v122
-        .byte   W06
-        .byte                   Gn4 , v123
-        .byte   W06
-        .byte                   Cn4 , v124
-        .byte   W06
-        .byte   PEND
-@ 021   ----------------------------------------
-FortuneRavine_11_21:
-        .byte           N06   , Fs4 , v125
-        .byte   W06
-        .byte                   Dn4 , v124
-        .byte   W06
-        .byte                   An3 , v123
-        .byte   W06
-        .byte                   Cn4 , v122
-        .byte   W06
-        .byte                   Gn4 , v120
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Fs4 , v119
-        .byte   W06
-        .byte                   Dn4 , v118
-        .byte   W06
-        .byte                   An3 , v117
-        .byte   W06
-        .byte                   Cn4 , v116
-        .byte   W06
-        .byte                   Gn4 , v115
-        .byte   W06
-        .byte                   Cn4 , v114
-        .byte   W06
-        .byte                   Fs4 , v113
-        .byte   W06
-        .byte                   Dn4 , v112
-        .byte   W06
-        .byte                   An3 , v111
-        .byte   W06
-        .byte                   Cn4 , v110
-        .byte   W06
-        .byte   PEND
-@ 022   ----------------------------------------
-FortuneRavine_11_22:
-        .byte           N06   , Gn4 , v109
-        .byte   W06
-        .byte                   Cn4 , v107
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte                   Dn4 , v106
-        .byte   W06
-        .byte                   An3 , v105
-        .byte   W06
-        .byte                   Cn4 , v104
-        .byte   W06
-        .byte                   Gn4 , v103
-        .byte   W06
-        .byte                   Cn4 , v101
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte                   Dn4 , v100
-        .byte   W06
-        .byte                   An3 , v099
-        .byte   W06
-        .byte                   Cn4 , v098
-        .byte   W06
-        .byte                   Gn4 , v097
-        .byte   W06
-        .byte                   Cn4 , v095
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte                   Dn4 , v094
-        .byte   W06
-        .byte   PEND
-@ 023   ----------------------------------------
-FortuneRavine_11_23:
-        .byte           N06   , An3 , v094
-        .byte   W06
-        .byte                   Cn4 , v095
-        .byte   W06
-        .byte                   Gn4
-        .byte   W06
-        .byte                   Cn4 , v096
-        .byte   W06
-        .byte                   Fs4 , v097
-        .byte   W06
-        .byte                   Dn4 , v098
-        .byte   W06
-        .byte                   An3 , v099
-        .byte   W06
-        .byte                   Cn4 , v100
-        .byte   W06
-        .byte                   Gn4 , v101
-        .byte   W06
-        .byte                   Cn4 , v102
-        .byte   W06
-        .byte                   Fs4 , v103
-        .byte   W06
-        .byte                   Dn4 , v104
-        .byte   W06
-        .byte                   An3 , v105
-        .byte   W06
-        .byte                   Cn4 , v106
-        .byte   W06
-        .byte                   Gn4 , v107
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte   PEND
-@ 024   ----------------------------------------
-FortuneRavine_11_24:
-        .byte           N06   , Fs4 , v108
-        .byte   W06
-        .byte                   Dn4 , v109
-        .byte   W06
-        .byte                   An3 , v110
-        .byte   W06
-        .byte                   Cn4 , v111
-        .byte   W06
-        .byte                   Gn4 , v112
-        .byte   W06
-        .byte                   Cn4 , v113
-        .byte   W06
-        .byte                   Fs4 , v114
-        .byte   W06
-        .byte                   Dn4 , v115
-        .byte   W06
-        .byte                   An3 , v116
-        .byte   W06
-        .byte                   Cn4 , v117
-        .byte   W06
-        .byte                   Gn4 , v118
-        .byte   W06
-        .byte                   Cn4 , v119
-        .byte   W06
-        .byte                   Fs4 , v120
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte                   An3 , v121
-        .byte   W06
-        .byte                   Cn4 , v122
-        .byte   W06
-        .byte   PEND
-@ 025   ----------------------------------------
-FortuneRavine_11_25:
-        .byte           N06   , Gn4 , v123
-        .byte   W06
-        .byte                   Cn4 , v124
-        .byte   W06
-        .byte                   Fs4 , v125
-        .byte   W06
-        .byte                   Dn4 , v124
-        .byte   W06
-        .byte                   An3 , v122
-        .byte   W06
-        .byte                   Cn4 , v121
-        .byte   W06
-        .byte                   Gn4 , v120
-        .byte   W06
-        .byte                   Cn4 , v119
-        .byte   W06
-        .byte                   Fs4 , v118
-        .byte   W06
-        .byte                   Dn4 , v116
-        .byte   W06
-        .byte                   An3 , v115
-        .byte   W06
-        .byte                   Cn4 , v114
-        .byte   W06
-        .byte                   Gn4 , v113
-        .byte   W06
-        .byte                   Cn4 , v112
-        .byte   W06
-        .byte                   Fs4 , v110
-        .byte   W06
-        .byte                   Dn4 , v109
-        .byte   W06
-        .byte   PEND
-@ 026   ----------------------------------------
-FortuneRavine_11_26:
-        .byte           N06   , An3 , v108
-        .byte   W06
-        .byte                   Cn4 , v107
-        .byte   W06
-        .byte                   Gn4 , v106
-        .byte   W06
-        .byte                   Cn4 , v104
-        .byte   W06
-        .byte                   Fs4 , v103
-        .byte   W06
-        .byte                   Dn4 , v102
-        .byte   W06
-        .byte                   An3 , v101
-        .byte   W06
-        .byte                   Cn4 , v100
-        .byte   W06
-        .byte                   Gn4 , v098
-        .byte   W06
-        .byte                   Cn4 , v097
-        .byte   W06
-        .byte                   Fs4 , v096
-        .byte   W06
-        .byte                   Dn4 , v095
-        .byte   W06
-        .byte                   An3 , v094
-        .byte   W06
-        .byte                   Cn4 , v092
-        .byte   W06
-        .byte                   Gn4 , v089
-        .byte   W06
-        .byte                   Cn4 , v090
-        .byte   W06
-        .byte   PEND
-@ 027   ----------------------------------------
-FortuneRavine_11_27:
-        .byte           N06   , An3 , v091
-        .byte   W06
-        .byte                   Cn4 , v092
-        .byte   W06
-        .byte                   Gn4 , v094
-        .byte   W06
-        .byte                   Cn4 , v095
-        .byte   W06
-        .byte                   Fs4 , v096
-        .byte   W06
-        .byte                   Dn4 , v097
-        .byte   W06
-        .byte                   An3 , v098
-        .byte   W06
-        .byte                   Cn4 , v099
-        .byte   W06
-        .byte                   Gn4 , v100
-        .byte   W06
-        .byte                   Cn4 , v101
-        .byte   W06
-        .byte                   Fs4 , v102
-        .byte   W06
-        .byte                   Dn4 , v104
-        .byte   W06
-        .byte                   An3 , v105
-        .byte   W06
-        .byte                   Cn4 , v106
-        .byte   W06
-        .byte                   Gn4 , v107
-        .byte   W06
-        .byte                   Cn4 , v108
-        .byte   W06
-        .byte   PEND
-@ 028   ----------------------------------------
-FortuneRavine_11_28:
-        .byte           N06   , Fs4 , v109
-        .byte   W06
-        .byte                   Dn4 , v110
-        .byte   W06
-        .byte                   An3 , v111
-        .byte   W06
-        .byte                   Cn4 , v113
-        .byte   W06
-        .byte                   Gn4 , v114
-        .byte   W06
-        .byte                   Cn4 , v115
-        .byte   W06
-        .byte                   Fs4 , v116
-        .byte   W06
-        .byte                   Dn4 , v117
-        .byte   W06
-        .byte                   An3 , v118
-        .byte   W06
-        .byte                   Cn4 , v119
-        .byte   W06
-        .byte                   Gn4 , v120
-        .byte   W06
-        .byte                   Cn4 , v121
-        .byte   W06
-        .byte                   Fs4 , v123
-        .byte   W06
-        .byte                   Dn4 , v124
-        .byte   W06
-        .byte                   An3 , v125
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte   PEND
-@ 029   ----------------------------------------
-FortuneRavine_11_29:
-        .byte           N06   , An3 , v124
-        .byte   W06
-        .byte                   Cn4 , v123
-        .byte   W06
-        .byte                   Gn4 , v122
-        .byte   W06
-        .byte                   Cn4 , v121
-        .byte   W06
-        .byte                   Fs4 , v120
-        .byte   W06
-        .byte                   Dn4 , v119
-        .byte   W06
-        .byte                   An3 , v118
-        .byte   W06
-        .byte                   Cn4 , v116
-        .byte   W06
-        .byte                   Gn4
-        .byte   W06
-        .byte                   Cn4 , v115
-        .byte   W06
-        .byte                   Fs4 , v113
-        .byte   W06
-        .byte                   Dn4 , v112
-        .byte   W06
-        .byte                   An3 , v111
-        .byte   W06
-        .byte                   Cn4 , v110
-        .byte   W06
-        .byte                   Gn4 , v109
-        .byte   W06
-        .byte                   Cn4 , v108
-        .byte   W06
-        .byte   PEND
-@ 030   ----------------------------------------
-FortuneRavine_11_30:
-        .byte           N06   , Fs4 , v107
-        .byte   W06
-        .byte                   Dn4 , v108
-        .byte   W06
-        .byte                   An3 , v109
-        .byte   W06
-        .byte                   Cn4 , v111
-        .byte   W06
-        .byte                   Gn4
-        .byte   W06
-        .byte                   Cn4 , v113
-        .byte   W06
-        .byte                   Fs4 , v114
-        .byte   W06
-        .byte                   Dn4 , v115
-        .byte   W06
-        .byte                   An3 , v116
-        .byte   W06
-        .byte                   Cn4 , v118
-        .byte   W06
-        .byte                   Gn4 , v119
-        .byte   W06
-        .byte                   Cn4 , v120
-        .byte   W06
-        .byte                   Fs4 , v121
-        .byte   W06
-        .byte                   Dn4 , v123
-        .byte   W06
-        .byte                   An3 , v124
-        .byte   W06
-        .byte                   Cn4 , v125
-        .byte   W06
-        .byte   PEND
-@ 031   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_3
-@ 032   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_4
-@ 033   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_5
-@ 034   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_6
-@ 035   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_7
-@ 036   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_8
-@ 037   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_9
-@ 038   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_10
-@ 039   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_11
-@ 040   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_12
-@ 041   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_13
-@ 042   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_14
-@ 043   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_15
-@ 044   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_16
-@ 045   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_17
-@ 046   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_18
-@ 047   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_19
-@ 048   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_20
-@ 049   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_21
-@ 050   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_22
-@ 051   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_23
-@ 052   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_24
-@ 053   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_25
-@ 054   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_26
-@ 055   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_27
-@ 056   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_28
-@ 057   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_29
-@ 058   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_30
-@ 059   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_3
-@ 060   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_4
-@ 061   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_5
-@ 062   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_6
-@ 063   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_7
-@ 064   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_11_8
-@ 065   ----------------------------------------
-        .byte   FINE
-
-@***************** Track 12 (Midi-Chn.13) *****************@
-
-FortuneRavine_12:
-        .byte   KEYSH , FortuneRavine_key+0
-@ 000   ----------------------------------------
-        .byte   W24
-@ 001   ----------------------------------------
-        .byte           PAN   , c_v+63
-        .byte           VOL   , 43
-        .byte           VOICE , 10
-        .byte   W06
-        .byte           N06   , An3 , v010
-        .byte   W06
-        .byte                   Cn4 , v013
-        .byte   W06
-        .byte                   Gn4 , v017
-        .byte   W06
-        .byte                   Cn4 , v021
-        .byte   W06
-        .byte                   Fs4 , v025
-        .byte   W06
-        .byte                   Dn4 , v028
-        .byte   W06
-        .byte                   An3 , v032
-        .byte   W06
-        .byte                   Cn4 , v036
-        .byte   W06
-        .byte                   Gn4 , v039
-        .byte   W06
-        .byte                   Cn4 , v043
-        .byte   W06
-        .byte                   Fs4 , v046
-        .byte   W06
-        .byte                   Dn4 , v050
-        .byte   W06
-        .byte                   An3 , v055
-        .byte   W06
-        .byte                   Cn4 , v058
-        .byte   W06
-        .byte                   Gn4 , v062
-        .byte   W06
-@ 002   ----------------------------------------
-        .byte                   Cn4 , v065
-        .byte   W06
-        .byte                   Fs4 , v069
-        .byte   W06
-        .byte                   Dn4 , v073
-        .byte   W06
-        .byte                   An3 , v076
-        .byte   W06
-        .byte                   Cn4 , v080
-        .byte   W06
-        .byte                   Gn4 , v084
-        .byte   W06
-        .byte                   Cn4 , v088
-        .byte   W06
-        .byte                   Fs4 , v092
-        .byte   W06
-        .byte                   Dn4 , v095
-        .byte   W06
-        .byte                   An3 , v099
-        .byte   W06
-        .byte                   Cn4 , v102
-        .byte   W06
-        .byte                   Gn4 , v106
-        .byte   W06
-        .byte                   Cn4 , v110
-        .byte   W06
-        .byte                   Fs4 , v114
-        .byte   W06
-        .byte                   Dn4 , v118
-        .byte   W06
-        .byte                   An3 , v121
-        .byte   W06
-@ 003   ----------------------------------------
-        .byte                   Cn4 , v125
-        .byte   W06
-        .byte                   Gn4 , v127
-        .byte   W06
-        .byte                   Cn4 , v126
-        .byte   W06
-        .byte                   Fs4 , v125
-        .byte   W06
-        .byte                   Dn4 , v123
-        .byte   W06
-        .byte                   An3 , v122
-        .byte   W06
-        .byte                   Cn4 , v120
-        .byte   W06
-        .byte                   Gn4 , v119
-        .byte   W06
-        .byte                   Cn4 , v118
-        .byte   W06
-        .byte                   Fs4 , v116
-        .byte   W06
-        .byte                   Dn4 , v115
-        .byte   W06
-        .byte                   An3 , v114
-        .byte   W06
-        .byte                   Cn4 , v112
-        .byte   W06
-        .byte                   Gn4 , v111
-        .byte   W06
-        .byte                   Cn4 , v110
-        .byte   W06
-        .byte                   Fs4 , v108
-        .byte   W06
-@ 004   ----------------------------------------
-FortuneRavine_12_4:
-        .byte           N06   , Dn4 , v107
-        .byte   W06
-        .byte                   An3 , v106
-        .byte   W06
-        .byte                   Cn4 , v104
-        .byte   W06
-        .byte                   Gn4 , v103
-        .byte   W06
-        .byte                   Cn4 , v101
-        .byte   W06
-        .byte                   Fs4 , v100
-        .byte   W06
-        .byte                   Dn4 , v099
-        .byte   W06
-        .byte                   An3 , v097
-        .byte   W06
-        .byte                   Cn4 , v096
-        .byte   W06
-        .byte                   Gn4 , v095
-        .byte   W06
-        .byte                   Cn4 , v093
-        .byte   W06
-        .byte                   Fs4 , v092
-        .byte   W06
-        .byte                   Dn4 , v090
-        .byte   W06
-        .byte                   An3 , v089
-        .byte   W06
-        .byte                   Cn4 , v088
-        .byte   W06
-        .byte                   Gn4 , v086
-        .byte   W06
-        .byte   PEND
-@ 005   ----------------------------------------
-FortuneRavine_12_5:
-        .byte           N06   , Cn4 , v086
-        .byte   W06
-        .byte                   An3 , v088
-        .byte   W06
-        .byte                   Cn4 , v089
-        .byte   W06
-        .byte                   Gn4 , v090
-        .byte   W06
-        .byte                   Cn4 , v091
-        .byte   W06
-        .byte                   Fs4 , v092
-        .byte   W06
-        .byte                   Dn4 , v094
-        .byte   W06
-        .byte                   An3 , v095
-        .byte   W06
-        .byte                   Cn4 , v096
-        .byte   W06
-        .byte                   Gn4 , v097
-        .byte   W06
-        .byte                   Cn4 , v098
-        .byte   W06
-        .byte                   Fs4 , v099
-        .byte   W06
-        .byte                   Dn4 , v101
-        .byte   W06
-        .byte                   An3 , v102
-        .byte   W06
-        .byte                   Cn4 , v103
-        .byte   W06
-        .byte                   Gn4 , v104
-        .byte   W06
-        .byte   PEND
-@ 006   ----------------------------------------
-FortuneRavine_12_6:
-        .byte           N06   , Cn4 , v105
-        .byte   W06
-        .byte                   Fs4 , v107
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte                   An3 , v109
-        .byte   W06
-        .byte                   Cn4 , v110
-        .byte   W06
-        .byte                   Gn4 , v111
-        .byte   W06
-        .byte                   Cn4 , v112
-        .byte   W06
-        .byte                   Fs4 , v114
-        .byte   W06
-        .byte                   Dn4 , v115
-        .byte   W06
-        .byte                   An3 , v116
-        .byte   W06
-        .byte                   Cn4 , v117
-        .byte   W06
-        .byte                   Gn4 , v118
-        .byte   W06
-        .byte                   Cn4 , v120
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte                   Dn4 , v122
-        .byte   W06
-        .byte                   An3 , v123
-        .byte   W06
-        .byte   PEND
-@ 007   ----------------------------------------
-FortuneRavine_12_7:
-        .byte           N06   , Cn4 , v124
-        .byte   W06
-        .byte                   Gn4 , v125
-        .byte   W06
-        .byte                   Cn4 , v127
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte                   An3 , v126
-        .byte   W06
-        .byte                   Cn4 , v125
-        .byte   W06
-        .byte                   Gn4 , v124
-        .byte   W06
-        .byte                   Cn4 , v123
-        .byte   W06
-        .byte                   Fs4 , v122
-        .byte   W06
-        .byte                   Dn4 , v121
-        .byte   W06
-        .byte                   An3 , v120
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Gn4 , v119
-        .byte   W06
-        .byte                   Cn4 , v118
-        .byte   W06
-        .byte                   Fs4 , v117
-        .byte   W06
-        .byte   PEND
-@ 008   ----------------------------------------
-FortuneRavine_12_8:
-        .byte           N06   , Dn4 , v116
-        .byte   W06
-        .byte                   An3 , v115
-        .byte   W06
-        .byte                   Cn4 , v114
-        .byte   W06
-        .byte                   Gn4 , v113
-        .byte   W06
-        .byte                   Cn4 , v112
-        .byte   W06
-        .byte                   Fs4 , v111
-        .byte   W06
-        .byte                   Dn4 , v110
-        .byte   W06
-        .byte                   An3 , v109
-        .byte   W06
-        .byte                   Cn4 , v108
-        .byte   W06
-        .byte                   Gn4 , v107
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Fs4 , v106
-        .byte   W06
-        .byte                   Dn4 , v105
-        .byte   W06
-        .byte                   An3 , v104
-        .byte   W06
-        .byte                   Cn4 , v103
-        .byte   W06
-        .byte                   Gn4 , v102
-        .byte   W06
-        .byte   PEND
-@ 009   ----------------------------------------
-FortuneRavine_12_9:
-        .byte           N06   , Cn4 , v101
-        .byte   W06
-        .byte                   Fs4 , v100
-        .byte   W06
-        .byte                   Dn4 , v099
-        .byte   W06
-        .byte                   An3 , v098
-        .byte   W06
-        .byte                   Cn4 , v099
-        .byte   W06
-        .byte                   Gn4 , v100
-        .byte   W06
-        .byte                   Cn4 , v101
-        .byte   W06
-        .byte                   Fs4 , v102
-        .byte   W06
-        .byte                   Dn4 , v103
-        .byte   W06
-        .byte                   An3 , v104
-        .byte   W06
-        .byte                   Cn4 , v106
-        .byte   W06
-        .byte                   Gn4 , v107
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Fs4 , v108
-        .byte   W06
-        .byte                   Dn4 , v109
-        .byte   W06
-        .byte                   An3 , v111
-        .byte   W06
-        .byte   PEND
-@ 010   ----------------------------------------
-FortuneRavine_12_10:
-        .byte           N06   , Cn4 , v112
-        .byte   W06
-        .byte                   Gn4 , v113
-        .byte   W06
-        .byte                   Cn4 , v114
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte                   Dn4 , v116
-        .byte   W06
-        .byte                   An3 , v117
-        .byte   W06
-        .byte                   Cn4 , v118
-        .byte   W06
-        .byte                   Gn4 , v119
-        .byte   W06
-        .byte                   Cn4 , v120
-        .byte   W06
-        .byte                   Fs4 , v121
-        .byte   W06
-        .byte                   Dn4 , v122
-        .byte   W06
-        .byte                   An3 , v123
-        .byte   W06
-        .byte                   Cn4 , v124
-        .byte   W06
-        .byte                   Gn4 , v125
-        .byte   W06
-        .byte                   Cn4 , v126
-        .byte   W06
-        .byte                   Fs4 , v127
-        .byte   W06
-        .byte   PEND
-@ 011   ----------------------------------------
-FortuneRavine_12_11:
-        .byte           N06   , Dn4 , v127
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   Cn4 , v126
-        .byte   W06
-        .byte                   Gn4 , v125
-        .byte   W06
-        .byte                   Cn4 , v124
-        .byte   W06
-        .byte                   Fs4 , v123
-        .byte   W06
-        .byte                   Dn4 , v122
-        .byte   W06
-        .byte                   An3 , v121
-        .byte   W06
-        .byte                   Cn4 , v120
-        .byte   W06
-        .byte                   Gn4
-        .byte   W06
-        .byte                   Cn4 , v119
-        .byte   W06
-        .byte                   Fs4 , v118
-        .byte   W06
-        .byte                   Dn4 , v117
-        .byte   W06
-        .byte                   An3 , v116
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Gn4 , v115
-        .byte   W06
-        .byte   PEND
-@ 012   ----------------------------------------
-FortuneRavine_12_12:
-        .byte           N06   , Cn4 , v114
-        .byte   W06
-        .byte                   Fs4 , v113
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte                   An3 , v112
-        .byte   W06
-        .byte                   Cn4 , v111
-        .byte   W06
-        .byte                   Gn4 , v110
-        .byte   W06
-        .byte                   Cn4 , v109
-        .byte   W06
-        .byte                   Fs4 , v108
-        .byte   W06
-        .byte                   Dn4 , v107
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   Cn4 , v106
-        .byte   W06
-        .byte                   Gn4 , v105
-        .byte   W06
-        .byte                   Cn4 , v104
-        .byte   W06
-        .byte                   Fs4 , v103
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte                   An3 , v102
-        .byte   W06
-        .byte   PEND
-@ 013   ----------------------------------------
-FortuneRavine_12_13:
-        .byte           N06   , Cn4 , v101
-        .byte   W06
-        .byte                   Gn4 , v100
-        .byte   W06
-        .byte                   Cn4 , v101
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte                   Dn4 , v102
-        .byte   W06
-        .byte                   An3 , v103
-        .byte   W06
-        .byte                   Cn4 , v104
-        .byte   W06
-        .byte                   Gn4 , v105
-        .byte   W06
-        .byte                   Cn4 , v106
-        .byte   W06
-        .byte                   Fs4 , v107
-        .byte   W06
-        .byte                   Dn4 , v108
-        .byte   W06
-        .byte                   An3 , v109
-        .byte   W06
-        .byte                   Cn4 , v110
-        .byte   W06
-        .byte                   Gn4 , v111
-        .byte   W06
-        .byte                   Cn4 , v112
-        .byte   W06
-        .byte                   Fs4 , v113
-        .byte   W06
-        .byte   PEND
-@ 014   ----------------------------------------
-FortuneRavine_12_14:
-        .byte           N06   , Dn4 , v114
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   Cn4 , v115
-        .byte   W06
-        .byte                   Gn4 , v116
-        .byte   W06
-        .byte                   Cn4 , v117
-        .byte   W06
-        .byte                   Fs4 , v118
-        .byte   W06
-        .byte                   Dn4 , v119
-        .byte   W06
-        .byte                   An3 , v120
-        .byte   W06
-        .byte                   Cn4 , v121
-        .byte   W06
-        .byte                   Gn4 , v122
-        .byte   W06
-        .byte                   Cn4 , v123
-        .byte   W06
-        .byte                   Fs4 , v124
-        .byte   W06
-        .byte                   Dn4 , v125
-        .byte   W06
-        .byte                   An3 , v126
-        .byte   W06
-        .byte                   Cn4 , v127
-        .byte   W06
-        .byte                   Gn4
-        .byte   W06
-        .byte   PEND
-@ 015   ----------------------------------------
-FortuneRavine_12_15:
-        .byte           N06   , Cn4 , v127
-        .byte   W06
-        .byte                   As4
-        .byte   W06
-        .byte                   Fn4 , v126
-        .byte   W06
-        .byte                   Ds4
-        .byte   W06
-        .byte                   As3 , v125
-        .byte   W06
-        .byte                   As4 , v124
-        .byte   W06
-        .byte                   Ds4 , v123
-        .byte   W06
-        .byte                   Cn5
-        .byte   W06
-        .byte                   Fn4 , v122
-        .byte   W06
-        .byte                   Cn4 , v121
-        .byte   W06
-        .byte                   Fn4
-        .byte   W06
-        .byte                   Cn5 , v120
-        .byte   W06
-        .byte                   Fn4
-        .byte   W06
-        .byte                   Bn4 , v119
-        .byte   W06
-        .byte                   Gn4 , v118
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte   PEND
-@ 016   ----------------------------------------
-FortuneRavine_12_16:
-        .byte           N06   , Fn4 , v117
-        .byte   W06
-        .byte                   Gn4 , v116
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Fs4 , v115
-        .byte   W06
-        .byte                   Dn4 , v114
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Gn4 , v115
-        .byte   W06
-        .byte                   Cn4 , v116
-        .byte   W06
-        .byte                   Fs4 , v117
-        .byte   W06
-        .byte                   Dn4 , v118
-        .byte   W06
-        .byte                   An3 , v119
-        .byte   W06
-        .byte                   Cn4 , v120
-        .byte   W06
-        .byte                   Gn4 , v121
-        .byte   W06
-        .byte                   Cn4 , v122
-        .byte   W06
-        .byte                   Fs4 , v123
-        .byte   W06
-        .byte   PEND
-@ 017   ----------------------------------------
-FortuneRavine_12_17:
-        .byte           N06   , Dn4 , v124
-        .byte   W06
-        .byte                   Cn4 , v125
-        .byte   W06
-        .byte                   Ds4
-        .byte   W06
-        .byte                   As4 , v124
-        .byte   W06
-        .byte                   Ds4 , v123
-        .byte   W06
-        .byte                   An4
-        .byte   W06
-        .byte                   Fn4 , v122
-        .byte   W06
-        .byte                   Dn4 , v121
-        .byte   W06
-        .byte                   Fn4
-        .byte   W06
-        .byte                   Cn5 , v120
-        .byte   W06
-        .byte                   Fn4
-        .byte   W06
-        .byte                   Bn4 , v119
-        .byte   W06
-        .byte                   Gn4 , v118
-        .byte   W06
-        .byte                   Dn4 , v117
-        .byte   W06
-        .byte                   Fn4
-        .byte   W06
-        .byte                   Cn5 , v116
-        .byte   W06
-        .byte   PEND
-@ 018   ----------------------------------------
-FortuneRavine_12_18:
-        .byte           N06   , Fn4 , v115
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte                   Dn4 , v114
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   Cn4 , v115
-        .byte   W06
-        .byte                   Gn4 , v116
-        .byte   W06
-        .byte                   Cn4 , v117
-        .byte   W06
-        .byte                   Fs4 , v118
-        .byte   W06
-        .byte                   Dn4 , v119
-        .byte   W06
-        .byte                   An3 , v120
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Gn4 , v121
-        .byte   W06
-        .byte                   Cn4 , v122
-        .byte   W06
-        .byte                   Fs4 , v123
-        .byte   W06
-        .byte                   Dn4 , v124
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte   PEND
-@ 019   ----------------------------------------
-FortuneRavine_12_19:
-        .byte           N06   , Cn4 , v125
-        .byte   W06
-        .byte                   Gn4 , v126
-        .byte   W06
-        .byte                   Cn4 , v127
-        .byte   W06
-        .byte                   Fs4 , v126
-        .byte   W06
-        .byte                   Dn4 , v124
-        .byte   W06
-        .byte                   An3 , v123
-        .byte   W06
-        .byte                   Cn4 , v122
-        .byte   W06
-        .byte                   Gn4 , v121
-        .byte   W06
-        .byte                   Cn4 , v120
-        .byte   W06
-        .byte                   Fs4 , v119
-        .byte   W06
-        .byte                   Dn4 , v118
-        .byte   W06
-        .byte                   An3 , v116
-        .byte   W06
-        .byte                   Cn4 , v115
-        .byte   W06
-        .byte                   Gn4 , v114
-        .byte   W06
-        .byte                   Cn4 , v113
-        .byte   W06
-        .byte                   Fs4 , v112
-        .byte   W06
-        .byte   PEND
-@ 020   ----------------------------------------
-FortuneRavine_12_20:
-        .byte           N06   , Dn4 , v111
-        .byte   W06
-        .byte                   An3 , v110
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Gn4 , v111
-        .byte   W06
-        .byte                   Cn4 , v112
-        .byte   W06
-        .byte                   Fs4 , v113
-        .byte   W06
-        .byte                   Dn4 , v114
-        .byte   W06
-        .byte                   An3 , v115
-        .byte   W06
-        .byte                   Cn4 , v116
-        .byte   W06
-        .byte                   Gn4 , v117
-        .byte   W06
-        .byte                   Cn4 , v118
-        .byte   W06
-        .byte                   Fs4 , v119
-        .byte   W06
-        .byte                   Dn4 , v120
-        .byte   W06
-        .byte                   An3 , v121
-        .byte   W06
-        .byte                   Cn4 , v122
-        .byte   W06
-        .byte                   Gn4 , v123
-        .byte   W06
-        .byte   PEND
-@ 021   ----------------------------------------
-FortuneRavine_12_21:
-        .byte           N06   , Cn4 , v124
-        .byte   W06
-        .byte                   Fs4 , v125
-        .byte   W06
-        .byte                   Dn4 , v124
-        .byte   W06
-        .byte                   An3 , v123
-        .byte   W06
-        .byte                   Cn4 , v122
-        .byte   W06
-        .byte                   Gn4 , v120
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Fs4 , v119
-        .byte   W06
-        .byte                   Dn4 , v118
-        .byte   W06
-        .byte                   An3 , v117
-        .byte   W06
-        .byte                   Cn4 , v116
-        .byte   W06
-        .byte                   Gn4 , v115
-        .byte   W06
-        .byte                   Cn4 , v114
-        .byte   W06
-        .byte                   Fs4 , v113
-        .byte   W06
-        .byte                   Dn4 , v112
-        .byte   W06
-        .byte                   An3 , v111
-        .byte   W06
-        .byte   PEND
-@ 022   ----------------------------------------
-FortuneRavine_12_22:
-        .byte           N06   , Cn4 , v110
-        .byte   W06
-        .byte                   Gn4 , v109
-        .byte   W06
-        .byte                   Cn4 , v107
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte                   Dn4 , v106
-        .byte   W06
-        .byte                   An3 , v105
-        .byte   W06
-        .byte                   Cn4 , v104
-        .byte   W06
-        .byte                   Gn4 , v103
-        .byte   W06
-        .byte                   Cn4 , v101
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte                   Dn4 , v100
-        .byte   W06
-        .byte                   An3 , v099
-        .byte   W06
-        .byte                   Cn4 , v098
-        .byte   W06
-        .byte                   Gn4 , v097
-        .byte   W06
-        .byte                   Cn4 , v095
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte   PEND
-@ 023   ----------------------------------------
-FortuneRavine_12_23:
-        .byte           N06   , Dn4 , v094
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   Cn4 , v095
-        .byte   W06
-        .byte                   Gn4
-        .byte   W06
-        .byte                   Cn4 , v096
-        .byte   W06
-        .byte                   Fs4 , v097
-        .byte   W06
-        .byte                   Dn4 , v098
-        .byte   W06
-        .byte                   An3 , v099
-        .byte   W06
-        .byte                   Cn4 , v100
-        .byte   W06
-        .byte                   Gn4 , v101
-        .byte   W06
-        .byte                   Cn4 , v102
-        .byte   W06
-        .byte                   Fs4 , v103
-        .byte   W06
-        .byte                   Dn4 , v104
-        .byte   W06
-        .byte                   An3 , v105
-        .byte   W06
-        .byte                   Cn4 , v106
-        .byte   W06
-        .byte                   Gn4 , v107
-        .byte   W06
-        .byte   PEND
-@ 024   ----------------------------------------
-FortuneRavine_12_24:
-        .byte           N06   , Cn4 , v107
-        .byte   W06
-        .byte                   Fs4 , v108
-        .byte   W06
-        .byte                   Dn4 , v109
-        .byte   W06
-        .byte                   An3 , v110
-        .byte   W06
-        .byte                   Cn4 , v111
-        .byte   W06
-        .byte                   Gn4 , v112
-        .byte   W06
-        .byte                   Cn4 , v113
-        .byte   W06
-        .byte                   Fs4 , v114
-        .byte   W06
-        .byte                   Dn4 , v115
-        .byte   W06
-        .byte                   An3 , v116
-        .byte   W06
-        .byte                   Cn4 , v117
-        .byte   W06
-        .byte                   Gn4 , v118
-        .byte   W06
-        .byte                   Cn4 , v119
-        .byte   W06
-        .byte                   Fs4 , v120
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte                   An3 , v121
-        .byte   W06
-        .byte   PEND
-@ 025   ----------------------------------------
-FortuneRavine_12_25:
-        .byte           N06   , Cn4 , v122
-        .byte   W06
-        .byte                   Gn4 , v123
-        .byte   W06
-        .byte                   Cn4 , v124
-        .byte   W06
-        .byte                   Fs4 , v125
-        .byte   W06
-        .byte                   Dn4 , v124
-        .byte   W06
-        .byte                   An3 , v122
-        .byte   W06
-        .byte                   Cn4 , v121
-        .byte   W06
-        .byte                   Gn4 , v120
-        .byte   W06
-        .byte                   Cn4 , v119
-        .byte   W06
-        .byte                   Fs4 , v118
-        .byte   W06
-        .byte                   Dn4 , v116
-        .byte   W06
-        .byte                   An3 , v115
-        .byte   W06
-        .byte                   Cn4 , v114
-        .byte   W06
-        .byte                   Gn4 , v113
-        .byte   W06
-        .byte                   Cn4 , v112
-        .byte   W06
-        .byte                   Fs4 , v110
-        .byte   W06
-        .byte   PEND
-@ 026   ----------------------------------------
-FortuneRavine_12_26:
-        .byte           N06   , Dn4 , v109
-        .byte   W06
-        .byte                   An3 , v108
-        .byte   W06
-        .byte                   Cn4 , v107
-        .byte   W06
-        .byte                   Gn4 , v106
-        .byte   W06
-        .byte                   Cn4 , v104
-        .byte   W06
-        .byte                   Fs4 , v103
-        .byte   W06
-        .byte                   Dn4 , v102
-        .byte   W06
-        .byte                   An3 , v101
-        .byte   W06
-        .byte                   Cn4 , v100
-        .byte   W06
-        .byte                   Gn4 , v098
-        .byte   W06
-        .byte                   Cn4 , v097
-        .byte   W06
-        .byte                   Fs4 , v096
-        .byte   W06
-        .byte                   Dn4 , v095
-        .byte   W06
-        .byte                   An3 , v094
-        .byte   W06
-        .byte                   Cn4 , v092
-        .byte   W06
-        .byte                   Gn4 , v089
-        .byte   W06
-        .byte   PEND
-@ 027   ----------------------------------------
-FortuneRavine_12_27:
-        .byte           N06   , Cn4 , v090
-        .byte   W06
-        .byte                   An3 , v091
-        .byte   W06
-        .byte                   Cn4 , v092
-        .byte   W06
-        .byte                   Gn4 , v094
-        .byte   W06
-        .byte                   Cn4 , v095
-        .byte   W06
-        .byte                   Fs4 , v096
-        .byte   W06
-        .byte                   Dn4 , v097
-        .byte   W06
-        .byte                   An3 , v098
-        .byte   W06
-        .byte                   Cn4 , v099
-        .byte   W06
-        .byte                   Gn4 , v100
-        .byte   W06
-        .byte                   Cn4 , v101
-        .byte   W06
-        .byte                   Fs4 , v102
-        .byte   W06
-        .byte                   Dn4 , v104
-        .byte   W06
-        .byte                   An3 , v105
-        .byte   W06
-        .byte                   Cn4 , v106
-        .byte   W06
-        .byte                   Gn4 , v107
-        .byte   W06
-        .byte   PEND
-@ 028   ----------------------------------------
-FortuneRavine_12_28:
-        .byte           N06   , Cn4 , v108
-        .byte   W06
-        .byte                   Fs4 , v109
-        .byte   W06
-        .byte                   Dn4 , v110
-        .byte   W06
-        .byte                   An3 , v111
-        .byte   W06
-        .byte                   Cn4 , v113
-        .byte   W06
-        .byte                   Gn4 , v114
-        .byte   W06
-        .byte                   Cn4 , v115
-        .byte   W06
-        .byte                   Fs4 , v116
-        .byte   W06
-        .byte                   Dn4 , v117
-        .byte   W06
-        .byte                   An3 , v118
-        .byte   W06
-        .byte                   Cn4 , v119
-        .byte   W06
-        .byte                   Gn4 , v120
-        .byte   W06
-        .byte                   Cn4 , v121
-        .byte   W06
-        .byte                   Fs4 , v123
-        .byte   W06
-        .byte                   Dn4 , v124
-        .byte   W06
-        .byte                   An3 , v125
-        .byte   W06
-        .byte   PEND
-@ 029   ----------------------------------------
-FortuneRavine_12_29:
-        .byte           N06   , Cn4 , v126
-        .byte   W06
-        .byte                   An3 , v124
-        .byte   W06
-        .byte                   Cn4 , v123
-        .byte   W06
-        .byte                   Gn4 , v122
-        .byte   W06
-        .byte                   Cn4 , v121
-        .byte   W06
-        .byte                   Fs4 , v120
-        .byte   W06
-        .byte                   Dn4 , v118
-        .byte   W06
-        .byte                   An3 , v117
-        .byte   W06
-        .byte                   Cn4 , v116
-        .byte   W06
-        .byte                   Gn4 , v115
-        .byte   W06
-        .byte                   Cn4 , v114
-        .byte   W06
-        .byte                   Fs4 , v112
-        .byte   W06
-        .byte                   Dn4 , v111
-        .byte   W06
-        .byte                   An3 , v110
-        .byte   W06
-        .byte                   Cn4 , v109
-        .byte   W06
-        .byte                   Gn4 , v108
-        .byte   W06
-        .byte   PEND
-@ 030   ----------------------------------------
-FortuneRavine_12_30:
-        .byte           N06   , Cn4 , v106
-        .byte   W06
-        .byte                   Fs4 , v107
-        .byte   W06
-        .byte                   Dn4 , v108
-        .byte   W06
-        .byte                   An3 , v110
-        .byte   W06
-        .byte                   Cn4 , v111
-        .byte   W06
-        .byte                   Gn4 , v112
-        .byte   W06
-        .byte                   Cn4 , v113
-        .byte   W06
-        .byte                   Fs4 , v115
-        .byte   W06
-        .byte                   Dn4 , v116
-        .byte   W06
-        .byte                   An3 , v117
-        .byte   W06
-        .byte                   Cn4 , v119
-        .byte   W06
-        .byte                   Gn4 , v120
-        .byte   W06
-        .byte                   Cn4 , v121
-        .byte   W06
-        .byte                   Fs4 , v122
-        .byte   W06
-        .byte                   Dn4 , v124
-        .byte   W06
-        .byte                   An3 , v125
-        .byte   W06
-        .byte   PEND
-@ 031   ----------------------------------------
-FortuneRavine_12_31:
-        .byte           N06   , Cn4 , v127
-        .byte   W06
-        .byte                   Gn4
-        .byte   W06
-        .byte                   Cn4 , v126
-        .byte   W06
-        .byte                   Fs4 , v125
-        .byte   W06
-        .byte                   Dn4 , v123
-        .byte   W06
-        .byte                   An3 , v122
-        .byte   W06
-        .byte                   Cn4 , v120
-        .byte   W06
-        .byte                   Gn4 , v119
-        .byte   W06
-        .byte                   Cn4 , v118
-        .byte   W06
-        .byte                   Fs4 , v116
-        .byte   W06
-        .byte                   Dn4 , v115
-        .byte   W06
-        .byte                   An3 , v114
-        .byte   W06
-        .byte                   Cn4 , v112
-        .byte   W06
-        .byte                   Gn4 , v111
-        .byte   W06
-        .byte                   Cn4 , v110
-        .byte   W06
-        .byte                   Fs4 , v108
-        .byte   W06
-        .byte   PEND
-@ 032   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_4
-@ 033   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_5
-@ 034   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_6
-@ 035   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_7
-@ 036   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_8
-@ 037   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_9
-@ 038   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_10
-@ 039   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_11
-@ 040   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_12
-@ 041   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_13
-@ 042   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_14
-@ 043   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_15
-@ 044   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_16
-@ 045   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_17
-@ 046   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_18
-@ 047   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_19
-@ 048   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_20
-@ 049   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_21
-@ 050   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_22
-@ 051   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_23
-@ 052   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_24
-@ 053   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_25
-@ 054   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_26
-@ 055   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_27
-@ 056   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_28
-@ 057   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_29
-@ 058   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_30
-@ 059   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_31
-@ 060   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_4
-@ 061   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_5
-@ 062   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_6
-@ 063   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_7
-@ 064   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_12_8
-@ 065   ----------------------------------------
-        .byte   FINE
-
-@***************** Track 13 (Midi-Chn.14) *****************@
-
-FortuneRavine_13:
-        .byte   KEYSH , FortuneRavine_key+0
-@ 000   ----------------------------------------
-        .byte   W24
-@ 001   ----------------------------------------
-        .byte           PAN   , c_v-64
-        .byte           VOL   , 39
-        .byte           VOICE , 10
-        .byte   W12
-        .byte           N06   , An3 , v010
-        .byte   W06
-        .byte                   Cn4 , v013
-        .byte   W06
-        .byte                   Gn4 , v017
-        .byte   W06
-        .byte                   Cn4 , v021
-        .byte   W06
-        .byte                   Fs4 , v025
-        .byte   W06
-        .byte                   Dn4 , v028
-        .byte   W06
-        .byte                   An3 , v032
-        .byte   W06
-        .byte                   Cn4 , v036
-        .byte   W06
-        .byte                   Gn4 , v039
-        .byte   W06
-        .byte                   Cn4 , v043
-        .byte   W06
-        .byte                   Fs4 , v046
-        .byte   W06
-        .byte                   Dn4 , v050
-        .byte   W06
-        .byte                   An3 , v055
-        .byte   W06
-        .byte                   Cn4 , v058
-        .byte   W06
-@ 002   ----------------------------------------
-        .byte                   Gn4 , v062
-        .byte   W06
-        .byte                   Cn4 , v065
-        .byte   W06
-        .byte                   Fs4 , v069
-        .byte   W06
-        .byte                   Dn4 , v073
-        .byte   W06
-        .byte                   An3 , v076
-        .byte   W06
-        .byte                   Cn4 , v080
-        .byte   W06
-        .byte                   Gn4 , v084
-        .byte   W06
-        .byte                   Cn4 , v088
-        .byte   W06
-        .byte                   Fs4 , v092
-        .byte   W06
-        .byte                   Dn4 , v095
-        .byte   W06
-        .byte                   An3 , v099
-        .byte   W06
-        .byte                   Cn4 , v102
-        .byte   W06
-        .byte                   Gn4 , v106
-        .byte   W06
-        .byte                   Cn4 , v110
-        .byte   W06
-        .byte                   Fs4 , v114
-        .byte   W06
-        .byte                   Dn4 , v118
-        .byte   W06
-@ 003   ----------------------------------------
-        .byte                   An3 , v121
-        .byte   W06
-        .byte                   Cn4 , v125
-        .byte   W06
-        .byte                   Gn4 , v127
-        .byte   W06
-        .byte                   Cn4 , v126
-        .byte   W06
-        .byte                   Fs4 , v125
-        .byte   W06
-        .byte                   Dn4 , v123
-        .byte   W06
-        .byte                   An3 , v122
-        .byte   W06
-        .byte                   Cn4 , v120
-        .byte   W06
-        .byte                   Gn4 , v119
-        .byte   W06
-        .byte                   Cn4 , v118
-        .byte   W06
-        .byte                   Fs4 , v116
-        .byte   W06
-        .byte                   Dn4 , v115
-        .byte   W06
-        .byte                   An3 , v114
-        .byte   W06
-        .byte                   Cn4 , v112
-        .byte   W06
-        .byte                   Gn4 , v111
-        .byte   W06
-        .byte                   Cn4 , v110
-        .byte   W06
-@ 004   ----------------------------------------
-FortuneRavine_13_4:
-        .byte           N06   , Fs4 , v108
-        .byte   W06
-        .byte                   Dn4 , v107
-        .byte   W06
-        .byte                   An3 , v106
-        .byte   W06
-        .byte                   Cn4 , v104
-        .byte   W06
-        .byte                   Gn4 , v103
-        .byte   W06
-        .byte                   Cn4 , v101
-        .byte   W06
-        .byte                   Fs4 , v100
-        .byte   W06
-        .byte                   Dn4 , v099
-        .byte   W06
-        .byte                   An3 , v097
-        .byte   W06
-        .byte                   Cn4 , v096
-        .byte   W06
-        .byte                   Gn4 , v095
-        .byte   W06
-        .byte                   Cn4 , v093
-        .byte   W06
-        .byte                   Fs4 , v092
-        .byte   W06
-        .byte                   Dn4 , v090
-        .byte   W06
-        .byte                   An3 , v089
-        .byte   W06
-        .byte                   Cn4 , v088
-        .byte   W06
-        .byte   PEND
-@ 005   ----------------------------------------
-FortuneRavine_13_5:
-        .byte           N06   , Gn4 , v086
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   An3 , v088
-        .byte   W06
-        .byte                   Cn4 , v089
-        .byte   W06
-        .byte                   Gn4 , v090
-        .byte   W06
-        .byte                   Cn4 , v091
-        .byte   W06
-        .byte                   Fs4 , v092
-        .byte   W06
-        .byte                   Dn4 , v094
-        .byte   W06
-        .byte                   An3 , v095
-        .byte   W06
-        .byte                   Cn4 , v096
-        .byte   W06
-        .byte                   Gn4 , v097
-        .byte   W06
-        .byte                   Cn4 , v098
-        .byte   W06
-        .byte                   Fs4 , v099
-        .byte   W06
-        .byte                   Dn4 , v101
-        .byte   W06
-        .byte                   An3 , v102
-        .byte   W06
-        .byte                   Cn4 , v103
-        .byte   W06
-        .byte   PEND
-@ 006   ----------------------------------------
-FortuneRavine_13_6:
-        .byte           N06   , Gn4 , v104
-        .byte   W06
-        .byte                   Cn4 , v105
-        .byte   W06
-        .byte                   Fs4 , v107
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte                   An3 , v109
-        .byte   W06
-        .byte                   Cn4 , v110
-        .byte   W06
-        .byte                   Gn4 , v111
-        .byte   W06
-        .byte                   Cn4 , v112
-        .byte   W06
-        .byte                   Fs4 , v114
-        .byte   W06
-        .byte                   Dn4 , v115
-        .byte   W06
-        .byte                   An3 , v116
-        .byte   W06
-        .byte                   Cn4 , v117
-        .byte   W06
-        .byte                   Gn4 , v118
-        .byte   W06
-        .byte                   Cn4 , v120
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte                   Dn4 , v122
-        .byte   W06
-        .byte   PEND
-@ 007   ----------------------------------------
-FortuneRavine_13_7:
-        .byte           N06   , An3 , v123
-        .byte   W06
-        .byte                   Cn4 , v124
-        .byte   W06
-        .byte                   Gn4 , v125
-        .byte   W06
-        .byte                   Cn4 , v127
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte                   An3 , v126
-        .byte   W06
-        .byte                   Cn4 , v125
-        .byte   W06
-        .byte                   Gn4 , v124
-        .byte   W06
-        .byte                   Cn4 , v123
-        .byte   W06
-        .byte                   Fs4 , v122
-        .byte   W06
-        .byte                   Dn4 , v121
-        .byte   W06
-        .byte                   An3 , v120
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Gn4 , v119
-        .byte   W06
-        .byte                   Cn4 , v118
-        .byte   W06
-        .byte   PEND
-@ 008   ----------------------------------------
-FortuneRavine_13_8:
-        .byte           N06   , Fs4 , v117
-        .byte   W06
-        .byte                   Dn4 , v116
-        .byte   W06
-        .byte                   An3 , v115
-        .byte   W06
-        .byte                   Cn4 , v114
-        .byte   W06
-        .byte                   Gn4 , v113
-        .byte   W06
-        .byte                   Cn4 , v112
-        .byte   W06
-        .byte                   Fs4 , v111
-        .byte   W06
-        .byte                   Dn4 , v110
-        .byte   W06
-        .byte                   An3 , v109
-        .byte   W06
-        .byte                   Cn4 , v108
-        .byte   W06
-        .byte                   Gn4 , v107
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Fs4 , v106
-        .byte   W06
-        .byte                   Dn4 , v105
-        .byte   W06
-        .byte                   An3 , v104
-        .byte   W06
-        .byte                   Cn4 , v103
-        .byte   W06
-        .byte   PEND
-@ 009   ----------------------------------------
-FortuneRavine_13_9:
-        .byte           N06   , Gn4 , v102
-        .byte   W06
-        .byte                   Cn4 , v101
-        .byte   W06
-        .byte                   Fs4 , v100
-        .byte   W06
-        .byte                   Dn4 , v099
-        .byte   W06
-        .byte                   An3 , v098
-        .byte   W06
-        .byte                   Cn4 , v099
-        .byte   W06
-        .byte                   Gn4 , v100
-        .byte   W06
-        .byte                   Cn4 , v101
-        .byte   W06
-        .byte                   Fs4 , v102
-        .byte   W06
-        .byte                   Dn4 , v103
-        .byte   W06
-        .byte                   An3 , v104
-        .byte   W06
-        .byte                   Cn4 , v106
-        .byte   W06
-        .byte                   Gn4 , v107
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Fs4 , v108
-        .byte   W06
-        .byte                   Dn4 , v109
-        .byte   W06
-        .byte   PEND
-@ 010   ----------------------------------------
-FortuneRavine_13_10:
-        .byte           N06   , An3 , v111
-        .byte   W06
-        .byte                   Cn4 , v112
-        .byte   W06
-        .byte                   Gn4 , v113
-        .byte   W06
-        .byte                   Cn4 , v114
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte                   Dn4 , v116
-        .byte   W06
-        .byte                   An3 , v117
-        .byte   W06
-        .byte                   Cn4 , v118
-        .byte   W06
-        .byte                   Gn4 , v119
-        .byte   W06
-        .byte                   Cn4 , v120
-        .byte   W06
-        .byte                   Fs4 , v121
-        .byte   W06
-        .byte                   Dn4 , v122
-        .byte   W06
-        .byte                   An3 , v123
-        .byte   W06
-        .byte                   Cn4 , v124
-        .byte   W06
-        .byte                   Gn4 , v125
-        .byte   W06
-        .byte                   Cn4 , v126
-        .byte   W06
-        .byte   PEND
-@ 011   ----------------------------------------
-FortuneRavine_13_11:
-        .byte           N06   , Fs4 , v127
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   Cn4 , v126
-        .byte   W06
-        .byte                   Gn4 , v125
-        .byte   W06
-        .byte                   Cn4 , v124
-        .byte   W06
-        .byte                   Fs4 , v123
-        .byte   W06
-        .byte                   Dn4 , v122
-        .byte   W06
-        .byte                   An3 , v121
-        .byte   W06
-        .byte                   Cn4 , v120
-        .byte   W06
-        .byte                   Gn4
-        .byte   W06
-        .byte                   Cn4 , v119
-        .byte   W06
-        .byte                   Fs4 , v118
-        .byte   W06
-        .byte                   Dn4 , v117
-        .byte   W06
-        .byte                   An3 , v116
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte   PEND
-@ 012   ----------------------------------------
-FortuneRavine_13_12:
-        .byte           N06   , Gn4 , v115
-        .byte   W06
-        .byte                   Cn4 , v114
-        .byte   W06
-        .byte                   Fs4 , v113
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte                   An3 , v112
-        .byte   W06
-        .byte                   Cn4 , v111
-        .byte   W06
-        .byte                   Gn4 , v110
-        .byte   W06
-        .byte                   Cn4 , v109
-        .byte   W06
-        .byte                   Fs4 , v108
-        .byte   W06
-        .byte                   Dn4 , v107
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   Cn4 , v106
-        .byte   W06
-        .byte                   Gn4 , v105
-        .byte   W06
-        .byte                   Cn4 , v104
-        .byte   W06
-        .byte                   Fs4 , v103
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte   PEND
-@ 013   ----------------------------------------
-FortuneRavine_13_13:
-        .byte           N06   , An3 , v102
-        .byte   W06
-        .byte                   Cn4 , v101
-        .byte   W06
-        .byte                   Gn4 , v100
-        .byte   W06
-        .byte                   Cn4 , v101
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte                   Dn4 , v102
-        .byte   W06
-        .byte                   An3 , v103
-        .byte   W06
-        .byte                   Cn4 , v104
-        .byte   W06
-        .byte                   Gn4 , v105
-        .byte   W06
-        .byte                   Cn4 , v106
-        .byte   W06
-        .byte                   Fs4 , v107
-        .byte   W06
-        .byte                   Dn4 , v108
-        .byte   W06
-        .byte                   An3 , v109
-        .byte   W06
-        .byte                   Cn4 , v110
-        .byte   W06
-        .byte                   Gn4 , v111
-        .byte   W06
-        .byte                   Cn4 , v112
-        .byte   W06
-        .byte   PEND
-@ 014   ----------------------------------------
-FortuneRavine_13_14:
-        .byte           N06   , Fs4 , v113
-        .byte   W06
-        .byte                   Dn4 , v114
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   Cn4 , v115
-        .byte   W06
-        .byte                   Gn4 , v116
-        .byte   W06
-        .byte                   Cn4 , v117
-        .byte   W06
-        .byte                   Fs4 , v118
-        .byte   W06
-        .byte                   Dn4 , v119
-        .byte   W06
-        .byte                   An3 , v120
-        .byte   W06
-        .byte                   Cn4 , v121
-        .byte   W06
-        .byte                   Gn4 , v122
-        .byte   W06
-        .byte                   Cn4 , v123
-        .byte   W06
-        .byte                   Fs4 , v124
-        .byte   W06
-        .byte                   Dn4 , v125
-        .byte   W06
-        .byte                   An3 , v126
-        .byte   W06
-        .byte                   Cn4 , v127
-        .byte   W06
-        .byte   PEND
-@ 015   ----------------------------------------
-FortuneRavine_13_15:
-        .byte           N06   , Gn4 , v127
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   As4
-        .byte   W06
-        .byte                   Fn4 , v126
-        .byte   W06
-        .byte                   Ds4
-        .byte   W06
-        .byte                   As3 , v125
-        .byte   W06
-        .byte                   As4 , v124
-        .byte   W06
-        .byte                   Ds4 , v123
-        .byte   W06
-        .byte                   Cn5
-        .byte   W06
-        .byte                   Fn4 , v122
-        .byte   W06
-        .byte                   Cn4 , v121
-        .byte   W06
-        .byte                   Fn4
-        .byte   W06
-        .byte                   Cn5 , v120
-        .byte   W06
-        .byte                   Fn4
-        .byte   W06
-        .byte                   Bn4 , v119
-        .byte   W06
-        .byte                   Gn4 , v118
-        .byte   W06
-        .byte   PEND
-@ 016   ----------------------------------------
-FortuneRavine_13_16:
-        .byte           N06   , Dn4 , v118
-        .byte   W06
-        .byte                   Fn4 , v117
-        .byte   W06
-        .byte                   Gn4 , v116
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Fs4 , v115
-        .byte   W06
-        .byte                   Dn4 , v114
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Gn4 , v115
-        .byte   W06
-        .byte                   Cn4 , v116
-        .byte   W06
-        .byte                   Fs4 , v117
-        .byte   W06
-        .byte                   Dn4 , v118
-        .byte   W06
-        .byte                   An3 , v119
-        .byte   W06
-        .byte                   Cn4 , v120
-        .byte   W06
-        .byte                   Gn4 , v121
-        .byte   W06
-        .byte                   Cn4 , v122
-        .byte   W06
-        .byte   PEND
-@ 017   ----------------------------------------
-FortuneRavine_13_17:
-        .byte           N06   , Fs4 , v123
-        .byte   W06
-        .byte                   Dn4 , v124
-        .byte   W06
-        .byte                   Cn4 , v125
-        .byte   W06
-        .byte                   Ds4
-        .byte   W06
-        .byte                   As4 , v124
-        .byte   W06
-        .byte                   Ds4 , v123
-        .byte   W06
-        .byte                   An4
-        .byte   W06
-        .byte                   Fn4 , v122
-        .byte   W06
-        .byte                   Dn4 , v121
-        .byte   W06
-        .byte                   Fn4
-        .byte   W06
-        .byte                   Cn5 , v120
-        .byte   W06
-        .byte                   Fn4
-        .byte   W06
-        .byte                   Bn4 , v119
-        .byte   W06
-        .byte                   Gn4 , v118
-        .byte   W06
-        .byte                   Dn4 , v117
-        .byte   W06
-        .byte                   Fn4
-        .byte   W06
-        .byte   PEND
-@ 018   ----------------------------------------
-FortuneRavine_13_18:
-        .byte           N06   , Cn5 , v116
-        .byte   W06
-        .byte                   Fn4 , v115
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte                   Dn4 , v114
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   Cn4 , v115
-        .byte   W06
-        .byte                   Gn4 , v116
-        .byte   W06
-        .byte                   Cn4 , v117
-        .byte   W06
-        .byte                   Fs4 , v118
-        .byte   W06
-        .byte                   Dn4 , v119
-        .byte   W06
-        .byte                   An3 , v120
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Gn4 , v121
-        .byte   W06
-        .byte                   Cn4 , v122
-        .byte   W06
-        .byte                   Fs4 , v123
-        .byte   W06
-        .byte                   Dn4 , v124
-        .byte   W06
-        .byte   PEND
-@ 019   ----------------------------------------
-FortuneRavine_13_19:
-        .byte           N06   , An3 , v124
-        .byte   W06
-        .byte                   Cn4 , v125
-        .byte   W06
-        .byte                   Gn4 , v126
-        .byte   W06
-        .byte                   Cn4 , v127
-        .byte   W06
-        .byte                   Fs4 , v126
-        .byte   W06
-        .byte                   Dn4 , v124
-        .byte   W06
-        .byte                   An3 , v123
-        .byte   W06
-        .byte                   Cn4 , v122
-        .byte   W06
-        .byte                   Gn4 , v121
-        .byte   W06
-        .byte                   Cn4 , v120
-        .byte   W06
-        .byte                   Fs4 , v119
-        .byte   W06
-        .byte                   Dn4 , v118
-        .byte   W06
-        .byte                   An3 , v116
-        .byte   W06
-        .byte                   Cn4 , v115
-        .byte   W06
-        .byte                   Gn4 , v114
-        .byte   W06
-        .byte                   Cn4 , v113
-        .byte   W06
-        .byte   PEND
-@ 020   ----------------------------------------
-FortuneRavine_13_20:
-        .byte           N06   , Fs4 , v112
-        .byte   W06
-        .byte                   Dn4 , v111
-        .byte   W06
-        .byte                   An3 , v110
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Gn4 , v111
-        .byte   W06
-        .byte                   Cn4 , v112
-        .byte   W06
-        .byte                   Fs4 , v113
-        .byte   W06
-        .byte                   Dn4 , v114
-        .byte   W06
-        .byte                   An3 , v115
-        .byte   W06
-        .byte                   Cn4 , v116
-        .byte   W06
-        .byte                   Gn4 , v117
-        .byte   W06
-        .byte                   Cn4 , v118
-        .byte   W06
-        .byte                   Fs4 , v119
-        .byte   W06
-        .byte                   Dn4 , v120
-        .byte   W06
-        .byte                   An3 , v121
-        .byte   W06
-        .byte                   Cn4 , v122
-        .byte   W06
-        .byte   PEND
-@ 021   ----------------------------------------
-FortuneRavine_13_21:
-        .byte           N06   , Gn4 , v123
-        .byte   W06
-        .byte                   Cn4 , v124
-        .byte   W06
-        .byte                   Fs4 , v125
-        .byte   W06
-        .byte                   Dn4 , v124
-        .byte   W06
-        .byte                   An3 , v123
-        .byte   W06
-        .byte                   Cn4 , v122
-        .byte   W06
-        .byte                   Gn4 , v120
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Fs4 , v119
-        .byte   W06
-        .byte                   Dn4 , v118
-        .byte   W06
-        .byte                   An3 , v117
-        .byte   W06
-        .byte                   Cn4 , v116
-        .byte   W06
-        .byte                   Gn4 , v115
-        .byte   W06
-        .byte                   Cn4 , v114
-        .byte   W06
-        .byte                   Fs4 , v113
-        .byte   W06
-        .byte                   Dn4 , v112
-        .byte   W06
-        .byte   PEND
-@ 022   ----------------------------------------
-FortuneRavine_13_22:
-        .byte           N06   , An3 , v111
-        .byte   W06
-        .byte                   Cn4 , v110
-        .byte   W06
-        .byte                   Gn4 , v109
-        .byte   W06
-        .byte                   Cn4 , v107
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte                   Dn4 , v106
-        .byte   W06
-        .byte                   An3 , v105
-        .byte   W06
-        .byte                   Cn4 , v104
-        .byte   W06
-        .byte                   Gn4 , v103
-        .byte   W06
-        .byte                   Cn4 , v101
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte                   Dn4 , v100
-        .byte   W06
-        .byte                   An3 , v099
-        .byte   W06
-        .byte                   Cn4 , v098
-        .byte   W06
-        .byte                   Gn4 , v097
-        .byte   W06
-        .byte                   Cn4 , v095
-        .byte   W06
-        .byte   PEND
-@ 023   ----------------------------------------
-FortuneRavine_13_23:
-        .byte           N06   , Fs4 , v095
-        .byte   W06
-        .byte                   Dn4 , v094
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   Cn4 , v095
-        .byte   W06
-        .byte                   Gn4
-        .byte   W06
-        .byte                   Cn4 , v096
-        .byte   W06
-        .byte                   Fs4 , v097
-        .byte   W06
-        .byte                   Dn4 , v098
-        .byte   W06
-        .byte                   An3 , v099
-        .byte   W06
-        .byte                   Cn4 , v100
-        .byte   W06
-        .byte                   Gn4 , v101
-        .byte   W06
-        .byte                   Cn4 , v102
-        .byte   W06
-        .byte                   Fs4 , v103
-        .byte   W06
-        .byte                   Dn4 , v104
-        .byte   W06
-        .byte                   An3 , v105
-        .byte   W06
-        .byte                   Cn4 , v106
-        .byte   W06
-        .byte   PEND
-@ 024   ----------------------------------------
-FortuneRavine_13_24:
-        .byte           N06   , Gn4 , v107
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Fs4 , v108
-        .byte   W06
-        .byte                   Dn4 , v109
-        .byte   W06
-        .byte                   An3 , v110
-        .byte   W06
-        .byte                   Cn4 , v111
-        .byte   W06
-        .byte                   Gn4 , v112
-        .byte   W06
-        .byte                   Cn4 , v113
-        .byte   W06
-        .byte                   Fs4 , v114
-        .byte   W06
-        .byte                   Dn4 , v115
-        .byte   W06
-        .byte                   An3 , v116
-        .byte   W06
-        .byte                   Cn4 , v117
-        .byte   W06
-        .byte                   Gn4 , v118
-        .byte   W06
-        .byte                   Cn4 , v119
-        .byte   W06
-        .byte                   Fs4 , v120
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte   PEND
-@ 025   ----------------------------------------
-FortuneRavine_13_25:
-        .byte           N06   , An3 , v121
-        .byte   W06
-        .byte                   Cn4 , v122
-        .byte   W06
-        .byte                   Gn4 , v123
-        .byte   W06
-        .byte                   Cn4 , v124
-        .byte   W06
-        .byte                   Fs4 , v125
-        .byte   W06
-        .byte                   Dn4 , v124
-        .byte   W06
-        .byte                   An3 , v122
-        .byte   W06
-        .byte                   Cn4 , v121
-        .byte   W06
-        .byte                   Gn4 , v120
-        .byte   W06
-        .byte                   Cn4 , v119
-        .byte   W06
-        .byte                   Fs4 , v118
-        .byte   W06
-        .byte                   Dn4 , v116
-        .byte   W06
-        .byte                   An3 , v115
-        .byte   W06
-        .byte                   Cn4 , v114
-        .byte   W06
-        .byte                   Gn4 , v113
-        .byte   W06
-        .byte                   Cn4 , v112
-        .byte   W06
-        .byte   PEND
-@ 026   ----------------------------------------
-FortuneRavine_13_26:
-        .byte           N06   , Fs4 , v110
-        .byte   W06
-        .byte                   Dn4 , v109
-        .byte   W06
-        .byte                   An3 , v108
-        .byte   W06
-        .byte                   Cn4 , v107
-        .byte   W06
-        .byte                   Gn4 , v106
-        .byte   W06
-        .byte                   Cn4 , v104
-        .byte   W06
-        .byte                   Fs4 , v103
-        .byte   W06
-        .byte                   Dn4 , v102
-        .byte   W06
-        .byte                   An3 , v101
-        .byte   W06
-        .byte                   Cn4 , v100
-        .byte   W06
-        .byte                   Gn4 , v098
-        .byte   W06
-        .byte                   Cn4 , v097
-        .byte   W06
-        .byte                   Fs4 , v096
-        .byte   W06
-        .byte                   Dn4 , v095
-        .byte   W06
-        .byte                   An3 , v094
-        .byte   W06
-        .byte                   Cn4 , v092
-        .byte   W06
-        .byte   PEND
-@ 027   ----------------------------------------
-FortuneRavine_13_27:
-        .byte           N06   , Gn4 , v089
-        .byte   W06
-        .byte                   Cn4 , v090
-        .byte   W06
-        .byte                   An3 , v091
-        .byte   W06
-        .byte                   Cn4 , v092
-        .byte   W06
-        .byte                   Gn4 , v094
-        .byte   W06
-        .byte                   Cn4 , v095
-        .byte   W06
-        .byte                   Fs4 , v096
-        .byte   W06
-        .byte                   Dn4 , v097
-        .byte   W06
-        .byte                   An3 , v098
-        .byte   W06
-        .byte                   Cn4 , v099
-        .byte   W06
-        .byte                   Gn4 , v100
-        .byte   W06
-        .byte                   Cn4 , v101
-        .byte   W06
-        .byte                   Fs4 , v102
-        .byte   W06
-        .byte                   Dn4 , v104
-        .byte   W06
-        .byte                   An3 , v105
-        .byte   W06
-        .byte                   Cn4 , v106
-        .byte   W06
-        .byte   PEND
-@ 028   ----------------------------------------
-FortuneRavine_13_28:
-        .byte           N06   , Gn4 , v107
-        .byte   W06
-        .byte                   Cn4 , v108
-        .byte   W06
-        .byte                   Fs4 , v109
-        .byte   W06
-        .byte                   Dn4 , v110
-        .byte   W06
-        .byte                   An3 , v111
-        .byte   W06
-        .byte                   Cn4 , v113
-        .byte   W06
-        .byte                   Gn4 , v114
-        .byte   W06
-        .byte                   Cn4 , v115
-        .byte   W06
-        .byte                   Fs4 , v116
-        .byte   W06
-        .byte                   Dn4 , v117
-        .byte   W06
-        .byte                   An3 , v118
-        .byte   W06
-        .byte                   Cn4 , v119
-        .byte   W06
-        .byte                   Gn4 , v120
-        .byte   W06
-        .byte                   Cn4 , v121
-        .byte   W06
-        .byte                   Fs4 , v123
-        .byte   W06
-        .byte                   Dn4 , v124
-        .byte   W06
-        .byte   PEND
-@ 029   ----------------------------------------
-FortuneRavine_13_29:
-        .byte           N06   , An3 , v125
-        .byte   W06
-        .byte                   Cn4 , v124
-        .byte   W06
-        .byte                   An3 , v123
-        .byte   W06
-        .byte                   Cn4 , v122
-        .byte   W06
-        .byte                   Gn4 , v121
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Fs4 , v120
-        .byte   W06
-        .byte                   Dn4 , v119
-        .byte   W06
-        .byte                   An3 , v118
-        .byte   W06
-        .byte                   Cn4 , v117
-        .byte   W06
-        .byte                   Gn4 , v116
-        .byte   W06
-        .byte                   Cn4 , v115
-        .byte   W06
-        .byte                   Fs4 , v114
-        .byte   W06
-        .byte                   Dn4 , v113
-        .byte   W06
-        .byte                   An3 , v112
-        .byte   W06
-        .byte                   Cn4 , v111
-        .byte   W06
-        .byte   PEND
-@ 030   ----------------------------------------
-FortuneRavine_13_30:
-        .byte           N06   , Gn4 , v110
-        .byte   W06
-        .byte                   Cn4 , v111
-        .byte   W06
-        .byte                   Fs4
-        .byte   W06
-        .byte                   Dn4 , v112
-        .byte   W06
-        .byte                   An3 , v113
-        .byte   W06
-        .byte                   Cn4 , v114
-        .byte   W06
-        .byte                   Gn4 , v115
-        .byte   W06
-        .byte                   Cn4 , v116
-        .byte   W06
-        .byte                   Fs4 , v117
-        .byte   W06
-        .byte                   Dn4 , v118
-        .byte   W06
-        .byte                   An3 , v119
-        .byte   W06
-        .byte                   Cn4 , v120
-        .byte   W06
-        .byte                   Gn4 , v121
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Fs4 , v122
-        .byte   W06
-        .byte                   Dn4 , v123
-        .byte   W06
-        .byte   PEND
-@ 031   ----------------------------------------
-FortuneRavine_13_31:
-        .byte           N06   , An3 , v124
-        .byte   W06
-        .byte                   Cn4 , v125
-        .byte   W06
-        .byte                   Gn4 , v126
-        .byte   W06
-        .byte                   Cn4 , v127
-        .byte   W06
-        .byte                   Fs4 , v125
-        .byte   W06
-        .byte                   Dn4 , v123
-        .byte   W06
-        .byte                   An3 , v122
-        .byte   W06
-        .byte                   Cn4 , v120
-        .byte   W06
-        .byte                   Gn4 , v119
-        .byte   W06
-        .byte                   Cn4 , v118
-        .byte   W06
-        .byte                   Fs4 , v116
-        .byte   W06
-        .byte                   Dn4 , v115
-        .byte   W06
-        .byte                   An3 , v114
-        .byte   W06
-        .byte                   Cn4 , v112
-        .byte   W06
-        .byte                   Gn4 , v111
-        .byte   W06
-        .byte                   Cn4 , v110
-        .byte   W06
-        .byte   PEND
-@ 032   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_4
-@ 033   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_5
-@ 034   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_6
-@ 035   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_7
-@ 036   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_8
-@ 037   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_9
-@ 038   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_10
-@ 039   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_11
-@ 040   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_12
-@ 041   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_13
-@ 042   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_14
-@ 043   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_15
-@ 044   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_16
-@ 045   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_17
-@ 046   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_18
-@ 047   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_19
-@ 048   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_20
-@ 049   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_21
-@ 050   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_22
-@ 051   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_23
-@ 052   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_24
-@ 053   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_25
-@ 054   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_26
-@ 055   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_27
-@ 056   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_28
-@ 057   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_29
-@ 058   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_30
-@ 059   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_31
-@ 060   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_4
-@ 061   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_5
-@ 062   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_6
-@ 063   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_7
-@ 064   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_13_8
-@ 065   ----------------------------------------
-        .byte   FINE
-
-@***************** Track 14 (Midi-Chn.15) *****************@
-
-FortuneRavine_14:
-        .byte   KEYSH , FortuneRavine_key+0
-@ 000   ----------------------------------------
-        .byte   W24
-@ 001   ----------------------------------------
-        .byte           PAN   , c_v+16
-        .byte           VOL   , 104
-        .byte           VOICE , 47
-        .byte   W96
-@ 002   ----------------------------------------
-        .byte   W96
-@ 003   ----------------------------------------
-        .byte   W96
-@ 004   ----------------------------------------
-        .byte   W96
-@ 005   ----------------------------------------
-        .byte   W96
-@ 006   ----------------------------------------
-        .byte   W96
-@ 007   ----------------------------------------
-        .byte   W96
-@ 008   ----------------------------------------
-        .byte   W96
-@ 009   ----------------------------------------
-FortuneRavine_14_9:
-        .byte           N06   , An1 , v114
-        .byte   W06
-        .byte                   An1 , v113
-        .byte   W06
-        .byte                   An1 , v114
-        .byte   W06
-        .byte                   An1 , v118
-        .byte   W78
-        .byte   PEND
-@ 010   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_9
-@ 011   ----------------------------------------
-FortuneRavine_14_11:
-        .byte           N06   , An1 , v125
-        .byte   W06
-        .byte                   An1 , v098
-        .byte   W06
-        .byte                   An1 , v107
-        .byte   W06
-        .byte                   An1 , v112
-        .byte   W06
-        .byte                   An1 , v115
-        .byte   W06
-        .byte                   An1 , v124
-        .byte   W06
-        .byte                   An1 , v127
-        .byte   W60
-        .byte   PEND
-@ 012   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_11
-@ 013   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_9
-@ 014   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_9
-@ 015   ----------------------------------------
-FortuneRavine_14_15:
-        .byte           N06   , Cn2 , v125
-        .byte   W06
-        .byte                   Cn2 , v098
-        .byte   W06
-        .byte                   Cn2 , v107
-        .byte   W06
-        .byte                   Cn2 , v112
-        .byte   W06
-        .byte                   Cn2 , v115
-        .byte   W06
-        .byte                   Cn2 , v124
-        .byte   W06
-        .byte                   Dn2 , v125
-        .byte   W06
-        .byte                   Dn2 , v098
-        .byte   W06
-        .byte                   Dn2 , v107
-        .byte   W06
-        .byte                   Dn2 , v112
-        .byte   W06
-        .byte                   Dn2 , v115
-        .byte   W06
-        .byte                   Dn2 , v124
-        .byte   W06
-        .byte                   Dn2 , v127
-        .byte   W24
-        .byte   PEND
-@ 016   ----------------------------------------
-        .byte   W96
-@ 017   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_15
-@ 018   ----------------------------------------
-FortuneRavine_14_18:
-        .byte   W66
-        .byte           N06   , An1 , v127
-        .byte   W06
-        .byte                   An1
-        .byte   W06
-        .byte                   En1
-        .byte   W06
-        .byte                   En1
-        .byte   W06
-        .byte                   An1
-        .byte   W06
-        .byte   PEND
-@ 019   ----------------------------------------
-FortuneRavine_14_19:
-        .byte           N06   , An1 , v125
-        .byte   W18
-        .byte                   An1 , v126
-        .byte   W18
-        .byte                   An1 , v124
-        .byte   W18
-        .byte                   An1 , v125
-        .byte   W18
-        .byte                   An1 , v126
-        .byte   W24
-        .byte   PEND
-@ 020   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_19
-@ 021   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_19
-@ 022   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_19
-@ 023   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_19
-@ 024   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_19
-@ 025   ----------------------------------------
-FortuneRavine_14_25:
-        .byte           N06   , Cn2 , v125
-        .byte   W18
-        .byte                   Cn2 , v126
-        .byte   W18
-        .byte                   Dn2 , v124
-        .byte   W18
-        .byte                   Dn2 , v125
-        .byte   W18
-        .byte                   Dn2 , v126
-        .byte   W24
-        .byte   PEND
-@ 026   ----------------------------------------
-FortuneRavine_14_26:
-        .byte           N06   , An1 , v125
-        .byte   W18
-        .byte                   An1 , v126
-        .byte   W18
-        .byte                   An1 , v124
-        .byte   W18
-        .byte                   An1 , v125
-        .byte   W18
-        .byte                   Gn1 , v126
-        .byte   W24
-        .byte   PEND
-@ 027   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_25
-@ 028   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_26
-@ 029   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_9
-@ 030   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_9
-@ 031   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_11
-@ 032   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_11
-@ 033   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_9
-@ 034   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_9
-@ 035   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_11
-@ 036   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_11
-@ 037   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_9
-@ 038   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_9
-@ 039   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_11
-@ 040   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_11
-@ 041   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_9
-@ 042   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_9
-@ 043   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_15
-@ 044   ----------------------------------------
-        .byte   W96
-@ 045   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_15
-@ 046   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_18
-@ 047   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_19
-@ 048   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_19
-@ 049   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_19
-@ 050   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_19
-@ 051   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_19
-@ 052   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_19
-@ 053   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_25
-@ 054   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_26
-@ 055   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_25
-@ 056   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_26
-@ 057   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_9
-@ 058   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_9
-@ 059   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_11
-@ 060   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_11
-@ 061   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_9
-@ 062   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_9
-@ 063   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_11
-@ 064   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_14_11
-@ 065   ----------------------------------------
-        .byte   FINE
-
-@***************** Track 15 (Midi-Chn.9) ******************@
-
-FortuneRavine_15:
-        .byte   KEYSH , FortuneRavine_key+0
-@ 000   ----------------------------------------
-        .byte   W24
-@ 001   ----------------------------------------
-        .byte           VOL   , 87
-        .byte           VOICE , 0
-        .byte           N06   , An3 , v107
-        .byte   W06
-        .byte                   An3 , v056
-        .byte   W06
-        .byte                   An3 , v047
-        .byte   W06
-        .byte                   An3 , v037
-        .byte   W06
-        .byte                   An3 , v107
-        .byte   W06
-        .byte                   An3 , v051
-        .byte   W06
-        .byte                   An3 , v107
-        .byte   W06
-        .byte                   An3 , v056
-        .byte   W06
-        .byte                   An3 , v047
-        .byte   W06
-        .byte                   An3 , v037
-        .byte   W06
-        .byte                   An3 , v107
-        .byte   W06
-        .byte                   An3 , v051
-        .byte   W06
-        .byte                   An3 , v107
-        .byte   W06
-        .byte                   An3 , v056
-        .byte   W06
-        .byte                   An3 , v073
-        .byte   W06
-        .byte                   An3 , v052
-        .byte   W06
-@ 002   ----------------------------------------
-FortuneRavine_15_2:
-        .byte           N06   , An3 , v107
-        .byte   W06
-        .byte                   An3 , v056
-        .byte   W06
-        .byte                   An3 , v047
-        .byte   W06
-        .byte                   An3 , v037
-        .byte   W06
-        .byte                   An3 , v107
-        .byte   W06
-        .byte                   An3 , v051
-        .byte   W06
-        .byte                   An3 , v107
-        .byte   W06
-        .byte                   An3 , v056
-        .byte   W06
-        .byte                   An3 , v047
-        .byte   W06
-        .byte                   An3 , v037
-        .byte   W06
-        .byte                   An3 , v107
-        .byte   W06
-        .byte                   An3 , v051
-        .byte   W06
-        .byte                   An3 , v107
-        .byte   W06
-        .byte                   An3 , v056
-        .byte   W06
-        .byte                   An3 , v073
-        .byte   W06
-        .byte                   An3 , v052
-        .byte   W06
-        .byte   PEND
-@ 003   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_2
-@ 004   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_2
-@ 005   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_2
-@ 006   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_2
-@ 007   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_2
-@ 008   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_2
-@ 009   ----------------------------------------
-FortuneRavine_15_9:
-        .byte           N06   , An3 , v107
-        .byte           N12   , Cn1 , v127
-        .byte   W06
-        .byte           N06   , An3 , v056
-        .byte   W06
-        .byte                   An3 , v047
-        .byte   W06
-        .byte                   An3 , v037
-        .byte           N12   , Cn1 , v127
-        .byte   W06
-        .byte           N06   , An3 , v107
-        .byte   W06
-        .byte                   An3 , v051
-        .byte   W06
-        .byte                   An3 , v107
-        .byte   W06
-        .byte                   An3 , v056
-        .byte   W06
-        .byte                   An3 , v047
-        .byte   W06
-        .byte                   An3 , v037
-        .byte   W06
-        .byte                   An3 , v107
-        .byte   W06
-        .byte                   An3 , v051
-        .byte   W06
-        .byte                   An3 , v107
-        .byte   W06
-        .byte                   An3 , v056
-        .byte   W06
-        .byte                   An3 , v073
-        .byte   W06
-        .byte                   An3 , v052
-        .byte   W06
-        .byte   PEND
-@ 010   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_2
-@ 011   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_9
-@ 012   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_2
-@ 013   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_9
-@ 014   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_2
-@ 015   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_9
-@ 016   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_2
-@ 017   ----------------------------------------
-FortuneRavine_15_17:
-        .byte           N06   , An3 , v107
-        .byte           N12   , Cn1 , v127
-        .byte   W06
-        .byte           N06   , An3 , v056
-        .byte   W06
-        .byte                   An3 , v047
-        .byte   W06
-        .byte                   An3 , v037
-        .byte   W06
-        .byte                   An3 , v107
-        .byte   W06
-        .byte                   An3 , v051
-        .byte   W06
-        .byte                   An3 , v107
-        .byte           N12   , Cn1 , v127
-        .byte   W06
-        .byte           N06   , An3 , v056
-        .byte   W06
-        .byte                   An3 , v047
-        .byte   W06
-        .byte                   An3 , v037
-        .byte   W06
-        .byte                   An3 , v107
-        .byte   W06
-        .byte                   An3 , v051
-        .byte   W06
-        .byte                   An3 , v107
-        .byte           N12   , Cn1 , v127
-        .byte   W06
-        .byte           N06   , An3 , v056
-        .byte   W06
-        .byte                   An3 , v073
-        .byte   W06
-        .byte                   An3 , v052
-        .byte   W06
-        .byte   PEND
-@ 018   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_17
-@ 019   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_17
-@ 020   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_17
-@ 021   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_17
-@ 022   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_17
-@ 023   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_17
-@ 024   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_17
-@ 025   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_17
-@ 026   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_17
-@ 027   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_17
-@ 028   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_17
-@ 029   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_2
-@ 030   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_2
-@ 031   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_2
-@ 032   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_2
-@ 033   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_2
-@ 034   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_2
-@ 035   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_2
-@ 036   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_2
-@ 037   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_9
-@ 038   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_2
-@ 039   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_9
-@ 040   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_2
-@ 041   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_9
-@ 042   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_2
-@ 043   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_9
-@ 044   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_2
-@ 045   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_17
-@ 046   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_17
-@ 047   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_17
-@ 048   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_17
-@ 049   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_17
-@ 050   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_17
-@ 051   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_17
-@ 052   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_17
-@ 053   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_17
-@ 054   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_17
-@ 055   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_17
-@ 056   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_17
-@ 057   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_2
-@ 058   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_2
-@ 059   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_2
-@ 060   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_2
-@ 061   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_2
-@ 062   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_2
-@ 063   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_2
-@ 064   ----------------------------------------
-        .byte   PATT
-         .word  FortuneRavine_15_2
-@ 065   ----------------------------------------
-        .byte   FINE
+	.section .rodata
+	.global	song01
+	.align	2
 
 
-@********************** End of Song ***********************@
+@**************** Track 1 (Midi-Chn.0) ****************@
 
-        .align  2
-FortuneRavine:
-        .byte   16                      @ Num Tracks
-        .byte   0                       @ Unknown
-        .byte   FortuneRavine_pri       @ Priority
-        .byte   FortuneRavine_rev       @ Reverb
+song01_001:
+@  #01 @000   ----------------------------------------
+ .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 90*song01_tbs/2
+ .byte   MODT 0
+ .byte   LFOS 44
+ .byte   VOICE , 47
+ .byte   PAN , c_v+16
+ .byte   VOL , 70*song01_mvl/mxv
+ .byte   BEND , c_v+0
+ .byte   W96
+@  #01 @001   ----------------------------------------
+ .byte   W96
+@  #01 @002   ----------------------------------------
+ .byte   W96
+@  #01 @003   ----------------------------------------
+ .byte   W96
+@  #01 @004   ----------------------------------------
+ .byte   W96
+@  #01 @005   ----------------------------------------
+ .byte   W96
+@  #01 @006   ----------------------------------------
+ .byte   W96
+@  #01 @007   ----------------------------------------
+ .byte   W96
+@  #01 @008   ----------------------------------------
+Label_01EBE304:
+ .byte   N06 ,An1 ,v118
+ .byte   W06
+ .byte   N06
+ .byte   W06
+ .byte   N06
+ .byte   W06
+ .byte   An1 ,v122
+ .byte   W78
+ .byte   PEND 
+@  #01 @009   ----------------------------------------
+ .byte   PATT
+  .word Label_01EBE304
+@  #01 @010   ----------------------------------------
+Label_01EBE315:
+ .byte   N06 ,An1 ,v127
+ .byte   W06
+ .byte   An1 ,v094
+ .byte   W06
+ .byte   An1 ,v106
+ .byte   W06
+ .byte   An1 ,v114
+ .byte   W06
+ .byte   An1 ,v118
+ .byte   W06
+ .byte   An1 ,v127
+ .byte   W06
+ .byte   An1 ,v127
+ .byte   W60
+ .byte   PEND 
+@  #01 @011   ----------------------------------------
+ .byte   PATT
+  .word Label_01EBE315
+@  #01 @012   ----------------------------------------
+ .byte   PATT
+  .word Label_01EBE304
+@  #01 @013   ----------------------------------------
+ .byte   PATT
+  .word Label_01EBE304
+@  #01 @014   ----------------------------------------
+Label_01EBE33B:
+ .byte   N06 ,Cn2 ,v127
+ .byte   W06
+ .byte   Cn2 ,v094
+ .byte   W06
+ .byte   Cn2 ,v106
+ .byte   W06
+ .byte   Cn2 ,v114
+ .byte   W06
+ .byte   Cn2 ,v118
+ .byte   W06
+ .byte   Cn2 ,v127
+ .byte   W06
+ .byte   Dn2
+ .byte   W06
+ .byte   Dn2 ,v094
+ .byte   W06
+ .byte   Dn2 ,v106
+ .byte   W06
+ .byte   Dn2 ,v114
+ .byte   W06
+ .byte   Dn2 ,v118
+ .byte   W06
+ .byte   Dn2 ,v127
+ .byte   W06
+ .byte   Dn2 ,v127
+ .byte   W24
+ .byte   PEND 
+@  #01 @015   ----------------------------------------
+ .byte   W96
+@  #01 @016   ----------------------------------------
+ .byte   PATT
+  .word Label_01EBE33B
+@  #01 @017   ----------------------------------------
+ .byte   W66
+ .byte   N06 ,An1 ,v127
+ .byte   W06
+ .byte   N06
+ .byte   W06
+ .byte   En1
+ .byte   W06
+ .byte   N06
+ .byte   W06
+ .byte   An1
+ .byte   W06
+@  #01 @018   ----------------------------------------
+Label_01EBE376:
+ .byte   N06 ,An1 ,v127
+ .byte   W18
+ .byte   An1 ,v127
+ .byte   W18
+ .byte   An1 ,v127
+ .byte   W18
+ .byte   N06
+ .byte   W18
+ .byte   An1 ,v127
+ .byte   W24
+ .byte   PEND 
+@  #01 @019   ----------------------------------------
+ .byte   PATT
+  .word Label_01EBE376
+@  #01 @020   ----------------------------------------
+ .byte   PATT
+  .word Label_01EBE376
+@  #01 @021   ----------------------------------------
+ .byte   PATT
+  .word Label_01EBE376
+@  #01 @022   ----------------------------------------
+ .byte   PATT
+  .word Label_01EBE376
+@  #01 @023   ----------------------------------------
+ .byte   PATT
+  .word Label_01EBE376
+@  #01 @024   ----------------------------------------
+Label_01EBE39F:
+ .byte   N06 ,Cn2 ,v127
+ .byte   W18
+ .byte   Cn2 ,v127
+ .byte   W18
+ .byte   Dn2 ,v127
+ .byte   W18
+ .byte   N06
+ .byte   W18
+ .byte   Dn2 ,v127
+ .byte   W24
+ .byte   PEND 
+@  #01 @025   ----------------------------------------
+Label_01EBE3AF:
+ .byte   N06 ,An1 ,v127
+ .byte   W18
+ .byte   An1 ,v127
+ .byte   W18
+ .byte   An1 ,v127
+ .byte   W18
+ .byte   N06
+ .byte   W18
+ .byte   Gn1 ,v127
+ .byte   W24
+ .byte   PEND 
+@  #01 @026   ----------------------------------------
+ .byte   PATT
+  .word Label_01EBE39F
+@  #01 @027   ----------------------------------------
+ .byte   PATT
+  .word Label_01EBE3AF
+@  #01 @028   ----------------------------------------
+ .byte   PATT
+  .word Label_01EBE304
+@  #01 @029   ----------------------------------------
+ .byte   PATT
+  .word Label_01EBE304
+@  #01 @030   ----------------------------------------
+ .byte   PATT
+  .word Label_01EBE315
+@  #01 @031   ----------------------------------------
+ .byte   PATT
+  .word Label_01EBE315
+@  #01 @032   ----------------------------------------
+ .byte   PATT
+  .word Label_01EBE304
+@  #01 @033   ----------------------------------------
+ .byte   PATT
+  .word Label_01EBE304
+@  #01 @034   ----------------------------------------
+ .byte   PATT
+  .word Label_01EBE315
+@  #01 @035   ----------------------------------------
+ .byte   PATT
+  .word Label_01EBE315
+@  #01 @036   ----------------------------------------
+ .byte   GOTO
+  .word Label_01EBE304
+ .byte   FINE
 
-        .word   FortuneRavine_grp      
+@**************** Track 2 (Midi-Chn.1) ****************@
 
-        .word   FortuneRavine_0
-        .word   FortuneRavine_1
-        .word   FortuneRavine_2
-        .word   FortuneRavine_3
-        .word   FortuneRavine_4
-        .word   FortuneRavine_5
-        .word   FortuneRavine_6
-        .word   FortuneRavine_7
-        .word   FortuneRavine_8
-        .word   FortuneRavine_9
-        .word   FortuneRavine_10
-        .word   FortuneRavine_11
-        .word   FortuneRavine_12
-        .word   FortuneRavine_13
-        .word   FortuneRavine_14
-        .word   FortuneRavine_15
+song01_002:
+@  #02 @000   ----------------------------------------
+ .byte   KEYSH , song01_key+0
+ .byte   MODT 0
+ .byte   LFOS 44
+ .byte   VOICE , 124
+ .byte   PAN , c_v+0
+ .byte   VOL , 51*song01_mvl/mxv
+ .byte   BEND , c_v+0
+ .byte   N06 ,En1 ,v096
+ .byte   W06
+ .byte   En1 ,v032
+ .byte   W06
+ .byte   En1 ,v024
+ .byte   W06
+ .byte   En1 ,v016
+ .byte   W06
+ .byte   En1 ,v096
+ .byte   W06
+ .byte   En1 ,v028
+ .byte   W06
+ .byte   En1 ,v096
+ .byte   W06
+ .byte   En1 ,v032
+ .byte   W06
+ .byte   En1 ,v024
+ .byte   W06
+ .byte   En1 ,v016
+ .byte   W06
+ .byte   En1 ,v096
+ .byte   W06
+ .byte   En1 ,v028
+ .byte   W06
+ .byte   En1 ,v096
+ .byte   W06
+ .byte   En1 ,v032
+ .byte   W06
+ .byte   En1 ,v052
+ .byte   W06
+ .byte   En1 ,v032
+ .byte   W06
+@  #02 @001   ----------------------------------------
+Label_01F92313:
+ .byte   N06 ,En1 ,v096
+ .byte   W06
+ .byte   En1 ,v032
+ .byte   W06
+ .byte   En1 ,v024
+ .byte   W06
+ .byte   En1 ,v016
+ .byte   W06
+ .byte   En1 ,v096
+ .byte   W06
+ .byte   En1 ,v028
+ .byte   W06
+ .byte   En1 ,v096
+ .byte   W06
+ .byte   En1 ,v032
+ .byte   W06
+ .byte   En1 ,v024
+ .byte   W06
+ .byte   En1 ,v016
+ .byte   W06
+ .byte   En1 ,v096
+ .byte   W06
+ .byte   En1 ,v028
+ .byte   W06
+ .byte   En1 ,v096
+ .byte   W06
+ .byte   En1 ,v032
+ .byte   W06
+ .byte   En1 ,v052
+ .byte   W06
+ .byte   En1 ,v032
+ .byte   W06
+ .byte   PEND 
+@  #02 @002   ----------------------------------------
+ .byte   PATT
+  .word Label_01F92313
+@  #02 @003   ----------------------------------------
+ .byte   PATT
+  .word Label_01F92313
+@  #02 @004   ----------------------------------------
+ .byte   PATT
+  .word Label_01F92313
+@  #02 @005   ----------------------------------------
+ .byte   PATT
+  .word Label_01F92313
+@  #02 @006   ----------------------------------------
+ .byte   PATT
+  .word Label_01F92313
+@  #02 @007   ----------------------------------------
+ .byte   PATT
+  .word Label_01F92313
+@  #02 @008   ----------------------------------------
+Label_01F92363:
+ .byte   N12 ,Dn1 ,v127
+ .byte   N06 ,En1 ,v096
+ .byte   W06
+ .byte   En1 ,v032
+ .byte   W06
+ .byte   En1 ,v024
+ .byte   W06
+ .byte   N12 ,Dn1 ,v127
+ .byte   N06 ,En1 ,v016
+ .byte   W06
+ .byte   En1 ,v096
+ .byte   W06
+ .byte   En1 ,v028
+ .byte   W06
+ .byte   En1 ,v096
+ .byte   W06
+ .byte   En1 ,v032
+ .byte   W06
+ .byte   En1 ,v024
+ .byte   W06
+ .byte   En1 ,v016
+ .byte   W06
+ .byte   En1 ,v096
+ .byte   W06
+ .byte   En1 ,v028
+ .byte   W06
+ .byte   En1 ,v096
+ .byte   W06
+ .byte   En1 ,v032
+ .byte   W06
+ .byte   En1 ,v052
+ .byte   W06
+ .byte   En1 ,v032
+ .byte   W06
+ .byte   PEND 
+@  #02 @009   ----------------------------------------
+ .byte   PATT
+  .word Label_01F92313
+@  #02 @010   ----------------------------------------
+ .byte   PATT
+  .word Label_01F92363
+@  #02 @011   ----------------------------------------
+ .byte   PATT
+  .word Label_01F92313
+@  #02 @012   ----------------------------------------
+ .byte   PATT
+  .word Label_01F92363
+@  #02 @013   ----------------------------------------
+ .byte   PATT
+  .word Label_01F92313
+@  #02 @014   ----------------------------------------
+ .byte   PATT
+  .word Label_01F92363
+@  #02 @015   ----------------------------------------
+ .byte   PATT
+  .word Label_01F92313
+@  #02 @016   ----------------------------------------
+Label_01F923BF:
+ .byte   N12 ,Dn1 ,v127
+ .byte   N06 ,En1 ,v096
+ .byte   W06
+ .byte   En1 ,v032
+ .byte   W06
+ .byte   En1 ,v024
+ .byte   W06
+ .byte   En1 ,v016
+ .byte   W06
+ .byte   En1 ,v096
+ .byte   W06
+ .byte   En1 ,v028
+ .byte   W06
+ .byte   N12 ,Dn1 ,v127
+ .byte   N06 ,En1 ,v096
+ .byte   W06
+ .byte   En1 ,v032
+ .byte   W06
+ .byte   En1 ,v024
+ .byte   W06
+ .byte   En1 ,v016
+ .byte   W06
+ .byte   En1 ,v096
+ .byte   W06
+ .byte   En1 ,v028
+ .byte   W06
+ .byte   N12 ,Dn1 ,v127
+ .byte   N06 ,En1 ,v096
+ .byte   W06
+ .byte   En1 ,v032
+ .byte   W06
+ .byte   En1 ,v052
+ .byte   W06
+ .byte   En1 ,v032
+ .byte   W06
+ .byte   PEND 
+@  #02 @017   ----------------------------------------
+ .byte   PATT
+  .word Label_01F923BF
+@  #02 @018   ----------------------------------------
+ .byte   PATT
+  .word Label_01F923BF
+@  #02 @019   ----------------------------------------
+ .byte   PATT
+  .word Label_01F923BF
+@  #02 @020   ----------------------------------------
+ .byte   PATT
+  .word Label_01F923BF
+@  #02 @021   ----------------------------------------
+ .byte   PATT
+  .word Label_01F923BF
+@  #02 @022   ----------------------------------------
+ .byte   PATT
+  .word Label_01F923BF
+@  #02 @023   ----------------------------------------
+ .byte   PATT
+  .word Label_01F923BF
+@  #02 @024   ----------------------------------------
+ .byte   PATT
+  .word Label_01F923BF
+@  #02 @025   ----------------------------------------
+ .byte   PATT
+  .word Label_01F923BF
+@  #02 @026   ----------------------------------------
+ .byte   PATT
+  .word Label_01F923BF
+@  #02 @027   ----------------------------------------
+ .byte   PATT
+  .word Label_01F923BF
+@  #02 @028   ----------------------------------------
+ .byte   PATT
+  .word Label_01F92313
+@  #02 @029   ----------------------------------------
+ .byte   PATT
+  .word Label_01F92313
+@  #02 @030   ----------------------------------------
+ .byte   PATT
+  .word Label_01F92313
+@  #02 @031   ----------------------------------------
+ .byte   PATT
+  .word Label_01F92313
+@  #02 @032   ----------------------------------------
+ .byte   PATT
+  .word Label_01F92313
+@  #02 @033   ----------------------------------------
+ .byte   PATT
+  .word Label_01F92313
+@  #02 @034   ----------------------------------------
+ .byte   PATT
+  .word Label_01F92313
+@  #02 @035   ----------------------------------------
+ .byte   PATT
+  .word Label_01F92313
+@  #02 @036   ----------------------------------------
+ .byte   GOTO
+  .word Label_01F92363
+ .byte   FINE
 
-        .end
+@**************** Track 3 (Midi-Chn.2) ****************@
+
+song01_003:
+@  #03 @000   ----------------------------------------
+ .byte   KEYSH , song01_key+0
+ .byte   MODT 0
+ .byte   LFOS 44
+ .byte   VOICE , 10
+ .byte   PAN , c_v+0
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   BEND , c_v+0
+ .byte   N06 ,An3 ,v004
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v008
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v012
+ .byte   W06
+ .byte   An3 ,v016
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v020
+ .byte   W06
+ .byte   Cn4 ,v024
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v028
+ .byte   W06
+ .byte   An3 ,v032
+ .byte   W06
+ .byte   Cn4 ,v036
+ .byte   W06
+ .byte   Gn4 ,v040
+ .byte   W06
+ .byte   Cn4 ,v044
+ .byte   W06
+@  #03 @001   ----------------------------------------
+ .byte   Fs4 ,v048
+ .byte   W06
+ .byte   Dn4 ,v052
+ .byte   W06
+ .byte   An3 ,v056
+ .byte   W06
+ .byte   Cn4 ,v060
+ .byte   W06
+ .byte   Gn4 ,v064
+ .byte   W06
+ .byte   Cn4 ,v072
+ .byte   W06
+ .byte   Fs4 ,v076
+ .byte   W06
+ .byte   Dn4 ,v080
+ .byte   W06
+ .byte   An3 ,v084
+ .byte   W06
+ .byte   Cn4 ,v088
+ .byte   W06
+ .byte   Gn4 ,v096
+ .byte   W06
+ .byte   Cn4 ,v100
+ .byte   W06
+ .byte   Fs4 ,v108
+ .byte   W06
+ .byte   Dn4 ,v112
+ .byte   W06
+ .byte   An3 ,v120
+ .byte   W06
+ .byte   Cn4 ,v124
+ .byte   W06
+@  #03 @002   ----------------------------------------
+Label_01F914A6:
+ .byte   N06 ,Gn4 ,v127
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v124
+ .byte   W06
+ .byte   Dn4 ,v120
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v116
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v112
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v108
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v104
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v100
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v096
+ .byte   W06
+ .byte   PEND 
+@  #03 @003   ----------------------------------------
+Label_01F914D1:
+ .byte   N06 ,An3 ,v096
+ .byte   W06
+ .byte   Cn4 ,v092
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v088
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v084
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v080
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v076
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v072
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v068
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   PEND 
+@  #03 @004   ----------------------------------------
+Label_01F914FB:
+ .byte   N06 ,An3 ,v072
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v076
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v080
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v084
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v088
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v092
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   PEND 
+@  #03 @005   ----------------------------------------
+Label_01F91523:
+ .byte   N06 ,Fs4 ,v096
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v100
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v104
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v108
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v112
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v116
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v120
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v124
+ .byte   W06
+ .byte   PEND 
+@  #03 @006   ----------------------------------------
+Label_01F9154D:
+ .byte   N06 ,Gn4 ,v124
+ .byte   W06
+ .byte   Cn4 ,v127
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v124
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v120
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v116
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v112
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   PEND 
+@  #03 @007   ----------------------------------------
+Label_01F91575:
+ .byte   N06 ,An3 ,v108
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v104
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v100
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v096
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v092
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v088
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   PEND 
+@  #03 @008   ----------------------------------------
+Label_01F9159D:
+ .byte   N06 ,Fs4 ,v088
+ .byte   W06
+ .byte   Dn4 ,v084
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v088
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v092
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v096
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v100
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v104
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+@  #03 @009   ----------------------------------------
+ .byte   Gn4 ,v108
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v112
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v116
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v120
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v124
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v127
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+@  #03 @010   ----------------------------------------
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v124
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v120
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v116
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v112
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v108
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+@  #03 @011   ----------------------------------------
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v104
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v100
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v096
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v092
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v088
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+@  #03 @012   ----------------------------------------
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v092
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v096
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v100
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v104
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v108
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+@  #03 @013   ----------------------------------------
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v112
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v116
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v120
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v124
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v127
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+@  #03 @014   ----------------------------------------
+ .byte   As4
+ .byte   W06
+ .byte   Fn4
+ .byte   W06
+ .byte   Ds4
+ .byte   W06
+ .byte   As3 ,v124
+ .byte   W06
+ .byte   As4
+ .byte   W06
+ .byte   Ds4 ,v120
+ .byte   W06
+ .byte   Cn5
+ .byte   W06
+ .byte   Fn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fn4
+ .byte   W06
+ .byte   Cn5 ,v116
+ .byte   W06
+ .byte   Fn4
+ .byte   W06
+ .byte   Bn4
+ .byte   W06
+ .byte   Gn4 ,v112
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   Fn4
+ .byte   W06
+@  #03 @015   ----------------------------------------
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v108
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v112
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v116
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v120
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v124
+ .byte   W06
+@  #03 @016   ----------------------------------------
+ .byte   Cn4
+ .byte   W06
+ .byte   Ds4
+ .byte   W06
+ .byte   As4
+ .byte   W06
+ .byte   Ds4 ,v120
+ .byte   W06
+ .byte   An4
+ .byte   W06
+ .byte   Fn4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   Fn4
+ .byte   W06
+ .byte   Cn5 ,v116
+ .byte   W06
+ .byte   Fn4
+ .byte   W06
+ .byte   Bn4
+ .byte   W06
+ .byte   Gn4 ,v112
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   Fn4
+ .byte   W06
+ .byte   Cn5
+ .byte   W06
+ .byte   Fn4 ,v108
+ .byte   W06
+@  #03 @017   ----------------------------------------
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v112
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v116
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v120
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v124
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+@  #03 @018   ----------------------------------------
+ .byte   Gn4 ,v127
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v124
+ .byte   W06
+ .byte   An3 ,v120
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v116
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v112
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v108
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v104
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+@  #03 @019   ----------------------------------------
+ .byte   An3 ,v100
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v104
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v108
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v112
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v116
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v120
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v124
+ .byte   W06
+@  #03 @020   ----------------------------------------
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v120
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v116
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v112
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v108
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v104
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v100
+ .byte   W06
+@  #03 @021   ----------------------------------------
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v096
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v092
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v088
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v084
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v080
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+@  #03 @022   ----------------------------------------
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v084
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v088
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v092
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v096
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+@  #03 @023   ----------------------------------------
+ .byte   Fs4 ,v100
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v104
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v108
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v112
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v116
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v120
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+@  #03 @024   ----------------------------------------
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v124
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v120
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v116
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v112
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v108
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v104
+ .byte   W06
+ .byte   Fs4 ,v100
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+@  #03 @025   ----------------------------------------
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v096
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v092
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v088
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v084
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v080
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v076
+ .byte   W06
+ .byte   Gn4 ,v072
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+@  #03 @026   ----------------------------------------
+ .byte   An3 ,v076
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v080
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v084
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v088
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v092
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v096
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v100
+ .byte   W06
+@  #03 @027   ----------------------------------------
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v104
+ .byte   W06
+ .byte   Cn4 ,v108
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v112
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v116
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v120
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v124
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+@  #03 @028   ----------------------------------------
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v120
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v116
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v112
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v108
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v104
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v100
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+@  #03 @029   ----------------------------------------
+ .byte   Fs4 ,v096
+ .byte   W06
+ .byte   Dn4 ,v100
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v104
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v108
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v112
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v116
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v120
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v124
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+@  #03 @030   ----------------------------------------
+ .byte   PATT
+  .word Label_01F914A6
+@  #03 @031   ----------------------------------------
+ .byte   PATT
+  .word Label_01F914D1
+@  #03 @032   ----------------------------------------
+ .byte   PATT
+  .word Label_01F914FB
+@  #03 @033   ----------------------------------------
+ .byte   PATT
+  .word Label_01F91523
+@  #03 @034   ----------------------------------------
+ .byte   PATT
+  .word Label_01F9154D
+@  #03 @035   ----------------------------------------
+ .byte   PATT
+  .word Label_01F91575
+@  #03 @036   ----------------------------------------
+ .byte   GOTO
+  .word Label_01F9159D
+ .byte   FINE
+
+@**************** Track 4 (Midi-Chn.3) ****************@
+
+song01_004:
+@  #04 @000   ----------------------------------------
+ .byte   KEYSH , song01_key+0
+ .byte   MODT 0
+ .byte   LFOS 44
+ .byte   VOICE , 10
+ .byte   PAN , c_v+63
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   BEND , c_v+0
+ .byte   W06
+ .byte   N06 ,An3 ,v004
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v008
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v012
+ .byte   W06
+ .byte   An3 ,v016
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v020
+ .byte   W06
+ .byte   Cn4 ,v024
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v028
+ .byte   W06
+ .byte   An3 ,v032
+ .byte   W06
+ .byte   Cn4 ,v036
+ .byte   W06
+ .byte   Gn4 ,v040
+ .byte   W06
+@  #04 @001   ----------------------------------------
+ .byte   Cn4 ,v044
+ .byte   W06
+ .byte   Fs4 ,v048
+ .byte   W06
+ .byte   Dn4 ,v052
+ .byte   W06
+ .byte   An3 ,v056
+ .byte   W06
+ .byte   Cn4 ,v060
+ .byte   W06
+ .byte   Gn4 ,v064
+ .byte   W06
+ .byte   Cn4 ,v072
+ .byte   W06
+ .byte   Fs4 ,v076
+ .byte   W06
+ .byte   Dn4 ,v080
+ .byte   W06
+ .byte   An3 ,v084
+ .byte   W06
+ .byte   Cn4 ,v088
+ .byte   W06
+ .byte   Gn4 ,v096
+ .byte   W06
+ .byte   Cn4 ,v100
+ .byte   W06
+ .byte   Fs4 ,v108
+ .byte   W06
+ .byte   Dn4 ,v112
+ .byte   W06
+ .byte   An3 ,v120
+ .byte   W06
+@  #04 @002   ----------------------------------------
+ .byte   Cn4 ,v124
+ .byte   W06
+ .byte   Gn4 ,v127
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v124
+ .byte   W06
+ .byte   Dn4 ,v120
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v116
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v112
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v108
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v104
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v100
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+@  #04 @003   ----------------------------------------
+Label_01F91995:
+ .byte   N06 ,Dn4 ,v096
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v092
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v088
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v084
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v080
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v076
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v072
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v068
+ .byte   W06
+ .byte   PEND 
+@  #04 @004   ----------------------------------------
+Label_01F919BF:
+ .byte   N06 ,Cn4 ,v068
+ .byte   W06
+ .byte   An3 ,v072
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v076
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v080
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v084
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v088
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v092
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   PEND 
+@  #04 @005   ----------------------------------------
+Label_01F919E8:
+ .byte   N06 ,Cn4 ,v092
+ .byte   W06
+ .byte   Fs4 ,v096
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v100
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v104
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v108
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v112
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v116
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v120
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   PEND 
+@  #04 @006   ----------------------------------------
+Label_01F91A12:
+ .byte   N06 ,Cn4 ,v124
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v127
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v124
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v120
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v116
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v112
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   PEND 
+@  #04 @007   ----------------------------------------
+Label_01F91A3A:
+ .byte   N06 ,Dn4 ,v112
+ .byte   W06
+ .byte   An3 ,v108
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v104
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v100
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v096
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v092
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v088
+ .byte   W06
+ .byte   PEND 
+@  #04 @008   ----------------------------------------
+Label_01F91A63:
+ .byte   N06 ,Cn4 ,v088
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v084
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v088
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v092
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v096
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v100
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v104
+ .byte   W06
+@  #04 @009   ----------------------------------------
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v108
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v112
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v116
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v120
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v124
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v127
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+@  #04 @010   ----------------------------------------
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v124
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v120
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v116
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v112
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v108
+ .byte   W06
+@  #04 @011   ----------------------------------------
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v104
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v100
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v096
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v092
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v088
+ .byte   W06
+@  #04 @012   ----------------------------------------
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v092
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v096
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v100
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v104
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v108
+ .byte   W06
+@  #04 @013   ----------------------------------------
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v112
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v116
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v120
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v124
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v127
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+@  #04 @014   ----------------------------------------
+ .byte   Cn4
+ .byte   W06
+ .byte   As4
+ .byte   W06
+ .byte   Fn4
+ .byte   W06
+ .byte   Ds4
+ .byte   W06
+ .byte   As3 ,v124
+ .byte   W06
+ .byte   As4
+ .byte   W06
+ .byte   Ds4 ,v120
+ .byte   W06
+ .byte   Cn5
+ .byte   W06
+ .byte   Fn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fn4
+ .byte   W06
+ .byte   Cn5 ,v116
+ .byte   W06
+ .byte   Fn4
+ .byte   W06
+ .byte   Bn4
+ .byte   W06
+ .byte   Gn4 ,v112
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+@  #04 @015   ----------------------------------------
+ .byte   Fn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v108
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v112
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v116
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v120
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+@  #04 @016   ----------------------------------------
+ .byte   Dn4 ,v124
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Ds4
+ .byte   W06
+ .byte   As4
+ .byte   W06
+ .byte   Ds4 ,v120
+ .byte   W06
+ .byte   An4
+ .byte   W06
+ .byte   Fn4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   Fn4
+ .byte   W06
+ .byte   Cn5 ,v116
+ .byte   W06
+ .byte   Fn4
+ .byte   W06
+ .byte   Bn4
+ .byte   W06
+ .byte   Gn4 ,v112
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   Fn4
+ .byte   W06
+ .byte   Cn5
+ .byte   W06
+@  #04 @017   ----------------------------------------
+ .byte   Fn4 ,v108
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v112
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v116
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v120
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v124
+ .byte   W06
+ .byte   An3
+ .byte   W06
+@  #04 @018   ----------------------------------------
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v127
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v124
+ .byte   W06
+ .byte   An3 ,v120
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v116
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v112
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v108
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v104
+ .byte   W06
+@  #04 @019   ----------------------------------------
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v100
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v104
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v108
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v112
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v116
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v120
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+@  #04 @020   ----------------------------------------
+ .byte   Cn4 ,v124
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v120
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v116
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v112
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v108
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v104
+ .byte   W06
+ .byte   An3
+ .byte   W06
+@  #04 @021   ----------------------------------------
+ .byte   Cn4 ,v100
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v096
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v092
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v088
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v084
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v080
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+@  #04 @022   ----------------------------------------
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v084
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v088
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v092
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v096
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+@  #04 @023   ----------------------------------------
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v100
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v104
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v108
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v112
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v116
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v120
+ .byte   W06
+@  #04 @024   ----------------------------------------
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v124
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v120
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v116
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v112
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v108
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v104
+ .byte   W06
+ .byte   Fs4 ,v100
+ .byte   W06
+@  #04 @025   ----------------------------------------
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v096
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v092
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v088
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v084
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v080
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v076
+ .byte   W06
+ .byte   Gn4 ,v072
+ .byte   W06
+@  #04 @026   ----------------------------------------
+ .byte   Cn4
+ .byte   W06
+ .byte   An3 ,v076
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v080
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v084
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v088
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v092
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v096
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+@  #04 @027   ----------------------------------------
+ .byte   Cn4 ,v100
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v104
+ .byte   W06
+ .byte   Cn4 ,v108
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v112
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v116
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v120
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v124
+ .byte   W06
+ .byte   An3
+ .byte   W06
+@  #04 @028   ----------------------------------------
+ .byte   Cn4 ,v127
+ .byte   W06
+ .byte   An3 ,v124
+ .byte   W06
+ .byte   Cn4 ,v120
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v116
+ .byte   W06
+ .byte   Dn4 ,v112
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v108
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v104
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v100
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+@  #04 @029   ----------------------------------------
+ .byte   Cn4 ,v096
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v100
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v104
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v108
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v112
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v116
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v120
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v124
+ .byte   W06
+ .byte   An3
+ .byte   W06
+@  #04 @030   ----------------------------------------
+ .byte   Cn4 ,v127
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v124
+ .byte   W06
+ .byte   Dn4 ,v120
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v116
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v112
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v108
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v104
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v100
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+@  #04 @031   ----------------------------------------
+ .byte   PATT
+  .word Label_01F91995
+@  #04 @032   ----------------------------------------
+ .byte   PATT
+  .word Label_01F919BF
+@  #04 @033   ----------------------------------------
+ .byte   PATT
+  .word Label_01F919E8
+@  #04 @034   ----------------------------------------
+ .byte   PATT
+  .word Label_01F91A12
+@  #04 @035   ----------------------------------------
+ .byte   PATT
+  .word Label_01F91A3A
+@  #04 @036   ----------------------------------------
+ .byte   GOTO
+  .word Label_01F91A63
+ .byte   FINE
+
+@**************** Track 5 (Midi-Chn.4) ****************@
+
+song01_005:
+@  #05 @000   ----------------------------------------
+ .byte   KEYSH , song01_key+0
+ .byte   MODT 0
+ .byte   LFOS 44
+ .byte   VOICE , 10
+ .byte   PAN , c_v-64
+ .byte   VOL , 7*song01_mvl/mxv
+ .byte   BEND , c_v+0
+ .byte   W12
+ .byte   N06 ,An3 ,v004
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v008
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v012
+ .byte   W06
+ .byte   An3 ,v016
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v020
+ .byte   W06
+ .byte   Cn4 ,v024
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v028
+ .byte   W06
+ .byte   An3 ,v032
+ .byte   W06
+ .byte   Cn4 ,v036
+ .byte   W06
+@  #05 @001   ----------------------------------------
+ .byte   Gn4 ,v040
+ .byte   W06
+ .byte   Cn4 ,v044
+ .byte   W06
+ .byte   Fs4 ,v048
+ .byte   W06
+ .byte   Dn4 ,v052
+ .byte   W06
+ .byte   An3 ,v056
+ .byte   W06
+ .byte   Cn4 ,v060
+ .byte   W06
+ .byte   Gn4 ,v064
+ .byte   W06
+ .byte   Cn4 ,v072
+ .byte   W06
+ .byte   Fs4 ,v076
+ .byte   W06
+ .byte   Dn4 ,v080
+ .byte   W06
+ .byte   An3 ,v084
+ .byte   W06
+ .byte   Cn4 ,v088
+ .byte   W06
+ .byte   Gn4 ,v096
+ .byte   W06
+ .byte   Cn4 ,v100
+ .byte   W06
+ .byte   Fs4 ,v108
+ .byte   W06
+ .byte   Dn4 ,v112
+ .byte   W06
+@  #05 @002   ----------------------------------------
+ .byte   An3 ,v120
+ .byte   W06
+ .byte   Cn4 ,v124
+ .byte   W06
+ .byte   Gn4 ,v127
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v124
+ .byte   W06
+ .byte   Dn4 ,v120
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v116
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v112
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v108
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v104
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v100
+ .byte   W06
+@  #05 @003   ----------------------------------------
+Label_01F91E7F:
+ .byte   N06 ,Fs4 ,v100
+ .byte   W06
+ .byte   Dn4 ,v096
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v092
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v088
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v084
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v080
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v076
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v072
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   PEND 
+@  #05 @004   ----------------------------------------
+Label_01F91EA9:
+ .byte   N06 ,Gn4 ,v068
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   An3 ,v072
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v076
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v080
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v084
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v088
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v092
+ .byte   W06
+ .byte   PEND 
+@  #05 @005   ----------------------------------------
+Label_01F91ED2:
+ .byte   N06 ,Gn4 ,v092
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v096
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v100
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v104
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v108
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v112
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v116
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v120
+ .byte   W06
+ .byte   PEND 
+@  #05 @006   ----------------------------------------
+Label_01F91EFC:
+ .byte   N06 ,An3 ,v120
+ .byte   W06
+ .byte   Cn4 ,v124
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v127
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v124
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v120
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v116
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v112
+ .byte   W06
+ .byte   PEND 
+@  #05 @007   ----------------------------------------
+Label_01F91F25:
+ .byte   N06 ,Fs4 ,v112
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v108
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v104
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v100
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v096
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v092
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   PEND 
+@  #05 @008   ----------------------------------------
+Label_01F91F4D:
+ .byte   N06 ,Gn4 ,v088
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v084
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v088
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v092
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v096
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v100
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+@  #05 @009   ----------------------------------------
+ .byte   An3 ,v104
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v108
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v112
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v116
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v120
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v124
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v127
+ .byte   W06
+@  #05 @010   ----------------------------------------
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v124
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v120
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v116
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v112
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+@  #05 @011   ----------------------------------------
+ .byte   Gn4 ,v108
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v104
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v100
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v096
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v092
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+@  #05 @012   ----------------------------------------
+ .byte   An3 ,v088
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v092
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v096
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v100
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v104
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+@  #05 @013   ----------------------------------------
+ .byte   Fs4 ,v108
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v112
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v116
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v120
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v124
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v127
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+@  #05 @014   ----------------------------------------
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   As4
+ .byte   W06
+ .byte   Fn4
+ .byte   W06
+ .byte   Ds4
+ .byte   W06
+ .byte   As3 ,v124
+ .byte   W06
+ .byte   As4
+ .byte   W06
+ .byte   Ds4 ,v120
+ .byte   W06
+ .byte   Cn5
+ .byte   W06
+ .byte   Fn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fn4
+ .byte   W06
+ .byte   Cn5 ,v116
+ .byte   W06
+ .byte   Fn4
+ .byte   W06
+ .byte   Bn4
+ .byte   W06
+ .byte   Gn4 ,v112
+ .byte   W06
+@  #05 @015   ----------------------------------------
+ .byte   Dn4
+ .byte   W06
+ .byte   Fn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v108
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v112
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v116
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v120
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+@  #05 @016   ----------------------------------------
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v124
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Ds4
+ .byte   W06
+ .byte   As4
+ .byte   W06
+ .byte   Ds4 ,v120
+ .byte   W06
+ .byte   An4
+ .byte   W06
+ .byte   Fn4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   Fn4
+ .byte   W06
+ .byte   Cn5 ,v116
+ .byte   W06
+ .byte   Fn4
+ .byte   W06
+ .byte   Bn4
+ .byte   W06
+ .byte   Gn4 ,v112
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   Fn4
+ .byte   W06
+@  #05 @017   ----------------------------------------
+ .byte   Cn5
+ .byte   W06
+ .byte   Fn4 ,v108
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v112
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v116
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v120
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v124
+ .byte   W06
+@  #05 @018   ----------------------------------------
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v127
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v124
+ .byte   W06
+ .byte   An3 ,v120
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v116
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v112
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v108
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+@  #05 @019   ----------------------------------------
+ .byte   Fs4 ,v104
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v100
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v104
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v108
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v112
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v116
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v120
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+@  #05 @020   ----------------------------------------
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v124
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v120
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v116
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v112
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v108
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v104
+ .byte   W06
+@  #05 @021   ----------------------------------------
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v100
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v096
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v092
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v088
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v084
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v080
+ .byte   W06
+@  #05 @022   ----------------------------------------
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v084
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v088
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v092
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v096
+ .byte   W06
+@  #05 @023   ----------------------------------------
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v100
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v104
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v108
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v112
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v116
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+@  #05 @024   ----------------------------------------
+ .byte   An3 ,v120
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v124
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v120
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v116
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v112
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v108
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v104
+ .byte   W06
+@  #05 @025   ----------------------------------------
+ .byte   Fs4 ,v100
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v096
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v092
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v088
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v084
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v080
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v076
+ .byte   W06
+@  #05 @026   ----------------------------------------
+ .byte   Gn4 ,v072
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   An3 ,v076
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v080
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v084
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v088
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v092
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v096
+ .byte   W06
+@  #05 @027   ----------------------------------------
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v100
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v104
+ .byte   W06
+ .byte   Cn4 ,v108
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v112
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v116
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v120
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v124
+ .byte   W06
+@  #05 @028   ----------------------------------------
+ .byte   An3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   An3 ,v120
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v116
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v112
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v108
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v104
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+@  #05 @029   ----------------------------------------
+ .byte   Gn4 ,v100
+ .byte   W06
+ .byte   Cn4 ,v104
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v108
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v112
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   An3 ,v116
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v120
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+@  #05 @030   ----------------------------------------
+ .byte   An3 ,v124
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Gn4 ,v127
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Fs4 ,v124
+ .byte   W06
+ .byte   Dn4 ,v120
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v116
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v112
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   Dn4 ,v108
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Cn4 ,v104
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   Cn4 ,v100
+ .byte   W06
+@  #05 @031   ----------------------------------------
+ .byte   PATT
+  .word Label_01F91E7F
+@  #05 @032   ----------------------------------------
+ .byte   PATT
+  .word Label_01F91EA9
+@  #05 @033   ----------------------------------------
+ .byte   PATT
+  .word Label_01F91ED2
+@  #05 @034   ----------------------------------------
+ .byte   PATT
+  .word Label_01F91EFC
+@  #05 @035   ----------------------------------------
+ .byte   PATT
+  .word Label_01F91F25
+@  #05 @036   ----------------------------------------
+ .byte   GOTO
+  .word Label_01F91F4D
+ .byte   FINE
+
+@**************** Track 6 (Midi-Chn.5) ****************@
+
+song01_006:
+@  #06 @000   ----------------------------------------
+ .byte   KEYSH , song01_key+0
+ .byte   MODT 0
+ .byte   LFOS 44
+Label_3AE48A:
+ .byte   VOICE , 61
+ .byte   PAN , c_v+0
+ .byte   VOL , 49*song01_mvl/mxv
+ .byte   BEND , c_v+0
+ .byte   W96
+ .byte   PEND 
+@  #06 @001   ----------------------------------------
+ .byte   W96
+@  #06 @002   ----------------------------------------
+ .byte   W96
+@  #06 @003   ----------------------------------------
+ .byte   W96
+@  #06 @004   ----------------------------------------
+ .byte   W96
+@  #06 @005   ----------------------------------------
+ .byte   W96
+@  #06 @006   ----------------------------------------
+ .byte   W96
+@  #06 @007   ----------------------------------------
+ .byte   W96
+@  #06 @008   ----------------------------------------
+Label_3AE49B:
+ .byte   W96
+@  #06 @009   ----------------------------------------
+ .byte   W96
+@  #06 @010   ----------------------------------------
+ .byte   W96
+@  #06 @011   ----------------------------------------
+ .byte   W96
+@  #06 @012   ----------------------------------------
+ .byte   W96
+@  #06 @013   ----------------------------------------
+ .byte   W96
+@  #06 @014   ----------------------------------------
+ .byte   W96
+@  #06 @015   ----------------------------------------
+ .byte   PATT
+  .word Label_3AE48A
+@  #06 @016   ----------------------------------------
+ .byte   N06 ,As3 ,v127
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   N15 ,Dn4
+ .byte   W18
+ .byte   N06
+ .byte   W06
+ .byte   En4
+ .byte   W06
+ .byte   N30 ,Fn4
+ .byte   W36
+ .byte   N06
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   N78 ,An4
+ .byte   W06
+@  #06 @017   ----------------------------------------
+ .byte   W96
+@  #06 @018   ----------------------------------------
+Label_3AE4BF:
+ .byte   N54 ,En4 ,v127
+ .byte   W54
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   N12 ,Bn3
+ .byte   W12
+ .byte   N06
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   PEND 
+@  #06 @019   ----------------------------------------
+Label_3AE4D2:
+ .byte   N48 ,Gn3 ,v127
+ .byte   W48
+ .byte   N06
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Bn3
+ .byte   W06
+ .byte   N12
+ .byte   W12
+ .byte   N06 ,Cn4
+ .byte   W06
+ .byte   Gn3
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   PEND 
+@  #06 @020   ----------------------------------------
+ .byte   TIE ,En3
+ .byte   W96
+@  #06 @021   ----------------------------------------
+ .byte   W72
+ .byte   EOT
+ .byte   W24
+@  #06 @022   ----------------------------------------
+ .byte   PATT
+  .word Label_3AE4BF
+@  #06 @023   ----------------------------------------
+ .byte   PATT
+  .word Label_3AE4D2
+@  #06 @024   ----------------------------------------
+Label_3AE4F6:
+ .byte   N06 ,Bn3 ,v127
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   N12 ,En4
+ .byte   W12
+ .byte   N06
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   N12 ,Gn4
+ .byte   W12
+ .byte   N06 ,An4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   N12 ,Gn4
+ .byte   W12
+ .byte   N06
+ .byte   W06
+ .byte   An4
+ .byte   W06
+ .byte   N78 ,Bn4
+ .byte   W06
+ .byte   PEND 
+@  #06 @025   ----------------------------------------
+ .byte   W96
+@  #06 @026   ----------------------------------------
+ .byte   PATT
+  .word Label_3AE4F6
+@  #06 @027   ----------------------------------------
+ .byte   W96
+@  #06 @028   ----------------------------------------
+ .byte   W96
+@  #06 @029   ----------------------------------------
+ .byte   W96
+@  #06 @030   ----------------------------------------
+ .byte   W96
+@  #06 @031   ----------------------------------------
+ .byte   W96
+@  #06 @032   ----------------------------------------
+ .byte   W96
+@  #06 @033   ----------------------------------------
+ .byte   W96
+@  #06 @034   ----------------------------------------
+ .byte   W96
+@  #06 @035   ----------------------------------------
+ .byte   W96
+@  #06 @036   ----------------------------------------
+ .byte   GOTO
+  .word Label_3AE49B
+ .byte   FINE
+
+@**************** Track 7 (Midi-Chn.6) ****************@
+
+song01_007:
+@  #07 @000   ----------------------------------------
+ .byte   KEYSH , song01_key+0
+ .byte   MODT 0
+ .byte   LFOS 44
+ .byte   VOICE , 48
+ .byte   PAN , c_v-34
+ .byte   VOL , 22*song01_mvl/mxv
+ .byte   BEND , c_v+0
+ .byte   W03
+ .byte   VOL , 22*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+@  #07 @001   ----------------------------------------
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W03
+@  #07 @002   ----------------------------------------
+ .byte   N96 ,En3 ,v096
+ .byte   W01
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 41*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 41*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+@  #07 @003   ----------------------------------------
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   N96 ,Dn3
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+@  #07 @004   ----------------------------------------
+ .byte   VOICE , 48
+ .byte   PAN , c_v-34
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   BEND , c_v+0
+ .byte   N96 ,Gn2
+ .byte   W01
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 41*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 41*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W02
+@  #07 @005   ----------------------------------------
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   N96 ,Dn3
+ .byte   W01
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W02
+@  #07 @006   ----------------------------------------
+Label_01F8FA5E:
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   N96 ,En3 ,v096
+ .byte   W01
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W02
+ .byte   PEND 
+@  #07 @007   ----------------------------------------
+Label_01F8FB07:
+ .byte   VOL , 41*song01_mvl/mxv
+ .byte   N96 ,Fs3 ,v096
+ .byte   W06
+ .byte   VOL , 41*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W03
+ .byte   PEND 
+@  #07 @008   ----------------------------------------
+Label_01F8FB65:
+ .byte   W96
+@  #07 @009   ----------------------------------------
+ .byte   W96
+@  #07 @010   ----------------------------------------
+ .byte   W96
+@  #07 @011   ----------------------------------------
+ .byte   W96
+@  #07 @012   ----------------------------------------
+ .byte   W96
+@  #07 @013   ----------------------------------------
+ .byte   W96
+@  #07 @014   ----------------------------------------
+ .byte   W96
+@  #07 @015   ----------------------------------------
+ .byte   VOICE , 61
+ .byte   PAN , c_v+63
+ .byte   VOL , 13*song01_mvl/mxv
+ .byte   BEND , c_v+0
+ .byte   W96
+@  #07 @016   ----------------------------------------
+ .byte   W12
+ .byte   N06 ,As3 ,v127
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   N15 ,Dn4
+ .byte   W18
+ .byte   N06
+ .byte   W06
+ .byte   En4
+ .byte   W06
+ .byte   N30 ,Fn4
+ .byte   W36
+ .byte   N06
+ .byte   W06
+@  #07 @017   ----------------------------------------
+ .byte   Gn4
+ .byte   W06
+ .byte   N78 ,An4
+ .byte   W90
+@  #07 @018   ----------------------------------------
+Label_01F8FB8D:
+ .byte   W12
+ .byte   N54 ,En4 ,v127
+ .byte   W54
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   N12 ,Bn3
+ .byte   W12
+ .byte   N06
+ .byte   W06
+ .byte   PEND 
+@  #07 @019   ----------------------------------------
+Label_01F8FB9D:
+ .byte   N06 ,Cn4 ,v127
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   N48 ,Gn3
+ .byte   W48
+ .byte   N06
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Bn3
+ .byte   W06
+ .byte   N12
+ .byte   W12
+ .byte   N06 ,Cn4
+ .byte   W06
+ .byte   PEND 
+@  #07 @020   ----------------------------------------
+ .byte   Gn3
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   TIE ,En3
+ .byte   W84
+@  #07 @021   ----------------------------------------
+ .byte   W84
+ .byte   EOT
+ .byte   W12
+@  #07 @022   ----------------------------------------
+ .byte   PATT
+  .word Label_01F8FB8D
+@  #07 @023   ----------------------------------------
+ .byte   PATT
+  .word Label_01F8FB9D
+@  #07 @024   ----------------------------------------
+ .byte   N06 ,Gn3 ,v127
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Bn3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   N12 ,En4
+ .byte   W12
+ .byte   N06
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   N12 ,Gn4
+ .byte   W12
+ .byte   N06 ,An4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   N12 ,Gn4
+ .byte   W12
+ .byte   N06
+ .byte   W06
+@  #07 @025   ----------------------------------------
+Label_01F8FBE6:
+ .byte   N06 ,An4 ,v127
+ .byte   W06
+ .byte   N78 ,Bn4
+ .byte   W90
+ .byte   PEND 
+@  #07 @026   ----------------------------------------
+ .byte   W12
+ .byte   N06 ,Bn3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   N12 ,En4
+ .byte   W12
+ .byte   N06
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   N12 ,Gn4
+ .byte   W12
+ .byte   N06 ,An4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   N12 ,Gn4
+ .byte   W12
+ .byte   N06
+ .byte   W06
+@  #07 @027   ----------------------------------------
+ .byte   PATT
+  .word Label_01F8FBE6
+@  #07 @028   ----------------------------------------
+ .byte   VOICE , 48
+ .byte   PAN , c_v-34
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   BEND , c_v+0
+ .byte   W03
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 41*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+@  #07 @029   ----------------------------------------
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 18*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 18*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 19*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 19*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 19*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 19*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 20*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 20*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 21*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 22*song01_mvl/mxv
+ .byte   W02
+ .byte   N48 ,Dn3 ,v096
+ .byte   W01
+ .byte   VOL , 22*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 22*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 22*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W05
+@  #07 @030   ----------------------------------------
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   N96 ,En3
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 41*song01_mvl/mxv
+ .byte   W06
+@  #07 @031   ----------------------------------------
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   N96 ,Dn3
+ .byte   W03
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W03
+@  #07 @032   ----------------------------------------
+ .byte   VOICE , 48
+ .byte   PAN , c_v-34
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   BEND , c_v+0
+ .byte   N96 ,Gn2
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W02
+@  #07 @033   ----------------------------------------
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   N96 ,Dn3
+ .byte   W01
+ .byte   VOL , 41*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 41*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 41*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W02
+@  #07 @034   ----------------------------------------
+ .byte   PATT
+  .word Label_01F8FA5E
+@  #07 @035   ----------------------------------------
+ .byte   PATT
+  .word Label_01F8FB07
+@  #07 @036   ----------------------------------------
+ .byte   GOTO
+  .word Label_01F8FB65
+ .byte   FINE
+
+@**************** Track 8 (Midi-Chn.7) ****************@
+
+song01_008:
+@  #08 @000   ----------------------------------------
+ .byte   KEYSH , song01_key+0
+ .byte   MODT 0
+ .byte   LFOS 44
+ .byte   VOICE , 48
+ .byte   PAN , c_v+36
+ .byte   VOL , 41*song01_mvl/mxv
+ .byte   BEND , c_v+0
+ .byte   W90
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W02
+@  #08 @001   ----------------------------------------
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   N96 ,Dn2 ,v096
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W03
+@  #08 @002   ----------------------------------------
+ .byte   N96 ,Cn2
+ .byte   W01
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+@  #08 @003   ----------------------------------------
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   N96 ,Dn1
+ .byte   W03
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+@  #08 @004   ----------------------------------------
+ .byte   VOICE , 48
+ .byte   PAN , c_v+36
+ .byte   VOL , 41*song01_mvl/mxv
+ .byte   BEND , c_v+0
+ .byte   N96 ,Gn1
+ .byte   W01
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W02
+@  #08 @005   ----------------------------------------
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   N96 ,An1
+ .byte   W01
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W02
+@  #08 @006   ----------------------------------------
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   N96 ,Cn2
+ .byte   W01
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W02
+@  #08 @007   ----------------------------------------
+ .byte   VOL , 41*song01_mvl/mxv
+ .byte   N96 ,Dn2
+ .byte   W06
+ .byte   VOL , 41*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W03
+@  #08 @008   ----------------------------------------
+Label_01F902BD:
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W96
+@  #08 @009   ----------------------------------------
+ .byte   W96
+@  #08 @010   ----------------------------------------
+ .byte   W96
+@  #08 @011   ----------------------------------------
+ .byte   W96
+@  #08 @012   ----------------------------------------
+ .byte   W96
+@  #08 @013   ----------------------------------------
+ .byte   W96
+@  #08 @014   ----------------------------------------
+ .byte   W96
+@  #08 @015   ----------------------------------------
+ .byte   VOICE , 61
+ .byte   PAN , c_v-64
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   BEND , c_v+0
+ .byte   W96
+@  #08 @016   ----------------------------------------
+ .byte   W24
+ .byte   N06 ,As3 ,v127
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   N15 ,Dn4
+ .byte   W18
+ .byte   N06
+ .byte   W06
+ .byte   En4
+ .byte   W06
+ .byte   N30 ,Fn4
+ .byte   W30
+@  #08 @017   ----------------------------------------
+ .byte   W06
+ .byte   N06
+ .byte   W06
+ .byte   Gn4
+ .byte   W06
+ .byte   N78 ,An4
+ .byte   W78
+@  #08 @018   ----------------------------------------
+Label_01F902E8:
+ .byte   W24
+ .byte   N54 ,En4 ,v127
+ .byte   W54
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   N12 ,Bn3
+ .byte   W06
+ .byte   PEND 
+@  #08 @019   ----------------------------------------
+Label_01F902F6:
+ .byte   W06
+ .byte   N06 ,Bn3 ,v127
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   N48 ,Gn3
+ .byte   W48
+ .byte   N06
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Bn3
+ .byte   W06
+ .byte   N12
+ .byte   W06
+ .byte   PEND 
+@  #08 @020   ----------------------------------------
+ .byte   W06
+ .byte   N06 ,Cn4
+ .byte   W06
+ .byte   Gn3
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   TIE ,En3
+ .byte   W72
+@  #08 @021   ----------------------------------------
+ .byte   W96
+@  #08 @022   ----------------------------------------
+ .byte   EOT
+@  #08 @023   ----------------------------------------
+ .byte   PATT
+  .word Label_01F902E8
+@  #08 @024   ----------------------------------------
+ .byte   PATT
+  .word Label_01F902F6
+@  #08 @025   ----------------------------------------
+ .byte   W06
+ .byte   N06 ,Cn4 ,v127
+ .byte   W06
+ .byte   Gn3
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Bn3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   N12 ,En4
+ .byte   W12
+ .byte   N06
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   N12 ,Gn4
+ .byte   W12
+ .byte   N06 ,An4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   N12 ,Gn4
+ .byte   W06
+@  #08 @026   ----------------------------------------
+Label_01F90343:
+ .byte   W06
+ .byte   N06 ,Gn4 ,v127
+ .byte   W06
+ .byte   An4
+ .byte   W06
+ .byte   N78 ,Bn4
+ .byte   W78
+ .byte   PEND 
+@  #08 @027   ----------------------------------------
+ .byte   W24
+ .byte   N06 ,Bn3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   N12 ,En4
+ .byte   W12
+ .byte   N06
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   N12 ,Gn4
+ .byte   W12
+ .byte   N06 ,An4
+ .byte   W06
+ .byte   Fs4
+ .byte   W06
+ .byte   N12 ,Gn4
+ .byte   W06
+@  #08 @028   ----------------------------------------
+ .byte   PATT
+  .word Label_01F90343
+@  #08 @029   ----------------------------------------
+ .byte   VOICE , 48
+ .byte   PAN , c_v+36
+ .byte   VOL , 22*song01_mvl/mxv
+ .byte   BEND , c_v+0
+ .byte   W01
+ .byte   VOL , 14*song01_mvl/mxv
+ .byte   N44 ,An2 ,v096
+ .byte   W03
+ .byte   VOL , 15*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 15*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 15*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 16*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 17*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 17*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 17*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 17*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 18*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 18*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 19*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 19*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 19*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 19*song01_mvl/mxv
+ .byte   N48 ,Gn2
+ .byte   W03
+ .byte   VOL , 20*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 20*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 21*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 22*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 22*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 22*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 22*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W02
+@  #08 @030   ----------------------------------------
+ .byte   N96 ,Dn2
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W06
+@  #08 @031   ----------------------------------------
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   N96 ,Cn2
+ .byte   W06
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W06
+@  #08 @032   ----------------------------------------
+ .byte   VOL , 41*song01_mvl/mxv
+ .byte   N96 ,Dn1
+ .byte   W12
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W06
+@  #08 @033   ----------------------------------------
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   N96 ,Gn1
+ .byte   W06
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W06
+@  #08 @034   ----------------------------------------
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   N96 ,An1
+ .byte   W06
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W06
+@  #08 @035   ----------------------------------------
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   N96 ,Cn2
+ .byte   W06
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W06
+@  #08 @036   ----------------------------------------
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   N96 ,Dn2
+ .byte   W06
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W06
+@  #08 @037   ----------------------------------------
+ .byte   GOTO
+  .word Label_01F902BD
+ .byte   FINE
+
+@**************** Track 9 (Midi-Chn.8) ****************@
+
+song01_009:
+@  #09 @000   ----------------------------------------
+ .byte   KEYSH , song01_key+0
+ .byte   MODT 0
+ .byte   LFOS 44
+ .byte   VOICE , 48
+ .byte   PAN , c_v+0
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   BEND , c_v+0
+ .byte   W96
+@  #09 @001   ----------------------------------------
+ .byte   W96
+@  #09 @002   ----------------------------------------
+ .byte   W96
+@  #09 @003   ----------------------------------------
+ .byte   W96
+@  #09 @004   ----------------------------------------
+ .byte   W96
+@  #09 @005   ----------------------------------------
+ .byte   W96
+@  #09 @006   ----------------------------------------
+ .byte   W96
+@  #09 @007   ----------------------------------------
+ .byte   W96
+@  #09 @008   ----------------------------------------
+Label_1D8A32:
+ .byte   N04 ,Fs3 ,v127
+ .byte   W06
+ .byte   N04
+ .byte   W06
+ .byte   N04
+ .byte   W06
+ .byte   En3
+ .byte   W06
+ .byte   En3 ,v060
+ .byte   W06
+ .byte   En3 ,v048
+ .byte   W06
+ .byte   En3 ,v036
+ .byte   W06
+ .byte   En3 ,v032
+ .byte   W54
+ .byte   PEND 
+@  #09 @009   ----------------------------------------
+Label_1D8A49:
+ .byte   N04 ,Gn3 ,v127
+ .byte   W06
+ .byte   N04
+ .byte   W06
+ .byte   N04
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   An3 ,v060
+ .byte   W06
+ .byte   An3 ,v048
+ .byte   W06
+ .byte   An3 ,v036
+ .byte   W06
+ .byte   An3 ,v032
+ .byte   W54
+ .byte   PEND 
+@  #09 @010   ----------------------------------------
+ .byte   PATT
+  .word Label_1D8A32
+@  #09 @011   ----------------------------------------
+ .byte   PATT
+  .word Label_1D8A49
+@  #09 @012   ----------------------------------------
+ .byte   PATT
+  .word Label_1D8A32
+@  #09 @013   ----------------------------------------
+ .byte   PATT
+  .word Label_1D8A49
+@  #09 @014   ----------------------------------------
+Label_1D8A74:
+ .byte   N04 ,Gn3 ,v127
+ .byte   W06
+ .byte   N04
+ .byte   W06
+ .byte   N04
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   An3 ,v060
+ .byte   W06
+ .byte   An3 ,v048
+ .byte   W06
+ .byte   Cn4 ,v127
+ .byte   W06
+ .byte   N04
+ .byte   W06
+ .byte   N04
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+ .byte   Dn4 ,v060
+ .byte   W06
+ .byte   Dn4 ,v048
+ .byte   W06
+ .byte   Dn4 ,v036
+ .byte   W06
+ .byte   Dn4 ,v032
+ .byte   W18
+ .byte   PEND 
+@  #09 @015   ----------------------------------------
+ .byte   W96
+@  #09 @016   ----------------------------------------
+ .byte   PATT
+  .word Label_1D8A74
+@  #09 @017   ----------------------------------------
+ .byte   W96
+@  #09 @018   ----------------------------------------
+Label_1D8AA1:
+ .byte   N06 ,Dn4 ,v127
+ .byte   W06
+ .byte   Dn4 ,v036
+ .byte   W06
+ .byte   Dn4 ,v028
+ .byte   W06
+ .byte   Cn4 ,v127
+ .byte   W06
+ .byte   Cn4 ,v036
+ .byte   W06
+ .byte   Cn4 ,v028
+ .byte   W06
+ .byte   Dn4 ,v127
+ .byte   W06
+ .byte   Dn4 ,v036
+ .byte   W06
+ .byte   Dn4 ,v028
+ .byte   W06
+ .byte   Cn4 ,v127
+ .byte   W06
+ .byte   Cn4 ,v036
+ .byte   W06
+ .byte   Cn4 ,v028
+ .byte   W06
+ .byte   N18 ,Bn3 ,v127
+ .byte   W18
+ .byte   N06 ,Bn3 ,v036
+ .byte   W06
+ .byte   PEND 
+@  #09 @019   ----------------------------------------
+ .byte   PATT
+  .word Label_1D8AA1
+@  #09 @020   ----------------------------------------
+Label_1D8AD4:
+ .byte   N06 ,Dn4 ,v127
+ .byte   W18
+ .byte   Cn4
+ .byte   W18
+ .byte   Dn4
+ .byte   W18
+ .byte   Cn4
+ .byte   W18
+ .byte   N18 ,Bn3
+ .byte   W24
+ .byte   PEND 
+@  #09 @021   ----------------------------------------
+ .byte   N06 ,Dn4
+ .byte   W18
+ .byte   Cn4
+ .byte   W18
+ .byte   Dn4
+ .byte   W18
+ .byte   Cn4
+ .byte   W18
+ .byte   N18 ,Gn4
+ .byte   W24
+@  #09 @022   ----------------------------------------
+ .byte   PATT
+  .word Label_1D8AD4
+@  #09 @023   ----------------------------------------
+ .byte   PATT
+  .word Label_1D8AD4
+@  #09 @024   ----------------------------------------
+Label_1D8AF8:
+ .byte   N06 ,En4 ,v127
+ .byte   W18
+ .byte   N06
+ .byte   W18
+ .byte   Dn4
+ .byte   W18
+ .byte   N06
+ .byte   W18
+ .byte   N18
+ .byte   W24
+ .byte   PEND 
+@  #09 @025   ----------------------------------------
+Label_1D8B05:
+ .byte   N06 ,Dn4 ,v127
+ .byte   W18
+ .byte   N06
+ .byte   W18
+ .byte   N06
+ .byte   W18
+ .byte   N06
+ .byte   W18
+ .byte   N18 ,Cn4
+ .byte   W24
+ .byte   PEND 
+@  #09 @026   ----------------------------------------
+ .byte   PATT
+  .word Label_1D8AF8
+@  #09 @027   ----------------------------------------
+ .byte   PATT
+  .word Label_1D8B05
+@  #09 @028   ----------------------------------------
+ .byte   W96
+@  #09 @029   ----------------------------------------
+ .byte   W96
+@  #09 @030   ----------------------------------------
+ .byte   W96
+@  #09 @031   ----------------------------------------
+ .byte   W96
+@  #09 @032   ----------------------------------------
+ .byte   W96
+@  #09 @033   ----------------------------------------
+ .byte   W96
+@  #09 @034   ----------------------------------------
+ .byte   W96
+@  #09 @035   ----------------------------------------
+ .byte   W96
+@  #09 @036   ----------------------------------------
+ .byte   GOTO
+  .word Label_1D8A32
+ .byte   FINE
+
+@**************** Track 10 (Midi-Chn.9) ****************@
+
+song01_010:
+@  #10 @000   ----------------------------------------
+ .byte   KEYSH , song01_key+0
+ .byte   MODT 0
+ .byte   LFOS 44
+ .byte   VOICE , 40
+ .byte   PAN , c_v+0
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   BEND , c_v+0
+ .byte   W96
+@  #10 @001   ----------------------------------------
+ .byte   W96
+@  #10 @002   ----------------------------------------
+ .byte   W96
+@  #10 @003   ----------------------------------------
+ .byte   W96
+@  #10 @004   ----------------------------------------
+ .byte   W96
+@  #10 @005   ----------------------------------------
+ .byte   W96
+@  #10 @006   ----------------------------------------
+ .byte   W96
+@  #10 @007   ----------------------------------------
+ .byte   W96
+@  #10 @008   ----------------------------------------
+Label_01904812:
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   N54 ,En4 ,v127
+ .byte   W06
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W17
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   N12 ,Bn3
+ .byte   W12
+ .byte   N06
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+@  #10 @009   ----------------------------------------
+Label_01904850:
+ .byte   N48 ,Gn3 ,v127
+ .byte   W48
+ .byte   N06
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Bn3
+ .byte   W06
+ .byte   N12
+ .byte   W12
+ .byte   N06 ,Cn4
+ .byte   W06
+ .byte   Gn3
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   PEND 
+@  #10 @010   ----------------------------------------
+ .byte   TIE ,En3
+ .byte   W06
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W32
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W13
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W09
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W09
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W08
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W09
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+@  #10 @011   ----------------------------------------
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W08
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W09
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 22*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 22*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 22*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 22*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 21*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 21*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 20*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 20*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 20*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 19*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 19*song01_mvl/mxv
+ .byte   W02
+ .byte   EOT
+ .byte   VOL , 19*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 18*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 18*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 17*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 17*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 16*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 15*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 15*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 14*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 14*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 13*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 13*song01_mvl/mxv
+ .byte   W08
+@  #10 @012   ----------------------------------------
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   N54 ,En4
+ .byte   W07
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W08
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W14
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   N12 ,Bn3
+ .byte   W12
+ .byte   N06
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   Dn4
+ .byte   W06
+@  #10 @013   ----------------------------------------
+ .byte   PATT
+  .word Label_01904850
+@  #10 @014   ----------------------------------------
+ .byte   N06 ,As3 ,v127
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   N15 ,Dn4
+ .byte   W18
+ .byte   N06
+ .byte   W06
+ .byte   En4
+ .byte   W06
+ .byte   N32 ,Fn4
+ .byte   W01
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W20
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   N06
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   N06 ,Gn4
+ .byte   W01
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W05
+ .byte   N96 ,An4
+ .byte   W01
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+@  #10 @015   ----------------------------------------
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 22*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 22*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 22*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 21*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 21*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 20*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 20*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 20*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 19*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 19*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 19*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 18*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 18*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 17*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 17*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 17*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 16*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 15*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 15*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 14*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 13*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 13*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 13*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 12*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 8*song01_mvl/mxv
+ .byte   W08
+@  #10 @016   ----------------------------------------
+ .byte   W96
+@  #10 @017   ----------------------------------------
+ .byte   W96
+@  #10 @018   ----------------------------------------
+ .byte   W96
+@  #10 @019   ----------------------------------------
+ .byte   W96
+@  #10 @020   ----------------------------------------
+ .byte   W96
+@  #10 @021   ----------------------------------------
+ .byte   W96
+@  #10 @022   ----------------------------------------
+ .byte   W96
+@  #10 @023   ----------------------------------------
+ .byte   VOICE , 68
+ .byte   PAN , c_v-34
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   BEND , c_v+0
+ .byte   W96
+@  #10 @024   ----------------------------------------
+Label_019049E9:
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   N06 ,Gn2 ,v127
+ .byte   W06
+ .byte   An2
+ .byte   W06
+ .byte   Bn2
+ .byte   W06
+ .byte   N12 ,Cn3
+ .byte   W12
+ .byte   N06
+ .byte   W06
+ .byte   Dn3
+ .byte   W06
+ .byte   N12 ,En3
+ .byte   W12
+ .byte   N06 ,Fs3
+ .byte   W06
+ .byte   Dn3
+ .byte   W06
+ .byte   N12 ,En3
+ .byte   W12
+ .byte   N06
+ .byte   W06
+ .byte   Fs3
+ .byte   W06
+ .byte   N90 ,Gn3
+ .byte   W06
+ .byte   PEND 
+@  #10 @025   ----------------------------------------
+ .byte   W42
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 22*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 20*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 18*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 16*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 14*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 9*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 6*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 4*song01_mvl/mxv
+ .byte   W12
+@  #10 @026   ----------------------------------------
+ .byte   PATT
+  .word Label_019049E9
+@  #10 @027   ----------------------------------------
+ .byte   W40
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 22*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 22*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 20*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 20*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 19*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 18*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 18*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 17*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 15*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 14*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 13*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 12*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 8*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 7*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 6*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 5*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 4*song01_mvl/mxv
+ .byte   W06
+@  #10 @028   ----------------------------------------
+ .byte   W96
+@  #10 @029   ----------------------------------------
+ .byte   W96
+@  #10 @030   ----------------------------------------
+ .byte   W96
+@  #10 @031   ----------------------------------------
+ .byte   W96
+@  #10 @032   ----------------------------------------
+ .byte   VOICE , 40
+ .byte   PAN , c_v+0
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   BEND , c_v+0
+ .byte   W96
+@  #10 @033   ----------------------------------------
+ .byte   W96
+@  #10 @034   ----------------------------------------
+ .byte   W96
+@  #10 @035   ----------------------------------------
+ .byte   W96
+@  #10 @036   ----------------------------------------
+ .byte   GOTO
+  .word Label_01904812
+ .byte   FINE
+
+@**************** Track 11 (Midi-Chn.10) ****************@
+
+song01_011:
+@  #11 @000   ----------------------------------------
+ .byte   KEYSH , song01_key+0
+ .byte   MODT 0
+ .byte   LFOS 44
+ .byte   VOICE , 40
+ .byte   PAN , c_v+0
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   BEND , c_v+0
+ .byte   W96
+@  #11 @001   ----------------------------------------
+ .byte   W96
+@  #11 @002   ----------------------------------------
+ .byte   W96
+@  #11 @003   ----------------------------------------
+ .byte   W96
+@  #11 @004   ----------------------------------------
+ .byte   W96
+@  #11 @005   ----------------------------------------
+ .byte   W96
+@  #11 @006   ----------------------------------------
+ .byte   W96
+@  #11 @007   ----------------------------------------
+ .byte   W96
+@  #11 @008   ----------------------------------------
+Label_01F9055E:
+ .byte   W08
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   N54 ,En4 ,v127
+ .byte   W06
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 12*song01_mvl/mxv
+ .byte   W17
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   N12 ,Bn3
+ .byte   W12
+ .byte   N06
+ .byte   W06
+ .byte   Cn4
+ .byte   W04
+@  #11 @009   ----------------------------------------
+Label_01F9059B:
+ .byte   W02
+ .byte   N06 ,Dn4 ,v127
+ .byte   W06
+ .byte   N48 ,Gn3
+ .byte   W48
+ .byte   N06
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   Bn3
+ .byte   W06
+ .byte   N12
+ .byte   W12
+ .byte   N06 ,Cn4
+ .byte   W06
+ .byte   Gn3
+ .byte   W04
+ .byte   PEND 
+@  #11 @010   ----------------------------------------
+ .byte   W02
+ .byte   An3
+ .byte   W06
+ .byte   TIE ,En3
+ .byte   W06
+ .byte   VOL , 12*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 12*song01_mvl/mxv
+ .byte   W32
+ .byte   VOL , 12*song01_mvl/mxv
+ .byte   W13
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W09
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W09
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W08
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W09
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W01
+@  #11 @011   ----------------------------------------
+ .byte   W05
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W08
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W09
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 9*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 9*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 9*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 9*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 8*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 8*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 8*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 8*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 8*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 8*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 8*song01_mvl/mxv
+ .byte   W02
+ .byte   EOT
+ .byte   VOL , 7*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 7*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 6*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 6*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 6*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 6*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 6*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 6*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 6*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 5*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 5*song01_mvl/mxv
+ .byte   W01
+@  #11 @012   ----------------------------------------
+ .byte   VOL , 5*song01_mvl/mxv
+ .byte   W08
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   N54 ,En4
+ .byte   W07
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W08
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 12*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 12*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 12*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 13*song01_mvl/mxv
+ .byte   W14
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   N12 ,Bn3
+ .byte   W12
+ .byte   N06
+ .byte   W06
+ .byte   Cn4
+ .byte   W04
+@  #11 @013   ----------------------------------------
+ .byte   PATT
+  .word Label_01F9059B
+@  #11 @014   ----------------------------------------
+ .byte   W02
+ .byte   N06 ,An3 ,v127
+ .byte   W06
+ .byte   As3
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+ .byte   N15 ,Dn4
+ .byte   W18
+ .byte   N06
+ .byte   W06
+ .byte   En4
+ .byte   W06
+ .byte   N32 ,Fn4
+ .byte   W01
+ .byte   VOL , 12*song01_mvl/mxv
+ .byte   W20
+ .byte   VOL , 12*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 12*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   N06
+ .byte   W03
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W03
+ .byte   N06 ,Gn4
+ .byte   W01
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W03
+@  #11 @015   ----------------------------------------
+ .byte   W02
+ .byte   N96 ,An4
+ .byte   W01
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 9*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 9*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 9*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 8*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 8*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 8*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 8*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 8*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 8*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 8*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 7*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 7*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 6*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 6*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 6*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 6*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 6*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 6*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 6*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 6*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 5*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 5*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 5*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 5*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 5*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 4*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 4*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 4*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 4*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 3*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 3*song01_mvl/mxv
+ .byte   W03
+@  #11 @016   ----------------------------------------
+ .byte   VOL , 3*song01_mvl/mxv
+ .byte   W96
+@  #11 @017   ----------------------------------------
+ .byte   W96
+@  #11 @018   ----------------------------------------
+ .byte   W96
+@  #11 @019   ----------------------------------------
+ .byte   W96
+@  #11 @020   ----------------------------------------
+ .byte   W96
+@  #11 @021   ----------------------------------------
+ .byte   W96
+@  #11 @022   ----------------------------------------
+ .byte   W96
+@  #11 @023   ----------------------------------------
+ .byte   VOICE , 65
+ .byte   PAN , c_v+46
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   BEND , c_v+0
+ .byte   W96
+@  #11 @024   ----------------------------------------
+Label_01F9073A:
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   N06 ,En2 ,v127
+ .byte   W06
+ .byte   Fs2
+ .byte   W06
+ .byte   Gn2
+ .byte   W06
+ .byte   N12 ,An2
+ .byte   W12
+ .byte   N06
+ .byte   W06
+ .byte   Bn2
+ .byte   W06
+ .byte   N12 ,Cn3
+ .byte   W12
+ .byte   N06 ,Dn3
+ .byte   W06
+ .byte   Bn2
+ .byte   W06
+ .byte   N12 ,Cn3
+ .byte   W12
+ .byte   N06
+ .byte   W06
+ .byte   Dn3
+ .byte   W06
+ .byte   N90 ,En3
+ .byte   W06
+ .byte   PEND 
+@  #11 @025   ----------------------------------------
+ .byte   W18
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W09
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 22*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 21*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 19*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 18*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 17*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 14*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 13*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 11*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 7*song01_mvl/mxv
+ .byte   W09
+@  #11 @026   ----------------------------------------
+ .byte   PATT
+  .word Label_01F9073A
+@  #11 @027   ----------------------------------------
+ .byte   W24
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 21*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 19*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 17*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 14*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 12*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 10*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 8*song01_mvl/mxv
+ .byte   W18
+@  #11 @028   ----------------------------------------
+ .byte   W96
+@  #11 @029   ----------------------------------------
+ .byte   W96
+@  #11 @030   ----------------------------------------
+ .byte   W96
+@  #11 @031   ----------------------------------------
+ .byte   W96
+@  #11 @032   ----------------------------------------
+ .byte   VOICE , 40
+ .byte   PAN , c_v-64
+ .byte   VOL , 13*song01_mvl/mxv
+ .byte   BEND , c_v+0
+ .byte   W96
+@  #11 @033   ----------------------------------------
+ .byte   W96
+@  #11 @034   ----------------------------------------
+ .byte   W96
+@  #11 @035   ----------------------------------------
+ .byte   W96
+@  #11 @036   ----------------------------------------
+ .byte   GOTO
+  .word Label_01F9055E
+ .byte   FINE
+
+@**************** Track 12 (Midi-Chn.11) ****************@
+
+song01_012:
+@  #12 @000   ----------------------------------------
+ .byte   KEYSH , song01_key+0
+ .byte   MODT 0
+ .byte   LFOS 44
+ .byte   VOICE , 48
+ .byte   PAN , c_v+0
+ .byte   VOL , 15*song01_mvl/mxv
+ .byte   BEND , c_v+0
+ .byte   TIE ,An2 ,v124
+ .byte   W01
+ .byte   VOL , 15*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 17*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 17*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 17*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 17*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 18*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 18*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 19*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 19*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 19*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 19*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 20*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 20*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 21*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 22*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 22*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 22*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 22*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W02
+@  #12 @001   ----------------------------------------
+Label_01F90AA4:
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W03
+ .byte   PEND 
+@  #12 @002   ----------------------------------------
+ .byte   EOT
+ .byte   An2
+Label_01F90B0A:
+ .byte   N96 ,Gn2 ,v096
+ .byte   W01
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+ .byte   PEND 
+@  #12 @003   ----------------------------------------
+Label_01F90B6F:
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   N96 ,Fs2 ,v096
+ .byte   W03
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+ .byte   PEND 
+@  #12 @004   ----------------------------------------
+Label_01F90BE2:
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   N96 ,Dn2 ,v096
+ .byte   W01
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W02
+ .byte   PEND 
+@  #12 @005   ----------------------------------------
+Label_01F90C94:
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   N96 ,Fs2 ,v096
+ .byte   W01
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W02
+ .byte   PEND 
+@  #12 @006   ----------------------------------------
+Label_01F90D3D:
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   N96 ,Gn2 ,v096
+ .byte   W01
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W02
+ .byte   PEND 
+@  #12 @007   ----------------------------------------
+Label_01F90DE6:
+ .byte   VOL , 41*song01_mvl/mxv
+ .byte   N96 ,An2 ,v096
+ .byte   W06
+ .byte   VOL , 41*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W06
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W03
+ .byte   PEND 
+@  #12 @008   ----------------------------------------
+Label_01F90E44:
+ .byte   VOL , 15*song01_mvl/mxv
+ .byte   TIE ,An2 ,v124
+ .byte   W01
+ .byte   VOL , 15*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 17*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 17*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 17*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 17*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 18*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 18*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 19*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 19*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 19*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 19*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 20*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 20*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 21*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 22*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 22*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 22*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 22*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W02
+ .byte   PEND 
+@  #12 @009   ----------------------------------------
+Label_01F90EE1:
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   N96 ,Dn2 ,v096
+ .byte   W03
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W05
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W03
+ .byte   PEND 
+@  #12 @010   ----------------------------------------
+ .byte   EOT
+ .byte   An2
+ .byte   N96 ,Cn2
+ .byte   N96 ,Gn2
+ .byte   N96 ,En3
+ .byte   W01
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W03
+@  #12 @011   ----------------------------------------
+Label_01F90FB1:
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   N96 ,Dn2 ,v096
+ .byte   N96 ,Fs2
+ .byte   N96 ,Dn3
+ .byte   W03
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 26*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+ .byte   PEND 
+@  #12 @012   ----------------------------------------
+ .byte   PATT
+  .word Label_01F90E44
+@  #12 @013   ----------------------------------------
+ .byte   PATT
+  .word Label_01F90EE1
+@  #12 @014   ----------------------------------------
+ .byte   EOT
+ .byte   An2
+Label_01F91034:
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   N36 ,Ds2 ,v096
+ .byte   N36 ,As2
+ .byte   N36 ,Gn3
+ .byte   W01
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 24*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 25*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 27*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 29*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   N60 ,Fn2
+ .byte   N60 ,Cn3
+ .byte   N60 ,An3
+ .byte   W01
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 30*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 31*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 32*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 33*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 34*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 35*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 36*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W03
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 37*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 38*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 39*song01_mvl/mxv
+ .byte   W01
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W04
+ .byte   VOL , 40*song01_mvl/mxv
+ .byte   W02
+ .byte   VOL , 41*song01_mvl/mxv
+ .byte   W03
+ .byte   PEND 
+@  #12 @015   ----------------------------------------
+ .byte   PATT
+  .word Label_01F90FB1
+@  #12 @016   ----------------------------------------
+ .byte   PATT
+  .word Label_01F91034
+@  #12 @017   ----------------------------------------
+ .byte   PATT
+  .word Label_01F90FB1
+@  #12 @018   ----------------------------------------
+ .byte   VOL , 23*song01_mvl/mxv
+ .byte   W96
+@  #12 @019   ----------------------------------------
+ .byte   W96
+@  #12 @020   ----------------------------------------
+ .byte   W96
+@  #12 @021   ----------------------------------------
+ .byte   W96
+@  #12 @022   ----------------------------------------
+ .byte   W96
+@  #12 @023   ----------------------------------------
+ .byte   W96
+@  #12 @024   ----------------------------------------
+ .byte   W96
+@  #12 @025   ----------------------------------------
+ .byte   W96
+@  #12 @026   ----------------------------------------
+ .byte   W96
+@  #12 @027   ----------------------------------------
+ .byte   W96
+@  #12 @028   ----------------------------------------
+ .byte   PATT
+  .word Label_01F90E44
+@  #12 @029   ----------------------------------------
+ .byte   PATT
+  .word Label_01F90AA4
+@  #12 @030   ----------------------------------------
+ .byte   EOT
+ .byte   An2
+@  #12 @031   ----------------------------------------
+ .byte   PATT
+  .word Label_01F90B0A
+@  #12 @032   ----------------------------------------
+ .byte   PATT
+  .word Label_01F90B6F
+@  #12 @033   ----------------------------------------
+ .byte   PATT
+  .word Label_01F90BE2
+@  #12 @034   ----------------------------------------
+ .byte   PATT
+  .word Label_01F90C94
+@  #12 @035   ----------------------------------------
+ .byte   PATT
+  .word Label_01F90D3D
+@  #12 @036   ----------------------------------------
+ .byte   PATT
+  .word Label_01F90DE6
+@  #12 @037   ----------------------------------------
+ .byte   GOTO
+  .word Label_01F90E44
+ .byte   FINE
+
+@**************** Track 13 (Midi-Chn.12) ****************@
+
+song01_013:
+@  #13 @000   ----------------------------------------
+ .byte   KEYSH , song01_key+0
+ .byte   MODT 0
+ .byte   LFOS 44
+ .byte   VOICE , 48
+ .byte   PAN , c_v+0
+ .byte   VOL , 28*song01_mvl/mxv
+ .byte   BEND , c_v+0
+ .byte   W96
+@  #13 @001   ----------------------------------------
+ .byte   W96
+@  #13 @002   ----------------------------------------
+ .byte   W96
+@  #13 @003   ----------------------------------------
+ .byte   W96
+@  #13 @004   ----------------------------------------
+ .byte   W96
+@  #13 @005   ----------------------------------------
+ .byte   W96
+@  #13 @006   ----------------------------------------
+ .byte   W96
+@  #13 @007   ----------------------------------------
+ .byte   W96
+@  #13 @008   ----------------------------------------
+Label_01F9112A:
+ .byte   N04 ,An2 ,v127
+ .byte   W06
+ .byte   N04
+ .byte   W06
+ .byte   N04
+ .byte   W06
+ .byte   N04
+ .byte   W06
+ .byte   An2 ,v060
+ .byte   W06
+ .byte   An2 ,v048
+ .byte   W06
+ .byte   An2 ,v036
+ .byte   W06
+ .byte   An2 ,v032
+ .byte   W54
+ .byte   PEND 
+@  #13 @009   ----------------------------------------
+Label_01F91141:
+ .byte   N04 ,Cn3 ,v127
+ .byte   W06
+ .byte   N04
+ .byte   W06
+ .byte   N04
+ .byte   W06
+ .byte   Dn3
+ .byte   W06
+ .byte   Dn3 ,v060
+ .byte   W06
+ .byte   Dn3 ,v048
+ .byte   W06
+ .byte   Dn3 ,v036
+ .byte   W06
+ .byte   Dn3 ,v032
+ .byte   W54
+ .byte   PEND 
+@  #13 @010   ----------------------------------------
+ .byte   PATT
+  .word Label_01F9112A
+@  #13 @011   ----------------------------------------
+ .byte   PATT
+  .word Label_01F91141
+@  #13 @012   ----------------------------------------
+ .byte   PATT
+  .word Label_01F9112A
+@  #13 @013   ----------------------------------------
+ .byte   PATT
+  .word Label_01F91141
+@  #13 @014   ----------------------------------------
+Label_01F9116C:
+ .byte   N04 ,Cn3 ,v127
+ .byte   W06
+ .byte   N04
+ .byte   W06
+ .byte   N04
+ .byte   W06
+ .byte   Dn3
+ .byte   W06
+ .byte   Dn3 ,v060
+ .byte   W06
+ .byte   Dn3 ,v048
+ .byte   W06
+ .byte   Fn3 ,v127
+ .byte   W06
+ .byte   N04
+ .byte   W06
+ .byte   N04
+ .byte   W06
+ .byte   Gn3
+ .byte   W06
+ .byte   Gn3 ,v060
+ .byte   W06
+ .byte   Gn3 ,v048
+ .byte   W06
+ .byte   Gn3 ,v036
+ .byte   W06
+ .byte   Gn3 ,v032
+ .byte   W18
+ .byte   PEND 
+@  #13 @015   ----------------------------------------
+ .byte   W96
+@  #13 @016   ----------------------------------------
+ .byte   PATT
+  .word Label_01F9116C
+@  #13 @017   ----------------------------------------
+ .byte   W96
+@  #13 @018   ----------------------------------------
+ .byte   N06 ,En3 ,v127
+ .byte   W06
+ .byte   En3 ,v036
+ .byte   W06
+ .byte   En3 ,v028
+ .byte   W06
+ .byte   Dn3 ,v127
+ .byte   W06
+ .byte   Dn3 ,v036
+ .byte   W06
+ .byte   Dn3 ,v028
+ .byte   W06
+ .byte   En3 ,v127
+ .byte   W06
+ .byte   En3 ,v036
+ .byte   W06
+ .byte   En3 ,v028
+ .byte   W06
+ .byte   Dn3 ,v127
+ .byte   W06
+ .byte   Dn3 ,v036
+ .byte   W06
+ .byte   Dn3 ,v028
+ .byte   W06
+ .byte   N18 ,Dn3 ,v127
+ .byte   W18
+ .byte   N06 ,Dn3 ,v036
+ .byte   W06
+@  #13 @019   ----------------------------------------
+ .byte   En3 ,v127
+ .byte   W06
+ .byte   En3 ,v036
+ .byte   W06
+ .byte   En3 ,v028
+ .byte   W06
+ .byte   Dn3 ,v127
+ .byte   W06
+ .byte   Dn3 ,v036
+ .byte   W06
+ .byte   Dn3 ,v028
+ .byte   W06
+ .byte   En3 ,v127
+ .byte   W06
+ .byte   En3 ,v036
+ .byte   W06
+ .byte   En3 ,v028
+ .byte   W06
+ .byte   Dn3 ,v127
+ .byte   W06
+ .byte   Dn3 ,v036
+ .byte   W06
+ .byte   Dn3 ,v028
+ .byte   W06
+ .byte   N18 ,En3 ,v127
+ .byte   W18
+ .byte   N06 ,En3 ,v036
+ .byte   W06
+@  #13 @020   ----------------------------------------
+ .byte   En3 ,v127
+ .byte   W06
+ .byte   En3 ,v036
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   En3 ,v028
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   Dn3 ,v127
+ .byte   W06
+ .byte   Dn3 ,v036
+ .byte   N06 ,Gn3
+ .byte   N06 ,Cn4
+ .byte   W06
+ .byte   Dn3 ,v028
+ .byte   N06 ,Gn3
+ .byte   N06 ,Cn4
+ .byte   W06
+ .byte   En3 ,v127
+ .byte   W06
+ .byte   En3 ,v036
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   En3 ,v028
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   Dn3 ,v127
+ .byte   W06
+ .byte   Dn3 ,v036
+ .byte   N06 ,Gn3
+ .byte   N06 ,Cn4
+ .byte   W06
+ .byte   Dn3 ,v028
+ .byte   N06 ,Gn3
+ .byte   N06 ,Cn4
+ .byte   W06
+ .byte   N18 ,En3 ,v127
+ .byte   W18
+ .byte   N06 ,En3 ,v036
+ .byte   N06 ,Gn3
+ .byte   N06 ,Bn3
+ .byte   W06
+@  #13 @021   ----------------------------------------
+ .byte   En3 ,v127
+ .byte   W06
+ .byte   En3 ,v036
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   En3 ,v028
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   Dn3 ,v127
+ .byte   W06
+ .byte   Dn3 ,v036
+ .byte   N06 ,Gn3
+ .byte   N06 ,Cn4
+ .byte   W06
+ .byte   Dn3 ,v028
+ .byte   N06 ,Gn3
+ .byte   N06 ,Cn4
+ .byte   W06
+ .byte   En3 ,v127
+ .byte   W06
+ .byte   En3 ,v036
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   En3 ,v028
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   Dn3 ,v127
+ .byte   W06
+ .byte   Dn3 ,v036
+ .byte   N06 ,Gn3
+ .byte   N06 ,Cn4
+ .byte   W06
+ .byte   Dn3 ,v028
+ .byte   N06 ,Gn3
+ .byte   N06 ,Cn4
+ .byte   W06
+ .byte   N18 ,Bn3 ,v127
+ .byte   W18
+ .byte   N06 ,Bn3 ,v036
+ .byte   N06 ,En4
+ .byte   N06 ,Gn4
+ .byte   W06
+@  #13 @022   ----------------------------------------
+ .byte   En3 ,v127
+ .byte   W06
+ .byte   En3 ,v036
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   En3 ,v028
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   Dn3 ,v127
+ .byte   W06
+ .byte   Dn3 ,v036
+ .byte   N06 ,Gn3
+ .byte   N06 ,Cn4
+ .byte   W06
+ .byte   Dn3 ,v028
+ .byte   N06 ,Gn3
+ .byte   N06 ,Cn4
+ .byte   W06
+ .byte   En3 ,v127
+ .byte   W06
+ .byte   En3 ,v036
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   En3 ,v028
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   Dn3 ,v127
+ .byte   W06
+ .byte   Dn3 ,v036
+ .byte   N06 ,Gn3
+ .byte   N06 ,Cn4
+ .byte   W06
+ .byte   Dn3 ,v028
+ .byte   N06 ,Gn3
+ .byte   N06 ,Cn4
+ .byte   W06
+ .byte   N18 ,Dn3 ,v127
+ .byte   W18
+ .byte   N06 ,Dn3 ,v036
+ .byte   N06 ,Gn3
+ .byte   N06 ,Bn3
+ .byte   W06
+@  #13 @023   ----------------------------------------
+ .byte   En3 ,v127
+ .byte   W06
+ .byte   En3 ,v036
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   En3 ,v028
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   Dn3 ,v127
+ .byte   W06
+ .byte   Dn3 ,v036
+ .byte   N06 ,Gn3
+ .byte   N06 ,Cn4
+ .byte   W06
+ .byte   Dn3 ,v028
+ .byte   N06 ,Gn3
+ .byte   N06 ,Cn4
+ .byte   W06
+ .byte   En3 ,v127
+ .byte   W06
+ .byte   En3 ,v036
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   En3 ,v028
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   Dn3 ,v127
+ .byte   W06
+ .byte   Dn3 ,v036
+ .byte   N06 ,Gn3
+ .byte   N06 ,Cn4
+ .byte   W06
+ .byte   Dn3 ,v028
+ .byte   N06 ,Gn3
+ .byte   N06 ,Cn4
+ .byte   W06
+ .byte   N18 ,Fs3 ,v127
+ .byte   W18
+ .byte   N06 ,Fs3 ,v036
+ .byte   N06 ,An3
+ .byte   N06 ,Bn3
+ .byte   W06
+@  #13 @024   ----------------------------------------
+Label_01F91332:
+ .byte   N06 ,Gn3 ,v127
+ .byte   W06
+ .byte   Gn3 ,v036
+ .byte   N06 ,Cn4
+ .byte   N06 ,En4
+ .byte   W06
+ .byte   Gn3 ,v028
+ .byte   N06 ,Cn4
+ .byte   N06 ,En4
+ .byte   W06
+ .byte   Gn3 ,v127
+ .byte   W06
+ .byte   Gn3 ,v036
+ .byte   N06 ,Cn4
+ .byte   N06 ,En4
+ .byte   W06
+ .byte   Gn3 ,v028
+ .byte   N06 ,Cn4
+ .byte   N06 ,En4
+ .byte   W06
+ .byte   Fs3 ,v127
+ .byte   W06
+ .byte   Fs3 ,v036
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   Fs3 ,v028
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   Fs3 ,v127
+ .byte   W06
+ .byte   Fs3 ,v036
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   Fs3 ,v028
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   N18 ,Fs3 ,v127
+ .byte   W18
+ .byte   N06 ,Fs3 ,v036
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   PEND 
+@  #13 @025   ----------------------------------------
+ .byte   En3 ,v127
+ .byte   W06
+ .byte   En3 ,v036
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   En3 ,v028
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   En3 ,v127
+ .byte   W06
+ .byte   En3 ,v036
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   En3 ,v028
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   En3 ,v127
+ .byte   W06
+ .byte   En3 ,v036
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   En3 ,v028
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   En3 ,v127
+ .byte   W06
+ .byte   Dn3 ,v036
+ .byte   N06 ,Gn3
+ .byte   N06 ,Cn4
+ .byte   W06
+ .byte   Dn3 ,v028
+ .byte   N06 ,Gn3
+ .byte   N06 ,Cn4
+ .byte   W06
+ .byte   N18 ,Dn3 ,v127
+ .byte   W18
+ .byte   N06 ,Dn3 ,v036
+ .byte   N06 ,Gn3
+ .byte   N06 ,Cn4
+ .byte   W06
+@  #13 @026   ----------------------------------------
+ .byte   PATT
+  .word Label_01F91332
+@  #13 @027   ----------------------------------------
+ .byte   N06 ,En3 ,v127
+ .byte   W06
+ .byte   En3 ,v036
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   En3 ,v028
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   En3 ,v127
+ .byte   W06
+ .byte   En3 ,v036
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   En3 ,v028
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   En3 ,v127
+ .byte   W06
+ .byte   En3 ,v036
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   En3 ,v028
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   En3 ,v127
+ .byte   W06
+ .byte   En3 ,v036
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   En3 ,v028
+ .byte   N06 ,An3
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   N18 ,Dn3 ,v127
+ .byte   W18
+ .byte   N06 ,Dn3 ,v036
+ .byte   N06 ,Gn3
+ .byte   N06 ,Cn4
+ .byte   W06
+@  #13 @028   ----------------------------------------
+ .byte   W96
+@  #13 @029   ----------------------------------------
+ .byte   W96
+@  #13 @030   ----------------------------------------
+ .byte   W96
+@  #13 @031   ----------------------------------------
+ .byte   W96
+@  #13 @032   ----------------------------------------
+ .byte   W96
+@  #13 @033   ----------------------------------------
+ .byte   W96
+@  #13 @034   ----------------------------------------
+ .byte   W96
+@  #13 @035   ----------------------------------------
+ .byte   W96
+@  #13 @036   ----------------------------------------
+ .byte   GOTO
+  .word Label_01F9112A
+ .byte   FINE
+
+@**************** Track 14 (Midi-Chn.13) ****************@
+
+song01_014:
+@  #14 @000   ----------------------------------------
+ .byte   KEYSH , song01_key+0
+ .byte   MODT 0
+ .byte   LFOS 44
+ .byte   VOICE , 39
+ .byte   PAN , c_v+0
+ .byte   VOL , 49*song01_mvl/mxv
+ .byte   BEND , c_v+0
+ .byte   W96
+@  #14 @001   ----------------------------------------
+ .byte   W96
+@  #14 @002   ----------------------------------------
+ .byte   W96
+@  #14 @003   ----------------------------------------
+ .byte   W96
+@  #14 @004   ----------------------------------------
+Label_70471A:
+ .byte   N04 ,An0 ,v127
+ .byte   W06
+ .byte   N04
+ .byte   W06
+ .byte   N04
+ .byte   W06
+ .byte   N04
+ .byte   W18
+ .byte   N12
+ .byte   W24
+ .byte   N12
+ .byte   W24
+ .byte   N06 ,An0 ,v052
+ .byte   W06
+ .byte   En0 ,v060
+ .byte   W06
+ .byte   PEND 
+@  #14 @005   ----------------------------------------
+ .byte   PATT
+  .word Label_70471A
+@  #14 @006   ----------------------------------------
+ .byte   PATT
+  .word Label_70471A
+@  #14 @007   ----------------------------------------
+ .byte   PATT
+  .word Label_70471A
+@  #14 @008   ----------------------------------------
+Label_70473F:
+@  #14 @009   ----------------------------------------
+ .byte   PATT
+  .word Label_70471A
+@  #14 @010   ----------------------------------------
+ .byte   PATT
+  .word Label_70471A
+@  #14 @011   ----------------------------------------
+ .byte   PATT
+  .word Label_70471A
+@  #14 @012   ----------------------------------------
+ .byte   PATT
+  .word Label_70471A
+@  #14 @013   ----------------------------------------
+ .byte   PATT
+  .word Label_70471A
+@  #14 @014   ----------------------------------------
+ .byte   PATT
+  .word Label_70471A
+@  #14 @015   ----------------------------------------
+Label_70475D:
+ .byte   N04 ,Cn1 ,v127
+ .byte   W06
+ .byte   N04
+ .byte   W06
+ .byte   N04
+ .byte   W06
+ .byte   N04
+ .byte   W12
+ .byte   N06
+ .byte   W06
+ .byte   N04 ,Dn1
+ .byte   W06
+ .byte   N04
+ .byte   W06
+ .byte   N04
+ .byte   W06
+ .byte   N04
+ .byte   W12
+ .byte   N06
+ .byte   W06
+ .byte   Cn1
+ .byte   W06
+ .byte   Dn1
+ .byte   W06
+ .byte   Fn1
+ .byte   W06
+ .byte   Dn1
+ .byte   W06
+ .byte   PEND 
+@  #14 @016   ----------------------------------------
+Label_70477D:
+ .byte   N04 ,An0 ,v127
+ .byte   W06
+ .byte   N04
+ .byte   W06
+ .byte   N04
+ .byte   W06
+ .byte   N04
+ .byte   W12
+ .byte   N06
+ .byte   W06
+ .byte   Gn0
+ .byte   W06
+ .byte   An0
+ .byte   W12
+ .byte   Cn1
+ .byte   W06
+ .byte   An0
+ .byte   W12
+ .byte   Dn1
+ .byte   W06
+ .byte   N12 ,An0
+ .byte   W12
+ .byte   N06 ,En0 ,v060
+ .byte   W06
+ .byte   PEND 
+@  #14 @017   ----------------------------------------
+ .byte   PATT
+  .word Label_70475D
+@  #14 @018   ----------------------------------------
+ .byte   PATT
+  .word Label_70477D
+@  #14 @019   ----------------------------------------
+ .byte   PATT
+  .word Label_70471A
+@  #14 @020   ----------------------------------------
+ .byte   PATT
+  .word Label_70471A
+@  #14 @021   ----------------------------------------
+ .byte   PATT
+  .word Label_70471A
+@  #14 @022   ----------------------------------------
+ .byte   PATT
+  .word Label_70471A
+@  #14 @023   ----------------------------------------
+ .byte   PATT
+  .word Label_70471A
+@  #14 @024   ----------------------------------------
+ .byte   PATT
+  .word Label_70471A
+@  #14 @025   ----------------------------------------
+ .byte   PATT
+  .word Label_70475D
+@  #14 @026   ----------------------------------------
+ .byte   PATT
+  .word Label_70477D
+@  #14 @027   ----------------------------------------
+ .byte   PATT
+  .word Label_70475D
+@  #14 @028   ----------------------------------------
+ .byte   PATT
+  .word Label_70477D
+@  #14 @029   ----------------------------------------
+ .byte   PATT
+  .word Label_70471A
+@  #14 @030   ----------------------------------------
+ .byte   PATT
+  .word Label_70471A
+@  #14 @031   ----------------------------------------
+ .byte   PATT
+  .word Label_70471A
+@  #14 @032   ----------------------------------------
+ .byte   PATT
+  .word Label_70471A
+@  #14 @033   ----------------------------------------
+ .byte   PATT
+  .word Label_70471A
+@  #14 @034   ----------------------------------------
+ .byte   PATT
+  .word Label_70471A
+@  #14 @035   ----------------------------------------
+ .byte   PATT
+  .word Label_70471A
+@  #14 @036   ----------------------------------------
+ .byte   PATT
+  .word Label_70471A
+@  #14 @037   ----------------------------------------
+ .byte   GOTO
+  .word Label_70473F
+ .byte   FINE
+
+@******************************************************@
+	.align	2
+
+song01:
+	.byte	14	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	song01_pri	@ Priority
+	.byte	song01_rev	@ Reverb.
+    
+	.word	song01_grp
+    
+	.word	song01_001
+	.word	song01_002
+	.word	song01_003
+	.word	song01_004
+	.word	song01_005
+	.word	song01_006
+	.word	song01_007
+	.word	song01_008
+	.word	song01_009
+	.word	song01_010
+	.word	song01_011
+	.word	song01_012
+	.word	song01_013
+	.word	song01_014
+
+	.end

@@ -4,6 +4,7 @@ ALIGN 4
 voicegroup000:
 #incbin "FE8_NI_Map_2.bin"
 
+// 16 tracks, 12 sounds at once patch
 PUSH
 ORG 0x2900
 #incbin "2900.bin"

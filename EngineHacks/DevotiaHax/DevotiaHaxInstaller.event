@@ -45,3 +45,6 @@
 
 #include "GuideEvent/shinan.event"
 // Unknown but their name isn't "shinan"
+
+#include "OpeningSkips/OpeningSkips.event"
+// 7743, Nat, Circles

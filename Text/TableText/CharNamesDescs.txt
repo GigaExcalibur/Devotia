@@ -396,10 +396,12 @@ the Wolffian countryside. Swayed to[N]
 rebel by Wister's emphatic speeches.[X]
 
 ## RanunName
-yuh[X]
+Ranun[X]
 
 ## RanunDesc
-yuh[X]
+A young man hopelessly devoted to a[N]
+cause he knows is lost, yet one he[N]
+cannot bring himself to abandon...[X]
 
 ## CrocodileName
 Crocodile[X]

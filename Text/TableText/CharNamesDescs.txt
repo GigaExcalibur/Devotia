@@ -435,10 +435,10 @@ Current lord of House Ouahed. Demure and[N]
 soft-spoken now, his early years were[N]
 full of revelry and irreperable mistakes.[X]
 
-## LenmaName
-Lenma[X]
+## LemnaName
+Lemna[X]
 
-## LenmaDesc
+## LemnaDesc
 Digraced count of House Wolffia. Lost[N]
 his son years ago, and drowns himself in[N]
 his land's wine while it slowly withers.[X]

@@ -48,3 +48,5 @@
 
 #include "OpeningSkips/OpeningSkips.event"
 // 7743, Nat, Circles
+
+#include "IgnoreTriangle/Installer.event"

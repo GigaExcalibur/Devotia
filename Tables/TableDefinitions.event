@@ -62,6 +62,7 @@
 
 //Used For Consolidated AdvWeaponLocks 
 #define AdvWeaponLock 0x01000000
+#define IgnoreTriangle 0x02000000
 
 // Weapon Effect
 #define NoEffect 0x0

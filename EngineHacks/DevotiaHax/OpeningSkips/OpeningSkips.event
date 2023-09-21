@@ -1,8 +1,19 @@
 PUSH
+// Skip Nintendo logo?
+ORG 0xC6714
+BYTE 0xC0 0x46
+
+// Skip IS logo?
+ORG 0xCBDF6
+BYTE 0xC0 0x46
+
 // Skip health and safety warning
 ORG 0xCC20C
-SHORT 0
+BYTE 0 0
 
+// Skip something?
+ORG 0xCBDE2
+BYTE 0 0 0 0 0 0 0 0
 
 // Skip class reel
 ORG 0xC63AD

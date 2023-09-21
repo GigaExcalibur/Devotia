@@ -4,7 +4,7 @@ Klaudia[X]
 ## KlaudiaDesc
 Heir apparent to House Ouahed.[N]
 Unwavering in her devotion to[N]
-House Sarka's eternal glory.[X]
+House Sarka's righteous cause.[X]
 
 ## ZeroName
 Zero[X]
@@ -424,7 +424,7 @@ Fernyiges[X]
 
 ## FernyigesDesc
 Iron-fisted ruler of all of Meraly.[N]
-Feels it is his responsibility, as[N]
+Feels it is his responsibility, and[N]
 his alone, to make it bear fruit.[X]
 
 ## ZakariaName
@@ -440,8 +440,8 @@ Lenma[X]
 
 ## LenmaDesc
 Digraced count of House Wolffia. Lost[N]
-his son years ago, and drowns himself[N]
-in his land's wine while it withers.[X]
+his son years ago, and drowns himself in[N]
+his land's wine while it slowly withers.[X]
 
 ## MiksaName
 Miksa[X]

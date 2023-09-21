@@ -563,7 +563,7 @@ Warlock[X]
 
 ## WarlockDesc
 Straightforward yet advanced slingers[N]
-of both natural, holy, and elder magic.[X]
+of all natural, holy, and elder magic.[X]
 
 ## BardName
 Bard[X]

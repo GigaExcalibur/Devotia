@@ -57,7 +57,7 @@
 // Overture 2
 #define Crocodile 0x49
 #define Marauder 0x4A
-#define LenmaOverture 0x4B
+#define Lenma 0x4B
 
 // Intermission A
 #define Fernyiges 0x4C

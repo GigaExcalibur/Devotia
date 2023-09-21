@@ -395,6 +395,12 @@ An ordinary and untrained commoner of[N]
 the Wolffian countryside. Swayed to[N]
 rebel by Wister's emphatic speeches.[X]
 
+## RanunName
+yuh[X]
+
+## RanunDesc
+yuh[X]
+
 ## CrocodileName
 Crocodile[X]
 
@@ -426,6 +432,14 @@ Zakaria[X]
 Current lord of House Ouahed. Demure and[N]
 soft-spoken now, his early years were[N]
 full of revelry and irreperable mistakes.[X]
+
+## LenmaName
+Lenma[X]
+
+## LenmaDesc
+Digraced count of House Wolffia. Lost[N]
+his son years ago, and drowns himself[N]
+in his land's wine while it withers.[X]
 
 ## MiksaName
 Miksa[X]

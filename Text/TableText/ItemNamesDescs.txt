@@ -558,6 +558,24 @@ Regoliath[X]
 ## CataclysmaelstromName
 Cataclysmaelstrom[X]
 
+## CopperFilledPouchName
+Copper-filled pouch[X]
+
+## CopperFilledPouchDesc
+Worth a pittance.[X]
+
+## SilverFilledPouchName
+Silver-filled pouch[X]
+
+## SilverFilledPouchDesc
+Worth a smattering.[X]
+
+## GoldFilledPouchName
+Gold-filled pouch[X]
+
+## GoldFilledPouchDesc
+Worth a fortune.[X]
+
 ## CataclysmaelstromDesc
 Klaudia[lock] Fire/wind magic combo.[N]
 Magnifies the weapon triangle.[X]

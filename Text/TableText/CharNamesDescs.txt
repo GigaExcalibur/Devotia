@@ -427,6 +427,14 @@ Current lord of House Ouahed. Demure and[N]
 soft-spoken now, his early years were[N]
 full of revelry and irreperable mistakes.[X]
 
+## MiksaName
+Miksa[X]
+
+## MiksaDesc
+Ambassador to Meraly from the ancient[N]
+kingdom of Rotingue. His ruthlessness[N]
+is second only to the Baron herself.[X]
+
 ## HafeezName
 Hafeez[X]
 

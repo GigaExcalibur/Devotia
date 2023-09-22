@@ -73,7 +73,7 @@ Scourge - N426
 Overlord - Blood
 
 # Class Cards
-Mercenary - L95
+Mercenary - Uncredited
 Hero - RobertFPY
 Runelord - Nuramon
 Thief - L95

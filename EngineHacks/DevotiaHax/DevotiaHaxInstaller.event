@@ -54,3 +54,6 @@
 
 #include "FE8-Walking Sounds Fix/FE8-Walking Sounds EA.txt"
 // Teq
+
+#include "FE8-Text_Engine_Rework/_FE8-Text_Engine_Rework_EA.event"
+// Teq

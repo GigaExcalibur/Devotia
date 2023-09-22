@@ -72,6 +72,46 @@ Therion (Wister) - Zoramine Fae
 Scourge - N426
 Overlord - Blood
 
+# Class Cards
+Mercenary - L95
+Hero - RobertFPY
+Runelord - Nuramon
+Thief - L95
+Rogue - L95
+Hunter - Spud
+Trickster - Jj09, Scraiza, SoHAE
+Halberdier - TBA
+Villager - Team SALVAGED
+Warmaster - Spud, Rasdell, Pushwall
+Pirate - Hypergammaspaces
+Raider - Zoramine Fae
+Ravager - Zoramine Fae
+Armors - Der, Epicer
+Dreadnought - Pushwall, SamirPlayz
+Chevalier - Nuramon
+Thaumachine - Pushwall, SamirPlayz
+Anima Mage - Uncredited
+Light Mage - Leo_Link, L95
+Dark Mage - Jj09
+Sorcerer - Pikmin
+Cleric - Flasuban
+Thaumaturge - L95
+Templar - Der
+Cavaliers - RobertFPY
+Cuissasier - Shtick, Team SALVAGED
+Chasseur - Flasuban, RobertFPY
+Forester - Shtick, Team SALVAGED
+Scout - Flasuban, RobertFPY
+Ranger - RobertFPY
+Windrider - Flasuban, ArcaneEli
+Seraph Wing - Flasuban, ArcaneEli
+Harrier - Melia
+Daemon Wing - Melia
+Dracorider - Flasuban
+Dracolord - Flasuban, Max Limit 
+Bombardier - EldritchAbomination, N426, Jj09
+Barbarossa - EldritchAbomination, Jj09
+
 # Skill contributors
 
 - circleseverywhere

@@ -1,3 +1,4 @@
 #include "Mugs/MugsInstaller.event"
 #include "MapSprites/Installer.event"
 #include "Palettes/PalettesInstaller.event"
+#include "ClassCards/Installer.event" // class cards MUST go after portraits

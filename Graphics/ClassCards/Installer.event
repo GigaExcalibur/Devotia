@@ -13,6 +13,7 @@ TruebladeCardLabel:
 TruebladeCardPalette:
 #incbin "TruebladePalette.dmp"
 
+ALIGN 4
 MercenaryCardLabel:
 #incbin "Mercenary.dmp"
 
@@ -119,7 +120,7 @@ RavagerCardLabel:
 #incbin "Ravager.dmp"
 
 RavagerCardPalette:
-#incbin "Ravager.dmp"
+#incbin "RavagerPalette.dmp"
 
 SwordArmorCardLabel:
 #incbin "SwordArmor.dmp"
@@ -362,6 +363,7 @@ setCardEntry(ThaumachineCard, ThaumachineCardLabel, ThaumachineCardPalette)
 setCardEntry(LightMageCard, LightMageCardLabel, LightMageCardPalette)
 setCardEntry(AnimaMageCard, AnimaMageCardLabel, AnimaMageCardPalette)
 setCardEntry(DarkMageCard, DarkMageCardLabel, DarkMageCardPalette)
+setCardEntry(SorcererCard, SorcererCardLabel, SorcererCardPalette)
 setCardEntry(ClericCard, ClericCardLabel, ClericCardPalette)
 setCardEntry(ValkyrieCard, ValkyrieCardLabel, ValkyrieCardPalette)
 setCardEntry(TrobairitzCard, TrobairitzCardLabel, TrobairitzCardPalette)

@@ -87,3 +87,5 @@
 #define BombardierCard 0xD3
 #define BarbarossaCard 0xD4
 #define FalconeerCard 0xD5
+#define WarlockCard 0xD6
+#define TrobairitzCard 0xD7 // oopsie

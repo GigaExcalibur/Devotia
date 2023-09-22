@@ -442,7 +442,7 @@ the lords of the sky? You'll regret that.[X]
 Bombardier[X]
 
 ## BombardierDesc
-Drek's pride and job griddon riders. They[N]
+Drek's pride and joy griffon riders. They[N]
 excel in shreddding other fliers' wings.[X]
 
 ## BarbarossaName
@@ -450,7 +450,7 @@ Barbarossa[X]
 
 ## BarbarossaDesc
 Drek's elite griffon knights. Their[N]
-arrows block out all sunlight.[X]
+barrages of arrows block out all light.[X]
 
 ## FalconeerName
 Falconeer[X]
@@ -583,7 +583,12 @@ both cleaves enemies and heals allies.[X]
 ## PrinceName
 Prince[X]
 
-## PrinceDesc
+## PrinceFirstDesc
+Cetus' title as the youngest member[N]
+of House Sarka. Of the pegasi he's[N]
+raised, this one is his favorite![X]
+
+## PrinceSecondDesc
 Cetus' title as the only remaining heir[N]
 to House Sarka. From his pegasus, he[N]
 delivers relief to allies from above.[X]

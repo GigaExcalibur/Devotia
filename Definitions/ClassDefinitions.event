@@ -108,3 +108,4 @@
 #define Overlord 0x63 // skip one for gorgon egg
 #define Agastya 0x64
 #define GremoryLordZakaria 0x73 // skip a bunch for hardcoded stuff
+#define PrinceIntermission 0x74

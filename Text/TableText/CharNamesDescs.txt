@@ -439,9 +439,9 @@ full of revelry and irreperable mistakes.[X]
 Lemna[X]
 
 ## LemnaDesc
-Digraced count of House Wolffia. Lost[N]
-his son years ago, and drowns himself in[N]
-his land's wine while it slowly withers.[X]
+Digraced count of House Wolffia. Having[N]
+lost his son years prior, he drowns his[N]
+sorrows in his land's wine while it withers.[X]
 
 ## MiksaName
 Miksa[X]
@@ -473,7 +473,7 @@ Winnehild[X]
 ## WinnehildDesc
 Drek's lauded Hawk General. Enthralled[N]
 by violence, she earned the position by[N]
-killer her predecessor last regime.[X]
+killing her predecessor last regime.[X]
 
 ## NolierName
 Noiler[X]

@@ -1,0 +1,38 @@
+#define setCardEntry(cardEntry,cardLocation,cardPaletteLocation) "PUSH; ORG PortraitTable+cardEntry*0x1C; POIN 0 0 cardPaletteLocation 0 cardLocation; POP"
+
+ALIGN 4
+MyrmidonCardLabel:
+#incbin "Myrmidon.dmp"
+
+MyrmidonCardPalette:
+#incbin "MyrmidonPalette.dmp"
+
+TruebladeCardLabel:
+#incbin "Trueblade.dmp"
+
+TruebladeCardPalette:
+#incbin "TruebladePalette.dmp"
+
+MercenaryCardLabel:
+#incbin "Mercenary.dmp"
+
+MercenaryCardPalette:
+#incbin "MercenaryPalette.dmp"
+
+HeroCardLabel:
+#incbin "Hero.dmp"
+
+HeroCardPalette:
+#incbin "HeroPalette.dmp"
+
+RunelordCardLabel:
+#incbin "Runelord.dmp"
+
+RunelordCardPalette:
+#incbin "RunelordPalette.dmp"
+
+setCardEntry(MyrmidonCard, MyrmidonCardLabel, MyrmidonCardPalette)
+setCardEntry(TruebladeCard, TruebladeCardLabel, TruebladeCardPalette)
+setCardEntry(MercenaryCard, MercenaryCardLabel, MercenaryCardPalette)
+setCardEntry(HeroCard, HeroCardLabel, HeroCardPalette)
+setCardEntry(RunelordCard, RunelordCardLabel, RunelordCardPalette)

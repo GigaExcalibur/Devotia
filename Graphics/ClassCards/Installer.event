@@ -140,10 +140,10 @@ LanceArmorCardLabel:
 LanceArmorCardPalette:
 #incbin "LanceArmorPalette.dmp"
 
-ChevalierCardLabel:
+GendarmeCardLabel:
 #incbin "Chevalier.dmp"
 
-ChevalierCardPalette:
+GendarmeCardPalette:
 #incbin "ChevalierPalette.dmp"
 
 AxeArmorCardLabel:
@@ -236,10 +236,10 @@ SwordCavalierCardLabel:
 SwordCavalierCardPalette:
 #incbin "SwordCavalierPalette.dmp"
 
-CuirassierCardLabel:
+HakkapeliittaCardLabel:
 #incbin "Cuirassier.dmp"
 
-CuirassierCardPalette:
+HakkapeliittaCardPalette:
 #incbin "CuirassierPalette.dmp"
 
 LanceCavalierCardLabel:
@@ -248,10 +248,10 @@ LanceCavalierCardLabel:
 LanceCavalierCardPalette:
 #incbin "LanceCavalierPalette.dmp"
 
-ChasseurCardLabel:
+PaladinCardLabel:
 #incbin "Chasseur.dmp"
 
-ChasseurCardPalette:
+PaladinCardPalette:
 #incbin "ChasseurPalette.dmp"
 
 AxeCavalierCardLabel:
@@ -260,10 +260,10 @@ AxeCavalierCardLabel:
 AxeCavalierCardPalette:
 #incbin "AxeCavalierPalette.dmp"
 
-ForesterCardLabel:
+ForestierCardLabel:
 #incbin "Forester.dmp"
 
-ForesterCardPalette:
+ForestierCardPalette:
 #incbin "ForesterPalette.dmp"
 
 ScoutCardLabel:
@@ -355,7 +355,7 @@ setCardEntry(RavagerCard, RavagerCardLabel, RavagerCardPalette)
 setCardEntry(SwordArmorCard, SwordArmorCardLabel, SwordArmorCardPalette)
 setCardEntry(DreadnoughtCard, DreadnoughtCardLabel, DreadnoughtCardPalette)
 setCardEntry(LanceArmorCard, LanceArmorCardLabel, LanceArmorCardPalette)
-setCardEntry(ChevalierCard, ChevalierCardLabel, ChevalierCardPalette)
+setCardEntry(GendarmeCard, GendarmeCardLabel, GendarmeCardPalette)
 setCardEntry(AxeArmorCard, AxeArmorCardLabel, AxeArmorCardPalette)
 setCardEntry(CataphractCard, CataphractCardLabel, CataphractCardPalette)
 setCardEntry(MageArmorCard, MageArmorCardLabel, MageArmorCardPalette)
@@ -370,11 +370,11 @@ setCardEntry(TrobairitzCard, TrobairitzCardLabel, TrobairitzCardPalette)
 setCardEntry(ThaumaturgeCard, ThaumaturgeCardLabel, ThaumaturgeCardPalette)
 setCardEntry(TemplarCard, TemplarCardLabel, TemplarCardPalette)
 setCardEntry(SwordCavalierCard, SwordCavalierCardLabel, SwordCavalierCardPalette)
-setCardEntry(CuirassierCard, CuirassierCardLabel, CuirassierCardPalette)
+setCardEntry(HakkapeliittaCard, HakkapeliittaCardLabel, HakkapeliittaCardPalette)
 setCardEntry(LanceCavalierCard, LanceCavalierCardLabel, LanceCavalierCardPalette)
-setCardEntry(ChasseurCard, ChasseurCardLabel, ChasseurCardPalette)
+setCardEntry(PaladinCard, PaladinCardLabel, PaladinCardPalette)
 setCardEntry(AxeCavalierCard, AxeCavalierCardLabel, AxeCavalierCardPalette)
-setCardEntry(ForesterCard, ForesterCardLabel, ForesterCardPalette)
+setCardEntry(ForestierCard, ForestierCardLabel, ForestierCardPalette)
 setCardEntry(ScoutCard, ScoutCardLabel, ScoutCardPalette)
 setCardEntry(RangerCard, RangerCardLabel, RangerCardPalette)
 setCardEntry(WindriderCard, WindriderCardLabel, WindriderCardPalette)

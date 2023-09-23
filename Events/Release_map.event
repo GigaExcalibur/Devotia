@@ -138,10 +138,10 @@ UNIT Pablo Spellmaster 0x40 0xA5         [5,11] 0 0 0 0 [Elfire, Purge] AttackIn
 UNIT
 
 EnemyUnits2:
-UNIT Vigarde General 0x40 0xA5    [10,2] 0 0 0 0 [Spear, SilverBlade, Tomahawk] NeverMoveAI
-UNIT Cyclops_boss Cyclops 0x40 0xA5       [9,4] 0 0 0 0 [BattleAxe, Tomahawk] AttackInRangeAI
-UNIT Cyclops_boss Cyclops 0x40 0xA5       [11,4] 0 0 0 0 [BattleAxe, Tomahawk] AttackInRangeAI
-UNIT Aias GreatKnight 0x40 0xA5   [7,11] 0 0 0 0 [ShortSpear, SilverBlade, SilverAxe] AttackInRangeAI
+UNIT Vigarde Gendarme 0x40 0xA5    [10,2] 0 0 0 0 [Spear, SilverBlade, Tomahawk] NeverMoveAI
+UNIT Cyclops_boss Hakkapeliitta 0x40 0xA5       [9,4] 0 0 0 0 [BattleAxe, Tomahawk] AttackInRangeAI
+UNIT Cyclops_boss Paladin 0x40 0xA5       [11,4] 0 0 0 0 [BattleAxe, Tomahawk] AttackInRangeAI
+UNIT Aias Forestier 0x40 0xA5   [7,11] 0 0 0 0 [ShortSpear, SilverBlade, SilverAxe] AttackInRangeAI
 UNIT Carlyle Swordmaster 0x40 0xA5 [10,9] 0 0 0 0 [WindSword] AttackInRangeAI
 UNIT Gheb Warrior 0x40 0xA5       [2,4] 0 0 0 0 [KillerAxe, KillerBow] NeverMoveAI
 UNIT Beran Ranger 0x40 0xA5       [17,14] 0 0 0 0 [Lancereaver, KillerBow, Longbow] AttackInRangeAI

@@ -57,7 +57,7 @@
 #define SwordArmorCard 0xB5
 #define DreadnoughtCard 0xB6
 #define LanceArmorCard 0xB7
-#define ChevalierCard 0xB8
+#define GendarmeCard 0xB8
 #define AxeArmorCard 0xB9
 #define CataphractCard 0xBA
 #define MageArmorCard 0xBB
@@ -71,11 +71,11 @@
 #define ThaumaturgeCard 0xC3
 #define TemplarCard 0xC4
 #define SwordCavalierCard 0xC5
-#define CuirassierCard 0xC6
+#define HakkapeliittaCard 0xC6
 #define LanceCavalierCard 0xC7
-#define ChasseurCard 0xC8
+#define PaladinCard 0xC8
 #define AxeCavalierCard 0xC9
-#define ForesterCard 0xCA
+#define ForestierCard 0xCA
 #define ScoutCard 0xCB
 #define RangerCard 0xCC
 #define WindriderCard 0xCD

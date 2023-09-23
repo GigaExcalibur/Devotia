@@ -202,12 +202,12 @@ Lance Armor[X]
 Armored vanguards that deflect hits.[N]
 This variant is trained in lances.[X]
 
-## ChevalierName
-Chevalier[X]
+## GendarmeName
+Gendarme[X]
 
-## ChevalierDesc
-Heavily armored cavalry meant to ride[N]
-in and deliver their army to victory.[X]
+## GendarmeDesc
+Drekkan heavy cavalry of men-at-arms[N]
+elevated from common status to ride.[X]
 
 ## AxeArmorName
 Axe Armor[X]
@@ -347,12 +347,12 @@ amputate any malignant tumor to heal.[X]
 Chivalrous horseman nobly knighted.[N]
 This variant is trained in swords.[X]
 
-## CuirassierName
-Cuirassier[X]
+## HakkapeliittaName
+Hackapell[X]
 
-## CuirassierDesc
-Noble paladins who stand a cut above[N]
-the common soldier on warhorses.[X]
+## HakkapeliittaDesc
+Advanced knights whose gallop with[N]
+swords and axes tramples all foes.[X]
 
 ## LanceCavalierName
 ^{Lance Cavalier}[X]
@@ -361,12 +361,12 @@ the common soldier on warhorses.[X]
 Chivalrous horseman nobly knighted.[N]
 This variant is trained in lances.[X]
 
-## ChasseurName
-Chasseur[X]
+## PaladinName
+Paladin[X]
 
-## ChasseurDesc
-Royal knights that use their position[N]
-to loyally advance their lord's banner.[X]
+## PaladinDesc
+Royal knights advancing their master's[N]
+banner by wielding lances and staves.[X]
 
 ## AxeCavalierName
 Axe Cavalier[X]
@@ -375,10 +375,10 @@ Axe Cavalier[X]
 Chivalrous horseman nobly knighted.[N]
 This variant is trained in axes.[X]
 
-## ForesterName
-Forester[X]
+## ForestierName
+Forestier[X]
 
-## ForesterDesc
+## ForestierDesc
 Down-to-earth advanced horsemen who[N]
 have the upper hand on all terrain.[X]
 

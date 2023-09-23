@@ -1,0 +1,22 @@
+#define MapSpriteYPos 0x97
+
+PUSH
+ORG 0x0886EC
+BYTE MapSpriteYPos
+
+ORG 0x087CE6
+BYTE MapSpriteYPos
+
+ORG 0x087DBC
+BYTE MapSpriteYPos
+
+ORG 0x087E34
+BYTE MapSpriteYPos
+
+ORG 0xA00708
+BYTE 0x09 // class name width
+
+ORG 0xA00710
+BYTE 0x01
+
+POP

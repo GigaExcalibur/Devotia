@@ -24,3 +24,5 @@ POP
 
 #include "MusicEvents/FortuneRavine.event"
 SongTable(FortuneRavineID, FortuneRavine, MapMusicGroup)
+#include "MusicEvents/gaming.event"
+SongTable(FieldsOfExpelID, FieldsOfExpel, MapMusicGroup)

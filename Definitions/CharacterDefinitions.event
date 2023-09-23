@@ -74,6 +74,6 @@
 #define BrynhildIntermission 0x56
 #define UlrichIntermission 0x57
 #define EvieIntermission 0x58
+#define CurtisIntermission 0x59
 
 // Chapter 1
-#define Terrance 0x59

@@ -482,3 +482,11 @@ Noiler[X]
 Drek's eminent High Commander. Origins in[N]
 the empire's church, her primary goal is[N]
 to uphold her citizens' moral integrity.[X]
+
+## CurtisName
+Curtis[X]
+
+## CurtisDesc
+A member of House Calicos, ambitious and[N]
+eagle-eyed. With the head of the house[N]
+ailing, he's taken management upon himself.[X]

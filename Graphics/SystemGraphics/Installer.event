@@ -1,0 +1,8 @@
+// DEVOTIA EXHIBITION subtitle
+PUSH
+ORG 0xAACEDC
+#incbin "title.dmp"
+
+ORG 0xAAB3F4
+#incbin "titlePalette.dmp"
+POP

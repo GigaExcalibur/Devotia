@@ -13,7 +13,7 @@ BYTE MapSpriteYPos
 ORG 0x087E34
 BYTE MapSpriteYPos
 
-ORG 0xA00708
-BYTE 0x0B // class name width
+//ORG 0xA00708
+//BYTE 0x0B // class name width
 
 POP

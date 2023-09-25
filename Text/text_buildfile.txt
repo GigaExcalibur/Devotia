@@ -232,3 +232,18 @@ a skill when used.[X]
 #include "TableText/TableTextInstaller.event"
 
 #include "ChapterText/ChapterTextInstaller.event"
+
+## BaseConvoCommandName
+Base Convos[X]
+
+## BaseConvoCommandDesc
+View base convos[N]
+between various[N]
+members of the army.[X]
+
+## BaseConvoCommandGoneDesc
+There are no more[N]
+base convos to see.[X]
+
+## BaseConvoSelectConvoText
+Select a conversation.[X]

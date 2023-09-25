@@ -227,7 +227,7 @@ LABEL 0
 #endif // DRAGON_VEINS
 
 TalkEvent:
-Text(0xc0a)
+Text(cursingtext)
 NoFade
 ENDA
 

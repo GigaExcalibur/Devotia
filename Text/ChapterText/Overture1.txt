@@ -4,3 +4,13 @@ Eliminate Wister[X]
 ## Overture1StatusObjective
 Cut off the rebellion[N]
 by eliminating Wister.[X]
+
+## BaseConvoTestName
+Test Base Convo[X]
+
+## BaseConvoTestName2
+Test Base Convo 2[X]
+
+## cursingtext
+[ML][LoadKlaudia]
+[ML]What the [anima][lock][monster][flier] is wrong with you?[A][X]

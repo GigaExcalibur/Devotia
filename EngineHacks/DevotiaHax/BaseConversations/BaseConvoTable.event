@@ -1,0 +1,43 @@
+
+#ifndef BASE_CONVO_TABLE
+	#define BASE_CONVO_TABLE
+
+	#define BaseConvoSize 32 // This NEEDS to be divisible by 4.
+	// I'd really prefer to be able to access sizeof(BaseConvoEntry), but idk if that's possible yet.
+	
+	gBaseConvosEnforceAlive:
+	BYTE True
+	
+	ALIGN 4
+	BaseConvoTable: // Allocate 0xFF * 8 entries. 0xFF chapters, 8 entries per chapter.
+	FILL 0xFF*8*BaseConvoSize
+
+	{
+	#include "ConvoTableDefs.event"
+	ALIGN 4
+	PUSH
+
+	Chapter(0x00)
+		Entry
+			name(BaseConvoTestName)
+			bg(0x00)
+			text(cursingtext)
+			eventID(0x07)
+			importance(1)
+			
+		Entry
+			name(BaseConvoTestName2)
+			bg(0x00)
+			text(cursingtext)
+			eventID(0x08)
+			importance(2)
+			
+	POP
+	}
+#endif // BASE_CONVO_TABLE
+
+/* Notes for custom base convos:
+1. Background REQUIRED.
+2. FADI into black highly recommended
+3. CLEAN is required.
+4. SVAL 0xB 0x1 is required.

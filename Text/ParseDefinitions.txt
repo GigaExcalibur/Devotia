@@ -26,6 +26,15 @@
 [FarRight] = [OpenFarRight]
 [FarFarRight] = [OpenFarFarRight]
 
+[FFL] = [FarFarLeft]
+[FL] = [FarLeft]
+[ML] = [MidLeft]
+[L] = [Left]
+[R] = [Right]
+[MR] = [MidRight]
+[FR] = [FarRight]
+[FFR] = [FarFarRight]
+
 [<-......] = [FarFarLeft]
 [<-] = [FarFarLeft]
 [v.....] = [FarLeft]
@@ -98,13 +107,11 @@
 [eight] = [0xe2][0x81][0xb8]
 [nine] = [0xe2][0x81][0xb9]
 
-
-
 [space] = [0xDE][0xB0]
 [sp] = [0xDE][0xB0]
 
-
-
+[LoadKlaudia] = [LoadFace][0x02][0x01]
+[LoadZero] = [LoadFace][0x03][0x01]
 
 
 

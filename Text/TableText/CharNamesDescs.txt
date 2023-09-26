@@ -3,8 +3,8 @@ Klaudia[X]
 
 ## KlaudiaDesc
 Heir apparent to House Ouahed.[N]
-Unwavering in devotion to[N]
-House Sarka's eternal glory.[X]
+Unwavering in her devotion to[N]
+House Sarka's righteous cause.[X]
 
 ## ZeroName
 Zero[X]
@@ -188,12 +188,12 @@ Ulrich[X]
 ## UlrichDesc
 Royal knight and nepotism hire of Sarka.[N]
 A natural people pleaser, he strives to[N]
-exceed the expecations of his new duty.[X]
+exceed the expectations of his new duty.[X]
 
-## EmilleName
-Emille[X]
+## EvieName
+Evie[X]
 
-## EmilleDesc
+## EvieDesc
 Royal knight and nepotism hire of Sarka.[N]
 A deviant, she shuns weapon training to[N]
 devote herself to study of elder magic.[X]
@@ -218,7 +218,7 @@ being torn from his mother years prior.[X]
 Ekaitz[X]
 
 ## EkaitzDesc
-Liutenant of renowned sellsword company[N]
+Lieutenant of renowned sellsword company[N]
 Aleyna's Mercenaries. A reformed gambler,[N]
 mellowed out after years on the run.[X]
 
@@ -298,7 +298,7 @@ and volunteers at a church regularly.[X]
 Orion[X]
 
 ## OrionDesc
-Drek's former lauded Arcane General.[N]
+Drek's formerly lauded Arcane General.[N]
 Once imprisoned for treason, he defected[N]
 to continue his work protecting children.[X]
 
@@ -335,7 +335,7 @@ orders as loyally as the hound he rides.[X]
 Evelyn[X]
 
 ## EvelynDesc
-Drek's former lauded Knight General.[N]
+Drek's formerly lauded Knight General.[N]
 Reunited with her only son, she severed[N]
 every connection to her military career.[X]
 
@@ -395,6 +395,14 @@ An ordinary and untrained commoner of[N]
 the Wolffian countryside. Swayed to[N]
 rebel by Wister's emphatic speeches.[X]
 
+## RanunName
+Ranun[X]
+
+## RanunDesc
+A young man hopelessly devoted to a[N]
+cause he knows is lost, yet one he[N]
+cannot bring himself to abandon...[X]
+
 ## CrocodileName
 Crocodile[X]
 
@@ -416,7 +424,7 @@ Fernyiges[X]
 
 ## FernyigesDesc
 Iron-fisted ruler of all of Meraly.[N]
-Feels it is his responsibility, as[N]
+Feels it is his responsibility, and[N]
 his alone, to make it bear fruit.[X]
 
 ## ZakariaName
@@ -426,6 +434,22 @@ Zakaria[X]
 Current lord of House Ouahed. Demure and[N]
 soft-spoken now, his early years were[N]
 full of revelry and irreperable mistakes.[X]
+
+## LemnaName
+Lemna[X]
+
+## LemnaDesc
+Digraced count of House Wolffia. Having[N]
+lost his son years prior, he drowns his[N]
+sorrows in his land's wine while it withers.[X]
+
+## MiksaName
+Miksa[X]
+
+## MiksaDesc
+Ambassador to Meraly from the ancient[N]
+kingdom of Rotingue. His ruthlessness[N]
+is second only to the Baron herself.[X]
 
 ## HafeezName
 Hafeez[X]
@@ -449,7 +473,7 @@ Winnehild[X]
 ## WinnehildDesc
 Drek's lauded Hawk General. Enthralled[N]
 by violence, she earned the position by[N]
-killer her predecessor last regime.[X]
+killing her predecessor last regime.[X]
 
 ## NolierName
 Noiler[X]
@@ -458,3 +482,11 @@ Noiler[X]
 Drek's eminent High Commander. Origins in[N]
 the empire's church, her primary goal is[N]
 to uphold her citizens' moral integrity.[X]
+
+## CurtisName
+Curtis[X]
+
+## CurtisDesc
+A member of House Calicos, ambitious and[N]
+eagle-eyed. With the head of the house[N]
+ailing, he's taken management upon himself.[X]

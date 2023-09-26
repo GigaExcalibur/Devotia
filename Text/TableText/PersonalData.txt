@@ -191,7 +191,11 @@ September 4[X]
 Bethelyn Tiller[X]
 
 ## BethHobby
-Gossipping[X]
+Eavesdropping[X]
 
 ## BethBirthday
 June 15[X]
+
+## RoswellFullName
+[0x5B]REDACTED[0x5D] Roswell[X]
+

@@ -25,10 +25,10 @@ _prNegate:
 	rMinus(rCurrent)
 
 _prAddBaseMountedAidBonus:
-	rAddConst(19)
+	rAddConst(24)
 
-_prAddMoreIfNotFemale: // Stupid mechanic imo, but we're going vanilla so :shrug:
-	rIfUnitHasNotAttribute(CA_FEMALE, rAddConst(5))
+_prAddMoreIfNotFemale: // NO MORE GENDERED AID!!!
+	rIfUnitHasAttribute(CA_MOUNTED, rAddConst(5)) // Called "mounted" but it's specifically horse icon
 }
 
 #endif // MODULAR_GETTER_AID_EVENT

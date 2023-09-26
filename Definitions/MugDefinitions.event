@@ -13,7 +13,7 @@
 #define CamMug 0x09
 #define GiselleMug 0x0A
 #define CrocodileMug 0x0B
-#define CountWolffiaMug 0x0C
+#define LemnaMug 0x0C
 #define SamilMug 0x0D
 
 // Intermission A gang
@@ -31,6 +31,61 @@
 #define BlaireMug 0x19
 #define LeviaMug 0x1A
 
-// Generics: ids 0xA1 - 0xFF
+// Generics: ids 0x81 - 0xA0
 
-// Class cards: ids 0xFF - 0x1FF
+// Class cards: ids 0xA1 - 0xFF
+#define MyrmidonCard 0xA1
+#define TruebladeCard 0xA2
+#define MercenaryCard 0xA3
+#define HeroCard 0xA4
+#define RunelordCard 0xA5
+#define ThiefCard 0xA6
+#define RogueCard 0xA7
+#define HunterCard 0xA8
+#define MarksmanCard 0xA9
+#define TricksterCard 0xAA
+#define LancerCard 0xAB
+#define HalberdierCard 0xAC
+#define VillagerCard 0xAD
+#define WarmasterCard 0xAE
+#define WoodsmanCard 0xAF
+#define VarangianCard 0xB0
+#define PirateCard 0xB1
+#define BerserkerCard 0xB2
+#define RaiderCard 0xB3
+#define RavagerCard 0xB4
+#define SwordArmorCard 0xB5
+#define DreadnoughtCard 0xB6
+#define LanceArmorCard 0xB7
+#define GendarmeCard 0xB8
+#define AxeArmorCard 0xB9
+#define CataphractCard 0xBA
+#define MageArmorCard 0xBB
+#define ThaumachineCard 0xBC
+#define AnimaMageCard 0xBD
+#define LightMageCard 0xBE
+#define DarkMageCard 0xBF
+#define SorcererCard 0xC0
+#define ClericCard 0xC1
+#define ValkyrieCard 0xC2
+#define ThaumaturgeCard 0xC3
+#define TemplarCard 0xC4
+#define SwordCavalierCard 0xC5
+#define HakkapeliittaCard 0xC6
+#define LanceCavalierCard 0xC7
+#define PaladinCard 0xC8
+#define AxeCavalierCard 0xC9
+#define ForestierCard 0xCA
+#define ScoutCard 0xCB
+#define RangerCard 0xCC
+#define WindriderCard 0xCD
+#define SeraphWingCard 0xCE
+#define HarrierCard 0xCF
+#define DaemonWingCard 0xD0
+#define DracoriderCard 0xD1
+#define DracolordCard 0xD2
+#define BombardierCard 0xD3
+#define BarbarossaCard 0xD4
+#define FalconeerCard 0xD5
+#define WarlockCard 0xD6
+#define TrobairitzCard 0xD7 // oopsie

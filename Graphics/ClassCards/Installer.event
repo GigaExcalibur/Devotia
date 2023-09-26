@@ -1,0 +1,388 @@
+#define setCardEntry(cardEntry,cardLocation,cardPaletteLocation) "PUSH; ORG PortraitTable+cardEntry*0x1C; POIN 0 0 cardPaletteLocation 0 cardLocation; POP"
+
+ALIGN 4
+MyrmidonCardLabel:
+#incbin "Myrmidon.dmp"
+
+MyrmidonCardPalette:
+#incbin "MyrmidonPalette.dmp"
+
+TruebladeCardLabel:
+#incbin "Trueblade.dmp"
+
+TruebladeCardPalette:
+#incbin "TruebladePalette.dmp"
+
+ALIGN 4
+MercenaryCardLabel:
+#incbin "Mercenary.dmp"
+
+MercenaryCardPalette:
+#incbin "MercenaryPalette.dmp"
+
+HeroCardLabel:
+#incbin "Hero.dmp"
+
+HeroCardPalette:
+#incbin "HeroPalette.dmp"
+
+RunelordCardLabel:
+#incbin "Runelord.dmp"
+
+RunelordCardPalette:
+#incbin "RunelordPalette.dmp"
+
+ThiefCardLabel:
+#incbin "Thief.dmp"
+
+ThiefCardPalette:
+#incbin "ThiefPalette.dmp"
+
+RogueCardLabel:
+#incbin "Rogue.dmp"
+
+RogueCardPalette:
+#incbin "RoguePalette.dmp"
+
+HunterCardLabel:
+#incbin "Hunter.dmp"
+
+HunterCardPalette:
+#incbin "HunterPalette.dmp"
+
+MarksmanCardLabel:
+#incbin "Marksman.dmp"
+
+MarksmanCardPalette:
+#incbin "MarksmanPalette.dmp"
+
+TricksterCardLabel:
+#incbin "Trickster.dmp"
+
+TricksterCardPalette:
+#incbin "TricksterPalette.dmp"
+
+LancerCardLabel:
+#incbin "Lancer.dmp"
+
+LancerCardPalette:
+#incbin "LancerPalette.dmp"
+
+HalberdierCardLabel:
+#incbin "Halberdier.dmp"
+
+HalberdierCardPalette:
+#incbin "HalberdierPalette.dmp"
+
+VillagerCardLabel:
+#incbin "Villager.dmp"
+
+VillagerCardPalette:
+#incbin "VillagerPalette.dmp"
+
+WarmasterCardLabel:
+#incbin "Warmaster.dmp"
+
+WarmasterCardPalette:
+#incbin "WarmasterPalette.dmp"
+
+WoodsmanCardLabel:
+#incbin "Woodsman.dmp"
+
+WoodsmanCardPalette:
+#incbin "WoodsmanPalette.dmp"
+
+VarangianCardLabel:
+#incbin "Varangian.dmp"
+
+VarangianCardPalette:
+#incbin "VarangianPalette.dmp"
+
+PirateCardLabel:
+#incbin "Pirate.dmp"
+
+PirateCardPalette:
+#incbin "PiratePalette.dmp"
+
+BerserkerCardLabel:
+#incbin "Berserker.dmp"
+
+BerserkerCardPalette:
+#incbin "BerserkerPalette.dmp"
+
+RaiderCardLabel:
+#incbin "Raider.dmp"
+
+RaiderCardPalette:
+#incbin "RaiderPalette.dmp"
+
+RavagerCardLabel:
+#incbin "Ravager.dmp"
+
+RavagerCardPalette:
+#incbin "RavagerPalette.dmp"
+
+SwordArmorCardLabel:
+#incbin "SwordArmor.dmp"
+
+SwordArmorCardPalette:
+#incbin "SwordArmorPalette.dmp"
+
+DreadnoughtCardLabel:
+#incbin "Dreadnought.dmp"
+
+DreadnoughtCardPalette:
+#incbin "DreadnoughtPalette.dmp"
+
+LanceArmorCardLabel:
+#incbin "LanceArmor.dmp"
+
+LanceArmorCardPalette:
+#incbin "LanceArmorPalette.dmp"
+
+GendarmeCardLabel:
+#incbin "Chevalier.dmp"
+
+GendarmeCardPalette:
+#incbin "ChevalierPalette.dmp"
+
+AxeArmorCardLabel:
+#incbin "AxeArmor.dmp"
+
+AxeArmorCardPalette:
+#incbin "AxeArmorPalette.dmp"
+
+CataphractCardLabel:
+#incbin "Cataphract.dmp"
+
+CataphractCardPalette:
+#incbin "CataphractPalette.dmp"
+
+MageArmorCardLabel:
+#incbin "MageArmor.dmp"
+
+MageArmorCardPalette:
+#incbin "MageArmorPalette.dmp"
+
+ThaumachineCardLabel:
+#incbin "Thaumachine.dmp"
+
+ThaumachineCardPalette:
+#incbin "ThaumachinePalette.dmp"
+
+AnimaMageCardLabel:
+#incbin "AnimaMage.dmp"
+
+AnimaMageCardPalette:
+#incbin "AnimaMagePalette.dmp"
+
+LightMageCardLabel:
+#incbin "LightMage.dmp"
+
+LightMageCardPalette:
+#incbin "LightMagePalette.dmp"
+
+DarkMageCardLabel:
+#incbin "DarkMage.dmp"
+
+DarkMageCardPalette:
+#incbin "DarkMagePalette.dmp"
+
+SorcererCardLabel:
+#incbin "Sorcerer.dmp"
+
+SorcererCardPalette:
+#incbin "SorcererPalette.dmp"
+
+WarlockCardLabel:
+#incbin "Warlock.dmp"
+
+WarlockCardPalette:
+#incbin "WarlockPalette.dmp"
+
+ClericCardLabel:
+#incbin "Cleric.dmp"
+
+ClericCardPalette:
+#incbin "ClericPalette.dmp"
+
+ValkyrieCardLabel:
+#incbin "Valkyrie.dmp"
+
+ValkyrieCardPalette:
+#incbin "ValkyriePalette.dmp"
+
+TrobairitzCardLabel:
+#incbin "Trobairitz.dmp"
+
+TrobairitzCardPalette:
+#incbin "TrobairitzPalette.dmp"
+
+ThaumaturgeCardLabel:
+#incbin "Thaumaturge.dmp"
+
+ThaumaturgeCardPalette:
+#incbin "ThaumaturgePalette.dmp"
+
+TemplarCardLabel:
+#incbin "Templar.dmp"
+
+TemplarCardPalette:
+#incbin "TemplarPalette.dmp"
+
+SwordCavalierCardLabel:
+#incbin "SwordCavalier.dmp"
+
+SwordCavalierCardPalette:
+#incbin "SwordCavalierPalette.dmp"
+
+HakkapeliittaCardLabel:
+#incbin "Cuirassier.dmp"
+
+HakkapeliittaCardPalette:
+#incbin "CuirassierPalette.dmp"
+
+LanceCavalierCardLabel:
+#incbin "LanceCavalier.dmp"
+
+LanceCavalierCardPalette:
+#incbin "LanceCavalierPalette.dmp"
+
+PaladinCardLabel:
+#incbin "Chasseur.dmp"
+
+PaladinCardPalette:
+#incbin "ChasseurPalette.dmp"
+
+AxeCavalierCardLabel:
+#incbin "AxeCavalier.dmp"
+
+AxeCavalierCardPalette:
+#incbin "AxeCavalierPalette.dmp"
+
+ForestierCardLabel:
+#incbin "Forester.dmp"
+
+ForestierCardPalette:
+#incbin "ForesterPalette.dmp"
+
+ScoutCardLabel:
+#incbin "Scout.dmp"
+
+ScoutCardPalette:
+#incbin "ScoutPalette.dmp"
+
+RangerCardLabel:
+#incbin "Ranger.dmp"
+
+RangerCardPalette:
+#incbin "RangerPalette.dmp"
+
+WindriderCardLabel:
+#incbin "Windrider.dmp"
+
+WindriderCardPalette:
+#incbin "WindriderPalette.dmp"
+
+SeraphWingCardLabel:
+#incbin "SeraphWing.dmp"
+
+SeraphWingCardPalette:
+#incbin "SeraphWingPalette.dmp"
+
+HarrierCardLabel:
+#incbin "Harrier.dmp"
+
+HarrierCardPalette:
+#incbin "HarrierPalette.dmp"
+
+DaemonWingCardLabel:
+#incbin "DaemonWing.dmp"
+
+DaemonWingCardPalette:
+#incbin "DaemonWingPalette.dmp"
+
+DracoriderCardLabel:
+#incbin "Dracorider.dmp"
+
+DracoriderCardPalette:
+#incbin "DracoriderPalette.dmp"
+
+DracolordCardLabel:
+#incbin "Dracolord.dmp"
+
+DracolordCardPalette:
+#incbin "DracolordPalette.dmp"
+
+BombardierCardLabel:
+#incbin "Bombardier.dmp"
+
+BombardierCardPalette:
+#incbin "BombardierPalette.dmp"
+
+BarbarossaCardLabel:
+#incbin "Barbarossa.dmp"
+
+BarbarossaCardPalette:
+#incbin "BarbarossaPalette.dmp"
+
+FalconeerCardLabel:
+#incbin "Falconeer.dmp"
+
+FalconeerCardPalette:
+#incbin "FalconeerPalette.dmp"
+
+setCardEntry(MyrmidonCard, MyrmidonCardLabel, MyrmidonCardPalette)
+setCardEntry(TruebladeCard, TruebladeCardLabel, TruebladeCardPalette)
+setCardEntry(MercenaryCard, MercenaryCardLabel, MercenaryCardPalette)
+setCardEntry(HeroCard, HeroCardLabel, HeroCardPalette)
+setCardEntry(RunelordCard, RunelordCardLabel, RunelordCardPalette)
+setCardEntry(ThiefCard, ThiefCardLabel, ThiefCardPalette)
+setCardEntry(HunterCard, HunterCardLabel, HunterCardPalette)
+setCardEntry(RogueCard, RogueCardLabel, RogueCardPalette)
+setCardEntry(TricksterCard, TricksterCardLabel, TricksterCardPalette)
+setCardEntry(MarksmanCard, MarksmanCardLabel, MarksmanCardPalette)
+setCardEntry(LancerCard, LancerCardLabel, LancerCardPalette)
+setCardEntry(HalberdierCard, HalberdierCardLabel, HalberdierCardPalette)
+setCardEntry(VillagerCard, VillagerCardLabel, VillagerCardPalette)
+setCardEntry(WarmasterCard, WarmasterCardLabel, WarmasterCardPalette)
+setCardEntry(WoodsmanCard, WoodsmanCardLabel, WoodsmanCardPalette)
+setCardEntry(VarangianCard, VarangianCardLabel, VarangianCardPalette)
+setCardEntry(PirateCard, PirateCardLabel, PirateCardPalette)
+setCardEntry(BerserkerCard, BerserkerCardLabel, BerserkerCardPalette)
+setCardEntry(RaiderCard, RaiderCardLabel, RaiderCardPalette)
+setCardEntry(RavagerCard, RavagerCardLabel, RavagerCardPalette)
+setCardEntry(SwordArmorCard, SwordArmorCardLabel, SwordArmorCardPalette)
+setCardEntry(DreadnoughtCard, DreadnoughtCardLabel, DreadnoughtCardPalette)
+setCardEntry(LanceArmorCard, LanceArmorCardLabel, LanceArmorCardPalette)
+setCardEntry(GendarmeCard, GendarmeCardLabel, GendarmeCardPalette)
+setCardEntry(AxeArmorCard, AxeArmorCardLabel, AxeArmorCardPalette)
+setCardEntry(CataphractCard, CataphractCardLabel, CataphractCardPalette)
+setCardEntry(MageArmorCard, MageArmorCardLabel, MageArmorCardPalette)
+setCardEntry(ThaumachineCard, ThaumachineCardLabel, ThaumachineCardPalette)
+setCardEntry(LightMageCard, LightMageCardLabel, LightMageCardPalette)
+setCardEntry(AnimaMageCard, AnimaMageCardLabel, AnimaMageCardPalette)
+setCardEntry(DarkMageCard, DarkMageCardLabel, DarkMageCardPalette)
+setCardEntry(SorcererCard, SorcererCardLabel, SorcererCardPalette)
+setCardEntry(ClericCard, ClericCardLabel, ClericCardPalette)
+setCardEntry(ValkyrieCard, ValkyrieCardLabel, ValkyrieCardPalette)
+setCardEntry(TrobairitzCard, TrobairitzCardLabel, TrobairitzCardPalette)
+setCardEntry(ThaumaturgeCard, ThaumaturgeCardLabel, ThaumaturgeCardPalette)
+setCardEntry(TemplarCard, TemplarCardLabel, TemplarCardPalette)
+setCardEntry(SwordCavalierCard, SwordCavalierCardLabel, SwordCavalierCardPalette)
+setCardEntry(HakkapeliittaCard, HakkapeliittaCardLabel, HakkapeliittaCardPalette)
+setCardEntry(LanceCavalierCard, LanceCavalierCardLabel, LanceCavalierCardPalette)
+setCardEntry(PaladinCard, PaladinCardLabel, PaladinCardPalette)
+setCardEntry(AxeCavalierCard, AxeCavalierCardLabel, AxeCavalierCardPalette)
+setCardEntry(ForestierCard, ForestierCardLabel, ForestierCardPalette)
+setCardEntry(ScoutCard, ScoutCardLabel, ScoutCardPalette)
+setCardEntry(RangerCard, RangerCardLabel, RangerCardPalette)
+setCardEntry(WindriderCard, WindriderCardLabel, WindriderCardPalette)
+setCardEntry(SeraphWingCard, SeraphWingCardLabel, SeraphWingCardPalette)
+setCardEntry(HarrierCard, HarrierCardLabel, HarrierCardPalette)
+setCardEntry(DaemonWingCard, DaemonWingCardLabel, DaemonWingCardPalette)
+setCardEntry(DracoriderCard, DracoriderCardLabel, DracoriderCardPalette)
+setCardEntry(DracolordCard, DracolordCardLabel, DracolordCardPalette)
+setCardEntry(BombardierCard, BombardierCardLabel, BombardierCardPalette)
+setCardEntry(BarbarossaCard, BarbarossaCardLabel, BarbarossaCardPalette)
+setCardEntry(FalconeerCard, FalconeerCardLabel, FalconeerCardPalette)

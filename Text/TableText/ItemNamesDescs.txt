@@ -67,34 +67,34 @@ Glows with arcane infusement.[N]
 Attacks are magical.[X]
 
 ## IronSwordName
-Iron Sword[X]
+Iron sword[X]
 
 ## SteelSwordName
-Steel Sword[X]
+Steel sword[X]
 
 ## SilverSwordName
-Silver Sword[X]
+Silver sword[X]
 
 ## IronSabreName
-Iron Sabre[X]
+Iron sabre[X]
 
 ## SteelSabreName
-Steel Sabre[X]
+Steel sabre[X]
 
 ## SilverSabreName
-Silver Sabre[X]
+Silver sabre[X]
 
 ## IronBroadswordName
-Iron Broadsword[X]
+Iron broadsword[X]
 
 ## SteelBroadswordName
-Steel Broadsword[X]
+Steel broadsword[X]
 
 ## SilverBroadswordName
-Silver Broadsword[X]
+Silver broadsword[X]
 
 ## LightBrandName
-Light Brand[X]
+Light brand[X]
 
 ## WyrmslayerName
 Wyrmslayer[X]
@@ -103,40 +103,40 @@ Wyrmslayer[X]
 Lancereaver[X]
 
 ## RubySwordName
-Ruby Sword[X]
+Ruby sword[X]
 
 ## KillingEdgeName
-Killing Edge[X]
+Killing edge[X]
 
 ## QuickSwordName
-Quick Sword[X]
+Quick sword[X]
 
 ## IronLanceName
-Iron Lance[X]
+Iron lance[X]
 
 ## SteelLanceName
-Steel Lance[X]
+Steel lance[X]
 
 ## SilverLanceName
-Silver Lance[X]
+Silver lance[X]
 
 ## IronGlaiveName
-Iron Glaive[X]
+Iron glaive[X]
 
 ## SteelGlaiveName
-Steel Glaive[X]
+Steel glaive[X]
 
 ## SilverGlaiveName
-Silver Glaive[X]
+Silver glaive[X]
 
 ## IronGreatlanceName
-Iron Greatlance[X]
+Iron greatlance[X]
 
 ## SteelGreatlanceName
-Steel Greatlance[X]
+Steel greatlance[X]
 
 ## SilverGreatlanceName
-Silver Greatlance[X]
+Silver greatlance[X]
 
 ## JavelinName
 Javelin[X]
@@ -148,43 +148,43 @@ Spear[X]
 Axereaver[X]
 
 ## SapphireLanceName
-Sapphire Lance[X]
+Sapphire lance[X]
 
 ## KillerLanceName
-Killer Lance[X]
+Killer lance[X]
 
 ## BattleflagName
 Battleflag[X]
 
 ## IronAxeName
-Iron Axe[X]
+Iron axe[X]
 
 ## SteelAxeName
-Steel Axe[X]
+Steel axe[X]
 
 ## SilverAxeName
-Silver Axe[X]
+Silver axe[X]
 
 ## IronVoulgeName
-Iron Voulge[X]
+Iron voulge[X]
 
 ## SteelVoulgeName
-Steel Voulge[X]
+Steel voulge[X]
 
 ## SilverVoulgeName
-Silver Voulge[X]
+Silver voulge[X]
 
 ## IronHamaxeName
-Iron Hamaxe[X]
+Iron hamaxe[X]
 
 ## SteelHamaxeName
-Steel Hamaxe[X]
+Steel hamaxe[X]
 
 ## SilverHamaxeName
-Silver Hamaxe[X]
+Silver hamaxe[X]
 
 ## HandAxeName
-Hand Axe[X]
+Hand axe[X]
 
 ## TomahawkName
 Tomahawk[X]
@@ -193,43 +193,43 @@ Tomahawk[X]
 Swordreaver[X]
 
 ## EmeraldAxeName
-Emerald Axe[X]
+Emerald axe[X]
 
 ## KillerAxeName
-Killer Axe[X]
+Killer axe[X]
 
 ## RaiderAxeName
-Raider Axe[X]
+Raider axe[X]
 
 ## DevilAxeName
-Devil Axe[X]
+Devil axe[X]
 
 ## IronBowName
-Iron Bow[X]
+Iron bow[X]
 
 ## SteelBowName
-Steel Bow[X]
+Steel bow[X]
 
 ## SilverBowName
-Silver Bow[X]
+Silver bow[X]
 
 ## IronCompositeName
-Iron Composite[X]
+Iron composite[X]
 
 ## SteelCompositeName
-Steel Composite[X]
+Steel composite[X]
 
 ## SilverCompositeName
-Silver Composite[X]
+Silver composite[X]
 
 ## IronBarebowName
-Iron Barebow[X]
+Iron barebow[X]
 
 ## SteelBarebowName
-Steel Barebow[X]
+Steel barebow[X]
 
 ## SilverBarebowName
-Silver Barebow[X]
+Silver barebow[X]
 
 ## MinibowName
 Minibow[X]
@@ -244,10 +244,10 @@ Longbow[X]
 Greatbow[X]
 
 ## KillerBowName
-Killer Bow[X]
+Killer bow[X]
 
 ## RadiantBowName
-Radiant Bow[X]
+Radiant bow[X]
 
 ## FortuneStaffName
 Fortune[X]
@@ -557,6 +557,24 @@ Regoliath[X]
 
 ## CataclysmaelstromName
 Cataclysmaelstrom[X]
+
+## CopperFilledPouchName
+Copper-filled pouch[X]
+
+## CopperFilledPouchDesc
+Worth a pittance.[X]
+
+## SilverFilledPouchName
+Silver-filled pouch[X]
+
+## SilverFilledPouchDesc
+Worth a smattering.[X]
+
+## GoldFilledPouchName
+Gold-filled pouch[X]
+
+## GoldFilledPouchDesc
+Worth a fortune.[X]
 
 ## CataclysmaelstromDesc
 Klaudia[lock] Fire/wind magic combo.[N]

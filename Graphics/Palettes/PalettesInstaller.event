@@ -1,0 +1,15 @@
+// Faction map sprite palettes (all credit to feier)
+
+PUSH
+// Player (red)
+ORG $59EE20
+BYTE $90 $42 $2D $25 $93 $52 $58 $6B $8E $31 $56 $2E $FF $6B $4D $0C $51 $08 $B7 $10 $3E $1D $40 $2B $FF $23 $30 $3A $FF $7F $E8 $1C
+
+// Enemy (purple)
+ORG $59EE40
+BYTE $90 $42 $2D $35 $F4 $5D $FB $7A $8E $31 $56 $2E $FF $6B $A9 $34 $CE $48 $74 $61 $39 $72 $1F $2C $FF $23 $30 $3A $FF $7F $E8 $1C
+
+// NPC (cyan)
+ORG $59EE60
+BYTE $90 $42 $2B $3D $CD $6A $58 $7F $8E $31 $56 $2E $FF $6B $44 $2D $C4 $41 $A8 $62 $6D $7B $76 $0F $FF $23 $30 $3A $FF $7F $E8 $1C
+POP

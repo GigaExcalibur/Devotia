@@ -1,3 +1,9 @@
+#include "CBaseConvos/BaseConvos.event"
+// Snek
+
+#include "MapSpritesDown/MapSpritesDown.event"
+// Me!
+
 #include "ExtendWeaponDescBox/Installer.event"
 // Vesly
 
@@ -42,4 +48,22 @@
 
 #include "SendInventoryOnDeath/Installer.event"
 // Contro
+
+#include "GuideEvent/shinan.event"
+// Unknown but their name isn't "shinan"
+
+#include "OpeningSkips/OpeningSkips.event"
+// 7743, Nat, Circles
+
+#include "IgnoreTriangle/Installer.event"
+// Me!
+
+#include "FE8-Walking Sounds Fix/FE8-Walking Sounds EA.txt"
+// Teq
+
+#include "FE8-Text_Engine_Rework/_FE8-Text_Engine_Rework_EA.event"
+// Teq
+
+#include "256 colors Title background Installer/titlebackgroundinstaller.event"
+// Leonarth
 

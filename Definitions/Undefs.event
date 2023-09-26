@@ -18,6 +18,7 @@
 #undef Ranger
 #undef Bard
 #undef Prince
+#undef Paladin
 
 // Items
 #undef IronSword

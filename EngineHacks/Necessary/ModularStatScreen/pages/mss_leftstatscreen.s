@@ -12,10 +12,7 @@ leftpage_start
 
 draw_character_name_at 3,10
 draw_class_name_at 1,13
-
-
 @draw_left_affinity_icon_at 10,10
-
 
 draw_lv_icon_at 1, 15
 draw_level_at 4, 15
@@ -30,7 +27,6 @@ draw_max_hp 7, 17
 
 ldr r0,=#0x442
 bl HP_Name_Color
-
 
 page_end
 

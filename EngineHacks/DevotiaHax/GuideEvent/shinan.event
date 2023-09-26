@@ -1,0 +1,28 @@
+#include "Tools/Tool Helpers.txt"
+
+PUSH
+ORG	 	0x59CED8	// address of "records" chapter menu entry
+POIN	shinan_string
+SHORT	BackstageName BackstageDesc		//右がヘルプ指定
+SHORT	$6304 0
+POIN	0x804F448 + 1       //show always
+POIN	GreenMenu0x26 + 1   //緑色表示
+POIN	Shinnan + 1         //指南を実行
+WORD	0 0 0
+POP
+
+Shinnan:
+#incbin "Shinan.dmp"
+POIN shinan_table
+
+GreenMenu0x26:
+#incbin "GreenMenu0x26.dmp"
+
+ALIGN 4
+#include "shinan_table.event"
+
+ALIGN 4
+shinan_string:
+#incbin "menuname_shinan_name.bin"
+
+ALIGN 4

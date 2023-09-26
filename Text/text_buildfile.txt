@@ -57,130 +57,65 @@ How much a unit can get the snot[N]
 beaten out of them at once.[X]
 
 # 0x546
-Raw physical strength, good for both arm[N]
-wrestling and, well, fighting to the death.[X]
+How many hours this unit[N]
+worked out at the gym.[X]
 
 # 0x547
-Intelligence, wisdom, IQ, how many hours[N]
-the unit worked out at the library.[X]
+How many hours this unit[N]
+worked out at the library.[X]
 
 # 0x548
 How deft a unit is with their hands.[N]
-Somehow affects critical hits.[X]
+For mages, how fast they turn pages.[X]
 
 # 0x549
-Speed[X]
+The best stat in every[N]
+video game to ever exist.[X]
 
 # 0x54A
 The likelihood a unit is to not[N]
 die from random heart failure.[X]
 
 # 0x54B
-Defense[X]
+The stat that actually helps you[N]
+against 80% of enemy types.[X]
 
 # 0x54C
-Res[X]
+The stat that snake oil pure water[N]
+salesmen tell you is underrated.[X]
 
 # 0x690
- Check Status[X]
+ Ch. status[X]
+ 
+# 0x6E0
+Look at chapter information such as[N]
+enemy count, gold, and turn number.[X]
 
 # 0x69A
- View Unit List[X]
-
-# 0x69B
- Config Settings[X]
+ Unit list[X]
+ 
+# 0x6DF
+View properties of all units[N]
+currently in the battle.[X]
+ 
+# 0x6E1
+Configure various game settings.[X]
 
 # 0x69C
- Open Playbill[X]
- 
-# 0x69F
- Suspend Game[X]
+ Playbill[X]
+
+# 0x06E5
+Learn details about the cast and[N]
+crew that brought you Devotia![X]
  
 # 0x6A0
- End Turn[X]
- 
-# 0x067A
- Seize Throne[X]
-
-# 0x067B
- Attack Foe[.][X]
-
-# 0x067C
- Use Staff[X]
-
-# 0x067D
- Refresh Ally[X]
-
-# 0x067E
- Refresh Ally[X]
-
-# 0x067F
- Steal Item[X]
-
-# 0x0680
- Initiate Talk[X]
-
-# 0x0681
- Initiate Support[X]
-
-# 0x0682
- Visit House[X]
-
-# 0x0683
- Unlock Chest[X]
-
-# 0x0684
- Unlock Door[X]
-
-# 0x0685
- Browse Armory[X]
-
-# 0x0686
- Browse Vendor[X]
-
-# 0x0687
- Browse Secret[X]
-
-# 0x0688
- Register Arena[X]
-
-# 0x0689
- Rescue Ally[X]
-
-# 0x068A
- Drop Ally[X]
-
-# 0x068B
- Take Ally[X]
-
-# 0x068C
- Give Ally[X]
-
-# 0x068D
- View Equipment[X]
-
-# 0x068E
- Trade Items[X]
-
-# 0x068F
- Open Supply[X]
-
-# 0x0693
- Raise Dead[X]
-
-# 0x0694
- Pick Lock[X]
-
-# 0x0695
- Wait In Place[X]
+ End turn[X]
 
 #0x3A LearnedSkillText
 //first text ID in the free block
 Learned  [X]
 
 #include "statscreen_text.txt"
-
-
 
 #0xd4c LikesText
 //first text ID in the free block
@@ -297,3 +232,18 @@ a skill when used.[X]
 #include "TableText/TableTextInstaller.event"
 
 #include "ChapterText/ChapterTextInstaller.event"
+
+## BaseConvoCommandName
+Base Convos[X]
+
+## BaseConvoCommandDesc
+View base convos[N]
+between various[N]
+members of the army.[X]
+
+## BaseConvoCommandGoneDesc
+There are no more[N]
+base convos to see.[X]
+
+## BaseConvoSelectConvoText
+Select a conversation.[X]

@@ -23,7 +23,7 @@
 #define Evren 0x16
 #define Dane 0x17
 #define Ulrich 0x18
-#define Emille 0x19
+#define Evie 0x19
 #define Maybelline 0x1A
 #define Lux 0x1B
 #define Ekaitz 0x1C
@@ -48,20 +48,32 @@
 #define Cetus 0x2F
 
 // Enemiez
+
+// Overture 1
 #define Wister 0x46
 #define Peasant 0x47
-#define Crocodile 0x48
-#define Marauder 0x49
-#define Hafeez 0x4A // to not reveal recruitability in intermission
-#define Operiere 0x4B // to not reveal recruitability in intermission
-#define Winnehild 0x4C // unrecruitable but needs to show uniform stats
-#define Nolier 0x4D // unrecruitable but needs to show uniform stats
-#define Terrance 0x4E
-#define Graminea 0x4F
-#define WarmongerCaptain 0x50
-#define Warmonger 0x51
-#define DrekkanSubcaptain 0x52
-#define Trooper 0x53
-#define Contractor 0x54
-#define CountGraminea 0x55
-#define Lictor 0x56
+#define RanunOverture 0x48
+
+// Overture 2
+#define Crocodile 0x49
+#define Marauder 0x4A
+#define LemnaOverture 0x4B
+
+// Intermission A
+#define FernyigesIntermission 0x4C // to hide boss flags
+#define Zakaria 0x4D
+#define MiksaIntermission 0x4E
+#define HafeezIntermission 0x4F
+#define OperiereIntermission 0x50
+#define WinnehildIntermission 0x50
+#define NolierIntermission 0x51
+#define EvrenIntermission 0x52 // to hide personal data before recruited
+#define DaneIntermission 0x53
+#define CetusIntermission 0x54
+#define StuartIntermission 0x55
+#define BrynhildIntermission 0x56
+#define UlrichIntermission 0x57
+#define EvieIntermission 0x58
+#define CurtisIntermission 0x59
+
+// Chapter 1

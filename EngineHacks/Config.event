@@ -11,7 +11,7 @@
 #define USE_TEST_MAP
 
 // The amount of attack speed needed to double an opponent.
-#define AS_DOUBLING_THRESHOLD 4
+#define AS_DOUBLING_THRESHOLD 3
 
 // If true, dropped items will retain their durability.
 #define DROPPED_ITEM_DURABILITY False
@@ -277,7 +277,7 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 // #define DISABLE_CHARGE
 
 //If commented, Triangle Attack will use a skill check instead of a bitflag.
-//#define VANILLA_TRIANGLE_ATTACK
+#define VANILLA_TRIANGLE_ATTACK
 
 //If HEROES_MOVEMENT_SKILL_REQUIRED is not defined, this setting will control whether or not skills can still be used.
 #define ALSO_USE_MOVEMENT_SKILL_CHECK True

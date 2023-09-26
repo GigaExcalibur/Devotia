@@ -37,7 +37,7 @@
 #define SwordArmor 0x1A
 #define Dreadnought 0x1B
 #define LanceArmor 0x1C
-#define Chevalier 0x1D
+#define Gendarme 0x1D
 #define AxeArmor 0x1E
 #define Cataphract 0x1F
 #define MageArmor 0x20
@@ -53,7 +53,7 @@
 #define Necromancer 0x28
 #define Sage 0x29
 #define Sorcerer 0x2A
-
+ 
 // Healers
 #define Cleric 0x2B
 #define Valkyrie 0x2C
@@ -63,11 +63,11 @@
 
 // Horsemen
 #define SwordCavalier 0x30
-#define Cuirassier 0x31
+#define Hakkapeliitta 0x31
 #define LanceCavalier 0x32
-#define Chasseur 0x33
+#define Paladin 0x33
 #define AxeCavalier 0x35 // skip one for gorgon egg
-#define Forester 0x36
+#define Forestier 0x36
 #define Scout 0x3F // skip a couple for trainees and manaketes
 #define Ranger 0x40
 
@@ -108,3 +108,4 @@
 #define Overlord 0x63 // skip one for gorgon egg
 #define Agastya 0x64
 #define GremoryLordZakaria 0x73 // skip a bunch for hardcoded stuff
+#define PrinceIntermission 0x74

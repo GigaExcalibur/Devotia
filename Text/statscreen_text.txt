@@ -9,8 +9,8 @@ Character with whom this unit[N]
 may talk on the battlefield.[X]
 
 ## SS_SkillsRText
-Special abilities that can do[N]
-many different things.[X]
+The unit's designated special[N]
+ability, or lack thereof.[X]
 
 ## SS_SkillsDefaultRText
 No skill description found.[X]
@@ -100,3 +100,10 @@ sanic speed lmao xd[X]
 ## CritAvoidStatScreenDesc
 The degree to which your unit is[N]
 guarded against enemy criticals.[X]
+
+## BackstageName
+ Backstage[X]
+ 
+## BackstageDesc
+View an exclusive tour of[N]
+Devotia behind the scenes.[X]

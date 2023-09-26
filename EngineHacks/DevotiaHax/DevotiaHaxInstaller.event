@@ -67,3 +67,5 @@
 #include "256 colors Title background Installer/titlebackgroundinstaller.event"
 // Leonarth
 
+#include "NewComputeUnitBattleDefense/Installer.event"
+// Me!

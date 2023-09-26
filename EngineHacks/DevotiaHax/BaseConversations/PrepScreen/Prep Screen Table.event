@@ -1,3 +1,0 @@
-#define _C2EA_Prep_Screen_Table(arg000,arg001,arg002,arg003,arg004,arg005,arg006) "SHORT arg000 arg001 ;WORD arg002 arg003 ;SHORT arg004 arg005 ;WORD arg006 "
-
-PUSH

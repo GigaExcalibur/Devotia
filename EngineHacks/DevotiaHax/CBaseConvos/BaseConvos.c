@@ -1,6 +1,6 @@
 
 #include <stddef.h>
-#include "FE-CLib-master/include/gbafe.h"
+#include "../FE-CLib-master/include/gbafe.h"
 
 typedef struct BaseConvoEntry BaseConvoEntry;
 typedef struct BaseConvoProc BaseConvoProc;
@@ -9,22 +9,22 @@ typedef struct MenuCommandDefinition MenuCommandDefinition;
 
 struct BaseConvoEntry
 {
-	u8 character1;
-	u8 character2;
-	u8 background;
-	u8 supportLevel;
-	int (*usability)(const BaseConvoEntry* entry); // ASM usability pointer.
-	void* event;
-	u16 title;
-	u16 music;
-	char* (*textGetter)(const BaseConvoEntry* entry); // Returns a pointer to the string of text to use.
-	u16 textID;
-	u8 item;
-	u8 giveTo; // Give the item to this person.
-	UnitDefinition* unit;
-	u16 eventID;
-	u8 importance;
-	u8 exists;
+	u8 character1; // 0.
+	u8 character2; // 1.
+	u8 background; // 2. 
+	u8 supportLevel; // 3.
+	int (*usability)(const BaseConvoEntry* entry); // 4. ASM usability pointer.
+	void* event; // 8.
+	u16 title; // 12.
+	u16 music; // 14.
+	char* (*textGetter)(const BaseConvoEntry* entry); // 16. Returns a pointer to the string of text to use.
+	u16 textID; // 20.
+	u8 item; // 22.
+	u8 giveTo; // 23. Give the item to this person.
+	UnitDefinition* unit; // 24.
+	u16 eventID; // 28.
+	u8 importance; // 30.
+	u8 exists; // 31.
 };
 
 struct BaseConvoProc
@@ -32,10 +32,11 @@ struct BaseConvoProc
 	PROC_HEADER;
 	u8 viewingEntry; // 0x29.
 	u8 wasBPressed; // 0x2A.
-	u8 free[0x42 - 0x2B]; // 0x2B.
+	u8 usability; // 0x2B. Usability bitfield for 8 menu options.
+	u8 free[0x42 - 0x2C]; // 0x2C.
 	u8 prepThemeThing; // 0x42. This needs to be set before exiting?
-	struct MenuDefinition menuData; // 0x44.
-	// Ends at 0x64.
+	Proc* eventEngine; // 0x44.
+	struct MenuDefinition menuData; // 0x48.
 };
 
 #define GetEntry(c,i) &BaseConvoTable[c][i]
@@ -46,11 +47,10 @@ extern const MenuCommandDefinition BaseConvoMenuCommands;
 extern BaseConvoEntry BaseConvoTable[0xFF][8];
 extern const void CallBaseConvoEvents;
 extern void BaseSupportExternalConvoSetup(BaseConvoEntry* entry);
-extern const u8 gBaseConvosEnforceAlive; // Used as an option flag to see whether base convos should only work for units that are alive (and exist).
 
 extern const ProcInstruction SALLYCURSOR; // 0x0859DBBC.
 extern u32 gMemorySlot[16]; // 0x030004B8.
-extern struct TextHandle TextHandleStruct; // 0x02013588.
+extern struct TextHandle TextHandleStruct; // 0x02013590.
 extern u16 SomeBgMap; // ptr = 0x02023136.
 extern void EndBG3Slider(void); // 0x08086DBC.
 extern char WriteTextTo; // 0x0203EFC0.
@@ -58,7 +58,7 @@ extern char WriteTextTo; // 0x0203EFC0.
 extern void SetBeigeBackground(Proc* proc, int arg2, int arg3, int arg4, int arg5); // 0x08086CE8.
 extern void LoadObjUIGfx(void); // 0x08015680.
 extern void LoadNewUIGraphics(void); // 0x0804EB68.
-extern void StartMapEventEngine(const void* scene, int runKind); // Like CallMapEventEngine, but this one works here. Maybe has to do with multiple event engine procs?
+extern Proc* StartMapEventEngine(const void* scene, int runKind); // Like CallMapEventEngine, but this one works here. Maybe has to do with multiple event engine procs?
 extern void ReturnToPrepScreenTheme(Proc* proc); // 0x080A1930.
 extern void StartFadeInBlackMedium(void); // 0x08013D68.
 extern int IsFadeActive(void); // 0x08013C88.
@@ -69,6 +69,8 @@ extern int CheckEventId(int eventID); // 0x08083DA8
 int BaseConvoUsability(void);
 int BaseConvoMenuUsability(MenuCommandDefinition* menuEntry, int index, int idk);
 int BaseConvoMenuEffect(MenuProc* menu, MenuCommandProc* menuCommand);
+void SetupBaseConvoProc(BaseConvoProc* proc);
+void FillBaseMenuUsability(BaseConvoProc* proc);
 void SetScrollingBackground(BaseConvoProc* proc);
 void DisplayBottomText(BaseConvoProc* proc);
 void BuildBaseConvoMenuGeometry(BaseConvoProc* proc);
@@ -81,7 +83,7 @@ void CallConversation(BaseConvoProc* proc);
 void BaseConvoProcDestructor(BaseConvoProc* proc);
 
 static int IsConvoViewable(BaseConvoEntry* entry);
-static int GetNumViewable(int c);
+static int GetNumViewable(BaseConvoProc* proc);
 static void ClearRam(char* offset, int size);
 static void HandleText(char* origin, char* dest, BaseConvoEntry* entry);
 static int GetStringLength(char* string);
@@ -101,7 +103,8 @@ int BaseConvoUsability(void)
 // This follows those weird menu usability return values. 1 = usable, 3 = unsuable.
 int BaseConvoMenuUsability(MenuCommandDefinition* menuEntry, int index, int idk)
 {
-	return ( IsConvoViewable(GetEntry(gChapterData.chapterIndex,index)) ? 1 : 3);
+	BaseConvoProc* proc = (BaseConvoProc*)ProcFind(&BaseConvoProcMenu);
+	return ( proc->usability & ( 1 << index ) ? 1 : 3); // This should return usable if any option in the bitfield is set.
 }
 
 int BaseConvoMenuEffect(MenuProc* menu, MenuCommandProc* menuCommand)
@@ -113,7 +116,26 @@ int BaseConvoMenuEffect(MenuProc* menu, MenuCommandProc* menuCommand)
 			// Yes this is that menu bitfield that has to do with sounds to play and whatnot. We always want to just end the menu, though.
 			// It seems returning 2 bypasses other checks for this return value.
 }
-	
+
+void SetupBaseConvoProc(BaseConvoProc* proc)
+{
+	proc->viewingEntry = 0;
+	proc->wasBPressed = 0;
+	proc->usability = 0;
+	proc->prepThemeThing = 0;
+	// Eh menu data's gonna get set anyway. Doesn't matter whether I 0 it out or not.
+}
+
+void FillBaseMenuUsability(BaseConvoProc* proc)
+{
+	int usability = 0;
+	for ( int i = 0 ; i < 8 ; i++ )
+	{
+		usability |= IsConvoViewable(GetEntry(gChapterData.chapterIndex,i)) << i;
+	}
+	proc->usability = usability;
+}
+
 void SetScrollingBackground(BaseConvoProc* proc)
 {
 	LoadBgConfig(NULL);
@@ -126,42 +148,41 @@ void SetScrollingBackground(BaseConvoProc* proc)
 
 void DisplayBottomText(BaseConvoProc* proc)
 {
-	Text_InitClear(&TextHandleStruct,0x10);
-	Text_InitClear(&TextHandleStruct+1,0x09);
-	Text_Clear(&TextHandleStruct);
+	Text_InitClear((TextHandle*)((char*)&TextHandleStruct-8),0x10);
+	Text_InitClear(&TextHandleStruct,0x09);
+	Text_Clear((TextHandle*)((char*)&TextHandleStruct-8));
 	char* String = GetStringFromIndex(gBaseConvoSelectConvoText);
-	Text_InsertString(&TextHandleStruct,Text_GetStringTextCenteredPos(0x80,String),0,String);
-	Text_Display(&TextHandleStruct,&SomeBgMap);
+	Text_InsertString((TextHandle*)((char*)&TextHandleStruct-8),Text_GetStringTextCenteredPos(0x80,String),0,String);
+	Text_Display((TextHandle*)((char*)&TextHandleStruct-8),&SomeBgMap);
 }
 
 // Construct the geometry for the menu.
 void BuildBaseConvoMenuGeometry(BaseConvoProc* proc)
 {
-	BaseConvoProc* baseProc = proc;
-	int NumConvos = GetNumViewable(gChapterData.chapterIndex);
-	baseProc->menuData.geometry.x = 6;
+	int NumConvos = GetNumViewable(proc);
+	proc->menuData.geometry.x = 6;
 	if ( NumConvos != 8 )
 	{
-		baseProc->menuData.geometry.y = 5 - NumConvos / 2;
+		proc->menuData.geometry.y = 5 - NumConvos / 2;
 	}
 	else
 	{
-		baseProc->menuData.geometry.y = 0;
+		proc->menuData.geometry.y = 0;
 	}
-	baseProc->menuData.geometry.h = 18; // I honestly have no idea why these are swapped now. They didn't use to be this way I swear.
-	baseProc->menuData.geometry.w = 0;
-	baseProc->menuData.style = 1;
-	baseProc->menuData.commandList = &BaseConvoMenuCommands;
-	baseProc->menuData.onInit = NULL;
-	baseProc->menuData.onEnd = NULL;
-	baseProc->menuData._u14 = NULL;
-	baseProc->menuData.onBPress = &MenuBPress;
-	baseProc->menuData.onRPress = NULL;
-	baseProc->menuData.onHelpBox = NULL;
+	proc->menuData.geometry.w = 18; // I honestly have no idea why these are swapped now. They didn't use to be this way I swear.
+	proc->menuData.geometry.h = 0;
+	proc->menuData.style = 1;
+	proc->menuData.commandList = &BaseConvoMenuCommands;
+	proc->menuData.onInit = NULL;
+	proc->menuData.onEnd = NULL;
+	proc->menuData._u14 = NULL;
+	proc->menuData.onBPress = &MenuBPress;
+	proc->menuData.onRPress = NULL;
+	proc->menuData.onHelpBox = NULL;
 	// While we're here, let's clear the "entry we've selected" byte.
-	baseProc->viewingEntry = 0xFF;
+	proc->viewingEntry = 0xFF;
 	// ... and clear wasBPressed byte.
-	baseProc->wasBPressed = 0x00;
+	proc->wasBPressed = 0x00;
 }
 
 // B press handler for the menu.
@@ -182,21 +203,24 @@ void BuildBaseConvoMenuText(BaseConvoProc* proc)
 	ClearRam(&WriteTextTo,320);
 	for ( int i = 0 ; i < 8 ; i++ )
 	{
-		BaseConvoEntry* entry = GetEntry(gChapterData.chapterIndex,i);
-		if ( entry->title != 0 )
+		if ( proc->usability & ( 1 << i ) ) // Only build the text if this convo is viewable.
 		{
-			// Easy! Let's just show that text ID.
-			HandleText(GetStringFromIndex(entry->title),&WriteTextTo+40*i,entry);
-		}
-		else if ( entry->textGetter != NULL )
-		{
-			// Okay so they don't have a text ID, but they have a getter. Run it.
-			HandleText(entry->textGetter(entry),&WriteTextTo+40*i,entry);
-		}
-		else
-		{
-			// Otherwise... we don't know what to show. Just write a blank string.
-			*(&WriteTextTo+40*i) = 0;
+			BaseConvoEntry* entry = GetEntry(gChapterData.chapterIndex,i);
+			if ( entry->title != 0 )
+			{
+				// Easy! Let's just show that text ID.
+				HandleText(GetStringFromIndex(entry->title),&WriteTextTo+40*i,entry);
+			}
+			else if ( entry->textGetter != NULL )
+			{
+				// Okay so they don't have a text ID, but they have a getter. Run it.
+				HandleText(entry->textGetter(entry),&WriteTextTo+40*i,entry);
+			}
+			else
+			{
+				// Otherwise... we don't know what to show. Just write a blank string.
+				*(&WriteTextTo+40*i) = 0;
+			}
 		}
 	}
 }
@@ -267,11 +291,11 @@ void CallConversation(BaseConvoProc* proc)
 	BaseConvoEntry* entry = GetEntry(gChapterData.chapterIndex,proc->viewingEntry);
 	if ( entry->event == NULL )
 	{
-		StartMapEventEngine(&CallBaseConvoEvents,2);
+		proc->eventEngine = StartMapEventEngine(&CallBaseConvoEvents,2);
 	}
 	else
 	{
-		StartMapEventEngine(entry->event,2);
+		proc->eventEngine = StartMapEventEngine(entry->event,2);
 	}
 }
 
@@ -280,7 +304,7 @@ int CheckToEnd(BaseConvoProc* proc)
 	if ( !proc->wasBPressed )
 	{
 		// Events ran. Check if they're finished.
-		return !gMemorySlot[0xB]; // Keep the proc running if the event's aren't finished running.
+		return ( proc->eventEngine->codeStart ? 1 : 0 ); // Keep the proc running if the event's aren't finished running.
 	}
 	else
 	{

@@ -30,6 +30,7 @@
 //Weapon Ability
 #define IsWeapon 0x00000001
 #define IsMagic 0x00000002
+#define UsesMagic IsMagic
 #define IsStaff 0x00000004
 #define Indestructible 0x00000008
 #define DevotiaWeapon IsWeapon|Indestructible
@@ -63,6 +64,7 @@
 //Used For Consolidated AdvWeaponLocks 
 #define AdvWeaponLock 0x01000000
 #define IgnoreTriangle 0x02000000
+#define TargetsRes 0x04000000
 
 // Weapon Effect
 #define NoEffect 0x0

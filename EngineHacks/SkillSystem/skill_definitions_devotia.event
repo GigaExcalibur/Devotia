@@ -24,25 +24,28 @@
 // Stalwart: "Nullify", immune to effective damage. For bosses.
 #define StalwartID 6
 
+// Disvantage: For heavy weapons that always go last
+#define DisvantageID 7
+
 // Personal skills. Now we're getting to the good stuff
 
 // Lucky Seven: Gain +2 Hit/Avoid for every deployed ally whose age is a multiple of 7 (excludes user).
-#define LuckySevenKlaudiaID 7
+#define LuckySevenKlaudiaID 8
 
 // Soulblade: When attacking with swords, hit the average of foe's DEF and RES.
-#define SoulbladeID 8
+#define SoulbladeID 9
 
 // Serenade: After combat, allies in 2 spaces get +2 DEF/RES for one turn.
-#define SerenadeID 9
+#define SerenadeID 10
 
 // Grounded: If unit initiates combat without moving, +2 maximum range.
-#define GroundedID 10
+#define RespectingEldersID 11
 
 // Wallflower: If foe was unable to counterattack, unit can move 2 spaces after combat.
-#define WallflowerID 11
+#define WallflowerID 12
 
 // Cam skill
-#define WaveShredderID 12
+#define WaveShredderID 13
 
 // Nimble Fingers: Cunning as a free action (maybe no speed check?)
-#define NimbleFingersID 13
+#define NimbleFingersID 14

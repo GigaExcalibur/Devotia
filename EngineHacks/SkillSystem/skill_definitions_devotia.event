@@ -38,7 +38,7 @@
 // Serenade: After combat, allies in 2 spaces get +2 DEF/RES for one turn.
 #define SerenadeID 10
 
-// Grounded: If unit initiates combat without moving, +2 maximum range.
+// Respecting Elders: Adjacent allies older than unit take (ally's age - unit's age) divided by 7 less damage in combat.
 #define RespectingEldersID 11
 
 // Wallflower: If foe was unable to counterattack, unit can move 2 spaces after combat.

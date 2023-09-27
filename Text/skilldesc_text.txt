@@ -1644,14 +1644,14 @@ than this unit take (their age - unit's[N]
 age) divided by 7 less damage in combat.[X]
 
 ## SD_Wallflower
-Wallflower: After combat, if foe was
-unable to counter, unit can move
-2 spaces afterwards.[X]
+Wallflower: After combat, if foe was[N]
+unable to counter, unit can move 2[N]
+spaces afterwards.[X]
 
 ## SD_WaveShredder
 Wave Shredder: Unit can smite an[N]
-ally 2 spaces. Next combat, ally[N]
-ignores their weapon's weight.[X]
+ally 2 spaces forward. Who the fuck[N]
+knows what else this'll do.[X]
 
 ## SD_NimbleFingers
 Nimble Fingers: Unit gains another[N]

@@ -1639,19 +1639,19 @@ Serenade: After attacking, allies in[N]
 2 spaces get +2 DEF/RES for one turn.[X]
 
 ## SD_RespectingElders
-Respecting Elders: Adjacent allies older[N]
-than this unit take (their age - unit's[N]
-age) divided by 7 less damage in combat.[X]
+Respecting Elders: Allies in 2 spaces[N]
+older than this unit take (ally's age[N]
+- unit's age) / 7 less damage in combat.[X]
 
 ## SD_Wallflower
-Wallflower: After combat, if foe was
-unable to counter, unit can move
-2 spaces afterwards.[X]
+Wallflower: After combat, if foe was[N]
+unable to counter, unit can move 2[N]
+spaces afterwards.[X]
 
 ## SD_WaveShredder
 Wave Shredder: Unit can smite an[N]
-ally 2 spaces. Next combat, ally[N]
-ignores their weapon's weight.[X]
+ally 2 spaces forward. Who the fuck[N]
+knows what else this'll do.[X]
 
 ## SD_NimbleFingers
 Nimble Fingers: Unit gains another[N]

@@ -153,6 +153,13 @@ POIN NewAuraSkillCheck
 WORD BlueFlameID
 
 ALIGN 4
+RespectingElders:
+#incbin "RespectingElders/RespectingElders.dmp"
+POIN NewAuraSkillCheck
+WORD RespectingEldersID
+POIN AgeGetter
+
+ALIGN 4
 KeepUp:
 #include "KeepUp/KeepUp.lyn.event"
 POIN NewAuraSkillCheck

@@ -102,7 +102,7 @@ After each set of module options are definitions that you can use to adjust the 
 	// Coordinates are in 8x8 pixel tiles
 	#define MMBMinimugX 1
 	#define MMBMinimugY 1
-	#define MMBMinimugTileIndexStart 0xF0
+	#define MMBMinimugTileIndexStart 256 // 0xF0 initially
 	#define MMBMinimugPaletteIndex 4
 
 // Inventory modules
@@ -702,14 +702,14 @@ After each set of module options are definitions that you can use to adjust the 
 	// AS label
 	#define MMBASLabelX 13
 	#define MMBASLabelY 2
-	#define MMBASLabelVRAMTile 0x100
+	#define MMBASLabelVRAMTile 352
 	#define MMBASLabelPaletteIndex 2
 	#define MMBASLabelTileCount 2
 
 	// ATK label
 	#define MMBATKLabelX 13
 	#define MMBATKLabelY 1
-	#define MMBATKLabelVRAMTile 0x102
+	#define MMBATKLabelVRAMTile 354
 	#define MMBATKLabelPaletteIndex 2
 	#define MMBATKLabelTileCount 2
 
@@ -737,7 +737,7 @@ After each set of module options are definitions that you can use to adjust the 
 	// DEF label
 	#define MMBDEFLabelX 13
 	#define MMBDEFLabelY 3
-	#define MMBDEFLabelVRAMTile 0x10A
+	#define MMBDEFLabelVRAMTile 358
 	#define MMBDEFLabelPaletteIndex 2
 	#define MMBDEFLabelTileCount 2
 

@@ -33,7 +33,7 @@
     MESSAGE Used hax space ends at currentOffset
 	
 	//Modular minimug box (this goes after all other hacks?)
-	//#include "EngineHacks/DevotiaHax/ModularMinimugBox/Installers/MMBInstallerDefault.event"
+	#include "EngineHacks/DevotiaHax/ModularMinimugBox/Installers/MMBInstallerDefault.event"
 
 	#ifdef USE_TEST_MAP
     //Events

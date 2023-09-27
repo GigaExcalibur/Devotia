@@ -1094,5 +1094,8 @@ ORG SkillIcon(GenericID)
 ORG SkillIcon(SoulbladeID)
 #incbin "SkillIcons/Swordfaire.dmp"
 
+ORG SkillIcon(WallflowerID)
+#incbin "SkillIcons/Aptitude.dmp"
+
 ORG SkillIcons+0x8000
 

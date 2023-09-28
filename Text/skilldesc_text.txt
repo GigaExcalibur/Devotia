@@ -1625,9 +1625,9 @@ off foes and pick the locks of[N]
 any chest or door.[X]
 
 ## SD_LuckySeven
-Lucky Seven: Unit gains +2 HIT/AVO[N]
-for every deployed ally who age[N]
-is divisible by 7 (excludes unit).[X]
+Lucky Seven: If unit or foe's HP[N]
+is a multiple of 7, unit always[N]
+doubles and foe cannot double.[X]
 
 ## SD_Soulblade
 Soulblade: When attacking with swords,[N]

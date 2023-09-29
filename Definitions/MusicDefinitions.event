@@ -1,3 +1,4 @@
 #define FortuneRavineID 0x09
 #define FieldsOfExpelID 0x43 // VERY IMPORTANT!!
 #define RandomDungeon3ID 0x2
+#define LightingTempleID 0x3

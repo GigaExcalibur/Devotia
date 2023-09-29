@@ -49,3 +49,7 @@
 
 // Nimble Fingers: Cunning as a free action (maybe no speed check?)
 #define NimbleFingersID 14
+
+// Item skills. These go on items (except Disvantage)
+#undef BreathOfLifeID
+#define BreathOfLifeID 128

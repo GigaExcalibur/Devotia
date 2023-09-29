@@ -30,6 +30,9 @@
 #define OrionMug 0x18
 #define BlaireMug 0x19
 #define LeviaMug 0x1A
+#define CurtisMug 0x1B
+#define MiksaMug 0x1C
+#define StuartMug 0x1D
 
 // Generics: ids 0x81 - 0xA0
 

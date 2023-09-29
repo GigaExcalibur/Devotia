@@ -28,3 +28,5 @@ SongTable(FortuneRavineID, FortuneRavine, MapMusicGroup)
 SongTable(FieldsOfExpelID, FieldsOfExpel, MapMusicGroup)
 //#include "MusicEvents/RandomDungeon3.event"
 //SongTable(RandomDungeon3ID, RandomDungeon3, MapMusicGroup)
+#include "MusicEvents/LightingTemple.event"
+SongTable(LightingTempleID, LightingTemple, MapMusicGroup)

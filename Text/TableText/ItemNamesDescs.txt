@@ -593,7 +593,8 @@ Sirventes[X]
 
 ## SirventesDesc
 Josephine[lock] Biting political satire.[N]
-Post-combat, adjacents heal 30% HP.[X]
+After combat, allies within 2 spaces[N]
+heal 50% max HP.[X]
 
 ## ParentalHeirloomName
 Parental Heirloom[X]

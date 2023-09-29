@@ -61,6 +61,10 @@
   #define AthosLock 0x00200000
 #endif
 
+#define DoubleTriangle 0x00400000
+#undef PassiveBoosts
+#define PassiveBoosts 0x00800000
+
 //Used For Consolidated AdvWeaponLocks 
 #define AdvWeaponLock 0x01000000
 #define IgnoreTriangle 0x02000000

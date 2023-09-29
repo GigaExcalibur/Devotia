@@ -397,22 +397,22 @@ Effective against flammable foes.[X]
 Lightning Bolt[X]
 
 ## LightningBoltDesc
-Initiate combat spell.[N]
-Effective against doused foes.[X]
+Initiate combat spell. Cannot[N]
+double; eff. vs. doused foes.[X]
 
 ## LightningBlastName
 Lightning Blast[X]
 
 ## LightningBlastDesc
-Textbook combat spell.[N]
-Effective against doused foes.[X]
+Textbook combat spell. Cannot[N]
+double; eff. vs. doused foes.[X]
 
 ## TonitrusCanereName
 Tonitrus Canere[X]
 
 ## TonitrusCanereDesc
-Hermetical combat spell.[N]
-Effective against doused foes.[X]
+Hermetical combat spell. Cannot[N]
+double; eff. vs. doused foes.[X]
 
 ## TradewindsName
 Tradewinds[X]

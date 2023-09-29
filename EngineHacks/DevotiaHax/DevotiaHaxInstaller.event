@@ -69,3 +69,6 @@
 
 #include "NewComputeUnitBattleDefense/Installer.event"
 // Me!
+
+#include "Autosave/Installer.event"
+// Vesly

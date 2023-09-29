@@ -1630,23 +1630,23 @@ is a multiple of 7, unit always[N]
 doubles and foe cannot double.[X]
 
 ## SD_Soulblade
-Soulblade: When attacking with swords,[N]
-unit attacks the average of foe's DEF[N]
-and RES.[X]
+Soulblade: Omen cuts through his foe's[N]
+defensive stance, hitting the average[N]
+of their DEF and RES when using swords.[X]
 
 ## SD_Serenade
 Serenade: After attacking, allies in[N]
 2 spaces get +2 DEF/RES for one turn.[X]
 
 ## SD_RespectingElders
-Respecting Elders: Allies in 2 spaces[N]
-older than this unit take (ally's age[N]
-- unit's age) / 7 less damage in combat.[X]
+Respecting Elders: Adjacent allies older[N]
+than Emerson take their age - Emerson's[N]
+age / 7 damage less damage in combat.[X]
 
 ## SD_Wallflower
-Wallflower: After combat, if foe was[N]
-unable to counter, unit can move 2[N]
-spaces afterwards.[X]
+Wallflower: Beth hates interacting[N]
+with people. If foe couldn't counter,[N]
+she can move 2 spaces after combat.[X]
 
 ## SD_WaveShredder
 Wave Shredder: Unit can smite an[N]

@@ -13,7 +13,7 @@ Let the world know we'll be serfs no[N]
 longer![.4] With me, my brothers![A][X]
 
 ## Overture1ColdOpen2
-[ML][LoadGreenSoldier]
+[ML][LoadKlaudia]
 [ML]Cur! Pay for disrupting[N]
 House Sarka's order![A][ClearFace]
 [ML][LoadWister]

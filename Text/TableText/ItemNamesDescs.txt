@@ -459,6 +459,10 @@ Vexflame[X]
 ## SweepingGaleName
 Sweeping Gale[X]
 
+## SweepingGaleDesc
+Discreet in its lethality.[N]
+Effective against flying foes.[X]
+
 ## HolyLightName
 Holy Light[X]
 

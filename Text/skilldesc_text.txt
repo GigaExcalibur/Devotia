@@ -1657,3 +1657,7 @@ knows what else this'll do.[X]
 Nimble Fingers: Unit gains another[N]
 action after stealing or picking[N]
 locks (once per turn).[X]
+
+## SD_Disvantage
+Disvantage: Unit always strikes[N]
+last in combat.[X]

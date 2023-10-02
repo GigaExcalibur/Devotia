@@ -1,0 +1,209 @@
+// Lords
+#define MageLordMagic 0x001
+#define GremoryLordLance 0x002
+#define GremoryLordMagic 0x003
+#define PrincessSword 0x004
+#define PrincessStaff 0x005
+#define PrincessDisarmed 0x006
+#define MasterKnightSword 0x007
+#define MasterKnightLance 0x008
+#define MasterKnightAxe 0x009
+#define MasterKnightHandAxe 0x00A
+#define MasterKnightBow 0x00B
+#define MasterKnightStaff 0x00C
+#define MasterKnightDisarmed 0x00D
+
+// Swordsmen
+#define MyrmidonSword 0x00E
+#define MyrmidonDisarmed 0x00F
+#define TruebladeSword 0x010
+#define TruebladeDisarmed 0x011
+#define MercenarySword 0x012
+#define MercenaryDisarmed 0x013
+#define HeroSword 0x014
+#define HeroAxe 0x015
+#define HeroHandAxe 0x016
+#define HeroDisarmed 0x017
+#define RunelordSword 0x018
+#define RunelordMagic 0x019
+
+// Scoundrels
+#define ThiefSword 0x01A
+#define ThiefDagger 0x01B
+#define ThiefDisarmed 0x01C
+#define RogueSword 0x01D
+#define RogueDagger 0x01E
+#define RogueDisarmed 0x01F
+#define HunterBow 0x020
+#define HunterDisarmed 0x021
+#define MarksmanBow 0x022
+#define MarksmanDisarmed 0x023
+#define TricksterSword 0x024
+#define TricksterBow 0x025
+#define TricksterDisarmed 0x026
+
+// Pikemen
+#define LancerLance 0x027
+#define LancerDisarmed 0x028
+#define HalberdierLance 0x029
+#define HalberdierDisarmed 0x02A
+#define VillagerLance 0x02B
+#define VillagerDisarmed 0x02C
+#define StarostaSword 0x02D
+#define StarostaLance 0x02E
+#define StarostaAxe 0x02F
+#define StarostaHandAxe 0x030
+#define StarostaDisarmed 0x031
+#define WarmasterLance 0x032
+#define WarmasterAxe 0x033
+#define WarmasterHandAxe 0x034
+#define WarmasterDisarmed 0x035
+
+// Axemen
+#define WoodsmanAxe 0x036
+#define WoodsmanHandAxe 0x037
+#define WoodsmanDisarmed 0x038
+#define VarangianAxe 0x039
+#define VarangianHandAxe 0x03A
+#define VarangianBow 0x03B
+#define VarangianDisarmed 0x03C
+#define PirateAxe 0x03D
+#define PirateHandAxe 0x03E
+#define PirateDisarmed 0x03F
+#define BerserkerAxe 0x040
+#define BerserkerHandAxe 0x041
+#define BerserkerDisarmed 0x042
+#define RaiderSword 0x043
+#define RaiderDisarmed 0x044
+#define RavagerSword 0x045
+#define RavagerLance 0x046
+#define RavagerDisarmed 0x047
+
+// Armors
+#define ArmorSword 0x048
+#define ArmorLance 0x049
+#define ArmorAxe 0x04A
+#define ArmorHandAxe 0x04B
+#define ArmorMagic 0x04C
+#define DreadnoughtSword 0x04D
+#define DreadnoughtLance 0x04E
+#define DreadnoughtAxe 0x04F
+#define DreadnoughtHandAxe 0x050
+#define DreadnoughtDisarmed 0x051
+#define GendarmeSword 0x052
+#define GendarmeLance 0x053
+#define GendarmeDisarmed 0x054
+#define CataphractLance 0x055
+#define CataphractAxe 0x056
+#define CataphractHandAxe 0x057
+#define CataphractDisarmed 0x058
+#define ThaumachineMagic 0x059
+#define HarbingerAxe 0x05A
+#define HarbingerHandAxe 0x05B
+#define HarbingerMagic 0x05C
+
+// Magi
+#define AnimaMageMagic 0x05D
+#define SpellmasterStaff 0x05E
+#define SpellmasterMagic 0x05F
+#define LightMageMagic 0x060
+#define StarseerStaff 0x061
+#define StarseerMagic 0x062
+#define DarkMageMagic 0x063
+#define NecromancerMagic 0x064
+#define SageStaff 0x065
+#define SageMagic 0x066
+#define SorcererMagic 0x067
+
+// Healers
+#define ClericStaff 0x068
+#define ClericDisarmed 0x069
+#define ValkyrieSword 0x06A
+#define ValkyrieStaff 0x06B
+#define ValkyrieDisarmed 0x06C
+#define TrobairitzStaff 0x06D
+#define TrobairitzDisarmed 0x06E
+#define ThaumaturgeStaff 0x06F
+#define ThaumaturgeMagic 0x070
+#define TemplarAxe 0x071
+#define TemplarHandAxe 0x072
+#define TemplarStaff 0x073
+#define TemplarDisarmed 0x074
+
+// Horsemen
+#define CavalierSword 0x075
+#define CavalierLance 0x076
+#define CavalierAxe 0x077
+#define CavalierHandAxe 0x078
+#define CavalierBow 0x079
+#define CavalierDisarmed 0x07A
+#define PaladinSword 0x07B
+#define PaladinLance 0x07C
+#define PaladinAxe 0x07D
+#define PaladinHandAxe 0x07E
+#define PaladinBow 0x07F
+#define PaladinStaff 0x080
+#define PaladinDisarmed 0x081
+
+// Fliers
+#define WindriderSword 0x082
+#define WindriderDisarmed 0x083
+#define SeraphWingSword 0x084
+#define SeraphWingStaff 0x085
+#define SeraphWingDisarmed 0x086
+#define HarrierMagic 0x087
+#define DaemonWingMagic 0x088
+#define DracoriderAxe 0x089
+#define DracoriderHandAxe 0x08A
+#define DracoriderDisarmed 0x08B
+#define DracolordLance 0x08C
+#define DracolordAxe 0x08D
+#define DracolordHandAxe 0x08E
+#define DracolordDisarmed 0x08F
+#define BombardierBow 0x090
+#define BombardierLance 0x091
+#define BombardierDisarmed 0x092
+#define FalconeerSword 0x093
+#define FalconeerLance 0x094
+#define FalconeerDisarmed 0x095
+
+// Decadences
+#define ArmorBow 0x096
+#define JuggernautSword 0x097
+#define JuggernautBow 0x098
+#define JuggernautDisarmed 0x099
+#define DrifterBow 0x09A
+#define DrifterDisarmed 0x09B
+#define AdventurerBow 0x09C
+#define AdventurerStaff 0x09D
+#define AdventurerDisarmed 0x09E
+#define SpellstriderMagic 0x09F
+#define StrategistSword 0x0A0
+#define StrategistMagic 0x0A1
+#define SkirmisherBow 0x0A2
+#define SkirmisherDisarmed 0x0A3
+#define OliphantierBow 0x0A4
+#define WolfssegnerSword 0x0A5
+#define WolfssegnerDisarmed 0x0A6
+#define SaviorStaff 0x0A7
+#define SaviorMagic 0x0A8
+#define ChampionSword 0x0A9
+#define ChampionAxe 0x0AA
+#define ChampionHandAxe 0x0AB
+#define ChampionDisarmed 0x0AC
+
+// Uniques
+#define WarlockMagic 0x0AD
+#define BardDisarmed 0x0AE
+#define CrownPrinceAxe 0x0AF
+#define CrownPrinceHandAxe 0x0B0
+#define CrownPrinceStaff 0x0B1
+#define CrownPrinceDisarmed 0x0B2
+#define TherionSword 0x0B3
+#define TherionWisterSword 0x0B4
+#define ScourgeLance 0x0B5
+#define OverlordHandAxe 0x0B6
+#define AgastyaMagic 0x0B7
+#define GremoryLordZakariaLance 0x0B8
+
+// LIMIT IS C0

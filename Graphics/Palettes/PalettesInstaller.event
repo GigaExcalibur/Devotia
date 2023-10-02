@@ -1,3 +1,27 @@
+// Menu palettes (all credit to pandan)
+PUSH
+// Option 1: wine red
+ORG 0x5B6BB4
+BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $FE $7B $9F $73 $5E $6B $1D $63 $BC $5A $96 $39 $54 $31 $32 $29 $EF $20 $AD $1C $8B $14
+ORG 0x5B6C34
+BYTE $0E $52 $39 $67 $97 $46 $2C $15 $04 $00 $37 $63 $16 $5F $D3 $5A $90 $52 $4C $4E $67 $45 $26 $41 $E4 $38 $A3 $34 $62 $30 $21 $28
+
+// Option 2: sea foam
+ORG 0x5B6BD4
+BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $FD $7B $DC $77 $99 $73 $56 $6B $12 $67 $AD $56 $8C $52 $6A $4E $49 $4A $28 $46 $07 $42
+ORG 0x5B6C54
+BYTE $0E $52 $39 $67 $97 $46 $2C $15 $04 $00 $37 $63 $16 $5F $D3 $5A $90 $52 $4C $4E $27 $46 $06 $42 $C4 $39 $A3 $35 $82 $31 $41 $29
+
+// Option 3: gold yellow
+ORG 0x5B6BF4
+BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $DF $7B $BF $73 $7E $6B $3D $63 $FC $56 $B5 $12 $73 $0E $52 $0E $EF $09 $8C $09 $6B $09
+ORG 0x5B6C74
+BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $DF $7B $BF $73 $7E $6B $3D $63 $FC $56 $10 $12 $CE $0D $AD $0D $8C $09 $29 $09 $C6 $08
+
+// Option 4: deep purple (whenever dan gets around to it)
+
+POP
+
 // Faction map sprite palettes (all credit to feier)
 
 PUSH

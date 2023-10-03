@@ -1,0 +1,11 @@
+#define SpellAnimationEntry(id, chars, animation, effect, damage, direction, color) "BYTE id 0 chars 0; SHORT ; WORD ; BYTE "
+
+PUSH
+ORG $58014
+POIN NewSpellAssociationTable
+ORG $78240
+POIN NewSpellAssociationTable
+POP
+
+ALIGN 4
+NewSpellAssociationTable:

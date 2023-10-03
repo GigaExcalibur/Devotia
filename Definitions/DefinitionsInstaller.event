@@ -5,3 +5,4 @@
 #include "MugDefinitions.event"
 #include "MusicDefinitions.event"
 #include "AnimationDefinitions.event"
+#include "SpellDefinitions.event"

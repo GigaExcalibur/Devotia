@@ -199,7 +199,7 @@
 #define CrownPrinceHandAxe 0x0B0
 #define CrownPrinceStaff 0x0B1
 #define CrownPrinceDisarmed 0x0B2
-#define TherionSword 0x0B3
+#define TherionSword 0x0B3 // Enemy only classes can't be disarmed so i'm saving space here
 #define TherionWisterSword 0x0B4
 #define ScourgeLance 0x0B5
 #define OverlordHandAxe 0x0B6

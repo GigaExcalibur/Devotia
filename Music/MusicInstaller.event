@@ -36,3 +36,6 @@ SongTable(LightingTempleID, LightingTemple, MapMusicGroup)
 
 #include "MusicEvents/LufiaBattle2.event"
 SongTable(LufiaBattle2ID, LufiaBattle2, MapMusicGroup)
+
+#include "MusicEvents/ChasmCave.event"
+SongTable(ChasmCaveID, ChasmCave, MapMusicGroup)

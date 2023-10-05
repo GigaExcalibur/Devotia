@@ -4,7 +4,7 @@
 	
 	#include "Definitions/DefinitionsInstaller.event"
 //PROTECT $25224
-    ORG FreeSpace
+    ORG 0xb2a610
 	
     #include "repointedTextTable.event"
 
@@ -15,6 +15,8 @@
 	//Graphics
 	#include "Graphics/GraphicsInstaller.event"
 	MESSAGE Used graphics space ends at currentOffset
+	
+	ORG FreeSpace
 
     //CSV tables
     #include "Tables/TableInstaller.event"

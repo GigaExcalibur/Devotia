@@ -29,8 +29,8 @@
 
 // Personal skills. Now we're getting to the good stuff
 
-// Lucky Seven: Gain +2 Hit/Avoid for every deployed ally whose age is a multiple of 7 (excludes user).
-#define LuckySevenKlaudiaID 8
+// Fortunate Seven: If unit or foe's HP is divisible by 7, unit always doubles and foe cannot double (if weapon allows).
+#define FortunateSevenID 8
 
 // Soulblade: When attacking with swords, hit the average of foe's DEF and RES.
 #define SoulbladeID 9
@@ -49,6 +49,14 @@
 
 // Nimble Fingers: Cunning as a free action (maybe no speed check?)
 #define NimbleFingersID 14
+
+// Sarkan Poise:
+#define SarkanPoiseID 15
+
+// Pent-Up Rage:
+#define PentUpRageID 16
+
+// Bear skill
 
 // Item skills. These go on items (except Disvantage)
 #undef BreathOfLifeID

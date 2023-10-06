@@ -33,6 +33,7 @@ extern int PassionsFlowID_Link;
 extern int QuickRiposteID_Link; 
 extern int BidingBlowID_Link; 
 extern int AdvantageChaserID_Link; 
+extern int FortunateSevenID_Link;
 
 struct UnitDoubleCalcLoop_Struct { 
 	int(*function)(struct BattleUnit* attacker, struct BattleUnit* defender);
@@ -100,6 +101,18 @@ int BoldFighter(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
 	} 
 	return NoChange; 
 } 
+
+int FortunateSeven(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
+	if (bunitA->hpInitial % 7 == 0 | bunitB->hpInitial % 7 == 0) {
+		if (SkillTester(&bunitA->unit, FortunateSevenID_Link)) {
+			return ForceDouble;
+		}
+		if (SkillTester(&bunitB->unit, FortunateSevenID_Link)) {
+			return CannotDouble;
+		}
+	}
+	return NoChange;
+}
 
 int QuickRiposte(struct BattleUnit* bunitA, struct BattleUnit* bunitB) { 
 	if (gBattleStats.config & (BATTLE_CONFIG_REAL | BATTLE_CONFIG_SIMULATE)) { // Quick Riposte as asm did this for some reason:

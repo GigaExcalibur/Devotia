@@ -354,7 +354,7 @@ Drekkan avart-garde war magick.[N]
 Scales off MAG; targets DEF.[X]
 
 ## HeavyTomeDesc
-Single concentrated magical blast.[N]
+Sole, concentrated magic blast.[N]
 Cannot double; user strikes last.[X]
 
 ## AlwaysHitTomeDesc

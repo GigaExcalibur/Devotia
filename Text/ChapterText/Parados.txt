@@ -106,6 +106,18 @@ An icon will show for these enemies[N]
 on the map.[A] Check class descriptions[N]
 to see who in Devotia can steal.[A][X]
 
+## ParadosItemTypesText
+Weapons in Devotia come in three main[N]
+categories: [Red]normal[Red], [Red]jagged[Red], and [Red]heavy[Red].[N]
+Be aware of them as you fight enemies.[AN]
+Jagged weapons are identical to normal[N]
+weapons, but they target the opposite[N]
+defensive stat to their counterpart.[AN]
+Heavy weapons are strong but locked[N]
+to 1 range, cannot double, and the[N]
+wielder always strikes last in combat.[AN]
+This applies to every weapon type, so[A][X]
+
 ## BaseConvoTestName
 Test Base Convo[X]
 

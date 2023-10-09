@@ -84,7 +84,8 @@
 #define War_Monk_M_Axe_Derstand 186 
 #define Wicked_Flier_U_MeatOfJusticestand 187 
 #define Wyvern_Lord_M_Helmless_Axe_flasubanstand 188 
-#define Wyvern_Rider_F_Axe_flasubanstand 189 
+#define Wyvern_Rider_F_Axe_flasubanstand 189
+#define SigilTrapMapSprite 190 // arbitrary number
 
 //Copy from here 
 PUSH 
@@ -170,7 +171,8 @@ SetSMS(Warrior_M_Axe_ISstand, 1, Warrior_M_Axe_ISstand_Data)
 SetSMS(War_Monk_M_Axe_Derstand, 1, War_Monk_M_Axe_Derstand_Data) 
 SetSMS(Wicked_Flier_U_MeatOfJusticestand, 1, Wicked_Flier_U_MeatOfJusticestand_Data) 
 SetSMS(Wyvern_Lord_M_Helmless_Axe_flasubanstand, 1, Wyvern_Lord_M_Helmless_Axe_flasubanstand_Data) 
-SetSMS(Wyvern_Rider_F_Axe_flasubanstand, 1, Wyvern_Rider_F_Axe_flasubanstand_Data) 
+SetSMS(Wyvern_Rider_F_Axe_flasubanstand, 1, Wyvern_Rider_F_Axe_flasubanstand_Data)
+SetSMS(SigilTrapMapSprite, 0, SigilMapSpriteData) 
 
 SetMMS(Drifter-1, Archer_F_Improved_Derwalk_Data, DemonKingAP) 
 SetMMS(Spellmaster-1, Archsage_F_Brunnya_Jiege_TLPwalk_Data, DemonKingAP) 

@@ -32,6 +32,14 @@
 	#define GorgonEggTrapID 12
 	#define LightRuneTrapID 13
 	
+	#define BlueSigilTrapID 0x11
+	#define RedSigilTrapID 0x12
+	#define GreenSigilTrapID 0x13
+	
+	#define PlayerSigilTrapID BlueSigilTrapID
+	#define EnemySigilTrapID RedSigilTrapID
+	#define NPCSigilTrapID GreenSigilTrapID
+	
 	#define LightRuneTrapPaletteWord 0xFFFFB080
 	#define PlayerTrapPaletteWord 0xFFFFC080
 	#define EnemyTrapPaletteWord 0xFFFFD080
@@ -41,7 +49,6 @@
 	
 	#define ExampleMapSpriteTrapID 0x10
 	#define ExampleMapSpriteID 0x66
-	
 	
 	#include "TrapRework_Internal.event"
 	
@@ -62,6 +69,9 @@
 	SetTrapEventInit(MineTrapID,$378D6)
 	SetTrapEventInit(GorgonEggTrapID,$378EC)
 	SetTrapEventInit(LightRuneTrapID,0)
+	SetTrapEventInit(BlueSigilTrapID,TrapRework_GenericInitializer)
+	SetTrapEventInit(RedSigilTrapID,TrapRework_GenericInitializer)
+	SetTrapEventInit(GreenSigilTrapID,TrapRework_GenericInitializer)
 	
 	
 	#define SetTrapMapSprite(trapID,mapSpriteID) "PUSH; ORG TrapMapSpriteTable+(trapID-1); BYTE mapSpriteID; POP"
@@ -80,6 +90,9 @@
 	SetTrapMapSprite(MineTrapID,0)
 	SetTrapMapSprite(GorgonEggTrapID,0)
 	SetTrapMapSprite(LightRuneTrapID,0x66) //light rune map sprite
+	SetTrapMapSprite(BlueSigilTrapID,SigilTrapMapSprite)
+	SetTrapMapSprite(RedSigilTrapID,SigilTrapMapSprite)
+	SetTrapMapSprite(GreenSigilTrapID,SigilTrapMapSprite)
 	
 	//Macro for setting unique cases on trap map sprites
 	#define SetTrapMapSpriteFunc(trapID,ptr) "PUSH; ORG (TrapMapSpriteFuncTable+((trapID-1)*4)); POIN ptr; POP"
@@ -90,9 +103,10 @@
 	#define SetTrapMapSpritePalette(trapID,paletteWord) "PUSH; ORG TrapMapSpritePaletteTable+(4*(trapID-1)); WORD paletteWord; POP"
 	
 	SetTrapMapSpritePalette(LightRuneTrapID,LightRuneTrapPaletteWord)
+	SetTrapMapSpritePalette(BlueSigilTrapID,PlayerTrapPaletteWord)
+	SetTrapMapSpritePalette(RedSigilTrapID,EnemyTrapPaletteWord)
+	SetTrapMapSpritePalette(GreenSigilTrapID,NPCTrapPaletteWord)
 	
-	
-
 	//These 3 macros are all you need to define a new trap w/ map sprite
 	SetTrapEventInit(ExampleMapSpriteTrapID,TrapRework_GenericInitializer)
 	SetTrapMapSprite(ExampleMapSpriteTrapID,ExampleMapSpriteID) //thief map sprite
@@ -108,6 +122,10 @@
 	#define GetTrapIDAt(x,y) "SVAL 0xB (x|(y<<16)); ASMC GetTrapIDAtASMC"
 	#define GetTrapExt1At(X,y) "SVAL 0xB (x|(y<<16)); ASMC GetTrapExt1AtASMC"
 	
+	#define BlueSigil(x,y) "MapSpriteTrap(BlueSigilTrapID,x,y)"
+	#define RedSigil(x,y) "MapSpriteTrap(RedSigilTrapID,x,y)"
+	#define GreenSigil(x,y) "MapSpriteTrap(GreenSigilTrapID,x,y)"
+	
 	
 	//Macro for setting traps as light sources (uses ext1 for vision range)
 	#define SetLightSourceTrap(trapID) "PUSH; ORG (TrapFogLightSourceTable+trapID); BYTE 1; POP"
@@ -118,10 +136,6 @@
 	#define SetImpassableTrap(trapID) "PUSH; ORG (TrapLightRuneImpassableTable+trapID); BYTE 1; POP"
 	
 	SetImpassableTrap(LightRuneTrapID)
-	
-	
- 
-	
 
 	//Macro for settings pairs of terrain IDs & char IDs for breakable terrain
 	#define TrapBreakableTerrain(terrainID,charID,maxHP) "BYTE (terrainID-1) charID maxHP 0"

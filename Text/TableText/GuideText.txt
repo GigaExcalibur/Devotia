@@ -1,0 +1,100 @@
+## MechanicsCategory
+Mechanics[X]
+
+## SetpiecesCategory
+Setpieces[X]
+
+## CastCategory
+Cast[X]
+
+## CrewCategory
+Crew[X]
+
+## WeaponTriangleEntry
+Weapon Triangle[X]
+
+## WeaponTriangleContent
+The weapon triangle in Devotia[N]
+is +/- 25 Hit and 5 Mt.[N]
+Reavers reverse the triangle,[N]
+but do not double it.[X]
+
+## WeaponCategoriesEntry
+Weapon Categories[X]
+
+## WeaponCategoriesContent
+Weapons in Devotia come in 3[N]
+categories: normal, jagged,[N]
+and heavy.[N]
+[N]
+Jagged weapons are identical[N]
+to normal weapons, but target[N]
+the opposite defensive stat.[N]
+[N]
+Heavy weapons are powerful,[N]
+but cannot double and the[N]
+wielder always strikes last.[N]
+[N]
+These three categories apply[N]
+to every weapon type, so be[N]
+on the lookout for them![X]
+
+## SkillsEntry
+Skills[X]
+
+## SkillsContent
+All playable units in Devotia[N]
+possess one medium-to-high[N]
+impact personal skill and[N]
+one prf weapon/item.[N]
+
+Generic enemies will never[N]
+have skills, and bosses only[N]
+have a skill that negates[N]
+all effective damage.[X]
+
+## MeralyEntry
+Meraly[X]
+
+## MeralyContent
+Meraly[X]
+
+## KlaudiaElOuahedEntry
+Klaudia el-Ouahed[X]
+
+## KlaudiaElOuahedContent
+Occupation: Feudal lord.[N]
+Circumstance of recruitment:[N]
+Leads the army.[X]
+
+## ZeroRothEntry
+Zero Roth[X]
+
+## ZeroRothContent
+Occupation: Royal advisor.[N]
+Circumstance of recruitment:[N]
+Ordered to accompany Klaudia.[X]
+
+## JosephineVentadornEntry
+Josephine Ventadorn[X]
+
+## JosephineVentadornContent
+Occupation: Vassal knight.[N]
+Circumstance of recruitment:[N]
+Chivalric duty to House Ouahed.[X]
+
+## WesleyEmersonEntry
+Wesley Emerson[X]
+
+## WesleyEmersonContent
+Occupation: Hedge knight.[N]
+Circumstance of recruitment:[N]
+Contract with House Ouahed.[X]
+
+## BethelynTillerEntry
+Bethelyn Tiller[X]
+
+## BethelynTillerContent
+Occupation: Grape farmer[N]
+Circumstance of recruitment:[N]
+Volunteered at VILLAGE NAME[X]

@@ -1,0 +1,41 @@
+#define GuideFlag 0xB4
+#define AddGuideEntry(category, title, content) "BYTE category category; SHORT title content GuideFlag GuideFlag 0"
+
+#define MechanicsIndex 0x1
+#define SetpiecesIndex 0x2
+#define CastIndex 0x3
+#define CrewIndex 0x4
+
+PUSH
+ORG 0xCEF7C 
+SHORT 0xE001
+ORG 0xCEF74
+SHORT 0x2200 // Prevent Guide Sorting
+POP
+
+PUSH
+ORG $B19E0C
+// Mechanics
+AddGuideEntry(MechanicsIndex, WeaponTriangleEntry, WeaponTriangleContent)
+
+// Setpieces
+AddGuideEntry(SetpiecesIndex, MeralyEntry, MeralyContent)
+
+// Cast
+AddGuideEntry(CastIndex, KlaudiaElOuahedEntry, KlaudiaElOuahedContent)
+AddGuideEntry(CastIndex, ZeroRothEntry, ZeroRothContent)
+AddGuideEntry(CastIndex, JosephineVentadornEntry, JosephineVentadornContent)
+AddGuideEntry(CastIndex, WesleyEmersonEntry, WesleyEmersonContent)
+AddGuideEntry(CastIndex, BethelynTillerEntry, BethelynTillerContent)
+
+// Crew
+WORD 0
+
+ORG $B12B04
+SHORT 1
+SHORT MechanicsCategory
+SHORT SetpiecesCategory
+SHORT CastCategory
+SHORT CrewCategory
+SHORT 0
+POP

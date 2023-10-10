@@ -1636,8 +1636,8 @@ of their DEF and RES when using swords.[X]
 
 ## SD_Serenade
 Serenade: Josephine recites her works,[N]
-granting +2 DEF/RES to allies in 2[N]
-spaces for one turn after combat.[X]
+granting +3 DEF/RES to allies in her[N]
+attack range for 1 turn after combat.[X]
 
 ## SD_RespectingElders
 Respecting Elders: Adjacent allies older[N]

@@ -369,7 +369,7 @@ Cheats the natural life cycle.[N]
 Restores HP = 50% of damage dealt.[X]
 
 ## IgnoreDefenseTomeDesc
-Wards will not save you.[N]
+Wards will not shield you.[N]
 Ignores 50% of foe's resistance.[X]
 
 ## FireballName

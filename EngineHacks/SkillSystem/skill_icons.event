@@ -1091,8 +1091,14 @@ ORG SkillIcon(AdvantageChaserID)
 ORG SkillIcon(GenericID)
 #incbin "SkillIcons/Generic.dmp"
 
+ORG SkillIcon(FortunateSevenID)
+#incbin "SkillIcons/LuckySeven.dmp"
+
 ORG SkillIcon(SoulbladeID)
 #incbin "SkillIcons/Swordfaire.dmp"
+
+ORG SkillIcon(SerenadeID)
+#incbin "SkillIcons/VigorDance.dmp"
 
 ORG SkillIcon(RespectingEldersID)
 #incbin "SkillIcons/Loyalty.dmp"

@@ -6,3 +6,4 @@
 #include "MusicDefinitions.event"
 #include "AnimationDefinitions.event"
 #include "SpellDefinitions.event"
+#include "ItemIconDefinitions.event"

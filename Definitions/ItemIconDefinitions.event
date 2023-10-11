@@ -1,0 +1,97 @@
+// WARNING: VANILLA
+#define IronSwordIcon 0x00
+#define SlimSwordIcon 0x01
+#define SteelSwordIcon 0x02
+#define SilverSwordIcon 0x03
+#define IronBladeIcon 0x04
+#define SteelBladeIcon 0x05
+#define SilverBladeIcon 0x06
+#define PoisonSwordIcon 0x07
+#define RapierIcon 0x08
+#define ManiKattiIcon 0x09
+#define BraveSwordIcon 0x0A
+#define SolKattiIcon 0x0B
+#define KillingEdgeIcon 0x0C
+#define ArmorslayerIcon 0x0D
+#define WyrmslayerIcon 0x0E
+#define LightBrandIcon 0x0F
+#define RuneswordIcon 0x10
+#define LancereaverIcon 0x11
+#define ZanbatoIcon 0x12
+
+#define IronLanceIcon 0x13
+#define SlimLanceIcon 0x14
+#define SteelLanceIcon 0x15
+#define SilverLanceIcon 0x16
+#define ToxinLanceIcon 0x17
+#define BraveLanceIcon 0x18
+#define KillerLanceIcon 0x19
+#define HorseslayerIcon 0x1A
+#define JavelinIcon 0x1B
+#define SpearIcon 0x1C
+#define AxereaverIcon 0x1D
+
+#define IronAxeIcon 0x1E
+#define SteelAxeIcon 0x1F
+#define SilverAxeIcon 0x20
+#define PoisonAxeIcon 0x21
+#define BraveAxeIcon 0x22
+#define KillerAxeIcon 0x23
+#define HalberdIcon 0x24
+#define HammerIcon 0x25
+#define DevilAxeIcon 0x26
+#define HandAxeIcon 0x27
+#define TomahawkIcon 0x28
+#define SwordreaverIcon 0x29
+#define SwordslayerIcon 0x2A
+
+#define IronBowIcon 0x2B
+#define SteelBowIcon 0x2C
+#define SilverBowIcon 0x2D
+#define PoisonBowIcon 0x2E
+#define KillerBowIcon 0x2F
+#define BraveBowIcon 0x30
+#define ShortBowIcon 0x31
+#define LongbowIcon 0x32
+#define BallistaIcon 0x33
+#define IronBallistaIcon 0x34
+#define KillerBallistaIcon 0x35
+
+#define FireIcon 0x36
+#define ThunderIcon 0x37
+#define ElfireIcon 0x38
+#define BoltingIcon 0x39
+#define FimbulvetrIcon 0x3A
+#define ForblazeIcon 0x3B
+#define ExcaliburIcon 0x3C
+
+#define LightningIcon 0x3D
+#define ShineIcon 0x3E
+#define DivineIcon 0x3F
+#define PurgeIcon 0x40
+#define AuraIcon 0x41
+#define LuceIcon 0x42
+
+#define FluxIcon 0x43
+#define LunaIcon 0x44
+#define NosferatuIcon 0x45
+#define EclipseIcon 0x46
+#define FenrirIcon 0x47
+#define GespenstIcon 0x48
+
+#define HealStaffIcon 0x49
+#define MendStaffIcon 0x4A
+#define RecoverStaffIcon 0x4B
+#define PhysicStaffIcon 0x4C
+#define FortifyStaffIcon 0x4D
+#define RestoreStaffIcon 0x4E
+#define SilenceStaffIcon 0x4F
+#define SleepStaffIcon 0x50
+#define BerserkStaffIcon 0x51
+#define WarpStaffIcon 0x52
+#define RescueStaffIcon 0x53
+#define TorchStaffIcon 0x54
+#define HammerneStaffIcon 0x55
+#define UnlockStaffIcon 0x56
+#define BarrierStaffIcon 0x57
+

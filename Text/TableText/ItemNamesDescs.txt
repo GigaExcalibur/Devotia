@@ -353,6 +353,10 @@ Hermetical combat spell.[X]
 Drekkan avart-garde war magick.[N]
 Scales off MAG; targets DEF.[X]
 
+## PhysicalTomeDesc
+Dense with knowledge.[N]
+Scales off STR; targets DEF.[X]
+
 ## HeavyTomeDesc
 Sole, concentrated magic blast.[N]
 Cannot double; user strikes last.[X]
@@ -463,6 +467,21 @@ Sweeping Gale[X]
 Discreet in its lethality.[N]
 Effective against flying foes.[X]
 
+## IronTomeName
+Iron tome[X]
+
+## EncyclopediaName
+Encyclopedia[X]
+
+## MuqaddimahName
+Muqaddimah[X]
+
+## RegustaloName
+Regustalo[X]
+
+## GigaExcaliburName
+Giga Excalibur[X]
+
 ## HolyLightName
 Holy Light[X]
 
@@ -502,11 +521,14 @@ Deluge[X]
 ## VexauraName
 Vexaura[X]
 
-## ResireName
-Resire[X]
+## ShootingStarsName
+Shooting Stars[X]
 
 ## NosferatuName
 Nosferatu[X]
+
+## RegalistaName
+Regalista[X]
 
 ## MoonlightWaltzName
 Moonlight Waltz[X]
@@ -552,9 +574,6 @@ Ruin[X]
 
 ## SolsticeName
 Solstice[X]
-
-## GigaExcaliburName
-Giga Excalibur[X]
 
 ## RegoliathName
 Regoliath[X]

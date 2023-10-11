@@ -1615,8 +1615,8 @@ of the ensemble cast, this unit[N]
 does not possess any skills.[X]
 
 ## SD_Stalwart
-As an enemy commander a cut above[N]
-the rest of the rabble, unit is[N]
+As a captain of the ensemble with[N]
+a speaking role, this unit is[N]
 immune to all effective damage.[X]
 
 ## SD_Cunning

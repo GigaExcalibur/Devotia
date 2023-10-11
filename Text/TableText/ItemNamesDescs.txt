@@ -578,8 +578,25 @@ Solstice[X]
 ## RegoliathName
 Regoliath[X]
 
-## CataclysmaelstromName
-Cataclysmaelstrom[X]
+## VulneraryName
+Vulnerary[X]
+
+## VulneraryDesc
+Apply topically, do not ingest.[N]
+Restores 15 HP on use.[X]
+
+## ElixirName
+Elixir[X]
+
+## ElixirDesc
+Ingest, do not apply topically.[N]
+Restores all HP on use.[X]
+
+## EmptyPouchName
+Empty Pouch[X]
+
+## EmptyPouchDesc
+Worth a scrap.[X]
 
 ## CopperFilledPouchName
 Copper-filled pouch[X]
@@ -598,6 +615,9 @@ Gold-filled pouch[X]
 
 ## GoldFilledPouchDesc
 Worth a fortune.[X]
+
+## CataclysmaelstromName
+Cataclysmaelstrom[X]
 
 ## CataclysmaelstromDesc
 Klaudia[lock] Fire/wind magic combo.[N]

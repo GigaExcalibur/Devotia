@@ -188,7 +188,7 @@
 #define Invest 0xE4 // Jaufrea
 // Kylie
 // Luair
-// Axel
+#define HurricaneAxe 0xE7
 // Willa
 #define Mooneater 0xE9 // Calvin
 // Clovis

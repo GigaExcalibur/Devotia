@@ -362,7 +362,7 @@ Sole, concentrated magic blast.[N]
 Cannot double; user strikes last.[X]
 
 ## AlwaysHitTomeDesc
-The light sees all enemy movement.[N]
+The light reveals enemy movement.[N]
 Wielder's attacks always hit.[X]
 
 ## ExtendedRangeTomeDesc

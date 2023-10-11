@@ -136,6 +136,9 @@ WORD ACTION_PUSH
 WORD ACTION_SWARP
 
 ALIGN 4
+#include "SerenadePostbattle/Serenade.lyn.event"
+
+ALIGN 4
 Wallflower:
 #incbin "Wallflower/Wallflower.dmp"
 POIN SkillTester

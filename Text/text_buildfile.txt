@@ -117,23 +117,23 @@ Learned  [X]
 
 #include "statscreen_text.txt"
 
-#0xd4c LikesText
+#0x0903 LikesText
 //first text ID in the free block
 Name:[X]
 
-#0xd4d DislikesText 
+## DislikesText 
 Prns:[X]
 
-#0xd4e HeightText
+## HeightText
 Height:[X]
 
-#0xd4f AgeText
+## AgeText
 Age:[X]
 
-#0xd50 BirthdayText
+## BirthdayText
 Bday:[X]
 
-#0xd51 HobbyText
+## HobbyText
 Hobby:[X]
 
 ## HouseText

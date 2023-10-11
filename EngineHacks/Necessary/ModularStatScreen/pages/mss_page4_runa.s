@@ -10,7 +10,7 @@ MSS_page4:
 page_start
 
 @full name
-draw_textID_at 13, 3, textID=0xd4c, width=4, colour=Blue
+draw_textID_at 13, 3, textID=0x903, width=4, colour=Blue
 
 mov    r0,r8
 ldr    r1,[r0]               @load character pointer
@@ -46,7 +46,7 @@ LiteralJump1:
 
 @ pronouns
 
-draw_textID_at 13, 5, textID=0xd4d, width=4, colour=Blue
+draw_textID_at 13, 5, textID=0x904, width=4, colour=Blue
 mov    r0,r8
 ldr    r1,[r0]               @load character pointer
 ldrb   r1,[r1,#0x4]	         @load character number
@@ -74,7 +74,7 @@ blh    DrawTextInline, r4
 add    r7, #8
 
 @ hobby
-draw_textID_at 13, 7, textID=0xd51, width=4, colour=Blue
+draw_textID_at 13, 7, textID=0x908, width=4, colour=Blue
 
 b LiteralJump2
 .ltorg
@@ -109,7 +109,7 @@ add    r7, #8
 
 @ birthday
 
-draw_textID_at 13, 9, textID=0xd50, width=4, colour=Blue
+draw_textID_at 13, 9, textID=0x907, width=4, colour=Blue
 mov    r0,r8
 ldr    r1,[r0]               @load character pointer
 ldrb   r1,[r1,#0x4]	         @load character number
@@ -138,7 +138,7 @@ add    r7, #8
 
 @ age
 
-draw_textID_at 13, 11, textID=0xd4f, width=4, colour=Blue
+draw_textID_at 13, 11, textID=0x906, width=4, colour=Blue
 
 b LiteralJump3
 .ltorg
@@ -172,7 +172,7 @@ blh    DrawTextInline, r4
 add    r7, #8
 
 @ height
-draw_textID_at 13, 13, textID=0xd4e, width=4, colour=Blue
+draw_textID_at 13, 13, textID=0x905, width=4, colour=Blue
 
 b LiteralJump4
 .ltorg

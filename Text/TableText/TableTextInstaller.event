@@ -2,3 +2,5 @@
 #include "ClassNamesDescs.txt"
 #include "ItemNamesDescs.txt"
 #include "PersonalData.txt"
+#include "GuideText.txt"
+#include "SongNames.txt"

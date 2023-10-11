@@ -1615,8 +1615,8 @@ of the ensemble cast, this unit[N]
 does not possess any skills.[X]
 
 ## SD_Stalwart
-As an enemy commander a cut above[N]
-the rest of the rabble, unit is[N]
+As a captain of the ensemble with[N]
+a speaking role, this unit is[N]
 immune to all effective damage.[X]
 
 ## SD_Cunning
@@ -1624,10 +1624,10 @@ Cunning: Unit can steal items[N]
 off foes and pick the locks of[N]
 any chest or door.[X]
 
-## SD_LuckySeven
-Lucky Seven: If unit or foe's HP[N]
-is a multiple of 7, unit always[N]
-doubles and foe cannot double.[X]
+## SD_FortunateSeven
+Fortunate Seven: If Klaudia or her foe's[N]
+HP is divisible by 7, she always doubles[N]
+and foe never doubles (if weapon allows).[X]
 
 ## SD_Soulblade
 Soulblade: Omen cuts through his foe's[N]
@@ -1635,13 +1635,14 @@ defensive stance, hitting the average[N]
 of their DEF and RES when using swords.[X]
 
 ## SD_Serenade
-Serenade: After attacking, allies in[N]
-2 spaces get +2 DEF/RES for one turn.[X]
+Serenade: Josephine recites her works,[N]
+granting +3 DEF/RES to allies in her[N]
+attack range for 1 turn after combat.[X]
 
 ## SD_RespectingElders
 Respecting Elders: Adjacent allies older[N]
-than Emerson take their age - Emerson's[N]
-age / 7 damage less damage in combat.[X]
+than Emerson take (their age - Emerson's[N]
+age) / 7 less damage in combat.[X]
 
 ## SD_Wallflower
 Wallflower: Beth hates interacting[N]
@@ -1654,6 +1655,24 @@ ally 2 spaces forward. Who the fuck[N]
 knows what else this'll do.[X]
 
 ## SD_NimbleFingers
-Nimble Fingers: Unit gains another[N]
-action after stealing or picking[N]
-locks (once per turn).[X]
+Nimble Fingers: Giselle's hands can't[N]
+stay still. She gets another action[N]
+after stealing or lockpicking (1/turn).[X]
+
+## SD_SarkanPoise
+Sarkan Poise: Levia's presence graces[N]
+all. Her and adjacent allies cannot be[N]
+at WTD. (Foe can still be at WTA.)[X]
+
+## SD_PentUpRage
+Pent-Up Rage: Stuart can't hold it in.[N]
+If he's wielding a heavy weapon, he[N]
+cannot miss and foe cannot crit.[X]
+
+## SD_Shortstack
+Shortstack: Nirav is insecure about[N]
+their height.[X]
+
+## SD_Disvantage
+Disvantage: Unit always strikes[N]
+last in combat.[X]

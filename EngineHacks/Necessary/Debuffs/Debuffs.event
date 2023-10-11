@@ -47,7 +47,10 @@ WORD RequireDamageToDebuff
 
 ALIGN 4 
 EternalVanity_Link: 
-WORD EternalVanityID 
+WORD EternalVanityID
+
+SerenadeID_Link:
+WORD SerenadeID
 
 
 SpecRallyAmount_Link: 
@@ -72,6 +75,9 @@ WORD 2
 
 EngagePoisonAmount_Link:
 WORD 5
+
+SerenadeBonus_Link:
+WORD 3
 
 #define DebuffEntrySize 10 // Number of bytes
 
@@ -157,9 +163,9 @@ ArmorMarchBitOffset_Link:
 WORD MiscOffset+3
 VigorDanceBitOffset_Link:
 WORD MiscOffset+4
-EngagePoisonBitOffset_Link:
+SerenadeBitOffset_Link:
 WORD MiscOffset+5
-
+EngagePoisonBitOffset_Link:
 
 ALIGN 4 
 RalliesNumberOfBits_Link:

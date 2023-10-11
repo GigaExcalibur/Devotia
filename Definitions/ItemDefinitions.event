@@ -113,7 +113,11 @@
 #define TradeTempest 0x95
 #define VentusSaltare 0x96
 #define SweepingGale 0xA1
-#define GigaExcalibur 0x3E // WHOOOOOO YEAHHHHHH
+#define Regustalo 0x3E // WHOOOOOO YEAHHHHHH
+#define IronTome 0x64 // Promo item slots
+#define Encyclopedia 0x65
+#define Muqaddimah 0x66
+#define GigaExcalibur 0x50 // Restore's old slot
 
 // LIGHT
 #define HolyLight 0xA7
@@ -129,9 +133,9 @@
 #define Elsurge 0xB2
 #define Deluge 0xB3
 #define Vexaura 0xB4
-#define Resire 0xB6
+#define ShootingStars 0xB6
 #define Nosferatu 0xBA
-#define LegendaryLight 0x87 // Ivaldi's old slot
+#define Regalista 0x87 // Ivaldi's old slot
 
 // DARK
 #define MoonlightWaltz 0xBB
@@ -184,7 +188,7 @@
 #define Invest 0xE4 // Jaufrea
 // Kylie
 // Luair
-// Axel
+#define HurricaneAxe 0xE7
 // Willa
 #define Mooneater 0xE9 // Calvin
 // Clovis

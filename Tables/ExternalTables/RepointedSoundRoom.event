@@ -1,0 +1,13 @@
+// technically SoundRoomEntry is an incorrect macro but no one uses random mode on the sound room so who cares
+#define SoundRoomEntry(songID, textID) "SHORT songID 0 0 textID"
+#define EndSoundRoom "SHORT 0 0 0 0"
+
+PUSH
+ORG 0xA20E74
+POIN NewSoundRoom
+POP
+
+ALIGN 4
+NewSoundRoom:
+SoundRoomEntry(LightingTempleID, LightingTempleText)
+EndSoundRoom

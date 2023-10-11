@@ -1,14 +1,14 @@
 INLINE PersonalSkillTable,Skill
 None,0x0
-0x01 Klaudia,GenericID
+0x01 Klaudia,FortunateSevenID
 0x02 Omen,SoulbladeID
 0x03 Josephine,SerenadeID
 0x04 Emerson,RespectingEldersID
 0x05 Beth,WallflowerID
-Vanessa,SpurSpdID
-Ross,ParagonID
-Neimi,RallyLukID
-Colm,RallySpdID
+0x06 Cam,WaveShredderID
+0x07 Giselle,NimbleFingersID
+0x08 Levia,SarkanPoiseID
+0x09 Stuart,PentUpRageID
 Garcia,ColossusID
 Innes,BowRangeUpID
 Lute,ParagonID

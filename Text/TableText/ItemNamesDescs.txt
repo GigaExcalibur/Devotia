@@ -353,12 +353,16 @@ Hermetical combat spell.[X]
 Drekkan avart-garde war magick.[N]
 Scales off MAG; targets DEF.[X]
 
+## PhysicalTomeDesc
+Dense with knowledge.[N]
+Scales off STR; targets DEF.[X]
+
 ## HeavyTomeDesc
-Single concentrated magical blast.[N]
+Sole, concentrated magic blast.[N]
 Cannot double; user strikes last.[X]
 
 ## AlwaysHitTomeDesc
-The light sees all enemy movement.[N]
+The light reveals enemy movement.[N]
 Wielder's attacks always hit.[X]
 
 ## ExtendedRangeTomeDesc
@@ -369,7 +373,7 @@ Cheats the natural life cycle.[N]
 Restores HP = 50% of damage dealt.[X]
 
 ## IgnoreDefenseTomeDesc
-Wards will not save you.[N]
+Wards will not shield you.[N]
 Ignores 50% of foe's resistance.[X]
 
 ## FireballName
@@ -397,22 +401,22 @@ Effective against flammable foes.[X]
 Lightning Bolt[X]
 
 ## LightningBoltDesc
-Initiate combat spell.[N]
-Effective against doused foes.[X]
+Initiate combat spell. Cannot[N]
+double; eff. vs. doused foes.[X]
 
 ## LightningBlastName
 Lightning Blast[X]
 
 ## LightningBlastDesc
-Textbook combat spell.[N]
-Effective against doused foes.[X]
+Textbook combat spell. Cannot[N]
+double; eff. vs. doused foes.[X]
 
 ## TonitrusCanereName
 Tonitrus Canere[X]
 
 ## TonitrusCanereDesc
-Hermetical combat spell.[N]
-Effective against doused foes.[X]
+Hermetical combat spell. Cannot[N]
+double; eff. vs. doused foes.[X]
 
 ## TradewindsName
 Tradewinds[X]
@@ -459,6 +463,25 @@ Vexflame[X]
 ## SweepingGaleName
 Sweeping Gale[X]
 
+## SweepingGaleDesc
+Discreet in its lethality.[N]
+Effective against flying foes.[X]
+
+## IronTomeName
+Iron tome[X]
+
+## EncyclopediaName
+Encyclopedia[X]
+
+## MuqaddimahName
+Muqaddimah[X]
+
+## RegustaloName
+Regustalo[X]
+
+## GigaExcaliburName
+Giga Excalibur[X]
+
 ## HolyLightName
 Holy Light[X]
 
@@ -498,11 +521,14 @@ Deluge[X]
 ## VexauraName
 Vexaura[X]
 
-## ResireName
-Resire[X]
+## ShootingStarsName
+Shooting Stars[X]
 
 ## NosferatuName
 Nosferatu[X]
+
+## RegalistaName
+Regalista[X]
 
 ## MoonlightWaltzName
 Moonlight Waltz[X]
@@ -549,14 +575,28 @@ Ruin[X]
 ## SolsticeName
 Solstice[X]
 
-## GigaExcaliburName
-Giga Excalibur[X]
-
 ## RegoliathName
 Regoliath[X]
 
-## CataclysmaelstromName
-Cataclysmaelstrom[X]
+## VulneraryName
+Vulnerary[X]
+
+## VulneraryDesc
+Apply topically, do not ingest.[N]
+Restores 15 HP on use.[X]
+
+## ElixirName
+Elixir[X]
+
+## ElixirDesc
+Ingest, do not apply topically.[N]
+Restores all HP on use.[X]
+
+## EmptyPouchName
+Empty Pouch[X]
+
+## EmptyPouchDesc
+Worth a scrap.[X]
 
 ## CopperFilledPouchName
 Copper-filled pouch[X]
@@ -575,6 +615,9 @@ Gold-filled pouch[X]
 
 ## GoldFilledPouchDesc
 Worth a fortune.[X]
+
+## CataclysmaelstromName
+Cataclysmaelstrom[X]
 
 ## CataclysmaelstromDesc
 Klaudia[lock] Fire/wind magic combo.[N]

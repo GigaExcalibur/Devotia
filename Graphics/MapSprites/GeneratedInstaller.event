@@ -691,7 +691,10 @@ Wyvern_Lord_M_Helmless_Axe_flasubanstand_Data:
 ALIGN 4 
 Wyvern_Rider_F_Axe_flasubanstand_Data: 
 #incbin "dmp/Wyvern_Rider_F_Axe_flasubanstand.dmp" 
- 
+
+ALIGN 4
+SigilMapSpriteData:
+#incbin "dmp/sigil.dmp"
  
  
  

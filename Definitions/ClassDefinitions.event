@@ -63,7 +63,7 @@
 
 // Horsemen
 #define SwordCavalier 0x30
-#define Hakkapeliitta 0x31
+#define Hakkapeliitta 0x31; #define Hackapell Hakkapeliitta
 #define LanceCavalier 0x32
 #define Paladin 0x33
 #define AxeCavalier 0x35 // skip one for gorgon egg

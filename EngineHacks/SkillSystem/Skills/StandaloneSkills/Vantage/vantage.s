@@ -10,7 +10,7 @@ mov r7, r1 @place to store defender
 @check for Vantage, Vantage+ 
 ldr r0, SkillTester
 mov lr, r0
-mov r0, r5 @defender data
+mov r0, r4 @defender data
 ldr r1, VantagePlusID
 .short 0xF800
 cmp r0, #0
@@ -18,7 +18,7 @@ bne VantagePlus
 
 ldr r0, SkillTester
 mov lr, r0
-mov r0, r5 @defender data
+mov r0, r4 @defender data
 ldr r1, VantageID
 .short 0xf800
 cmp r0, #0

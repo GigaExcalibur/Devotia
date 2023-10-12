@@ -7,3 +7,4 @@
 #include "AnimationDefinitions.event"
 #include "SpellDefinitions.event"
 #include "ItemIconDefinitions.event"
+#include "ChapterDefinitions.event"

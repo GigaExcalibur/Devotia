@@ -15,3 +15,8 @@
 #define StasimonAMapID 0xB
 #define StasimonAMapChangesID 0xC
 #define StasimonAEventsID 0xD
+
+// Tileset IDs (start from 0x88)
+#define RevampedFortObjectID 0x88
+#define RevampedFortPaletteID 0x89
+#define RevampedFortConfigID 0x8A

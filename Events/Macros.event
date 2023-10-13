@@ -1,1 +1,2 @@
 #define ShowMapClear "ASMC 0x85C65"
+#define EndConvo "CALL $9EE2C4"

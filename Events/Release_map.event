@@ -40,6 +40,7 @@ END_MAIN
 
 CharacterBasedEvents:
 CharacterEventBothWays(0x10,TalkEvent, Eirika, Ephraim)
+CharacterEventBothWays(0x11,GiselleCamTalk, Giselle, Cam)
 END_MAIN
 
 LocationBasedEvents:
@@ -231,6 +232,13 @@ LABEL 0
 
 TalkEvent:
 Text(cursingtext)
+NoFade
+ENDA
+
+GiselleCamTalk:
+SetBackground(0x1)
+Text(cursingtext)
+CALL $9EE2C4
 NoFade
 ENDA
 

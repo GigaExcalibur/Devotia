@@ -1,5 +1,6 @@
 #define GuideFlag 0xB4
 #define AddGuideEntry(category, title, content) "BYTE category category; SHORT title content GuideFlag GuideFlag 0"
+#define AddGuideEntry(category, title, content, unlockFlag, readFlag) "BYTE category category; SHORT title content unlockFlag readFlag 0"
 
 #define MechanicsIndex 0x1
 #define SetpiecesIndex 0x2
@@ -7,14 +8,45 @@
 #define CrewIndex 0x4
 
 PUSH
+ORG 0xCE380
+POIN NewPlaybill
+ORG 0xCDF5C
+POIN NewPlaybill
+ORG 0xCE40C
+POIN NewPlaybill
+ORG 0xCE480
+POIN NewPlaybill
+ORG 0xCE57C
+POIN NewPlaybill
+ORG 0xCE618
+POIN NewPlaybill
+ORG 0xCE6C4
+POIN NewPlaybill
+ORG 0xCE998
+POIN NewPlaybill
+ORG 0xCEB5C
+POIN NewPlaybill
+ORG 0xCEC20
+POIN NewPlaybill
+ORG 0xCF090
+POIN NewPlaybill
+ORG 0xCF468
+POIN NewPlaybill
+ORG 0xCF488
+POIN NewPlaybill
+
+ORG 0xCEF14
+BYTE $00 $20 // Disable transparency
+
 ORG 0xCEF7C 
 SHORT 0xE001
+
 ORG 0xCEF74
 SHORT 0x2200 // Prevent Guide Sorting
 POP
 
-PUSH
-ORG $B19E0C
+ALIGN 4
+NewPlaybill:
 // Mechanics
 AddGuideEntry(MechanicsIndex, WeaponTriangleEntry, WeaponTriangleContent)
 
@@ -27,10 +59,16 @@ AddGuideEntry(CastIndex, ZeroRothEntry, ZeroRothContent)
 AddGuideEntry(CastIndex, JosephineVentadornEntry, JosephineVentadornContent)
 AddGuideEntry(CastIndex, WesleyEmersonEntry, WesleyEmersonContent)
 AddGuideEntry(CastIndex, BethelynTillerEntry, BethelynTillerContent)
+AddGuideEntry(CastIndex, CamiliaFailsideEntry, CamiliaFailsideContent)
+AddGuideEntry(CastIndex, GiselleLoweEntry, GiselleLoweContent)
 
 // Crew
-WORD 0
 
+// Terminator
+AddGuideEntry(0xC, 0, 0, 0, 0)
+WORD 0 0 0
+
+PUSH
 ORG $B12B04
 SHORT 1
 SHORT MechanicsCategory

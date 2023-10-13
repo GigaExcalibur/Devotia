@@ -98,3 +98,19 @@ Bethelyn Tiller[X]
 Occupation: Grape farmer[N]
 Circumstance of recruitment:[N]
 Volunteered at VILLAGE NAME[X]
+
+## CamiliaFailsideEntry
+Camilia Failside[X]
+
+## CamiliaFailsideContent
+Occupation: Stevedore[N]
+Circumstance of recruitment:[N]
+Jumped ship from old crew.[X]
+
+## GiselleLoweEntry
+Giselle Lowe[X]
+
+## GiselleLoweContent
+Occupation: Pickpocket[N]
+Circumstance of recruitment:[N]
+Volunteered at [X]

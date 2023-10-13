@@ -1,2 +1,3 @@
 #define ShowMapClear "ASMC 0x85C65"
 #define EndConvo "CALL $9EE2C4"
+#define TutorialText(textID) "CenterTutorialTextBox; TUTORIALTEXTBOXSTART; TEXTSHOW textID; TEXTEND; REMA"

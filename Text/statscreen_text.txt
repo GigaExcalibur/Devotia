@@ -101,9 +101,9 @@ sanic speed lmao xd[X]
 The degree to which your unit is[N]
 guarded against enemy criticals.[X]
 
-## BackstageName
- Backstage[X]
+## ChorusName
+ Chorus[X]
  
-## BackstageDesc
-View an exclusive tour of[N]
-Devotia behind the scenes.[X]
+## ChorusDesc
+Bear witness to the voices of the[N]
+ensemble as they explain the map.[X]

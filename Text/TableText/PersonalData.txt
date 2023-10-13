@@ -161,7 +161,7 @@ Lighting Fireworks[X]
 October 27[X]
 
 ## ZeroFullName
-Zero Roth[X]
+'Zero' Roth[X]
 
 ## ZeroHobby
 Throwing knives[X]

@@ -89,16 +89,19 @@ Very well. Let us raise the curtain.[N]
 This demo features two gameplay[N]
 episodes and one dialogue-only[N]
 stasimon (intermission).[AN]
-You may freely consult the Playbill[N]
-for any informational needs, or[N]
-look Backstage for a per-chapter[N]
+You may consult the [Red]Playbill[Red] for any[N]
+any informational needs, or listen[N]
+to the [Red]Chorus[Red] for a per-chapter[N]
 briefing on the map's gameplay.[AN]
 With all that said, sit back, relax,[N]
 and please enjoy Devotia Exhibition![A][X]
 
-## ParadosBackstageText
-[ML][LoadStageManager]
-[ML]Greetings, player, and welcome backstage.[AN]
+## ParadosChorusText
+Sun beats on land long scarred, its aches[N]
+and groans  
+
+## ParadosChorusText
+Greetings, player, and welcome backstage.[AN]
 I am here as your tour guide through[N]
 Devotia's innermost workings.[AN]
 Parados is comparatively simple,[N]

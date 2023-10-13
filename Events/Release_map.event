@@ -230,8 +230,15 @@ LABEL 0
 //ENDA
 #endif // DRAGON_VEINS
 
+ALIGN 4
 TalkEvent:
 Text(cursingtext)
+NoFade
+ENDA
+
+ALIGN 4
+ParadosChorus:
+TutorialText(ParadosChorusText)
 NoFade
 ENDA
 

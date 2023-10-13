@@ -4,7 +4,7 @@ PUSH
 ORG 0x5B6BB4
 BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $FE $7B $9F $73 $5E $6B $1D $63 $BC $5A $96 $39 $54 $31 $32 $29 $EF $20 $AD $1C $8B $14
 ORG 0x5B6C34
-BYTE $0E $52 $39 $67 $97 $46 $2C $15 $04 $00 $37 $63 $16 $5F $D3 $5A $90 $52 $4C $4E $67 $45 $26 $41 $E4 $38 $A3 $34 $62 $30 $21 $28
+BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $FE $7B $9F $73 $5E $6B $1D $63 $BC $5A $96 $39 $54 $31 $32 $29 $EF $20 $AD $1C $8B $14
 
 // Option 2: sea foam
 ORG 0x5B6BD4

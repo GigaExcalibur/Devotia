@@ -1,9 +1,12 @@
 Beth.png
+BlueSoldier.png
 Cam.png
 Emerson.png
 Giselle.png
+GreenSoldier.png
 Josephine.png
 Klaudia.png
 Ranun.png
+RedSoldier.png
 Wister.png
 Zero.png

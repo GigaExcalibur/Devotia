@@ -6,6 +6,13 @@ BethMugLabel:
 #incbin "Beth_minimug.dmp"
 
 ALIGN 4
+BlueSoldierMugLabel:
+#incbin "BlueSoldier_mug.dmp"
+#incbin "BlueSoldier_frames.dmp"
+#incbin "BlueSoldier_palette.dmp"
+#incbin "BlueSoldier_minimug.dmp"
+
+ALIGN 4
 CamMugLabel:
 #incbin "Cam_mug.dmp"
 #incbin "Cam_frames.dmp"
@@ -27,6 +34,13 @@ GiselleMugLabel:
 #incbin "Giselle_minimug.dmp"
 
 ALIGN 4
+GreenSoldierMugLabel:
+#incbin "GreenSoldier_mug.dmp"
+#incbin "GreenSoldier_frames.dmp"
+#incbin "GreenSoldier_palette.dmp"
+#incbin "GreenSoldier_minimug.dmp"
+
+ALIGN 4
 JosephineMugLabel:
 #incbin "Josephine_mug.dmp"
 #incbin "Josephine_frames.dmp"
@@ -46,6 +60,13 @@ RanunMugLabel:
 #incbin "Ranun_frames.dmp"
 #incbin "Ranun_palette.dmp"
 #incbin "Ranun_minimug.dmp"
+
+ALIGN 4
+RedSoldierMugLabel:
+#incbin "RedSoldier_mug.dmp"
+#incbin "RedSoldier_frames.dmp"
+#incbin "RedSoldier_palette.dmp"
+#incbin "RedSoldier_minimug.dmp"
 
 ALIGN 4
 WisterMugLabel:

@@ -39,3 +39,6 @@ SongTable(LufiaBattle2ID, LufiaBattle2, MapMusicGroup)
 
 #include "MusicEvents/ChasmCave.event"
 SongTable(ChasmCaveID, ChasmCave, MapMusicGroup)
+
+#include "MusicEvents/EndingTheme.event"
+SongTable(EndingThemeID, EndingTheme, MapMusicGroup)

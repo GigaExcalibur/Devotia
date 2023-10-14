@@ -4,3 +4,4 @@
 #define LightingTempleID 0x03
 #define LufiaBattle2ID 0x04
 #define ChasmCaveID 0x05
+#define EndingThemeID 0x06

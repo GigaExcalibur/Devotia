@@ -36,6 +36,7 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventPlayer(0, QueueEnemyPhaseEvent, 1)
 END_MAIN
 
 CharacterBasedEvents:
@@ -66,6 +67,7 @@ Dunno3:
 END_MAIN
 
 Tutorial:
+POIN TooltipPrompt
 END_MAIN
 
 Units1:
@@ -186,6 +188,8 @@ ENUN
 AddTrap(BlueSigilTrapID, 10, 10)
 AddTrap(RedSigilTrapID, 10, 11)
 AddTrap(GreenSigilTrapID, 10, 12)
+EnqueneTutorialEvent_6_PlayerPhaseStart(TooltipPrompt)
+EnqueneTutorialEvent_0_PhaseSwitch(ParadosChorus)
 GotoPrepScreen
 
 EndingScene:
@@ -242,10 +246,23 @@ TutorialText(ParadosChorusText)
 NoFade
 ENDA
 
+ALIGN 4
 GiselleCamTalk:
 SetBackground(0x1)
 Text(cursingtext)
 CALL $9EE2C4
+NoFade
+ENDA
+
+ALIGN 4
+TooltipPrompt:
+TutorialText(ParadosDevotiaWelcomeText)
+NoFade
+ENDA
+
+ALIGN 4
+QueueEnemyPhaseEvent:
+EnqueneTutorialEvent_0_PhaseSwitch(ParadosChorus)
 NoFade
 ENDA
 

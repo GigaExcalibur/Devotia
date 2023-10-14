@@ -82,7 +82,8 @@ of Devotia Exhibition.[AN]
 One order of business before we[N]
 begin the show. Would you like to[N]
 view short tooltips for Devotia's[N]
-unique mechanics on introduction?[Yes][X]
+unique mechanics on introduction?[N]
+[Yes][X]
 
 ## ParadosConfirmationText
 Very well. Let us raise the curtain.[N]
@@ -95,10 +96,6 @@ to the [Red]Chorus[Red] for a per-chapter[N]
 briefing on the map's gameplay.[AN]
 With all that said, sit back, relax,[N]
 and please enjoy Devotia Exhibition![A][X]
-
-## ParadosChorusText
-Sun beats on land long scarred, its aches[N]
-and groans  
 
 ## ParadosChorusText
 Greetings, player, and welcome backstage.[AN]
@@ -153,3 +150,7 @@ Test Base Convo 2[X]
 ## cursingtext
 [ML][LoadCam][MR][LoadGiselle]
 [MR]What the [anima][lock][monster][flier] is wrong with you?[A][X]
+
+##
+Promise me - right now - that you'll come[N]
+home safe and hold me in your arms.[X]

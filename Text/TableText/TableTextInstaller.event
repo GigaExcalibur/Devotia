@@ -1,6 +1,7 @@
 #include "CharNamesDescs.txt"
 #include "ClassNamesDescs.txt"
 #include "ItemNamesDescs.txt"
+#include "DeathQuotes.txt"
 #include "PersonalData.txt"
 #include "GuideText.txt"
 #include "SongNames.txt"

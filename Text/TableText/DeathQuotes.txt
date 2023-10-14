@@ -1,0 +1,23 @@
+## KlaudiaDeathQuote
+[MR][LoadKlaudia]
+[MR]I confess, I had hoped to[N]
+go out in greater fanfare.[AN]
+Alas, there is honor in[N]
+eternal devotion[Beat][A][X]
+
+## ZeroDeathQuote
+[MR][LoadZero]
+[MR][Beat]And thus do my ideals at[N]
+last reach their limit[Beat]
+How wretched. Lord Klaudia, I[N]
+must retreat from the field.[A][X]
+
+## JosephineDeathQuote
+[MR][LoadJosephine]
+[MR]You know what they say:[N]
+brevity is the soul of wit.[AN]
+And oh, was it so brief[Beat][A][X]
+
+## PlaceholderDeathQuote
+[MR][LoadCurrent]
+[MR]Ah! Am dead.[A][X]

@@ -1,0 +1,11 @@
+#define DeathQuote(Character,Chapter,EventID,TextID) "SHORT Character; BYTE 0xFF Chapter; SHORT EventID TextID 0 0"
+#define DeathQuote(Character,Chapter,EventID,TextID,Pointer) "SHORT Character; BYTE 0xFF Chapter; SHORT EventID TextID ; POIN Pointer"
+
+PUSH
+ORG $8472C
+POIN NewDeathQuoteTable
+POP
+
+ALIGN 4
+NewDeathQuoteTable:
+DeathQuote(0xFFFF,0,0,0) // terminator

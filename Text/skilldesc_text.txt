@@ -1615,9 +1615,9 @@ of the ensemble cast, this unit[N]
 does not possess any skills.[X]
 
 ## SD_Stalwart
-As a captain of the ensemble with[N]
-a speaking role, this unit is[N]
-immune to all effective damage.[X]
+As a featured member of the ensemble[N]
+cast with a speaking role, this unit[N]
+is immune to all effective damage.[X]
 
 ## SD_Cunning
 Cunning: Unit can steal items[N]
@@ -1630,7 +1630,7 @@ HP is divisible by 7, she always doubles[N]
 and foe never doubles (if weapon allows).[X]
 
 ## SD_Soulblade
-Soulblade: Omen cuts through his foe's[N]
+Soulblade: Zero cuts through his foe's[N]
 defensive stance, hitting the average[N]
 of their DEF and RES when using swords.[X]
 

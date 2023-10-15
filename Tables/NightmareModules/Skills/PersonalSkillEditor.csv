@@ -9,249 +9,249 @@ None,0x0
 0x07 Giselle,NimbleFingersID
 0x08 Levia,SarkanPoiseID
 0x09 Stuart,PentUpRageID
-Garcia,ColossusID
-Innes,BowRangeUpID
-Lute,ParagonID
-Natasha,SealLukID
-Cormag,RallyStrID
-Ephraim,InspirationID
-Forde,SpurSpdID
-Kyle,SpurStrID
-Amelia,ParagonID
-Artur,FocusID
-Gerik,BondID
-Tethys,DemoiselleID
-Marisa,FocusID
-Saleh,SpurMagID
-Ewan,CelerityID
-L'Arachel,IntimidateID
-Dozla,PivotID
-0,0x0
-Rennac,SpurSpdID
-Duessel,RepositionID
-Myrrh,DragonsBloodID
-Knoll,VoiceOfPeaceID
-Joshua,GambleID
-Syrene,TantivyID
-Tana,LilysPoiseID
-Lyon,LunaID
-Orson,0x0
-Glen,0x0
-Selena,0x0
-Valter,CharmID
-Riev,0x0
-Caellach,0x0
-Fado,0x0
-Ismaire,0x0
-Hayden,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-Lyon's Summon,0x0
-0,0x0
-0,0x0
-Knoll's Summon,0x0
-Ewan's Summon,0x0
-Lyon (Ch 17),0x0
-Morva (Ch 20),FrenzyID
-Orson (Ch 5x),0x0
-Valter (Ch 15),0x0
-Selena (Ch 10B & 13B),0x0
-Valter (Prologue),0x0
-Breguet (Ch 1),CounterMagicID
-Bone (Ch 2),AxefaireID
-Bazba (Ch 3),SwordbreakerID
-Entombed (Ch 4),0x0
-Saar (Ch 5),AxebreakerID
-Novala (Ch 6),IgnisID
-Murray (Ch 7),LifeAndDeathID
-Tirado (Ch 8),SealDefID
-Binks (Ch 9A),BowfaireID
-Pablo (Ch 10A),DartingBlowID
-Maelduin (Ch 12A),0x0
-Aias (Ch 13A),SavageBlowID
-Carlyle (Ch 14A),SealSpdID
-Caellach (Ch 15),0x0
-Pablo (Ch 13A),0x0
-0,0x0
-Gorgon (Ch 18),0x0
-Riev (Ch 19 & 20),0x0
-0,0x0
-0,0x0
-Gheb (Ch 9B),VantageID
-Beran (Ch 10B),ImpaleID
-Cyclops (Ch 12B),ColossusID
-Wight (Ch 11A),0x0
-Deathgoyle (Ch 11B),0x0
-Entombed (Monster Boss),0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-Hunter (Ch 16),0x0
-0,0x0
-Brigand,0x0
-0,0x0
+0x0A Bear,ColossusID
+0x0B Estella,BowRangeUpID
+0x0C Carina,ParagonID
+0x0D Nirav,SealLukID
+0x0E Alma,RallyStrID
+0x0F Roswell,InspirationID
+0x10 Hong Chen,SpurSpdID
+0x11 Darina,SpurStrID
+0x12 Eugenia,ParagonID
+0x13 Maris,FocusID
+0x14 Phillipa,BondID
+0x15 Maeve,DemoiselleID
+0x16 Evren,FocusID
+0x17 Dane,SpurMagID
+0x18 Ulrich,CelerityID
+0x19 Evie,IntimidateID
+0x1A Maybelline,PivotID
+0x1B Lux,0x0
+0x1C Ekaitz,SpurSpdID
+0x1D Bria,RepositionID
+0x1E Jaufrea,DragonsBloodID
+0x1F Kylie,VoiceOfPeaceID
+0x20 Elliot,GambleID
+0x21 Luair,TantivyID
+0x22 Axel,LilysPoiseID
+0x23 Willa,LunaID
+0x24 Calvin,0x0
+0x25 Clovis,0x0
+0x26 Orion,0x0
+0x27 Astraea,CharmID
+0x28 Ansel,0x0
+0x29 Azar,0x0
+0x2A Evelyn,0x0
+0x2B Aleyna,0x0
+0x2C Brynhild,0x0
+0x2D Rami,0x0
+0x2E Samil,0x0
+0x2F Cetus,0x0
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+Lyon's Summon,GenericID
+0,GenericID
+0,GenericID
+Knoll's Summon,GenericID
+Ewan's Summon,GenericID
+Lyon (Ch 17),GenericID
+Morva (Ch 20),GenericID
+Orson (Ch 5x),GenericID
+Valter (Ch 15),GenericID
+Selena (Ch 10B & 13B),GenericID
+Valter (Prologue),GenericID
+0x46 Wister,StalwartID
+0x47 Peasant,GenericID
+0x48 RanunOverture,GenericID
+Entombed (Ch 4),GenericID
+Saar (Ch 5),GenericID
+Novala (Ch 6),GenericID
+Murray (Ch 7),GenericID
+Tirado (Ch 8),GenericID
+Binks (Ch 9A),GenericID
+Pablo (Ch 10A),GenericID
+Maelduin (Ch 12A),GenericID
+Aias (Ch 13A),GenericID
+Carlyle (Ch 14A),GenericID
+Caellach (Ch 15),GenericID
+Pablo (Ch 13A),GenericID
+0,GenericID
+Gorgon (Ch 18),GenericID
+Riev (Ch 19 & 20),GenericID
+0,GenericID
+0,GenericID
+Gheb (Ch 9B),GenericID
+Beran (Ch 10B),GenericID
+Cyclops (Ch 12B),GenericID
+Wight (Ch 11A),GenericID
+Deathgoyle (Ch 11B),GenericID
+Entombed (Monster Boss),GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+Hunter (Ch 16),GenericID
+0,GenericID
+Brigand,GenericID
+0,GenericID
 O'Neill (Prologue),GenericID
-Glen (Cutscene),0x0
-Zonta (Ch 5x),0x0
-Vigarde (Ch 14B),RenewalID
-Lyon (Ch Final),0x0
-Orson (Ch 16),0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-Grado Soldier (Special),0x0
-Grado Soldier 1 (Normal),0x0
-Grado Soldier 2,0x0
-Grado Soldier 3,0x0
-Grado Soldier 4,0x0
-Grado Soldier 5,0x0
-Grado Soldier 6,0x0
-Grado Soldier 7,0x0
-Grado Soldier 8,0x0
-Grado Soldier 9,0x0
-Grado Soldier 10 (Duessel's),0x0
-Grado Soldier 11 (Duessel's),0x0
-Grado Soldier 12 (Duessel's),0x0
-Grado Soldier 13,0x0
-Grado Remnant 1 (Main),0x0
-Cutthroat,0x0
-Grado Remnant 2 (Cutscene and C16 only?),0x0
-Grado Remnant 3 (C16 only?),0x0
-Grado Remnant 4 (C16 only?),0x0
-Wraith (Sage),0x0
-Wraith (Swords),0x0
-Wraith (Axes),0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-Mercenary (C9A),0x0
-Mercenary (C10A),0x0
-Merc Remnant (C13A),0x0
-Monster,0x0
-Monster,0x0
-Monster,0x0
-Monster,0x0
-Monster,0x0
-Monster,0x0
-Monster,0x0
-Monster,0x0
-Monster,0x0
-Monster,0x0
-Monster,0x0
-Monster,0x0
-Monster,0x0
-Monster,0x0
-Monster,0x0
-Monster,0x0
-Monster,0x0
-Monster,0x0
-Monster,0x0
-Monster,0x0
-Monster,0x0
-Demon King,0x0
-0,0x0
-Frelian,0x0
-Frelian,0x0
-0,0x0
-0,0x0
-0,0x0
-Fado (Renais),0x0
-0,0x0
-Hayden (Frelia),0x0
-Mansel (Rausten),0x0
-Klimt (Carcino),0x0
-Dara (Caer Pelyn),0x0
-Ismaire (Jehanna),0x0
-Pegasus Messenger,0x0
-Rausten Knight,0x0
-Rausten Knight,0x0
-(Untested Beyond this point),0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
+Glen (Cutscene),GenericID
+Zonta (Ch 5x),GenericID
+Vigarde (Ch 14B),GenericID
+Lyon (Ch Final),GenericID
+Orson (Ch 16),GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+Grado Soldier (Special),GenericID
+Grado Soldier 1 (Normal),GenericID
+Grado Soldier 2,GenericID
+Grado Soldier 3,GenericID
+Grado Soldier 4,GenericID
+Grado Soldier 5,GenericID
+Grado Soldier 6,GenericID
+Grado Soldier 7,GenericID
+Grado Soldier 8,GenericID
+Grado Soldier 9,GenericID
+Grado Soldier 10 (Duessel's),GenericID
+Grado Soldier 11 (Duessel's),GenericID
+Grado Soldier 12 (Duessel's),GenericID
+Grado Soldier 13,GenericID
+Grado Remnant 1 (Main),GenericID
+Cutthroat,GenericID
+Grado Remnant 2 (Cutscene and C16 only?),GenericID
+Grado Remnant 3 (C16 only?),GenericID
+Grado Remnant 4 (C16 only?),GenericID
+Wraith (Sage),GenericID
+Wraith (Swords),GenericID
+Wraith (Axes),GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+Mercenary (C9A),GenericID
+Mercenary (C10A),GenericID
+Merc Remnant (C13A),GenericID
+Monster,GenericID
+Monster,GenericID
+Monster,GenericID
+Monster,GenericID
+Monster,GenericID
+Monster,GenericID
+Monster,GenericID
+Monster,GenericID
+Monster,GenericID
+Monster,GenericID
+Monster,GenericID
+Monster,GenericID
+Monster,GenericID
+Monster,GenericID
+Monster,GenericID
+Monster,GenericID
+Monster,GenericID
+Monster,GenericID
+Monster,GenericID
+Monster,GenericID
+Monster,GenericID
+Demon King,GenericID
+0,GenericID
+Frelian,GenericID
+Frelian,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+Fado (Renais),GenericID
+0,GenericID
+Hayden (Frelia),GenericID
+Mansel (Rausten),GenericID
+Klimt (Carcino),GenericID
+Dara (Caer Pelyn),GenericID
+Ismaire (Jehanna),GenericID
+Pegasus Messenger,GenericID
+Rausten Knight,GenericID
+Rausten Knight,GenericID
+(Untested Beyond this point),GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID
+0,GenericID

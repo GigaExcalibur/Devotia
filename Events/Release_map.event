@@ -128,7 +128,7 @@ UNIT
 
 EnemyUnits:
 UNIT Wister TherionWister 0x40 0xA5    [8,23] 0b 0x0 0x0 0x0 [KillerAxe,0x0,0x0,0x0] AttackInRangeAI
-UNIT Peasant Myrmidon 0x40 Level(20, NPC, True)     [15,2] 0b 0x0 0x0 0x0 [IronAxe, HandAxe] AttackInRangeAI
+UNIT Peasant Myrmidon 0x40 Level(20, Enemy, True)     [15,2] 0b 0x0 0x0 0x0 [IronAxe, HandAxe] AttackInRangeAI
 UNIT RanunOverture Therion 0x40 0xA5     [9,22] 0 0 0 0 [SteelLance, Javelin] AttackInRangeAI
 UNIT Crocodile Berserker 0x40 0xA5       [11,17] 0 0 0 0 [SteelAxe, HandAxe] AttackInRangeAI
 UNIT Marauder Raider 0x40 0xA5      [16,18] 0 0 0 0 [SteelAxe, HandAxe] AttackInRangeAI

@@ -1,15 +1,15 @@
-## MageLordName
-Mage Lord[X]
+## GremoryName
+Gremory[X]
 
-## MageLordDesc
+## GremoryDesc
 Adept members of House Ouahed,[N]
 classically trained in anima[N]
 magic for combat service.[X]
 
-## GremoryLordName
-Gremory Lord[X]
+## HighGremoryName
+High Gremory[X]
 
-## GremoryLordDesc
+## HighGremoryDesc
 The noble lord of House Ouahed,[N]
 whose grace with lances and all[N]
 magic belies their brutality.[X]
@@ -22,11 +22,11 @@ Noble members of the Sarka bloodline.[N]
 Naturally gifted in healing magic,[N]
 and deft as a fencer as well.[X]
 
-## MasterKnightName
-^{Master} ^{Knight}[X]
+## VioletKnightName
+Violet Knight[X]
 
-## MasterKnightDesc
-Combat-capable nobles of House Sarka,[N]
+## VioletKnightDesc
+Combat-mastered nobles of House Sarka,[N]
 possessing aptitude in all physical[N]
 weapon types to dominate in battle.[X]
 
@@ -340,10 +340,10 @@ Templar[X]
 Axe-wielding apothecaries prepared to[N]
 amputate any malignant tumor to heal.[X]
 
-## SwordCavalierName
-^{Sword Cavalier}[X]
+## SwordRiderName
+^{Sword Rider}[X]
 
-## SwordCavalierDesc
+## SwordRiderDesc
 Chivalrous horsemen nobly knighted.[N]
 This variant is trained in swords.[X]
 
@@ -354,10 +354,10 @@ Hackapell[X]
 Advanced knights whose gallop with[N]
 swords and axes tramples all foes.[X]
 
-## LanceCavalierName
-^{Lance Cavalier}[X]
+## LanceRiderName
+^{Lance Rider}[X]
 
-## LanceCavalierDesc
+## LanceRiderDesc
 Chivalrous horsemen nobly knighted.[N]
 This variant is trained in lances.[X]
 
@@ -368,10 +368,10 @@ Paladin[X]
 Royal knights advancing their master's[N]
 banner by wielding lances and staves.[X]
 
-## AxeCavalierName
-Axe Cavalier[X]
+## AxeRiderName
+Axe Rider[X]
 
-## AxeCavalierDesc
+## AxeRiderDesc
 Chivalrous horsemen nobly knighted.[N]
 This variant is trained in axes.[X]
 

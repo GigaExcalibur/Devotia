@@ -1092,7 +1092,7 @@ ORG SkillIcon(GenericID)
 #incbin "SkillIcons/Generic.dmp"
 
 ORG SkillIcon(StalwartID)
-#incbin "SkillIcons/FortressDefense.dmp"
+#incbin "SkillIcons/Pavise.dmp"
 
 ORG SkillIcon(FortunateSevenID)
 #incbin "SkillIcons/LuckySeven.dmp"

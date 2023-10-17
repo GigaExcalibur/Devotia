@@ -79,7 +79,7 @@ WORD 5
 SerenadeBonus_Link:
 WORD 3
 
-#define DebuffEntrySize 10 // Number of bytes
+#define DebuffEntrySize 11 // Number of bytes
 
 // NOTE: If you wish to use more bits in the debuff table, please use the provided functions for ease of use. 
 /*
@@ -165,6 +165,12 @@ VigorDanceBitOffset_Link:
 WORD MiscOffset+4
 SerenadeBitOffset_Link:
 WORD MiscOffset+5
+FlammableBitOffset_Link:
+WORD MiscOffset+6
+DousedBitOffset_Link:
+WORD MiscOffset+7
+LevitatingBitOffset_Link:
+WORD MiscOffset+8
 EngagePoisonBitOffset_Link:
 
 ALIGN 4 

@@ -340,6 +340,16 @@ Barrier[X]
 Blesses allies with magical ward.[N]
 +7 RES, diminishes 1/turn.[X]
 
+## OilJugName
+Oil Jug[X]
+
+## OilJugDesc
+Makes fire tomes effective (2x mt)[N]
+vs. target for 1 turn. 1-5 range.[X]
+
+## OilJugUseDesc
+Coats target in oil.[X]
+
 ## IronTomeDesc
 Initiate combat spell.[X]
 

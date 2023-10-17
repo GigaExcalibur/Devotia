@@ -72,3 +72,6 @@
 
 #include "Autosave/Installer.event"
 // Vesly
+
+#include "EffectiveDebuffs/Installer.event"
+// Me!

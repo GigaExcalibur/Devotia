@@ -156,6 +156,9 @@
 #define Regoliath 0x4A // Gleipnir's old slot
 
 // ITEMS
+#define OilJug 0x6E
+#define LiquidConduct 0x6F
+#define AirPocket 0x70
 
 // PRFS
 #define Cataclysmaelstrom 0x85 // Klaudia (Sieglinde's old slot)

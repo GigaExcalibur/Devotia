@@ -47,27 +47,27 @@
 #define Samil 0x2E
 #define Cetus 0x2F
 
-// Enemiez
+// NPCs
 
-// Overture 1
+// Parados
 #define Wister 0x46
 #define Peasant 0x47
 #define RanunOverture 0x48
 
-// Overture 2
+// Episode 1
 #define Crocodile 0x49
 #define Marauder 0x4A
 #define LemnaOverture 0x4B
 
-// Intermission A
-#define FernyigesIntermission 0x4C // to hide boss flags
+// Stasimon A
+#define FernyigesIntermission 0x4C
 #define Zakaria 0x4D
 #define MiksaIntermission 0x4E
 #define HafeezIntermission 0x4F
 #define OperiereIntermission 0x50
 #define WinnehildIntermission 0x50
 #define NolierIntermission 0x51
-#define EvrenIntermission 0x52 // to hide personal data before recruited
+#define EvrenIntermission 0x52
 #define DaneIntermission 0x53
 #define CetusIntermission 0x54
 #define StuartIntermission 0x55
@@ -76,4 +76,4 @@
 #define EvieIntermission 0x58
 #define CurtisIntermission 0x59
 
-// Chapter 1
+// Episode 2

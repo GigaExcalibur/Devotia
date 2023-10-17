@@ -625,6 +625,14 @@ Drek is a nation of progress and order.[N]
 Each man is a cog in the machine, and[N]
 the High Commander turns the gears.[X]
 
+## HighAgastyaName
+High Agastya[X]
+
+## HighAgastyaDesc
+Drek is a empire of uncontested power.[N]
+Every man on earth is fuel for the[N]
+machine, and the Supreme Commander...[X]
+
 ## TentName
 Tent[X]
 

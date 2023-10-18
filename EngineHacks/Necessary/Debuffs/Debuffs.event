@@ -79,7 +79,7 @@ WORD 5
 SerenadeBonus_Link:
 WORD 3
 
-#define DebuffEntrySize 11 // Number of bytes
+#define DebuffEntrySize 20 // Number of bytes
 
 // NOTE: If you wish to use more bits in the debuff table, please use the provided functions for ease of use. 
 /*
@@ -171,6 +171,28 @@ DousedBitOffset_Link:
 WORD MiscOffset+7
 LevitatingBitOffset_Link:
 WORD MiscOffset+8
+FlukeBitOffset_Link:
+WORD MiscOffset+9
+FocusBitOffset_Link:
+WORD MiscOffset+10
+FastBitOffset_Link:
+WORD MiscOffset+11
+FireUpBitOffset_Link:
+WORD MiscOffset+12
+BroadenBitOffset_Link:
+WORD MiscOffset+13
+StepBitOffset_Link:
+WORD MiscOffset+14
+FortuityBitOffset_Link:
+WORD MiscOffset+15
+FixateBitOffset_Link:
+WORD MiscOffset+16
+FleetfootBitOffset_Link:
+WORD MiscOffset+17
+FomentBitOffset_Link:
+WORD MiscOffset+18
+StrideBitOffset_Link:
+WORD MiscOffset+19
 EngagePoisonBitOffset_Link:
 
 ALIGN 4 

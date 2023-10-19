@@ -3,7 +3,7 @@ Gremory[X]
 
 ## GremoryDesc
 Adept members of House Ouahed,[N]
-classically trained in anima[N]
+classically educated in anima[N]
 magic for combat service.[X]
 
 ## HighGremoryName

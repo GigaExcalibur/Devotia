@@ -79,6 +79,31 @@ WORD 5
 SerenadeBonus_Link:
 WORD 3
 
+FlukeBonus_Link:
+WORD 15
+FocusBonus_Link:
+WORD 15
+FastBonus_Link:
+WORD 15
+FireUpBonus_Link:
+WORD 15
+
+BroadenBonus_Link:
+WORD 7
+StepBonus_Link:
+WORD 2
+StrideBonus_Link:
+WORD 4
+
+FortuityBonus_Link:
+WORD 45
+FixateBonus_Link:
+WORD 45
+FleetfootBonus_Link:
+WORD 45
+FomentBonus_Link:
+WORD 45
+
 #define DebuffEntrySize 20 // Number of bytes
 
 // NOTE: If you wish to use more bits in the debuff table, please use the provided functions for ease of use. 

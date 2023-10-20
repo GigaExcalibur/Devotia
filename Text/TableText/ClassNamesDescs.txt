@@ -341,7 +341,7 @@ Axe-wielding apothecaries prepared to[N]
 amputate any malignant tumor to heal.[X]
 
 ## SwordRiderName
-^{Sword Rider}[X]
+Sword Rider[X]
 
 ## SwordRiderDesc
 Chivalrous horsemen nobly knighted.[N]
@@ -355,7 +355,7 @@ Advanced knights whose gallop with[N]
 swords and axes tramples all foes.[X]
 
 ## LanceRiderName
-^{Lance Rider}[X]
+Lance Rider[X]
 
 ## LanceRiderDesc
 Chivalrous horsemen nobly knighted.[N]
@@ -610,7 +610,7 @@ Forgoing moral conventions, she coats[N]
 her arrows and lances in deadly poison.[X]
 
 ## OverlordName
-Overlord[X]
+Sarkan Overlord[X]
 
 ## OverlordDesc
 The roots of Sarka's rule run deeper[N]
@@ -626,7 +626,7 @@ Each man is a cog in the machine, and[N]
 the High Commander turns the gears.[X]
 
 ## HighAgastyaName
-High Agastya[X]
+Cardinal Agastya[X]
 
 ## HighAgastyaDesc
 Drek is a empire of uncontested power.[N]

@@ -85,14 +85,14 @@ The stat that snake oil pure water[N]
 salesmen tell you is underrated.[X]
 
 # 0x690
- Ch. status[X]
+ Ch. Status[X]
  
 # 0x6E0
 Look at chapter information such as[N]
 enemy count, gold, and turn number.[X]
 
 # 0x69A
- Unit list[X]
+ Unit List[X]
  
 # 0x6DF
 View properties of all units[N]
@@ -109,7 +109,33 @@ Learn details about the cast and[N]
 crew that brought you Devotia![X]
  
 # 0x6A0
- End turn[X]
+ End Turn[X]
+ 
+# 0x057A
+Deploy units for the[N]
+upcoming battle. Klaudia,[N]
+Levia, and pre-chapter[N]
+recruits will always be[N]
+force deployed.[X]
+
+# 0x057C
+Manage units' held items.[N]
+The preparations shop is[N]
+available to purchase[N]
+needed weapons, staves,[N]
+and consumable items.[X]
+
+# 0x0580
+View the map terrain and[N]
+enemy layout, as well as[N]
+determine ally starting[N]
+positions.[X]
+
+# 0x0581
+Save the current state[N]
+of battle preparations.[N]
+Restart the chapter to[N]
+return to this state.[X]
 
 #0x3A LearnedSkillText
 //first text ID in the free block
@@ -234,16 +260,19 @@ a skill when used.[X]
 #include "ChapterText/ChapterTextInstaller.event"
 
 ## BaseConvoCommandName
-Base Convos[X]
+Encampment[X]
 
 ## BaseConvoCommandDesc
-View base convos[N]
-between various[N]
-members of the army.[X]
+View base conversations[N]
+between various units in[N]
+the army. These convos[N]
+can grant rewards and[N]
+differ between chapters.[X]
 
 ## BaseConvoCommandGoneDesc
 There are no more[N]
-base convos to see.[X]
+base convos to see[N]
+in this chapter.[X]
 
 ## BaseConvoSelectConvoText
 Select a conversation.[X]

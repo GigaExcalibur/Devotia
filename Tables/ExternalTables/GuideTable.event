@@ -6,7 +6,8 @@
 #define SetpiecesIndex 0x2
 #define CastIndex 0x3
 #define CrewIndex 0x4
-#define PromotionIndex 0x5
+#define ThanksIndex 0x5
+#define PromotionIndex 0x6
 
 PUSH
 ORG 0xCE380
@@ -72,10 +73,17 @@ AddGuideEntry(CrewIndex, PortraitsEntry, PortraitsContent)
 AddGuideEntry(CrewIndex, MapSpritesEntry, MapSpritesContent)
 AddGuideEntry(CrewIndex, ClassCardsEntry, ClassCardsContent)
 AddGuideEntry(CrewIndex, BattleAnimationsEntry, BattleAnimationsContent)
+AddGuideEntry(CrewIndex, EngineHacksEntry, EngineHacksContent)
+AddGuideEntry(CrewIndex, SkillSystemsEntry, SkillSystemsContent)
 
-//
-AddGuideEntry(PromotionIndex, ThreeLegaciesEntry, ThreeLegaciesContent)
+// Thanks
+AddGuideEntry(ThanksIndex, OffTheStringEntry, OffTheStringContent)
+AddGuideEntry(ThanksIndex, HackingHelpEntry, HackingHelpContent)
+
+// Promotions
+AddGuideEntry(PromotionIndex, PromotionalHacksEntry, PromotionalHacksContent)
 AddGuideEntry(PromotionIndex, DrumsOfWarEntry, DrumsOfWarContent)
+AddGuideEntry(PromotionIndex, ThreeLegaciesEntry, ThreeLegaciesContent)
 AddGuideEntry(PromotionIndex, LegacyOfSorrowEntry, LegacyOfSorrowContent)
 
 // Terminator
@@ -89,6 +97,7 @@ SHORT MechanicsCategory
 SHORT SetpiecesCategory
 SHORT CastCategory
 SHORT CrewCategory
+SHORT ThanksCategory
 SHORT PromotionCategory
 SHORT 0
 POP

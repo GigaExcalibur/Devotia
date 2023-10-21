@@ -6,6 +6,7 @@
 #define SetpiecesIndex 0x2
 #define CastIndex 0x3
 #define CrewIndex 0x4
+#define PromotionIndex 0x5
 
 PUSH
 ORG 0xCE380
@@ -67,6 +68,15 @@ AddGuideEntry(CastIndex, CamiliaFailsideEntry, CamiliaFailsideContent)
 AddGuideEntry(CastIndex, GiselleLoweEntry, GiselleLoweContent)
 
 // Crew
+AddGuideEntry(CrewIndex, PortraitsEntry, PortraitsContent)
+AddGuideEntry(CrewIndex, MapSpritesEntry, MapSpritesContent)
+AddGuideEntry(CrewIndex, ClassCardsEntry, ClassCardsContent)
+AddGuideEntry(CrewIndex, BattleAnimationsEntry, BattleAnimationsContent)
+
+//
+AddGuideEntry(PromotionIndex, ThreeLegaciesEntry, ThreeLegaciesContent)
+AddGuideEntry(PromotionIndex, DrumsOfWarEntry, DrumsOfWarContent)
+AddGuideEntry(PromotionIndex, LegacyOfSorrowEntry, LegacyOfSorrowContent)
 
 // Terminator
 AddGuideEntry(0xC, 0, 0, 0, 0)
@@ -79,5 +89,6 @@ SHORT MechanicsCategory
 SHORT SetpiecesCategory
 SHORT CastCategory
 SHORT CrewCategory
+SHORT PromotionCategory
 SHORT 0
 POP

@@ -10,8 +10,8 @@ Cam - Mieke
 Giselle - Cravat
 
 # Map Sprites
-Mage Lord - TyTheBub
-Gremory Lord - Pikmin, Unknown
+Gremory - TyTheBub
+High Gremory - Pikmin, Unknown
 Princess - TopazLight
 Mercenary - Agro
 Runelord - Nuramon
@@ -20,7 +20,7 @@ Hunter - MeatOfJustice
 Marksman - ArcherBias
 Trickster - StreetHero, Blood
 Lancer - Flasuban
-Halberdier - TBA
+Halberdier - TheBlindArcher
 Starosta - Spud, Dora Drago
 Warmaster - ArcherBias
 Woodsman - Alusq
@@ -28,7 +28,7 @@ Raider - Zoramine Fae
 Ravager - Zoramine Fae
 Sword/Lance/Axe Armors - Agro
 Dreadnought - Norikins
-Chevalier - Hypergammaspaces
+Gendarme - Hypergammaspaces
 Cataphract - Pikmin, Der
 Mage Armor - Flasuban
 Thaumachine - WarPath
@@ -40,10 +40,10 @@ Sorcerer - Pikmin, Nuramon, Der
 Cleric - TopazLight
 Thaumaturge - Der
 Templar - Der
-Physical Cavaliers - Flasuban, Tordo45
-Cuirassier - L95
-Chasseur - L95
-Forester - RobertFPY
+Riders - Flasuban, Tordo45
+Hakkapell - L95
+Paladin - L95
+Forestier - RobertFPY
 Scout - Flasuban
 Ranger - Flasuban
 Windrider - Flasuban
@@ -56,7 +56,7 @@ Bombardier - N426
 Barbarossa - N426
 Bow Armor - Agro, Blademaster
 Juggernaut - SALVAGED, BoneManSeth
-Malignant/Melusine - MeatOfJustice
+Malignant - MeatOfJustice
 Drifter - Der
 Adventurer - ArcherBias
 Spellstrider - Pikmin, Der
@@ -65,12 +65,12 @@ Wolfssegner - dw about it
 Savior - Permafrost
 Champion - Unknown
 Bard - MeatOfJustice
-CrownPrince - Shin19
+Crown Prince - Shin19
 Prince - WarPath
 Therion - L95
 Therion (Wister) - Zoramine Fae
 Scourge - N426
-Overlord - Blood
+Sarkan Overlord - Blood
 
 # Class Cards
 Mercenary - Uncredited

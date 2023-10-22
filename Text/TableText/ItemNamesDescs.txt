@@ -249,96 +249,127 @@ Killer bow[X]
 ## RadiantBowName
 Radiant bow[X]
 
-## FortuneStaffName
-Fortune[X]
+## FlukeStaffName
+Fluke[X]
 
-## FortuneStaffDesc
-Blesses allies with good luck.[N]
-+30 Crit Avoid for 1 turn.[X]
+## FlukeStaffDesc
+Bestows a minor miracle on ally.[N]
++15 crit avoid for 1 turn.[X]
 
 ## FocusStaffName
 Focus[X]
 
 ## FocusStaffDesc
-Blesses allies with concentration.[N]
-+30 Hit for 1 turn.[X]
+Grants ally a kiwi's sight.[N]
++15 hit for 1 turn.[X]
 
-## FleetfootStaffName
-Fleetfoot[X]
+## FastStaffName
+Fast[X]
 
-## FleetfootStaffDesc
-Blesses allies with quick reflexes.[N]
-+30 Avoid for 1 turn.[X]
+## FastStaffDesc
+Grants ally a zebra's haste.[N]
++15 avoid for 1 turn.[X]
+
+## FireUpStaffName
+Fire Up[X]
+
+## FireUpStaffDesc
+Lights a match under ally.[N]
++15 crit for 1 turn.[X]
 
 ## BroadenStaffName
 Broaden[X]
 
 ## BroadenStaffDesc
-Bolsters allies' physique.[N]
-+4 CON for 1 turn.[X]
+Makes an ally jacked.[N]
++7 CON for 1 turn.[X]
 
-## StrideStaffName
-Stride[X]
+## StepStaffName
+Step[X]
 
-## StrideStaffDesc
-Bolsters allies' swiftness.[N]
-+4 MOV for 1 turn.[X]
+## StepStaffDesc
+Makes ally's pace brisk.[N]
++2 MOV for 1 turn.[X]
 
 ## HealStaffName
 Heal[X]
 
 ## HealStaffDesc
-Magically treats allies' wounds.[N]
-Restores (7 + MAG/2) HP to ally.[X]
+Magically treats ally's wounds.[N]
+Heals (MAG/2 + 7) HP.[X]
 
 ## MendStaffName
 Mend[X]
 
 ## MendStaffDesc
-Magically cures allies' wounds.[N]
-Restores (14 + MAG/2) HP to ally.[X]
+Magically cures ally's wounds.[N]
+Heals (MAG/2 + 14) HP.[X]
 
 ## RecoverStaffName
 Recover[X]
 
 ## RecoverStaffDesc
-Miraculously cures allies' wounds.[N]
-Restores (28 + MAG/2) HP to an ally.[X]
+Miraculously cures ally's wounds.[N]
+Heals (MAG/2 + 35) HP.[X]
 
 ## PhysicStaffName
 Physic[X]
 
 ## PhysicStaffDesc
-Cures allies' wounds from a distance.[N]
-Restores (21 + MAG/2) HP to an ally.[X]
+Cures ally's wounds from afar.[N]
+Heals (MAG/2 + 21) HP.[X]
 
 ## FortifyStaffName
 Fortify[X]
 
 ## FortifyStaffDesc
-Cures all nearby allies' wounds.[N]
-Restores (21 + MAG/2) HP to targets.[X]
+Mass heal to allies in range.[N]
+Heals (MAG/2 + 28) HP.[X]
 
-## WarpStaffName
-Warp[X]
+## FortuityStaffName
+Fortuity[X]
 
-## WarpStaffDesc
-Breaks the fabric of space.[N]
-Warps ally to a faraway tile.[X]
+## FortuityStaffDesc
+Bestows a major miracle on ally.[N]
++45 crit avoid for 1 turn.[X]
 
-## RescueStaffName
-Rescue[X]
+## FixateStaffName
+Fixate[X]
 
-## RescueStaffDesc
-Breaks the fabric of space.[N]
-Brings faraway ally adjacent.[X]
+## FixateStaffDesc
+Grants ally a hawk's sight.[N]
++45 hit for 1 turn.[X]
 
-## BarrierStaffName
-Barrier[X]
+## FleetfootStaffName
+Fleetfoot[X]
 
-## BarrierStaffDesc
-Blesses allies with magical ward.[N]
-+7 RES, diminishes 1/turn.[X]
+## FleetfootStaffDesc
+Grants ally a cheetah's haste.[N]
++45 avoid for 1 turn.[X]
+
+## FomentStaffName
+Foment[X]
+
+## FomentStaffDesc
+Lights a bonfire under ally.[N]
++45 crit for 1 turn.[X]
+
+## StrideStaffName
+Stride[X]
+
+## StrideStaffDesc
+Makes ally's pace breakneck.[N]
++4 MOV for 1 turn.[X]
+
+## OilJugName
+Oil Jug[X]
+
+## OilJugDesc
+Makes fire tomes effective (2x mt)[N]
+vs. target for 1 turn. 1-5 range.[X]
+
+## OilJugUseDesc
+Coats target in oil.[X]
 
 ## IronTomeDesc
 Initiate combat spell.[X]

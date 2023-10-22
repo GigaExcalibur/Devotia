@@ -35,7 +35,9 @@
 #define StuartMug 0x1D
 
 // Generics: ids 0x81 - 0xA0
-#define StageManagerMug 0x81
+#define BlueSoldierMug 0x81
+#define RedSoldierMug 0x82
+#define GreenSoldierMug 0x83
 
 // Class cards: ids 0xA1 - 0xFF
 #define MyrmidonCard 0xA1

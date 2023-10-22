@@ -1,8 +1,8 @@
 // Lords
-#define MageLord 0x01
-#define GremoryLord 0x02
+#define Gremory 0x01
+#define HighGremory 0x02
 #define Princess 0x03
-#define MasterKnight 0x04
+#define VioletKnight 0x04
 
 // Swordmen
 #define Myrmidon 0x05
@@ -62,11 +62,11 @@
 #define Templar 0x2F
 
 // Horsemen
-#define SwordCavalier 0x30
+#define SwordRider 0x30
 #define Hakkapeliitta 0x31; #define Hackapell Hakkapeliitta
-#define LanceCavalier 0x32
+#define LanceRider 0x32
 #define Paladin 0x33
-#define AxeCavalier 0x35 // skip one for gorgon egg
+#define AxeRider 0x35 // skip one for gorgon egg
 #define Forestier 0x36
 #define Scout 0x3F // skip a couple for trainees and manaketes
 #define Ranger 0x40
@@ -107,5 +107,6 @@
 #define Scourge 0x61
 #define Overlord 0x63 // skip one for gorgon egg
 #define Agastya 0x64
-#define GremoryLordZakaria 0x73 // skip a bunch for hardcoded stuff
+#define HighGremoryZakaria 0x73 // skip a bunch for hardcoded stuff
 #define PrinceIntermission 0x74
+#define HighAgastya 0x75

@@ -2,7 +2,7 @@ ALIGN 4
 #include "shinan_event.event"
 
 shinan_table:
-POIN TalkEvent
+POIN ParadosChorus
 POIN shinan_event_01
 POIN shinan_event_02
 POIN shinan_event_03

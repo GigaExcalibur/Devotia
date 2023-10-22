@@ -1105,10 +1105,10 @@
   blh     Statscreen_StartLeftPanel
   mov     r0, #0
   str     r0, [sp]
-  mov     r0, sp
-  ldr     r1, =0x6001380
-  ldr     r2, =0x1000a68
-  swi     0xC @clear vram
+  @mov     r0, sp
+  @ldr     r1, =0x6001380
+  @ldr     r2, =0x1000a68
+  @swi     0xC @clear vram
   ldr     r0, =SSS_Flag
   ldr     r0, [r0]
   cmp     r0, #0x0                  @ If no Scrolling StatScreen, no TSA clearing.

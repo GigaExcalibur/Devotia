@@ -1,15 +1,15 @@
-## MageLordName
-Mage Lord[X]
+## GremoryName
+Gremory[X]
 
-## MageLordDesc
+## GremoryDesc
 Adept members of House Ouahed,[N]
-classically trained in anima[N]
+classically educated in anima[N]
 magic for combat service.[X]
 
-## GremoryLordName
-Gremory Lord[X]
+## HighGremoryName
+High Gremory[X]
 
-## GremoryLordDesc
+## HighGremoryDesc
 The noble lord of House Ouahed,[N]
 whose grace with lances and all[N]
 magic belies their brutality.[X]
@@ -22,11 +22,11 @@ Noble members of the Sarka bloodline.[N]
 Naturally gifted in healing magic,[N]
 and deft as a fencer as well.[X]
 
-## MasterKnightName
-^{Master} ^{Knight}[X]
+## VioletKnightName
+Violet Knight[X]
 
-## MasterKnightDesc
-Combat-capable nobles of House Sarka,[N]
+## VioletKnightDesc
+Combat-mastered nobles of House Sarka,[N]
 possessing aptitude in all physical[N]
 weapon types to dominate in battle.[X]
 
@@ -34,15 +34,15 @@ weapon types to dominate in battle.[X]
 Myrmidon[X]
 
 ## MyrmidonDesc
-Sword students in training. Taught[N]
-to value speed over raw strength.[X]
+Sword students in training, instructed in[N]
+supremacy of speed and skill over power.[X]
 
 ## TruebladeName
 Trueblade[X]
 
 ## TruebladeDesc
-Sword masters who completed training.[N]
-Masters in the art of quick strikes.[X]
+Sword masters of completed study, whose[N]
+peerlessness with swords is unmatched.[X]
 
 ## MercenaryName
 Mercenary[X]
@@ -70,7 +70,7 @@ Can steal enemies' possessions.[X]
 Thief[X]
 
 ## ThiefDesc
-Battlefield lurkers using swords[N]
+Battlefield skulkers using swords[N]
 to open both locks and wounds.[N]
 Can steal enemies' possessions.[X]
 
@@ -144,7 +144,7 @@ Woodsman[X]
 
 ## WoodsmanDesc
 Untrained fighters whose axe strength[N]
-comes from chopping wood, not heads.[X]
+comes from chopping logs, not heads.[X]
 
 ## VarangianName
 Varangian[X]
@@ -164,22 +164,22 @@ of defense for the brawl of a lifetime.[X]
 Berserker[X]
 
 ## BerserkerDesc
-Glass cannon marauders who lash forward[N]
-with no regard for their own safety.[X]
+Bullheaded glass cannon brutes who lash[N]
+forward without regard for any safety.[X]
 
 ## RaiderName
 Raider[X]
 
 ## RaiderDesc
-Mounted brigands who, due to having no[N]
-home to call their own, destroy others'.[X]
+Wolfish brigands whose hunger for[N]
+innocent blood knows no bounds.[X]
 
 ## RavagerName
 Ravager[X]
 
 ## RavagerDesc
-Highwaymen who only have their trusty[N]
-war-hound to call their true companion.[X]
+Lone wolf highwaymen who rise above the[N]
+pack to be a beacon of destruction.[X]
 
 ## SwordArmorName
 Sword Armor[X]
@@ -207,7 +207,7 @@ Gendarme[X]
 
 ## GendarmeDesc
 Drekkan heavy cavalry of men-at-arms[N]
-elevated from common status to ride.[X]
+whose footsteps quake the earth.[X]
 
 ## AxeArmorName
 Axe Armor[X]
@@ -220,8 +220,8 @@ This variant is trained in axes.[X]
 Cataphract[X]
 
 ## CataphractDesc
-Heavily armored cavalry meant to ride in[N]
-and cleave enemy battalions in half.[X]
+Meralian heavy cavalry of great knights[N]
+dutifully trampling enemies underfoot.[X]
 
 ## MageArmorName
 Mage Armor[X]
@@ -330,8 +330,8 @@ and using staves to heal allies.[X]
 Thaumaturge[X]
 
 ## ThaumaturgeDesc
-Expert composers whose works can spell[N]
-both destruction and salvation.[X]
+Battle-maidens whose magical armaments[N]
+can spell both salvation and damnation.[X]
 
 ## TemplarName
 Templar[X]
@@ -340,11 +340,11 @@ Templar[X]
 Axe-wielding apothecaries prepared to[N]
 amputate any malignant tumor to heal.[X]
 
-## SwordCavalierName
-^{Sword Cavalier}[X]
+## SwordRiderName
+Sword Rider[X]
 
-## SwordCavalierDesc
-Chivalrous horseman nobly knighted.[N]
+## SwordRiderDesc
+Chivalrous horsemen nobly knighted.[N]
 This variant is trained in swords.[X]
 
 ## HakkapeliittaName
@@ -354,11 +354,11 @@ Hackapell[X]
 Advanced knights whose gallop with[N]
 swords and axes tramples all foes.[X]
 
-## LanceCavalierName
-^{Lance Cavalier}[X]
+## LanceRiderName
+Lance Rider[X]
 
-## LanceCavalierDesc
-Chivalrous horseman nobly knighted.[N]
+## LanceRiderDesc
+Chivalrous horsemen nobly knighted.[N]
 This variant is trained in lances.[X]
 
 ## PaladinName
@@ -368,11 +368,11 @@ Paladin[X]
 Royal knights advancing their master's[N]
 banner by wielding lances and staves.[X]
 
-## AxeCavalierName
-Axe Cavalier[X]
+## AxeRiderName
+Axe Rider[X]
 
-## AxeCavalierDesc
-Chivalrous horseman nobly knighted.[N]
+## AxeRiderDesc
+Chivalrous horsemen nobly knighted.[N]
 This variant is trained in axes.[X]
 
 ## ForestierName
@@ -400,22 +400,22 @@ pierces holes in entire enemy formations.[X]
 Windrider[X]
 
 ## WindriderDesc
-Quick pegasus riders who absorb magic[N]
-attacks, but are felled by arrows.[X]
+Meraly's famed pegasus riders, able to[N]
+absorb magic with their glorious sheen.[X]
 
 ## SeraphWingName
 Seraph Wing[X]
 
 ## SeraphWingDesc
-Pegasus knights who pride themselves on[N]
-flying support with swords and staves.[X]
+Malakhim holy fliers who can both slay[N]
+enemies and heal allies from the sky.[X]
 
 ## HarrierName
 Harrier[X]
 
 ## HarrierDesc
-Fliers whose focus on airborne dark magic[N]
-comes at the steep cost of all bulk.[X]
+Edgy fliers whose focus on airborne dark[N]
+magic comes at the steep cost of all bulk.[X]
 
 ## DaemonWingName
 Daemon Wing[X]
@@ -449,15 +449,15 @@ excel in shreddding other fliers' wings.[X]
 Barbarossa[X]
 
 ## BarbarossaDesc
-Drek's elite griffon knights. Their[N]
+Drek's elite griffon knights, whose[N]
 barrages of arrows block out all light.[X]
 
 ## FalconeerName
 Falconeer[X]
 
 ## FalconeerDesc
-Regal pegasi who are both graceful[N]
-and ruthless airborne killers.[X]
+Falcon-eyed knights whose airborne[N]
+elegance and domination are unmatched.[X]
 
 ## BowArmorName
 Bow Armor[X]
@@ -493,8 +493,8 @@ axe bolts and anima magic blasts.[X]
 Drifter[X]
 
 ## DrifterDesc
-Wandering archers with resistance[N]
-to ward off any magic attacks.[X]
+Wandering archers with little skill[N]
+other than lingering magic resistance.[X]
 
 ## AdventurerName
 Adventurer[X]
@@ -515,9 +515,9 @@ from horseback and assisting as needed.[X]
 Strategist[X]
 
 ## StrategistDesc
-Eugenia's official position, possessing[N]
-both networking and combat skills with[N]
-the use of anima magic and staves.[X]
+Eugenia's official clerkly position,[N]
+diligently managing the battlefield[N]
+with competence in anima and swords.[X]
 
 ## SkirmisherName
 Skirmisher[X]
@@ -546,7 +546,7 @@ At least it matches his wolf, though![X]
 Savior[X]
 
 ## SaviorDesc
-Clovis' pet name by Calvin. Once could[N]
+Clovis' pet name by Calvin. One could[N]
 argue it contradicts his aptitude for[N]
 dark magic, but Calvin would disagree.[X]
 
@@ -562,7 +562,7 @@ swords and axes speak for themselves.[X]
 Warlock[X]
 
 ## WarlockDesc
-Straightforward yet advanced slingers[N]
+Straightforward yet skilled slingers[N]
 of all natural, holy, and elder magic.[X]
 
 ## BardName
@@ -576,9 +576,9 @@ befit the despair of conflict.[X]
 Crown Prince[X]
 
 ## CrownPrinceDesc
-Evren's title as the eldest son of[N]
-House Sarka. Clad in gold armor, he[N]
-both cleaves enemies and heals allies.[X]
+Evren's title as the next in line[N]
+for House Sarka's throne. Clad in[N]
+heavy armor, he's a beacon to all.[X]
 
 ## PrinceName
 Prince[X]
@@ -610,7 +610,7 @@ Forgoing moral conventions, she coats[N]
 her arrows and lances in deadly poison.[X]
 
 ## OverlordName
-Overlord[X]
+Sarkan Overlord[X]
 
 ## OverlordDesc
 The roots of Sarka's rule run deeper[N]
@@ -624,3 +624,18 @@ Agastya[X]
 Drek is a nation of progress and order.[N]
 Each man is a cog in the machine, and[N]
 the High Commander turns the gears.[X]
+
+## HighAgastyaName
+Cardinal Agastya[X]
+
+## HighAgastyaDesc
+Drek is a empire of uncontested power.[N]
+Every man on earth is fuel for the[N]
+machine, and the Supreme Commander...[X]
+
+## TentName
+Tent[X]
+
+## TentDesc
+An all-purpose portable canvas that can[N]
+house travelers or transport cargo.[X]

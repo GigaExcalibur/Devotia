@@ -72,25 +72,24 @@
 #define LegendaryBow 0x94 // Nidhogg's old slot
 
 // STAVES
-#define FortuneStaff 0x42 // All of these end in Staff because i think it looks nicer
+#define FlukeStaff 0x42 // All of these end in Staff because i think it looks nicer
 #define FocusStaff 0x43
-#define FleetfootStaff 0x44
-#define FomentStaff 0x45
-#define BroadenStaff 0x46
-#define StrideStaff 0x47
+#define FastStaff 0x44
+#define FireUpStaff 0x45
+#define ReinforceStaff 0x46
+#define StepStaff 0x47
 #define HealStaff 0x4B // Vanilla slots below here
 #define MendStaff 0x4C
 #define RecoverStaff 0x4D
 #define PhysicStaff 0x4E
 #define FortifyStaff 0x4F
-#define RestoreStaff 0x50
-#define SilenceStaff 0x51
-#define SleepStaff 0x52
-#define BerserkStaff 0x53
+#define FortuityStaff 0x51
+#define FixateStaff 0x52
+#define FleetfootStaff 0x53
 #define WarpStaff 0x54
 #define RescueStaff 0x55
-#define TorchStaff 0x56
-#define HammerneStaff 0x57
+#define FomentStaff 0x56
+#define StrideStaff 0x57
 #define UnlockStaff 0x58
 #define BarrierStaff 0x59
 #define LegendaryStaff 0x8C // Latona's old slot
@@ -156,6 +155,9 @@
 #define Regoliath 0x4A // Gleipnir's old slot
 
 // ITEMS
+#define OilJug 0x6E
+#define LiquidConduct 0x6F
+#define AirPocket 0x70
 
 // PRFS
 #define Cataclysmaelstrom 0x85 // Klaudia (Sieglinde's old slot)

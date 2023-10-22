@@ -3,7 +3,7 @@
 PUSH
 ORG	 	0x59CED8	// address of "records" chapter menu entry
 POIN	shinan_string
-SHORT	BackstageName BackstageDesc		//右がヘルプ指定
+SHORT	ChorusName ChorusDesc		//右がヘルプ指定
 SHORT	$6304 0
 POIN	0x804F448 + 1       //show always
 POIN	GreenMenu0x26 + 1   //緑色表示

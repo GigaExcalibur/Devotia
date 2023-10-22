@@ -490,3 +490,11 @@ Curtis[X]
 A member of House Calicos, ambitious and[N]
 eagle-eyed. With the head of the house[N]
 ailing, he's taken management upon himself.[X]
+
+## TerranceName
+Terrance[X]
+
+## TerranceDesc
+Traditional border guard of GRAMINEA FORT.[N]
+Bored by his station, he passes time[N]
+building castles inside his head.[X]

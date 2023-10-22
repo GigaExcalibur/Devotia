@@ -1,15 +1,14 @@
 .thumb
+.equ StalwartID, SkillTester+4
 
 @r0=attacker's item id, r1=defender battle struct
-
-.equ NullifyID, SkillTester+4
 
 push	{r4-r7,r14}
 mov		r4,r0
 mov		r5,r1
 ldr		r0,[r5,#0x4]
 cmp		r0,#0
-beq		RetFalse
+beq		RetFalse			@if stat screen, end
 mov		r0,r4
 ldr		r3,=#0x80176D0		@get effectiveness pointer
 mov		r14,r3
@@ -19,6 +18,43 @@ beq		RetFalse			@if weapon isn't effective, end
 ldr		r1,[r5,#0x4]
 mov		r6,#0x50
 ldr		r6,[r1,r6]			@class weaknesses
+
+@ time to check for each bit set
+push 	{r0-r3}
+mov 	r0,r5
+bl 		GetUnitDebuffEntry 
+ldr 	r1, =FlammableBitOffset_Link
+ldr 	r1, [r1] 
+bl 		CheckBit 
+cmp		r0,#0
+beq		DousedCheck
+mov		r2, #0x40
+orr		r6, r2
+
+DousedCheck:
+mov 	r0,r5
+bl 		GetUnitDebuffEntry 
+ldr 	r1, =DousedBitOffset_Link
+ldr 	r1, [r1] 
+bl 		CheckBit 
+cmp		r0,#0
+beq		LevitatingCheck
+mov		r2, #0x80
+orr		r6, r2
+
+LevitatingCheck:
+mov 	r0,r5
+bl 		GetUnitDebuffEntry 
+ldr 	r1, =LevitatingBitOffset_Link
+ldr 	r1, [r1] 
+bl 		CheckBit 
+cmp		r0,#0
+beq		DebuffEnd
+mov		r2, #0x04
+orr		r6, r2
+
+DebuffEnd:
+pop 	{r0-r3}
 cmp		r6,#0
 beq		RetFalse			@if class has no weaknesses, end
 
@@ -64,8 +100,8 @@ b		EffectiveWeaponLoop
 
 NullifyCheck:
 mov		r0,r5
-ldr		r1,NullifyID
-ldr		r3,SkillTester
+ldr		r1, StalwartID
+ldr		r3, SkillTester
 mov		r14,r3
 .short	0xF800
 cmp		r0,#0
@@ -82,4 +118,4 @@ bx		r1
 
 .ltorg
 SkillTester:
-@
+@WORD StalwartID

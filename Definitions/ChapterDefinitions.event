@@ -1,0 +1,23 @@
+// Chapter IDs
+#define AllChapters 0xFF
+#define Parados 0x0
+#define Episode1 0x1
+#define StasimonA 0x2
+
+// Scary chapter stuff
+#define ParadosMapID 0x4
+#define ParadosMapChangesID 0x6
+#define ParadosEventsID 0x7
+
+#define Episode1MapID 0x8
+#define Episode1MapChangesID 0x9
+#define Episode1EventsID 0xA
+
+#define StasimonAMapID 0xB
+#define StasimonAMapChangesID 0xC
+#define StasimonAEventsID 0xD
+
+// Tileset IDs (start from 0x88)
+#define RevampedFortObjectID 0x88
+#define RevampedFortPaletteID 0x89
+#define RevampedFortConfigID 0x8A

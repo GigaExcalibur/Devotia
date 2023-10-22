@@ -1,0 +1,16 @@
+// Revamped Fort
+ALIGN 4
+RevampedFortObject:
+#incbin "Dmp/Object/RevampedFortObject.dmp"
+
+ALIGN 4
+RevampedFortPalette:
+#incbin "Dmp/Palette/RevampedFortPalette.dmp"
+
+ALIGN 4
+RevampedFortMapchipConfig:
+#incbin "Dmp/Config/RevampedFortmapchip.dmp"
+
+EventPointerTable(RevampedFortObjectID, RevampedFortObject)
+EventPointerTable(RevampedFortPaletteID, RevampedFortPalette)
+EventPointerTable(RevampedFortConfigID, RevampedFortMapchipConfig)

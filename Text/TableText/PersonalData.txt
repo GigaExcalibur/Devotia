@@ -161,7 +161,7 @@ Lighting Fireworks[X]
 October 27[X]
 
 ## ZeroFullName
-Zero Roth[X]
+'Zero' Roth[X]
 
 ## ZeroHobby
 Throwing knives[X]
@@ -195,6 +195,24 @@ Eavesdropping[X]
 
 ## BethBirthday
 June 15[X]
+
+## CamFullName
+Camilia Failside[X]
+
+## CamHobby
+Woodcarving[X]
+
+## CamBirthday
+March 21[X]
+
+## GiselleFullName
+Giselle Lowe[X]
+
+## GiselleHobby
+Stealing, obviously.[X]
+
+## GiselleBirthday
+May 23[X]
 
 ## RoswellFullName
 [0x5B]REDACTED[0x5D] Roswell[X]

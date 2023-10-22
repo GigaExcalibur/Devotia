@@ -1,6 +1,43 @@
-#define FortuneRavineID 0x09
-#define FieldsOfExpelID 0x43 // VERY IMPORTANT!!
-#define RandomDungeon3ID 0x02
-#define LightingTempleID 0x03
-#define LufiaBattle2ID 0x04
-#define ChasmCaveID 0x05
+#define EndingThemeID 0x01					// Title
+#define ShayminVillageID 0x02				// Support room
+
+#define SkyPeakPrairieID 0x03				// Act 1 Map 1
+#define NorthernDesertID 0x04				// Act 1 Map 2
+#define MtHornID 0x05						// Act 1 Map 3
+#define SealedRuinID 0x06					// Act 2 Map 1
+#define BarrenValleyID 0x07					// Act 2 Map 2
+#define HiddenHighlandID 0x08				// Act 2 Map 3
+#define ChasmCaveID 0x09					// Act 3
+#define FortuneRavineID 0x0A				// Gaiden 1
+#define FortuneRavineDepthsID 0x0B			// Gaiden 2
+
+#define BossBattleID 0x0C					// Boss 1
+#define BattleAgainstDusknoirID 0x0D		// Boss 2
+#define DefyTheLegendsID 0x0E				// Boss 3
+#define SpacialCliffsID 0x0F				// Ranun
+#define PalkiasOnslaughtID 0x10				// Fernyiges
+#define ItCantBeID 0x11						// Leviathan
+#define DialgasFightToTheFinishID 0x12		// Cassandra
+
+#define RandomDungeon3ID 0x13				// Recruit
+#define OneForAllAllForOneID 0x14			// Near victory
+#define MarowakDojoID 0x15					// Shop
+#define TemporalTowerID 0x16				// Preps 1
+#define TemporalSpireID 0x17				// Preps 2
+#define TemporalPinnacleID 0x18				// Preps 3
+#define AtTheEndOfTheDayID 0x19				// Healing
+#define LudicoloDanceID 0x1A				// Playing
+
+#define OhNoID 0x1B							// Panic
+#define TeamSkullID 0x1C					// Lesser baddie
+#define RisingFearID 0x1D					// Tension
+#define BeyondTheDreamID 0x1E				// Unwinding
+#define ISawSomethingAgainID 0x1F			// Suspicion
+#define WigglytuffsGuildRemix 0x20			// Castle Sarka
+#define SteamCaveID 0x21					// Greater baddie
+#define DoYourBestAsAlwaysID 0x22			// Comic relief
+#define InTheHandsOfFateID 0x23				// Recollection
+#define DownADarkPathID 0x24				// Despair
+#define LivingSpiritID 0x25					// Leviathan's gamer moment
+#define InTheMorningSunID 0x26				// Klaudia's gamer moment
+#define LifeGoesOnID 0x27					// Staff roll

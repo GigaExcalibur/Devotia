@@ -83,6 +83,8 @@ AddGuideEntry(ThanksIndex, HackingHelpEntry, HackingHelpContent)
 // Promotions
 AddGuideEntry(PromotionIndex, PromotionalHacksEntry, PromotionalHacksContent)
 AddGuideEntry(PromotionIndex, DrumsOfWarEntry, DrumsOfWarContent)
+AddGuideEntry(PromotionIndex, BellsOfByelenEntry, BellsOfByelenContent)
+AddGuideEntry(PromotionIndex, RevengeOfThePromiseEntry, RevengeOfThePromiseContent)
 AddGuideEntry(PromotionIndex, ThreeLegaciesEntry, ThreeLegaciesContent)
 AddGuideEntry(PromotionIndex, LegacyOfSorrowEntry, LegacyOfSorrowContent)
 

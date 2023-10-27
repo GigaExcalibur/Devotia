@@ -227,10 +227,10 @@ now she hopes you can help her[N]
 get her revenge in tonight's[N]
 showing of Devotia Exhibition![X]
 
-## PortraitsEntry
-Portraits[X]
+## HairAndMakeupEntry
+Hair and Makeup[X]
 
-## PortraitsContent
+## HairAndMakeupContent
 All unlisted portraits are[N]
 made by Intelligent Systems.[N]
 [N]
@@ -242,12 +242,61 @@ Beth - XVI[N]
 Wister - MegaCowSawMan[N]
 Ranun - Peerless[N]
 Cam - Mieke[N]
-Giselle - Cravat[X]
+Giselle - Cravat[N]
+[N]
+All unlisted class cards are[N]
+made by Intelligent Systems.[N]
+[N]
+Mercenary - Uncredited[N]
+Hero - RobertFPY[N]
+Runelord - Nuramon[N]
+Thief - L95[N]
+Rogue - L95[N]
+Hunter - Spud[N]
+Trickster - Jj09, Scraiza,[N]
+SoHAE[N]
+Halberdier - TheBlindArcher[N]
+Villager - SALVAGED[N]
+Warmaster - Spud, Rasdell,[N]
+Pushwall[N]
+Pirate - Hypergammaspaces[N]
+Raider - Zoramine Fae[N]
+Ravager - Zoramine Fae[N]
+Armors - Der, Epicer[N]
+Dreadnought - Pushwall,[N]
+SamirPlayz[N]
+Chevalier - Nuramon[N]
+Thaumachine - Pushwall,[N]
+SamirPlayz[N]
+Anima Mage - Uncredited[N]
+Light Mage - Leo_Link, L95[N]
+Dark Mage - Jj09[N]
+Sorcerer - Pikmin[N]
+Cleric - Flasuban[N]
+Thaumaturge - L95[N]
+Templar - Der[N]
+Riders - RobertFPY[N]
+Hakkapell - Shtick, SALVAGED[N]
+Paladin - Flasuban, RobertFPY[N]
+Forestier - Shtick, SALVAGED[N]
+Scout - Flasuban, RobertFPY[N]
+Ranger - RobertFPY[N]
+Windrider - Flasuban, ArcaneEli[N]
+Seraph Wing - Flasuban,[N]
+ArcaneEli[N]
+Harrier - Melia[N]
+Daemon Wing - Melia[N]
+Dracorider - Flasuban[N]
+Dracolord - Flasuban, Max Limit[N]
+Bombardier - EldritchAbomination,[N]
+N426, Jj09[N]
+Barbarossa - EldritchAbomination,[N]
+Jj09[X]
 
-## MapSpritesEntry
-Map Sprites[X]
+## CostumingEntry
+Costuming[X]
 
-## MapSpritesContent
+## CostumingContent
 All unlisted map sprites are[N]
 made by Intelligent Systems.[N]
 [N]
@@ -314,69 +363,45 @@ Therion (Wister) - Zoramine Fae[N]
 Scourge - N426[N]
 Sarkan Overlord - Blood[X]
 
-## ClassCardsEntry
-Class Cards[X]
+## FightChoreographyEntry
+Fight Choreography[X]
 
-## ClassCardsContent
-All unlisted class cards are[N]
+## FightChoreographyContent
+Battle animations to be[N]
+credited as inserted.[X]
+
+## SetDesignEntry
+Set Design[X]
+
+## SetDesignContent
+All unlisted tilesets are[N]
 made by Intelligent Systems.[N]
 [N]
-Mercenary - Uncredited[N]
-Hero - RobertFPY[N]
-Runelord - Nuramon[N]
-Thief - L95[N]
-Rogue - L95[N]
-Hunter - Spud[N]
-Trickster - Jj09, Scraiza,[N]
-SoHAE[N]
-Halberdier - TheBlindArcher[N]
-Villager - SALVAGED[N]
-Warmaster - Spud, Rasdell,[N]
-Pushwall[N]
-Pirate - Hypergammaspaces[N]
-Raider - Zoramine Fae[N]
-Ravager - Zoramine Fae[N]
-Armors - Der, Epicer[N]
-Dreadnought - Pushwall,[N]
-SamirPlayz[N]
-Chevalier - Nuramon[N]
-Thaumachine - Pushwall,[N]
-SamirPlayz[N]
-Anima Mage - Uncredited[N]
-Light Mage - Leo_Link, L95[N]
-Dark Mage - Jj09[N]
-Sorcerer - Pikmin[N]
-Cleric - Flasuban[N]
-Thaumaturge - L95[N]
-Templar - Der[N]
-Riders - RobertFPY[N]
-Hakkapell - Shtick, SALVAGED[N]
-Paladin - Flasuban, RobertFPY[N]
-Forestier - Shtick, SALVAGED[N]
-Scout - Flasuban, RobertFPY[N]
-Ranger - RobertFPY[N]
-Windrider - Flasuban, ArcaneEli[N]
-Seraph Wing - Flasuban,[N]
-ArcaneEli[N]
-Harrier - Melia[N]
-Daemon Wing - Melia[N]
-Dracorider - Flasuban[N]
-Dracolord - Flasuban, Max Limit[N]
-Bombardier - EldritchAbomination,[N]
-N426, Jj09[N]
-Barbarossa - EldritchAbomination,[N]
-Jj09[X]
+Revamped Fort - Zoramine Fae[X]
 
-## BattleAnimationsEntry
-Battle Animations[X]
+## PropMastersEntry
+Prop Masters[X]
 
-## BattleAnimationsContent
-dw about it[X]
+## PropMastersContent
+Item icons to be[N]
+credited as inserted.[X]
 
-## EngineHacksEntry
-Engine Hacks[X]
+## PitOrchestraEntry
+Pit Orchestra[X]
 
-## EngineHacksContent
+## PitOrchestraContent
+The Pokemon Mystery Dungeon:[N]
+Explorers of Sky midis were[N]
+ripped by psy_commando and[N]
+TruePikachu.[N]
+[N]
+Non-PMD2 tracks to be credited[N]
+as inserted.[X]
+
+## LightingTechEntry
+Lighting Tech[X]
+
+## LightingTechContent
 All unlisted engine hacks[N]
 are made by yours truly![N]
 [N]
@@ -398,10 +423,10 @@ Show Heal Amount - Tequila[N]
 Stat Screen Blink - Stan[N]
 Steal With Full Inv. - Vesly[X]
 
-## SkillSystemsEntry
-Skill Systems[X]
+## TheaterArchitectsEntry
+Theater Architects[X]
 
-## SkillSystemsContent
+## TheaterArchitectsContent
 Credits list mirrored on[N]
 the SkillSys Github, it's[N]
 very likely this list is[N]

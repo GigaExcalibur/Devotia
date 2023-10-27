@@ -69,12 +69,14 @@ AddGuideEntry(CastIndex, CamiliaFailsideEntry, CamiliaFailsideContent)
 AddGuideEntry(CastIndex, GiselleLoweEntry, GiselleLoweContent)
 
 // Crew
-AddGuideEntry(CrewIndex, PortraitsEntry, PortraitsContent)
-AddGuideEntry(CrewIndex, MapSpritesEntry, MapSpritesContent)
-AddGuideEntry(CrewIndex, ClassCardsEntry, ClassCardsContent)
-AddGuideEntry(CrewIndex, BattleAnimationsEntry, BattleAnimationsContent)
-AddGuideEntry(CrewIndex, EngineHacksEntry, EngineHacksContent)
-AddGuideEntry(CrewIndex, SkillSystemsEntry, SkillSystemsContent)
+AddGuideEntry(CrewIndex, HairAndMakeupEntry, HairAndMakeupContent)
+AddGuideEntry(CrewIndex, CostumingEntry, CostumingContent)
+AddGuideEntry(CrewIndex, FightChoreographyEntry, FightChoreographyContent)
+AddGuideEntry(CrewIndex, SetDesignEntry, SetDesignContent)
+AddGuideEntry(CrewIndex, PropMastersEntry, PropMastersContent)
+AddGuideEntry(CrewIndex, PitOrchestraEntry, PitOrchestraContent)
+AddGuideEntry(CrewIndex, LightingTechEntry, LightingTechContent)
+AddGuideEntry(CrewIndex, TheaterArchitectsEntry, TheaterArchitectsContent)
 
 // Thanks
 AddGuideEntry(ThanksIndex, OffTheStringEntry, OffTheStringContent)

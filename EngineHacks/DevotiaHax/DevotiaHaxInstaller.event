@@ -10,7 +10,7 @@
 #include "AgeGetter/Installer.event"
 // Me!
 
-#include "AwakeningStyleDurability/AwakeningStyleDurability.event"
+#include "AwakeningStyleDurability/Installer.event"
 // Me!
 
 #include "UnitMenuWidth/UnitMenuWidth.event"

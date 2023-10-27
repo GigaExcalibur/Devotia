@@ -3093,6 +3093,7 @@ SET_DATA gAISFrames_Right, 0x2011BC8
 SET_DATA gPrepScreenUnitList, 0x20121CC
 SET_DATA gPrepScreenItemList, 0x20122D4
 SET_DATA gPrepScreenItemListSize, 0x2012F54
+SET_DATA gPrepUnitTexts, 0x2013958
 SET_DATA gSomeFontStruct, 0x2017648
 SET_DATA gSomeTextStruct, 0x2017660
 SET_DATA gBool_SpellFxActive, 0x201772C

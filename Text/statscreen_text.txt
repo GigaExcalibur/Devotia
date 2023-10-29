@@ -107,3 +107,15 @@ guarded against enemy criticals.[X]
 ## ChorusDesc
 Bear witness to the voices of the[N]
 ensemble as they explain the map.[X]
+
+## BattlesDesc
+The number of times this[N]
+unit entered combat.[X]
+
+## WinsDesc
+The number of enemies[N]
+this unit killed in combat.[X]
+
+## LossesDesc
+The number of times you reset for[N]
+this unit, you filthy casual.[X]

@@ -1,2 +1,26 @@
-## LightingTempleText
-Lightning Temple[X]
+## EndingThemePMD2Name
+Ending Theme (PMD2)[X]
+
+## TimeGearPMD2Name
+Time Gear (PMD2)[X]
+
+## ChasmCavePMD2Name
+Chasm Cave (PMD2)[X]
+
+## OneForAllAllForOnePMD2Name
+One for All, All for One! (PMD2)[X]
+
+## SteamCavePMD2Name
+Steam Cave (PMD2)[X]
+
+## PowerOfDarknessPMD2Name
+Power of Darkness (PMD2)[X]
+
+## DialgasFightToTheFinishPMD2Name
+^{Dialga's Fight to the Finish (PMD2)}[X]
+
+## BossBattlePMD2Name
+Boss Battle! (PMD2)[X]
+
+## FortuneRavinePMD2Name
+Fortune Ravine (PMD2)[X]

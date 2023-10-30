@@ -1,5 +1,5 @@
 #define EndingThemeID 0x01					// Title
-#define ShayminVillageID 0x02				// Support room
+#define TimeGearID 0x02						// Support room
 
 #define SkyPeakPrairieID 0x03				// Act 1 Map 1
 #define NorthernDesertID 0x04				// Act 1 Map 2
@@ -38,6 +38,9 @@
 #define DoYourBestAsAlwaysID 0x22			// Comic relief
 #define InTheHandsOfFateID 0x23				// Recollection
 #define DownADarkPathID 0x24				// Despair
-#define LivingSpiritID 0x25					// Leviathan's gamer moment
-#define InTheMorningSunID 0x26				// Klaudia's gamer moment
-#define LifeGoesOnID 0x27					// Staff roll
+#define PowerOfDarknessID 0x25				// Evil
+#define LivingSpiritID 0x26					// Leviathan's gamer moment
+#define InTheMorningSunID 0x27				// Klaudia's gamer moment
+#define LifeGoesOnID 0x28					// Staff roll
+
+#define EndingThemeIDTitle 0x43 			// Actual title theme

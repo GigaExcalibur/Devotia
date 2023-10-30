@@ -105,8 +105,8 @@ guarded against enemy criticals.[X]
  Chorus[X]
  
 ## ChorusDesc
-Bear witness to the voices of the[N]
-ensemble as they explain the map.[X]
+Open your ears to the voices of the[N]
+chorus: beyond time, beyond walls.[X]
 
 ## BattlesDesc
 The number of times this[N]

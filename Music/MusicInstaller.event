@@ -22,8 +22,10 @@ POP
 #define MapMusicGroup 1
 #define SFXGroup 6
 
+{
 #include "MusicEvents/FortuneRavine.event"
 SongTable(FortuneRavineID, FortuneRavine, MapMusicGroup)
+}
 
 //#include "MusicEvents/RandomDungeon3.event"
 //SongTable(RandomDungeon3ID, RandomDungeon3, MapMusicGroup)
@@ -31,5 +33,33 @@ SongTable(FortuneRavineID, FortuneRavine, MapMusicGroup)
 //#include "MusicEvents/ChasmCave.event"
 //SongTable(ChasmCaveID, ChasmCave, MapMusicGroup)
 
+{
 #include "MusicEvents/EndingTheme.event"
 SongTable(EndingThemeID, EndingTheme, MapMusicGroup)
+SongTable(EndingThemeIDTitle, EndingTheme, MapMusicGroup)
+}
+
+{
+#include "MusicEvents/TimeGear.event"
+SongTable(TimeGearID, TimeGear, MapMusicGroup)
+}
+
+{
+#include "MusicEvents/PowerOfDarkness.event"
+SongTable(PowerOfDarknessID, song1F, MapMusicGroup)
+}
+
+{
+#include "MusicEvents/DialgasFightToTheFinish.event"
+SongTable(DialgasFightToTheFinishID, song09, MapMusicGroup)
+}
+
+{
+#include "MusicEvents/SteamCave.event"
+SongTable(SteamCaveID, song58, MapMusicGroup)
+}
+
+{
+#include "MusicEvents/BossBattle.event"
+SongTable(BossBattleID, song03, MapMusicGroup)
+}

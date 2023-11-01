@@ -7,6 +7,12 @@ Time Gear (PMD2)[X]
 ## ChasmCavePMD2Name
 Chasm Cave (PMD2)[X]
 
+## SkyPeakPrairiePMD2Name
+Sky Peak Prairie (PMD2)[X]
+
+## MtHornPMD2Name
+Mt. Horn (PMD2)[X]
+
 ## OneForAllAllForOnePMD2Name
 One for All, All for One! (PMD2)[X]
 

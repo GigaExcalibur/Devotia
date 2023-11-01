@@ -13,8 +13,14 @@ Sky Peak Prairie (PMD2)[X]
 ## MtHornPMD2Name
 Mt. Horn (PMD2)[X]
 
+## RandomDungeon3PMD2Name
+Random Dungeon 3 (PMD2)[X]
+
 ## OneForAllAllForOnePMD2Name
 One for All, All for One! (PMD2)[X]
+
+## TemporalTowerPMD2Name
+Temporal Tower (PMD2)[X]
 
 ## SteamCavePMD2Name
 Steam Cave (PMD2)[X]

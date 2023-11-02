@@ -16,12 +16,11 @@ TimeGear_0:
         BYTE   KEYSH   TimeGear_key+0
 // 000   ----------------------------------------
         BYTE   TEMPO   120/2
-TimeGear_0_LOOP:
         BYTE   W24
 // 001   ----------------------------------------
         BYTE   TEMPO   86/2
         BYTE           VOICE   73
-        BYTE           VOL     58
+        BYTE           VOL     55
         BYTE   W96
 // 002   ----------------------------------------
         BYTE   W96
@@ -238,28 +237,22 @@ TimeGear_0_36:
 TimeGear_0_37:
         BYTE           TIE     En3   v127
         BYTE   W04
-        BYTE           VOL     54
-        BYTE   W06
-        BYTE                   53
+        BYTE           VOL     51
         BYTE   W12
-        BYTE                   52
-        BYTE   W12
-        BYTE                   51
-        BYTE   W11
         BYTE                   50
-        BYTE   W15
+        BYTE   W18
         BYTE                   49
-        BYTE   W03
+        BYTE   W11
         BYTE                   48
-        BYTE   W06
+        BYTE   W15
         BYTE                   47
-        BYTE   W06
+        BYTE   W03
         BYTE                   46
-        BYTE   W04
+        BYTE   W06
         BYTE                   45
-        BYTE   W03
+        BYTE   W06
         BYTE                   44
-        BYTE   W03
+        BYTE   W04
         BYTE                   43
         BYTE   W03
         BYTE                   42
@@ -267,42 +260,47 @@ TimeGear_0_37:
         BYTE                   41
         BYTE   W03
         BYTE                   40
+        BYTE   W03
+        BYTE                   39
+        BYTE   W03
+        BYTE                   38
         BYTE   W02
         BYTE   PEND
 // 038   ----------------------------------------
-TimeGear_0_38:
+TimeGear_0_LOOP:
         BYTE   W01
-        BYTE           VOL     38
+        BYTE           VOL     37
         BYTE   W03
-        BYTE                   37
+        BYTE                   36
         BYTE   W03
-        BYTE                   34
+        BYTE                   33
         BYTE   W03
-        BYTE                   32
-        BYTE   W08
+        BYTE                   31
+        BYTE   W03
         BYTE                   30
-        BYTE   W03
-        BYTE                   29
+        BYTE   W05
+        BYTE                   28
         BYTE   W03
         BYTE                   27
         BYTE   W03
-        BYTE                   24
+        BYTE                   25
         BYTE   W03
-        BYTE                   20
+        BYTE                   23
         BYTE   W03
         BYTE                   19
         BYTE   W03
         BYTE                   18
         BYTE   W03
-        BYTE                   15
+        BYTE                   17
+        BYTE   W03
+        BYTE                   14
         BYTE   W03
         BYTE                   12
         BYTE   W03
-        BYTE                   10
+        BYTE                   9
         BYTE   W03
         BYTE           EOT     En3
         BYTE   W48
-        BYTE   PEND
 // 039   ----------------------------------------
         BYTE   W96
 // 040   ----------------------------------------
@@ -348,7 +346,7 @@ TimeGear_0_38:
 // 060   ----------------------------------------
         BYTE   W44
         BYTE   W03
-        BYTE           VOL     58
+        BYTE           VOL     55
         BYTE   W13
         BYTE           N12     Dn4   v127
         BYTE   W12
@@ -400,8 +398,41 @@ TimeGear_0_38:
         BYTE   PATT
          POIN2  TimeGear_0_37
 // 074   ----------------------------------------
-        BYTE   PATT
-         POIN2  TimeGear_0_38
+        BYTE   GoTo
+         POIN2  TimeGear_0_LOOP
+        BYTE   W01
+        BYTE           VOL     37
+        BYTE   W03
+        BYTE                   36
+        BYTE   W03
+        BYTE                   33
+        BYTE   W03
+        BYTE                   31
+        BYTE   W03
+        BYTE                   30
+        BYTE   W05
+        BYTE                   28
+        BYTE   W03
+        BYTE                   27
+        BYTE   W03
+        BYTE                   25
+        BYTE   W03
+        BYTE                   23
+        BYTE   W03
+        BYTE                   19
+        BYTE   W03
+        BYTE                   18
+        BYTE   W03
+        BYTE                   17
+        BYTE   W03
+        BYTE                   14
+        BYTE   W03
+        BYTE                   12
+        BYTE   W03
+        BYTE                   9
+        BYTE   W03
+        BYTE           EOT     En3
+        BYTE   W48
 // 075   ----------------------------------------
         BYTE   W96
 // 076   ----------------------------------------
@@ -413,11 +444,6 @@ TimeGear_0_38:
 // 079   ----------------------------------------
         BYTE   W56
         BYTE   W03
-        BYTE   TEMPO   120/2
-        BYTE           VOICE   0
-        BYTE           VOL     100
-        BYTE   GoTo
-         POIN2  TimeGear_0_LOOP
         BYTE   FINE
 
 //****************** Track 1 (Midi-Chn.1) ******************//
@@ -425,11 +451,10 @@ TimeGear_0_38:
 TimeGear_1:
         BYTE   KEYSH   TimeGear_key+0
 // 000   ----------------------------------------
-TimeGear_1_LOOP:
         BYTE   W24
 // 001   ----------------------------------------
         BYTE           VOICE   73
-        BYTE           VOL     31
+        BYTE           VOL     29
         BYTE           PAN     c_v-64
         BYTE   W96
 // 002   ----------------------------------------
@@ -643,50 +668,45 @@ TimeGear_1_37:
         BYTE   W12
         BYTE           TIE     En3
         BYTE   W04
-        BYTE           VOL     29
-        BYTE   W06
-        BYTE                   28
-        BYTE   W24
-        BYTE                   27
-        BYTE   W24
-        BYTE   W02
+        BYTE           VOL     27
+        BYTE   W12
         BYTE                   26
-        BYTE   W06
+        BYTE   W21
         BYTE                   25
-        BYTE   W13
+        BYTE   W23
         BYTE                   24
-        BYTE   W03
+        BYTE   W15
         BYTE                   23
-        BYTE   W02
+        BYTE   W04
+        BYTE                   22
+        BYTE   W05
         BYTE   PEND
 // 038   ----------------------------------------
-TimeGear_1_38:
+TimeGear_1_LOOP:
         BYTE   W04
-        BYTE           VOL     22
+        BYTE           VOL     21
         BYTE   W06
-        BYTE                   21
-        BYTE   W03
         BYTE                   20
+        BYTE   W03
+        BYTE                   19
         BYTE   W06
-        BYTE                   18
-        BYTE   W03
         BYTE                   17
-        BYTE   W08
-        BYTE                   16
         BYTE   W03
+        BYTE                   16
+        BYTE   W08
         BYTE                   15
         BYTE   W03
         BYTE                   14
         BYTE   W03
         BYTE                   13
         BYTE   W03
-        BYTE                   11
+        BYTE                   12
         BYTE   W03
         BYTE                   10
-        BYTE   W03
+        BYTE   W06
         BYTE                   9
         BYTE   W03
-        BYTE                   8
+        BYTE                   7
         BYTE   W03
         BYTE                   6
         BYTE   W03
@@ -694,7 +714,6 @@ TimeGear_1_38:
         BYTE   W03
         BYTE           EOT     En3
         BYTE   W36
-        BYTE   PEND
 // 039   ----------------------------------------
         BYTE   W96
 // 040   ----------------------------------------
@@ -740,7 +759,7 @@ TimeGear_1_38:
 // 060   ----------------------------------------
         BYTE   W56
         BYTE   W03
-        BYTE           VOL     31
+        BYTE           VOL     29
         BYTE   W13
         BYTE           N12     Dn4   v127
         BYTE   W12
@@ -788,8 +807,39 @@ TimeGear_1_38:
         BYTE   PATT
          POIN2  TimeGear_1_37
 // 074   ----------------------------------------
-        BYTE   PATT
-         POIN2  TimeGear_1_38
+        BYTE   GoTo
+         POIN2  TimeGear_1_LOOP
+        BYTE   W04
+        BYTE           VOL     21
+        BYTE   W06
+        BYTE                   20
+        BYTE   W03
+        BYTE                   19
+        BYTE   W06
+        BYTE                   17
+        BYTE   W03
+        BYTE                   16
+        BYTE   W08
+        BYTE                   15
+        BYTE   W03
+        BYTE                   14
+        BYTE   W03
+        BYTE                   13
+        BYTE   W03
+        BYTE                   12
+        BYTE   W03
+        BYTE                   10
+        BYTE   W06
+        BYTE                   9
+        BYTE   W03
+        BYTE                   7
+        BYTE   W03
+        BYTE                   6
+        BYTE   W03
+        BYTE                   5
+        BYTE   W03
+        BYTE           EOT     En3
+        BYTE   W36
 // 075   ----------------------------------------
         BYTE   W96
 // 076   ----------------------------------------
@@ -801,11 +851,6 @@ TimeGear_1_38:
 // 079   ----------------------------------------
         BYTE   W56
         BYTE   W03
-        BYTE           VOICE   0
-        BYTE           VOL     100
-        BYTE           PAN     c_v+0
-        BYTE   GoTo
-         POIN2  TimeGear_1_LOOP
         BYTE   FINE
 
 //****************** Track 2 (Midi-Chn.2) ******************//
@@ -813,7 +858,6 @@ TimeGear_1_38:
 TimeGear_2:
         BYTE   KEYSH   TimeGear_key+0
 // 000   ----------------------------------------
-TimeGear_2_LOOP:
         BYTE   W24
 // 001   ----------------------------------------
         BYTE           VOICE   48
@@ -823,19 +867,19 @@ TimeGear_2_LOOP:
         BYTE           VOL     2
         BYTE   W03
         BYTE                   3
-        BYTE   W06
+        BYTE   W07
         BYTE                   4
-        BYTE   W04
-        BYTE                   5
         BYTE   W05
+        BYTE                   5
+        BYTE   W04
         BYTE                   6
         BYTE   W06
         BYTE                   7
         BYTE   W03
         BYTE                   8
-        BYTE   W04
+        BYTE   W05
         BYTE                   9
-        BYTE   W06
+        BYTE   W07
         BYTE                   10
         BYTE   W05
         BYTE                   11
@@ -845,93 +889,92 @@ TimeGear_2_LOOP:
         BYTE                   13
         BYTE   W04
         BYTE                   14
-        BYTE   W05
-        BYTE                   15
-        BYTE   W04
-        BYTE                   16
         BYTE   W06
+        BYTE                   15
+        BYTE   W06
+        BYTE                   16
+        BYTE   W05
         BYTE                   17
-        BYTE   W05
+        BYTE   W04
         BYTE                   18
-        BYTE   W04
-        BYTE                   19
         BYTE   W05
-        BYTE                   20
+        BYTE                   19
         BYTE   W04
-        BYTE                   21
+        BYTE                   20
         BYTE   W06
 // 002   ----------------------------------------
 TimeGear_2_2:
-        BYTE           VOL     22
+        BYTE           VOL     21
         BYTE   W06
+        BYTE                   22
+        BYTE   W05
         BYTE                   23
-        BYTE   W05
+        BYTE   W03
         BYTE                   24
-        BYTE   W03
+        BYTE   W06
         BYTE                   25
-        BYTE   W06
+        BYTE   W04
         BYTE                   26
-        BYTE   W04
-        BYTE                   27
-        BYTE   W05
-        BYTE                   28
         BYTE   W06
+        BYTE                   27
+        BYTE   W06
+        BYTE                   28
+        BYTE   W05
         BYTE                   29
-        BYTE   W04
-        BYTE                   30
         BYTE   W03
+        BYTE                   30
+        BYTE   W06
         BYTE                   31
         BYTE   W06
         BYTE                   32
-        BYTE   W05
-        BYTE                   33
         BYTE   W04
+        BYTE                   33
+        BYTE   W06
         BYTE                   34
-        BYTE   W05
-        BYTE                   35
-        BYTE   W32
-        BYTE   W02
+        BYTE   W15
+        BYTE                   33
+        BYTE   W15
         BYTE   PEND
 // 003   ----------------------------------------
 TimeGear_2_3:
-        BYTE   W03
-        BYTE           VOL     34
-        BYTE   W08
-        BYTE                   33
-        BYTE   W16
-        BYTE                   32
         BYTE   W06
+        BYTE           VOL     32
+        BYTE   W12
         BYTE                   31
-        BYTE   W08
+        BYTE   W14
         BYTE                   30
-        BYTE   W03
-        BYTE                   29
-        BYTE   W04
-        BYTE                   28
         BYTE   W06
-        BYTE                   27
-        BYTE   W03
-        BYTE                   26
-        BYTE   W05
-        BYTE                   25
-        BYTE   W01
-        BYTE                   24
-        BYTE   W03
-        BYTE                   23
-        BYTE   W05
-        BYTE                   21
+        BYTE                   29
+        BYTE   W06
+        BYTE                   28
         BYTE   W04
-        BYTE                   20
+        BYTE                   27
+        BYTE   W06
+        BYTE                   26
         BYTE   W03
-        BYTE                   19
+        BYTE                   25
         BYTE   W05
-        BYTE                   18
+        BYTE                   24
         BYTE   W01
-        BYTE                   16
+        BYTE                   23
+        BYTE   W03
+        BYTE                   22
+        BYTE   W05
+        BYTE                   20
+        BYTE   W04
+        BYTE                   19
+        BYTE   W03
+        BYTE                   18
+        BYTE   W05
+        BYTE                   17
+        BYTE   W01
+        BYTE                   15
         BYTE   W03
         BYTE                   13
-        BYTE   W05
-        BYTE                   11
+        BYTE   W02
+        BYTE                   12
+        BYTE   W03
+        BYTE                   10
         BYTE   W03
         BYTE           EOT     An1
         BYTE           VOL     0
@@ -944,19 +987,19 @@ TimeGear_2_4:
         BYTE           VOL     2
         BYTE   W03
         BYTE                   3
-        BYTE   W06
+        BYTE   W07
         BYTE                   4
-        BYTE   W04
-        BYTE                   5
         BYTE   W05
+        BYTE                   5
+        BYTE   W04
         BYTE                   6
         BYTE   W06
         BYTE                   7
         BYTE   W03
         BYTE                   8
-        BYTE   W04
+        BYTE   W05
         BYTE                   9
-        BYTE   W06
+        BYTE   W07
         BYTE                   10
         BYTE   W05
         BYTE                   11
@@ -966,64 +1009,62 @@ TimeGear_2_4:
         BYTE                   13
         BYTE   W04
         BYTE                   14
-        BYTE   W05
-        BYTE                   15
-        BYTE   W04
-        BYTE                   16
         BYTE   W06
+        BYTE                   15
+        BYTE   W06
+        BYTE                   16
+        BYTE   W05
         BYTE                   17
-        BYTE   W05
+        BYTE   W04
         BYTE                   18
-        BYTE   W04
-        BYTE                   19
         BYTE   W05
-        BYTE                   20
+        BYTE                   19
         BYTE   W04
-        BYTE                   21
+        BYTE                   20
         BYTE   W06
         BYTE   PEND
 // 005   ----------------------------------------
         BYTE   PATT
          POIN2  TimeGear_2_2
 // 006   ----------------------------------------
-        BYTE   W03
-        BYTE           VOL     34
-        BYTE   W08
-        BYTE                   33
-        BYTE   W16
-        BYTE                   32
         BYTE   W06
+        BYTE           VOL     32
+        BYTE   W12
         BYTE                   31
-        BYTE   W08
+        BYTE   W14
         BYTE                   30
-        BYTE   W03
-        BYTE                   29
-        BYTE   W04
-        BYTE                   28
         BYTE   W06
-        BYTE                   27
-        BYTE   W03
-        BYTE                   26
-        BYTE   W05
-        BYTE                   25
-        BYTE   W01
-        BYTE                   24
-        BYTE   W03
-        BYTE                   23
-        BYTE   W05
-        BYTE                   21
+        BYTE                   29
+        BYTE   W06
+        BYTE                   28
         BYTE   W04
-        BYTE                   20
+        BYTE                   27
+        BYTE   W06
+        BYTE                   26
         BYTE   W03
-        BYTE                   19
+        BYTE                   25
         BYTE   W05
-        BYTE                   18
+        BYTE                   24
         BYTE   W01
-        BYTE                   16
+        BYTE                   23
+        BYTE   W03
+        BYTE                   22
+        BYTE   W05
+        BYTE                   20
+        BYTE   W04
+        BYTE                   19
+        BYTE   W03
+        BYTE                   18
+        BYTE   W05
+        BYTE                   17
+        BYTE   W01
+        BYTE                   15
         BYTE   W03
         BYTE                   13
-        BYTE   W05
-        BYTE                   11
+        BYTE   W02
+        BYTE                   12
+        BYTE   W03
+        BYTE                   10
         BYTE   W03
         BYTE           EOT     Gn1
         BYTE           VOL     0
@@ -1035,19 +1076,19 @@ TimeGear_2_7:
         BYTE           VOL     2
         BYTE   W03
         BYTE                   3
-        BYTE   W06
+        BYTE   W07
         BYTE                   4
-        BYTE   W04
-        BYTE                   5
         BYTE   W05
+        BYTE                   5
+        BYTE   W04
         BYTE                   6
         BYTE   W06
         BYTE                   7
         BYTE   W03
         BYTE                   8
-        BYTE   W04
+        BYTE   W05
         BYTE                   9
-        BYTE   W06
+        BYTE   W07
         BYTE                   10
         BYTE   W05
         BYTE                   11
@@ -1057,20 +1098,18 @@ TimeGear_2_7:
         BYTE                   13
         BYTE   W04
         BYTE                   14
-        BYTE   W05
-        BYTE                   15
-        BYTE   W04
-        BYTE                   16
         BYTE   W06
+        BYTE                   15
+        BYTE   W06
+        BYTE                   16
+        BYTE   W05
         BYTE                   17
-        BYTE   W05
+        BYTE   W04
         BYTE                   18
-        BYTE   W04
-        BYTE                   19
         BYTE   W05
-        BYTE                   20
+        BYTE                   19
         BYTE   W04
-        BYTE                   21
+        BYTE                   20
         BYTE   W06
         BYTE   PEND
 // 008   ----------------------------------------
@@ -1087,44 +1126,44 @@ TimeGear_2_7:
          POIN2  TimeGear_2_2
 // 012   ----------------------------------------
 TimeGear_2_12:
-        BYTE   W03
-        BYTE           VOL     34
-        BYTE   W08
-        BYTE                   33
-        BYTE   W16
-        BYTE                   32
         BYTE   W06
+        BYTE           VOL     32
+        BYTE   W12
         BYTE                   31
-        BYTE   W08
+        BYTE   W14
         BYTE                   30
-        BYTE   W03
-        BYTE                   29
-        BYTE   W04
-        BYTE                   28
         BYTE   W06
-        BYTE                   27
-        BYTE   W03
-        BYTE                   26
-        BYTE   W05
-        BYTE                   25
-        BYTE   W01
-        BYTE                   24
-        BYTE   W03
-        BYTE                   23
-        BYTE   W05
-        BYTE                   21
+        BYTE                   29
+        BYTE   W06
+        BYTE                   28
         BYTE   W04
-        BYTE                   20
+        BYTE                   27
+        BYTE   W06
+        BYTE                   26
         BYTE   W03
-        BYTE                   19
+        BYTE                   25
         BYTE   W05
-        BYTE                   18
+        BYTE                   24
         BYTE   W01
-        BYTE                   16
+        BYTE                   23
+        BYTE   W03
+        BYTE                   22
+        BYTE   W05
+        BYTE                   20
+        BYTE   W04
+        BYTE                   19
+        BYTE   W03
+        BYTE                   18
+        BYTE   W05
+        BYTE                   17
+        BYTE   W01
+        BYTE                   15
         BYTE   W03
         BYTE                   13
-        BYTE   W05
-        BYTE                   11
+        BYTE   W02
+        BYTE                   12
+        BYTE   W03
+        BYTE                   10
         BYTE   W03
         BYTE           EOT     Gn1
         BYTE   W01
@@ -1134,136 +1173,132 @@ TimeGear_2_13:
         BYTE           TIE     Fn1   v110
         BYTE   W01
         BYTE           VOL     14
-        BYTE   W02
+        BYTE   W05
         BYTE                   15
-        BYTE   W03
-        BYTE                   16
         BYTE   W01
+        BYTE                   16
+        BYTE   W03
         BYTE                   17
         BYTE   W03
         BYTE                   18
-        BYTE   W03
+        BYTE   W05
         BYTE                   19
-        BYTE   W05
-        BYTE                   20
         BYTE   W01
-        BYTE                   21
+        BYTE                   20
         BYTE   W05
+        BYTE                   21
+        BYTE   W03
         BYTE                   22
         BYTE   W03
         BYTE                   23
         BYTE   W03
         BYTE                   24
+        BYTE   W06
+        BYTE                   26
         BYTE   W03
-        BYTE                   25
+        BYTE                   27
+        BYTE   W04
+        BYTE                   28
+        BYTE   W08
+        BYTE                   29
+        BYTE   W04
+        BYTE                   30
+        BYTE   W11
+        BYTE                   29
+        BYTE   W15
+        BYTE                   28
         BYTE   W06
         BYTE                   27
-        BYTE   W03
-        BYTE                   28
-        BYTE   W03
-        BYTE                   29
-        BYTE   W09
-        BYTE                   30
-        BYTE   W03
-        BYTE                   31
-        BYTE   W15
-        BYTE                   30
-        BYTE   W13
-        BYTE                   29
         BYTE   W06
-        BYTE                   28
-        BYTE   W05
         BYTE   PEND
 // 014   ----------------------------------------
 TimeGear_2_14:
         BYTE   W07
-        BYTE           VOL     27
+        BYTE           VOL     26
         BYTE   W08
-        BYTE                   26
-        BYTE   W04
         BYTE                   25
-        BYTE   W03
+        BYTE   W04
         BYTE                   24
         BYTE   W03
         BYTE                   23
-        BYTE   W02
+        BYTE   W03
         BYTE                   22
-        BYTE   W04
-        BYTE                   19
-        BYTE   W05
-        BYTE                   18
-        BYTE   W01
-        BYTE                   17
         BYTE   W02
+        BYTE                   21
+        BYTE   W04
+        BYTE                   18
+        BYTE   W05
+        BYTE                   17
+        BYTE   W01
         BYTE                   16
+        BYTE   W02
+        BYTE                   15
         BYTE   W08
         BYTE           EOT     Fn1
         BYTE   W01
         BYTE           TIE     En1   v110
         BYTE   W01
         BYTE           VOL     14
-        BYTE   W02
+        BYTE   W05
         BYTE                   15
-        BYTE   W03
-        BYTE                   16
         BYTE   W01
+        BYTE                   16
+        BYTE   W03
         BYTE                   17
         BYTE   W03
         BYTE                   18
-        BYTE   W03
+        BYTE   W05
         BYTE                   19
-        BYTE   W05
-        BYTE                   20
         BYTE   W01
-        BYTE                   21
+        BYTE                   20
         BYTE   W05
+        BYTE                   21
+        BYTE   W03
         BYTE                   22
         BYTE   W03
         BYTE                   23
         BYTE   W03
         BYTE                   24
-        BYTE   W03
-        BYTE                   25
         BYTE   W06
+        BYTE                   26
+        BYTE   W03
         BYTE                   27
-        BYTE   W03
+        BYTE   W04
         BYTE                   28
-        BYTE   W03
-        BYTE                   29
-        BYTE   W03
+        BYTE   W02
         BYTE   PEND
 // 015   ----------------------------------------
 TimeGear_2_15:
         BYTE   W06
-        BYTE           VOL     30
-        BYTE   W03
-        BYTE                   31
-        BYTE   W15
-        BYTE                   30
-        BYTE   W13
-        BYTE                   29
-        BYTE   W06
-        BYTE                   28
-        BYTE   W12
-        BYTE                   27
-        BYTE   W08
-        BYTE                   26
+        BYTE           VOL     29
         BYTE   W04
+        BYTE                   30
+        BYTE   W11
+        BYTE                   29
+        BYTE   W15
+        BYTE                   28
+        BYTE   W06
+        BYTE                   27
+        BYTE   W13
+        BYTE                   26
+        BYTE   W08
         BYTE                   25
-        BYTE   W03
+        BYTE   W04
         BYTE                   24
         BYTE   W03
         BYTE                   23
-        BYTE   W02
+        BYTE   W03
         BYTE                   22
-        BYTE   W04
-        BYTE                   19
-        BYTE   W05
-        BYTE                   18
-        BYTE   W01
-        BYTE                   17
         BYTE   W02
+        BYTE                   21
+        BYTE   W04
+        BYTE                   18
+        BYTE   W05
+        BYTE                   17
+        BYTE   W01
         BYTE                   16
+        BYTE   W02
+        BYTE                   15
         BYTE   W08
         BYTE           EOT     En1
         BYTE   W01
@@ -1300,136 +1335,132 @@ TimeGear_2_25:
         BYTE           TIE     Cn2   v110
         BYTE   W01
         BYTE           VOL     14
-        BYTE   W02
+        BYTE   W05
         BYTE                   15
-        BYTE   W03
-        BYTE                   16
         BYTE   W01
+        BYTE                   16
+        BYTE   W03
         BYTE                   17
         BYTE   W03
         BYTE                   18
-        BYTE   W03
+        BYTE   W05
         BYTE                   19
-        BYTE   W05
-        BYTE                   20
         BYTE   W01
-        BYTE                   21
+        BYTE                   20
         BYTE   W05
+        BYTE                   21
+        BYTE   W03
         BYTE                   22
         BYTE   W03
         BYTE                   23
         BYTE   W03
         BYTE                   24
+        BYTE   W06
+        BYTE                   26
         BYTE   W03
-        BYTE                   25
+        BYTE                   27
+        BYTE   W04
+        BYTE                   28
+        BYTE   W08
+        BYTE                   29
+        BYTE   W04
+        BYTE                   30
+        BYTE   W11
+        BYTE                   29
+        BYTE   W15
+        BYTE                   28
         BYTE   W06
         BYTE                   27
-        BYTE   W03
-        BYTE                   28
-        BYTE   W03
-        BYTE                   29
-        BYTE   W09
-        BYTE                   30
-        BYTE   W03
-        BYTE                   31
-        BYTE   W15
-        BYTE                   30
-        BYTE   W13
-        BYTE                   29
         BYTE   W06
-        BYTE                   28
-        BYTE   W05
         BYTE   PEND
 // 026   ----------------------------------------
 TimeGear_2_26:
         BYTE   W07
-        BYTE           VOL     27
+        BYTE           VOL     26
         BYTE   W08
-        BYTE                   26
-        BYTE   W04
         BYTE                   25
-        BYTE   W03
+        BYTE   W04
         BYTE                   24
         BYTE   W03
         BYTE                   23
-        BYTE   W02
+        BYTE   W03
         BYTE                   22
-        BYTE   W04
-        BYTE                   19
-        BYTE   W05
-        BYTE                   18
-        BYTE   W01
-        BYTE                   17
         BYTE   W02
+        BYTE                   21
+        BYTE   W04
+        BYTE                   18
+        BYTE   W05
+        BYTE                   17
+        BYTE   W01
         BYTE                   16
+        BYTE   W02
+        BYTE                   15
         BYTE   W08
         BYTE           EOT     Cn2
         BYTE   W01
         BYTE           TIE     Dn2   v110
         BYTE   W01
         BYTE           VOL     14
-        BYTE   W02
+        BYTE   W05
         BYTE                   15
-        BYTE   W03
-        BYTE                   16
         BYTE   W01
+        BYTE                   16
+        BYTE   W03
         BYTE                   17
         BYTE   W03
         BYTE                   18
-        BYTE   W03
+        BYTE   W05
         BYTE                   19
-        BYTE   W05
-        BYTE                   20
         BYTE   W01
-        BYTE                   21
+        BYTE                   20
         BYTE   W05
+        BYTE                   21
+        BYTE   W03
         BYTE                   22
         BYTE   W03
         BYTE                   23
         BYTE   W03
         BYTE                   24
-        BYTE   W03
-        BYTE                   25
         BYTE   W06
+        BYTE                   26
+        BYTE   W03
         BYTE                   27
-        BYTE   W03
+        BYTE   W04
         BYTE                   28
-        BYTE   W03
-        BYTE                   29
-        BYTE   W03
+        BYTE   W02
         BYTE   PEND
 // 027   ----------------------------------------
 TimeGear_2_27:
         BYTE   W06
-        BYTE           VOL     30
-        BYTE   W03
-        BYTE                   31
-        BYTE   W15
-        BYTE                   30
-        BYTE   W13
-        BYTE                   29
-        BYTE   W06
-        BYTE                   28
-        BYTE   W12
-        BYTE                   27
-        BYTE   W08
-        BYTE                   26
+        BYTE           VOL     29
         BYTE   W04
+        BYTE                   30
+        BYTE   W11
+        BYTE                   29
+        BYTE   W15
+        BYTE                   28
+        BYTE   W06
+        BYTE                   27
+        BYTE   W13
+        BYTE                   26
+        BYTE   W08
         BYTE                   25
-        BYTE   W03
+        BYTE   W04
         BYTE                   24
         BYTE   W03
         BYTE                   23
-        BYTE   W02
+        BYTE   W03
         BYTE                   22
-        BYTE   W04
-        BYTE                   19
-        BYTE   W05
-        BYTE                   18
-        BYTE   W01
-        BYTE                   17
         BYTE   W02
+        BYTE                   21
+        BYTE   W04
+        BYTE                   18
+        BYTE   W05
+        BYTE                   17
+        BYTE   W01
         BYTE                   16
+        BYTE   W02
+        BYTE                   15
         BYTE   W08
         BYTE           EOT     Dn2
         BYTE   W01
@@ -1440,94 +1471,93 @@ TimeGear_2_27:
 // 029   ----------------------------------------
 TimeGear_2_29:
         BYTE   W07
-        BYTE           VOL     27
+        BYTE           VOL     26
         BYTE   W08
-        BYTE                   26
-        BYTE   W04
         BYTE                   25
-        BYTE   W03
+        BYTE   W04
         BYTE                   24
         BYTE   W03
         BYTE                   23
-        BYTE   W02
+        BYTE   W03
         BYTE                   22
-        BYTE   W04
-        BYTE                   19
-        BYTE   W05
-        BYTE                   18
-        BYTE   W01
-        BYTE                   17
         BYTE   W02
+        BYTE                   21
+        BYTE   W04
+        BYTE                   18
+        BYTE   W05
+        BYTE                   17
+        BYTE   W01
         BYTE                   16
+        BYTE   W02
+        BYTE                   15
         BYTE   W08
         BYTE           EOT     Cn2
         BYTE   W01
         BYTE           N68     Dn2   v110   gtp3
         BYTE   W01
         BYTE           VOL     14
-        BYTE   W02
+        BYTE   W05
         BYTE                   15
-        BYTE   W03
-        BYTE                   16
         BYTE   W01
+        BYTE                   16
+        BYTE   W03
         BYTE                   17
         BYTE   W03
         BYTE                   18
-        BYTE   W03
+        BYTE   W05
         BYTE                   19
-        BYTE   W05
-        BYTE                   20
         BYTE   W01
-        BYTE                   21
+        BYTE                   20
         BYTE   W05
+        BYTE                   21
+        BYTE   W03
         BYTE                   22
         BYTE   W03
         BYTE                   23
         BYTE   W03
         BYTE                   24
-        BYTE   W03
-        BYTE                   25
         BYTE   W06
+        BYTE                   26
+        BYTE   W03
         BYTE                   27
-        BYTE   W03
+        BYTE   W04
         BYTE                   28
-        BYTE   W03
-        BYTE                   29
-        BYTE   W03
+        BYTE   W02
         BYTE   PEND
 // 030   ----------------------------------------
 TimeGear_2_30:
         BYTE   W06
-        BYTE           VOL     30
-        BYTE   W03
-        BYTE                   31
-        BYTE   W15
-        BYTE                   30
-        BYTE           N68     Bn1   v110   gtp3
-        BYTE   W13
         BYTE           VOL     29
-        BYTE   W06
-        BYTE                   28
-        BYTE   W12
-        BYTE                   27
-        BYTE   W08
-        BYTE                   26
         BYTE   W04
-        BYTE                   25
+        BYTE                   30
+        BYTE   W11
+        BYTE                   29
         BYTE   W03
+        BYTE           N68     Bn1   v110   gtp3
+        BYTE   W12
+        BYTE           VOL     28
+        BYTE   W06
+        BYTE                   27
+        BYTE   W13
+        BYTE                   26
+        BYTE   W08
+        BYTE                   25
+        BYTE   W04
         BYTE                   24
         BYTE   W03
         BYTE                   23
-        BYTE   W02
+        BYTE   W03
         BYTE                   22
-        BYTE   W04
-        BYTE                   19
-        BYTE   W05
-        BYTE                   18
-        BYTE   W01
-        BYTE                   17
         BYTE   W02
+        BYTE                   21
+        BYTE   W04
+        BYTE                   18
+        BYTE   W05
+        BYTE                   17
+        BYTE   W01
         BYTE                   16
+        BYTE   W02
+        BYTE                   15
         BYTE   W09
         BYTE   PEND
 // 031   ----------------------------------------
@@ -1548,36 +1578,37 @@ TimeGear_2_30:
 // 036   ----------------------------------------
 TimeGear_2_36:
         BYTE   W06
-        BYTE           VOL     30
-        BYTE   W03
-        BYTE                   31
-        BYTE   W15
-        BYTE                   30
-        BYTE           N68     Bn1   v110   gtp3
-        BYTE   W13
         BYTE           VOL     29
-        BYTE   W06
-        BYTE                   28
-        BYTE   W12
-        BYTE                   27
-        BYTE   W08
-        BYTE                   26
         BYTE   W04
-        BYTE                   25
+        BYTE                   30
+        BYTE   W11
+        BYTE                   29
         BYTE   W03
+        BYTE           N68     Bn1   v110   gtp3
+        BYTE   W12
+        BYTE           VOL     28
+        BYTE   W06
+        BYTE                   27
+        BYTE   W13
+        BYTE                   26
+        BYTE   W08
+        BYTE                   25
+        BYTE   W04
         BYTE                   24
         BYTE   W03
         BYTE                   23
-        BYTE   W02
+        BYTE   W03
         BYTE                   22
-        BYTE   W04
-        BYTE                   19
-        BYTE   W05
-        BYTE                   18
-        BYTE   W01
-        BYTE                   17
         BYTE   W02
+        BYTE                   21
+        BYTE   W04
+        BYTE                   18
+        BYTE   W05
+        BYTE                   17
+        BYTE   W01
         BYTE                   16
+        BYTE   W02
+        BYTE                   15
         BYTE   W08
         BYTE                   0
         BYTE   W01
@@ -1586,8 +1617,37 @@ TimeGear_2_36:
         BYTE   PATT
          POIN2  TimeGear_2_7
 // 038   ----------------------------------------
-        BYTE   PATT
-         POIN2  TimeGear_2_2
+TimeGear_2_LOOP:
+        BYTE           VOL     21
+        BYTE   W06
+        BYTE                   22
+        BYTE   W05
+        BYTE                   23
+        BYTE   W03
+        BYTE                   24
+        BYTE   W06
+        BYTE                   25
+        BYTE   W04
+        BYTE                   26
+        BYTE   W06
+        BYTE                   27
+        BYTE   W06
+        BYTE                   28
+        BYTE   W05
+        BYTE                   29
+        BYTE   W03
+        BYTE                   30
+        BYTE   W06
+        BYTE                   31
+        BYTE   W06
+        BYTE                   32
+        BYTE   W04
+        BYTE                   33
+        BYTE   W06
+        BYTE                   34
+        BYTE   W15
+        BYTE                   33
+        BYTE   W15
 // 039   ----------------------------------------
         BYTE   PATT
          POIN2  TimeGear_2_3
@@ -1694,8 +1754,38 @@ TimeGear_2_36:
         BYTE   PATT
          POIN2  TimeGear_2_7
 // 074   ----------------------------------------
-        BYTE   PATT
-         POIN2  TimeGear_2_2
+        BYTE           VOL     21
+        BYTE   GoTo
+         POIN2  TimeGear_2_LOOP
+        BYTE   W06
+        BYTE                   22
+        BYTE   W05
+        BYTE                   23
+        BYTE   W03
+        BYTE                   24
+        BYTE   W06
+        BYTE                   25
+        BYTE   W04
+        BYTE                   26
+        BYTE   W06
+        BYTE                   27
+        BYTE   W06
+        BYTE                   28
+        BYTE   W05
+        BYTE                   29
+        BYTE   W03
+        BYTE                   30
+        BYTE   W06
+        BYTE                   31
+        BYTE   W06
+        BYTE                   32
+        BYTE   W04
+        BYTE                   33
+        BYTE   W06
+        BYTE                   34
+        BYTE   W15
+        BYTE                   33
+        BYTE   W15
 // 075   ----------------------------------------
         BYTE   PATT
          POIN2  TimeGear_2_3
@@ -1711,10 +1801,6 @@ TimeGear_2_36:
 // 079   ----------------------------------------
         BYTE   W56
         BYTE   W03
-        BYTE           VOICE   0
-        BYTE           VOL     100
-        BYTE   GoTo
-         POIN2  TimeGear_2_LOOP
         BYTE   FINE
 
 //****************** Track 3 (Midi-Chn.3) ******************//
@@ -1722,7 +1808,6 @@ TimeGear_2_36:
 TimeGear_3:
         BYTE   KEYSH   TimeGear_key+0
 // 000   ----------------------------------------
-TimeGear_3_LOOP:
         BYTE   W24
 // 001   ----------------------------------------
         BYTE           VOICE   48
@@ -1733,139 +1818,133 @@ TimeGear_3_LOOP:
         BYTE           VOL     2
         BYTE   W01
         BYTE                   3
-        BYTE   W03
-        BYTE                   4
         BYTE   W06
+        BYTE                   4
+        BYTE   W05
         BYTE                   5
         BYTE   W03
         BYTE                   6
-        BYTE   W05
+        BYTE   W04
         BYTE                   7
         BYTE   W06
         BYTE                   8
-        BYTE   W01
+        BYTE   W02
         BYTE                   9
-        BYTE   W05
+        BYTE   W04
         BYTE                   10
-        BYTE   W03
-        BYTE                   11
         BYTE   W06
+        BYTE                   11
+        BYTE   W05
         BYTE                   12
         BYTE   W03
         BYTE                   13
         BYTE   W04
         BYTE                   14
-        BYTE   W03
-        BYTE                   15
         BYTE   W05
-        BYTE                   16
+        BYTE                   15
         BYTE   W03
-        BYTE                   17
+        BYTE                   16
         BYTE   W04
+        BYTE                   17
+        BYTE   W06
         BYTE                   18
         BYTE   W03
         BYTE                   19
-        BYTE   W06
+        BYTE   W05
         BYTE                   20
-        BYTE   W05
-        BYTE                   21
-        BYTE   W03
-        BYTE                   22
         BYTE   W04
-        BYTE                   23
-        BYTE   W03
-        BYTE                   24
+        BYTE                   21
         BYTE   W05
-        BYTE                   25
+        BYTE                   22
         BYTE   W03
-        BYTE                   26
-        BYTE   W01
+        BYTE                   23
+        BYTE   W04
+        BYTE                   24
+        BYTE   W03
 // 002   ----------------------------------------
 TimeGear_3_2:
+        BYTE   W02
+        BYTE           VOL     25
+        BYTE   W04
+        BYTE                   26
         BYTE   W05
-        BYTE           VOL     27
+        BYTE                   27
         BYTE   W03
         BYTE                   28
-        BYTE   W04
-        BYTE                   29
-        BYTE   W02
-        BYTE                   30
         BYTE   W06
-        BYTE                   31
-        BYTE   W04
-        BYTE                   32
+        BYTE                   29
         BYTE   W03
+        BYTE                   30
+        BYTE   W04
+        BYTE                   31
+        BYTE   W05
+        BYTE                   32
+        BYTE   W04
         BYTE                   33
         BYTE   W05
         BYTE                   34
-        BYTE   W04
+        BYTE   W03
         BYTE                   35
-        BYTE   W05
+        BYTE   W04
         BYTE                   36
-        BYTE   W01
-        BYTE                   37
-        BYTE   W06
-        BYTE                   38
-        BYTE   W03
-        BYTE                   39
         BYTE   W05
+        BYTE                   37
+        BYTE   W04
+        BYTE                   38
+        BYTE   W05
+        BYTE                   39
+        BYTE   W04
         BYTE                   40
-        BYTE   W03
-        BYTE                   41
-        BYTE   W06
-        BYTE                   42
-        BYTE   W21
-        BYTE                   41
-        BYTE   W10
+        BYTE   W15
+        BYTE                   39
+        BYTE   W15
         BYTE   PEND
 // 003   ----------------------------------------
 TimeGear_3_3:
-        BYTE   W11
-        BYTE           VOL     40
-        BYTE   W07
-        BYTE                   39
-        BYTE   W14
-        BYTE                   38
-        BYTE   W01
-        BYTE                   37
+        BYTE   W03
+        BYTE           VOL     38
         BYTE   W08
+        BYTE                   37
+        BYTE   W16
         BYTE                   36
-        BYTE   W03
+        BYTE   W06
         BYTE                   35
-        BYTE   W04
+        BYTE   W05
         BYTE                   34
-        BYTE   W05
+        BYTE   W06
         BYTE                   33
-        BYTE   W01
+        BYTE   W04
         BYTE                   32
-        BYTE   W03
-        BYTE                   31
         BYTE   W05
-        BYTE                   30
+        BYTE                   31
         BYTE   W01
+        BYTE                   30
+        BYTE   W05
         BYTE                   29
         BYTE   W03
         BYTE                   28
-        BYTE   W02
+        BYTE   W01
         BYTE                   27
         BYTE   W03
         BYTE                   26
-        BYTE   W03
+        BYTE   W05
         BYTE                   24
-        BYTE   W04
+        BYTE   W03
         BYTE                   23
-        BYTE   W02
+        BYTE   W01
         BYTE                   22
         BYTE   W03
         BYTE                   21
+        BYTE   W05
+        BYTE                   20
         BYTE   W01
-        BYTE                   19
+        BYTE                   18
         BYTE   W03
-        BYTE                   16
-        BYTE   W02
         BYTE                   15
+        BYTE   W02
+        BYTE                   14
         BYTE   W03
-        BYTE                   13
+        BYTE                   12
         BYTE   W03
         BYTE           EOT     En2
         BYTE           VOL     0
@@ -1878,104 +1957,98 @@ TimeGear_3_4:
         BYTE           VOL     2
         BYTE   W01
         BYTE                   3
-        BYTE   W03
-        BYTE                   4
         BYTE   W06
+        BYTE                   4
+        BYTE   W05
         BYTE                   5
         BYTE   W03
         BYTE                   6
-        BYTE   W05
+        BYTE   W04
         BYTE                   7
         BYTE   W06
         BYTE                   8
-        BYTE   W01
+        BYTE   W02
         BYTE                   9
-        BYTE   W05
+        BYTE   W04
         BYTE                   10
-        BYTE   W03
-        BYTE                   11
         BYTE   W06
+        BYTE                   11
+        BYTE   W05
         BYTE                   12
         BYTE   W03
         BYTE                   13
         BYTE   W04
         BYTE                   14
-        BYTE   W03
-        BYTE                   15
         BYTE   W05
-        BYTE                   16
+        BYTE                   15
         BYTE   W03
-        BYTE                   17
+        BYTE                   16
         BYTE   W04
+        BYTE                   17
+        BYTE   W06
         BYTE                   18
         BYTE   W03
         BYTE                   19
-        BYTE   W06
+        BYTE   W05
         BYTE                   20
-        BYTE   W05
-        BYTE                   21
-        BYTE   W03
-        BYTE                   22
         BYTE   W04
-        BYTE                   23
-        BYTE   W03
-        BYTE                   24
+        BYTE                   21
         BYTE   W05
-        BYTE                   25
+        BYTE                   22
         BYTE   W03
-        BYTE                   26
-        BYTE   W01
+        BYTE                   23
+        BYTE   W04
+        BYTE                   24
+        BYTE   W03
         BYTE   PEND
 // 005   ----------------------------------------
         BYTE   PATT
          POIN2  TimeGear_3_2
 // 006   ----------------------------------------
-        BYTE   W11
-        BYTE           VOL     40
-        BYTE   W07
-        BYTE                   39
-        BYTE   W14
-        BYTE                   38
-        BYTE   W01
-        BYTE                   37
+        BYTE   W03
+        BYTE           VOL     38
         BYTE   W08
+        BYTE                   37
+        BYTE   W16
         BYTE                   36
-        BYTE   W03
+        BYTE   W06
         BYTE                   35
-        BYTE   W04
+        BYTE   W05
         BYTE                   34
-        BYTE   W05
+        BYTE   W06
         BYTE                   33
-        BYTE   W01
+        BYTE   W04
         BYTE                   32
-        BYTE   W03
-        BYTE                   31
         BYTE   W05
-        BYTE                   30
+        BYTE                   31
         BYTE   W01
+        BYTE                   30
+        BYTE   W05
         BYTE                   29
         BYTE   W03
         BYTE                   28
-        BYTE   W02
+        BYTE   W01
         BYTE                   27
         BYTE   W03
         BYTE                   26
-        BYTE   W03
+        BYTE   W05
         BYTE                   24
-        BYTE   W04
+        BYTE   W03
         BYTE                   23
-        BYTE   W02
+        BYTE   W01
         BYTE                   22
         BYTE   W03
         BYTE                   21
+        BYTE   W05
+        BYTE                   20
         BYTE   W01
-        BYTE                   19
+        BYTE                   18
         BYTE   W03
-        BYTE                   16
-        BYTE   W02
         BYTE                   15
+        BYTE   W02
+        BYTE                   14
         BYTE   W03
-        BYTE                   13
+        BYTE                   12
         BYTE   W03
         BYTE           EOT     Dn2
         BYTE           VOL     0
@@ -1987,53 +2060,49 @@ TimeGear_3_7:
         BYTE           VOL     2
         BYTE   W01
         BYTE                   3
-        BYTE   W03
-        BYTE                   4
         BYTE   W06
+        BYTE                   4
+        BYTE   W05
         BYTE                   5
         BYTE   W03
         BYTE                   6
-        BYTE   W05
+        BYTE   W04
         BYTE                   7
         BYTE   W06
         BYTE                   8
-        BYTE   W01
+        BYTE   W02
         BYTE                   9
-        BYTE   W05
+        BYTE   W04
         BYTE                   10
-        BYTE   W03
-        BYTE                   11
         BYTE   W06
+        BYTE                   11
+        BYTE   W05
         BYTE                   12
         BYTE   W03
         BYTE                   13
         BYTE   W04
         BYTE                   14
-        BYTE   W03
-        BYTE                   15
         BYTE   W05
-        BYTE                   16
+        BYTE                   15
         BYTE   W03
-        BYTE                   17
+        BYTE                   16
         BYTE   W04
+        BYTE                   17
+        BYTE   W06
         BYTE                   18
         BYTE   W03
         BYTE                   19
-        BYTE   W06
+        BYTE   W05
         BYTE                   20
-        BYTE   W05
-        BYTE                   21
-        BYTE   W03
-        BYTE                   22
         BYTE   W04
-        BYTE                   23
-        BYTE   W03
-        BYTE                   24
+        BYTE                   21
         BYTE   W05
-        BYTE                   25
+        BYTE                   22
         BYTE   W03
-        BYTE                   26
-        BYTE   W01
+        BYTE                   23
+        BYTE   W04
+        BYTE                   24
+        BYTE   W03
         BYTE   PEND
 // 008   ----------------------------------------
         BYTE   PATT
@@ -2049,52 +2118,50 @@ TimeGear_3_7:
          POIN2  TimeGear_3_2
 // 012   ----------------------------------------
 TimeGear_3_12:
-        BYTE   W11
-        BYTE           VOL     40
-        BYTE   W07
-        BYTE                   39
-        BYTE   W14
-        BYTE                   38
-        BYTE   W01
-        BYTE                   37
+        BYTE   W03
+        BYTE           VOL     38
         BYTE   W08
+        BYTE                   37
+        BYTE   W16
         BYTE                   36
-        BYTE   W03
+        BYTE   W06
         BYTE                   35
-        BYTE   W04
+        BYTE   W05
         BYTE                   34
-        BYTE   W05
+        BYTE   W06
         BYTE                   33
-        BYTE   W01
+        BYTE   W04
         BYTE                   32
-        BYTE   W03
-        BYTE                   31
         BYTE   W05
-        BYTE                   30
+        BYTE                   31
         BYTE   W01
+        BYTE                   30
+        BYTE   W05
         BYTE                   29
         BYTE   W03
         BYTE                   28
-        BYTE   W02
+        BYTE   W01
         BYTE                   27
         BYTE   W03
         BYTE                   26
-        BYTE   W03
+        BYTE   W05
         BYTE                   24
-        BYTE   W04
+        BYTE   W03
         BYTE                   23
-        BYTE   W02
+        BYTE   W01
         BYTE                   22
         BYTE   W03
         BYTE                   21
+        BYTE   W05
+        BYTE                   20
         BYTE   W01
-        BYTE                   19
+        BYTE                   18
         BYTE   W03
-        BYTE                   16
-        BYTE   W02
         BYTE                   15
+        BYTE   W02
+        BYTE                   14
         BYTE   W03
-        BYTE                   13
+        BYTE                   12
         BYTE   W03
         BYTE           EOT     Dn2
         BYTE   W01
@@ -2103,149 +2170,153 @@ TimeGear_3_12:
 TimeGear_3_13:
         BYTE           TIE     Cn2   v110
         BYTE   W01
-        BYTE           VOL     17
+        BYTE           VOL     16
         BYTE   W02
-        BYTE                   18
+        BYTE                   17
         BYTE   W03
-        BYTE                   19
+        BYTE                   18
         BYTE   W01
+        BYTE                   19
+        BYTE   W03
         BYTE                   20
         BYTE   W03
-        BYTE                   22
+        BYTE                   21
         BYTE   W05
+        BYTE                   22
+        BYTE   W01
         BYTE                   23
         BYTE   W03
         BYTE                   24
-        BYTE   W03
-        BYTE                   25
-        BYTE   W01
-        BYTE                   26
-        BYTE   W05
-        BYTE                   28
-        BYTE   W04
-        BYTE                   29
         BYTE   W02
+        BYTE                   25
+        BYTE   W03
+        BYTE                   26
+        BYTE   W03
+        BYTE                   27
+        BYTE   W03
+        BYTE                   28
+        BYTE   W06
         BYTE                   30
+        BYTE   W01
+        BYTE                   31
+        BYTE   W03
+        BYTE                   32
+        BYTE   W03
+        BYTE                   33
+        BYTE   W08
+        BYTE                   34
+        BYTE   W04
+        BYTE                   35
+        BYTE   W11
+        BYTE                   34
+        BYTE   W15
+        BYTE                   33
         BYTE   W06
         BYTE                   32
-        BYTE   W01
-        BYTE                   33
-        BYTE   W03
-        BYTE                   34
-        BYTE   W03
-        BYTE                   35
-        BYTE   W08
-        BYTE                   36
-        BYTE   W03
-        BYTE                   37
-        BYTE   W15
-        BYTE                   36
-        BYTE   W12
-        BYTE                   35
-        BYTE   W06
-        BYTE                   34
         BYTE   W06
         BYTE   PEND
 // 014   ----------------------------------------
 TimeGear_3_14:
         BYTE   W06
-        BYTE           VOL     33
-        BYTE   W04
-        BYTE                   32
-        BYTE   W05
-        BYTE                   31
+        BYTE           VOL     31
         BYTE   W04
         BYTE                   30
-        BYTE   W03
+        BYTE   W05
         BYTE                   29
+        BYTE   W04
+        BYTE                   28
         BYTE   W03
         BYTE                   27
-        BYTE   W02
-        BYTE                   26
-        BYTE   W04
-        BYTE                   23
         BYTE   W03
-        BYTE                   22
+        BYTE                   26
         BYTE   W02
-        BYTE                   21
+        BYTE                   25
         BYTE   W01
+        BYTE                   24
+        BYTE   W03
+        BYTE                   21
+        BYTE   W05
         BYTE                   20
-        BYTE   W02
+        BYTE   W01
         BYTE                   19
+        BYTE   W02
+        BYTE                   18
         BYTE   W08
         BYTE           EOT     Cn2
         BYTE   W01
         BYTE           TIE     Bn1   v110
         BYTE   W01
-        BYTE           VOL     17
+        BYTE           VOL     16
         BYTE   W02
-        BYTE                   18
+        BYTE                   17
         BYTE   W03
-        BYTE                   19
+        BYTE                   18
         BYTE   W01
+        BYTE                   19
+        BYTE   W03
         BYTE                   20
         BYTE   W03
-        BYTE                   22
+        BYTE                   21
         BYTE   W05
+        BYTE                   22
+        BYTE   W01
         BYTE                   23
         BYTE   W03
         BYTE                   24
-        BYTE   W03
-        BYTE                   25
-        BYTE   W01
-        BYTE                   26
-        BYTE   W05
-        BYTE                   28
-        BYTE   W04
-        BYTE                   29
         BYTE   W02
-        BYTE                   30
+        BYTE                   25
+        BYTE   W03
+        BYTE                   26
+        BYTE   W03
+        BYTE                   27
+        BYTE   W03
+        BYTE                   28
         BYTE   W06
-        BYTE                   32
+        BYTE                   30
         BYTE   W01
+        BYTE                   31
+        BYTE   W03
+        BYTE                   32
+        BYTE   W03
         BYTE                   33
-        BYTE   W03
-        BYTE                   34
-        BYTE   W03
-        BYTE                   35
         BYTE   W02
         BYTE   PEND
 // 015   ----------------------------------------
 TimeGear_3_15:
         BYTE   W06
-        BYTE           VOL     36
-        BYTE   W03
-        BYTE                   37
-        BYTE   W15
-        BYTE                   36
-        BYTE   W12
-        BYTE                   35
-        BYTE   W06
-        BYTE                   34
-        BYTE   W12
-        BYTE                   33
+        BYTE           VOL     34
         BYTE   W04
+        BYTE                   35
+        BYTE   W11
+        BYTE                   34
+        BYTE   W15
+        BYTE                   33
+        BYTE   W06
         BYTE                   32
-        BYTE   W05
+        BYTE   W12
         BYTE                   31
         BYTE   W04
         BYTE                   30
-        BYTE   W03
+        BYTE   W05
         BYTE                   29
+        BYTE   W04
+        BYTE                   28
         BYTE   W03
         BYTE                   27
-        BYTE   W02
-        BYTE                   26
-        BYTE   W04
-        BYTE                   23
         BYTE   W03
-        BYTE                   22
+        BYTE                   26
         BYTE   W02
-        BYTE                   21
+        BYTE                   25
         BYTE   W01
+        BYTE                   24
+        BYTE   W03
+        BYTE                   21
+        BYTE   W05
         BYTE                   20
-        BYTE   W02
+        BYTE   W01
         BYTE                   19
+        BYTE   W02
+        BYTE                   18
         BYTE   W08
         BYTE           EOT     Bn1
         BYTE   W01
@@ -2281,150 +2352,155 @@ TimeGear_3_15:
 TimeGear_3_25:
         BYTE           TIE     Cn3   v110
         BYTE   W01
-        BYTE           VOL     17
+        BYTE           VOL     16
         BYTE   W02
-        BYTE                   18
+        BYTE                   17
         BYTE   W03
-        BYTE                   19
+        BYTE                   18
         BYTE   W01
+        BYTE                   19
+        BYTE   W03
         BYTE                   20
         BYTE   W03
-        BYTE                   22
+        BYTE                   21
         BYTE   W05
+        BYTE                   22
+        BYTE   W01
         BYTE                   23
         BYTE   W03
         BYTE                   24
-        BYTE   W03
-        BYTE                   25
-        BYTE   W01
-        BYTE                   26
-        BYTE   W05
-        BYTE                   28
-        BYTE   W04
-        BYTE                   29
         BYTE   W02
+        BYTE                   25
+        BYTE   W03
+        BYTE                   26
+        BYTE   W03
+        BYTE                   27
+        BYTE   W03
+        BYTE                   28
+        BYTE   W06
         BYTE                   30
+        BYTE   W01
+        BYTE                   31
+        BYTE   W03
+        BYTE                   32
+        BYTE   W03
+        BYTE                   33
+        BYTE   W08
+        BYTE                   34
+        BYTE   W04
+        BYTE                   35
+        BYTE   W11
+        BYTE                   34
+        BYTE   W15
+        BYTE                   33
         BYTE   W06
         BYTE                   32
-        BYTE   W01
-        BYTE                   33
-        BYTE   W03
-        BYTE                   34
-        BYTE   W03
-        BYTE                   35
-        BYTE   W08
-        BYTE                   36
-        BYTE   W03
-        BYTE                   37
-        BYTE   W15
-        BYTE                   36
-        BYTE   W12
-        BYTE                   35
-        BYTE   W06
-        BYTE                   34
         BYTE   W06
         BYTE   PEND
 // 026   ----------------------------------------
 TimeGear_3_26:
         BYTE   W06
-        BYTE           VOL     33
-        BYTE   W04
-        BYTE                   32
-        BYTE   W05
-        BYTE                   31
+        BYTE           VOL     31
         BYTE   W04
         BYTE                   30
-        BYTE   W03
+        BYTE   W05
         BYTE                   29
+        BYTE   W04
+        BYTE                   28
         BYTE   W03
         BYTE                   27
-        BYTE   W02
-        BYTE                   26
-        BYTE   W04
-        BYTE                   23
         BYTE   W03
-        BYTE                   22
+        BYTE                   26
         BYTE   W02
-        BYTE                   21
+        BYTE                   25
         BYTE   W01
+        BYTE                   24
+        BYTE   W03
+        BYTE                   21
+        BYTE   W05
         BYTE                   20
-        BYTE   W02
+        BYTE   W01
         BYTE                   19
+        BYTE   W02
+        BYTE                   18
         BYTE   W08
         BYTE           EOT     Cn3
         BYTE   W01
         BYTE           N68     Fs2   v110   gtp3
         BYTE   W01
-        BYTE           VOL     17
+        BYTE           VOL     16
         BYTE   W02
-        BYTE                   18
+        BYTE                   17
         BYTE   W03
-        BYTE                   19
+        BYTE                   18
         BYTE   W01
+        BYTE                   19
+        BYTE   W03
         BYTE                   20
         BYTE   W03
-        BYTE                   22
+        BYTE                   21
         BYTE   W05
+        BYTE                   22
+        BYTE   W01
         BYTE                   23
         BYTE   W03
         BYTE                   24
-        BYTE   W03
-        BYTE                   25
-        BYTE   W01
-        BYTE                   26
-        BYTE   W05
-        BYTE                   28
-        BYTE   W04
-        BYTE                   29
         BYTE   W02
-        BYTE                   30
+        BYTE                   25
+        BYTE   W03
+        BYTE                   26
+        BYTE   W03
+        BYTE                   27
+        BYTE   W03
+        BYTE                   28
         BYTE   W06
-        BYTE                   32
+        BYTE                   30
         BYTE   W01
+        BYTE                   31
+        BYTE   W03
+        BYTE                   32
+        BYTE   W03
         BYTE                   33
-        BYTE   W03
-        BYTE                   34
-        BYTE   W03
-        BYTE                   35
         BYTE   W02
         BYTE   PEND
 // 027   ----------------------------------------
 TimeGear_3_27:
         BYTE   W06
-        BYTE           VOL     36
+        BYTE           VOL     34
+        BYTE   W04
+        BYTE                   35
+        BYTE   W11
+        BYTE                   34
         BYTE   W03
-        BYTE                   37
-        BYTE   W15
-        BYTE                   36
         BYTE           N68     An2   v110   gtp3
         BYTE   W12
-        BYTE           VOL     35
+        BYTE           VOL     33
         BYTE   W06
-        BYTE                   34
-        BYTE   W12
-        BYTE                   33
-        BYTE   W04
         BYTE                   32
-        BYTE   W05
+        BYTE   W12
         BYTE                   31
         BYTE   W04
         BYTE                   30
-        BYTE   W03
+        BYTE   W05
         BYTE                   29
+        BYTE   W04
+        BYTE                   28
         BYTE   W03
         BYTE                   27
-        BYTE   W02
-        BYTE                   26
-        BYTE   W04
-        BYTE                   23
         BYTE   W03
-        BYTE                   22
+        BYTE                   26
         BYTE   W02
-        BYTE                   21
+        BYTE                   25
         BYTE   W01
+        BYTE                   24
+        BYTE   W03
+        BYTE                   21
+        BYTE   W05
         BYTE                   20
-        BYTE   W02
+        BYTE   W01
         BYTE                   19
+        BYTE   W02
+        BYTE                   18
         BYTE   W09
         BYTE   PEND
 // 028   ----------------------------------------
@@ -2454,40 +2530,41 @@ TimeGear_3_27:
 // 036   ----------------------------------------
 TimeGear_3_36:
         BYTE   W06
-        BYTE           VOL     36
+        BYTE           VOL     34
+        BYTE   W04
+        BYTE                   35
+        BYTE   W11
+        BYTE                   34
         BYTE   W03
-        BYTE                   37
-        BYTE   W15
-        BYTE                   36
         BYTE           N68     An2   v110   gtp3
         BYTE   W12
-        BYTE           VOL     35
+        BYTE           VOL     33
         BYTE   W06
-        BYTE                   34
-        BYTE   W12
-        BYTE                   33
-        BYTE   W04
         BYTE                   32
-        BYTE   W05
+        BYTE   W12
         BYTE                   31
         BYTE   W04
         BYTE                   30
-        BYTE   W03
+        BYTE   W05
         BYTE                   29
+        BYTE   W04
+        BYTE                   28
         BYTE   W03
         BYTE                   27
-        BYTE   W02
-        BYTE                   26
-        BYTE   W04
-        BYTE                   23
         BYTE   W03
-        BYTE                   22
+        BYTE                   26
         BYTE   W02
-        BYTE                   21
+        BYTE                   25
         BYTE   W01
+        BYTE                   24
+        BYTE   W03
+        BYTE                   21
+        BYTE   W05
         BYTE                   20
-        BYTE   W02
+        BYTE   W01
         BYTE                   19
+        BYTE   W02
+        BYTE                   18
         BYTE   W08
         BYTE                   0
         BYTE   W01
@@ -2496,8 +2573,42 @@ TimeGear_3_36:
         BYTE   PATT
          POIN2  TimeGear_3_7
 // 038   ----------------------------------------
-        BYTE   PATT
-         POIN2  TimeGear_3_2
+TimeGear_3_LOOP:
+        BYTE   W02
+        BYTE           VOL     25
+        BYTE   W04
+        BYTE                   26
+        BYTE   W05
+        BYTE                   27
+        BYTE   W03
+        BYTE                   28
+        BYTE   W06
+        BYTE                   29
+        BYTE   W03
+        BYTE                   30
+        BYTE   W04
+        BYTE                   31
+        BYTE   W05
+        BYTE                   32
+        BYTE   W04
+        BYTE                   33
+        BYTE   W05
+        BYTE                   34
+        BYTE   W03
+        BYTE                   35
+        BYTE   W04
+        BYTE                   36
+        BYTE   W05
+        BYTE                   37
+        BYTE   W04
+        BYTE                   38
+        BYTE   W05
+        BYTE                   39
+        BYTE   W04
+        BYTE                   40
+        BYTE   W15
+        BYTE                   39
+        BYTE   W15
 // 039   ----------------------------------------
         BYTE   PATT
          POIN2  TimeGear_3_3
@@ -2604,8 +2715,43 @@ TimeGear_3_36:
         BYTE   PATT
          POIN2  TimeGear_3_7
 // 074   ----------------------------------------
-        BYTE   PATT
-         POIN2  TimeGear_3_2
+        BYTE   GoTo
+         POIN2  TimeGear_3_LOOP
+        BYTE   W02
+        BYTE           VOL     25
+        BYTE   W04
+        BYTE                   26
+        BYTE   W05
+        BYTE                   27
+        BYTE   W03
+        BYTE                   28
+        BYTE   W06
+        BYTE                   29
+        BYTE   W03
+        BYTE                   30
+        BYTE   W04
+        BYTE                   31
+        BYTE   W05
+        BYTE                   32
+        BYTE   W04
+        BYTE                   33
+        BYTE   W05
+        BYTE                   34
+        BYTE   W03
+        BYTE                   35
+        BYTE   W04
+        BYTE                   36
+        BYTE   W05
+        BYTE                   37
+        BYTE   W04
+        BYTE                   38
+        BYTE   W05
+        BYTE                   39
+        BYTE   W04
+        BYTE                   40
+        BYTE   W15
+        BYTE                   39
+        BYTE   W15
 // 075   ----------------------------------------
         BYTE   PATT
          POIN2  TimeGear_3_3
@@ -2621,11 +2767,6 @@ TimeGear_3_36:
 // 079   ----------------------------------------
         BYTE   W56
         BYTE   W03
-        BYTE           VOICE   0
-        BYTE           VOL     100
-        BYTE           PAN     c_v+0
-        BYTE   GoTo
-         POIN2  TimeGear_3_LOOP
         BYTE   FINE
 
 //****************** Track 4 (Midi-Chn.4) ******************//
@@ -2633,7 +2774,6 @@ TimeGear_3_36:
 TimeGear_4:
         BYTE   KEYSH   TimeGear_key+0
 // 000   ----------------------------------------
-TimeGear_4_LOOP:
         BYTE   W24
 // 001   ----------------------------------------
         BYTE           VOICE   48
@@ -2644,104 +2784,98 @@ TimeGear_4_LOOP:
         BYTE           VOL     2
         BYTE   W01
         BYTE                   3
-        BYTE   W03
-        BYTE                   4
         BYTE   W06
+        BYTE                   4
+        BYTE   W05
         BYTE                   5
         BYTE   W03
         BYTE                   6
-        BYTE   W05
+        BYTE   W04
         BYTE                   7
         BYTE   W06
         BYTE                   8
-        BYTE   W01
+        BYTE   W02
         BYTE                   9
-        BYTE   W05
+        BYTE   W04
         BYTE                   10
-        BYTE   W03
-        BYTE                   11
         BYTE   W06
+        BYTE                   11
+        BYTE   W05
         BYTE                   12
         BYTE   W03
         BYTE                   13
         BYTE   W04
         BYTE                   14
-        BYTE   W03
-        BYTE                   15
         BYTE   W05
-        BYTE                   16
+        BYTE                   15
         BYTE   W03
-        BYTE                   17
+        BYTE                   16
         BYTE   W04
+        BYTE                   17
+        BYTE   W06
         BYTE                   18
         BYTE   W03
         BYTE                   19
-        BYTE   W06
+        BYTE   W05
         BYTE                   20
-        BYTE   W05
-        BYTE                   21
-        BYTE   W03
-        BYTE                   22
         BYTE   W04
-        BYTE                   23
-        BYTE   W03
-        BYTE                   24
+        BYTE                   21
         BYTE   W05
-        BYTE                   25
+        BYTE                   22
         BYTE   W03
-        BYTE                   26
-        BYTE   W01
+        BYTE                   23
+        BYTE   W04
+        BYTE                   24
+        BYTE   W03
 // 002   ----------------------------------------
         BYTE   PATT
          POIN2  TimeGear_3_2
 // 003   ----------------------------------------
 TimeGear_4_3:
-        BYTE   W11
-        BYTE           VOL     40
-        BYTE   W07
-        BYTE                   39
-        BYTE   W14
-        BYTE                   38
-        BYTE   W01
-        BYTE                   37
+        BYTE   W03
+        BYTE           VOL     38
         BYTE   W08
+        BYTE                   37
+        BYTE   W16
         BYTE                   36
-        BYTE   W03
+        BYTE   W06
         BYTE                   35
-        BYTE   W04
+        BYTE   W05
         BYTE                   34
-        BYTE   W05
+        BYTE   W06
         BYTE                   33
-        BYTE   W01
+        BYTE   W04
         BYTE                   32
-        BYTE   W03
-        BYTE                   31
         BYTE   W05
-        BYTE                   30
+        BYTE                   31
         BYTE   W01
+        BYTE                   30
+        BYTE   W05
         BYTE                   29
         BYTE   W03
         BYTE                   28
-        BYTE   W02
+        BYTE   W01
         BYTE                   27
         BYTE   W03
         BYTE                   26
-        BYTE   W03
+        BYTE   W05
         BYTE                   24
-        BYTE   W04
+        BYTE   W03
         BYTE                   23
-        BYTE   W02
+        BYTE   W01
         BYTE                   22
         BYTE   W03
         BYTE                   21
+        BYTE   W05
+        BYTE                   20
         BYTE   W01
-        BYTE                   19
+        BYTE                   18
         BYTE   W03
-        BYTE                   16
-        BYTE   W02
         BYTE                   15
+        BYTE   W02
+        BYTE                   14
         BYTE   W03
-        BYTE                   13
+        BYTE                   12
         BYTE   W03
         BYTE           EOT     Bn2
         BYTE           VOL     0
@@ -2754,104 +2888,98 @@ TimeGear_4_4:
         BYTE           VOL     2
         BYTE   W01
         BYTE                   3
-        BYTE   W03
-        BYTE                   4
         BYTE   W06
+        BYTE                   4
+        BYTE   W05
         BYTE                   5
         BYTE   W03
         BYTE                   6
-        BYTE   W05
+        BYTE   W04
         BYTE                   7
         BYTE   W06
         BYTE                   8
-        BYTE   W01
+        BYTE   W02
         BYTE                   9
-        BYTE   W05
+        BYTE   W04
         BYTE                   10
-        BYTE   W03
-        BYTE                   11
         BYTE   W06
+        BYTE                   11
+        BYTE   W05
         BYTE                   12
         BYTE   W03
         BYTE                   13
         BYTE   W04
         BYTE                   14
-        BYTE   W03
-        BYTE                   15
         BYTE   W05
-        BYTE                   16
+        BYTE                   15
         BYTE   W03
-        BYTE                   17
+        BYTE                   16
         BYTE   W04
+        BYTE                   17
+        BYTE   W06
         BYTE                   18
         BYTE   W03
         BYTE                   19
-        BYTE   W06
+        BYTE   W05
         BYTE                   20
-        BYTE   W05
-        BYTE                   21
-        BYTE   W03
-        BYTE                   22
         BYTE   W04
-        BYTE                   23
-        BYTE   W03
-        BYTE                   24
+        BYTE                   21
         BYTE   W05
-        BYTE                   25
+        BYTE                   22
         BYTE   W03
-        BYTE                   26
-        BYTE   W01
+        BYTE                   23
+        BYTE   W04
+        BYTE                   24
+        BYTE   W03
         BYTE   PEND
 // 005   ----------------------------------------
         BYTE   PATT
          POIN2  TimeGear_3_2
 // 006   ----------------------------------------
-        BYTE   W11
-        BYTE           VOL     40
-        BYTE   W07
-        BYTE                   39
-        BYTE   W14
-        BYTE                   38
-        BYTE   W01
-        BYTE                   37
+        BYTE   W03
+        BYTE           VOL     38
         BYTE   W08
+        BYTE                   37
+        BYTE   W16
         BYTE                   36
-        BYTE   W03
+        BYTE   W06
         BYTE                   35
-        BYTE   W04
+        BYTE   W05
         BYTE                   34
-        BYTE   W05
+        BYTE   W06
         BYTE                   33
-        BYTE   W01
+        BYTE   W04
         BYTE                   32
-        BYTE   W03
-        BYTE                   31
         BYTE   W05
-        BYTE                   30
+        BYTE                   31
         BYTE   W01
+        BYTE                   30
+        BYTE   W05
         BYTE                   29
         BYTE   W03
         BYTE                   28
-        BYTE   W02
+        BYTE   W01
         BYTE                   27
         BYTE   W03
         BYTE                   26
-        BYTE   W03
+        BYTE   W05
         BYTE                   24
-        BYTE   W04
+        BYTE   W03
         BYTE                   23
-        BYTE   W02
+        BYTE   W01
         BYTE                   22
         BYTE   W03
         BYTE                   21
+        BYTE   W05
+        BYTE                   20
         BYTE   W01
-        BYTE                   19
+        BYTE                   18
         BYTE   W03
-        BYTE                   16
-        BYTE   W02
         BYTE                   15
+        BYTE   W02
+        BYTE                   14
         BYTE   W03
-        BYTE                   13
+        BYTE                   12
         BYTE   W03
         BYTE           EOT     An2
         BYTE           VOL     0
@@ -2863,53 +2991,49 @@ TimeGear_4_7:
         BYTE           VOL     2
         BYTE   W01
         BYTE                   3
-        BYTE   W03
-        BYTE                   4
         BYTE   W06
+        BYTE                   4
+        BYTE   W05
         BYTE                   5
         BYTE   W03
         BYTE                   6
-        BYTE   W05
+        BYTE   W04
         BYTE                   7
         BYTE   W06
         BYTE                   8
-        BYTE   W01
+        BYTE   W02
         BYTE                   9
-        BYTE   W05
+        BYTE   W04
         BYTE                   10
-        BYTE   W03
-        BYTE                   11
         BYTE   W06
+        BYTE                   11
+        BYTE   W05
         BYTE                   12
         BYTE   W03
         BYTE                   13
         BYTE   W04
         BYTE                   14
-        BYTE   W03
-        BYTE                   15
         BYTE   W05
-        BYTE                   16
+        BYTE                   15
         BYTE   W03
-        BYTE                   17
+        BYTE                   16
         BYTE   W04
+        BYTE                   17
+        BYTE   W06
         BYTE                   18
         BYTE   W03
         BYTE                   19
-        BYTE   W06
+        BYTE   W05
         BYTE                   20
-        BYTE   W05
-        BYTE                   21
-        BYTE   W03
-        BYTE                   22
         BYTE   W04
-        BYTE                   23
-        BYTE   W03
-        BYTE                   24
+        BYTE                   21
         BYTE   W05
-        BYTE                   25
+        BYTE                   22
         BYTE   W03
-        BYTE                   26
-        BYTE   W01
+        BYTE                   23
+        BYTE   W04
+        BYTE                   24
+        BYTE   W03
         BYTE   PEND
 // 008   ----------------------------------------
         BYTE   PATT
@@ -2925,52 +3049,50 @@ TimeGear_4_7:
          POIN2  TimeGear_3_2
 // 012   ----------------------------------------
 TimeGear_4_12:
-        BYTE   W11
-        BYTE           VOL     40
-        BYTE   W07
-        BYTE                   39
-        BYTE   W14
-        BYTE                   38
-        BYTE   W01
-        BYTE                   37
+        BYTE   W03
+        BYTE           VOL     38
         BYTE   W08
+        BYTE                   37
+        BYTE   W16
         BYTE                   36
-        BYTE   W03
+        BYTE   W06
         BYTE                   35
-        BYTE   W04
+        BYTE   W05
         BYTE                   34
-        BYTE   W05
+        BYTE   W06
         BYTE                   33
-        BYTE   W01
+        BYTE   W04
         BYTE                   32
-        BYTE   W03
-        BYTE                   31
         BYTE   W05
-        BYTE                   30
+        BYTE                   31
         BYTE   W01
+        BYTE                   30
+        BYTE   W05
         BYTE                   29
         BYTE   W03
         BYTE                   28
-        BYTE   W02
+        BYTE   W01
         BYTE                   27
         BYTE   W03
         BYTE                   26
-        BYTE   W03
+        BYTE   W05
         BYTE                   24
-        BYTE   W04
+        BYTE   W03
         BYTE                   23
-        BYTE   W02
+        BYTE   W01
         BYTE                   22
         BYTE   W03
         BYTE                   21
+        BYTE   W05
+        BYTE                   20
         BYTE   W01
-        BYTE                   19
+        BYTE                   18
         BYTE   W03
-        BYTE                   16
-        BYTE   W02
         BYTE                   15
+        BYTE   W02
+        BYTE                   14
         BYTE   W03
-        BYTE                   13
+        BYTE                   12
         BYTE   W03
         BYTE           EOT     An2
         BYTE   W01
@@ -2979,149 +3101,153 @@ TimeGear_4_12:
 TimeGear_4_13:
         BYTE           TIE     Gn2   v110
         BYTE   W01
-        BYTE           VOL     17
+        BYTE           VOL     16
         BYTE   W02
-        BYTE                   18
+        BYTE                   17
         BYTE   W03
-        BYTE                   19
+        BYTE                   18
         BYTE   W01
+        BYTE                   19
+        BYTE   W03
         BYTE                   20
         BYTE   W03
-        BYTE                   22
+        BYTE                   21
         BYTE   W05
+        BYTE                   22
+        BYTE   W01
         BYTE                   23
         BYTE   W03
         BYTE                   24
-        BYTE   W03
-        BYTE                   25
-        BYTE   W01
-        BYTE                   26
-        BYTE   W05
-        BYTE                   28
-        BYTE   W04
-        BYTE                   29
         BYTE   W02
+        BYTE                   25
+        BYTE   W03
+        BYTE                   26
+        BYTE   W03
+        BYTE                   27
+        BYTE   W03
+        BYTE                   28
+        BYTE   W06
         BYTE                   30
+        BYTE   W01
+        BYTE                   31
+        BYTE   W03
+        BYTE                   32
+        BYTE   W03
+        BYTE                   33
+        BYTE   W08
+        BYTE                   34
+        BYTE   W04
+        BYTE                   35
+        BYTE   W11
+        BYTE                   34
+        BYTE   W15
+        BYTE                   33
         BYTE   W06
         BYTE                   32
-        BYTE   W01
-        BYTE                   33
-        BYTE   W03
-        BYTE                   34
-        BYTE   W03
-        BYTE                   35
-        BYTE   W08
-        BYTE                   36
-        BYTE   W03
-        BYTE                   37
-        BYTE   W15
-        BYTE                   36
-        BYTE   W12
-        BYTE                   35
-        BYTE   W06
-        BYTE                   34
         BYTE   W06
         BYTE   PEND
 // 014   ----------------------------------------
 TimeGear_4_14:
         BYTE   W06
-        BYTE           VOL     33
-        BYTE   W04
-        BYTE                   32
-        BYTE   W05
-        BYTE                   31
+        BYTE           VOL     31
         BYTE   W04
         BYTE                   30
-        BYTE   W03
+        BYTE   W05
         BYTE                   29
+        BYTE   W04
+        BYTE                   28
         BYTE   W03
         BYTE                   27
-        BYTE   W02
-        BYTE                   26
-        BYTE   W04
-        BYTE                   23
         BYTE   W03
-        BYTE                   22
+        BYTE                   26
         BYTE   W02
-        BYTE                   21
+        BYTE                   25
         BYTE   W01
+        BYTE                   24
+        BYTE   W03
+        BYTE                   21
+        BYTE   W05
         BYTE                   20
-        BYTE   W02
+        BYTE   W01
         BYTE                   19
+        BYTE   W02
+        BYTE                   18
         BYTE   W08
         BYTE           EOT     Gn2
         BYTE   W01
         BYTE           TIE     Fs2   v110
         BYTE   W01
-        BYTE           VOL     17
+        BYTE           VOL     16
         BYTE   W02
-        BYTE                   18
+        BYTE                   17
         BYTE   W03
-        BYTE                   19
+        BYTE                   18
         BYTE   W01
+        BYTE                   19
+        BYTE   W03
         BYTE                   20
         BYTE   W03
-        BYTE                   22
+        BYTE                   21
         BYTE   W05
+        BYTE                   22
+        BYTE   W01
         BYTE                   23
         BYTE   W03
         BYTE                   24
-        BYTE   W03
-        BYTE                   25
-        BYTE   W01
-        BYTE                   26
-        BYTE   W05
-        BYTE                   28
-        BYTE   W04
-        BYTE                   29
         BYTE   W02
-        BYTE                   30
+        BYTE                   25
+        BYTE   W03
+        BYTE                   26
+        BYTE   W03
+        BYTE                   27
+        BYTE   W03
+        BYTE                   28
         BYTE   W06
-        BYTE                   32
+        BYTE                   30
         BYTE   W01
+        BYTE                   31
+        BYTE   W03
+        BYTE                   32
+        BYTE   W03
         BYTE                   33
-        BYTE   W03
-        BYTE                   34
-        BYTE   W03
-        BYTE                   35
         BYTE   W02
         BYTE   PEND
 // 015   ----------------------------------------
 TimeGear_4_15:
         BYTE   W06
-        BYTE           VOL     36
-        BYTE   W03
-        BYTE                   37
-        BYTE   W15
-        BYTE                   36
-        BYTE   W12
-        BYTE                   35
-        BYTE   W06
-        BYTE                   34
-        BYTE   W12
-        BYTE                   33
+        BYTE           VOL     34
         BYTE   W04
+        BYTE                   35
+        BYTE   W11
+        BYTE                   34
+        BYTE   W15
+        BYTE                   33
+        BYTE   W06
         BYTE                   32
-        BYTE   W05
+        BYTE   W12
         BYTE                   31
         BYTE   W04
         BYTE                   30
-        BYTE   W03
+        BYTE   W05
         BYTE                   29
+        BYTE   W04
+        BYTE                   28
         BYTE   W03
         BYTE                   27
-        BYTE   W02
-        BYTE                   26
-        BYTE   W04
-        BYTE                   23
         BYTE   W03
-        BYTE                   22
+        BYTE                   26
         BYTE   W02
-        BYTE                   21
+        BYTE                   25
         BYTE   W01
+        BYTE                   24
+        BYTE   W03
+        BYTE                   21
+        BYTE   W05
         BYTE                   20
-        BYTE   W02
+        BYTE   W01
         BYTE                   19
+        BYTE   W02
+        BYTE                   18
         BYTE   W08
         BYTE           EOT     Fs2
         BYTE   W01
@@ -3157,150 +3283,155 @@ TimeGear_4_15:
 TimeGear_4_25:
         BYTE           TIE     En3   v110
         BYTE   W01
-        BYTE           VOL     17
+        BYTE           VOL     16
         BYTE   W02
-        BYTE                   18
+        BYTE                   17
         BYTE   W03
-        BYTE                   19
+        BYTE                   18
         BYTE   W01
+        BYTE                   19
+        BYTE   W03
         BYTE                   20
         BYTE   W03
-        BYTE                   22
+        BYTE                   21
         BYTE   W05
+        BYTE                   22
+        BYTE   W01
         BYTE                   23
         BYTE   W03
         BYTE                   24
-        BYTE   W03
-        BYTE                   25
-        BYTE   W01
-        BYTE                   26
-        BYTE   W05
-        BYTE                   28
-        BYTE   W04
-        BYTE                   29
         BYTE   W02
+        BYTE                   25
+        BYTE   W03
+        BYTE                   26
+        BYTE   W03
+        BYTE                   27
+        BYTE   W03
+        BYTE                   28
+        BYTE   W06
         BYTE                   30
+        BYTE   W01
+        BYTE                   31
+        BYTE   W03
+        BYTE                   32
+        BYTE   W03
+        BYTE                   33
+        BYTE   W08
+        BYTE                   34
+        BYTE   W04
+        BYTE                   35
+        BYTE   W11
+        BYTE                   34
+        BYTE   W15
+        BYTE                   33
         BYTE   W06
         BYTE                   32
-        BYTE   W01
-        BYTE                   33
-        BYTE   W03
-        BYTE                   34
-        BYTE   W03
-        BYTE                   35
-        BYTE   W08
-        BYTE                   36
-        BYTE   W03
-        BYTE                   37
-        BYTE   W15
-        BYTE                   36
-        BYTE   W12
-        BYTE                   35
-        BYTE   W06
-        BYTE                   34
         BYTE   W06
         BYTE   PEND
 // 026   ----------------------------------------
 TimeGear_4_26:
         BYTE   W06
-        BYTE           VOL     33
-        BYTE   W04
-        BYTE                   32
-        BYTE   W05
-        BYTE                   31
+        BYTE           VOL     31
         BYTE   W04
         BYTE                   30
-        BYTE   W03
+        BYTE   W05
         BYTE                   29
+        BYTE   W04
+        BYTE                   28
         BYTE   W03
         BYTE                   27
-        BYTE   W02
-        BYTE                   26
-        BYTE   W04
-        BYTE                   23
         BYTE   W03
-        BYTE                   22
+        BYTE                   26
         BYTE   W02
-        BYTE                   21
+        BYTE                   25
         BYTE   W01
+        BYTE                   24
+        BYTE   W03
+        BYTE                   21
+        BYTE   W05
         BYTE                   20
-        BYTE   W02
+        BYTE   W01
         BYTE                   19
+        BYTE   W02
+        BYTE                   18
         BYTE   W08
         BYTE           EOT     En3
         BYTE   W01
         BYTE           N68     Dn3   v110   gtp3
         BYTE   W01
-        BYTE           VOL     17
+        BYTE           VOL     16
         BYTE   W02
-        BYTE                   18
+        BYTE                   17
         BYTE   W03
-        BYTE                   19
+        BYTE                   18
         BYTE   W01
+        BYTE                   19
+        BYTE   W03
         BYTE                   20
         BYTE   W03
-        BYTE                   22
+        BYTE                   21
         BYTE   W05
+        BYTE                   22
+        BYTE   W01
         BYTE                   23
         BYTE   W03
         BYTE                   24
-        BYTE   W03
-        BYTE                   25
-        BYTE   W01
-        BYTE                   26
-        BYTE   W05
-        BYTE                   28
-        BYTE   W04
-        BYTE                   29
         BYTE   W02
-        BYTE                   30
+        BYTE                   25
+        BYTE   W03
+        BYTE                   26
+        BYTE   W03
+        BYTE                   27
+        BYTE   W03
+        BYTE                   28
         BYTE   W06
-        BYTE                   32
+        BYTE                   30
         BYTE   W01
+        BYTE                   31
+        BYTE   W03
+        BYTE                   32
+        BYTE   W03
         BYTE                   33
-        BYTE   W03
-        BYTE                   34
-        BYTE   W03
-        BYTE                   35
         BYTE   W02
         BYTE   PEND
 // 027   ----------------------------------------
 TimeGear_4_27:
         BYTE   W06
-        BYTE           VOL     36
+        BYTE           VOL     34
+        BYTE   W04
+        BYTE                   35
+        BYTE   W11
+        BYTE                   34
         BYTE   W03
-        BYTE                   37
-        BYTE   W15
-        BYTE                   36
         BYTE           N68     Fs3   v110   gtp3
         BYTE   W12
-        BYTE           VOL     35
+        BYTE           VOL     33
         BYTE   W06
-        BYTE                   34
-        BYTE   W12
-        BYTE                   33
-        BYTE   W04
         BYTE                   32
-        BYTE   W05
+        BYTE   W12
         BYTE                   31
         BYTE   W04
         BYTE                   30
-        BYTE   W03
+        BYTE   W05
         BYTE                   29
+        BYTE   W04
+        BYTE                   28
         BYTE   W03
         BYTE                   27
-        BYTE   W02
-        BYTE                   26
-        BYTE   W04
-        BYTE                   23
         BYTE   W03
-        BYTE                   22
+        BYTE                   26
         BYTE   W02
-        BYTE                   21
+        BYTE                   25
         BYTE   W01
+        BYTE                   24
+        BYTE   W03
+        BYTE                   21
+        BYTE   W05
         BYTE                   20
-        BYTE   W02
+        BYTE   W01
         BYTE                   19
+        BYTE   W02
+        BYTE                   18
         BYTE   W09
         BYTE   PEND
 // 028   ----------------------------------------
@@ -3330,40 +3461,41 @@ TimeGear_4_27:
 // 036   ----------------------------------------
 TimeGear_4_36:
         BYTE   W06
-        BYTE           VOL     36
+        BYTE           VOL     34
+        BYTE   W04
+        BYTE                   35
+        BYTE   W11
+        BYTE                   34
         BYTE   W03
-        BYTE                   37
-        BYTE   W15
-        BYTE                   36
         BYTE           N68     Fs3   v110   gtp3
         BYTE   W12
-        BYTE           VOL     35
+        BYTE           VOL     33
         BYTE   W06
-        BYTE                   34
-        BYTE   W12
-        BYTE                   33
-        BYTE   W04
         BYTE                   32
-        BYTE   W05
+        BYTE   W12
         BYTE                   31
         BYTE   W04
         BYTE                   30
-        BYTE   W03
+        BYTE   W05
         BYTE                   29
+        BYTE   W04
+        BYTE                   28
         BYTE   W03
         BYTE                   27
-        BYTE   W02
-        BYTE                   26
-        BYTE   W04
-        BYTE                   23
         BYTE   W03
-        BYTE                   22
+        BYTE                   26
         BYTE   W02
-        BYTE                   21
+        BYTE                   25
         BYTE   W01
+        BYTE                   24
+        BYTE   W03
+        BYTE                   21
+        BYTE   W05
         BYTE                   20
-        BYTE   W02
+        BYTE   W01
         BYTE                   19
+        BYTE   W02
+        BYTE                   18
         BYTE   W08
         BYTE                   0
         BYTE   W01
@@ -3372,8 +3504,42 @@ TimeGear_4_36:
         BYTE   PATT
          POIN2  TimeGear_4_7
 // 038   ----------------------------------------
-        BYTE   PATT
-         POIN2  TimeGear_3_2
+TimeGear_4_LOOP:
+        BYTE   W02
+        BYTE           VOL     25
+        BYTE   W04
+        BYTE                   26
+        BYTE   W05
+        BYTE                   27
+        BYTE   W03
+        BYTE                   28
+        BYTE   W06
+        BYTE                   29
+        BYTE   W03
+        BYTE                   30
+        BYTE   W04
+        BYTE                   31
+        BYTE   W05
+        BYTE                   32
+        BYTE   W04
+        BYTE                   33
+        BYTE   W05
+        BYTE                   34
+        BYTE   W03
+        BYTE                   35
+        BYTE   W04
+        BYTE                   36
+        BYTE   W05
+        BYTE                   37
+        BYTE   W04
+        BYTE                   38
+        BYTE   W05
+        BYTE                   39
+        BYTE   W04
+        BYTE                   40
+        BYTE   W15
+        BYTE                   39
+        BYTE   W15
 // 039   ----------------------------------------
         BYTE   PATT
          POIN2  TimeGear_4_3
@@ -3480,8 +3646,43 @@ TimeGear_4_36:
         BYTE   PATT
          POIN2  TimeGear_4_7
 // 074   ----------------------------------------
-        BYTE   PATT
-         POIN2  TimeGear_3_2
+        BYTE   GoTo
+         POIN2  TimeGear_4_LOOP
+        BYTE   W02
+        BYTE           VOL     25
+        BYTE   W04
+        BYTE                   26
+        BYTE   W05
+        BYTE                   27
+        BYTE   W03
+        BYTE                   28
+        BYTE   W06
+        BYTE                   29
+        BYTE   W03
+        BYTE                   30
+        BYTE   W04
+        BYTE                   31
+        BYTE   W05
+        BYTE                   32
+        BYTE   W04
+        BYTE                   33
+        BYTE   W05
+        BYTE                   34
+        BYTE   W03
+        BYTE                   35
+        BYTE   W04
+        BYTE                   36
+        BYTE   W05
+        BYTE                   37
+        BYTE   W04
+        BYTE                   38
+        BYTE   W05
+        BYTE                   39
+        BYTE   W04
+        BYTE                   40
+        BYTE   W15
+        BYTE                   39
+        BYTE   W15
 // 075   ----------------------------------------
         BYTE   PATT
          POIN2  TimeGear_4_3
@@ -3497,11 +3698,6 @@ TimeGear_4_36:
 // 079   ----------------------------------------
         BYTE   W56
         BYTE   W03
-        BYTE           VOICE   0
-        BYTE           VOL     100
-        BYTE           PAN     c_v+0
-        BYTE   GoTo
-         POIN2  TimeGear_4_LOOP
         BYTE   FINE
 
 //****************** Track 5 (Midi-Chn.5) ******************//
@@ -3509,166 +3705,158 @@ TimeGear_4_36:
 TimeGear_5:
         BYTE   KEYSH   TimeGear_key+0
 // 000   ----------------------------------------
-TimeGear_5_LOOP:
         BYTE   W24
 // 001   ----------------------------------------
         BYTE           VOICE   52
-        BYTE           VOL     58
+        BYTE           VOL     55
         BYTE   W56
         BYTE   W03
-        BYTE                   2
+        BYTE                   1
         BYTE   W01
         BYTE           TIE     Bn3   v095
         BYTE   W05
         BYTE           VOL     4
-        BYTE   W03
+        BYTE   W07
         BYTE                   5
-        BYTE   W09
+        BYTE   W05
         BYTE                   6
         BYTE   W03
         BYTE                   7
         BYTE   W04
         BYTE                   9
-        BYTE   W03
-        BYTE                   10
-        BYTE   W05
+        BYTE   W08
         BYTE                   11
-        BYTE   W03
-        BYTE                   12
-        BYTE   W01
+        BYTE   W04
 // 002   ----------------------------------------
 TimeGear_5_2:
         BYTE   W03
-        BYTE           VOL     14
+        BYTE           VOL     13
         BYTE   W08
-        BYTE                   16
+        BYTE                   15
         BYTE   W07
+        BYTE                   16
+        BYTE   W03
         BYTE                   17
-        BYTE   W03
-        BYTE                   18
         BYTE   W05
+        BYTE                   18
+        BYTE   W03
         BYTE                   19
-        BYTE   W03
-        BYTE                   20
         BYTE   W04
-        BYTE                   22
+        BYTE                   21
         BYTE   W08
-        BYTE                   24
+        BYTE                   23
         BYTE   W03
-        BYTE                   25
+        BYTE                   24
         BYTE   W04
+        BYTE                   25
+        BYTE   W03
+        BYTE                   26
+        BYTE   W05
         BYTE                   27
         BYTE   W03
-        BYTE                   28
-        BYTE   W05
         BYTE                   29
-        BYTE   W03
-        BYTE                   30
         BYTE   W04
+        BYTE                   30
+        BYTE   W08
         BYTE                   31
         BYTE   W03
         BYTE                   32
-        BYTE   W05
-        BYTE                   33
-        BYTE   W03
-        BYTE                   34
         BYTE   W04
-        BYTE                   35
+        BYTE                   34
         BYTE   W03
-        BYTE                   36
+        BYTE                   35
         BYTE   W05
+        BYTE                   36
+        BYTE   W03
+        BYTE                   37
+        BYTE   W04
         BYTE                   38
-        BYTE   W07
-        BYTE                   40
         BYTE   W03
         BYTE   PEND
 // 003   ----------------------------------------
 TimeGear_5_3:
         BYTE   W05
-        BYTE           VOL     42
+        BYTE           VOL     40
         BYTE   W07
-        BYTE                   43
+        BYTE                   41
         BYTE   W24
         BYTE   W03
-        BYTE                   42
-        BYTE   W08
-        BYTE                   41
-        BYTE   W07
         BYTE                   40
-        BYTE   W03
+        BYTE   W08
         BYTE                   39
-        BYTE   W05
+        BYTE   W07
         BYTE                   38
         BYTE   W03
         BYTE                   37
-        BYTE   W04
-        BYTE                   35
-        BYTE   W03
+        BYTE   W05
+        BYTE                   36
+        BYTE   W07
         BYTE                   34
-        BYTE   W05
-        BYTE                   33
         BYTE   W03
+        BYTE                   32
+        BYTE   W05
         BYTE                   31
+        BYTE   W03
+        BYTE                   30
         BYTE   W04
-        BYTE                   29
-        BYTE   W03
         BYTE                   28
-        BYTE   W05
-        BYTE                   26
         BYTE   W03
-        BYTE                   24
+        BYTE                   26
+        BYTE   W05
+        BYTE                   25
+        BYTE   W03
+        BYTE                   23
         BYTE   W01
         BYTE   PEND
 // 004   ----------------------------------------
 TimeGear_5_4:
         BYTE   W03
-        BYTE           VOL     23
+        BYTE           VOL     22
         BYTE   W03
-        BYTE                   22
+        BYTE                   21
         BYTE   W05
-        BYTE                   20
+        BYTE                   19
         BYTE   W03
-        BYTE                   18
+        BYTE                   17
         BYTE   W04
-        BYTE                   16
+        BYTE                   15
         BYTE   W03
-        BYTE                   14
-        BYTE   W05
         BYTE                   13
-        BYTE   W03
+        BYTE   W05
         BYTE                   12
-        BYTE   W04
-        BYTE                   11
         BYTE   W03
-        BYTE                   9
+        BYTE                   11
+        BYTE   W04
+        BYTE                   10
+        BYTE   W03
+        BYTE                   8
         BYTE   W05
         BYTE                   7
-        BYTE   W07
+        BYTE   W03
+        BYTE                   6
+        BYTE   W04
         BYTE                   4
-        BYTE   W08
+        BYTE   W03
+        BYTE                   3
+        BYTE   W05
         BYTE                   1
         BYTE   W03
         BYTE           EOT     Bn3
-        BYTE           VOL     2
         BYTE   W01
         BYTE           TIE     An3   v095
         BYTE   W05
         BYTE           VOL     4
-        BYTE   W03
+        BYTE   W07
         BYTE                   5
-        BYTE   W09
+        BYTE   W05
         BYTE                   6
         BYTE   W03
         BYTE                   7
         BYTE   W04
         BYTE                   9
-        BYTE   W03
-        BYTE                   10
-        BYTE   W05
+        BYTE   W08
         BYTE                   11
-        BYTE   W03
-        BYTE                   12
-        BYTE   W01
+        BYTE   W04
         BYTE   PEND
 // 005   ----------------------------------------
         BYTE   PATT
@@ -3679,53 +3867,52 @@ TimeGear_5_4:
 // 007   ----------------------------------------
 TimeGear_5_7:
         BYTE   W03
-        BYTE           VOL     23
+        BYTE           VOL     22
         BYTE   W03
-        BYTE                   22
+        BYTE                   21
         BYTE   W05
-        BYTE                   20
+        BYTE                   19
         BYTE   W03
-        BYTE                   18
+        BYTE                   17
         BYTE   W04
-        BYTE                   16
+        BYTE                   15
         BYTE   W03
-        BYTE                   14
-        BYTE   W05
         BYTE                   13
-        BYTE   W03
+        BYTE   W05
         BYTE                   12
-        BYTE   W04
-        BYTE                   11
         BYTE   W03
-        BYTE                   9
+        BYTE                   11
+        BYTE   W04
+        BYTE                   10
+        BYTE   W03
+        BYTE                   8
         BYTE   W05
         BYTE                   7
-        BYTE   W07
+        BYTE   W03
+        BYTE                   6
+        BYTE   W04
         BYTE                   4
-        BYTE   W08
+        BYTE   W03
+        BYTE                   3
+        BYTE   W05
         BYTE                   1
         BYTE   W03
         BYTE           EOT     An3
-        BYTE           VOL     2
         BYTE   W01
         BYTE           TIE     Bn3   v095
         BYTE   W05
         BYTE           VOL     4
-        BYTE   W03
+        BYTE   W07
         BYTE                   5
-        BYTE   W09
+        BYTE   W05
         BYTE                   6
         BYTE   W03
         BYTE                   7
         BYTE   W04
         BYTE                   9
-        BYTE   W03
-        BYTE                   10
-        BYTE   W05
+        BYTE   W08
         BYTE                   11
-        BYTE   W03
-        BYTE                   12
-        BYTE   W01
+        BYTE   W04
         BYTE   PEND
 // 008   ----------------------------------------
         BYTE   PATT
@@ -3745,34 +3932,38 @@ TimeGear_5_7:
 // 013   ----------------------------------------
 TimeGear_5_13:
         BYTE   W03
-        BYTE           VOL     23
+        BYTE           VOL     22
         BYTE   W03
-        BYTE                   22
+        BYTE                   21
         BYTE   W05
-        BYTE                   20
+        BYTE                   19
         BYTE   W03
-        BYTE                   18
+        BYTE                   17
         BYTE   W04
-        BYTE                   16
+        BYTE                   15
         BYTE   W03
-        BYTE                   14
-        BYTE   W05
         BYTE                   13
-        BYTE   W03
+        BYTE   W05
         BYTE                   12
-        BYTE   W04
-        BYTE                   11
         BYTE   W03
-        BYTE                   9
+        BYTE                   11
+        BYTE   W04
+        BYTE                   10
+        BYTE   W03
+        BYTE                   8
         BYTE   W05
         BYTE                   7
-        BYTE   W07
+        BYTE   W03
+        BYTE                   6
+        BYTE   W04
         BYTE                   4
-        BYTE   W08
+        BYTE   W03
+        BYTE                   3
+        BYTE   W05
         BYTE                   1
         BYTE   W03
         BYTE           EOT     An3
-        BYTE           VOL     36
+        BYTE           VOL     35
         BYTE   W01
         BYTE           N80     En3   v095   gtp3
         BYTE   W36
@@ -3831,46 +4022,40 @@ TimeGear_5_24:
         BYTE   W24
         BYTE           N68     Dn4   v095   gtp3
         BYTE   W09
-        BYTE           VOL     37
+        BYTE           VOL     36
         BYTE   W03
+        BYTE                   37
+        BYTE   W06
         BYTE                   38
         BYTE   W06
         BYTE                   40
-        BYTE   W06
-        BYTE                   42
         BYTE   W03
+        BYTE                   41
+        BYTE   W06
         BYTE                   43
         BYTE   W06
         BYTE                   45
+        BYTE   W03
+        BYTE                   46
         BYTE   W06
         BYTE                   47
         BYTE   W03
         BYTE                   48
-        BYTE   W06
+        BYTE   W03
         BYTE                   49
         BYTE   W03
         BYTE                   50
-        BYTE   W03
-        BYTE                   51
-        BYTE   W03
+        BYTE   W06
         BYTE                   52
-        BYTE   W03
-        BYTE                   53
-        BYTE   W03
+        BYTE   W06
         BYTE                   54
         BYTE   W03
-        BYTE                   55
-        BYTE   W03
-        BYTE                   56
-        BYTE   W02
-        BYTE                   57
-        BYTE   W01
         BYTE   PEND
 // 025   ----------------------------------------
 TimeGear_5_25:
         BYTE           TIE     En4   v095
         BYTE   W03
-        BYTE           VOL     58
+        BYTE           VOL     55
         BYTE   W92
         BYTE   W01
         BYTE   PEND
@@ -3918,30 +4103,68 @@ TimeGear_5_26:
 TimeGear_5_37:
         BYTE   W56
         BYTE   W03
-        BYTE           VOL     2
+        BYTE           VOL     1
         BYTE   W01
         BYTE           TIE     Bn3   v095
         BYTE   W05
         BYTE           VOL     4
-        BYTE   W03
+        BYTE   W07
         BYTE                   5
-        BYTE   W09
+        BYTE   W05
         BYTE                   6
         BYTE   W03
         BYTE                   7
         BYTE   W04
         BYTE                   9
-        BYTE   W03
-        BYTE                   10
-        BYTE   W05
+        BYTE   W08
         BYTE                   11
-        BYTE   W03
-        BYTE                   12
-        BYTE   W01
+        BYTE   W04
         BYTE   PEND
 // 038   ----------------------------------------
-        BYTE   PATT
-         POIN2  TimeGear_5_2
+TimeGear_5_LOOP:
+        BYTE   W03
+        BYTE           VOL     13
+        BYTE   W08
+        BYTE                   15
+        BYTE   W07
+        BYTE                   16
+        BYTE   W03
+        BYTE                   17
+        BYTE   W05
+        BYTE                   18
+        BYTE   W03
+        BYTE                   19
+        BYTE   W04
+        BYTE                   21
+        BYTE   W08
+        BYTE                   23
+        BYTE   W03
+        BYTE                   24
+        BYTE   W04
+        BYTE                   25
+        BYTE   W03
+        BYTE                   26
+        BYTE   W05
+        BYTE                   27
+        BYTE   W03
+        BYTE                   29
+        BYTE   W04
+        BYTE                   30
+        BYTE   W08
+        BYTE                   31
+        BYTE   W03
+        BYTE                   32
+        BYTE   W04
+        BYTE                   34
+        BYTE   W03
+        BYTE                   35
+        BYTE   W05
+        BYTE                   36
+        BYTE   W03
+        BYTE                   37
+        BYTE   W04
+        BYTE                   38
+        BYTE   W03
 // 039   ----------------------------------------
         BYTE   PATT
          POIN2  TimeGear_5_3
@@ -4048,8 +4271,51 @@ TimeGear_5_37:
         BYTE   PATT
          POIN2  TimeGear_5_37
 // 074   ----------------------------------------
-        BYTE   PATT
-         POIN2  TimeGear_5_2
+        BYTE   GoTo
+         POIN2  TimeGear_5_LOOP
+        BYTE   W03
+        BYTE           VOL     13
+        BYTE   W08
+        BYTE                   15
+        BYTE   W07
+        BYTE                   16
+        BYTE   W03
+        BYTE                   17
+        BYTE   W05
+        BYTE                   18
+        BYTE   W03
+        BYTE                   19
+        BYTE   W04
+        BYTE                   21
+        BYTE   W08
+        BYTE                   23
+        BYTE   W03
+        BYTE                   24
+        BYTE   W04
+        BYTE                   25
+        BYTE   W03
+        BYTE                   26
+        BYTE   W05
+        BYTE                   27
+        BYTE   W03
+        BYTE                   29
+        BYTE   W04
+        BYTE                   30
+        BYTE   W08
+        BYTE                   31
+        BYTE   W03
+        BYTE                   32
+        BYTE   W04
+        BYTE                   34
+        BYTE   W03
+        BYTE                   35
+        BYTE   W05
+        BYTE                   36
+        BYTE   W03
+        BYTE                   37
+        BYTE   W04
+        BYTE                   38
+        BYTE   W03
 // 075   ----------------------------------------
         BYTE   PATT
          POIN2  TimeGear_5_3
@@ -4066,10 +4332,6 @@ TimeGear_5_37:
         BYTE   W56
         BYTE   W03
         BYTE           EOT     An3
-        BYTE           VOICE   0
-        BYTE           VOL     100
-        BYTE   GoTo
-         POIN2  TimeGear_5_LOOP
         BYTE   FINE
 
 //****************** Track 6 (Midi-Chn.6) ******************//
@@ -4077,11 +4339,10 @@ TimeGear_5_37:
 TimeGear_6:
         BYTE   KEYSH   TimeGear_key+0
 // 000   ----------------------------------------
-TimeGear_6_LOOP:
         BYTE   W24
 // 001   ----------------------------------------
         BYTE           VOICE   52
-        BYTE           VOL     45
+        BYTE           VOL     43
         BYTE   W96
 // 002   ----------------------------------------
         BYTE   W96
@@ -4109,7 +4370,7 @@ TimeGear_6_LOOP:
 TimeGear_6_13:
         BYTE   W56
         BYTE   W03
-        BYTE           VOL     28
+        BYTE           VOL     27
         BYTE   W01
         BYTE           PAN     c_v-20
         BYTE           N80     Cn3   v080   gtp3
@@ -4171,43 +4432,44 @@ TimeGear_6_22:
 // 024   ----------------------------------------
 TimeGear_6_24:
         BYTE   W24
-        BYTE           VOL     30
+        BYTE           VOL     28
         BYTE           N68     An3   v080   gtp3
         BYTE   W03
-        BYTE           VOL     31
-        BYTE   W09
+        BYTE           VOL     29
+        BYTE   W06
+        BYTE                   30
+        BYTE   W03
+        BYTE                   31
+        BYTE   W06
+        BYTE                   32
+        BYTE   W06
         BYTE                   33
         BYTE   W06
         BYTE                   34
         BYTE   W06
         BYTE                   35
-        BYTE   W06
-        BYTE                   36
         BYTE   W03
+        BYTE                   36
+        BYTE   W09
         BYTE                   37
-        BYTE   W06
+        BYTE   W03
         BYTE                   38
         BYTE   W06
         BYTE                   39
         BYTE   W03
         BYTE                   40
-        BYTE   W06
+        BYTE   W09
         BYTE                   41
-        BYTE   W06
-        BYTE                   42
-        BYTE   W03
-        BYTE                   43
-        BYTE   W06
-        BYTE                   44
         BYTE   W02
         BYTE           PAN     c_v-40
         BYTE   W01
         BYTE   PEND
 // 025   ----------------------------------------
 TimeGear_6_25:
+        BYTE           VOL     42
         BYTE           TIE     Gn3   v080
         BYTE   W03
-        BYTE           VOL     45
+        BYTE           VOL     43
         BYTE   W92
         BYTE   W01
         BYTE   PEND
@@ -4258,6 +4520,7 @@ TimeGear_6_26:
         BYTE   W36
         BYTE   W01
 // 038   ----------------------------------------
+TimeGear_6_LOOP:
         BYTE   W96
 // 039   ----------------------------------------
         BYTE   W96
@@ -4358,6 +4621,8 @@ TimeGear_6_26:
         BYTE   W36
         BYTE   W01
 // 074   ----------------------------------------
+        BYTE   GoTo
+         POIN2  TimeGear_6_LOOP
         BYTE   W96
 // 075   ----------------------------------------
         BYTE   W96
@@ -4370,10 +4635,6 @@ TimeGear_6_26:
 // 079   ----------------------------------------
         BYTE   W56
         BYTE   W03
-        BYTE           VOICE   0
-        BYTE           VOL     100
-        BYTE   GoTo
-         POIN2  TimeGear_6_LOOP
         BYTE   FINE
 
 //****************** Track 7 (Midi-Chn.7) ******************//
@@ -4381,11 +4642,10 @@ TimeGear_6_26:
 TimeGear_7:
         BYTE   KEYSH   TimeGear_key+0
 // 000   ----------------------------------------
-TimeGear_7_LOOP:
         BYTE   W24
 // 001   ----------------------------------------
         BYTE           VOICE   48
-        BYTE           VOL     45
+        BYTE           VOL     43
         BYTE   W96
 // 002   ----------------------------------------
         BYTE   W96
@@ -4505,75 +4765,68 @@ TimeGear_7_36:
 TimeGear_7_37:
         BYTE           TIE     An2   v115
         BYTE   W04
-        BYTE           VOL     42
-        BYTE   W18
-        BYTE                   41
-        BYTE   W23
-        BYTE                   40
-        BYTE   W06
-        BYTE                   39
-        BYTE   W24
+        BYTE           VOL     39
+        BYTE   W30
         BYTE                   38
-        BYTE   W07
+        BYTE   W11
         BYTE                   37
-        BYTE   W14
+        BYTE   W15
+        BYTE                   36
+        BYTE   W22
+        BYTE                   35
+        BYTE   W12
+        BYTE                   34
+        BYTE   W02
         BYTE   PEND
 // 038   ----------------------------------------
-TimeGear_7_38:
-        BYTE   W01
-        BYTE           VOL     36
-        BYTE   W17
-        BYTE                   35
+TimeGear_7_LOOP:
+        BYTE   W18
+        BYTE           VOL     33
         BYTE   W09
-        BYTE                   34
-        BYTE   W21
-        BYTE                   33
-        BYTE   W13
         BYTE                   32
-        BYTE   W12
+        BYTE   W21
         BYTE                   31
-        BYTE   W06
+        BYTE   W13
         BYTE                   30
-        BYTE   W11
+        BYTE   W12
         BYTE                   29
         BYTE   W06
-        BYTE   PEND
+        BYTE                   28
+        BYTE   W11
+        BYTE                   27
+        BYTE   W06
 // 039   ----------------------------------------
 TimeGear_7_39:
-        BYTE   W03
-        BYTE           VOL     28
+        BYTE   W06
+        BYTE           VOL     26
         BYTE   W09
-        BYTE                   27
-        BYTE   W03
-        BYTE                   26
-        BYTE   W16
         BYTE                   25
-        BYTE   W03
+        BYTE   W09
         BYTE                   24
-        BYTE   W03
+        BYTE   W07
         BYTE                   23
         BYTE   W06
-        BYTE                   22
-        BYTE   W06
         BYTE                   21
-        BYTE   W03
+        BYTE   W09
         BYTE                   20
         BYTE   W06
         BYTE                   19
-        BYTE   W05
-        BYTE                   18
-        BYTE   W03
-        BYTE                   17
-        BYTE   W09
-        BYTE                   15
         BYTE   W06
-        BYTE                   14
+        BYTE                   18
+        BYTE   W05
+        BYTE                   17
         BYTE   W03
+        BYTE                   16
+        BYTE   W09
+        BYTE                   14
+        BYTE   W06
         BYTE                   13
         BYTE   W03
         BYTE                   12
         BYTE   W03
         BYTE                   11
+        BYTE   W03
+        BYTE                   10
         BYTE   W05
         BYTE           EOT     An2
         BYTE   W01
@@ -4621,7 +4874,7 @@ TimeGear_7_39:
 // 060   ----------------------------------------
         BYTE   W92
         BYTE   W03
-        BYTE           VOL     45
+        BYTE           VOL     43
         BYTE   W01
 // 061   ----------------------------------------
         BYTE           TIE     Cn2   v100
@@ -4667,8 +4920,23 @@ TimeGear_7_39:
         BYTE   PATT
          POIN2  TimeGear_7_37
 // 074   ----------------------------------------
-        BYTE   PATT
-         POIN2  TimeGear_7_38
+        BYTE   GoTo
+         POIN2  TimeGear_7_LOOP
+        BYTE   W18
+        BYTE           VOL     33
+        BYTE   W09
+        BYTE                   32
+        BYTE   W21
+        BYTE                   31
+        BYTE   W13
+        BYTE                   30
+        BYTE   W12
+        BYTE                   29
+        BYTE   W06
+        BYTE                   28
+        BYTE   W11
+        BYTE                   27
+        BYTE   W06
 // 075   ----------------------------------------
         BYTE   PATT
          POIN2  TimeGear_7_39
@@ -4681,10 +4949,6 @@ TimeGear_7_39:
 // 079   ----------------------------------------
         BYTE   W56
         BYTE   W03
-        BYTE           VOICE   0
-        BYTE           VOL     100
-        BYTE   GoTo
-         POIN2  TimeGear_7_LOOP
         BYTE   FINE
 
 //****************** Track 8 (Midi-Chn.8) ******************//
@@ -4692,11 +4956,10 @@ TimeGear_7_39:
 TimeGear_8:
         BYTE   KEYSH   TimeGear_key+0
 // 000   ----------------------------------------
-TimeGear_8_LOOP:
         BYTE   W24
 // 001   ----------------------------------------
         BYTE           VOICE   40
-        BYTE           VOL     40
+        BYTE           VOL     38
         BYTE   W96
 // 002   ----------------------------------------
         BYTE   W96
@@ -4865,60 +5128,59 @@ TimeGear_8_36:
 TimeGear_8_37:
         BYTE           TIE     En3   v109
         BYTE   W04
-        BYTE           VOL     37
-        BYTE   W12
-        BYTE                   36
+        BYTE           VOL     35
         BYTE   W18
-        BYTE                   35
-        BYTE   W20
         BYTE                   34
-        BYTE   W09
+        BYTE   W15
         BYTE                   33
-        BYTE   W12
+        BYTE   W23
         BYTE                   32
-        BYTE   W04
-        BYTE                   31
-        BYTE   W03
-        BYTE                   30
         BYTE   W06
+        BYTE                   31
+        BYTE   W09
+        BYTE                   30
+        BYTE   W04
         BYTE                   29
-        BYTE   W03
+        BYTE   W06
         BYTE                   28
-        BYTE   W03
+        BYTE   W06
         BYTE                   27
+        BYTE   W03
+        BYTE                   26
         BYTE   W02
         BYTE   PEND
 // 038   ----------------------------------------
-TimeGear_8_38:
+TimeGear_8_LOOP:
         BYTE   W01
-        BYTE           VOL     26
-        BYTE   W06
+        BYTE           VOL     25
+        BYTE   W03
         BYTE                   24
         BYTE   W03
         BYTE                   22
+        BYTE   W03
+        BYTE                   21
         BYTE   W08
         BYTE                   20
-        BYTE   W06
+        BYTE   W03
+        BYTE                   19
+        BYTE   W03
         BYTE                   18
         BYTE   W03
         BYTE                   16
         BYTE   W03
-        BYTE                   14
-        BYTE   W03
         BYTE                   13
-        BYTE   W03
+        BYTE   W06
         BYTE                   12
         BYTE   W03
         BYTE                   10
         BYTE   W03
         BYTE                   8
         BYTE   W03
-        BYTE                   7
+        BYTE                   6
         BYTE   W02
         BYTE           EOT     En3
         BYTE   W48
         BYTE   W01
-        BYTE   PEND
 // 039   ----------------------------------------
         BYTE   W96
 // 040   ----------------------------------------
@@ -4964,7 +5226,7 @@ TimeGear_8_38:
 // 060   ----------------------------------------
         BYTE   W44
         BYTE   W03
-        BYTE           VOL     40
+        BYTE           VOL     38
         BYTE   W48
         BYTE   W01
 // 061   ----------------------------------------
@@ -5002,8 +5264,38 @@ TimeGear_8_38:
         BYTE   PATT
          POIN2  TimeGear_8_37
 // 074   ----------------------------------------
-        BYTE   PATT
-         POIN2  TimeGear_8_38
+        BYTE   GoTo
+         POIN2  TimeGear_8_LOOP
+        BYTE   W01
+        BYTE           VOL     25
+        BYTE   W03
+        BYTE                   24
+        BYTE   W03
+        BYTE                   22
+        BYTE   W03
+        BYTE                   21
+        BYTE   W08
+        BYTE                   20
+        BYTE   W03
+        BYTE                   19
+        BYTE   W03
+        BYTE                   18
+        BYTE   W03
+        BYTE                   16
+        BYTE   W03
+        BYTE                   13
+        BYTE   W06
+        BYTE                   12
+        BYTE   W03
+        BYTE                   10
+        BYTE   W03
+        BYTE                   8
+        BYTE   W03
+        BYTE                   6
+        BYTE   W02
+        BYTE           EOT     En3
+        BYTE   W48
+        BYTE   W01
 // 075   ----------------------------------------
         BYTE   W96
 // 076   ----------------------------------------
@@ -5015,10 +5307,6 @@ TimeGear_8_38:
 // 079   ----------------------------------------
         BYTE   W56
         BYTE   W03
-        BYTE           VOICE   0
-        BYTE           VOL     100
-        BYTE   GoTo
-         POIN2  TimeGear_8_LOOP
         BYTE   FINE
 
 //***************** Track 9 (Midi-Chn.10) ******************//
@@ -5026,11 +5314,10 @@ TimeGear_8_38:
 TimeGear_9:
         BYTE   KEYSH   TimeGear_key+0
 // 000   ----------------------------------------
-TimeGear_9_LOOP:
         BYTE   W24
 // 001   ----------------------------------------
         BYTE           VOICE   8
-        BYTE           VOL     40
+        BYTE           VOL     38
         BYTE           N04     Bn4   v100
         BYTE   W06
         BYTE                   Bn4   v060
@@ -5092,7 +5379,7 @@ TimeGear_9_4:
         BYTE   W96
 // 007   ----------------------------------------
 TimeGear_9_7:
-        BYTE           VOL     43
+        BYTE           VOL     41
         BYTE           N04     Bn4   v100
         BYTE   W06
         BYTE                   Bn4   v060
@@ -5131,7 +5418,7 @@ TimeGear_9_7:
         BYTE   W96
 // 013   ----------------------------------------
 TimeGear_9_13:
-        BYTE           VOL     47
+        BYTE           VOL     44
         BYTE           N04     Bn4   v100
         BYTE   W06
         BYTE                   Bn4   v060
@@ -5247,12 +5534,12 @@ TimeGear_9_24:
         BYTE                   An3   v032
         BYTE   W76
         BYTE   W01
-        BYTE           VOL     57
+        BYTE           VOL     54
         BYTE   W01
         BYTE   PEND
 // 025   ----------------------------------------
 TimeGear_9_25:
-        BYTE           VOL     49
+        BYTE           VOL     46
         BYTE           N04     Bn4   v100
         BYTE   W06
         BYTE                   Bn4   v060
@@ -5364,11 +5651,12 @@ TimeGear_9_37:
         BYTE   W30
         BYTE   PEND
 // 038   ----------------------------------------
+TimeGear_9_LOOP:
         BYTE   W96
 // 039   ----------------------------------------
         BYTE   W92
         BYTE   W03
-        BYTE           VOL     36
+        BYTE           VOL     34
         BYTE   W01
 // 040   ----------------------------------------
         BYTE   PATT
@@ -5467,11 +5755,13 @@ TimeGear_9_37:
         BYTE   PATT
          POIN2  TimeGear_9_37
 // 074   ----------------------------------------
+        BYTE   GoTo
+         POIN2  TimeGear_9_LOOP
         BYTE   W96
 // 075   ----------------------------------------
         BYTE   W92
         BYTE   W03
-        BYTE           VOL     36
+        BYTE           VOL     34
         BYTE   W01
 // 076   ----------------------------------------
         BYTE   PATT
@@ -5483,10 +5773,6 @@ TimeGear_9_37:
 // 079   ----------------------------------------
         BYTE   W56
         BYTE   W03
-        BYTE           VOICE   0
-        BYTE           VOL     100
-        BYTE   GoTo
-         POIN2  TimeGear_9_LOOP
         BYTE   FINE
 
 //***************** Track 10 (Midi-Chn.11) *****************//
@@ -5494,11 +5780,10 @@ TimeGear_9_37:
 TimeGear_10:
         BYTE   KEYSH   TimeGear_key+0
 // 000   ----------------------------------------
-TimeGear_10_LOOP:
         BYTE   W24
 // 001   ----------------------------------------
         BYTE           VOICE   8
-        BYTE           VOL     41
+        BYTE           VOL     38
         BYTE           PAN     c_v-29
         BYTE           N01     Bn5   v038
         BYTE   W12
@@ -6027,7 +6312,7 @@ TimeGear_10_37:
         BYTE   W12
         BYTE   PEND
 // 038   ----------------------------------------
-TimeGear_10_38:
+TimeGear_10_LOOP:
         BYTE           N01     En5   v094
         BYTE   W12
         BYTE                   Bn5   v096
@@ -6044,7 +6329,6 @@ TimeGear_10_38:
         BYTE   W12
         BYTE                   Bn5   v094
         BYTE   W12
-        BYTE   PEND
 // 039   ----------------------------------------
 TimeGear_10_39:
         BYTE           N01     An5   v091
@@ -6215,8 +6499,24 @@ TimeGear_10_42:
         BYTE   PATT
          POIN2  TimeGear_10_37
 // 074   ----------------------------------------
-        BYTE   PATT
-         POIN2  TimeGear_10_38
+        BYTE           N01     En5   v094
+        BYTE   GoTo
+         POIN2  TimeGear_10_LOOP
+        BYTE   W12
+        BYTE                   Bn5   v096
+        BYTE   W12
+        BYTE                   An5   v098
+        BYTE   W12
+        BYTE                   En5   v100
+        BYTE   W12
+        BYTE                   Bn5   v101
+        BYTE   W12
+        BYTE                   An5   v098
+        BYTE   W12
+        BYTE                   En5   v096
+        BYTE   W12
+        BYTE                   Bn5   v094
+        BYTE   W12
 // 075   ----------------------------------------
         BYTE   PATT
          POIN2  TimeGear_10_39
@@ -6232,11 +6532,6 @@ TimeGear_10_42:
 // 079   ----------------------------------------
         BYTE   W56
         BYTE   W03
-        BYTE           VOICE   0
-        BYTE           VOL     100
-        BYTE           PAN     c_v+0
-        BYTE   GoTo
-         POIN2  TimeGear_10_LOOP
         BYTE   FINE
 
 //***************** Track 11 (Midi-Chn.12) *****************//
@@ -6244,11 +6539,10 @@ TimeGear_10_42:
 TimeGear_11:
         BYTE   KEYSH   TimeGear_key+0
 // 000   ----------------------------------------
-TimeGear_11_LOOP:
         BYTE   W24
 // 001   ----------------------------------------
         BYTE           VOICE   8
-        BYTE           VOL     41
+        BYTE           VOL     38
         BYTE           PAN     c_v+38
         BYTE   W06
         BYTE           N01     En5   v039
@@ -6803,7 +7097,7 @@ TimeGear_11_37:
         BYTE   W06
         BYTE   PEND
 // 038   ----------------------------------------
-TimeGear_11_38:
+TimeGear_11_LOOP:
         BYTE   W06
         BYTE           N01     Bn4   v095
         BYTE   W12
@@ -6821,7 +7115,6 @@ TimeGear_11_38:
         BYTE   W12
         BYTE                   En5   v093
         BYTE   W06
-        BYTE   PEND
 // 039   ----------------------------------------
 TimeGear_11_39:
         BYTE   W06
@@ -6996,8 +7289,25 @@ TimeGear_11_42:
         BYTE   PATT
          POIN2  TimeGear_11_37
 // 074   ----------------------------------------
-        BYTE   PATT
-         POIN2  TimeGear_11_38
+        BYTE   GoTo
+         POIN2  TimeGear_11_LOOP
+        BYTE   W06
+        BYTE           N01     Bn4   v095
+        BYTE   W12
+        BYTE                   En5   v097
+        BYTE   W12
+        BYTE                   Dn5   v099
+        BYTE   W12
+        BYTE                   Bn4   v102
+        BYTE   W12
+        BYTE                   En5   v100
+        BYTE   W12
+        BYTE                   Dn5   v097
+        BYTE   W12
+        BYTE                   Bn4   v095
+        BYTE   W12
+        BYTE                   En5   v093
+        BYTE   W06
 // 075   ----------------------------------------
         BYTE   PATT
          POIN2  TimeGear_11_39
@@ -7013,11 +7323,6 @@ TimeGear_11_42:
 // 079   ----------------------------------------
         BYTE   W56
         BYTE   W03
-        BYTE           VOICE   0
-        BYTE           VOL     100
-        BYTE           PAN     c_v+0
-        BYTE   GoTo
-         POIN2  TimeGear_11_LOOP
         BYTE   FINE
 
 

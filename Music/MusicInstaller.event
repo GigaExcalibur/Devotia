@@ -78,3 +78,8 @@ SongTable(TemporalTowerID, TemporalTower, MapMusicGroup)
 #include "MusicEvents/MarowakDojo.event"
 SongTable(MarowakDojoID, MarowakDojo, MapMusicGroup)
 }
+
+{
+#include "MusicEvents/OneForAllAllForOne.event"
+SongTable(OneForAllAllForOneID, OneForAllAllForOne, MapMusicGroup)
+}

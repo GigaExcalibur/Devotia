@@ -31,12 +31,12 @@ SongTable(FortuneRavineID, FortuneRavine, MapMusicGroup)
 #include "MusicEvents/RandomDungeon3.event"
 SongTable(RandomDungeon3ID, RandomDungeon3, MapMusicGroup)
 }
-/*
+
 {
 #include "MusicEvents/ChasmCave.event"
 SongTable(ChasmCaveID, ChasmCave, MapMusicGroup)
 }
-*/
+
 
 {
 #include "MusicEvents/EndingTheme.event"

@@ -20,6 +20,14 @@ SHORT 0x3104
 ORG 0x87748
 SHORT 0x340D
 
+// Support Room BGM
+ORG 0xA9C92
+BYTE TimeGearID
+ORG 0xA2BE2
+BYTE TimeGearID
+ORG 0xA2BAC
+BYTE TimeGearID
+
 //  X-coordinate of list
 ORG 0x87784
 WORD 0x02003D3D
@@ -31,5 +39,25 @@ SHORT $46C0 $46C0
 // BWL position
 ORG 0x870B8
 WORD 0x020040F4
+
+// Enable support room always by 7743 
+ORG 0xA36C4
+BYTE 0x03 0x20	//必ず支援3まであると返す
+ORG 0xAB93A
+BYTE 0x00 0x00	//必ずエクストラ支援画面を表示する
+ORG 0xA3824
+BYTE 0x01		//GGM_IsCharacterKnown always 1
+
+// Text speed in support room
+ORG 0xA22F0
+BYTE 0x40
+
+// Armory BGM
+ORG 0xB4C02
+BYTE MarowakDojoID
+
+// Maintain prep theme in Base Convo select
+ORG 0x951FC
+SHORT 0x46C0 0x46C0
 
 POP

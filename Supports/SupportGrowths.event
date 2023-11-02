@@ -5,13 +5,13 @@
 
 KlaudiaSupports:
 CharacterSupport(Josephine, 0, 0, 0, 0, 0, 0)
-SupportBases(255, 0, 0, 0, 0, 0, 0)
+SupportBases(0, 0, 0, 0, 0, 0, 0)
 SupportGrowths(0, 0, 0, 0, 0, 0, 0)
 EndSupport(1)
 
 
 JosephineSupports:
 CharacterSupport(Klaudia, 0, 0, 0, 0, 0, 0)
-SupportBases(255, 0, 0, 0, 0, 0, 0)
+SupportBases(0, 0, 0, 0, 0, 0, 0)
 SupportGrowths(0, 0, 0, 0, 0, 0, 0)
 EndSupport(1)

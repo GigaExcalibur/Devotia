@@ -94,12 +94,24 @@ Supports[X]
 Characters whom this unit gives and[N]
 receives bonuses from when adjacent.[X]
 
+## AttackStatScreenDesc
+Attack = weapon Mt + STR or MAG.[X]
+
 ## AttackSpeedStatScreenDesc
-sanic speed lmao xd[X]
+Attack Speed = SPD - (weapon Wt[N]
+- CON) if weapon Wt > CON.[X]
+
+## HitStatScreenDesc
+Hit = weapon Hit + (DEX * 3) + LCK.[X]
+
+## AvoidStatScreenDesc
+Avoid = (LCK * 3) + SPD.[X]
+
+## CritStatScreenDesc
+Crit = weapon Crit + (DEX * 1.5).[X]
 
 ## CritAvoidStatScreenDesc
-The degree to which your unit is[N]
-guarded against enemy criticals.[X]
+Crit Avoid = (LCK * 2).[X]
 
 ## ChorusName
  Chorus[X]

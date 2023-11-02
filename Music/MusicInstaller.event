@@ -73,3 +73,8 @@ SongTable(BossBattleID, song03, MapMusicGroup)
 #include "MusicEvents/TemporalTower.event"
 SongTable(TemporalTowerID, TemporalTower, MapMusicGroup)
 }
+
+{
+#include "MusicEvents/MarowakDojo.event"
+SongTable(MarowakDojoID, MarowakDojo, MapMusicGroup)
+}

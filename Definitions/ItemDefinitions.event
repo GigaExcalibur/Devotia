@@ -158,6 +158,10 @@
 #define OilJug 0x6E
 #define LiquidConduct 0x6F
 #define AirPocket 0x70
+#define ThespianSeal 0x88
+#define Spotlight 0x89
+#define VioletSeal 0x98
+#define CrimsonSeal 0x99
 
 // PRFS
 #define Cataclysmaelstrom 0x85 // Klaudia (Sieglinde's old slot)

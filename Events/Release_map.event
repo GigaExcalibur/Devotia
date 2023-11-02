@@ -133,8 +133,8 @@ UNIT RanunOverture Therion 0x40 0xA5     [9,2] 0 0 0 0 [SteelLance, Javelin] Att
 UNIT Crocodile Berserker 0x40 0xA5       [11,17] 0 0 0 0 [SteelAxe, HandAxe] AttackInRangeAI
 UNIT Marauder Raider 0x40 0xA5      [16,18] 0 0 0 0 [SteelAxe, HandAxe] AttackInRangeAI
 UNIT LemnaOverture Templar 0x40 0xA5        [8,15] 0 0 0 0 [SteelLance, Javelin] AttackInRangeAI
-UNIT FernyigesIntermission Overlord 0x40 0xA5      [12,13] 0 0 0 0 [Nosferatu] AttackInRangeAI
-UNIT Zakaria HighGremoryZakaria 0x40 0xA5    [3,13] 0 0 0 0 [SteelSword, Javelin] AttackInRangeAI
+UNIT FernyigesIntermission Overlord 0x40 0xA5      [12,13] 0 0 0 0 [VioletSeal] AttackInRangeAI
+UNIT Zakaria HighGremoryZakaria 0x40 0xA5    [3,13] 0 0 0 0 [CrimsonSeal, Javelin] AttackInRangeAI
 UNIT MiksaIntermission Warlock 0x40 0xA5     [16,9] 0 0 0 0 [SilverLance, Javelin] AttackInRangeAI
 UNIT NolierIntermission HighAgastya 0x40 0xA5      [1,10] 0 0 0 0 [SteelAxe, SteelBow] AttackInRangeAI
 UNIT Pablo Spellmaster 0x40 0xA5         [5,11] 0 0 0 0 [Elfire, Purge] AttackInRangeAI

@@ -31,6 +31,7 @@ NewSoundRoom:
 SoundRoomEntry(EndingThemeID, 0, EndingThemePMD2Name)
 SoundRoomEntry(TimeGearID, 0, TimeGearPMD2Name)
 SoundRoomEntry(ChasmCaveID, 0, ChasmCavePMD2Name)
+SoundRoomEntry(SkyPeakPrairieID, 0, SkyPeakPrairiePMD2Name)
 SoundRoomEntry(FortuneRavineID, 0, FortuneRavinePMD2Name)
 SoundRoomEntry(DialgasFightToTheFinishID, 0, DialgasFightToTheFinishPMD2Name)
 SoundRoomEntry(BossBattleID, 0, BossBattlePMD2Name)

@@ -3,16 +3,16 @@ Gremory[X]
 
 ## GremoryDesc
 Adept members of House Ouahed,[N]
-classically educated in anima[N]
-magic for combat service.[X]
+classically educated in all schools of[N]
+magic for exemplary combat service.[X]
 
 ## HighGremoryName
 High Gremory[X]
 
 ## HighGremoryDesc
-The noble lord of House Ouahed,[N]
-whose grace with lances and all[N]
-magic belies their brutality.[X]
+The greatest magister lord of House[N]
+Ouahed, whose brilliance with lances[N]
+and all magic belies their brutality.[X]
 
 ## PrincessName
 Princess[X]

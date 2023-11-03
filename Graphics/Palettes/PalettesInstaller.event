@@ -37,3 +37,20 @@ BYTE $90 $42 $2D $35 $F4 $5D $FB $7A $8E $31 $56 $2E $FF $6B $A9 $34 $CE $48 $74
 ORG $59EE60
 BYTE $90 $42 $2B $3D $CD $6A $58 $7F $8E $31 $56 $2E $FF $6B $44 $2D $C4 $41 $A8 $62 $6D $7B $76 $0F $FF $23 $30 $3A $FF $7F $E8 $1C
 POP
+
+// Faction phase palettes
+
+PUSH
+// Player phase (red)
+ORG $59FA2C
+BYTE $0E $52 $5B $08 $0F $00 $9F $21 $53 $08 $FE $5E $5E $6B $BF $77 $FF $7F $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00
+
+// enemy phase (purple) (TODO: actually make purple)
+ORG $5A0068
+BYTE $0E $52 $85 $79 $C0 $40 $28 $7E $24 $55 $B0 $76 $36 $77 $9A $7B $FF $7F $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00
+
+// NPC phase (cyan) (TODO: actually make cyan)
+ORG $5A0698
+BYTE $0E $52 $85 $79 $C0 $40 $28 $7E $24 $55 $B0 $76 $36 $77 $9A $7B $FF $7F $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00
+
+POP

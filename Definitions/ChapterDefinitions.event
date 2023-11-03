@@ -21,3 +21,7 @@
 #define RevampedFortObjectID 0x88
 #define RevampedFortPaletteID 0x89
 #define RevampedFortConfigID 0x8A
+
+// yeah
+//JumpToHack
+#define jumpToHack_r0(offset) "BYTE 0x00 0x48 0x87 0x46; POIN (offset|0x1)"

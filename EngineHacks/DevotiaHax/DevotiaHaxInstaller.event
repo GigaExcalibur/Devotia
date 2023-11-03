@@ -1,3 +1,6 @@
+#include "ChangePreparationBGM/EA.event"
+// 7743
+
 #include "CBaseConvos/BaseConvos.event"
 // Snek
 
@@ -10,7 +13,7 @@
 #include "AgeGetter/Installer.event"
 // Me!
 
-#include "AwakeningStyleDurability/AwakeningStyleDurability.event"
+#include "AwakeningStyleDurability/Installer.event"
 // Me!
 
 #include "UnitMenuWidth/UnitMenuWidth.event"
@@ -75,3 +78,4 @@
 
 #include "EffectiveDebuffs/Installer.event"
 // Me!
+

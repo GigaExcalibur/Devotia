@@ -361,16 +361,6 @@ Stride[X]
 Makes ally's pace breakneck.[N]
 +4 MOV for 1 turn.[X]
 
-## OilJugName
-Oil Jug[X]
-
-## OilJugDesc
-Makes fire tomes effective (2x mt)[N]
-vs. target for 1 turn. 1-5 range.[X]
-
-## OilJugUseDesc
-Coats target in oil.[X]
-
 ## IronTomeDesc
 Initiate combat spell.[X]
 
@@ -623,6 +613,36 @@ Elixir[X]
 Ingest, do not apply topically.[N]
 Restores all HP on use.[X]
 
+## OilJugName
+Oil jug[X]
+
+## OilJugDesc
+Makes fire tomes effective (2x mt)[N]
+vs. target for 1 turn. 1-5 range.[X]
+
+## OilJugUseDesc
+Makes target flammable.[X]
+
+## LiquidConductName
+Liquid conduct[X]
+
+## LiquidConductDesc
+Makes thunder tomes effective (2x mt)[N]
+vs. target for 1 turn. 1-5 range.[X]
+
+## LiquidConductUseDesc
+Makes target doused.[X]
+
+## AirPocketName
+Air pocket[X]
+
+## AirPocketDesc
+Makes bows/wind effective (3x/2x mt)[N]
+vs. target for 1 turn. 1-5 range.[X]
+
+## AirPocketUseDesc
+Makes target levitate.[X]
+
 ## EmptyPouchName
 Empty Pouch[X]
 
@@ -646,6 +666,51 @@ Gold-filled pouch[X]
 
 ## GoldFilledPouchDesc
 Worth a fortune.[X]
+
+## ThespianSealName
+Thespian Seal[X]
+
+## ThespianSealDesc
+Grants a unit permission to perform[N]
+a new, spectacular, promoted role.[X]
+
+## ThespianSealUseDesc
+Have a unit use this[N]
+when they're ready.[X]
+
+## SpotlightName
+Spotlight[X]
+
+## SpotlightDesc
+No matter how hard one tries, there[N]
+can only be one star shining above[N]
+all else, at the end of the day.[X]
+
+## SpotlightUseDesc
+Increases all growths[N]
+by 7%.[X]
+
+## CrimsonSealName
+Crimson Seal[X]
+
+## CrimsonSealDesc
+A marker of House Ouahed's devotion,[N]
+passed down for generations untold.[X]
+
+## CrimsonSealUseDesc
+Have Klaudia use this[N]
+when she's ready.[X]
+
+## VioletSealName
+Violet Seal[X]
+
+## VioletSealDesc
+A marker of House Sarka's royalty,[N]
+passed down for generations untold.[X]
+
+## VioletSealUseDesc
+Have Levia use this[N]
+when she's ready.[X]
 
 ## CataclysmaelstromName
 Cataclysmaelstrom[X]
@@ -702,7 +767,7 @@ Heals 7+MAG HP; +2 SPD for 1 turn.[X]
 Pugi[X]
 
 ## PugiDesc
-Bear[lock] Different than a voulge.[X]
+Bear[lock] Different from a voulge.[X]
 
 ## SiriusName
 Sirius[X]

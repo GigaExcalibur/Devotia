@@ -2,9 +2,9 @@
 Klaudia[X]
 
 ## KlaudiaDesc
-Heir apparent to House Ouahed.[N]
-Unwavering in her devotion to[N]
-House Sarka's righteous cause.[X]
+Heir apparent to House Ouahed: just,[N]
+driven, and unwavering in her devotion[N]
+to House Sarka's righteous cause.[X]
 
 ## ZeroName
 Zero[X]

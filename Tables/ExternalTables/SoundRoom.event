@@ -1,0 +1,43 @@
+#define SoundRoomEntry(songid,length,name) "WORD songid length 0 name"
+#define SoundRoomTerminator "WORD 0xFFFFFFFF 0 0 0"
+
+PUSH
+ORG 0x1BC14   
+POIN NewSoundRoom
+ORG 0x1BCC4
+POIN NewSoundRoom
+ORG 0xAECA8
+POIN NewSoundRoom
+ORG 0xAECD0
+POIN NewSoundRoom
+ORG 0xAED2C
+POIN NewSoundRoom
+ORG 0xAEEBC
+POIN NewSoundRoom
+ORG 0xAF438
+POIN NewSoundRoom
+ORG 0xAF830
+POIN NewSoundRoom
+ORG 0xAFE30
+POIN NewSoundRoom
+ORG 0xB0080
+POIN NewSoundRoom
+ORG 0xB042C
+POIN NewSoundRoom
+POP
+
+ALIGN 4
+NewSoundRoom:
+SoundRoomEntry(EndingThemeID, 0, EndingThemePMD2Name)
+SoundRoomEntry(TimeGearID, 0, TimeGearPMD2Name)
+SoundRoomEntry(ChasmCaveID, 0, ChasmCavePMD2Name)
+SoundRoomEntry(SkyPeakPrairieID, 0, SkyPeakPrairiePMD2Name)
+SoundRoomEntry(FortuneRavineID, 0, FortuneRavinePMD2Name)
+SoundRoomEntry(DialgasFightToTheFinishID, 0, DialgasFightToTheFinishPMD2Name)
+SoundRoomEntry(BossBattleID, 0, BossBattlePMD2Name)
+SoundRoomEntry(RandomDungeon3ID, 0, RandomDungeon3PMD2Name)
+SoundRoomEntry(OneForAllAllForOneID, 0, OneForAllAllForOnePMD2Name)
+SoundRoomEntry(TemporalTowerID, 0, TemporalTowerPMD2Name)
+SoundRoomEntry(SteamCaveID, 0, SteamCavePMD2Name)
+SoundRoomEntry(PowerOfDarknessID, 0, PowerOfDarknessPMD2Name)
+SoundRoomTerminator

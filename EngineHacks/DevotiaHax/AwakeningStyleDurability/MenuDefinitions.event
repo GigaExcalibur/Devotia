@@ -1,0 +1,11 @@
+ALIGN 4
+ForgeMenuDefinition:
+BYTE 7 4 16 0 		// Geometry: x, y, width, "height"
+WORD 1				// "Style"
+POIN ForgeMenuCommands 	// Menu Command Items
+WORD 0					// On init function
+WORD 0					// On end function
+WORD 0					// On idle function
+WORD 0					// On B press function
+WORD 0					// On R press function
+WORD 0					// On help box function

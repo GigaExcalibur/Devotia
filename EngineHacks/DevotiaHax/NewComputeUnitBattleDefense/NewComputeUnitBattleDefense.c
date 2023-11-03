@@ -8,3 +8,19 @@ void NewComputeBattleUnitDefense(struct BattleUnit* attacker, struct BattleUnit*
     else
         attacker->battleDefense = attacker->terrainDefense + attacker->unit.def;
 }
+
+void NewComputeBattleUnitHitRate(struct BattleUnit* attacker, struct BattleUnit* defender) {
+	attacker->battleHitRate = (attacker->unit.skl * 3) + GetItemHit(attacker->weapon) + (attacker->unit.lck) + attacker->wTriangleHitBonus;
+}
+
+void NewComputeBattleUnitAvoidRate(struct BattleUnit* attacker, struct BattleUnit* defender) {
+	attacker->battleAvoidRate = (attacker->battleSpeed) + (attacker->unit.lck * 3) + attacker->terrainAvoid;
+}
+
+void NewComputeBattleUnitCritRate(struct BattleUnit* attacker, struct BattleUnit* defender) {
+	attacker->battleCritRate = (attacker->unit.skl * 3 / 2);
+}
+
+void NewComputeBattleUnitDodgeRate(struct BattleUnit* attacker, struct BattleUnit* defender) {
+	attacker->battleDodgeRate = (attacker->unit.lck * 2);
+}

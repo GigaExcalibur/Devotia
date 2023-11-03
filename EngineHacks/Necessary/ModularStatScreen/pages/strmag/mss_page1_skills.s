@@ -185,7 +185,7 @@ SkillEnd:
 @ draw_textID_at 13, 15, textID=0x4f6 @move
 @ draw_move_bar_at 16, 15
 
-@blh DrawBWLNumbers
+blh DrawBWLNumbers
 
 ldr		r0,=StatScreenStruct
 sub		r0,#0x2

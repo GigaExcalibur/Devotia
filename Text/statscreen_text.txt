@@ -94,16 +94,40 @@ Supports[X]
 Characters whom this unit gives and[N]
 receives bonuses from when adjacent.[X]
 
+## AttackStatScreenDesc
+Attack = weapon Mt + STR or MAG.[X]
+
 ## AttackSpeedStatScreenDesc
-sanic speed lmao xd[X]
+Attack Speed = SPD - (weapon Wt[N]
+- CON) if weapon Wt > CON.[X]
+
+## HitStatScreenDesc
+Hit = weapon Hit + (DEX * 3) + LCK.[X]
+
+## AvoidStatScreenDesc
+Avoid = (LCK * 3) + SPD.[X]
+
+## CritStatScreenDesc
+Crit = weapon Crit + (DEX * 1.5).[X]
 
 ## CritAvoidStatScreenDesc
-The degree to which your unit is[N]
-guarded against enemy criticals.[X]
+Crit Avoid = (LCK * 2).[X]
 
 ## ChorusName
  Chorus[X]
  
 ## ChorusDesc
-Bear witness to the voices of the[N]
-ensemble as they explain the map.[X]
+Open your ears to the voices of the[N]
+chorus: beyond time, beyond walls.[X]
+
+## BattlesDesc
+The number of times this[N]
+unit entered combat.[X]
+
+## WinsDesc
+The number of enemies[N]
+this unit killed in combat.[X]
+
+## LossesDesc
+The number of times you reset for[N]
+this unit, you filthy casual.[X]

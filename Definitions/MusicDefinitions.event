@@ -1,5 +1,5 @@
 #define EndingThemeID 0x01					// Title
-#define ShayminVillageID 0x02				// Support room
+#define TimeGearID 0x02						// Support room
 
 #define SkyPeakPrairieID 0x03				// Act 1 Map 1
 #define NorthernDesertID 0x04				// Act 1 Map 2
@@ -9,7 +9,7 @@
 #define HiddenHighlandID 0x08				// Act 2 Map 3
 #define ChasmCaveID 0x09					// Act 3
 #define FortuneRavineID 0x0A				// Gaiden 1
-#define FortuneRavineDepthsID 0x0B			// Gaiden 2
+#define FortuneRavineDepthsID 0x0B			// Gaiden 2?
 
 #define BossBattleID 0x0C					// Boss 1
 #define BattleAgainstDusknoirID 0x0D		// Boss 2
@@ -24,20 +24,25 @@
 #define MarowakDojoID 0x15					// Shop
 #define TemporalTowerID 0x16				// Preps 1
 #define TemporalSpireID 0x17				// Preps 2
-#define TemporalPinnacleID 0x18				// Preps 3
-#define AtTheEndOfTheDayID 0x19				// Healing
-#define LudicoloDanceID 0x1A				// Playing
+#define TemporalPinnacleID 0x18				// Preps 3?
 
-#define OhNoID 0x1B							// Panic
-#define TeamSkullID 0x1C					// Lesser baddie
-#define RisingFearID 0x1D					// Tension
-#define BeyondTheDreamID 0x1E				// Unwinding
-#define ISawSomethingAgainID 0x1F			// Suspicion
-#define WigglytuffsGuildRemix 0x20			// Castle Sarka
-#define SteamCaveID 0x21					// Greater baddie
-#define DoYourBestAsAlwaysID 0x22			// Comic relief
-#define InTheHandsOfFateID 0x23				// Recollection
-#define DownADarkPathID 0x24				// Despair
-#define LivingSpiritID 0x25					// Leviathan's gamer moment
-#define InTheMorningSunID 0x26				// Klaudia's gamer moment
-#define LifeGoesOnID 0x27					// Staff roll
+#define HaveToGetHomeID 0x19				// Prologue
+#define OhNoID 0x1A							// Panic
+#define TeamSkullID 0x1B					// Lesser baddie
+#define RisingFearID 0x1C					// Tension
+#define IllusionStoneChamber 0x1D			// Unwinding
+#define GoodnightID 0x1E					// Calm
+#define TreasureTownID 0x1F					// Levity (heh)
+#define ISawSomethingAgainID 0x20			// Suspicion
+#define DarkIceMountainID 0x21				// Stasimon
+#define SteamCaveID 0x22					// Greater baddie
+#define DoYourBestAsAlwaysID 0x23			// Comic relief
+#define InTheHandsOfFateID 0x24				// Recollection
+#define BeyondTheDreamID 0x25				// Recollection 2
+#define DownADarkPathID 0x26				// Despair
+#define PowerOfDarknessID 0x27				// Evil
+#define LivingSpiritID 0x28					// Leviathan's gamer moment
+#define InTheMorningSunID 0x29				// Klaudia's gamer moment
+#define LifeGoesOnID 0x2A					// Staff roll
+
+#define EndingThemeIDTitle 0x43 			// Actual title theme

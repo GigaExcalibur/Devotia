@@ -182,6 +182,9 @@ Bday:[X]
 ## HobbyText
 Hobby:[X]
 
+## JobText
+Job:[X]
+
 ## HouseText
 //first text ID in the free block
 [MidRight][LoadFace][CurrentPortrait]Nothing to see here.[A][X]

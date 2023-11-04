@@ -447,7 +447,7 @@
 	#ifdef GAIDEN_MAGIC
       RMenu(ST_Class4,ST_HP4,ST_Level4,ST_Spell3,0x26,0x78,0x543)
     #else
-	  RMenu(ST_Class4,ST_HP4,0,0,0x26,0x78,0x543)
+	  RMenu(ST_Class4,ST_HP4,ST_Level4,ST_Job,0x26,0x78,0x543)
 	#endif
 
   ST_HP4:
@@ -480,8 +480,11 @@
 	#ifdef GAIDEN_MAGIC
       RMenu(ST_Dislikes,ST_Spell2,ST_Age,0,0xa6,0x58,HeightDesc)
     #else
-	  RMenu(ST_Age,0,ST_Class4,0,0x66,0x68,HeightDesc)
+	  RMenu(ST_Age,ST_Job,ST_Class4,0,0x66,0x68,HeightDesc)
 	#endif
+	
+  ST_Job:
+    RMenu(ST_Height,0,ST_Exp4,0,0x66,0x78,JobDesc)
 
 #else // ENABLE_PERSONAL_INFO
 

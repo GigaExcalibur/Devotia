@@ -87,6 +87,9 @@ This character's current age.[X]
 ## HeightDesc
 This character's height.[X]
 
+## JobDesc
+This character's profession.[X]
+
 ## SupportsText
 Supports[X]
 

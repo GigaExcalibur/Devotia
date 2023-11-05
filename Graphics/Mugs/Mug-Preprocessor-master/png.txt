@@ -4,6 +4,7 @@ Cam.png
 Emerson.png
 Giselle.png
 GreenSoldier.png
+HongChen.png
 Josephine.png
 Klaudia.png
 Ranun.png

@@ -28,6 +28,7 @@ setMugEntry(WisterMug, WisterMugLabel, 2, 5, 3, 3)
 setMugEntry(RanunMug, RanunMugLabel, 3, 6, 3, 4)
 setMugEntry(GiselleMug, GiselleMugLabel, 3, 6, 3, 4)
 setMugEntry(CamMug, CamMugLabel, 2, 5, 2, 3)
+setMugEntry(0x2A, HongChenMugLabel, 4, 6, 4, 4)
 
 setMugEntry(BlueSoldierMug, BlueSoldierMugLabel, 3, 5, 3, 3)
 setMugEntry(RedSoldierMug, RedSoldierMugLabel, 3, 5, 3, 3)

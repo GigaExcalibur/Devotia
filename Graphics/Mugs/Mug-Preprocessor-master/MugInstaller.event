@@ -41,6 +41,13 @@ GreenSoldierMugLabel:
 #incbin "GreenSoldier_minimug.dmp"
 
 ALIGN 4
+HongChenMugLabel:
+#incbin "HongChen_mug.dmp"
+#incbin "HongChen_frames.dmp"
+#incbin "HongChen_palette.dmp"
+#incbin "HongChen_minimug.dmp"
+
+ALIGN 4
 JosephineMugLabel:
 #incbin "Josephine_mug.dmp"
 #incbin "Josephine_frames.dmp"

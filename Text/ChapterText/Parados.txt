@@ -1,3 +1,6 @@
+## ParadosChapterTitle
+Parados: At the Root[X]
+
 ## ParadosGoalWindow
 Eliminate Wister[X]
 

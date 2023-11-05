@@ -1,0 +1,98 @@
+#define PlayerClassDescEntry(class, textid) "PUSH; ORG PlayerClassDescTable+(class*2); SHORT textid; POP"
+
+PlayerClassDescTable:
+FILL 0xFF*2
+
+PlayerClassDescEntry(Gremory, GremoryDesc)
+PlayerClassDescEntry(HighGremory, HighGremoryDesc)
+PlayerClassDescEntry(Princess, PrincessDesc)
+PlayerClassDescEntry(VioletKnight, VioletKnightDesc)
+
+PlayerClassDescEntry(Myrmidon, MyrmidonPlayerDesc)
+PlayerClassDescEntry(Trueblade, TruebladePlayerDesc)
+PlayerClassDescEntry(Mercenary, MercenaryPlayerDesc)
+PlayerClassDescEntry(Hero, HeroPlayerDesc)
+PlayerClassDescEntry(Runelord, RunelordPlayerDesc)
+
+PlayerClassDescEntry(Thief, ThiefPlayerDesc)
+PlayerClassDescEntry(Rogue, RoguePlayerDesc)
+PlayerClassDescEntry(Hunter, HunterPlayerDesc)
+PlayerClassDescEntry(Marksman, MercenaryPlayerDesc)
+PlayerClassDescEntry(Trickster, TricksterPlayerDesc)
+
+PlayerClassDescEntry(Lancer, LancerPlayerDesc)
+PlayerClassDescEntry(Halberdier, HalberdierPlayerDesc)
+PlayerClassDescEntry(Villager, VillagerPlayerDesc)
+PlayerClassDescEntry(Starosta, StarostaDesc)
+PlayerClassDescEntry(Warmaster, WarmasterPlayerDesc)
+
+PlayerClassDescEntry(Woodsman, WoodsmanPlayerDesc)
+PlayerClassDescEntry(Varangian, VarangianPlayerDesc)
+PlayerClassDescEntry(Pirate, PiratePlayerDesc)
+PlayerClassDescEntry(Berserker, BerserkerPlayerDesc)
+PlayerClassDescEntry(Raider, RaiderDesc)
+PlayerClassDescEntry(Ravager, RavagerPlayerDesc)
+
+PlayerClassDescEntry(SwordArmor, SwordArmorPlayerDesc)
+PlayerClassDescEntry(Dreadnought, DreadnoughtPlayerDesc)
+PlayerClassDescEntry(LanceArmor, LanceArmorPlayerDesc)
+PlayerClassDescEntry(Gendarme, GendarmePlayerDesc)
+PlayerClassDescEntry(AxeArmor, AxeArmorPlayerDesc)
+PlayerClassDescEntry(Cataphract, CataphractPlayerDesc)
+PlayerClassDescEntry(MageArmor, MageArmorPlayerDesc)
+PlayerClassDescEntry(Thaumachine, ThaumachinePlayerDesc)
+PlayerClassDescEntry(Harbinger, HarbingerDesc)
+
+PlayerClassDescEntry(AnimaMage, AnimaMagePlayerDesc)
+PlayerClassDescEntry(Spellmaster, SpellmasterDesc)
+PlayerClassDescEntry(LightMage, LightMagePlayerDesc)
+PlayerClassDescEntry(Starseer, StarseerDesc)
+PlayerClassDescEntry(DarkMage, DarkMagePlayerDesc)
+PlayerClassDescEntry(Necromancer, NecromancerDesc)
+PlayerClassDescEntry(Sage, SageDesc)
+PlayerClassDescEntry(Sorcerer, SorcererPlayerDesc)
+
+PlayerClassDescEntry(Cleric, ClericPlayerDesc)
+PlayerClassDescEntry(Valkyrie, ValkyriePlayerDesc)
+PlayerClassDescEntry(Trobairitz, TrobairitzPlayerDesc)
+PlayerClassDescEntry(Thaumaturge, ThaumaturgePlayerDesc)
+PlayerClassDescEntry(Templar, TemplarPlayerDesc)
+
+PlayerClassDescEntry(SwordRider, SwordRiderPlayerDesc)
+PlayerClassDescEntry(Hakkapeliitta, HakkapeliittaPlayerDesc)
+PlayerClassDescEntry(LanceRider, LanceRiderPlayerDesc)
+PlayerClassDescEntry(Paladin, PaladinPlayerDesc)
+PlayerClassDescEntry(AxeRider, AxeRiderPlayerDesc)
+PlayerClassDescEntry(Forestier, ForestierPlayerDesc)
+PlayerClassDescEntry(Scout, ScoutPlayerDesc)
+PlayerClassDescEntry(Ranger, RangerPlayerDesc)
+
+PlayerClassDescEntry(Windrider, WindriderPlayerDesc)
+PlayerClassDescEntry(SeraphWing, SeraphWingPlayerDesc)
+PlayerClassDescEntry(Harrier, HarrierPlayerDesc)
+PlayerClassDescEntry(DaemonWing, DaemonWingPlayerDesc)
+PlayerClassDescEntry(Dracorider, DracoriderPlayerDesc)
+PlayerClassDescEntry(Dracolord, DracolordPlayerDesc)
+PlayerClassDescEntry(Bombardier, BombardierPlayerDesc)
+PlayerClassDescEntry(Barbarossa, BarbarossaPlayerDesc)
+PlayerClassDescEntry(Falconeer, FalconeerPlayerDesc)
+
+PlayerClassDescEntry(BowArmor, BowArmorDesc)
+PlayerClassDescEntry(Juggernaut, JuggernautDesc)
+PlayerClassDescEntry(Malignant, MalignantDesc)
+PlayerClassDescEntry(Melusine, MelusineDesc)
+PlayerClassDescEntry(Drifter, DrifterDesc)
+PlayerClassDescEntry(Adventurer, AdventurerDesc)
+PlayerClassDescEntry(Spellstrider, SpellstriderDesc)
+PlayerClassDescEntry(Strategist, StrategistDesc)
+PlayerClassDescEntry(Skirmisher, SkirmisherDesc)
+PlayerClassDescEntry(Oliphantier, OliphantierDesc)
+PlayerClassDescEntry(Wolfssegner, WolfssegnerDesc)
+PlayerClassDescEntry(Savior, SaviorDesc)
+PlayerClassDescEntry(Champion, ChampionDesc)
+
+PlayerClassDescEntry(Bard, BardDesc)
+PlayerClassDescEntry(CrownPrince, CrownPrinceDesc)
+PlayerClassDescEntry(Prince, PrincePlayerDesc)
+
+#include "PlayerClassDescs.lyn.event"

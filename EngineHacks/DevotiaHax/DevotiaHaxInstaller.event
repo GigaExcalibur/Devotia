@@ -79,3 +79,5 @@
 #include "EffectiveDebuffs/Installer.event"
 // Me!
 
+#include "PlayerClassDescs/Installer.event"
+// Me!

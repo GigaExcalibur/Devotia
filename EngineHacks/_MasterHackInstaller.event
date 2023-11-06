@@ -38,7 +38,7 @@ ORG FreeSpaceBLRange //defined in custom definitions
   #include "QualityOfLife/LToggle/LToggle.event"
 
   //negative wt/crit
-  #include "QualityOfLife/NegativeWStatDisplay/NegativeDisplay.event"
+  //#include "QualityOfLife/NegativeWStatDisplay/NegativeDisplay.event"
 
   //clears the gamble/lunge/mercy when cancelling out of attack menu
   Unset_Attack_Flag:

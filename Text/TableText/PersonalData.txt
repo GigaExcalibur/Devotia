@@ -333,3 +333,54 @@ Zeri, give me one.[X]
 
 ## RoswellJob
 Everyman[X]
+
+## HongChenFullName
+Hong Chen[X]
+
+## HongChenHobby
+Painting[X]
+
+## HongChenBirthday
+Sren, give me one.[X]
+
+## HongChenJob
+Career soldier[X]
+
+## DarinaFullName
+Darina von Vacille[X]
+
+## DarinaHobby
+^{Blindfolded target practice}[X]
+
+## DarinaBirthday
+June 16[X]
+
+## DarinaJob
+Fuedal lord[X]
+
+## EugeniaFullName
+Eugenia Salvia Lentz[X]
+
+## EugeniaHobby
+Gardening[X]
+
+## EugeniaBirthday
+October 3[X]
+
+## EugeniaJob
+Bookkeeper[X]
+
+## MarisFullName
+Maris Clara Calicos[X]
+
+## MarisHobby
+Jewelrymaking[X]
+
+## MarisBirthday
+February 1[X]
+
+## MarisJob
+Layabout (feudal heir)[X]
+
+## PhillipaFullName
+Phillipa Oleander[X]

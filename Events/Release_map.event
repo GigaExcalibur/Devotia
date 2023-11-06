@@ -241,6 +241,7 @@ LABEL 0
 
 ALIGN 4
 TalkEvent:
+ShowMapClear
 Text(cursingtext)
 NoFade
 ENDA

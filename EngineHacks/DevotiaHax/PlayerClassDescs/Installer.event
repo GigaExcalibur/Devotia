@@ -3,29 +3,34 @@
 PlayerClassDescTable:
 FILL 0xFF*2
 
+// Lords
 PlayerClassDescEntry(Gremory, GremoryDesc)
 PlayerClassDescEntry(HighGremory, HighGremoryDesc)
 PlayerClassDescEntry(Princess, PrincessDesc)
 PlayerClassDescEntry(VioletKnight, VioletKnightDesc)
 
+// Swordsmen
 PlayerClassDescEntry(Myrmidon, MyrmidonPlayerDesc)
 PlayerClassDescEntry(Trueblade, TruebladePlayerDesc)
 PlayerClassDescEntry(Mercenary, MercenaryPlayerDesc)
 PlayerClassDescEntry(Hero, HeroPlayerDesc)
 PlayerClassDescEntry(Runelord, RunelordPlayerDesc)
 
+// Scoundrels
 PlayerClassDescEntry(Thief, ThiefPlayerDesc)
 PlayerClassDescEntry(Rogue, RoguePlayerDesc)
 PlayerClassDescEntry(Hunter, HunterPlayerDesc)
 PlayerClassDescEntry(Marksman, MercenaryPlayerDesc)
 PlayerClassDescEntry(Trickster, TricksterPlayerDesc)
 
+// Pikemen
 PlayerClassDescEntry(Lancer, LancerPlayerDesc)
 PlayerClassDescEntry(Halberdier, HalberdierPlayerDesc)
 PlayerClassDescEntry(Villager, VillagerPlayerDesc)
 PlayerClassDescEntry(Starosta, StarostaDesc)
 PlayerClassDescEntry(Warmaster, WarmasterPlayerDesc)
 
+// Axemen
 PlayerClassDescEntry(Woodsman, WoodsmanPlayerDesc)
 PlayerClassDescEntry(Varangian, VarangianPlayerDesc)
 PlayerClassDescEntry(Pirate, PiratePlayerDesc)
@@ -33,6 +38,7 @@ PlayerClassDescEntry(Berserker, BerserkerPlayerDesc)
 PlayerClassDescEntry(Raider, RaiderDesc)
 PlayerClassDescEntry(Ravager, RavagerPlayerDesc)
 
+// Armors
 PlayerClassDescEntry(SwordArmor, SwordArmorPlayerDesc)
 PlayerClassDescEntry(Dreadnought, DreadnoughtPlayerDesc)
 PlayerClassDescEntry(LanceArmor, LanceArmorPlayerDesc)
@@ -43,6 +49,7 @@ PlayerClassDescEntry(MageArmor, MageArmorPlayerDesc)
 PlayerClassDescEntry(Thaumachine, ThaumachinePlayerDesc)
 PlayerClassDescEntry(Harbinger, HarbingerDesc)
 
+// Magi
 PlayerClassDescEntry(AnimaMage, AnimaMagePlayerDesc)
 PlayerClassDescEntry(Spellmaster, SpellmasterDesc)
 PlayerClassDescEntry(LightMage, LightMagePlayerDesc)
@@ -52,12 +59,14 @@ PlayerClassDescEntry(Necromancer, NecromancerDesc)
 PlayerClassDescEntry(Sage, SageDesc)
 PlayerClassDescEntry(Sorcerer, SorcererPlayerDesc)
 
+// Healers
 PlayerClassDescEntry(Cleric, ClericPlayerDesc)
 PlayerClassDescEntry(Valkyrie, ValkyriePlayerDesc)
 PlayerClassDescEntry(Trobairitz, TrobairitzPlayerDesc)
 PlayerClassDescEntry(Thaumaturge, ThaumaturgePlayerDesc)
 PlayerClassDescEntry(Templar, TemplarPlayerDesc)
 
+// Riders
 PlayerClassDescEntry(SwordRider, SwordRiderPlayerDesc)
 PlayerClassDescEntry(Hakkapeliitta, HakkapeliittaPlayerDesc)
 PlayerClassDescEntry(LanceRider, LanceRiderPlayerDesc)
@@ -67,6 +76,7 @@ PlayerClassDescEntry(Forestier, ForestierPlayerDesc)
 PlayerClassDescEntry(Scout, ScoutPlayerDesc)
 PlayerClassDescEntry(Ranger, RangerPlayerDesc)
 
+// Fliers
 PlayerClassDescEntry(Windrider, WindriderPlayerDesc)
 PlayerClassDescEntry(SeraphWing, SeraphWingPlayerDesc)
 PlayerClassDescEntry(Harrier, HarrierPlayerDesc)
@@ -77,6 +87,7 @@ PlayerClassDescEntry(Bombardier, BombardierPlayerDesc)
 PlayerClassDescEntry(Barbarossa, BarbarossaPlayerDesc)
 PlayerClassDescEntry(Falconeer, FalconeerPlayerDesc)
 
+// Decadents
 PlayerClassDescEntry(BowArmor, BowArmorDesc)
 PlayerClassDescEntry(Juggernaut, JuggernautDesc)
 PlayerClassDescEntry(Malignant, MalignantDesc)
@@ -91,6 +102,7 @@ PlayerClassDescEntry(Wolfssegner, WolfssegnerDesc)
 PlayerClassDescEntry(Savior, SaviorDesc)
 PlayerClassDescEntry(Champion, ChampionDesc)
 
+// Uniques
 PlayerClassDescEntry(Bard, BardDesc)
 PlayerClassDescEntry(CrownPrince, CrownPrinceDesc)
 PlayerClassDescEntry(Prince, PrincePlayerDesc)

@@ -381,13 +381,13 @@ slay all in her way atop her warhorse.[X]
 Anima Mage[X]
 
 ## AnimaMageDesc
-Students of magic, often of high birth.[N]
+Curious and driven scholars of magic.[N]
 This variant studied the school of anima.[X]
 
 ## AnimaMagePlayerDesc
 Hand trembled as they turned the page,[N]
-terrified to break proper ladylike[N]
-form and disgrace the family name.[X]
+for to break proper ladylike form[N]
+invoked punishment worse than death.[X]
 
 ## SpellmasterName
 Spellmaster[X]
@@ -401,7 +401,7 @@ they do deserve it, after all.[X]
 Light Mage[X]
 
 ## LightMageDesc
-Students of magic, often of high birth.[N]
+Curious and driven scholars of magic.[N]
 This variant studied the school of light.[X]
 
 ## LightMagePlayerDesc
@@ -421,7 +421,7 @@ and pledged to make the light proud.[X]
 Dark Mage[X]
 
 ## DarkMageDesc
-Students of magic, often of high birth.[N]
+Curious and driven scholars of magic.[N]
 This variant studied the school of dark.[X]
 
 ## DarkMagePlayerDesc

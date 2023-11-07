@@ -24,7 +24,7 @@
 #define Dane 0x17		// Hunter -> Marksman
 #define Ulrich 0x18		// Windrider -> Seraph Wing
 #define Evie 0x19		// Harrier -> Daemon Wing
-#define Maybelline 0x1A	// Mercenary
+#define Maybelline 0x1A	// Mercenary -> Hero
 #define Lux 0x1B		// Lancer -> Halberdier
 #define Ekaitz 0x1C		// Skirmisher -> Oliphantier
 #define Bria 0x1D		// Bombardier -> Barbarossa
@@ -47,7 +47,7 @@
 #define Samil 0x2E		// Trickster
 #define Cetus 0x2F		// Prince
 
-// A surprise tool that will help me later
+// A surprise tool that will help me much later
 #define Soline 0x37		// Cantor
 #define Quinton 0x38	// Arch-Mage
 #define Cassie 0x39		// Agastya

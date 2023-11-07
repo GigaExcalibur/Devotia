@@ -81,3 +81,9 @@
 
 #include "PlayerClassDescs/Installer.event"
 // Me!
+
+#include "UnitGuideCheck/Installer.event"
+// 7743
+
+#include "IconDisplay/Installer.event"
+// Vesly

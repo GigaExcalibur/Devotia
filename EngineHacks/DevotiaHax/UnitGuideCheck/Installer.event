@@ -1,0 +1,22 @@
+ALIGN 4
+UnitGuideCheck1:
+#incbin "check1.dmp"
+
+ALIGN 4
+UnitGuideCheck2:
+#incbin "check2.dmp"
+
+ALIGN 4
+UnitGuideCheck3:
+#incbin "check3.dmp"
+
+PUSH
+ORG 0xCE440
+jumpToHack(UnitGuideCheck1)
+
+ORG 0xCEB10
+jumpToHack(UnitGuideCheck2)
+
+ORG 0xCEBD4
+jumpToHack(UnitGuideCheck3)
+POP

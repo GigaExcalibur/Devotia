@@ -95,6 +95,20 @@ have skills, and bosses will[N]
 only have one skill that[N]
 negates effective damage.[X]
 
+## SupportsEntry
+Supports[X]
+
+## SupportsContent
+Supports in Devotia are as such:[N]
+- Supports are built based on[N]
+  deployment, not adjacency.[N]
+- A unit can get unlimited B[N]
+  supports, but only one A.[N]
+- Support bonuses are only[N]
+  granted when adjacent.[N]
+- All affinities grant, at[N]
+  minimum, hit and crit avoid.[X]
+
 ## MeralyEntry
 Meraly[X]
 
@@ -125,8 +139,8 @@ Zero Roth[X]
 
 ## ZeroRothContent
 Zero Roth is stoicly reprising[N]
-his role as royal advisor to[N]
-House Ouahed in tonight's show.[N]
+his role as the only sublord of[N]
+Devotia Exhibition.[N]
 [N]
 Having served Zakaria longer[N]
 than Klaudia's been alive,[N]
@@ -197,7 +211,7 @@ Camilia Failside[X]
 
 ## CamiliaFailsideContent
 Camilia Failside is chomping[N]
-at the bit to be a stevedore[N]
+at the bit to be a pirate[N]
 in Devotia Exhibition![N]
 [N]
 Her previous work consisted of[N]
@@ -226,6 +240,40 @@ authority figures's hands. And[N]
 now she hopes you can help her[N]
 get her revenge in tonight's[N]
 showing of Devotia Exhibition![X]
+
+## LeviathanSarkaEntry
+Leviathan Sarka[X]
+
+## LeviathanSarkaContent
+Leviathan Sarka is beaming to[N]
+perform as the secondary lord[N]
+of this production of Devotia![N]
+[N]
+In spite of her status as a[N]
+royal, Levia has never been[N]
+active in House Sarka's politics.[N]
+She resigned herself to being[N]
+married off to an influential[N]
+noble, but then met Klaudia and[N]
+the two fell in love. She hopes[N]
+you can help bring about their[N]
+happy ending in tonight's show![X]
+
+## StuartSussmanEntry
+Stuart Sussman[X]
+
+## StuartSussmanContent
+Stuart Sussman is awaiting the[N]
+chance to brawl as a knight in[N]
+tonight's showing of Devotia![N]
+[N]
+His mother having walked out on[N]
+the family as a child, Stuart[N]
+was forced to attend the knight[N]
+academy in order to provide[N]
+his father and sisters. He[N]
+hopes you don't let his training[N]
+go to waste in this production![X]
 
 ## HairAndMakeupEntry
 Hair and Makeup[X]
@@ -415,6 +463,7 @@ All unlisted engine hacks[N]
 are made by yours truly![N]
 [N]
 256 Color Title BG - Leonarth[N]
+Add Unit Subscription - 7743[N]
 Autosave - Vesly[N]
 Base Convos - Snek[N]
 Expand Goal Window - Vesly[N]
@@ -422,12 +471,13 @@ Extend Weapon Desc Box - Vesly[N]
 Text Engine Rework - Tequila[N]
 Walking Sounds Fix - Tequila[N]
 Group AI - Phantom Setine[N]
-Shinan event - Unknown?[N]
+Icon Display - Vesly[N]
 Modular Minimug Box - Zane[N]
 Prevent Attacking - Vesly[N]
 Sacred Weapon Flash - 7743[N]
 Send Inv. on Death - Contro[N]
 Set Status - Vesly, 7743[N]
+Shinan event - Unknown?[N]
 Show Heal Amount - Tequila[N]
 Stat Screen Blink - Stan[N]
 Steal With Full Inv. - Vesly[X]

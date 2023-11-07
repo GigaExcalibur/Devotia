@@ -22,6 +22,9 @@ They/She[X]
 ## SheHe
 She/He[X]
 
+## HeShe
+He/She[X]
+
 ## TheySheHe
 They/She/He[X]
 
@@ -30,6 +33,9 @@ He/They/She[X]
 
 ## SheHeThey
 She/He/They[X]
+
+## HeSheThey
+He/She/They[X]
 
 ## StuartFunnyPronouns
 Nor/Mal[X]
@@ -158,7 +164,7 @@ No one cares.[X]
 Klaudia el-Ouahed[X]
 
 ## KlaudiaHobby
-Lighting Fireworks[X]
+Lighting fireworks[X]
 
 ## KlaudiaBirthday
 October 27[X]
@@ -176,7 +182,7 @@ Throwing knives[X]
 July 29[X]
 
 ## ZeroJob
-Royal advisor[X]
+Noble advisor[X]
 
 ## JosephineFullName
 Josephine Ventadorn[X]
@@ -350,7 +356,7 @@ Career soldier[X]
 Darina von Vacille[X]
 
 ## DarinaHobby
-^{Blindfolded target practice}[X]
+Hiking[X]
 
 ## DarinaBirthday
 June 16[X]
@@ -384,3 +390,168 @@ Layabout (feudal heir)[X]
 
 ## PhillipaFullName
 Phillipa Oleander[X]
+
+## PhillipaJob
+Noble retainer[X]
+
+## MaeveFullName
+Maeve Juneau[X]
+
+## MaeveJob
+Everywoman[X]
+
+## EvrenFullName
+Evren Sarka[X]
+
+## EvrenJob
+Royal heir[X]
+
+## DaneFullName
+Dane Titian[X]
+
+## DaneJob
+Royal retainer[X]
+
+## UlrichFullName
+Ulrich Eisenburg[X]
+
+## UlrichJob
+Royal guardsman[X]
+
+## EvieFullName
+Chava Eisenburg[X]
+
+## EvieJob
+Royal guardsman[X]
+
+## MaybellineFullName
+Piper Mayes[X]
+
+## MaybellineJob
+Sellsword[X]
+
+## LuxFullName
+Lux Operiere[X]
+
+## LuxJob
+Career soldier[X]
+
+## EkaitzFullName
+Of no consequence.[X]
+
+## EkaitzJob
+Company lieutenent[X]
+
+## BriaFullName
+Bria Sorbello[X]
+
+## BriaJob
+...Unemployed.[X]
+
+## JaufreaFullName
+Jaufrea Rudel[X]
+
+## JaufreaJob
+Composer[X]
+
+## KylieFullName
+Kylie Liyr[X]
+
+## KylieJob
+Rebel spymaster[X]
+
+## ElliotFullName
+Elliot LASTNAME[X]
+
+## ElliotJob
+Street performer[X]
+
+## LuairFullName
+Luair Fine (FEE-NAY)[X]
+
+## LuairJob
+Teaching assistant[X]
+
+## AxelFullName
+Axel Sussman[X]
+
+## AxelJob
+Knight aspirant[X]
+
+## WillaFullName
+Willa Aragon[X]
+
+## WillaJob
+Master of arms[X]
+
+## CalvinFullName
+Calvin Hassian[X]
+
+## CalvinJob
+Unemployed[X]
+
+## ClovisFullName
+Clovis Hassian[X]
+
+## ClovisJob
+Unemployed[X]
+
+## OrionFullName
+Orion Hafeez[X]
+
+## OrionJob
+Minister-general[X]
+
+## AstraeaFullName
+Astraea Estelline Circe[X]
+
+## AstraeaJob
+Fuedal heir...?[X]
+
+## AnselFullName
+Ansel Rosenburg[X]
+
+## AnselJob
+Monk[X]
+
+## AzarFullName
+Azar. Just Azar.[X]
+
+## AzarJob
+Revolutionary[X]
+
+## EvelynFullName
+Evelyn Operiere[X]
+
+## EvelynJob
+Minister-general[X]
+
+## AleynaFullName
+Aleyna [X]
+
+## AleynaJob
+Company captain[X]
+
+## BrynhildFullName
+Brynhild Eisenburg[X]
+
+## BrynhildJob
+Guard captain[X]
+
+## RamiFullName
+Rami Zella[X]
+
+## RamiJob
+Headmaster / scholar[X]
+
+## SamilFullName
+Samil Phaecae[X]
+
+## SamilJob
+???????????[X]
+
+## CetusFullName
+Cetus Sarka[X]
+
+## CetusJob
+Royal heir[X]

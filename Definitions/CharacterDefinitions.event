@@ -1,79 +1,95 @@
 // Playerz
-#define Klaudia 0x01
-#define Zero 0x02
-#define Josephine 0x03
-#define Emerson 0x04
-#define Beth 0x05
-#define Cam 0x06
-#define Giselle 0x07
-#define Levia 0x08
-#define Stuart 0x09
-#define Bear 0x0A
-#define Estella 0x0B
-#define Carina 0x0C
-#define Nirav 0x0D
-#define Alma 0x0E
-#define Roswell 0x0F
-#define HongChen 0x10
-#define Darina 0x11
-#define Eugenia 0x12
-#define Maris 0x13
-#define Phillipa 0x14
-#define Maeve 0x15
-#define Evren 0x16
-#define Dane 0x17
-#define Ulrich 0x18
-#define Evie 0x19
-#define Maybelline 0x1A
-#define Lux 0x1B
-#define Ekaitz 0x1C
-#define Bria 0x1D
-#define Jaufrea 0x1E
-#define Kylie 0x1F
-#define Elliot 0x20
-#define Luair 0x21
-#define Axel 0x22
-#define Willa 0x23
-#define Calvin 0x24
-#define Clovis 0x25
-#define Orion 0x26
-#define Astraea 0x27
-#define Ansel 0x28
-#define Azar 0x29
-#define Evelyn 0x2A
-#define Aleyna 0x2B
-#define Brynhild 0x2C
-#define Rami 0x2D
-#define Samil 0x2E
-#define Cetus 0x2F
+#define Klaudia 0x01	// Gremory -> High Gremory
+#define Zero 0x02		// Runelord
+#define Josephine 0x03	// Mage Armor -> Thaumachine
+#define Emerson 0x04	// Bow Armor -> Juggernaut
+#define Beth 0x05		// Villager -> Starosta
+#define Cam 0x06		// Pirate -> Berserker
+#define Giselle 0x07	// Thief -> Rogue
+#define Levia 0x08		// Princess -> Violet Knight
+#define Stuart 0x09		// Sword Armor -> Dreadnought
+#define Bear 0x0A		// Woodsman -> Varangian
+#define Estella 0x0B	// Lance Armor -> Gendarme
+#define Carina 0x0C		// Cleric -> Valkyrie
+#define Nirav 0x0D		// Malignant -> Melusine
+#define Alma 0x0E		// Dark Mage -> Necromancer
+#define Roswell 0x0F	// Axe Rider -> Forestier
+#define HongChen 0x10	// Myrmidon -> Trueblade
+#define Darina 0x11		// Drifter -> Adventurer
+#define Eugenia 0x12	// Spellstrider -> Strategist
+#define Maris 0x13		// Light Mage -> Starseer
+#define Phillipa 0x14	// Lance Rider -> Paladin
+#define Maeve 0x15		// Scout -> Ranger
+#define Evren 0x16		// Crown Prince
+#define Dane 0x17		// Hunter -> Marksman
+#define Ulrich 0x18		// Windrider -> Seraph Wing
+#define Evie 0x19		// Harrier -> Daemon Wing
+#define Maybelline 0x1A	// Mercenary
+#define Lux 0x1B		// Lancer -> Halberdier
+#define Ekaitz 0x1C		// Skirmisher -> Oliphantier
+#define Bria 0x1D		// Bombardier -> Barbarossa
+#define Jaufrea 0x1E	// Trobairitz -> Thaumaturge
+#define Kylie 0x1F		// Dracorider -> Dracolord
+#define Elliot 0x20		// Bard
+#define Luair 0x21		// Sword Rider -> Hakkapeliitta
+#define Axel 0x22		// Axe Armor -> Cataphract
+#define Willa 0x23		// Warmaster
+#define Calvin 0x24		// Wolfssegner
+#define Clovis 0x25		// Savior
+#define Orion 0x26		// Sage
+#define Astraea 0x27	// Anima Mage -> Spellmaster
+#define Ansel 0x28		// Templar
+#define Azar 0x29		// Ravager
+#define Evelyn 0x2A		// Harbinger
+#define Aleyna 0x2B		// Champion
+#define Brynhild 0x2C	// Falconeer
+#define Rami 0x2D		// Sorcerer
+#define Samil 0x2E		// Trickster
+#define Cetus 0x2F		// Prince
+
+// A surprise tool that will help me later
+#define Soline 0x37		// Cantor
+#define Quinton 0x38	// Arch-Mage
+#define Cassie 0x39		// Agastya
+#define Chidi 0x3A		// Tactician
+#define Sophy 0x3B		// Alchemist
+#define Nova 0x3C		// Astronomer
+#define Tevye 0x3D		// Runeblade
+#define Symonne 0x3E	// Illusionist
+#define Leontia 0x3F	// Upstart
+#define LAGUZDRUID 0x40 // Laguz Druid
+#define SLEIPNIR 0x41 	// Chev. Sleipnir
+#define WITCH 0x42		// Witch
+#define Moudrost 0x43	// Basara
+#define Duncan 0x44		// Asura
 
 // NPCs
 
 // Parados
-#define Wister 0x46
-#define Peasant 0x47
-#define RanunOverture 0x48
+#define Wister 0x46			// Therion (Wister)
+#define Peasant 0x47		// Generic (all)
+#define RanunParados 0x48	// Therion
 
 // Episode 1
-#define Crocodile 0x49
-#define Marauder 0x4A
-#define LemnaOverture 0x4B
+#define Crocodile 0x49		// Berserker
+#define Marauder 0x4A		// Generic (all)
+#define LemnaStasimon 0x4B	// Templar
 
 // Stasimon A
-#define FernyigesIntermission 0x4C
-#define Zakaria 0x4D
-#define MiksaIntermission 0x4E
-#define HafeezIntermission 0x4F
-#define OperiereIntermission 0x50
-#define WinnehildIntermission 0x50
-#define NolierIntermission 0x51
-#define EvrenIntermission 0x52
-#define DaneIntermission 0x53
-#define CetusIntermission 0x54
-#define StuartIntermission 0x55
-#define BrynhildIntermission 0x56
-#define UlrichIntermission 0x57
-#define EvieIntermission 0x58
-#define CurtisIntermission 0x59
+#define FernyigesStasimon 0x4C	// Sarkan Overlord
+#define Zakaria 0x4D			// High Gremory
+#define MiksaStasimon 0x4E		// Warlock
+#define HafeezStasimon 0x4F		// Sage
+#define OperiereStasimon 0x50	// Harbinger
+#define WinnehildStasimon 0x50	// Scourge
+#define NolierStasimon 0x51		// Agastya
+#define EvrenStasimon 0x52		// Crown Prince
+#define DaneStasimon 0x53		// Hunter
+#define CetusStasimon 0x54		// Prince
+#define StuartStasimon 0x55		// Sword Armor
+#define BrynhildStasimon 0x56	// Falconeer
+#define UlrichStasimon 0x57		// Windrider
+#define EvieStasimon 0x58		// Harrier
+#define CurtisStasimon 0x59		// Marksman
 
 // Episode 2

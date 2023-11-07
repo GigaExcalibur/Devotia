@@ -373,8 +373,8 @@ lamented that it could be different.[X]
 Harbinger[X]
 
 ## HarbingerDesc
-Just as a reaper does not show mercy[N]
-to those it claims, so too does she[N]
+So too does the reaper claim souls with[N]
+a flick of his scythe, so too does she[N]
 slay all in her way atop her warhorse.[X]
 
 ## AnimaMageName
@@ -669,7 +669,7 @@ Stoflam's signature wyvern riders. They're[N]
 called the lords of the sky for a reason.[X]
 
 ## DracoriderPlayerDesc
-It took a hardended disposition to heel[N]
+It took a hardened disposition to heel[N]
 a wyvern, moreso to order it to fly[N]
 miles on end. She was a different sort.[X]
 

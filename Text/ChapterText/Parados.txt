@@ -157,3 +157,9 @@ Test Base Convo 2[X]
 ##
 Promise me - right now - that you'll come[N]
 home safe and hold me in your arms.[X]
+
+## ParadosIconTutorialText
+Recruitable units in Devotia display[N]
+a blue diamond on their map sprite.[N]
+The vast majority of recruitment[N]
+conditions are very straightforward.[A][X]

@@ -154,8 +154,9 @@ Test Base Convo 2[X]
 [ML][LoadCam][MR][LoadGiselle]
 [MR]What the [anima][lock][monster][flier] is wrong with you?[A][X]
 
-##
-Promise me - right now - that you'll come[N]
+## LeviaTest
+[ML][LoadKlaudia]
+[ML]Promise me - right now - that you'll come[N]
 home safe and hold me in your arms.[X]
 
 ## ParadosIconTutorialText

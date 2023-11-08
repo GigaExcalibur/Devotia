@@ -113,7 +113,7 @@ Supports in Devotia are as such:[N]
 Meraly[X]
 
 ## MeralyContent
-Meraly[X]
+ [X]
 
 ## KlaudiaElOuahedEntry
 Klaudia el-Ouahed[X]

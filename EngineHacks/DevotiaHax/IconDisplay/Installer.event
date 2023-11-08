@@ -41,7 +41,7 @@ IconDisplayList:
 //BYTE 0xFF // Default ObjTileID 
 //BYTE 0 // padding 
 //BYTE 0 // Padding 
-IconDisplayEntry(Cam, 0, 0, 0, ProtectIcon)
+IconDisplayEntry(CamEnemy, 0, 0, 0, ProtectIcon)
 
 /*
 BYTE 1 0; SHORT 0; 		BYTE 0xFF 0xFF 0 0 // Unit ID 1 to always display default icon for unit to defend 

@@ -131,6 +131,18 @@ crew that brought you Devotia![X]
 # 0x6A0
  End Turn[X]
  
+# 0x0574
+Deployment[X]
+
+# 0x0576
+Armaments[X]
+
+# 0x0578
+Battlefield[X]
+
+# 0x0579
+Record[X]
+ 
 # 0x057A
 Deploy units for the[N]
 upcoming battle. Klaudia,[N]
@@ -156,6 +168,9 @@ Save the current state[N]
 of battle preparations.[N]
 Restart the chapter to[N]
 return to this state.[X]
+
+# 0x0590
+Survey[X]
 
 #0x3A LearnedSkillText
 //first text ID in the free block

@@ -1,0 +1,3430 @@
+//Event file generated from Sappy .s format.
+        #include "MPlayDef.event"
+
+        #define    TreasureTown_grp  voicegroup000
+        #define    TreasureTown_pri  0
+        #define    TreasureTown_rev  0
+        #define    TreasureTown_key  0
+
+        // .rodata
+        // TreasureTown
+        ALIGN 4
+
+//****************** Track 0 (Midi-Chn.0) ******************//
+
+TreasureTown_0:
+        BYTE   KEYSH   TreasureTown_key+0
+// 000   ----------------------------------------
+        BYTE   TEMPO   120/2
+        BYTE   W24
+// 001   ----------------------------------------
+        BYTE   TEMPO   86/2
+        BYTE           VOICE   73
+        BYTE           VOL     67
+        BYTE           PAN     c_v-15
+        BYTE   W09
+        BYTE           N02     An4   v110
+        BYTE   W03
+        BYTE           N08     Dn5
+        BYTE   W09
+        BYTE           N02     Cs5   v100
+        BYTE   W03
+        BYTE           N08     Dn5   v110
+        BYTE   W09
+        BYTE           N02     An4   v100
+        BYTE   W03
+        BYTE           N08     Bn4   v110
+        BYTE   W09
+        BYTE           N02     Gn4   v100
+        BYTE   W03
+        BYTE           N08     An4   v110
+        BYTE   W09
+        BYTE           N02     Fs4   v100
+        BYTE   W03
+        BYTE           N08     Gn4   v110
+        BYTE   W09
+        BYTE           N02     Bn4   v100
+        BYTE   W03
+        BYTE           N07     An4   v110
+        BYTE   W07
+        BYTE           N01     Gn4   v082
+        BYTE   W02
+        BYTE                   An4   v085
+        BYTE   W01
+        BYTE           N02     Gn4   v089
+        BYTE   W02
+        BYTE           N09     Fs4   v110
+        BYTE   W09
+        BYTE           N02     En4
+        BYTE   W03
+// 002   ----------------------------------------
+        BYTE   W09
+        BYTE                   An4
+        BYTE   W03
+        BYTE           N08     Dn5
+        BYTE   W09
+        BYTE           N02     Cs5   v100
+        BYTE   W03
+        BYTE           N08     Dn5   v110
+        BYTE   W09
+        BYTE           N02     An4   v100
+        BYTE   W03
+        BYTE           N08     Bn4   v110
+        BYTE   W09
+        BYTE           N02     Gn4   v100
+        BYTE   W03
+        BYTE           N08     An4   v110
+        BYTE   W09
+        BYTE           N02     Fs4   v100
+        BYTE   W03
+        BYTE           N07     Gn4   v110
+        BYTE   W09
+        BYTE           N02     Bn4   v100
+        BYTE   W03
+        BYTE           N10     An4   v110
+        BYTE   W10
+        BYTE           N02     En4   v100
+        BYTE   W02
+        BYTE           N08     Fs4   v110
+        BYTE   W09
+        BYTE           N02     Gn4   v100
+        BYTE   W03
+// 003   ----------------------------------------
+        BYTE   W09
+        BYTE                   An4   v110
+        BYTE   W03
+        BYTE           N08     Dn5
+        BYTE   W09
+        BYTE           N02     Cs5   v100
+        BYTE   W03
+        BYTE           N08     Dn5   v110
+        BYTE   W09
+        BYTE           N02     An4   v100
+        BYTE   W03
+        BYTE           N08     Bn4   v110
+        BYTE   W09
+        BYTE           N02     Gn4   v100
+        BYTE   W03
+        BYTE           N08     An4   v110
+        BYTE   W09
+        BYTE           N02     Fs4   v100
+        BYTE   W03
+        BYTE           N08     Gn4   v110
+        BYTE   W09
+        BYTE           N02     Bn4   v100
+        BYTE   W03
+        BYTE           N08     An4   v110
+        BYTE   W08
+        BYTE           N01     Gn4   v082
+        BYTE   W01
+        BYTE           N02     An4   v080
+        BYTE   W01
+        BYTE                   Gn4   v081
+        BYTE   W02
+        BYTE           N09     Fs4   v110
+        BYTE   W09
+        BYTE           N02     En4
+        BYTE   W03
+// 004   ----------------------------------------
+        BYTE   W09
+        BYTE                   Dn5
+        BYTE   W03
+        BYTE           N08     En5
+        BYTE   W09
+        BYTE           N02     Dn5   v100
+        BYTE   W03
+        BYTE           N08     Gn5   v110
+        BYTE   W08
+        BYTE           N01     Fn5   v093
+        BYTE   W01
+        BYTE           N02     Gn5
+        BYTE   W01
+        BYTE                   Fn5
+        BYTE   W02
+        BYTE           N08     En5   v110
+        BYTE   W09
+        BYTE           N02     Dn5   v100
+        BYTE   W03
+        BYTE           N23     En5   v110
+        BYTE   W36
+        BYTE           N08     Dn5
+        BYTE   W09
+        BYTE           N02     En5   v100
+        BYTE   W03
+// 005   ----------------------------------------
+        BYTE           N96     Dn5   v110
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W09
+        BYTE           N02     An4   v094
+        BYTE   W03
+        BYTE           N08     Dn5
+        BYTE   W09
+        BYTE           N02     An4
+        BYTE   W03
+        BYTE           N08     En5
+        BYTE   W09
+        BYTE           N02     An4
+        BYTE   W03
+        BYTE           N08     Gn5
+        BYTE   W09
+        BYTE           N02     Fs5
+        BYTE   W03
+        BYTE           N08     En5
+        BYTE   W09
+        BYTE           N02     An4
+        BYTE   W03
+        BYTE           N08     Bn4
+        BYTE   W09
+        BYTE           N02     Gn4
+        BYTE   W03
+        BYTE           N08     An4
+        BYTE   W09
+        BYTE           N02     Gn4
+        BYTE   W03
+        BYTE           N09     Fs4
+        BYTE   W09
+        BYTE           N02     Gn4
+        BYTE   W03
+// 008   ----------------------------------------
+        BYTE   W09
+        BYTE                   An4
+        BYTE   W03
+        BYTE           N08     Dn5
+        BYTE   W09
+        BYTE           N02     An4
+        BYTE   W03
+        BYTE           N08     En5
+        BYTE   W09
+        BYTE           N02     An4
+        BYTE   W03
+        BYTE           N08     Gn5
+        BYTE   W09
+        BYTE           N02     Fs5
+        BYTE   W03
+        BYTE           N06     En5
+        BYTE   W36
+        BYTE           N07     Fs4   v105
+        BYTE   W08
+        BYTE           N03     Gn4
+        BYTE   W04
+// 009   ----------------------------------------
+        BYTE                   An4
+        BYTE   W12
+        BYTE                   An4
+        BYTE   W11
+        BYTE           N01     Bn4   v041
+        BYTE   W01
+        BYTE           N03     An4   v105
+        BYTE   W12
+        BYTE                   An4
+        BYTE   W10
+        BYTE           N01     Bn4   v051
+        BYTE   W02
+        BYTE           N10     An4   v109
+        BYTE   W11
+        BYTE           N01     Fn4   v044
+        BYTE   W01
+        BYTE           N03     Gn4   v107
+        BYTE   W08
+        BYTE                   Fs4   v109
+        BYTE   W04
+        BYTE           N08     En4   v120
+        BYTE   W12
+        BYTE           N03     Fs4   v081
+        BYTE   W08
+        BYTE                   Gn4   v107
+        BYTE   W04
+// 010   ----------------------------------------
+TreasureTown_0_10:
+        BYTE           N03     An4   v105
+        BYTE   W12
+        BYTE                   Dn5   v126
+        BYTE   W11
+        BYTE           N01     Fs4   v050
+        BYTE   W01
+        BYTE           N08     An4   v105
+        BYTE   W12
+        BYTE           N03     Gn4   v114
+        BYTE   W08
+        BYTE                   Fs4   v109
+        BYTE   W04
+        BYTE           N24     En4   v117
+        BYTE   W36
+        BYTE           N03     Dn4   v105
+        BYTE   W08
+        BYTE                   En4
+        BYTE   W04
+        BYTE   PEND
+// 011   ----------------------------------------
+        BYTE                   Fs4
+        BYTE   W12
+        BYTE                   Fs4
+        BYTE   W11
+        BYTE           N01     Gn4   v050
+        BYTE   W01
+        BYTE           N03     Fs4   v105
+        BYTE   W12
+        BYTE                   Fs4
+        BYTE   W11
+        BYTE           N01     Gn4   v050
+        BYTE   W01
+        BYTE           N11     Fs4   v109
+        BYTE   W12
+        BYTE           N03     En4   v107
+        BYTE   W08
+        BYTE                   Dn4   v109
+        BYTE   W04
+        BYTE           N08     Cs4   v120
+        BYTE   W12
+        BYTE           N03     Bn3   v081
+        BYTE   W08
+        BYTE                   Cs4   v107
+        BYTE   W04
+// 012   ----------------------------------------
+TreasureTown_0_12:
+        BYTE           N03     Dn4   v105
+        BYTE   W12
+        BYTE                   Fs4
+        BYTE   W11
+        BYTE           N16     En4   v107
+        BYTE   W19
+        BYTE           N02     Dn4   v109
+        BYTE   W04
+        BYTE           N24     Dn4   v117   gtp1
+        BYTE   W48
+        BYTE   W02
+        BYTE   PEND
+// 013   ----------------------------------------
+        BYTE           N03     An5   v105
+        BYTE   W12
+        BYTE                   An5
+        BYTE   W11
+        BYTE           N02     Bn5   v068
+        BYTE   W01
+        BYTE           N03     An5   v105
+        BYTE   W12
+        BYTE                   An5
+        BYTE   W10
+        BYTE           N02     Bn5   v080
+        BYTE   W01
+        BYTE                   Fs5   v050
+        BYTE   W01
+        BYTE           N11     An5   v109
+        BYTE   W11
+        BYTE           N02     Bn5   v068
+        BYTE   W01
+        BYTE           N03     Gn5   v107
+        BYTE   W08
+        BYTE                   Fs5   v109
+        BYTE   W04
+        BYTE           N08     En5   v120
+        BYTE   W12
+        BYTE           N03     Fs5   v081
+        BYTE   W08
+        BYTE                   Gn5   v107
+        BYTE   W04
+// 014   ----------------------------------------
+TreasureTown_0_14:
+        BYTE           N03     An5   v105
+        BYTE   W12
+        BYTE                   Dn6   v126
+        BYTE   W11
+        BYTE           N02     Fs5   v050
+        BYTE   W01
+        BYTE           N08     An5   v105
+        BYTE   W12
+        BYTE           N03     Gn5   v114
+        BYTE   W08
+        BYTE                   Fs5   v109
+        BYTE   W04
+        BYTE           N24     En5   v117
+        BYTE   W36
+        BYTE           N03     Dn5   v105
+        BYTE   W08
+        BYTE                   En5
+        BYTE   W04
+        BYTE   PEND
+// 015   ----------------------------------------
+TreasureTown_0_15:
+        BYTE           N03     Fs5   v105
+        BYTE   W12
+        BYTE                   Fs5
+        BYTE   W11
+        BYTE           N02     Gn5   v068
+        BYTE   W01
+        BYTE           N03     Fs5   v105
+        BYTE   W12
+        BYTE                   Fs5
+        BYTE   W11
+        BYTE           N02     Gn5   v068
+        BYTE   W01
+        BYTE           N11     Fs5   v109
+        BYTE   W12
+        BYTE           N03     En5   v107
+        BYTE   W08
+        BYTE                   Dn5   v109
+        BYTE   W04
+        BYTE           N08     Cs5   v120
+        BYTE   W12
+        BYTE           N03     Bn4   v081
+        BYTE   W08
+        BYTE                   Cs5   v107
+        BYTE   W04
+        BYTE   PEND
+// 016   ----------------------------------------
+TreasureTown_0_16:
+        BYTE           N03     Dn5   v105
+        BYTE   W12
+        BYTE                   Fs5
+        BYTE   W11
+        BYTE           N16     En5   v107
+        BYTE   W19
+        BYTE           N02     Dn5   v109
+        BYTE   W04
+        BYTE           N24     Dn5   v117   gtp1
+        BYTE   W48
+        BYTE   W02
+        BYTE   PEND
+// 017   ----------------------------------------
+        BYTE   W96
+// 018   ----------------------------------------
+TreasureTown_0_18:
+        BYTE   W84
+        BYTE           N07     Fs4   v101
+        BYTE   W08
+        BYTE           N03     Gn4   v111
+        BYTE   W04
+        BYTE   PEND
+// 019   ----------------------------------------
+TreasureTown_0_19:
+        BYTE           N11     An4   v120
+        BYTE   W12
+        BYTE           N05     Fs4
+        BYTE   W12
+        BYTE           N12     Dn5   v101
+        BYTE   W12
+        BYTE           N06     Cs5   v117
+        BYTE   W12
+        BYTE           N24     An4   v107
+        BYTE   W24
+        BYTE           N11     Fs4   v117
+        BYTE   W12
+        BYTE                   An4   v101
+        BYTE   W12
+        BYTE   PEND
+// 020   ----------------------------------------
+TreasureTown_0_20:
+        BYTE           N36     Gn4   v120
+        BYTE   W48
+        BYTE           N11     Gn4   v105
+        BYTE   W12
+        BYTE                   Fs4
+        BYTE   W12
+        BYTE           N17     En4
+        BYTE   W20
+        BYTE           N03     Dn4   v101
+        BYTE   W04
+        BYTE   PEND
+// 021   ----------------------------------------
+TreasureTown_0_21:
+        BYTE           N68     An4   v105   gtp1
+        BYTE   W84
+        BYTE           N01     An5
+        BYTE   W12
+        BYTE   PEND
+// 022   ----------------------------------------
+TreasureTown_0_22:
+        BYTE           N20     An5   v101
+        BYTE   W22
+        BYTE           N03     An5   v080
+        BYTE   W01
+        BYTE           N05     Bn5   v048
+        BYTE   W05
+        BYTE           N03     An5   v051
+        BYTE   W03
+        BYTE                   Bn5   v052
+        BYTE   W03
+        BYTE           N02     An5   v062
+        BYTE   W02
+        BYTE                   Bn5   v056
+        BYTE   W02
+        BYTE           N03     An5   v081
+        BYTE   W03
+        BYTE           N02     Bn5   v049
+        BYTE   W02
+        BYTE                   An5   v081
+        BYTE   W02
+        BYTE           N03     Bn5   v085
+        BYTE   W03
+        BYTE           N02     An5   v106
+        BYTE   W36
+        BYTE           N07     Fs4   v105
+        BYTE   W08
+        BYTE           N03     Gn4
+        BYTE   W04
+        BYTE   PEND
+// 023   ----------------------------------------
+TreasureTown_0_LOOP:
+        BYTE           N03     An4   v105
+        BYTE   W12
+        BYTE                   An4
+        BYTE   W11
+        BYTE           N01     Bn4   v050
+        BYTE   W01
+        BYTE           N03     An4   v105
+        BYTE   W12
+        BYTE                   An4
+        BYTE   W10
+        BYTE           N01     Bn4   v050
+        BYTE   W01
+        BYTE                   Fs4
+        BYTE   W01
+        BYTE           N11     An4   v109
+        BYTE   W11
+        BYTE           N01     Bn4   v050
+        BYTE   W01
+        BYTE           N03     Gn4   v107
+        BYTE   W08
+        BYTE                   Fs4   v109
+        BYTE   W04
+        BYTE           N08     En4   v120
+        BYTE   W12
+        BYTE           N03     Fs4   v103
+        BYTE   W08
+        BYTE                   Gn4   v107
+        BYTE   W04
+// 024   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_0_10
+// 025   ----------------------------------------
+TreasureTown_0_25:
+        BYTE           N03     Fs4   v105
+        BYTE   W12
+        BYTE                   Fs4
+        BYTE   W11
+        BYTE           N01     Gn4   v050
+        BYTE   W01
+        BYTE           N03     Fs4   v105
+        BYTE   W12
+        BYTE                   Fs4
+        BYTE   W11
+        BYTE           N01     Gn4   v050
+        BYTE   W01
+        BYTE           N11     Fs4   v109
+        BYTE   W12
+        BYTE           N03     En4   v107
+        BYTE   W08
+        BYTE                   Dn4   v109
+        BYTE   W04
+        BYTE           N08     Cs4   v120
+        BYTE   W12
+        BYTE           N03     Bn3   v089
+        BYTE   W08
+        BYTE                   Cs4   v107
+        BYTE   W04
+        BYTE   PEND
+// 026   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_0_12
+// 027   ----------------------------------------
+TreasureTown_0_27:
+        BYTE           N03     An5   v105
+        BYTE   W12
+        BYTE                   An5
+        BYTE   W11
+        BYTE           N02     Bn5   v068
+        BYTE   W01
+        BYTE           N03     An5   v105
+        BYTE   W12
+        BYTE                   An5
+        BYTE   W10
+        BYTE           N02     Bn5   v080
+        BYTE   W01
+        BYTE                   Fs5   v050
+        BYTE   W01
+        BYTE           N11     An5   v109
+        BYTE   W11
+        BYTE           N02     Bn5   v068
+        BYTE   W01
+        BYTE           N03     Gn5   v107
+        BYTE   W08
+        BYTE                   Fs5   v109
+        BYTE   W04
+        BYTE           N08     En5   v120
+        BYTE   W12
+        BYTE           N03     Fs5   v106
+        BYTE   W08
+        BYTE                   Gn5   v107
+        BYTE   W04
+        BYTE   PEND
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_0_14
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_0_15
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_0_16
+// 031   ----------------------------------------
+        BYTE   W96
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_0_18
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_0_19
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_0_20
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_0_21
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_0_22
+// 037   ----------------------------------------
+        BYTE           N03     An4   v105
+        BYTE   GoTo
+         POIN2  TreasureTown_0_LOOP
+        BYTE   W12
+        BYTE                   An4
+        BYTE   W11
+        BYTE           N01     Bn4   v050
+        BYTE   W01
+        BYTE           N03     An4   v105
+        BYTE   W12
+        BYTE                   An4
+        BYTE   W10
+        BYTE           N01     Bn4   v050
+        BYTE   W01
+        BYTE                   Fs4
+        BYTE   W01
+        BYTE           N11     An4   v109
+        BYTE   W11
+        BYTE           N01     Bn4   v050
+        BYTE   W01
+        BYTE           N03     Gn4   v107
+        BYTE   W08
+        BYTE                   Fs4   v109
+        BYTE   W04
+        BYTE           N08     En4   v120
+        BYTE   W12
+        BYTE           N03     Fs4   v103
+        BYTE   W08
+        BYTE                   Gn4   v107
+        BYTE   W04
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_0_10
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_0_25
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_0_12
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_0_27
+// 042   ----------------------------------------
+        BYTE           N03     An5   v105
+        BYTE   W12
+        BYTE                   Dn6   v126
+        BYTE   W11
+        BYTE           N02     Fs5   v050
+        BYTE   W01
+        BYTE           N08     An5   v105
+        BYTE   W12
+        BYTE           N03     Gn5   v114
+        BYTE   W08
+        BYTE                   Fs5   v109
+        BYTE   W04
+        BYTE           N24     En5   v117
+        BYTE   W36
+        BYTE           N03     Dn5   v105
+        BYTE   W08
+        BYTE                   En5
+        BYTE   W03
+        BYTE   FINE
+
+//****************** Track 1 (Midi-Chn.1) ******************//
+
+TreasureTown_1:
+        BYTE   KEYSH   TreasureTown_key+0
+// 000   ----------------------------------------
+        BYTE   W24
+// 001   ----------------------------------------
+        BYTE           VOICE   40
+        BYTE           VOL     33
+        BYTE           PAN     c_v+15
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W09
+        BYTE           N02     An4   v088
+        BYTE   W03
+        BYTE           N08     Dn5
+        BYTE   W09
+        BYTE           N02     Cs5   v078
+        BYTE   W03
+        BYTE           N08     Dn5   v088
+        BYTE   W09
+        BYTE           N02     An4   v078
+        BYTE   W03
+        BYTE           N08     Bn4   v088
+        BYTE   W09
+        BYTE           N02     Gn4   v078
+        BYTE   W03
+        BYTE           N08     An4   v088
+        BYTE   W09
+        BYTE           N02     Fs4   v078
+        BYTE   W03
+        BYTE           N08     Gn4   v088
+        BYTE   W09
+        BYTE           N02     Bn4   v078
+        BYTE   W03
+        BYTE           N08     An4   v088
+        BYTE   W08
+        BYTE           N01     Gn4
+        BYTE   W01
+        BYTE           N02     An4
+        BYTE   W01
+        BYTE                   Gn4
+        BYTE   W02
+        BYTE           N09     Fs4
+        BYTE   W09
+        BYTE           N02     En4
+        BYTE   W03
+// 004   ----------------------------------------
+        BYTE   W09
+        BYTE                   Dn5
+        BYTE   W03
+        BYTE           N08     En5
+        BYTE   W09
+        BYTE           N02     Dn5   v078
+        BYTE   W03
+        BYTE           N08     Gn5   v088
+        BYTE   W08
+        BYTE           N01     Fn5
+        BYTE   W01
+        BYTE           N02     Gn5
+        BYTE   W01
+        BYTE                   Fn5
+        BYTE   W02
+        BYTE           N08     En5
+        BYTE   W09
+        BYTE           N02     Dn5   v078
+        BYTE   W03
+        BYTE           N23     En5   v088
+        BYTE   W36
+        BYTE           N08     Dn5
+        BYTE   W09
+        BYTE           N02     En5   v078
+        BYTE   W03
+// 005   ----------------------------------------
+        BYTE           N96     Dn5   v088
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+        BYTE   W96
+// 009   ----------------------------------------
+        BYTE   W96
+// 010   ----------------------------------------
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE   W96
+// 012   ----------------------------------------
+        BYTE   W96
+// 013   ----------------------------------------
+TreasureTown_1_13:
+        BYTE           N03     An4   v105
+        BYTE   W12
+        BYTE                   An4
+        BYTE   W12
+        BYTE                   An4
+        BYTE   W12
+        BYTE                   An4
+        BYTE   W12
+        BYTE           N11     An4   v109
+        BYTE   W12
+        BYTE           N03     Gn4   v107
+        BYTE   W08
+        BYTE                   Fs4   v109
+        BYTE   W04
+        BYTE           N08     En4   v120
+        BYTE   W12
+        BYTE           N03     Fs4   v103
+        BYTE   W08
+        BYTE                   Gn4   v107
+        BYTE   W04
+        BYTE   PEND
+// 014   ----------------------------------------
+TreasureTown_1_14:
+        BYTE           N03     An4   v105
+        BYTE   W12
+        BYTE                   Dn5   v126
+        BYTE   W12
+        BYTE           N08     An4   v105
+        BYTE   W12
+        BYTE           N03     Gn4   v114
+        BYTE   W08
+        BYTE                   Fs4   v109
+        BYTE   W04
+        BYTE           N24     En4   v117
+        BYTE   W36
+        BYTE           N03     Dn4   v105
+        BYTE   W08
+        BYTE                   En4
+        BYTE   W04
+        BYTE   PEND
+// 015   ----------------------------------------
+TreasureTown_1_15:
+        BYTE           N03     Fs4   v105
+        BYTE   W12
+        BYTE                   Fs4
+        BYTE   W12
+        BYTE                   Fs4
+        BYTE   W12
+        BYTE                   Fs4
+        BYTE   W12
+        BYTE           N11     Fs4   v109
+        BYTE   W12
+        BYTE           N03     En4   v107
+        BYTE   W08
+        BYTE                   Dn4   v109
+        BYTE   W04
+        BYTE           N08     Cs4   v120
+        BYTE   W12
+        BYTE           N03     Bn3   v102
+        BYTE   W08
+        BYTE                   Cs4   v107
+        BYTE   W04
+        BYTE   PEND
+// 016   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_0_12
+// 017   ----------------------------------------
+        BYTE   W96
+// 018   ----------------------------------------
+TreasureTown_1_18:
+        BYTE   W84
+        BYTE           N07     Fs4   v079
+        BYTE   W08
+        BYTE           N03     Gn4   v089
+        BYTE   W04
+        BYTE   PEND
+// 019   ----------------------------------------
+TreasureTown_1_19:
+        BYTE           N11     An4   v098
+        BYTE   W12
+        BYTE           N05     Fs4
+        BYTE   W12
+        BYTE           N12     Dn5   v079
+        BYTE   W12
+        BYTE           N06     Cs5   v095
+        BYTE   W12
+        BYTE           N24     An4   v085
+        BYTE   W24
+        BYTE           N11     Fs4   v095
+        BYTE   W12
+        BYTE                   An4   v087
+        BYTE   W12
+        BYTE   PEND
+// 020   ----------------------------------------
+TreasureTown_1_20:
+        BYTE           N36     Gn4   v098
+        BYTE   W48
+        BYTE           N11     Gn4   v083
+        BYTE   W12
+        BYTE                   Fs4
+        BYTE   W12
+        BYTE           N17     En4
+        BYTE   W20
+        BYTE           N03     Dn4   v079
+        BYTE   W04
+        BYTE   PEND
+// 021   ----------------------------------------
+TreasureTown_1_21:
+        BYTE           N92     An4   v083   gtp1
+        BYTE   W08
+        BYTE           N02     An3   v100
+        BYTE   W03
+        BYTE           N08     Dn4
+        BYTE   W09
+        BYTE           N02     An3   v070
+        BYTE   W03
+        BYTE           N08     En4   v100
+        BYTE   W09
+        BYTE           N02     An3   v070
+        BYTE   W03
+        BYTE           N08     Gn4   v100
+        BYTE   W09
+        BYTE           N02     Fs4   v070
+        BYTE   W03
+        BYTE           N08     En4   v100
+        BYTE   W09
+        BYTE           N02     An3   v070
+        BYTE   W03
+        BYTE           N08     Bn3   v100
+        BYTE   W09
+        BYTE           N02     Gn3   v070
+        BYTE   W03
+        BYTE           N08     An3   v100
+        BYTE   W09
+        BYTE           N02     Gn3   v070
+        BYTE   W03
+        BYTE           N09     Fs3   v100
+        BYTE   W09
+        BYTE           N02     Gn3
+        BYTE   W04
+        BYTE   PEND
+// 022   ----------------------------------------
+TreasureTown_1_22:
+        BYTE   W08
+        BYTE           N02     An3   v100
+        BYTE   W03
+        BYTE           N08     Dn4
+        BYTE   W09
+        BYTE           N02     An3   v070
+        BYTE   W03
+        BYTE           N08     En4   v100
+        BYTE   W09
+        BYTE           N02     An3   v070
+        BYTE   W03
+        BYTE           N08     Gn4   v100
+        BYTE   W09
+        BYTE           N02     Fs4   v070
+        BYTE   W03
+        BYTE           N06     En4   v100
+        BYTE   W48
+        BYTE   W01
+        BYTE   PEND
+// 023   ----------------------------------------
+TreasureTown_1_LOOP:
+        BYTE   W96
+// 024   ----------------------------------------
+        BYTE   W96
+// 025   ----------------------------------------
+        BYTE   W96
+// 026   ----------------------------------------
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_1_13
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_1_14
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_1_15
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_0_12
+// 031   ----------------------------------------
+        BYTE   W96
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_1_18
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_1_19
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_1_20
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_1_21
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_1_22
+// 037   ----------------------------------------
+        BYTE   GoTo
+         POIN2  TreasureTown_1_LOOP
+        BYTE   W96
+// 038   ----------------------------------------
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   W96
+// 040   ----------------------------------------
+        BYTE   W96
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_1_13
+// 042   ----------------------------------------
+        BYTE           N03     An4   v105
+        BYTE   W12
+        BYTE                   Dn5   v126
+        BYTE   W12
+        BYTE           N08     An4   v105
+        BYTE   W12
+        BYTE           N03     Gn4   v114
+        BYTE   W08
+        BYTE                   Fs4   v109
+        BYTE   W04
+        BYTE           N24     En4   v117
+        BYTE   W36
+        BYTE           N03     Dn4   v105
+        BYTE   W08
+        BYTE                   En4
+        BYTE   W03
+        BYTE   FINE
+
+//****************** Track 2 (Midi-Chn.2) ******************//
+
+TreasureTown_2:
+        BYTE   KEYSH   TreasureTown_key+0
+// 000   ----------------------------------------
+        BYTE   W24
+// 001   ----------------------------------------
+        BYTE           VOICE   110
+        BYTE           VOL     53
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE   W96
+// 005   ----------------------------------------
+TreasureTown_2_5:
+        BYTE   W09
+        BYTE           N02     An3   v100
+        BYTE   W03
+        BYTE           N08     Dn4
+        BYTE   W09
+        BYTE           N02     An3   v080
+        BYTE   W03
+        BYTE           N08     En4   v100
+        BYTE   W09
+        BYTE           N02     An3   v080
+        BYTE   W03
+        BYTE           N08     Gn4   v100
+        BYTE   W09
+        BYTE           N02     Fs4   v080
+        BYTE   W03
+        BYTE           N08     En4   v100
+        BYTE   W09
+        BYTE           N02     An3   v080
+        BYTE   W03
+        BYTE           N08     Bn3   v100
+        BYTE   W09
+        BYTE           N02     Gn3   v080
+        BYTE   W03
+        BYTE           N08     An3   v100
+        BYTE   W09
+        BYTE           N02     Gn3   v080
+        BYTE   W03
+        BYTE           N09     Fs3   v100
+        BYTE   W09
+        BYTE           N02     Gn3
+        BYTE   W03
+        BYTE   PEND
+// 006   ----------------------------------------
+        BYTE   W09
+        BYTE                   An3
+        BYTE   W03
+        BYTE           N08     Dn4
+        BYTE   W09
+        BYTE           N02     An3   v080
+        BYTE   W03
+        BYTE           N08     En4   v100
+        BYTE   W09
+        BYTE           N02     An3   v080
+        BYTE   W03
+        BYTE           N08     Gn4   v100
+        BYTE   W09
+        BYTE           N02     Fs4   v080
+        BYTE   W03
+        BYTE           N08     En4   v100
+        BYTE   W09
+        BYTE           N02     An3   v080
+        BYTE   W03
+        BYTE           N08     Bn3   v100
+        BYTE   W09
+        BYTE           N02     Gn3   v080
+        BYTE   W03
+        BYTE           N11     An3   v100
+        BYTE   W12
+        BYTE           N09     Fs3
+        BYTE   W09
+        BYTE           N02     Gn3
+        BYTE   W03
+// 007   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_2_5
+// 008   ----------------------------------------
+        BYTE   W09
+        BYTE           N02     An3   v100
+        BYTE   W03
+        BYTE           N08     Dn4
+        BYTE   W09
+        BYTE           N02     An3   v080
+        BYTE   W03
+        BYTE           N08     En4   v100
+        BYTE   W09
+        BYTE           N02     An3   v080
+        BYTE   W03
+        BYTE           N08     Gn4   v100
+        BYTE   W09
+        BYTE           N02     Fs4   v080
+        BYTE   W03
+        BYTE           N06     En4   v100
+        BYTE   W48
+// 009   ----------------------------------------
+        BYTE   W96
+// 010   ----------------------------------------
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE   W96
+// 012   ----------------------------------------
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+        BYTE   W96
+// 016   ----------------------------------------
+TreasureTown_2_16:
+        BYTE   W80
+        BYTE   W02
+        BYTE           N04     Cs3   v058
+        BYTE   W02
+        BYTE           N08     Dn3   v099
+        BYTE   W08
+        BYTE           N03     Cs3   v106
+        BYTE   W04
+        BYTE   PEND
+// 017   ----------------------------------------
+TreasureTown_2_17:
+        BYTE           N11     Bn2   v099
+        BYTE   W12
+        BYTE           N07     Dn3
+        BYTE   W08
+        BYTE           N03     Cs3   v041
+        BYTE   W04
+        BYTE           N11     Dn3   v099
+        BYTE   W12
+        BYTE                   Bn3   v119
+        BYTE   W10
+        BYTE           N04     Gn3   v048
+        BYTE   W02
+        BYTE           N24     An3   v099
+        BYTE   W24
+        BYTE                   Fs3   v098
+        BYTE   W22
+        BYTE           N04     An3   v051
+        BYTE   W02
+        BYTE   PEND
+// 018   ----------------------------------------
+TreasureTown_2_18:
+        BYTE           N11     Gn3   v094
+        BYTE   W12
+        BYTE                   Fs3   v099
+        BYTE   W10
+        BYTE           N04     Dn3   v074
+        BYTE   W02
+        BYTE           N11     En3   v106
+        BYTE   W12
+        BYTE           N07     Dn3
+        BYTE   W08
+        BYTE           N03     En3   v086
+        BYTE   W02
+        BYTE           N04     An3   v058
+        BYTE   W02
+        BYTE           N23     Fs3   v106
+        BYTE   W48
+        BYTE   PEND
+// 019   ----------------------------------------
+        BYTE   W96
+// 020   ----------------------------------------
+        BYTE   W96
+// 021   ----------------------------------------
+TreasureTown_2_21:
+        BYTE   W08
+        BYTE           N02     An3   v085
+        BYTE   W03
+        BYTE           N08     Dn4
+        BYTE   W09
+        BYTE           N02     An3   v055
+        BYTE   W03
+        BYTE           N08     En4   v085
+        BYTE   W09
+        BYTE           N02     An3   v055
+        BYTE   W03
+        BYTE           N08     Gn4   v085
+        BYTE   W09
+        BYTE           N02     Fs4   v055
+        BYTE   W03
+        BYTE           N08     En4   v085
+        BYTE   W09
+        BYTE           N02     An3   v055
+        BYTE   W03
+        BYTE           N08     Bn3   v085
+        BYTE   W09
+        BYTE           N02     Gn3   v055
+        BYTE   W03
+        BYTE           N08     An3   v085
+        BYTE   W09
+        BYTE           N02     Gn3   v055
+        BYTE   W03
+        BYTE           N09     Fs3   v085
+        BYTE   W09
+        BYTE           N02     Gn3
+        BYTE   W04
+        BYTE   PEND
+// 022   ----------------------------------------
+TreasureTown_2_22:
+        BYTE   W08
+        BYTE           N02     An3   v085
+        BYTE   W03
+        BYTE           N08     Dn4
+        BYTE   W09
+        BYTE           N02     An3   v055
+        BYTE   W03
+        BYTE           N08     En4   v085
+        BYTE   W09
+        BYTE           N02     An3   v055
+        BYTE   W03
+        BYTE           N08     Gn4   v085
+        BYTE   W09
+        BYTE           N02     Fs4   v055
+        BYTE   W03
+        BYTE           N06     En4   v085
+        BYTE   W48
+        BYTE   W01
+        BYTE   PEND
+// 023   ----------------------------------------
+TreasureTown_2_LOOP:
+        BYTE   W96
+// 024   ----------------------------------------
+        BYTE   W96
+// 025   ----------------------------------------
+        BYTE   W96
+// 026   ----------------------------------------
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE   W96
+// 028   ----------------------------------------
+        BYTE   W96
+// 029   ----------------------------------------
+        BYTE   W96
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_2_16
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_2_17
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_2_18
+// 033   ----------------------------------------
+        BYTE   W96
+// 034   ----------------------------------------
+        BYTE   W96
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_2_21
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_2_22
+// 037   ----------------------------------------
+        BYTE   GoTo
+         POIN2  TreasureTown_2_LOOP
+        BYTE   W96
+// 038   ----------------------------------------
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   W96
+// 040   ----------------------------------------
+        BYTE   W96
+// 041   ----------------------------------------
+        BYTE   W96
+// 042   ----------------------------------------
+        BYTE   W92
+        BYTE   W03
+        BYTE   FINE
+
+//****************** Track 3 (Midi-Chn.3) ******************//
+
+TreasureTown_3:
+        BYTE   KEYSH   TreasureTown_key+0
+// 000   ----------------------------------------
+        BYTE   W24
+// 001   ----------------------------------------
+        BYTE           VOICE   75
+        BYTE           VOL     55
+        BYTE           PAN     c_v+10
+        BYTE           BEND    c_v-51
+        BYTE           TIE     An3   v085
+        BYTE   W01
+        BYTE           BEND    c_v-36
+        BYTE   W01
+        BYTE                   c_v-23
+        BYTE   W01
+        BYTE                   c_v-12
+        BYTE   W01
+        BYTE                   c_v+0
+        BYTE   W92
+// 002   ----------------------------------------
+TreasureTown_3_2:
+        BYTE   W68
+        BYTE   W03
+        BYTE           EOT     An3
+        BYTE   W24
+        BYTE           BEND    c_v-61
+        BYTE   W01
+        BYTE   PEND
+// 003   ----------------------------------------
+TreasureTown_3_3:
+        BYTE           BEND    c_v-51
+        BYTE           TIE     An3   v085
+        BYTE   W01
+        BYTE           BEND    c_v-36
+        BYTE   W01
+        BYTE                   c_v-23
+        BYTE   W01
+        BYTE                   c_v-12
+        BYTE   W01
+        BYTE                   c_v+0
+        BYTE   W92
+        BYTE   PEND
+// 004   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_3_2
+// 005   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_3_3
+// 006   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_3_2
+// 007   ----------------------------------------
+        BYTE           BEND    c_v-51
+        BYTE           TIE     An3   v085
+        BYTE   W01
+        BYTE           BEND    c_v-36
+        BYTE   W01
+        BYTE                   c_v-23
+        BYTE   W01
+        BYTE                   c_v-12
+        BYTE   W01
+        BYTE                   c_v+0
+        BYTE   W90
+        BYTE   W01
+        BYTE                   c_v-61
+        BYTE   W01
+// 008   ----------------------------------------
+        BYTE                   c_v-51
+        BYTE   W01
+        BYTE                   c_v-36
+        BYTE   W01
+        BYTE                   c_v-23
+        BYTE   W01
+        BYTE                   c_v-12
+        BYTE   W01
+        BYTE                   c_v+0
+        BYTE   W42
+        BYTE   W01
+        BYTE           EOT
+        BYTE   W48
+        BYTE   W01
+// 009   ----------------------------------------
+        BYTE   W96
+// 010   ----------------------------------------
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE   W96
+// 012   ----------------------------------------
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+        BYTE   W96
+// 016   ----------------------------------------
+        BYTE   W96
+// 017   ----------------------------------------
+        BYTE   W96
+// 018   ----------------------------------------
+        BYTE   W96
+// 019   ----------------------------------------
+        BYTE   W96
+// 020   ----------------------------------------
+        BYTE   W21
+        BYTE           PAN     c_v-15
+        BYTE   W72
+        BYTE   W02
+        BYTE           BEND    c_v-61
+        BYTE   W01
+// 021   ----------------------------------------
+TreasureTown_3_21:
+        BYTE           BEND    c_v-51
+        BYTE           N92     An3   v085   gtp3
+        BYTE   W01
+        BYTE           BEND    c_v-36
+        BYTE   W01
+        BYTE                   c_v-23
+        BYTE   W01
+        BYTE                   c_v-12
+        BYTE   W01
+        BYTE                   c_v+0
+        BYTE   W90
+        BYTE   W01
+        BYTE                   c_v-61
+        BYTE   W01
+        BYTE   PEND
+// 022   ----------------------------------------
+TreasureTown_3_22:
+        BYTE           BEND    c_v-51
+        BYTE           N44     An3   v085   gtp3
+        BYTE   W01
+        BYTE           BEND    c_v-36
+        BYTE   W01
+        BYTE                   c_v-23
+        BYTE   W01
+        BYTE                   c_v-12
+        BYTE   W01
+        BYTE                   c_v+0
+        BYTE   W92
+        BYTE   PEND
+// 023   ----------------------------------------
+TreasureTown_3_LOOP:
+        BYTE   W96
+// 024   ----------------------------------------
+        BYTE   W96
+// 025   ----------------------------------------
+        BYTE   W96
+// 026   ----------------------------------------
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE   W96
+// 028   ----------------------------------------
+        BYTE   W96
+// 029   ----------------------------------------
+        BYTE   W96
+// 030   ----------------------------------------
+        BYTE   W96
+// 031   ----------------------------------------
+        BYTE   W96
+// 032   ----------------------------------------
+        BYTE   W96
+// 033   ----------------------------------------
+        BYTE   W96
+// 034   ----------------------------------------
+        BYTE   W92
+        BYTE   W03
+        BYTE           BEND    c_v-61
+        BYTE   W01
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_3_21
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_3_22
+// 037   ----------------------------------------
+        BYTE   GoTo
+         POIN2  TreasureTown_3_LOOP
+        BYTE   W96
+// 038   ----------------------------------------
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   W96
+// 040   ----------------------------------------
+        BYTE   W96
+// 041   ----------------------------------------
+        BYTE   W96
+// 042   ----------------------------------------
+        BYTE   W92
+        BYTE   W03
+        BYTE   FINE
+
+//****************** Track 4 (Midi-Chn.4) ******************//
+
+TreasureTown_4:
+        BYTE   KEYSH   TreasureTown_key+0
+// 000   ----------------------------------------
+        BYTE   W24
+// 001   ----------------------------------------
+        BYTE           VOICE   75
+        BYTE           VOL     55
+        BYTE           PAN     c_v-10
+        BYTE           BEND    c_v-51
+        BYTE           TIE     Dn3   v085
+        BYTE   W01
+        BYTE           BEND    c_v-36
+        BYTE   W01
+        BYTE                   c_v-23
+        BYTE   W01
+        BYTE                   c_v-12
+        BYTE   W01
+        BYTE                   c_v+0
+        BYTE   W92
+// 002   ----------------------------------------
+TreasureTown_4_2:
+        BYTE   W68
+        BYTE   W03
+        BYTE           EOT     Dn3
+        BYTE   W24
+        BYTE           BEND    c_v-61
+        BYTE   W01
+        BYTE   PEND
+// 003   ----------------------------------------
+TreasureTown_4_3:
+        BYTE           BEND    c_v-51
+        BYTE           TIE     Dn3   v085
+        BYTE   W01
+        BYTE           BEND    c_v-36
+        BYTE   W01
+        BYTE                   c_v-23
+        BYTE   W01
+        BYTE                   c_v-12
+        BYTE   W01
+        BYTE                   c_v+0
+        BYTE   W92
+        BYTE   PEND
+// 004   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_4_2
+// 005   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_4_3
+// 006   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_4_2
+// 007   ----------------------------------------
+        BYTE           BEND    c_v-51
+        BYTE           TIE     Dn3   v085
+        BYTE   W01
+        BYTE           BEND    c_v-36
+        BYTE   W01
+        BYTE                   c_v-23
+        BYTE   W01
+        BYTE                   c_v-12
+        BYTE   W01
+        BYTE                   c_v+0
+        BYTE   W90
+        BYTE   W01
+        BYTE                   c_v-61
+        BYTE   W01
+// 008   ----------------------------------------
+        BYTE                   c_v-51
+        BYTE   W01
+        BYTE                   c_v-36
+        BYTE   W01
+        BYTE                   c_v-23
+        BYTE   W01
+        BYTE                   c_v-12
+        BYTE   W01
+        BYTE                   c_v+0
+        BYTE   W42
+        BYTE   W01
+        BYTE           EOT
+        BYTE   W48
+        BYTE   W01
+// 009   ----------------------------------------
+        BYTE   W96
+// 010   ----------------------------------------
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE   W96
+// 012   ----------------------------------------
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+        BYTE   W96
+// 016   ----------------------------------------
+        BYTE   W96
+// 017   ----------------------------------------
+        BYTE   W96
+// 018   ----------------------------------------
+        BYTE   W96
+// 019   ----------------------------------------
+        BYTE   W96
+// 020   ----------------------------------------
+        BYTE   W24
+        BYTE   W03
+        BYTE           PAN     c_v+15
+        BYTE   W68
+        BYTE           BEND    c_v-61
+        BYTE   W01
+// 021   ----------------------------------------
+TreasureTown_4_21:
+        BYTE           BEND    c_v-51
+        BYTE           N92     En4   v085   gtp3
+        BYTE   W01
+        BYTE           BEND    c_v-36
+        BYTE   W01
+        BYTE                   c_v-23
+        BYTE   W01
+        BYTE                   c_v-12
+        BYTE   W01
+        BYTE                   c_v+0
+        BYTE   W90
+        BYTE   W01
+        BYTE                   c_v-61
+        BYTE   W01
+        BYTE   PEND
+// 022   ----------------------------------------
+TreasureTown_4_22:
+        BYTE           BEND    c_v-51
+        BYTE           N44     En4   v085   gtp3
+        BYTE   W01
+        BYTE           BEND    c_v-36
+        BYTE   W01
+        BYTE                   c_v-23
+        BYTE   W01
+        BYTE                   c_v-12
+        BYTE   W01
+        BYTE                   c_v+0
+        BYTE   W92
+        BYTE   PEND
+// 023   ----------------------------------------
+TreasureTown_4_LOOP:
+        BYTE   W96
+// 024   ----------------------------------------
+        BYTE   W96
+// 025   ----------------------------------------
+        BYTE   W96
+// 026   ----------------------------------------
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE   W96
+// 028   ----------------------------------------
+        BYTE   W96
+// 029   ----------------------------------------
+        BYTE   W96
+// 030   ----------------------------------------
+        BYTE   W96
+// 031   ----------------------------------------
+        BYTE   W96
+// 032   ----------------------------------------
+        BYTE   W96
+// 033   ----------------------------------------
+        BYTE   W96
+// 034   ----------------------------------------
+        BYTE   W92
+        BYTE   W03
+        BYTE           BEND    c_v-61
+        BYTE   W01
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_4_21
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_4_22
+// 037   ----------------------------------------
+        BYTE   GoTo
+         POIN2  TreasureTown_4_LOOP
+        BYTE   W96
+// 038   ----------------------------------------
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   W96
+// 040   ----------------------------------------
+        BYTE   W96
+// 041   ----------------------------------------
+        BYTE   W96
+// 042   ----------------------------------------
+        BYTE   W92
+        BYTE   W03
+        BYTE   FINE
+
+//****************** Track 5 (Midi-Chn.5) ******************//
+
+TreasureTown_5:
+        BYTE   KEYSH   TreasureTown_key+0
+// 000   ----------------------------------------
+        BYTE   W24
+// 001   ----------------------------------------
+        BYTE           VOICE   48
+        BYTE           VOL     61
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+        BYTE   W96
+// 009   ----------------------------------------
+        BYTE   W96
+// 010   ----------------------------------------
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE   W96
+// 012   ----------------------------------------
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+        BYTE   W96
+// 016   ----------------------------------------
+TreasureTown_5_16:
+        BYTE           N23     Bn2   v090
+        BYTE   W24
+        BYTE                   Cs3
+        BYTE   W24
+        BYTE                   Dn3
+        BYTE   W48
+        BYTE   PEND
+// 017   ----------------------------------------
+TreasureTown_5_17:
+        BYTE           N44     Gn2   v086   gtp3
+        BYTE   W48
+        BYTE                   Fs2
+        BYTE   W48
+        BYTE   PEND
+// 018   ----------------------------------------
+TreasureTown_5_18:
+        BYTE           N44     Gn2   v083   gtp3
+        BYTE   W48
+        BYTE           N44     Fs2   v083   gtp2
+        BYTE   W48
+        BYTE   PEND
+// 019   ----------------------------------------
+TreasureTown_5_19:
+        BYTE           N12     Gn2   v100
+        BYTE           N12     Dn3
+        BYTE           N12     Bn3
+        BYTE   W24
+        BYTE                   An2
+        BYTE           N12     En3
+        BYTE           N12     Cs4
+        BYTE   W24
+        BYTE           N23     Bn2   v085
+        BYTE           N23     Fs3
+        BYTE           N23     Dn4
+        BYTE   W24
+        BYTE                   Fs2
+        BYTE   W24
+        BYTE   PEND
+// 020   ----------------------------------------
+TreasureTown_5_20:
+        BYTE           N36     Gn2   v085
+        BYTE   W48
+        BYTE           N11
+        BYTE           N11     Bn3
+        BYTE   W24
+        BYTE                   Gs2
+        BYTE           N12     Bn3
+        BYTE   W24
+        BYTE   PEND
+// 021   ----------------------------------------
+        BYTE           TIE     An2
+        BYTE   W96
+// 022   ----------------------------------------
+        BYTE   W48
+        BYTE   W01
+        BYTE           EOT
+        BYTE   W44
+        BYTE   W03
+// 023   ----------------------------------------
+TreasureTown_5_LOOP:
+        BYTE   W96
+// 024   ----------------------------------------
+        BYTE   W96
+// 025   ----------------------------------------
+        BYTE   W96
+// 026   ----------------------------------------
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE   W96
+// 028   ----------------------------------------
+        BYTE   W96
+// 029   ----------------------------------------
+        BYTE   W96
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_5_16
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_5_17
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_5_18
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_5_19
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_5_20
+// 035   ----------------------------------------
+        BYTE           TIE     An2   v085
+        BYTE   W96
+// 036   ----------------------------------------
+        BYTE   W48
+        BYTE   W01
+        BYTE           EOT
+        BYTE   W44
+        BYTE   W03
+// 037   ----------------------------------------
+        BYTE   GoTo
+         POIN2  TreasureTown_5_LOOP
+        BYTE   W96
+// 038   ----------------------------------------
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   W96
+// 040   ----------------------------------------
+        BYTE   W96
+// 041   ----------------------------------------
+        BYTE   W96
+// 042   ----------------------------------------
+        BYTE   W92
+        BYTE   W03
+        BYTE   FINE
+
+//****************** Track 6 (Midi-Chn.6) ******************//
+
+TreasureTown_6:
+        BYTE   KEYSH   TreasureTown_key+0
+// 000   ----------------------------------------
+        BYTE   W24
+// 001   ----------------------------------------
+        BYTE           VOICE   48
+        BYTE           VOL     55
+        BYTE           TIE     Dn3   v095
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W68
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W24
+        BYTE   W01
+// 003   ----------------------------------------
+        BYTE           TIE
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE   W68
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W24
+        BYTE   W01
+// 005   ----------------------------------------
+        BYTE           TIE
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W68
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W24
+        BYTE   W01
+// 007   ----------------------------------------
+        BYTE           TIE
+        BYTE   W96
+// 008   ----------------------------------------
+        BYTE   W44
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W48
+        BYTE   W01
+// 009   ----------------------------------------
+        BYTE   W96
+// 010   ----------------------------------------
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE   W36
+        BYTE   W03
+        BYTE           VOL     61
+        BYTE           PAN     c_v-30
+        BYTE   W56
+        BYTE   W01
+// 012   ----------------------------------------
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   W60
+        BYTE           N11     Bn3   v091
+        BYTE   W12
+        BYTE                   An3
+        BYTE   W12
+        BYTE                   Bn3
+        BYTE   W12
+// 015   ----------------------------------------
+TreasureTown_6_15:
+        BYTE           N44     An3   v091   gtp3
+        BYTE   W48
+        BYTE           N23     An2   v090
+        BYTE   W24
+        BYTE                   Cs3
+        BYTE   W24
+        BYTE   PEND
+// 016   ----------------------------------------
+TreasureTown_6_16:
+        BYTE           N23     Dn3   v091
+        BYTE   W24
+        BYTE                   En3
+        BYTE   W24
+        BYTE                   Fs3
+        BYTE   W48
+        BYTE   PEND
+// 017   ----------------------------------------
+TreasureTown_6_17:
+        BYTE           N44     Dn3   v083   gtp3
+        BYTE   W48
+        BYTE                   Dn3
+        BYTE   W48
+        BYTE   PEND
+// 018   ----------------------------------------
+TreasureTown_6_18:
+        BYTE           N23     Bn2   v081
+        BYTE   W24
+        BYTE                   Cs3   v083
+        BYTE   W24
+        BYTE           N44     Dn3   v083   gtp2
+        BYTE   W48
+        BYTE   PEND
+// 019   ----------------------------------------
+TreasureTown_6_19:
+        BYTE   W72
+        BYTE           N23     Dn3   v085
+        BYTE   W24
+        BYTE   PEND
+// 020   ----------------------------------------
+TreasureTown_6_20:
+        BYTE           N36     Dn3   v085
+        BYTE   W48
+        BYTE           N11
+        BYTE   W24
+        BYTE                   Dn3
+        BYTE   W24
+        BYTE   PEND
+// 021   ----------------------------------------
+        BYTE           TIE     En3
+        BYTE   W96
+// 022   ----------------------------------------
+        BYTE   W48
+        BYTE   W01
+        BYTE           EOT
+        BYTE   W44
+        BYTE   W03
+// 023   ----------------------------------------
+TreasureTown_6_LOOP:
+        BYTE   W96
+// 024   ----------------------------------------
+        BYTE   W96
+// 025   ----------------------------------------
+        BYTE   W96
+// 026   ----------------------------------------
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE   W96
+// 028   ----------------------------------------
+        BYTE   W60
+        BYTE           N11     Bn3   v101
+        BYTE   W12
+        BYTE                   An3
+        BYTE   W12
+        BYTE                   Bn3
+        BYTE   W12
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_6_15
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_6_16
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_6_17
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_6_18
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_6_19
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_6_20
+// 035   ----------------------------------------
+        BYTE           TIE     En3   v085
+        BYTE   W96
+// 036   ----------------------------------------
+        BYTE   W48
+        BYTE   W01
+        BYTE           EOT
+        BYTE   W44
+        BYTE   W03
+// 037   ----------------------------------------
+        BYTE   GoTo
+         POIN2  TreasureTown_6_LOOP
+        BYTE   W96
+// 038   ----------------------------------------
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   W96
+// 040   ----------------------------------------
+        BYTE   W96
+// 041   ----------------------------------------
+        BYTE   W96
+// 042   ----------------------------------------
+        BYTE   W60
+        BYTE           N11     Bn3   v101
+        BYTE   W12
+        BYTE                   An3
+        BYTE   W12
+        BYTE                   Bn3
+        BYTE   W11
+        BYTE   FINE
+
+//****************** Track 7 (Midi-Chn.7) ******************//
+
+TreasureTown_7:
+        BYTE   KEYSH   TreasureTown_key+0
+// 000   ----------------------------------------
+        BYTE   W24
+// 001   ----------------------------------------
+        BYTE           VOICE   48
+        BYTE           VOL     55
+        BYTE           TIE     An2   v095
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W68
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W24
+        BYTE   W01
+// 003   ----------------------------------------
+        BYTE           TIE
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE   W68
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W24
+        BYTE   W01
+// 005   ----------------------------------------
+        BYTE           TIE
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W68
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W24
+        BYTE   W01
+// 007   ----------------------------------------
+        BYTE           TIE
+        BYTE   W96
+// 008   ----------------------------------------
+        BYTE   W44
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W48
+        BYTE   W01
+// 009   ----------------------------------------
+        BYTE   W96
+// 010   ----------------------------------------
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE   W42
+        BYTE   W01
+        BYTE           VOL     61
+        BYTE           PAN     c_v+30
+        BYTE   W52
+        BYTE   W01
+// 012   ----------------------------------------
+        BYTE   W60
+        BYTE           N11     Dn3   v090
+        BYTE   W12
+        BYTE                   Fs3
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+// 013   ----------------------------------------
+        BYTE           N44     An3   v090   gtp3
+        BYTE   W60
+        BYTE           N11
+        BYTE   W12
+        BYTE                   Dn4
+        BYTE   W12
+        BYTE                   Cs4
+        BYTE   W12
+// 014   ----------------------------------------
+        BYTE           N56     An3   v090   gtp3
+        BYTE   W60
+        BYTE           N11     Dn4
+        BYTE   W12
+        BYTE                   Cs4
+        BYTE   W12
+        BYTE                   Dn4
+        BYTE   W12
+// 015   ----------------------------------------
+TreasureTown_7_15:
+        BYTE           N44     Fs4   v090   gtp3
+        BYTE   W48
+        BYTE           N23     Cs4
+        BYTE   W24
+        BYTE                   En4
+        BYTE   W24
+        BYTE   PEND
+// 016   ----------------------------------------
+TreasureTown_7_16:
+        BYTE           N23     Bn3   v090
+        BYTE   W24
+        BYTE                   Cs4
+        BYTE   W24
+        BYTE                   Dn4
+        BYTE   W48
+        BYTE   PEND
+// 017   ----------------------------------------
+TreasureTown_7_17:
+        BYTE           N44     An3   v077   gtp3
+        BYTE   W48
+        BYTE                   An3   v076
+        BYTE   W48
+        BYTE   PEND
+// 018   ----------------------------------------
+TreasureTown_7_18:
+        BYTE           N23     Bn3   v081
+        BYTE   W24
+        BYTE                   An3
+        BYTE   W24
+        BYTE           N44     An3   v083   gtp2
+        BYTE   W48
+        BYTE   PEND
+// 019   ----------------------------------------
+TreasureTown_7_19:
+        BYTE   W72
+        BYTE           N23     An3   v085
+        BYTE   W24
+        BYTE   PEND
+// 020   ----------------------------------------
+TreasureTown_7_20:
+        BYTE           N36     Bn3   v085
+        BYTE   W48
+        BYTE           N11     Gn3
+        BYTE   W24
+        BYTE           N12     Gs3
+        BYTE   W24
+        BYTE   PEND
+// 021   ----------------------------------------
+        BYTE           TIE     An3
+        BYTE   W96
+// 022   ----------------------------------------
+        BYTE   W48
+        BYTE   W01
+        BYTE           EOT
+        BYTE   W44
+        BYTE   W03
+// 023   ----------------------------------------
+TreasureTown_7_LOOP:
+        BYTE   W96
+// 024   ----------------------------------------
+        BYTE   W96
+// 025   ----------------------------------------
+        BYTE   W96
+// 026   ----------------------------------------
+TreasureTown_7_26:
+        BYTE   W60
+        BYTE           N11     Dn3   v100
+        BYTE   W12
+        BYTE                   Fs3
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+        BYTE   PEND
+// 027   ----------------------------------------
+TreasureTown_7_27:
+        BYTE           N44     An3   v100   gtp3
+        BYTE   W60
+        BYTE           N11
+        BYTE   W12
+        BYTE                   Dn4
+        BYTE   W12
+        BYTE                   Cs4
+        BYTE   W12
+        BYTE   PEND
+// 028   ----------------------------------------
+        BYTE           N56     An3   v100   gtp3
+        BYTE   W60
+        BYTE           N11     Dn4
+        BYTE   W12
+        BYTE                   Cs4
+        BYTE   W12
+        BYTE                   Dn4
+        BYTE   W12
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_7_15
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_7_16
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_7_17
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_7_18
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_7_19
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_7_20
+// 035   ----------------------------------------
+        BYTE           TIE     An3   v085
+        BYTE   W96
+// 036   ----------------------------------------
+        BYTE   W48
+        BYTE   W01
+        BYTE           EOT
+        BYTE   W44
+        BYTE   W03
+// 037   ----------------------------------------
+        BYTE   GoTo
+         POIN2  TreasureTown_7_LOOP
+        BYTE   W96
+// 038   ----------------------------------------
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   W96
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_7_26
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_7_27
+// 042   ----------------------------------------
+        BYTE           N56     An3   v100   gtp3
+        BYTE   W60
+        BYTE           N11     Dn4
+        BYTE   W12
+        BYTE                   Cs4
+        BYTE   W12
+        BYTE                   Dn4
+        BYTE   W11
+        BYTE   FINE
+
+//****************** Track 8 (Midi-Chn.8) ******************//
+
+TreasureTown_8:
+        BYTE   KEYSH   TreasureTown_key+0
+// 000   ----------------------------------------
+        BYTE   W24
+// 001   ----------------------------------------
+        BYTE           VOICE   0
+        BYTE           VOL     61
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+        BYTE   W96
+// 009   ----------------------------------------
+        BYTE   W96
+// 010   ----------------------------------------
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE   W96
+// 012   ----------------------------------------
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+        BYTE   W96
+// 016   ----------------------------------------
+TreasureTown_8_16:
+        BYTE   W80
+        BYTE   W02
+        BYTE           N04     Cs3   v030
+        BYTE   W02
+        BYTE           N08     Dn3   v071
+        BYTE   W08
+        BYTE           N03     Cs3   v078
+        BYTE   W04
+        BYTE   PEND
+// 017   ----------------------------------------
+TreasureTown_8_17:
+        BYTE           N11     Bn2   v071
+        BYTE   W12
+        BYTE           N07     Dn3
+        BYTE   W08
+        BYTE           N03     Cs3   v013
+        BYTE   W04
+        BYTE           N11     Dn3   v071
+        BYTE   W12
+        BYTE                   Bn3   v091
+        BYTE   W10
+        BYTE           N04     Gn3   v020
+        BYTE   W02
+        BYTE           N24     An3   v071
+        BYTE   W24
+        BYTE                   Fs3
+        BYTE   W22
+        BYTE           N04     An3   v023
+        BYTE   W02
+        BYTE   PEND
+// 018   ----------------------------------------
+TreasureTown_8_18:
+        BYTE           N11     Gn3   v069
+        BYTE   W12
+        BYTE                   Fs3   v071
+        BYTE   W10
+        BYTE           N04     Dn3   v046
+        BYTE   W02
+        BYTE           N11     En3   v078
+        BYTE   W12
+        BYTE           N07     Dn3
+        BYTE   W08
+        BYTE           N03     En3   v058
+        BYTE   W02
+        BYTE           N04     An3   v030
+        BYTE   W02
+        BYTE           N23     Fs3   v078
+        BYTE   W48
+        BYTE   PEND
+// 019   ----------------------------------------
+        BYTE   W96
+// 020   ----------------------------------------
+        BYTE   W96
+// 021   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_2_21
+// 022   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_2_22
+// 023   ----------------------------------------
+TreasureTown_8_LOOP:
+        BYTE   W96
+// 024   ----------------------------------------
+        BYTE   W96
+// 025   ----------------------------------------
+        BYTE   W96
+// 026   ----------------------------------------
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE   W96
+// 028   ----------------------------------------
+        BYTE   W96
+// 029   ----------------------------------------
+        BYTE   W96
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_8_16
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_8_17
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_8_18
+// 033   ----------------------------------------
+        BYTE   W96
+// 034   ----------------------------------------
+        BYTE   W96
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_2_21
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_2_22
+// 037   ----------------------------------------
+        BYTE   GoTo
+         POIN2  TreasureTown_8_LOOP
+        BYTE   W96
+// 038   ----------------------------------------
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   W96
+// 040   ----------------------------------------
+        BYTE   W96
+// 041   ----------------------------------------
+        BYTE   W96
+// 042   ----------------------------------------
+        BYTE   W92
+        BYTE   W03
+        BYTE   FINE
+
+//***************** Track 9 (Midi-Chn.10) ******************//
+
+TreasureTown_9:
+        BYTE   KEYSH   TreasureTown_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   57
+        BYTE   W24
+// 001   ----------------------------------------
+        BYTE           VOL     71
+        BYTE           PAN     c_v-30
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE   W92
+        BYTE   W02
+        BYTE           N92     An2   v050   gtp3
+        BYTE   W02
+// 005   ----------------------------------------
+        BYTE           N92     An3   v075   gtp1
+        BYTE   W92
+        BYTE   W02
+        BYTE           N72     An2   v050   gtp2
+        BYTE   W02
+// 006   ----------------------------------------
+        BYTE           N72     An3   v075
+        BYTE   W72
+        BYTE           N02     An2   v070
+        BYTE           N02     An3   v050
+        BYTE   W12
+        BYTE                   An2   v070
+        BYTE           N02     An3   v050
+        BYTE   W10
+        BYTE           N92     An2   v050   gtp3
+        BYTE   W02
+// 007   ----------------------------------------
+        BYTE           N92     An3   v075   gtp1
+        BYTE   W92
+        BYTE   W02
+        BYTE           N48     An2   v050   gtp3
+        BYTE   W02
+// 008   ----------------------------------------
+        BYTE           N48     An3   v075   gtp1
+        BYTE   W96
+// 009   ----------------------------------------
+TreasureTown_9_9:
+        BYTE           N07     Fs2   v040
+        BYTE           N07     Dn3   v060
+        BYTE   W24
+        BYTE           N02     Fs2   v040
+        BYTE           N02     Dn3   v060
+        BYTE   W12
+        BYTE                   Fs2   v040
+        BYTE           N02     Dn3   v060
+        BYTE   W12
+        BYTE           N07     Gn2   v040
+        BYTE           N07     Dn3   v060
+        BYTE   W24
+        BYTE           N02     Gn2   v040
+        BYTE           N02     Dn3   v060
+        BYTE   W12
+        BYTE                   Gn2   v040
+        BYTE           N02     Dn3   v060
+        BYTE   W12
+        BYTE   PEND
+// 010   ----------------------------------------
+TreasureTown_9_10:
+        BYTE           N07     Fs2   v040
+        BYTE           N07     Dn3   v060
+        BYTE   W24
+        BYTE           N02     Fs2   v040
+        BYTE           N02     Dn3   v060
+        BYTE   W12
+        BYTE                   Fs2   v040
+        BYTE           N02     Dn3   v060
+        BYTE   W12
+        BYTE                   En2   v040
+        BYTE           N02     Cs3   v060
+        BYTE   W24
+        BYTE           N11     En2   v040
+        BYTE           N11     Cs3   v060
+        BYTE   W24
+        BYTE   PEND
+// 011   ----------------------------------------
+TreasureTown_9_11:
+        BYTE           N07     Fs2   v040
+        BYTE           N07     Dn3   v060
+        BYTE   W24
+        BYTE           N02     Fs2   v040
+        BYTE           N02     Dn3   v060
+        BYTE   W12
+        BYTE                   Fs2   v040
+        BYTE           N02     Dn3   v060
+        BYTE   W12
+        BYTE           N07     En2   v040
+        BYTE           N07     Cs3   v060
+        BYTE   W24
+        BYTE           N11     En2   v040
+        BYTE           N11     Cs3   v060
+        BYTE   W24
+        BYTE   PEND
+// 012   ----------------------------------------
+TreasureTown_9_12:
+        BYTE           N07     Dn2   v040
+        BYTE           N07     Bn2   v060
+        BYTE   W24
+        BYTE                   En2   v040
+        BYTE           N07     Cs3   v060
+        BYTE   W24
+        BYTE           N02     Dn2   v040
+        BYTE           N02     An2   v060
+        BYTE   W12
+        BYTE                   Cs2   v040
+        BYTE           N02     An2   v060
+        BYTE   W12
+        BYTE           N11     Dn2   v040
+        BYTE           N11     An2   v060
+        BYTE   W24
+        BYTE   PEND
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_9_9
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_9_10
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_9_11
+// 016   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_9_12
+// 017   ----------------------------------------
+        BYTE   W96
+// 018   ----------------------------------------
+        BYTE   W96
+// 019   ----------------------------------------
+        BYTE   W96
+// 020   ----------------------------------------
+        BYTE   W96
+// 021   ----------------------------------------
+        BYTE   W96
+// 022   ----------------------------------------
+        BYTE   W96
+// 023   ----------------------------------------
+TreasureTown_9_LOOP:
+        BYTE           N07     Fs2   v040
+        BYTE           N07     Dn3   v060
+        BYTE   W24
+        BYTE           N02     Fs2   v040
+        BYTE           N02     Dn3   v060
+        BYTE   W12
+        BYTE                   Fs2   v040
+        BYTE           N02     Dn3   v060
+        BYTE   W12
+        BYTE           N07     Gn2   v040
+        BYTE           N07     Dn3   v060
+        BYTE   W24
+        BYTE           N02     Gn2   v040
+        BYTE           N02     Dn3   v060
+        BYTE   W12
+        BYTE                   Gn2   v040
+        BYTE           N02     Dn3   v060
+        BYTE   W12
+// 024   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_9_10
+// 025   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_9_11
+// 026   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_9_12
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_9_9
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_9_10
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_9_11
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_9_12
+// 031   ----------------------------------------
+        BYTE   W96
+// 032   ----------------------------------------
+        BYTE   W96
+// 033   ----------------------------------------
+        BYTE   W96
+// 034   ----------------------------------------
+        BYTE   W96
+// 035   ----------------------------------------
+        BYTE   W96
+// 036   ----------------------------------------
+        BYTE   W96
+// 037   ----------------------------------------
+        BYTE           N07     Fs2   v040
+        BYTE           N07     Dn3   v060
+        BYTE   GoTo
+         POIN2  TreasureTown_9_LOOP
+        BYTE   W24
+        BYTE           N02     Fs2   v040
+        BYTE           N02     Dn3   v060
+        BYTE   W12
+        BYTE                   Fs2   v040
+        BYTE           N02     Dn3   v060
+        BYTE   W12
+        BYTE           N07     Gn2   v040
+        BYTE           N07     Dn3   v060
+        BYTE   W24
+        BYTE           N02     Gn2   v040
+        BYTE           N02     Dn3   v060
+        BYTE   W12
+        BYTE                   Gn2   v040
+        BYTE           N02     Dn3   v060
+        BYTE   W12
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_9_10
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_9_11
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_9_12
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_9_9
+// 042   ----------------------------------------
+        BYTE           N07     Fs2   v040
+        BYTE           N07     Dn3   v060
+        BYTE   W24
+        BYTE           N02     Fs2   v040
+        BYTE           N02     Dn3   v060
+        BYTE   W12
+        BYTE                   Fs2   v040
+        BYTE           N02     Dn3   v060
+        BYTE   W12
+        BYTE                   En2   v040
+        BYTE           N02     Cs3   v060
+        BYTE   W24
+        BYTE           N11     En2   v040
+        BYTE           N11     Cs3   v060
+        BYTE   W23
+        BYTE   FINE
+
+//***************** Track 10 (Midi-Chn.11) *****************//
+
+TreasureTown_10:
+        BYTE   KEYSH   TreasureTown_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   57
+        BYTE   W24
+// 001   ----------------------------------------
+        BYTE           VOL     71
+        BYTE           PAN     c_v+30
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE   W92
+        BYTE   W03
+        BYTE           N92     Dn3   v065   gtp2
+        BYTE   W01
+// 005   ----------------------------------------
+        BYTE   W01
+        BYTE           N92     Dn4   v085
+        BYTE   W92
+        BYTE   W02
+        BYTE           N72     Dn3   v065   gtp1
+        BYTE   W01
+// 006   ----------------------------------------
+        BYTE   W01
+        BYTE           N68     Dn4   v085   gtp2
+        BYTE   W68
+        BYTE   W03
+        BYTE           N02     Dn3   v070
+        BYTE           N02     Dn4   v050
+        BYTE   W12
+        BYTE                   Dn3   v070
+        BYTE           N02     Dn4   v050
+        BYTE   W11
+        BYTE           N92     Dn3   v065   gtp2
+        BYTE   W01
+// 007   ----------------------------------------
+        BYTE   W01
+        BYTE           N92     Dn4   v085
+        BYTE   W92
+        BYTE   W02
+        BYTE           N48     Dn3   v065   gtp2
+        BYTE   W01
+// 008   ----------------------------------------
+        BYTE   W01
+        BYTE           N48     Dn4   v085
+        BYTE   W92
+        BYTE   W03
+// 009   ----------------------------------------
+TreasureTown_10_9:
+        BYTE           N07     An2   v060
+        BYTE           N07     Fs3   v070
+        BYTE   W24
+        BYTE           N02     An2   v060
+        BYTE           N02     Fs3   v070
+        BYTE   W12
+        BYTE                   An2   v060
+        BYTE           N02     Fs3   v070
+        BYTE   W12
+        BYTE           N07     Bn2   v060
+        BYTE           N07     Gn3   v070
+        BYTE   W24
+        BYTE           N02     Bn2   v060
+        BYTE           N02     Gn3   v070
+        BYTE   W12
+        BYTE                   Bn2   v060
+        BYTE           N02     Gn3   v070
+        BYTE   W12
+        BYTE   PEND
+// 010   ----------------------------------------
+TreasureTown_10_10:
+        BYTE           N07     An2   v060
+        BYTE           N07     Fs3   v070
+        BYTE   W24
+        BYTE           N02     An2   v060
+        BYTE           N02     Fs3   v070
+        BYTE   W12
+        BYTE                   An2   v060
+        BYTE           N02     Fs3   v070
+        BYTE   W12
+        BYTE                   An2   v060
+        BYTE           N02     En3   v070
+        BYTE   W24
+        BYTE           N11     An2   v060
+        BYTE           N11     En3   v070
+        BYTE   W24
+        BYTE   PEND
+// 011   ----------------------------------------
+TreasureTown_10_11:
+        BYTE           N07     Bn2   v060
+        BYTE           N07     Fs3   v070
+        BYTE   W24
+        BYTE           N02     Bn2   v060
+        BYTE           N02     Fs3   v070
+        BYTE   W12
+        BYTE                   Bn2   v060
+        BYTE           N02     Fs3   v070
+        BYTE   W12
+        BYTE           N07     An2   v060
+        BYTE           N07     En3   v070
+        BYTE   W24
+        BYTE           N11     An2   v060
+        BYTE           N11     En3   v070
+        BYTE   W24
+        BYTE   PEND
+// 012   ----------------------------------------
+TreasureTown_10_12:
+        BYTE           N07     Gn2   v060
+        BYTE           N07     Dn3   v070
+        BYTE   W24
+        BYTE                   An2   v060
+        BYTE           N07     En3   v070
+        BYTE   W24
+        BYTE           N02     Fs2   v060
+        BYTE           N02     Dn3   v070
+        BYTE   W12
+        BYTE                   En2   v060
+        BYTE           N02     Cs3   v070
+        BYTE   W12
+        BYTE           N11     Fs2   v060
+        BYTE           N11     Dn3   v070
+        BYTE   W24
+        BYTE   PEND
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_10_9
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_10_10
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_10_11
+// 016   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_10_12
+// 017   ----------------------------------------
+        BYTE   W96
+// 018   ----------------------------------------
+        BYTE   W96
+// 019   ----------------------------------------
+        BYTE   W96
+// 020   ----------------------------------------
+        BYTE   W96
+// 021   ----------------------------------------
+        BYTE   W96
+// 022   ----------------------------------------
+        BYTE   W96
+// 023   ----------------------------------------
+TreasureTown_10_LOOP:
+        BYTE           N07     An2   v060
+        BYTE           N07     Fs3   v070
+        BYTE   W24
+        BYTE           N02     An2   v060
+        BYTE           N02     Fs3   v070
+        BYTE   W12
+        BYTE                   An2   v060
+        BYTE           N02     Fs3   v070
+        BYTE   W12
+        BYTE           N07     Bn2   v060
+        BYTE           N07     Gn3   v070
+        BYTE   W24
+        BYTE           N02     Bn2   v060
+        BYTE           N02     Gn3   v070
+        BYTE   W12
+        BYTE                   Bn2   v060
+        BYTE           N02     Gn3   v070
+        BYTE   W12
+// 024   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_10_10
+// 025   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_10_11
+// 026   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_10_12
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_10_9
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_10_10
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_10_11
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_10_12
+// 031   ----------------------------------------
+        BYTE   W96
+// 032   ----------------------------------------
+        BYTE   W96
+// 033   ----------------------------------------
+        BYTE   W96
+// 034   ----------------------------------------
+        BYTE   W96
+// 035   ----------------------------------------
+        BYTE   W96
+// 036   ----------------------------------------
+        BYTE   W96
+// 037   ----------------------------------------
+        BYTE           N07     An2   v060
+        BYTE           N07     Fs3   v070
+        BYTE   GoTo
+         POIN2  TreasureTown_10_LOOP
+        BYTE   W24
+        BYTE           N02     An2   v060
+        BYTE           N02     Fs3   v070
+        BYTE   W12
+        BYTE                   An2   v060
+        BYTE           N02     Fs3   v070
+        BYTE   W12
+        BYTE           N07     Bn2   v060
+        BYTE           N07     Gn3   v070
+        BYTE   W24
+        BYTE           N02     Bn2   v060
+        BYTE           N02     Gn3   v070
+        BYTE   W12
+        BYTE                   Bn2   v060
+        BYTE           N02     Gn3   v070
+        BYTE   W12
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_10_10
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_10_11
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_10_12
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_10_9
+// 042   ----------------------------------------
+        BYTE           N07     An2   v060
+        BYTE           N07     Fs3   v070
+        BYTE   W24
+        BYTE           N02     An2   v060
+        BYTE           N02     Fs3   v070
+        BYTE   W12
+        BYTE                   An2   v060
+        BYTE           N02     Fs3   v070
+        BYTE   W12
+        BYTE                   An2   v060
+        BYTE           N02     En3   v070
+        BYTE   W24
+        BYTE           N11     An2   v060
+        BYTE           N11     En3   v070
+        BYTE   W23
+        BYTE   FINE
+
+//***************** Track 11 (Midi-Chn.12) *****************//
+
+TreasureTown_11:
+        BYTE   KEYSH   TreasureTown_key+0
+// 000   ----------------------------------------
+        BYTE   W24
+// 001   ----------------------------------------
+        BYTE           VOICE   65
+        BYTE           VOL     67
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+        BYTE   W96
+// 009   ----------------------------------------
+TreasureTown_11_9:
+        BYTE           N06     Dn2   v110
+        BYTE   W24
+        BYTE                   An2
+        BYTE   W24
+        BYTE                   Gn2
+        BYTE   W24
+        BYTE                   Dn3
+        BYTE   W24
+        BYTE   PEND
+// 010   ----------------------------------------
+TreasureTown_11_10:
+        BYTE           N06     Dn2   v110
+        BYTE   W24
+        BYTE                   Dn3
+        BYTE   W24
+        BYTE                   An2
+        BYTE   W24
+        BYTE           N23
+        BYTE   W24
+        BYTE   PEND
+// 011   ----------------------------------------
+TreasureTown_11_11:
+        BYTE           N06     Bn2   v110
+        BYTE   W24
+        BYTE                   Fs2
+        BYTE   W24
+        BYTE                   An2
+        BYTE   W24
+        BYTE                   En2
+        BYTE   W24
+        BYTE   PEND
+// 012   ----------------------------------------
+TreasureTown_11_12:
+        BYTE           N06     Gn2   v110
+        BYTE   W24
+        BYTE                   An2
+        BYTE   W24
+        BYTE                   Dn2
+        BYTE   W24
+        BYTE           N23     An1
+        BYTE   W24
+        BYTE   PEND
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_11_9
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_11_10
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_11_11
+// 016   ----------------------------------------
+TreasureTown_11_16:
+        BYTE           N06     Gn2   v110
+        BYTE   W24
+        BYTE                   An2
+        BYTE   W24
+        BYTE                   Dn2
+        BYTE   W24
+        BYTE           N23
+        BYTE   W24
+        BYTE   PEND
+// 017   ----------------------------------------
+        BYTE   W96
+// 018   ----------------------------------------
+TreasureTown_11_18:
+        BYTE   W80
+        BYTE           VOICE   0
+        BYTE   W01
+        BYTE           VOL     55
+        BYTE   W15
+        BYTE   PEND
+// 019   ----------------------------------------
+TreasureTown_11_19:
+        BYTE           N10     Bn3   v110
+        BYTE           N10     Dn4
+        BYTE           N10     Gn4
+        BYTE   W24
+        BYTE                   Cs4
+        BYTE           N10     En4
+        BYTE           N10     An4
+        BYTE   W24
+        BYTE                   Dn4
+        BYTE           N10     Fs4
+        BYTE           N10     Bn4
+        BYTE   W24
+        BYTE                   Dn4
+        BYTE           N10     Fs4
+        BYTE           N10     An4
+        BYTE   W23
+        BYTE           N16     Bn3   v081
+        BYTE   W01
+        BYTE   PEND
+// 020   ----------------------------------------
+TreasureTown_11_20:
+        BYTE           N15     Dn4   v091
+        BYTE   W01
+        BYTE           N14     Gn4   v101
+        BYTE   W20
+        BYTE           N02     Bn3   v100
+        BYTE           N02     Dn4
+        BYTE   W03
+        BYTE                   Dn4
+        BYTE           N02     Gn4
+        BYTE   W12
+        BYTE                   Bn3
+        BYTE           N02     Dn4
+        BYTE   W12
+        BYTE           N11     Gn4   v101
+        BYTE           N12     Dn4   v091
+        BYTE           N13     Bn3   v081
+        BYTE   W24
+        BYTE           N11     Gs4   v101
+        BYTE           N12     Dn4   v091
+        BYTE           N13     Bn3   v081
+        BYTE   W23
+        BYTE           N42     An3   v081   gtp1
+        BYTE   W01
+        BYTE   PEND
+// 021   ----------------------------------------
+TreasureTown_11_21:
+        BYTE           N42     En4   v091
+        BYTE   W01
+        BYTE           N40     An4   v101   gtp1
+        BYTE   W44
+        BYTE   W02
+        BYTE           N24     En4   v091
+        BYTE           N24     An3   v081   gtp1
+        BYTE   W01
+        BYTE           N23     An4   v101
+        BYTE   W24
+        BYTE           N01     An3   v100
+        BYTE           N02     En4
+        BYTE           N02     An4
+        BYTE   W12
+        BYTE                   An3
+        BYTE           N02     En4
+        BYTE           N02     An4
+        BYTE   W11
+        BYTE           N42     An3   v081   gtp1
+        BYTE   W01
+        BYTE   PEND
+// 022   ----------------------------------------
+TreasureTown_11_22:
+        BYTE           N42     En4   v091
+        BYTE   W01
+        BYTE           N40     An4   v101   gtp1
+        BYTE   W72
+        BYTE   W01
+        BYTE           VOICE   65
+        BYTE   W01
+        BYTE           VOL     67
+        BYTE   W21
+        BYTE   PEND
+// 023   ----------------------------------------
+TreasureTown_11_LOOP:
+        BYTE           N06     Dn2   v110
+        BYTE   W24
+        BYTE                   An2
+        BYTE   W24
+        BYTE                   Gn2
+        BYTE   W24
+        BYTE                   Dn3
+        BYTE   W24
+// 024   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_11_10
+// 025   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_11_11
+// 026   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_11_12
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_11_9
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_11_10
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_11_11
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_11_16
+// 031   ----------------------------------------
+        BYTE   W96
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_11_18
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_11_19
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_11_20
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_11_21
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_11_22
+// 037   ----------------------------------------
+        BYTE           N06     Dn2   v110
+        BYTE   GoTo
+         POIN2  TreasureTown_11_LOOP
+        BYTE   W24
+        BYTE                   An2
+        BYTE   W24
+        BYTE                   Gn2
+        BYTE   W24
+        BYTE                   Dn3
+        BYTE   W24
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_11_10
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_11_11
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_11_12
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_11_9
+// 042   ----------------------------------------
+        BYTE           N06     Dn2   v110
+        BYTE   W24
+        BYTE                   Dn3
+        BYTE   W24
+        BYTE                   An2
+        BYTE   W24
+        BYTE           N23
+        BYTE   W23
+        BYTE   FINE
+
+//***************** Track 12 (Midi-Chn.15) *****************//
+
+TreasureTown_12:
+        BYTE   KEYSH   TreasureTown_key+0
+// 000   ----------------------------------------
+        BYTE           VOL     127
+        BYTE   W24
+// 001   ----------------------------------------
+        BYTE           VOICE   116
+        BYTE           VOL     105
+        BYTE           N07     Cn3   v120
+        BYTE   W48
+        BYTE                   Cn3
+        BYTE   W36
+        BYTE           N06     Cn3   v090
+        BYTE   W12
+// 002   ----------------------------------------
+        BYTE           N07     Cn3   v120
+        BYTE   W48
+        BYTE                   Cn3
+        BYTE   W36
+        BYTE           N06     Cn3   v090
+        BYTE   W12
+// 003   ----------------------------------------
+        BYTE                   Cn3   v120
+        BYTE   W48
+        BYTE                   Cn3
+        BYTE   W36
+        BYTE                   Cn3   v090
+        BYTE   W12
+// 004   ----------------------------------------
+TreasureTown_12_4:
+        BYTE           N06     Cn3   v120
+        BYTE   W36
+        BYTE                   Cn3   v090
+        BYTE   W12
+        BYTE                   Cn3   v120
+        BYTE   W36
+        BYTE                   Cn3   v090
+        BYTE   W12
+        BYTE   PEND
+// 005   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_12_4
+// 006   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_12_4
+// 007   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_12_4
+// 008   ----------------------------------------
+        BYTE           N06     Cn3   v120
+        BYTE   W36
+        BYTE                   Cn3   v090
+        BYTE   W12
+        BYTE                   Cn3   v120
+        BYTE   W48
+// 009   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_12_4
+// 010   ----------------------------------------
+TreasureTown_12_10:
+        BYTE           N06     Cn3   v120
+        BYTE   W36
+        BYTE                   Cn3   v090
+        BYTE   W12
+        BYTE                   Cn3   v120
+        BYTE   W24
+        BYTE                   Cn3   v090
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE   PEND
+// 011   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_12_10
+// 012   ----------------------------------------
+TreasureTown_12_12:
+        BYTE           N06     Cn3   v120
+        BYTE   W24
+        BYTE                   Cn3   v090
+        BYTE   W24
+        BYTE                   Cn3   v120
+        BYTE   W24
+        BYTE                   Cn3   v090
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE   PEND
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_12_4
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_12_10
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_12_10
+// 016   ----------------------------------------
+TreasureTown_12_16:
+        BYTE           N06     Cn3   v120
+        BYTE   W24
+        BYTE                   Cn3
+        BYTE   W24
+        BYTE                   Cn3
+        BYTE   W24
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE                   Cn3   v090
+        BYTE   W12
+        BYTE   PEND
+// 017   ----------------------------------------
+TreasureTown_12_17:
+        BYTE           N06     Cn3   v120
+        BYTE   W48
+        BYTE                   Cn3
+        BYTE   W36
+        BYTE                   Cn3   v060
+        BYTE   W12
+        BYTE   PEND
+// 018   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_12_17
+// 019   ----------------------------------------
+TreasureTown_12_19:
+        BYTE           N06     Cn3   v120
+        BYTE   W24
+        BYTE                   Cn3
+        BYTE   W24
+        BYTE                   Cn3
+        BYTE   W24
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W09
+        BYTE           N03     Cn3   v040
+        BYTE   W03
+        BYTE   PEND
+// 020   ----------------------------------------
+TreasureTown_12_20:
+        BYTE           N03     Cn3   v120
+        BYTE   W24
+        BYTE           N06
+        BYTE   W12
+        BYTE                   Cn3   v075
+        BYTE   W09
+        BYTE           N03     Cn3   v040
+        BYTE   W03
+        BYTE                   Cn3   v120
+        BYTE   W24
+        BYTE           N06
+        BYTE   W12
+        BYTE                   Cn3   v075
+        BYTE   W12
+        BYTE   PEND
+// 021   ----------------------------------------
+TreasureTown_12_21:
+        BYTE           N06     Cn3   v120
+        BYTE   W24
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE                   Cn3   v075
+        BYTE   W09
+        BYTE           N03     Cn3   v040
+        BYTE   W03
+        BYTE                   Cn3   v120
+        BYTE   W24
+        BYTE           N06
+        BYTE   W12
+        BYTE                   Cn3   v075
+        BYTE   W12
+        BYTE   PEND
+// 022   ----------------------------------------
+TreasureTown_12_22:
+        BYTE           N06     Cn3   v120
+        BYTE   W24
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE                   Cn3   v075
+        BYTE   W09
+        BYTE           N03     Cn3   v040
+        BYTE   W03
+        BYTE                   Cn3   v120
+        BYTE   W48
+        BYTE   PEND
+// 023   ----------------------------------------
+TreasureTown_12_LOOP:
+        BYTE           N06     Cn3   v120
+        BYTE   W36
+        BYTE                   Cn3   v090
+        BYTE   W12
+        BYTE                   Cn3   v120
+        BYTE   W36
+        BYTE                   Cn3   v090
+        BYTE   W12
+// 024   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_12_10
+// 025   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_12_10
+// 026   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_12_12
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_12_4
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_12_10
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_12_10
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_12_16
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_12_17
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_12_17
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_12_19
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_12_20
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_12_21
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_12_22
+// 037   ----------------------------------------
+        BYTE           N06     Cn3   v120
+        BYTE   GoTo
+         POIN2  TreasureTown_12_LOOP
+        BYTE   W36
+        BYTE                   Cn3   v090
+        BYTE   W12
+        BYTE                   Cn3   v120
+        BYTE   W36
+        BYTE                   Cn3   v090
+        BYTE   W12
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_12_10
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_12_10
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_12_12
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  TreasureTown_12_4
+// 042   ----------------------------------------
+        BYTE           N06     Cn3   v120
+        BYTE   W36
+        BYTE                   Cn3   v090
+        BYTE   W12
+        BYTE                   Cn3   v120
+        BYTE   W24
+        BYTE                   Cn3   v090
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W11
+        BYTE   FINE
+
+
+//********************** End of Song ***********************//
+
+        ALIGN 4
+TreasureTown:
+        BYTE   13                      // Num Tracks
+        BYTE   0                       // Unknown
+        BYTE   TreasureTown_pri        // Priority
+        BYTE   TreasureTown_rev        // Reverb
+
+        POIN2   TreasureTown_grp       
+
+        POIN2   TreasureTown_0
+        POIN2   TreasureTown_1
+        POIN2   TreasureTown_2
+        POIN2   TreasureTown_3
+        POIN2   TreasureTown_4
+        POIN2   TreasureTown_5
+        POIN2   TreasureTown_6
+        POIN2   TreasureTown_7
+        POIN2   TreasureTown_8
+        POIN2   TreasureTown_9
+        POIN2   TreasureTown_10
+        POIN2   TreasureTown_11
+        POIN2   TreasureTown_12
+
+        

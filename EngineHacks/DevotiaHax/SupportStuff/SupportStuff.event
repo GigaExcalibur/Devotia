@@ -54,7 +54,7 @@ BYTE 0x40
 
 // Armory BGM
 ORG 0xB4C02
-BYTE MarowakDojoID
+BYTE TreasureTownID
 
 // Maintain prep theme in Base Convo select
 ORG 0x951FC

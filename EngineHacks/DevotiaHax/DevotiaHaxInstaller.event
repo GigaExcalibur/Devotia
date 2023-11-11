@@ -87,3 +87,6 @@
 
 #include "IconDisplay/Installer.event"
 // Vesly
+
+#include "AffinityTextGetter/Installer.event"
+// Me!

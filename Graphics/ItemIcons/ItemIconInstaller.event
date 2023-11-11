@@ -1,0 +1,238 @@
+#define ItemIconEntry(ItemIconID) "NewItemIcons + (ItemIconID*128)"
+
+PUSH
+ORG $36B4
+POIN NewItemIcons
+ORG $3788
+POIN NewItemIcons
+POP
+
+ALIGN 4
+NewItemIcons:
+FILL 256*128
+
+ORG ItemIconEntry(FireballIcon)
+#incbin "Anima/Fireball.dmp"
+
+ORG ItemIconEntry(FireStormIcon)
+#incbin "Anima/FireStorm.dmp"
+
+ORG ItemIconEntry(GigaExcaliburIcon)
+#incbin "Anima/GigaExcalibur.dmp"
+
+ORG ItemIconEntry(IgnisArdereIcon)
+#incbin "Anima/IgnisArdere.dmp"
+
+ORG ItemIconEntry(TremorIcon)
+#incbin "Anima/Tremor.dmp"
+
+ORG ItemIconEntry(DasherIcon)
+#incbin "Anima/Dasher.dmp"
+
+ORG ItemIconEntry(TerrasVoltareIcon)
+#incbin "Anima/TerrasVoltare.dmp"
+
+ORG ItemIconEntry(IcewindIcon)
+#incbin "Anima/Icewind.dmp"
+
+ORG ItemIconEntry(BlizzardIcon)
+#incbin "Anima/Blizzard.dmp"
+
+ORG ItemIconEntry(GlaciesClaudereIcon)
+#incbin "Anima/GlaciesClaudere.dmp"
+
+ORG ItemIconEntry(LightningBoltIcon)
+#incbin "Anima/LightningBolt.dmp"
+
+ORG ItemIconEntry(LightningBlastIcon)
+#incbin "Anima/LightningBlast.dmp"
+
+ORG ItemIconEntry(TonitrusCanereIcon)
+#incbin "Anima/TonitrusCanere.dmp"
+
+ORG ItemIconEntry(TradewindsIcon)
+#incbin "Anima/Tradewinds.dmp"
+
+ORG ItemIconEntry(TradeTempestIcon)
+#incbin "Anima/TradeTempest.dmp"
+
+ORG ItemIconEntry(VentusSaltareIcon)
+#incbin "Anima/VentusSaltare.dmp"
+
+ORG ItemIconEntry(VexflameIcon)
+#incbin "Anima/Vexflame.dmp"
+
+ORG ItemIconEntry(SweepingGaleIcon)
+#incbin "Anima/SweepingGale.dmp"
+
+ORG ItemIconEntry(RegustaloIcon)
+#incbin "Anima/Regustalo.dmp"
+
+ORG ItemIconEntry(IronTomeIcon)
+#incbin "Anima/IronTome.dmp"
+
+ORG ItemIconEntry(EncyclopediaIcon)
+#incbin "Anima/Encyclopedia.dmp"
+
+ORG ItemIconEntry(MuqaddimahIcon)
+#incbin "Anima/Muqaddimah.dmp"
+
+ORG ItemIconEntry(HolyLightIcon)
+#incbin "Light/HolyLight.dmp"
+
+ORG ItemIconEntry(LuminescenceIcon)
+#incbin "Light/Luminescence.dmp"
+
+ORG ItemIconEntry(LuxCongerereIcon)
+#incbin "Light/LuxCongerere.dmp"
+
+ORG ItemIconEntry(JusticeIcon)
+#incbin "Light/Justice.dmp"
+
+ORG ItemIconEntry(RighteousIcon)
+#incbin "Light/Righteous.dmp"
+
+ORG ItemIconEntry(AbsolutionIcon)
+#incbin "Light/Absolution.dmp"
+
+ORG ItemIconEntry(HeavenlyShineIcon)
+#incbin "Light/HeavenlyShine.dmp"
+
+ORG ItemIconEntry(DivineBrillianceIcon)
+#incbin "Light/DivineBrilliance.dmp"
+
+ORG ItemIconEntry(SacredEffulgenceIcon)
+#incbin "Light/SacredEffulgence.dmp"
+
+ORG ItemIconEntry(SurgeIcon)
+#incbin "Light/Surge.dmp"
+
+ORG ItemIconEntry(ElsurgeIcon)
+#incbin "Light/Elsurge.dmp"
+
+ORG ItemIconEntry(DelugeIcon)
+#incbin "Light/Deluge.dmp"
+
+ORG ItemIconEntry(VexauraIcon)
+#incbin "Light/Vexaura.dmp"
+
+ORG ItemIconEntry(ShootingStarsIcon)
+#incbin "Light/ShootingStars.dmp"
+
+ORG ItemIconEntry(NosferatuIcon)
+#incbin "Light/Nosferatu.dmp"
+
+ORG ItemIconEntry(RegalistaIcon)
+#incbin "Light/Regalista.dmp"
+
+ORG ItemIconEntry(MoonlightWaltzIcon)
+#incbin "Dark/MoonlightWaltz.dmp"
+
+ORG ItemIconEntry(NightOdeIcon)
+#incbin "Dark/NightOde.dmp"
+
+ORG ItemIconEntry(TenebraeOperiereIcon)
+#incbin "Dark/TenebraeOperiere.dmp"
+
+ORG ItemIconEntry(MaliceIcon)
+#incbin "Dark/Malice.dmp"
+
+ORG ItemIconEntry(ResentmentIcon)
+#incbin "Dark/Resentment.dmp"
+
+ORG ItemIconEntry(MalevolenceIcon)
+#incbin "Dark/Malevolence.dmp"
+
+ORG ItemIconEntry(SwarmZIcon)
+#incbin "Dark/SwarmZ.dmp"
+
+ORG ItemIconEntry(CarreauVIcon)
+#incbin "Dark/CarreauV.dmp"
+
+ORG ItemIconEntry(VerrineLIcon)
+#incbin "Dark/VerrineL.dmp"
+
+ORG ItemIconEntry(VoidIcon)
+#incbin "Dark/Void.dmp"
+
+ORG ItemIconEntry(ExpanseIcon)
+#incbin "Dark/Expanse.dmp"
+
+ORG ItemIconEntry(SingularityIcon)
+#incbin "Dark/Singularity.dmp"
+
+ORG ItemIconEntry(RuinIcon)
+#incbin "Dark/Ruin.dmp"
+
+ORG ItemIconEntry(SolsticeIcon)
+#incbin "Dark/Solstice.dmp"
+
+ORG ItemIconEntry(VexshadowIcon)
+#incbin "Dark/Vexshadow.dmp"
+
+ORG ItemIconEntry(RegoliathIcon)
+#incbin "Dark/Regoliath.dmp"
+
+ORG ItemIconEntry(HealStaffIcon)
+#incbin "Staves/HealStaff.dmp"
+
+ORG ItemIconEntry(MendStaffIcon)
+#incbin "Staves/MendStaff.dmp"
+
+ORG ItemIconEntry(RecoverStaffIcon)
+#incbin "Staves/RecoverStaff.dmp"
+
+ORG ItemIconEntry(PhysicStaffIcon)
+#incbin "Staves/PhysicStaff.dmp"
+
+ORG ItemIconEntry(FireUpStaffIcon)
+#incbin "Staves/FireUpStaff.dmp"
+
+ORG ItemIconEntry(FomentStaffIcon)
+#incbin "Staves/FomentStaff.dmp"
+
+ORG ItemIconEntry(FlukeStaffIcon)
+#incbin "Staves/FlukeStaff.dmp"
+
+ORG ItemIconEntry(FortuityStaffIcon)
+#incbin "Staves/FortuityStaff.dmp"
+
+ORG ItemIconEntry(FocusStaffIcon)
+#incbin "Staves/FocusStaff.dmp"
+
+ORG ItemIconEntry(FixateStaffIcon)
+#incbin "Staves/FixateStaff.dmp"
+
+ORG ItemIconEntry(FastStaffIcon)
+#incbin "Staves/FastStaff.dmp"
+
+ORG ItemIconEntry(FleetfootStaffIcon)
+#incbin "Staves/FleetfootStaff.dmp"
+
+ORG ItemIconEntry(BarrierStaffIcon)
+#incbin "Staves/BarrierStaff.dmp"
+
+ORG ItemIconEntry(FortifyStaffIcon)
+#incbin "Staves/FortifyStaff.dmp"
+
+ORG ItemIconEntry(UnlockStaffIcon)
+#incbin "Staves/UnlockStaff.dmp"
+
+ORG ItemIconEntry(StepStaffIcon)
+#incbin "Staves/StepStaff.dmp"
+
+ORG ItemIconEntry(StrideStaffIcon)
+#incbin "Staves/StrideStaff.dmp"
+
+ORG ItemIconEntry(ReinforceStaffIcon)
+#incbin "Staves/ReinforceStaff.dmp"
+
+ORG ItemIconEntry(WarpStaffIcon)
+#incbin "Staves/WarpStaff.dmp"
+
+ORG ItemIconEntry(RescueStaffIcon)
+#incbin "Staves/RescueStaff.dmp"
+
+ORG ItemIconEntry(LegendaryStaffIcon)
+#incbin "Staves/LegendaryStaff.dmp"
+

@@ -14,9 +14,12 @@
 	
 	//Graphics
 	#include "Graphics/GraphicsInstaller.event"
-	MESSAGE Used graphics space ends at currentOffset
+	MESSAGE Used basic graphic space ends at currentOffset
 	
 	ORG FreeSpace
+	
+	#include "Graphics/ItemIcons/ItemIconInstaller.event"
+	MESSAGE Used item icon space ends at currentOffset
 
     //CSV tables
     #include "Tables/TableInstaller.event"

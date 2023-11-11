@@ -111,7 +111,9 @@ Hit = weapon Hit + (DEX * 3) + LCK.[X]
 Avoid = (LCK * 3) + SPD.[X]
 
 ## CritStatScreenDesc
-Crit = weapon Crit + (DEX * 1.5).[X]
+Crit = weapon Crit + (DEX * 1.5).[N]
+If displayed crit against foe < 10,[N]
+unit cannot crit.[X]
 
 ## CritAvoidStatScreenDesc
 Crit Avoid = (LCK * 2).[X]

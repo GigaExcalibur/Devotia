@@ -144,7 +144,7 @@
 #define Resentment 0xC0
 #define Malevolence 0xC1
 #define SwarmZ 0xC2
-#define CarraeuV 0xC3
+#define CarreauV 0xC3
 #define VerrineL 0xC4
 #define Void 0xC5
 #define Expanse 0xC6

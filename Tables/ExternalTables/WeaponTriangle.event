@@ -1,0 +1,19 @@
+#define WTHitBonus 20
+#define WTMtBonus 2
+#define Negative(Number) "0x100 - Number"
+
+PUSH
+ORG 0x59BA90
+BYTE 0x00 0x01 Negative(WTHitBonus) Negative(WTMtBonus) //00 Sword -> 01 Lance
+BYTE 0x00 0x02 WTHitBonus WTMtBonus//00 Sword -> 02 Axe
+BYTE 0x01 0x02 Negative(WTHitBonus) Negative(WTMtBonus) //01 Lance -> 02 Axe
+BYTE 0x01 0x00 WTHitBonus WTMtBonus//01 Lance -> 00 Sword
+BYTE 0x02 0x00 Negative(WTHitBonus) Negative(WTMtBonus) //02 Axe -> 00 Sword
+BYTE 0x02 0x01 WTHitBonus WTMtBonus//02 Axe -> 01 Lance
+BYTE 0x05 0x07 Negative(WTHitBonus) Negative(WTMtBonus) //05 Anima -> 07 Dark
+BYTE 0x05 0x06 WTHitBonus WTMtBonus//05 Anima -> 06 Light
+BYTE 0x06 0x05 Negative(WTHitBonus) Negative(WTMtBonus) //06 Light -> 05 Anima
+BYTE 0x06 0x07 WTHitBonus WTMtBonus//06 Light -> 07 Dark
+BYTE 0x07 0x06 Negative(WTHitBonus) Negative(WTMtBonus) //07 Dark -> 06 Light
+BYTE 0x07 0x05 WTHitBonus WTMtBonus//07 Dark -> 05 Anima
+POP

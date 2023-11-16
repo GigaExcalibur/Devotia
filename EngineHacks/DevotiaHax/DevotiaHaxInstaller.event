@@ -90,3 +90,9 @@
 
 #include "AffinityTextGetter/Installer.event"
 // Me!
+
+//#include "PrepThemeShit/Installer.event"
+// Me! (for Retina, not in use)
+
+//#include "SellShit/Installer.event"
+// Me! (for Doin Thangs, not in use)

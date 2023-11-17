@@ -3,6 +3,8 @@
 
 #include "SrcCore/MSCore.lyn.event"
 
+#include "ExpandedConvoy.event"
+
 #ifndef LynJumpDefined
 	#define LynJumpDefined
 	#define LynJump(aTarget) "WORD $46C04778 $E59FC000 $E12FFF1C; POIN aTarget; "
@@ -16,6 +18,9 @@ gMS_WMDataChunkId:        BYTE EMS_CHUNK_WMDATA
 
 #include "SrcCore/MSSizeHook.lyn.event"
 #include "SrcCore/MSBWLHook.lyn.event"
+
+#define GetConvoyItemArrayStart $08031500
+#include "SrcModules/ConvoyHook.lyn.event"
 
 PUSH
 	// Checksum computation function now returns a constant

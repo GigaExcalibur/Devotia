@@ -22,6 +22,11 @@ WORD ResolveID
 #include "Guts/Guts.lyn.event" 
 
 #include "GaleforceMov/PressTurn.lyn.event"
+
+ALIGN 4
+VioletForceID_Link:
+WORD SarkanPoiseID
+
 ALIGN 4 
 StrongConAmount_Link: 
 WORD 5 

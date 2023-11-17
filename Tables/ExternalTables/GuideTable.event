@@ -51,8 +51,7 @@ POP
 ALIGN 4
 NewPlaybill:
 // Mechanics
-AddGuideEntry(MechanicsIndex, WeaponTriangleEntry, WeaponTriangleContent)
-AddGuideEntry(MechanicsIndex, DoublingThresholdEntry, DoublingThresholdContent)
+AddGuideEntry(MechanicsIndex, SecondActionsEntry, SecondActionsContent)
 AddGuideEntry(MechanicsIndex, WeaponCategoriesEntry, WeaponCategoriesContent)
 AddGuideEntry(MechanicsIndex, StavesConsumableItemsEntry, StavesConsumableItemsContent)
 AddGuideEntry(MechanicsIndex, SkillsEntry, SkillsContent)

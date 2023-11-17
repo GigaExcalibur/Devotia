@@ -1660,9 +1660,9 @@ stay still. She gets another action[N]
 after stealing or lockpicking (1/turn).[X]
 
 ## SD_SarkanPoise
-Sarkan Poise: Levia's presence graces[N]
-all. Her and adjacent allies cannot be[N]
-at WTD. (Foe can still be at WTA.)[X]
+Violet Force: Levia always stands[N]
+poised. On her second action per[N]
+turn, her movement is only halved.[X]
 
 ## SD_PentUpRage
 Pent-Up Rage: Stuart can't hold it in.[N]

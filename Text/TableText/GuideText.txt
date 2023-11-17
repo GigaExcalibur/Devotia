@@ -16,21 +16,21 @@ Thanks[X]
 ## PromotionCategory
 Promotion[X]
 
-## WeaponTriangleEntry
-Weapon Triangle[X]
+## SecondActionsEntry
+Second Actions[X]
 
-## WeaponTriangleContent
+## SecondActionsContent
+After attacking with WTA or[N]
+using a staff at least one[N]
+full rank below unit's, unit[N]
+can act again with 0 MOV.[N]
+A unit can only get one[N]
+additional action per turn.[N]
+[N]
 The weapon triangle in Devotia[N]
-is +/- 25 Hit and 5 Mt.[N]
+is +/- 20 Hit and 2 Mt.[N]
 Reavers reverse the triangle,[N]
 but do not double it.[X]
-
-## DoublingThresholdEntry
-Doubling Threshold[X]
-
-## DoublingThresholdContent
-The doubling threshold in[N]
-Devotia is 3 Attack Speed.[X]
 
 ## WeaponCategoriesEntry
 Weapon Categories[X]

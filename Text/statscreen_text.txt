@@ -102,7 +102,8 @@ Attack = weapon Mt + STR or MAG.[X]
 
 ## AttackSpeedStatScreenDesc
 Attack Speed = SPD - (weapon Wt[N]
-- CON) if weapon Wt > CON.[X]
+- CON) if weapon Wt > CON. The[N]
+doubling threshold is 3 AS.[X]
 
 ## HitStatScreenDesc
 Hit = weapon Hit + (DEX * 3) + LCK.[X]

@@ -11,7 +11,7 @@ Giselle - Cravat
 
 # Map Sprites
 Gremory - TyTheBub
-High Gremory - Pikmin, Unknown
+High Gremory - WhatIsAnAubin
 Princess - TopazLight
 Mercenary - Agro
 Runelord - Nuramon

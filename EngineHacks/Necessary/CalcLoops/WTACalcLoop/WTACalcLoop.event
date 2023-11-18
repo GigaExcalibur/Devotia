@@ -8,7 +8,8 @@ WTACalcFunctions:
 #endif // ANIMA_TRIANGLE
 POIN TriangleAdept
 POIN Poise
-POIN IgnoreTriangleRoutine
+POIN IgnoreTriangle
+POIN WtByDifficulty
 #ifdef REAVER_SPLIT
 	POIN DoubleWeaponTriangle
 #endif // REAVER_SPLIT

@@ -214,6 +214,14 @@ One of Drek's numerous bodies for the[N]
 meat grinder. Made peace with it after[N]
 being torn from his mother years prior.[X]
 
+## MurtazaName
+Murtaza[X]
+
+## MurtazaDesc
+General Orion Hafeez's personal adjutant.[N]
+As the command shrinks, the weight of[N]
+his responsibilities grows ever heavier.[X]
+
 ## EkaitzName
 Ekaitz[X]
 

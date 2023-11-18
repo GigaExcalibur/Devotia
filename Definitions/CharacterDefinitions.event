@@ -26,26 +26,27 @@
 #define Evie 0x19		// Harrier -> Daemon Wing
 #define Maybelline 0x1A	// Mercenary -> Hero
 #define Lux 0x1B		// Lancer -> Halberdier
-#define Ekaitz 0x1C		// Skirmisher -> Oliphantier
-#define Bria 0x1D		// Bombardier -> Barbarossa
-#define Jaufrea 0x1E	// Trobairitz -> Thaumaturge
-#define Kylie 0x1F		// Dracorider -> Dracolord
-#define Elliot 0x20		// Bard
-#define Luair 0x21		// Sword Rider -> Hakkapeliitta
-#define Axel 0x22		// Axe Armor -> Cataphract
-#define Willa 0x23		// Warmaster
-#define Calvin 0x24		// Wolfssegner
-#define Clovis 0x25		// Savior
-#define Orion 0x26		// Sage
-#define Astraea 0x27	// Anima Mage -> Spellmaster
-#define Ansel 0x28		// Templar
-#define Azar 0x29		// Ravager
-#define Evelyn 0x2A		// Harbinger
-#define Aleyna 0x2B		// Champion
-#define Brynhild 0x2C	// Falconeer
-#define Rami 0x2D		// Sorcerer
-#define Samil 0x2E		// Trickster
-#define Cetus 0x2F		// Prince
+#define Murtaza 0x1C	// Mullah -> Muwlawi
+#define Ekaitz 0x1D		// Skirmisher -> Oliphantier
+#define Bria 0x1e		// Bombardier -> Barbarossa
+#define Jaufrea 0x1F	// Trobairitz -> Thaumaturge
+#define Kylie 0x20		// Dracorider -> Dracolord
+#define Elliot 0x21		// Bard
+#define Luair 0x22		// Sword Rider -> Hakkapeliitta
+#define Axel 0x23		// Axe Armor -> Cataphract
+#define Willa 0x24		// Warmaster
+#define Calvin 0x25		// Wolfssegner
+#define Clovis 0x26		// Savior
+#define Orion 0x27		// Sage
+#define Astraea 0x28	// Anima Mage -> Spellmaster
+#define Ansel 0x29		// Templar
+#define Azar 0x2A		// Ravager
+#define Evelyn 0x2B		// Harbinger
+#define Aleyna 0x2C		// Champion
+#define Brynhild 0x2D	// Falconeer
+#define Rami 0x2e		// Sorcerer
+#define Samil 0x2f		// Trickster
+#define Cetus 0x30		// Prince
 
 // A surprise tool that will help me much later
 #define Soline 0x37		// Cantor

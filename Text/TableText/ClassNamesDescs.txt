@@ -445,6 +445,22 @@ Calm disposition ill befits his position.[N]
 Staff in one hand and tome in the other,[N]
 he burns enemies with ironic remorse.[X]
 
+## MullahName
+Mullah[X]
+
+## MullahDesc
+The light shone in his eyes, spells[N]
+weaved with brilliant composure, until[N]
+he was to turn them on his fellow man.[X]
+
+## MawlawiName
+Mawlawi[X]
+
+## MawlawiDesc
+The light danced between his fingers,[N]
+gleaming the power to make miracles[N]
+wrought with his own two hands.[X]
+
 ## SorcererName
 Sorcerer[X]
 

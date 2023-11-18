@@ -106,5 +106,7 @@ PlayerClassDescEntry(Champion, ChampionDesc)
 PlayerClassDescEntry(Bard, BardDesc)
 PlayerClassDescEntry(CrownPrince, CrownPrinceDesc)
 PlayerClassDescEntry(Prince, PrincePlayerDesc)
+PlayerClassDescEntry(Mullah, MullahDesc)
+PlayerClassDescEntry(Mawlawi, MawlawiDesc)
 
 #include "PlayerClassDescs.lyn.event"

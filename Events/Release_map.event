@@ -41,8 +41,8 @@ TurnEventPlayer(0, QueueEnemyPhaseEvent, 1)
 END_MAIN
 
 CharacterBasedEvents:
-CharacterEventBothWays(0x10,TalkEvent, Eirika, Ephraim)
 CharacterEventBothWays(0x11,GiselleCamTalk, Giselle, Cam)
+CharacterEventBothWays(0x12, ASMCTest, Klaudia, Zero)
 END_MAIN
 
 LocationBasedEvents:
@@ -76,7 +76,7 @@ UNIT Klaudia Gremory 0x1 0xA1		[9,24] 0b 0x0 0x0 0x0 [Fireball,Fireball,Fireball
 UNIT Zero Runelord 0x1 0xA1			[7,24] 0b 0x0 0x0 0x0 [FireStorm,IgnisArdere,LightningBolt,LightningBlast] [0x0,0x0,0x0,0x0]
 UNIT Josephine MageArmor 0x1 0xA1   [11,24] 0b 0x0 0x0 0x0 [TonitrusCanere,Tremor,Dasher,TerrasVoltare] [0x0,0x0,0x0,0x0]
 UNIT Emerson BowArmor 0x1 0xA1  	[8,25] 0b 0x0 0x0 0x0 [Icewind,Blizzard,GlaciesClaudere,Tradewinds] [0x0,0x0,0x0,0x0]
-UNIT Beth  Villager 0x1 0xA1    	[12,25] 0b 0x0 0x0 0x0 [TradeTempest,VentusSaltare,Vexflame,SweepingGale] [0x0,0x0,0x0,0x0]
+UNIT Beth  Villager 0x1 0xA1    	[12,25] 0b 0x0 0x0 0x0 [IronLance,VentusSaltare,Vexflame,SweepingGale] [0x0,0x0,0x0,0x0]
 UNIT Cam  Pirate 0x1 0xA1    		[10,25] 0b 0x0 0x0 0x0 [IronTome,Encyclopedia,Muqaddimah,Regustalo] [0x0,0x0,0x0,0x0]
 UNIT Giselle  Thief 0x1 0xA1    	[10,23] 0b 0x0 0x0 0x0 [GigaExcalibur,HolyLight,Luminescence,LuxCongerere] [0x0,0x0,0x0,0x0]
 UNIT Levia  Princess 0x1 0xA1 		[12,24] 0b 0x0 0x0 0x0 [HealStaff,MendStaff,Absolution,HeavenlyShine] [0x0,0x0,0x0,0x0]
@@ -125,17 +125,19 @@ UNIT Brynhild Falconeer 0x1 0xA1   [16,28] 0b 0x0 0x0 0x0 [0x3B,0x3A,0x4D,0x0] [
 UNIT Rami Sorcerer 0x1 0xA1	  [20,32] 0b 0x0 0x0 0x0 [0x0] [0x0]
 UNIT Samil Trickster 0x1 0xA1	  [20,32] 0b 0x0 0x0 0x0 [0x0] [0x0]
 UNIT Cetus Prince 0x1 0xA1	  [20,32] 0b 0x0 0x0 0x0 [IronLance] [0x0]
+UNIT Murtaza Mullah 0x1 0xA1	[20,32] 0b 0x0 0x0 0x0 [HolyLight] [0x0]
 UNIT
 
 EnemyUnits:
 UNIT Wister TherionWister 0x40 0xA5    [8,2] 0b 0x0 0x0 0x0 [KillerAxe,0x0,0x0,0x0] AttackInRangeAI
 UNIT Peasant Myrmidon 0x40 Level(1, Enemy, False)     [8,23] 0b 0x0 0x0 0x0 [IronSword, 0x0] AttackInRangeAI
+UNIT Peasant Woodsman 0x40 Level(1, Enemy, False)	[10, 23] 0b 0x0 0x0 0x0 [IronAxe, 0x0] AttackInRangeAI
 UNIT RanunParados Therion 0x40 0xA5     [9,2] 0 0 0 0 [SteelLance, Javelin] AttackInRangeAI
 UNIT Crocodile Berserker 0x40 0xA5       [11,17] 0 0 0 0 [SteelAxe, HandAxe] AttackInRangeAI
 UNIT Marauder Raider 0x40 0xA5      [16,18] 0 0 0 0 [SteelAxe, HandAxe] AttackInRangeAI
 UNIT LemnaStasimon Templar 0x40 0xA5        [8,15] 0 0 0 0 [SteelLance, Javelin] AttackInRangeAI
-UNIT FernyigesStasimon Overlord 0x40 0xA5      [12,13] 0 0 0 0 [VioletSeal] AttackInRangeAI
-UNIT Zakaria HighGremoryZakaria 0x40 0xA5    [3,13] 0 0 0 0 [CrimsonSeal, Javelin] AttackInRangeAI
+//UNIT FernyigesStasimon Overlord 0x40 0xA5      [12,13] 0 0 0 0 [VioletSeal] AttackInRangeAI
+UNIT Zakaria HighGremory 0x40 0xA5    [3,13] 0 0 0 0 [CrimsonSeal, Javelin] AttackInRangeAI
 UNIT MiksaStasimon Warlock 0x40 0xA5     [16,9] 0 0 0 0 [SilverLance, Javelin] AttackInRangeAI
 UNIT NolierStasimon HighAgastya 0x40 0xA5      [1,10] 0 0 0 0 [SteelAxe, SteelBow] AttackInRangeAI
 UNIT Pablo Spellmaster 0x40 0xA5         [5,11] 0 0 0 0 [Elfire, Purge] AttackInRangeAI
@@ -262,14 +264,25 @@ NoFade
 ENDA
 
 ALIGN 4
+ASMCTest:
+SVAL s1 Klaudia
+SVAL s2 Lances
+SVAL s3 0x0
+ASMC IncreaseWLvl|1
+NoFade
+ENDA
+
+ALIGN 4
 TooltipPrompt:
 TutorialText(ParadosDevotiaWelcomeText)
+/*
 SVAL s1	0x1
 SET_HP Klaudia
 SET_HP Zero
 SET_HP Josephine
 SET_HP Emerson
 SET_HP Beth
+*/
 NoFade
 ENDA
 

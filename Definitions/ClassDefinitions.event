@@ -107,6 +107,10 @@
 #define Scourge 0x61
 #define Overlord 0x63 // skip one for gorgon egg
 #define Agastya 0x64
+
 #define HighGremoryZakaria 0x73 // skip a bunch for hardcoded stuff
-#define PrinceIntermission 0x74
+#define PrinceIntermission 0x74 // unused classes now
+
+#define Mullah 0x73
+#define Mawlawi 0x74
 #define HighAgastya 0x75

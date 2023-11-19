@@ -37,6 +37,7 @@ Spellmaster - Jiege, TLP
 Light Mage - Leo_Link, L95
 Starseer - Melia
 Sorcerer - Pikmin, Nuramon, Der
+Mawlawi - Unknown
 Cleric - TopazLight
 Thaumaturge - Der
 Templar - Der

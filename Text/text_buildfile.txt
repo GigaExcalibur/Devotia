@@ -29,20 +29,73 @@ DEF[X]
 # 0x4f0
 RES[X]
 
+# 0x4F1
+AFN[X]
+
 # 0x4f6
 MOV[X]
 
 # 0x4f7
 CON[X]
 
+# 0x4f8
+AID[X]
+
 # 0x4f9
-Hold[X]
+TRV[X]
+
+# 0x4F3
+ATK[X]
+
+# 0x4F4
+HIT[X]
 
 # 0x4F5
-Avo[X]
+AVO[X]
+
+# 0x500
+RNG[X]
+
+# 0x501
+CRT[X]
+
+# 0x502
+WT[X]
+
+# 0x503
+MT[X]
+
+# 0x505
+SWD[X]
+
+# 0x0506
+LNC[X]
+
+# 0x0507
+AXE[X]
+
+# 0x0508
+BOW[X]
+
+# 0x0509
+STF[X]
+
+# 0x050A
+RSN[X]
+
+# 0x050B
+LGT[X]
+
+# 0x050C
+DRK[X]
+
+# 0x050D
+USE[X]
 
 # 0x518
-C.Avo[X]
+DGE[X]
+
+
 
 # 0x542
 How much a unit has left to grow[N]

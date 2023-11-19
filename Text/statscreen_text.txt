@@ -1,8 +1,8 @@
 #0x3B SS_TalkText
-Talk[X]
+TLK[X]
 
 ## SS_SkillsText
-Skill[X]
+SKL[X]
 
 ## SS_TalkRText
 Character with whom this unit[N]

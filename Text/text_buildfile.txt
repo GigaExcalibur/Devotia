@@ -81,7 +81,7 @@ BOW[X]
 STF[X]
 
 # 0x050A
-RSN[X]
+ANM[X]
 
 # 0x050B
 LGT[X]

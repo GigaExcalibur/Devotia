@@ -400,8 +400,16 @@ Peasant[X]
 
 ## PeasantDesc
 An ordinary and untrained commoner of[N]
-the Wolffian countryside. Swayed to[N]
+the Wolffian countryside, swayed to[N]
 rebel by Wister's emphatic speeches.[X]
+
+## LiterateName
+Literate[X]
+
+## LiterateDesc
+An unnaturally gifted commoner, letters[N]
+taught and flames fueled by reading[N]
+House Wolffia's taxation ordinances.[X]
 
 ## RanunName
 Ranun[X]
@@ -426,6 +434,14 @@ Marauder[X]
 Starving outcasts of Drekkan society,[N]
 subsisting by razing homes and stealing[N]
 belongings of unlucky souls they pass.[X]
+
+## SurveyorName
+Surveyor[X]
+
+## SurveyorDesc
+Dropout students of Drek's war-colleges,[N]
+turned to piracy from unwillingness to[N]
+sling fireballs as a rank-and-file magi.[X]
 
 ## FernyigesName
 Fernyiges[X]

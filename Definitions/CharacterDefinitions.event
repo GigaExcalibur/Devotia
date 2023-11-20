@@ -68,30 +68,32 @@
 
 // Parados
 #define Wister 0x46				// Therion (Wister)
-#define Peasant 0x47			// Generic (all)
-#define RanunParados 0x48		// Therion
+#define Peasant 0x47			// Generic (physical)
+#define Literate 0x48			// Generic (magic)
+#define RanunParados 0x49		// Therion
 
 // Episode 1
-#define Crocodile 0x49			// Berserker
-#define Marauder 0x4A			// Generic (all)
-#define CamEnemy 0x4B			// Pirate
-#define LemnaStasimon 0x4C		// Templar
+#define Crocodile 0x4A			// Berserker
+#define Marauder 0x4B			// Generic (physical)
+#define Surveyor 0x4C			// Generic (magic)
+#define CamEnemy 0x4C			// Pirate
+#define LemnaStasimon 0x4D		// Templar
 
 // Stasimon A
-#define FernyigesStasimon 0x4D	// Sarkan Overlord
-#define Zakaria 0x4E			// High Gremory
-#define MiksaStasimon 0x4F		// Warlock
-#define HafeezStasimon 0x50		// Sage
-#define OperiereStasimon 0x51	// Harbinger
-#define WinnehildStasimon 0x52	// Scourge
-#define NolierStasimon 0x53 	// Agastya
-#define EvrenStasimon 0x54		// Crown Prince
-#define DaneStasimon 0x55		// Hunter
-#define CetusStasimon 0x56		// Prince
-#define StuartStasimon 0x57		// Sword Armor
-#define BrynhildStasimon 0x58	// Falconeer
-#define UlrichStasimon 0x59		// Windrider
-#define EvieStasimon 0x5A		// Harrier
-#define CurtisStasimon 0x5B		// Marksman
+#define FernyigesStasimon 0x4e	// Sarkan Overlord
+#define Zakaria 0x4F			// High Gremory
+#define MiksaStasimon 0x50		// Warlock
+#define HafeezStasimon 0x51		// Sage
+#define OperiereStasimon 0x52	// Harbinger
+#define WinnehildStasimon 0x53	// Scourge
+#define NolierStasimon 0x54 	// Agastya
+#define EvrenStasimon 0x55		// Crown Prince
+#define DaneStasimon 0x56		// Hunter
+#define CetusStasimon 0x57		// Prince
+#define StuartStasimon 0x58		// Sword Armor
+#define BrynhildStasimon 0x59	// Falconeer
+#define UlrichStasimon 0x5A		// Windrider
+#define EvieStasimon 0x5B		// Harrier
+#define CurtisStasimon 0x5C		// Marksman
 
 // Episode 2

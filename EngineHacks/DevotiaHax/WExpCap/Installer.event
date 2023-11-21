@@ -7,7 +7,7 @@ FILL 256*8
 ClassWExpCapEntry(Gremory, 0, 0, 0, 0, 0, DRank, 0, 0)
 
 PUSH
-ORG 0x2C176
+ORG 0x2C178
 callHackNew(CapWExp)
 POP
 

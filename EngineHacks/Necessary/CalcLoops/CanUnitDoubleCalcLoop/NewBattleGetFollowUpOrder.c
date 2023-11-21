@@ -103,7 +103,7 @@ int BoldFighter(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
 } 
 
 int FortunateSeven(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
-	if (bunitA->hpInitial % 7 == 0 | bunitB->hpInitial % 7 == 0) {
+	if (bunitA->hpInitial % 7 == 0 || bunitB->hpInitial % 7 == 0) {
 		if (SkillTester(&bunitA->unit, FortunateSevenID_Link)) {
 			return ForceDouble;
 		}
@@ -331,9 +331,9 @@ struct BattleForecastProc {
     /* 34 */ s8 needContentUpdate;
     /* 35 */ s8 side; // -1 is left, +1 is right
     /* 36 */ s8 unk_36;
-    /* 38 */ struct TextHandle unitNameTextA;
-    /* 40 */ struct TextHandle unitNameTextB;
-    /* 48 */ struct TextHandle itemNameText;
+    /* 38 */ struct Text unitNameTextA;
+    /* 40 */ struct Text unitNameTextB;
+    /* 48 */ struct Text itemNameText;
     /* 50 */ s8 hitCountA;
     /* 51 */ s8 hitCountB;
     /* 52 */ s8 isEffectiveA;
@@ -345,9 +345,14 @@ void NewInitBattleForecastBattleStats(struct BattleForecastProc* proc) {
     struct BattleUnit* buFirst;
     struct BattleUnit* buSecond;
 
-
-    int usesA = GetItemUses(gBattleActor.weaponBefore);
-    int usesB = GetItemUses(gBattleTarget.weaponBefore);
+	int usesA = 2;
+	int usesB = 2;
+	if (!(GetItemAttributes(gBattleActor.weaponBefore) & IA_UNBREAKABLE)) {
+		usesA = GetItemUses(gBattleActor.weaponBefore);
+	}
+	if (!(GetItemAttributes(gBattleTarget.weaponBefore) & IA_UNBREAKABLE)) {
+		usesB = GetItemUses(gBattleTarget.weaponBefore);
+	}	
 
     s8 followUp = BattleGetFollowUpOrder(&buFirst, &buSecond);
 

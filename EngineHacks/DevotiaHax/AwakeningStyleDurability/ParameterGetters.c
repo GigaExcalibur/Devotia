@@ -85,6 +85,3 @@ int GetItemUses(int item) {
 int GetItemMaxUses(int item) {
     return GetItemData(ITEM_INDEX(item))->maxUses; // For unbreakable weapons, "max uses" = max forge count
 }
-
-
-

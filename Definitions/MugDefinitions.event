@@ -1,6 +1,6 @@
 // Named characters (by order of first appearance): ids 0x02 - 0xA0
 
-// Overture gang
+// Parados
 #define KlaudiaMug 0x02
 #define ZeroMug 0x03
 #define JosephineMug 0x04
@@ -9,30 +9,31 @@
 #define WisterMug 0x07
 #define RanunMug 0x08
 
-// Chapter 1 gang
+// Episode 1
 #define CamMug 0x09
 #define GiselleMug 0x0A
 #define CrocodileMug 0x0B
-#define LemnaMug 0x0C
-#define SamilMug 0x0D
+#define AlligatorMug 0x0C
+#define LemnaMug 0x0D
+#define SamilMug 0x0E
 
 // Intermission A gang
-#define FernyigesMug 0x0E
-#define ZakariaMug 0x0F
-#define EvrenMug 0x10
-#define DaneMug 0x11
-#define CetusMug 0x12
-#define BrynhildMug 0x13
-#define UlrichMug 0x14
-#define EvieMug 0x15
-#define CassandraMug 0x16
-#define EvelynMug 0x17
-#define OrionMug 0x18
-#define BlaireMug 0x19
-#define LeviaMug 0x1A
-#define CurtisMug 0x1B
-#define MiksaMug 0x1C
-#define StuartMug 0x1D
+#define FernyigesMug 0x0F
+#define ZakariaMug 0x10
+#define EvrenMug 0x11
+#define DaneMug 0x12
+#define CetusMug 0x13
+#define BrynhildMug 0x14
+#define UlrichMug 0x15
+#define EvieMug 0x16
+#define CassandraMug 0x17
+#define EvelynMug 0x18
+#define OrionMug 0x19
+#define BlaireMug 0x1A
+#define LeviaMug 0x1B
+#define CurtisMug 0x1C
+#define MiksaMug 0x1D
+#define StuartMug 0x1e
 
 // Generics: ids 0x81 - 0xA0
 #define BlueSoldierMug 0x81

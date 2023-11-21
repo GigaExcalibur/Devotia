@@ -1,12 +1,15 @@
+Alligator.png
 Beth.png
 BlueSoldier.png
 Cam.png
+Crocodile.png
 Emerson.png
 Giselle.png
 GreenSoldier.png
 HongChen.png
 Josephine.png
 Klaudia.png
+Lemna.png
 Ranun.png
 RedSoldier.png
 Wister.png

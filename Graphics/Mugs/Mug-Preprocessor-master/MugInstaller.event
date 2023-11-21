@@ -1,4 +1,11 @@
 ALIGN 4
+AlligatorMugLabel:
+#incbin "Alligator_mug.dmp"
+#incbin "Alligator_frames.dmp"
+#incbin "Alligator_palette.dmp"
+#incbin "Alligator_minimug.dmp"
+
+ALIGN 4
 BethMugLabel:
 #incbin "Beth_mug.dmp"
 #incbin "Beth_frames.dmp"
@@ -18,6 +25,13 @@ CamMugLabel:
 #incbin "Cam_frames.dmp"
 #incbin "Cam_palette.dmp"
 #incbin "Cam_minimug.dmp"
+
+ALIGN 4
+CrocodileMugLabel:
+#incbin "Crocodile_mug.dmp"
+#incbin "Crocodile_frames.dmp"
+#incbin "Crocodile_palette.dmp"
+#incbin "Crocodile_minimug.dmp"
 
 ALIGN 4
 EmersonMugLabel:
@@ -60,6 +74,13 @@ KlaudiaMugLabel:
 #incbin "Klaudia_frames.dmp"
 #incbin "Klaudia_palette.dmp"
 #incbin "Klaudia_minimug.dmp"
+
+ALIGN 4
+LemnaMugLabel:
+#incbin "Lemna_mug.dmp"
+#incbin "Lemna_frames.dmp"
+#incbin "Lemna_palette.dmp"
+#incbin "Lemna_minimug.dmp"
 
 ALIGN 4
 RanunMugLabel:

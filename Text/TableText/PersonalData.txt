@@ -160,6 +160,12 @@ All of them.[X]
 ## StuartFunnyHeight
 No one cares.[X]
 
+## NAPromo
+N/A[X]
+
+## PrepromotePromoDesc
+Unit is a pre-promoted class.[X]
+
 ## KlaudiaFullName
 Klaudia el-Ouahed[X]
 
@@ -169,8 +175,9 @@ Lighting fireworks[X]
 ## KlaudiaBirthday
 October 27[X]
 
-## KlaudiaJob
-Fuedal heir[X]
+## KlaudiaPromoDesc
+Promo gains TBD.[N]
+Wields: Lance, Anima, Light, Dark.[X]
 
 ## ZeroFullName
 'Zero' Roth[X]
@@ -181,9 +188,6 @@ Throwing knives[X]
 ## ZeroBirthday
 July 29[X]
 
-## ZeroJob
-Noble advisor[X]
-
 ## JosephineFullName
 Josephine Ventadorn[X]
 
@@ -193,8 +197,9 @@ Composing poetry[X]
 ## JosephineBirthday
 January 20[X]
 
-## JosephineJob
-Banner knight[X]
+## JosephinePromoDesc
+Promo gains TBD.[N]
+Wields: Anima, Light, Dark.[X]
 
 ## EmersonFullName
 Wesley Emerson[X]
@@ -205,8 +210,9 @@ No time for that.[X]
 ## EmersonBirthday
 September 4[X]
 
-## EmersonJob
-Hedge knight[X]
+## EmersonPromoDesc
+Promo gains TBD.[N]
+Wields: Sword, Bow.[X]
 
 ## BethFullName
 Bethelyn Tiller[X]
@@ -217,8 +223,9 @@ Eavesdropping[X]
 ## BethBirthday
 June 15[X]
 
-## BethJob
-Grape farmer[X]
+## BethPromoDesc
+Promo gains TBD.[N]
+Wields: Sword, Lance, Axe.[X]
 
 ## CamFullName
 Camilia Failside[X]
@@ -229,8 +236,9 @@ Woodcarving[X]
 ## CamBirthday
 March 21[X]
 
-## CamJob
-Stevedore[X]
+## CamPromoDesc
+Promo gains TBD.[N]
+Wields: Axe.[X]
 
 ## GiselleFullName
 Giselle Lowe[X]
@@ -241,8 +249,9 @@ Stealing, obviously.[X]
 ## GiselleBirthday
 May 23[X]
 
-## GiselleJob
-Pickpocket[X]
+## GisellePromoDesc
+Promo gains TBD.[N]
+Wields: Sword.[X]
 
 ## LeviaFullName
 Leviathan Sarka[X]
@@ -253,8 +262,9 @@ Swimming[X]
 ## LeviaBirthday
 November 16[X]
 
-## LeviaJob
-Self-explanatory.[X]
+## LeviaPromoDesc
+Promo gains TBD.[N]
+Wields: Sword, Lance, Axe, Bow, Staff.[X]
 
 ## StuartFullName
 Stuart Sussman[X]
@@ -265,8 +275,9 @@ Conditioning[X]
 ## StuartBirthday
 Irrelevant.[X]
 
-## StuartJob
-"Palace servant"[X]
+## StuartPromoDesc
+Promo gains TBD.[N]
+Wields: Sword, Lance, Axe.[X]
 
 ## BearFullName
 Bear[X]
@@ -277,8 +288,9 @@ Woodcarving[X]
 ## BearBirthday
 Sren, give me one.[X]
 
-## BearJob
-...Unemployed?[X]
+## BearPromoDesc
+Promo gains TBD.[N]
+Wields: Axe, Bow.[X]
 
 ## EstellaFullName
 Estella Lopez[X]
@@ -289,8 +301,9 @@ Animal rescuing[X]
 ## EstellaBirthday
 January 31[X]
 
-## EstellaJob
-Career soldier[X]
+## EstellaPromoDesc
+Promo gains TBD.[N]
+Wields: Sword, Lance.[X]
 
 ## CarinaFullName
 Carina Lopez[X]
@@ -301,8 +314,9 @@ Cooking[X]
 ## CarinaBirthday
 July 22[X]
 
-## CarinaJob
-Stay-home guardian[X]
+## CarinaPromoDesc
+Promo gains TBD.[N]
+Wields: Sword, Staff.[X]
 
 ## NiravFullName
 Nirav "Dewey"[X]
@@ -313,8 +327,9 @@ Gambling[X]
 ## NiravBirthday
 April 7[X]
 
-## NiravJob
-[0x5B]said nothing[0x5D][X]
+## NiravPromoDesc
+Promo gains TBD.[N]
+Wields: Axe, Anima.[X]
 
 ## AlmaFullName
 Alma?[X]
@@ -325,8 +340,9 @@ Wine tasting[X]
 ## AlmaBirthday
 Dylan, give me one.[X]
 
-## AlmaJob
-Vagrant?[X]
+## AlmaPromoDesc
+Promo gains TBD.[N]
+Wields: Dark.[X]
 
 ## RoswellFullName
 [0x5B]REDACTED[0x5D] Roswell[X]
@@ -337,8 +353,9 @@ Zeri, give me one.[X]
 ## RoswellBirthday
 Zeri, give me one.[X]
 
-## RoswellJob
-Everyman[X]
+## RoswellPromoDesc
+Promo gains TBD.[N]
+Wields: Axe, Bow.[X]
 
 ## HongChenFullName
 Hong Chen[X]
@@ -349,8 +366,9 @@ Painting[X]
 ## HongChenBirthday
 Sren, give me one.[X]
 
-## HongChenJob
-Career soldier[X]
+## HongChenPromoDesc
+Promo gains TBD.[N]
+Wields: Sword.[X]
 
 ## DarinaFullName
 Darina von Vacille[X]
@@ -361,8 +379,9 @@ Hiking[X]
 ## DarinaBirthday
 June 16[X]
 
-## DarinaJob
-Fuedal lord[X]
+## DarinaPromoDesc
+Promo gains TBD.[N]
+Wields: Bow, Staff.[X]
 
 ## EugeniaFullName
 Eugenia Salvia Lentz[X]
@@ -373,8 +392,9 @@ Gardening[X]
 ## EugeniaBirthday
 October 3[X]
 
-## EugeniaJob
-Bookkeeper[X]
+## EugeniaPromoDesc
+Promo gains TBD.[N]
+Wields: Sword, Anima.[X]
 
 ## MarisFullName
 Maris Clara Calicos[X]
@@ -385,173 +405,185 @@ Jewelrymaking[X]
 ## MarisBirthday
 February 1[X]
 
-## MarisJob
-Layabout (feudal heir)[X]
+## MarisPromoDesc
+Promo gains TBD.[N]
+Wields: Staff, Light.[X]
 
 ## PhillipaFullName
 Phillipa Oleander[X]
 
-## PhillipaJob
-Noble retainer[X]
+## PhillipaPromoDesc
+Promo gains TBD.[N]
+Wields: Lance, Staff.[X]
 
 ## MaeveFullName
 Maeve Juneau[X]
 
-## MaeveJob
-Everywoman[X]
+## MaevePromoDesc
+Promo gains TBD.[N]
+Wields: Lance, Bow.[X]
 
 ## EvrenFullName
 Evren Sarka[X]
 
-## EvrenJob
+## EvrenPromo
 Royal heir[X]
 
 ## DaneFullName
 Dane Titian[X]
 
-## DaneJob
+## DanePromo
 Royal retainer[X]
 
 ## UlrichFullName
 Ulrich Eisenburg[X]
 
-## UlrichJob
+## UlrichPromo
 Royal guardsman[X]
 
 ## EvieFullName
 Chava Eisenburg[X]
 
-## EvieJob
+## EviePromo
 Royal guardsman[X]
 
 ## MaybellineFullName
 Piper Mayes[X]
 
-## MaybellineJob
+## MaybellinePromo
 Sellsword[X]
 
 ## LuxFullName
 Lux Operiere[X]
 
-## LuxJob
+## LuxPromo
 Career soldier[X]
+
+## MurtazaFullName
+Murtaza LASTNAME[X]
+
+## MurtazaHobby
+Vegetating[X]
+
+## MurtazaBirthday
+Come up with one.[X]
 
 ## EkaitzFullName
 Of no consequence.[X]
 
-## EkaitzJob
+## EkaitzPromo
 Company lieutenent[X]
 
 ## BriaFullName
 Bria Sorbello[X]
 
-## BriaJob
+## BriaPromo
 ...Unemployed.[X]
 
 ## JaufreaFullName
 Jaufrea Rudel[X]
 
-## JaufreaJob
+## JaufreaPromo
 Composer[X]
 
 ## KylieFullName
 Kylie Liyr[X]
 
-## KylieJob
+## KyliePromo
 Rebel spymaster[X]
 
 ## ElliotFullName
 Elliot LASTNAME[X]
 
-## ElliotJob
+## ElliotPromo
 Street performer[X]
 
 ## LuairFullName
 Luair Fine (FEE-NAY)[X]
 
-## LuairJob
+## LuairPromo
 Teaching assistant[X]
 
 ## AxelFullName
 Axel Sussman[X]
 
-## AxelJob
+## AxelPromo
 Knight aspirant[X]
 
 ## WillaFullName
 Willa Aragon[X]
 
-## WillaJob
+## WillaPromo
 Master of arms[X]
 
 ## CalvinFullName
 Calvin Hassian[X]
 
-## CalvinJob
+## CalvinPromo
 Unemployed[X]
 
 ## ClovisFullName
 Clovis Hassian[X]
 
-## ClovisJob
+## ClovisPromo
 Unemployed[X]
 
 ## OrionFullName
 Orion Hafeez[X]
 
-## OrionJob
+## OrionPromo
 Minister-general[X]
 
 ## AstraeaFullName
 Astraea Estelline Circe[X]
 
-## AstraeaJob
+## AstraeaPromo
 Fuedal heir...?[X]
 
 ## AnselFullName
 Ansel Rosenburg[X]
 
-## AnselJob
+## AnselPromo
 Monk[X]
 
 ## AzarFullName
 Azar. Just Azar.[X]
 
-## AzarJob
+## AzarPromo
 Revolutionary[X]
 
 ## EvelynFullName
 Evelyn Operiere[X]
 
-## EvelynJob
+## EvelynPromo
 Minister-general[X]
 
 ## AleynaFullName
 Aleyna [X]
 
-## AleynaJob
+## AleynaPromo
 Company captain[X]
 
 ## BrynhildFullName
 Brynhild Eisenburg[X]
 
-## BrynhildJob
+## BrynhildPromo
 Guard captain[X]
 
 ## RamiFullName
 Rami Zella[X]
 
-## RamiJob
+## RamiPromo
 Headmaster / scholar[X]
 
 ## SamilFullName
 Samil Phaecae[X]
 
-## SamilJob
+## SamilPromo
 ???????????[X]
 
 ## CetusFullName
 Cetus Sarka[X]
 
-## CetusJob
+## CetusPromo
 Royal heir[X]

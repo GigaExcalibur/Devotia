@@ -1,6 +1,7 @@
 #include "gbafe.h"
 
 extern u16 PlayerClassDescTable[];
+extern u16 PersonalDataTable[];
 
 void HbPopulate_SSClass(struct HelpBoxProc* proc)
 {
@@ -10,4 +11,8 @@ void HbPopulate_SSClass(struct HelpBoxProc* proc)
 	else {
 		proc->mid = gStatScreen.unit->pClassData->descTextId;
 	}
+}
+
+void HbPopulate_Promo(struct HelpBoxProc* proc) {
+	proc->mid = PersonalDataTable[(gStatScreen.unit->pCharacterData->number * 8) + 7];
 }

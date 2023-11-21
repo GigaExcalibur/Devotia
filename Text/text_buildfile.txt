@@ -95,8 +95,6 @@ USE[X]
 # 0x518
 DGE[X]
 
-
-
 # 0x542
 How much a unit has left to grow[N]
 before they hit their limit.[X]
@@ -251,7 +249,10 @@ Bday:[X]
 Hobby:[X]
 
 ## JobText
-Job:[X]
+Promo:[X]
+
+## PromoText
+See promo bonuses with R.[X]
 
 ## HouseText
 //first text ID in the free block

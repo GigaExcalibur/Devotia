@@ -142,6 +142,11 @@
 [colon] = [0xDE][0x98]
 [comma] = [0xDE][0x9B]
 
+[OpenQuote] = [0x93]
+[CloseQuote] = [0x94]
+[OQ] = [OpenQuote]
+[CQ] = [CloseQuote]
+
 [openbracket] = [0x5B]
 [closebracket] = [0x5D]
 

@@ -26,7 +26,7 @@
 #define Evie 0x19		// Harrier -> Daemon Wing
 #define Maybelline 0x1A	// Mercenary -> Hero
 #define Lux 0x1B		// Lancer -> Halberdier
-#define Murtaza 0x1C	// Mullah -> Muwlawi
+#define Murtaza 0x1C	// Mullah -> Mawlawi
 #define Ekaitz 0x1D		// Skirmisher -> Oliphantier
 #define Bria 0x1e		// Bombardier -> Barbarossa
 #define Jaufrea 0x1F	// Trobairitz -> Thaumaturge
@@ -73,27 +73,28 @@
 #define RanunParados 0x49		// Therion
 
 // Episode 1
-#define Crocodile 0x4A			// Berserker
-#define Marauder 0x4B			// Generic (physical)
-#define Surveyor 0x4C			// Generic (magic)
-#define CamEnemy 0x4C			// Pirate
-#define LemnaStasimon 0x4D		// Templar
+#define Crocodile 0x4A			// Pirate
+#define Alligator 0x4B			// Anima Mage
+#define Marauder 0x4C			// Generic (physical)
+#define Surveyor 0x4D			// Generic (magic)
+#define CamEnemy 0x4e			// Pirate
+#define LemnaStasimon 0x4F		// Templar
 
 // Stasimon A
-#define FernyigesStasimon 0x4e	// Sarkan Overlord
-#define Zakaria 0x4F			// High Gremory
-#define MiksaStasimon 0x50		// Warlock
-#define HafeezStasimon 0x51		// Sage
-#define OperiereStasimon 0x52	// Harbinger
-#define WinnehildStasimon 0x53	// Scourge
-#define NolierStasimon 0x54 	// Agastya
-#define EvrenStasimon 0x55		// Crown Prince
-#define DaneStasimon 0x56		// Hunter
-#define CetusStasimon 0x57		// Prince
-#define StuartStasimon 0x58		// Sword Armor
-#define BrynhildStasimon 0x59	// Falconeer
-#define UlrichStasimon 0x5A		// Windrider
-#define EvieStasimon 0x5B		// Harrier
-#define CurtisStasimon 0x5C		// Marksman
+#define FernyigesStasimon 0x50	// Sarkan Overlord
+#define Zakaria 0x51			// High Gremory
+#define MiksaStasimon 0x52		// Warlock
+#define HafeezStasimon 0x53		// Sage
+#define OperiereStasimon 0x54	// Harbinger
+#define WinnehildStasimon 0x55	// Scourge
+#define NolierStasimon 0x56 	// Agastya
+#define EvrenStasimon 0x57		// Crown Prince
+#define DaneStasimon 0x58		// Hunter
+#define CetusStasimon 0x59		// Prince
+#define StuartStasimon 0x5A		// Sword Armor
+#define BrynhildStasimon 0x5B	// Falconeer
+#define UlrichStasimon 0x5C		// Windrider
+#define EvieStasimon 0x5D		// Harrier
+#define CurtisStasimon 0x5e		// Marksman
 
 // Episode 2

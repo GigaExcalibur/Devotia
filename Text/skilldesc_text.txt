@@ -1676,3 +1676,8 @@ their height.[X]
 ## SD_Disvantage
 Disvantage: Unit always strikes[N]
 last in combat.[X]
+
+## SD_GildedTint
+Gilded Tint: Darina keeps her eyes[N]
+on the prize. After initiating combat,[N]
+gain gold = damage done in last hit.[X]

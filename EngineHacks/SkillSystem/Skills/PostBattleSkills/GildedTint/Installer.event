@@ -1,0 +1,14 @@
+#include "GildedTint.lyn.event"
+
+ALIGN 4
+GildedTintID_Link:
+WORD GildedTintID
+
+ALIGN 4
+GildedTintEvent:
+CAM1 0xFFFF
+CUMO 0xFFFF
+STAL 0x24
+GIVEITEMTOMAIN 0xFFFF
+NoFade
+ENDA

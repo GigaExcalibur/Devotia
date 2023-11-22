@@ -95,3 +95,86 @@
 #define UnlockStaffIcon 0x56
 #define BarrierStaffIcon 0x57
 
+// no longer vanilla. also fuck item type order, magic supremacy
+// Anima
+#define FireballIcon 0x0
+#define FireStormIcon 0x1
+#define IgnisArdereIcon 0x2
+#define TremorIcon 0x3
+#define DasherIcon 0x4
+#define TerrasVoltareIcon 0x5
+#define IcewindIcon 0x6
+#define BlizzardIcon 0x7
+#define GlaciesClaudereIcon 0x8
+#define LightningBoltIcon 0x9
+#define LightningBlastIcon 0xA
+#define TonitrusCanereIcon 0xB
+#define VexflameIcon 0xC
+#define TradewindsIcon 0xD
+#define TradeTempestIcon 0xE
+#define VentusSaltareIcon 0xF
+#define SweepingGaleIcon 0x10
+#define RegustaloIcon 0x11
+#define GigaExcaliburIcon 0x12
+#define IronTomeIcon 0x13
+#define EncyclopediaIcon 0x14
+#define MuqaddimahIcon 0x15
+
+// Light
+#define HolyLightIcon 0x16
+#define LuminescenceIcon 0x17
+#define LuxCongerereIcon 0x18
+#define JusticeIcon 0x19
+#define RighteousIcon 0x1A
+#define AbsolutionIcon 0x1B
+#define HeavenlyShineIcon 0x1C
+#define DivineBrillianceIcon 0x1D
+#define SacredEffulgenceIcon 0x1e
+#define SurgeIcon 0x1F
+#define ElsurgeIcon 0x20
+#define DelugeIcon 0x21
+#define VexauraIcon 0x22
+#define ShootingStarsIcon 0x23
+#undef NosferatuIcon; #define NosferatuIcon 0x24
+#define RegalistaIcon 0x25
+
+// Dark
+#define MoonlightWaltzIcon 0x26
+#define NightOdeIcon 0x27
+#define TenebraeOperiereIcon 0x28
+#define MaliceIcon 0x29
+#define ResentmentIcon 0x2A
+#define MalevolenceIcon 0x2B
+#define SwarmZIcon 0x2C
+#define CarreauVIcon 0x2D
+#define VerrineLIcon 0x2E
+#define VoidIcon 0x2F
+#define ExpanseIcon 0x30
+#define SingularityIcon 0x31
+#define VexshadowIcon 0x32
+#define RuinIcon 0x33
+#define SolsticeIcon 0x34
+#define RegoliathIcon 0x35
+
+// Staves
+#undef HealStaffIcon; #define HealStaffIcon 0x36
+#undef MendStaffIcon; #define MendStaffIcon 0x37
+#undef RecoverStaffIcon; #define RecoverStaffIcon 0x38
+#undef PhysicStaffIcon; #define PhysicStaffIcon 0x39
+#define FireUpStaffIcon 0x3A
+#define FomentStaffIcon 0x3B
+#define FlukeStaffIcon 0x3C
+#define FortuityStaffIcon 0x3D
+#define FocusStaffIcon 0x3E
+#define FixateStaffIcon 0x3F
+#define FastStaffIcon 0x40
+#define FleetfootStaffIcon 0x41
+#undef BarrierStaffIcon; #define BarrierStaffIcon 0x42
+#undef FortifyStaffIcon; #define FortifyStaffIcon 0x43
+#undef UnlockStaffIcon; #define UnlockStaffIcon 0x44
+#define StepStaffIcon 0x45
+#define StrideStaffIcon 0x46
+#define ReinforceStaffIcon 0x47
+#undef WarpStaffIcon; #define WarpStaffIcon 0x48
+#undef RescueStaffIcon; #define RescueStaffIcon 0x49
+#define LegendaryStaffIcon 0x4A // temporary name

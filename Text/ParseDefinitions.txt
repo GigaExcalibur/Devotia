@@ -17,6 +17,8 @@
 [Beat] = [ToggleMouthMove]...[.4][ToggleMouthMove]
 [Event] = [LoadOverworldFaces]
 [CloseSpeech] = [CloseSpeechSlow]
+[CSS] = [CloseSpeech]
+[CF] = [ClearFace]
 
 [Font] = [0x80][0x26]
 [TextPalette] = [0x80][0x27]
@@ -102,6 +104,9 @@
 [LoadWister] = [LoadFace][0x07][0x01]
 [LoadRanun] = [LoadFace][0x08][0x01]
 
+[LoadAstraea] = [LoadFace][0xD][0x01]
+[LoadOrion] = [LoadFace][0xD][0x1]
+
 [LoadCam] = [LoadFace][0x09][0x01]
 [LoadGiselle] = [LoadFace][0x0A][0x01]
 [LoadCrocodile] = [LoadFace][0x0B][0x01]
@@ -136,6 +141,11 @@
 [sword] = [0xDE][0x97]
 [colon] = [0xDE][0x98]
 [comma] = [0xDE][0x9B]
+
+[OpenQuote] = [0x93]
+[CloseQuote] = [0x94]
+[OQ] = [OpenQuote]
+[CQ] = [CloseQuote]
 
 [openbracket] = [0x5B]
 [closebracket] = [0x5D]

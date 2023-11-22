@@ -1,3 +1,6 @@
+## ParadosChapterTitle
+Parados: At the Root[X]
+
 ## ParadosGoalWindow
 Eliminate Wister[X]
 
@@ -151,6 +154,13 @@ Test Base Convo 2[X]
 [ML][LoadCam][MR][LoadGiselle]
 [MR]What the [anima][lock][monster][flier] is wrong with you?[A][X]
 
-##
-Promise me - right now - that you'll come[N]
+## LeviaTest
+[ML][LoadKlaudia]
+[ML]Promise me - right now - that you'll come[N]
 home safe and hold me in your arms.[X]
+
+## ParadosIconTutorialText
+Recruitable units in Devotia display[N]
+a blue diamond on their map sprite.[N]
+The vast majority of recruitment[N]
+conditions are very straightforward.[A][X]

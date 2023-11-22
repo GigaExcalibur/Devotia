@@ -1,8 +1,8 @@
 #0x3B SS_TalkText
-Talk[X]
+TLK[X]
 
 ## SS_SkillsText
-Skill[X]
+SKL[X]
 
 ## SS_TalkRText
 Character with whom this unit[N]
@@ -87,6 +87,9 @@ This character's current age.[X]
 ## HeightDesc
 This character's height.[X]
 
+## JobDesc
+This character's profession.[X]
+
 ## SupportsText
 Supports[X]
 
@@ -99,7 +102,8 @@ Attack = weapon Mt + STR or MAG.[X]
 
 ## AttackSpeedStatScreenDesc
 Attack Speed = SPD - (weapon Wt[N]
-- CON) if weapon Wt > CON.[X]
+- CON) if weapon Wt > CON. The[N]
+doubling threshold is 3 AS.[X]
 
 ## HitStatScreenDesc
 Hit = weapon Hit + (DEX * 3) + LCK.[X]
@@ -108,7 +112,9 @@ Hit = weapon Hit + (DEX * 3) + LCK.[X]
 Avoid = (LCK * 3) + SPD.[X]
 
 ## CritStatScreenDesc
-Crit = weapon Crit + (DEX * 1.5).[X]
+Crit = weapon Crit + (DEX * 1.5).[N]
+If displayed crit against foe < 10,[N]
+unit cannot crit.[X]
 
 ## CritAvoidStatScreenDesc
 Crit Avoid = (LCK * 2).[X]

@@ -11,12 +11,18 @@
     //Text first for Text ID definitions
     #include "Text/InstallTextData.event"
     MESSAGE Used text space ends at currentOffset
+
+	//Music
+	#include "Music/MusicInstaller.event"
+	MESSAGE Used music space ends at currentOffset
+	
+	ORG FreeSpace
 	
 	//Graphics
 	#include "Graphics/GraphicsInstaller.event"
-	MESSAGE Used graphics space ends at currentOffset
 	
-	ORG FreeSpace
+	#include "Graphics/ItemIcons/ItemIconInstaller.event"
+	MESSAGE Used graphics space ends at currentOffset
 
     //CSV tables
     #include "Tables/TableInstaller.event"
@@ -26,10 +32,6 @@
 	#include "Supports/SupportsInstaller.event"
 	MESSAGE Used support space ends at currentOffset
 	
-	//Music
-	#include "Music/MusicInstaller.event"
-	MESSAGE Used music space ends at currentOffset
-
     //Engine Hacks
     #include "EngineHacks/_MasterHackInstaller.event"
     MESSAGE Used hax space ends at currentOffset

@@ -1,6 +1,12 @@
 #ifndef EXPANDED_MODULAR_SAVE
 #define EXPANDED_MODULAR_SAVE
 
+ALIGN 4 
+ConvoyExpansionRamLink:
+WORD ConvoyExpansionRAMAddr
+
+#include "SrcModules/Convoy.lyn.event"
+
 // Expanded and Modular Game and Suspend Save data system
 // hack by StanH_
 
@@ -128,7 +134,7 @@ gGameSaveChunks:
 
 	DeclSaveChunk($0000, $004C, MSa_SaveChapterState, MSa_LoadChapterState, EMS_CHUNK_CHAPTERSTATE)
 	DeclSaveChunk($004C, $0008, $0A59E0+1,            $0A5A00+1)            // World map skirmish RNG state
-	DeclSaveChunk($0054, $00B0, $0A31E4+1,            $0A326C+1,            EMS_CHUNK_CONVOYITEMS)
+	//DeclSaveChunk($0054, $00B0, $0A31E4+1,            $0A326C+1,            EMS_CHUNK_CONVOYITEMS)
 	DeclSaveChunk($0104, $0460, $0A4264+1,            $0A421C+1,            EMS_CHUNK_BWLENTRIES)
 	DeclSaveChunk($0564, $00C0, $0A4288+1,            $0A4248+1,            EMS_CHUNK_WINDATA)
 	DeclSaveChunk($0624, $0019, $0A3150+1,            $0A3198+1,            EMS_CHUNK_EIDS_PERMANENT)
@@ -142,6 +148,7 @@ gGameSaveChunks:
 	DeclSaveChunk($0680, $0AA8, ESU_SaveGameUnits, ESU_LoadGameUnits, EMS_CHUNK_SAVEUNITS)
 
 	// $1128
+	DeclSaveChunk($1128, ConvoyRamSize, SaveConvoyItems,            LoadConvoyItems,            EMS_CHUNK_CONVOYITEMS)
 
 	// free up to $1344
 
@@ -159,7 +166,7 @@ gSuspendSaveChunks:
 	DeclSaveChunk($004C, $0038, MSu_SaveActionState,  MSu_LoadActionState)  // Action State
 	DeclSaveChunk($0084, $0018, MSa_SaveDungeonState, MSa_LoadDungeonState) // Valni/Lagdou permanent data
 	DeclSaveChunk($009C, $0200, $0A6370+1,            $0A638C+1)            // Trap data
-	DeclSaveChunk($029C, $00B0, $0A31E4+1,            $0A326C+1)            // Convoy Items
+	//DeclSaveChunk($029C, $00B0, $0A31E4+1,            $0A326C+1)            // Convoy Items
 	DeclSaveChunk($034C, $0460, $0A4264+1,            $0A421C+1)            // BWL Entries
 	DeclSaveChunk($07AC, $00C0, $0A4288+1,            $0A4248+1)            // Previous chapters turn count & time & stuff
 	DeclSaveChunk($086C, $0010, MSu_SaveMenuRelated,  MSu_LoadMenuRelated)  // "menu related list" related
@@ -182,14 +189,17 @@ gSuspendSaveChunks:
 	// You could cut the number of saved blue units by a bit (vanilla saves 51)
 	// This saves *all* of them
 
-	// Save 62 blue units (62 * 0x34 = $0C98)
-	DeclSaveChunk($08C0, $0C98, ESU_SavePlayerSuspendUnits, ESU_LoadPlayerSuspendUnits)
+	// Save 51 blue units (51 * 0x34 = $0a5c)
+	DeclSaveChunk($0805, $0A5C, ESU_SavePlayerSuspendUnits, ESU_LoadPlayerSuspendUnits)
 
 	// Save 50 red units (50 * 0x38 = $0AF0)
-	DeclSaveChunk($1558, $0AF0, ESU_SaveRedSuspendUnits,    ESU_LoadRedSuspendUnits)
+	DeclSaveChunk($1261, $0AF0, ESU_SaveRedSuspendUnits,    ESU_LoadRedSuspendUnits)
 
-	// Save 20 green units (20 * 0x38 = $0460)
-	DeclSaveChunk($2048, $0460, ESU_SaveGreenSuspendUnits,  ESU_LoadGreenSuspendUnits)
+	// Save 15 green units (20 * 0x38 = $0460) //15
+	DeclSaveChunk($1d51, $0348, ESU_SaveGreenSuspendUnits,  ESU_LoadGreenSuspendUnits)
+	
+	// 2 * 0xC8 (#200) = #0x190  
+	DeclSaveChunk($2099, ConvoyRamSize, SaveConvoyItems,     LoadConvoyItems)            // Convoy Items
 
 	// Save Debuffs (TODO: maybe reduce size)
 	DeclSaveChunk($24A8, DebuffTableSize, SUD_SaveDebuffs,  SUD_LoadDebuffs)

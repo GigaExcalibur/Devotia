@@ -1,37 +1,6 @@
-#include "gbafe.h"
-#include "stdbool.h"
+#include "EffectiveDebuffs.h"
 
-extern void SetBit(u32* address, u8 bitOffset);
-extern void UnsetBit(u32* address, u8 bitOffset);
-extern bool CheckBit(u32* address, u8 bitOffset);
-extern u32* GetUnitDebuffEntry(Unit* unit);
-
-extern void BattleInitItemEffect(Unit* unit, u8 itemIndex);
-extern void BattleInitItemEffectTarget(Unit* unit);
-extern void BattleApplyItemEffect(Proc* proc);
-
-extern Unit* gUnitSubject;
-
-extern u32 FlammableBitOffset_Link;
-extern u32 DousedBitOffset_Link;
-extern u32 LevitatingBitOffset_Link;
-
-void OilJugMapSelect_Init(ProcPtr menu);
-u8 OilJugMapSelect_SwitchIn(ProcPtr proc, struct SelectTarget* target);
-u8 OilJugSelectOnSelect(ProcPtr proc, struct SelectTarget* target);
-
-
-
-struct SelectInfo const gSelectInfo_OilJug =
-{
-    .onInit = MISMATCHED_SIGNATURE(OilJugMapSelect_Init),
-    .onEnd = MISMATCHED_SIGNATURE(ClearBg0Bg1),
-    .onSwitchIn = OilJugMapSelect_SwitchIn,
-    .onSelect = OilJugSelectOnSelect,
-    .onCancel = GenericSelection_BackToUM_CamWait,
-};
-
-
+// Debuffs are the key to the whole process so let's write the debuff bit functions out first
 bool IsUnitFlammable(Unit* unit) {
 	return CheckBit(GetUnitDebuffEntry(unit), FlammableBitOffset_Link);
 }
@@ -44,6 +13,7 @@ void MakeUnitNotFlammable(Unit* unit) {
 	UnsetBit(GetUnitDebuffEntry(unit), FlammableBitOffset_Link);
 }
 
+// 
 void AddUnitToOilJugTargetList(Unit* unit) {
 	if (!(AreAllegiancesAllied(gUnitSubject->index, unit->index))
 		&& !(IsUnitFlammable(unit))) {
@@ -98,16 +68,18 @@ void OilJugEffectWrapper() {
 	");	
 }
 
-void DoUseAttackStaff(struct Unit* unit, void(*func)(struct Unit*))
+void DoUseOilJug(struct Unit* unit, void(*func)(struct Unit*))
 {
     func(unit);
 
     BmMapFill(gBmMapMovement, -1);
 
     StartSubtitleHelp(
-        NewTargetSelection(&gSelectInfo_OffensiveStaff),
-        GetStringFromIndex(0x87B)); // TODO: msgid "Select a unit to use the staff on."
+        NewTargetSelection(&gSelectInfo_OilJug),
+        GetStringFromIndex(OilJugHelpText_Link)); // TODO: msgid "Select a unit to use the staff on."
 }
+
+
 
 /*
 bool IsUnitDoused(Unit* unit) {

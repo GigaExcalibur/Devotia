@@ -36,3 +36,6 @@ Boss Battle! (PMD2)[X]
 
 ## FortuneRavinePMD2Name
 Fortune Ravine (PMD2)[X]
+
+## TreasureTownPMD2Name
+Treasure Town (PMD2)[X]

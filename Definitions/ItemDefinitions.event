@@ -144,7 +144,7 @@
 #define Resentment 0xC0
 #define Malevolence 0xC1
 #define SwarmZ 0xC2
-#define CarraeuV 0xC3
+#define CarreauV 0xC3
 #define VerrineL 0xC4
 #define Void 0xC5
 #define Expanse 0xC6
@@ -194,7 +194,7 @@
 #define Invest 0xE4 // Jaufrea
 // Kylie
 // Luair
-#define HurricaneAxe 0xE7
+#define HurricaneAxe 0xE7 // Axel
 // Willa
 #define Mooneater 0xE9 // Calvin
 // Clovis

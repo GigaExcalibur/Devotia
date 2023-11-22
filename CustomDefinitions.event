@@ -14,6 +14,9 @@
   #define DebuffTableSize 0x00000440
 #endif
 
+#define ConvoyExpansionRAMAddr $0203B200
+#define ConvoyRamSize $190
+
 #ifndef ChapterDataTable
   #define ChapterDataTable 0x8B0890
   #define ChapterDataTableEntSize 148

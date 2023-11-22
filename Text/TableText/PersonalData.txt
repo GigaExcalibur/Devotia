@@ -22,6 +22,9 @@ They/She[X]
 ## SheHe
 She/He[X]
 
+## HeShe
+He/She[X]
+
 ## TheySheHe
 They/She/He[X]
 
@@ -31,10 +34,13 @@ He/They/She[X]
 ## SheHeThey
 She/He/They[X]
 
-## StuartsFunnyPronouns
+## HeSheThey
+He/She/They[X]
+
+## StuartFunnyPronouns
 Nor/Mal[X]
 
-## AzarsFunnyPronouns
+## AzarFunnyPronouns
 All of them.[X]
 
 ## Age14
@@ -43,7 +49,7 @@ All of them.[X]
 ## Age17
 17[X]
 
-## RamisFunnyAge
+## RamiFunnyAge
 70 (17.5 in leap years!)
 
 ## Age18
@@ -151,14 +157,27 @@ All of them.[X]
 ## SixFootFive
 6'5" / 195.6 cm[X]
 
+## StuartFunnyHeight
+No one cares.[X]
+
+## NAPromo
+N/A[X]
+
+## PrepromotePromoDesc
+Unit is a pre-promoted class.[X]
+
 ## KlaudiaFullName
 Klaudia el-Ouahed[X]
 
 ## KlaudiaHobby
-Lighting Fireworks[X]
+Lighting fireworks[X]
 
 ## KlaudiaBirthday
 October 27[X]
+
+## KlaudiaPromoDesc
+Promo gains TBD.[N]
+Wields: Lance, Anima, Light, Dark.[X]
 
 ## ZeroFullName
 'Zero' Roth[X]
@@ -178,6 +197,10 @@ Composing poetry[X]
 ## JosephineBirthday
 January 20[X]
 
+## JosephinePromoDesc
+Promo gains TBD.[N]
+Wields: Anima, Light, Dark.[X]
+
 ## EmersonFullName
 Wesley Emerson[X]
 
@@ -186,6 +209,10 @@ No time for that.[X]
 
 ## EmersonBirthday
 September 4[X]
+
+## EmersonPromoDesc
+Promo gains TBD.[N]
+Wields: Sword, Bow.[X]
 
 ## BethFullName
 Bethelyn Tiller[X]
@@ -196,6 +223,10 @@ Eavesdropping[X]
 ## BethBirthday
 June 15[X]
 
+## BethPromoDesc
+Promo gains TBD.[N]
+Wields: Sword, Lance, Axe.[X]
+
 ## CamFullName
 Camilia Failside[X]
 
@@ -204,6 +235,10 @@ Woodcarving[X]
 
 ## CamBirthday
 March 21[X]
+
+## CamPromoDesc
+Promo gains TBD.[N]
+Wields: Axe.[X]
 
 ## GiselleFullName
 Giselle Lowe[X]
@@ -214,6 +249,341 @@ Stealing, obviously.[X]
 ## GiselleBirthday
 May 23[X]
 
+## GisellePromoDesc
+Promo gains TBD.[N]
+Wields: Sword.[X]
+
+## LeviaFullName
+Leviathan Sarka[X]
+
+## LeviaHobby
+Swimming[X]
+
+## LeviaBirthday
+November 16[X]
+
+## LeviaPromoDesc
+Promo gains TBD.[N]
+Wields: Sword, Lance, Axe, Bow, Staff.[X]
+
+## StuartFullName
+Stuart Sussman[X]
+
+## StuartHobby
+Conditioning[X]
+
+## StuartBirthday
+Irrelevant.[X]
+
+## StuartPromoDesc
+Promo gains TBD.[N]
+Wields: Sword, Lance, Axe.[X]
+
+## BearFullName
+Bear[X]
+
+## BearHobby
+Woodcarving[X]
+
+## BearBirthday
+Sren, give me one.[X]
+
+## BearPromoDesc
+Promo gains TBD.[N]
+Wields: Axe, Bow.[X]
+
+## EstellaFullName
+Estella Lopez[X]
+
+## EstellaHobby
+Animal rescuing[X]
+
+## EstellaBirthday
+January 31[X]
+
+## EstellaPromoDesc
+Promo gains TBD.[N]
+Wields: Sword, Lance.[X]
+
+## CarinaFullName
+Carina Lopez[X]
+
+## CarinaHobby
+Cooking[X]
+
+## CarinaBirthday
+July 22[X]
+
+## CarinaPromoDesc
+Promo gains TBD.[N]
+Wields: Sword, Staff.[X]
+
+## NiravFullName
+Nirav "Dewey"[X]
+
+## NiravHobby
+Gambling[X]
+
+## NiravBirthday
+April 7[X]
+
+## NiravPromoDesc
+Promo gains TBD.[N]
+Wields: Axe, Anima.[X]
+
+## AlmaFullName
+Alma?[X]
+
+## AlmaHobby
+Wine tasting[X]
+
+## AlmaBirthday
+Dylan, give me one.[X]
+
+## AlmaPromoDesc
+Promo gains TBD.[N]
+Wields: Dark.[X]
+
 ## RoswellFullName
 [0x5B]REDACTED[0x5D] Roswell[X]
 
+## RoswellHobby
+Zeri, give me one.[X]
+
+## RoswellBirthday
+Zeri, give me one.[X]
+
+## RoswellPromoDesc
+Promo gains TBD.[N]
+Wields: Axe, Bow.[X]
+
+## HongChenFullName
+Hong Chen[X]
+
+## HongChenHobby
+Painting[X]
+
+## HongChenBirthday
+Sren, give me one.[X]
+
+## HongChenPromoDesc
+Promo gains TBD.[N]
+Wields: Sword.[X]
+
+## DarinaFullName
+Darina von Vacille[X]
+
+## DarinaHobby
+Hiking[X]
+
+## DarinaBirthday
+June 16[X]
+
+## DarinaPromoDesc
+Promo gains TBD.[N]
+Wields: Bow, Staff.[X]
+
+## EugeniaFullName
+Eugenia Salvia Lentz[X]
+
+## EugeniaHobby
+Gardening[X]
+
+## EugeniaBirthday
+October 3[X]
+
+## EugeniaPromoDesc
+Promo gains TBD.[N]
+Wields: Sword, Anima.[X]
+
+## MarisFullName
+Maris Clara Calicos[X]
+
+## MarisHobby
+Jewelrymaking[X]
+
+## MarisBirthday
+February 1[X]
+
+## MarisPromoDesc
+Promo gains TBD.[N]
+Wields: Staff, Light.[X]
+
+## PhillipaFullName
+Phillipa Oleander[X]
+
+## PhillipaPromoDesc
+Promo gains TBD.[N]
+Wields: Lance, Staff.[X]
+
+## MaeveFullName
+Maeve Juneau[X]
+
+## MaevePromoDesc
+Promo gains TBD.[N]
+Wields: Lance, Bow.[X]
+
+## EvrenFullName
+Evren Sarka[X]
+
+## EvrenPromo
+Royal heir[X]
+
+## DaneFullName
+Dane Titian[X]
+
+## DanePromo
+Royal retainer[X]
+
+## UlrichFullName
+Ulrich Eisenburg[X]
+
+## UlrichPromo
+Royal guardsman[X]
+
+## EvieFullName
+Chava Eisenburg[X]
+
+## EviePromo
+Royal guardsman[X]
+
+## MaybellineFullName
+Piper Mayes[X]
+
+## MaybellinePromo
+Sellsword[X]
+
+## LuxFullName
+Lux Operiere[X]
+
+## LuxPromo
+Career soldier[X]
+
+## MurtazaFullName
+Murtaza LASTNAME[X]
+
+## MurtazaHobby
+Vegetating[X]
+
+## MurtazaBirthday
+Come up with one.[X]
+
+## EkaitzFullName
+Of no consequence.[X]
+
+## EkaitzPromo
+Company lieutenent[X]
+
+## BriaFullName
+Bria Sorbello[X]
+
+## BriaPromo
+...Unemployed.[X]
+
+## JaufreaFullName
+Jaufrea Rudel[X]
+
+## JaufreaPromo
+Composer[X]
+
+## KylieFullName
+Kylie Liyr[X]
+
+## KyliePromo
+Rebel spymaster[X]
+
+## ElliotFullName
+Elliot LASTNAME[X]
+
+## ElliotPromo
+Street performer[X]
+
+## LuairFullName
+Luair Fine (FEE-NAY)[X]
+
+## LuairPromo
+Teaching assistant[X]
+
+## AxelFullName
+Axel Sussman[X]
+
+## AxelPromo
+Knight aspirant[X]
+
+## WillaFullName
+Willa Aragon[X]
+
+## WillaPromo
+Master of arms[X]
+
+## CalvinFullName
+Calvin Hassian[X]
+
+## CalvinPromo
+Unemployed[X]
+
+## ClovisFullName
+Clovis Hassian[X]
+
+## ClovisPromo
+Unemployed[X]
+
+## OrionFullName
+Orion Hafeez[X]
+
+## OrionPromo
+Minister-general[X]
+
+## AstraeaFullName
+Astraea Estelline Circe[X]
+
+## AstraeaPromo
+Fuedal heir...?[X]
+
+## AnselFullName
+Ansel Rosenburg[X]
+
+## AnselPromo
+Monk[X]
+
+## AzarFullName
+Azar. Just Azar.[X]
+
+## AzarPromo
+Revolutionary[X]
+
+## EvelynFullName
+Evelyn Operiere[X]
+
+## EvelynPromo
+Minister-general[X]
+
+## AleynaFullName
+Aleyna [X]
+
+## AleynaPromo
+Company captain[X]
+
+## BrynhildFullName
+Brynhild Eisenburg[X]
+
+## BrynhildPromo
+Guard captain[X]
+
+## RamiFullName
+Rami Zella[X]
+
+## RamiPromo
+Headmaster / scholar[X]
+
+## SamilFullName
+Samil Phaecae[X]
+
+## SamilPromo
+???????????[X]
+
+## CetusFullName
+Cetus Sarka[X]
+
+## CetusPromo
+Royal heir[X]

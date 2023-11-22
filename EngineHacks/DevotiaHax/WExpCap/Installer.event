@@ -1,0 +1,14 @@
+#define ClassWExpCapEntry(class, sword_cap, lance_cap, axe_cap, bow_cap, staff_cap, anima_cap, light_cap, dark_cap) "PUSH; ORG ClassWExpCapTable + (8*class); BYTE sword_cap lance_cap axe_cap bow_cap staff_cap anima_cap light_cap dark_cap"
+
+ALIGN 4
+ClassWExpCapTable:
+FILL 256*8
+
+ClassWExpCapEntry(Gremory, 0, 0, 0, 0, 0, DRank, 0, 0)
+
+PUSH
+ORG 0x2C178
+callHackNew(CapWExp)
+POP
+
+#include "WExpCap.lyn.event"

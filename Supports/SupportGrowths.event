@@ -1,6 +1,6 @@
-#define CharacterSupport(Char1, Char2, Char3, Char4, Char5, Char6, Char7) "BYTE Char1 Char2 Char3 Char4 Char5 Char6 Char7"
-#define SupportBases(Char1, Char2, Char3, Char4, Char5, Char6, Char7) "BYTE Char1 Char2 Char3 Char4 Char5 Char6 Char7"
-#define SupportGrowths(Char1, Char2, Char3, Char4, Char5, Char6, Char7) "BYTE Char1 Char2 Char3 Char4 Char5 Char6 Char7"
+#define CharacterSupport(Partner1, Partner2, Partner3, Partner4, Partner5, Partner6, Partner7) "BYTE Partner1 Partner2 Partner3 Partner4 Partner5 Partner6 Partner7"
+#define SupportBases(Partner1, Partner2, Partner3, Partner4, Partner5, Partner6, Partner7) "BYTE Partner1 Partner2 Partner3 Partner4 Partner5 Partner6 Partner7"
+#define SupportGrowths(Partner1, Partner2, Partner3, Partner4, Partner5, Partner6, Partner7) "BYTE Partner1 Partner2 Partner3 Partner4 Partner5 Partner6 Partner7"
 #define EndSupport(Partners) "BYTE Partners 0 0"
 
 KlaudiaSupports:
@@ -9,9 +9,14 @@ SupportBases(0, 0, 0, 0, 0, 0, 0)
 SupportGrowths(0, 0, 0, 0, 0, 0, 0)
 EndSupport(1)
 
-
 JosephineSupports:
 CharacterSupport(Klaudia, 0, 0, 0, 0, 0, 0)
+SupportBases(0, 0, 0, 0, 0, 0, 0)
+SupportGrowths(0, 0, 0, 0, 0, 0, 0)
+EndSupport(1)
+
+PlaceholderSupports:
+CharacterSupport(0, 0, 0, 0, 0, 0, 0)
 SupportBases(0, 0, 0, 0, 0, 0, 0)
 SupportGrowths(0, 0, 0, 0, 0, 0, 0)
 EndSupport(1)

@@ -42,7 +42,7 @@ taught to get her hands dirty if needed.[X]
 Cam[X]
 
 ## CamDesc
-Formerly a pirate of a Drekkan crew.[N]
+Formerly a pirate of Crocodile's crew.[N]
 In times of strife, it's best to anchor[N]
 oneself to the strongest man around.[X]
 
@@ -213,6 +213,14 @@ Lux[X]
 One of Drek's numerous bodies for the[N]
 meat grinder. Made peace with it after[N]
 being torn from his mother years prior.[X]
+
+## MurtazaName
+Murtaza[X]
+
+## MurtazaDesc
+General Orion Hafeez's personal adjutant.[N]
+As the command shrinks, the weight of[N]
+his responsibilities grows ever heavier.[X]
 
 ## EkaitzName
 Ekaitz[X]
@@ -392,8 +400,16 @@ Peasant[X]
 
 ## PeasantDesc
 An ordinary and untrained commoner of[N]
-the Wolffian countryside. Swayed to[N]
+the Wolffian countryside, swayed to[N]
 rebel by Wister's emphatic speeches.[X]
+
+## LiterateName
+Literate[X]
+
+## LiterateDesc
+An unnaturally gifted commoner, letters[N]
+taught and flames fueled by reading[N]
+House Wolffia's taxation ordinances.[X]
 
 ## RanunName
 Ranun[X]
@@ -411,6 +427,14 @@ Desperate captain of a Drekkan crew.[N]
 Unable to pillage in Cassandra's regime,[N]
 he's forced to pick at Meralian prey.[X]
 
+## AlligatorName
+Alligator[X]
+
+## AlligatorDesc
+Crocodile's chief navigator and brain[N]
+of the operation. Said brain flunked[N]
+out of the academy - er, sorry, [dquote]left[dquote].[X]
+
 ## MarauderName
 Marauder[X]
 
@@ -419,13 +443,29 @@ Starving outcasts of Drekkan society,[N]
 subsisting by razing homes and stealing[N]
 belongings of unlucky souls they pass.[X]
 
+## SurveyorName
+Surveyor[X]
+
+## SurveyorDesc
+Dropout students of Drek's war-colleges,[N]
+turned to piracy from unwillingness to[N]
+sling fireballs as a rank-and-file magi.[X]
+
+## CamEnemyName
+Camilia[X]
+
+## CamEnemyDesc
+Dutiful stevedore of Crocodile's crew.[N]
+In times of strife, it's best to anchor[N]
+oneself to the strongest man around.[X]
+
 ## FernyigesName
 Fernyiges[X]
 
 ## FernyigesDesc
-Iron-fisted ruler of all of Meraly.[N]
-Feels it is his responsibility, and[N]
-his alone, to make it bear fruit.[X]
+Iron-fisted rightful ruler of all of[N]
+Meraly. Knows it is his responsibility,[N]
+and his alone, to make it bear fruit.[X]
 
 ## ZakariaName
 Zakaria[X]

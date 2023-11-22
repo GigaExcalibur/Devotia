@@ -12,9 +12,14 @@ ldrb	r0, [r4,#0x13]
 cmp	r0, #0x00
 beq	End
 
-ldrb    r0, [r5,#0x13]
-cmp    r0, #0x00
-bne    End
+@check if unit has weapon triangle advantage
+push {r2}
+ldr r2, =#0x203A56C
+mov r0, #0x53
+ldsb r1, [r2,r0]
+pop {r2}
+cmp r1, #0x0
+bge End
 
 @check if attacked this turn
 ldrb 	r0, [r6,#0x11]	@action taken this turn
@@ -34,6 +39,7 @@ cmp	r0, #0x00
 bne	End
 
 @check for skill
+/*
 mov	r0, r4
 ldr	r1, GaleforceID
 ldr	r3, SkillTester
@@ -41,6 +47,7 @@ mov	lr, r3
 .short	0xf800
 cmp	r0,#0x00
 beq	End
+*/
 
 @if killed enemy, unset 0x2 and 0x40, set 0x400, write to status
 ldr	r0, [r4,#0x0C]	@status bitfield

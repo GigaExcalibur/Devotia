@@ -260,8 +260,11 @@
     #ifdef LEADERSHIP_STARS
       //RMenu(ST_Cond,ST_Talk,ST_Spd,0,0xa6,0x48,LeadRText)
     #else
-      RMenu(ST_Aid,ST_Skills,ST_Spd,0,0xa6,0x48,0x551)
+      RMenu(ST_Aid,ST_Skills,ST_Spd,ST_AffinDesc,0xa6,0x48,0x551)
     #endif
+	
+  ST_AffinDesc:
+    RMenu(ST_Aid,ST_Skill1,ST_Affin,0,0xbe,0x48,0,AffinityDescLooper,AffinityDescGetter)
 
   //ST_Cond:
     //RMenu(ST_Affin,ST_Talk,ST_Spd,0,0xA6,0x48,0x552,ConditionGetter)
@@ -273,7 +276,7 @@
     RMenu(ST_Affin,ST_Trv,ST_Luck,ST_Skill1,0xA6,0x58,SS_SkillsRText)
 
   ST_Skill1:
-    RMenu(ST_Affin,ST_Trv,ST_Skills,0,0xbe,0x58,0,RTextLoop,SkillDescGetter)
+    RMenu(ST_AffinDesc,ST_Trv,ST_Skills,0,0xbe,0x58,0,RTextLoop,SkillDescGetter)
 
   ST_Skill2:
     RMenu(ST_Skills,ST_Skill5,ST_Skill1,ST_Skill3,0xbe,0x78,1,RTextLoop,SkillDescGetter+4)
@@ -447,7 +450,7 @@
 	#ifdef GAIDEN_MAGIC
       RMenu(ST_Class4,ST_HP4,ST_Level4,ST_Spell3,0x26,0x78,0x543)
     #else
-	  RMenu(ST_Class4,ST_HP4,0,0,0x26,0x78,0x543)
+	  RMenu(ST_Class4,ST_HP4,ST_Level4,ST_Job,0x26,0x78,0x543)
 	#endif
 
   ST_HP4:
@@ -480,8 +483,11 @@
 	#ifdef GAIDEN_MAGIC
       RMenu(ST_Dislikes,ST_Spell2,ST_Age,0,0xa6,0x58,HeightDesc)
     #else
-	  RMenu(ST_Age,0,ST_Class4,0,0x66,0x68,HeightDesc)
+	  RMenu(ST_Age,ST_Job,ST_Class4,0,0x66,0x68,HeightDesc)
 	#endif
+	
+  ST_Job:
+    RMenu(ST_Height,0,ST_Exp4,0,0x66,0x78,JobDesc,HbPopulate_Promo)
 
 #else // ENABLE_PERSONAL_INFO
 

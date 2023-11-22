@@ -88,3 +88,5 @@ WORD 0xFFFFFFFF 0xFFFFFFFF // For FEBuilder to show no further data with
 #include "DeathQuotes.event"
 
 #include "SoundRoom.event"
+
+#include "WeaponTriangle.event"

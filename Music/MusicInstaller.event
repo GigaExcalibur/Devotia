@@ -53,11 +53,11 @@ SongTable(BossBattleID, song03, MapMusicGroup)
 #include "MusicEvents/TemporalTower.event"
 SongTable(TemporalTowerID, TemporalTower, MapMusicGroup)
 
-#include "MusicEvents/MarowakDojo.event"
-SongTable(MarowakDojoID, MarowakDojo, MapMusicGroup)
-
 #include "MusicEvents/OneForAllAllForOne.event"
 SongTable(OneForAllAllForOneID, OneForAllAllForOne, MapMusicGroup)
 
 #include "MusicEvents/SkyPeakPrairie.event"
 SongTable(SkyPeakPrairieID, SkyPeakPrairie, MapMusicGroup)
+
+#include "MusicEvents/TreasureTown.event"
+SongTable(TreasureTownID, TreasureTown, MapMusicGroup)

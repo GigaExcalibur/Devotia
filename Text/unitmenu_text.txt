@@ -35,14 +35,14 @@ at least 1 HP.[N]
 Use the power of dragons.[X]
 
 ## UM_Shove
- Shove Unit[X]
+ Shove[X]
 
 ## UM_ShoveDesc
 Push an adjacent unit one[N]
 tile away.[X]
 
 ## UM_Smite
- Smite Unit[X]
+ Smite[X]
 
 ## UM_SmiteDesc
 Push an adjacent unit two[N]

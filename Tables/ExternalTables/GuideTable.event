@@ -1,5 +1,6 @@
 #define GuideFlag 0xB4
 #define AddGuideEntry(category, title, content) "BYTE category category; SHORT title content GuideFlag GuideFlag 0"
+#define AddGuideEntry(category, title, content, character) "BYTE category category; SHORT title content GuideFlag GuideFlag; BYTE character 0"
 #define AddGuideEntry(category, title, content, unlockFlag, readFlag) "BYTE category category; SHORT title content unlockFlag readFlag 0"
 
 #define MechanicsIndex 0x1
@@ -50,11 +51,11 @@ POP
 ALIGN 4
 NewPlaybill:
 // Mechanics
-AddGuideEntry(MechanicsIndex, WeaponTriangleEntry, WeaponTriangleContent)
-AddGuideEntry(MechanicsIndex, DoublingThresholdEntry, DoublingThresholdContent)
+AddGuideEntry(MechanicsIndex, SecondActionsEntry, SecondActionsContent)
 AddGuideEntry(MechanicsIndex, WeaponCategoriesEntry, WeaponCategoriesContent)
 AddGuideEntry(MechanicsIndex, StavesConsumableItemsEntry, StavesConsumableItemsContent)
 AddGuideEntry(MechanicsIndex, SkillsEntry, SkillsContent)
+AddGuideEntry(MechanicsIndex, SupportsEntry, SupportsContent)
 
 // Setpieces
 AddGuideEntry(SetpiecesIndex, MeralyEntry, MeralyContent)
@@ -65,8 +66,10 @@ AddGuideEntry(CastIndex, ZeroRothEntry, ZeroRothContent)
 AddGuideEntry(CastIndex, JosephineVentadornEntry, JosephineVentadornContent)
 AddGuideEntry(CastIndex, WesleyEmersonEntry, WesleyEmersonContent)
 AddGuideEntry(CastIndex, BethelynTillerEntry, BethelynTillerContent)
-AddGuideEntry(CastIndex, CamiliaFailsideEntry, CamiliaFailsideContent)
+AddGuideEntry(CastIndex, CamiliaFailsideEntry, CamiliaFailsideContent, Cam)
 AddGuideEntry(CastIndex, GiselleLoweEntry, GiselleLoweContent)
+AddGuideEntry(CastIndex, LeviathanSarkaEntry, LeviathanSarkaContent)
+AddGuideEntry(CastIndex, StuartSussmanEntry, StuartSussmanContent)
 
 // Crew
 AddGuideEntry(CrewIndex, HairAndMakeupEntry, HairAndMakeupContent)
@@ -94,14 +97,15 @@ AddGuideEntry(PromotionIndex, LegacyOfSorrowEntry, LegacyOfSorrowContent)
 AddGuideEntry(0xC, 0, 0, 0, 0)
 WORD 0 0 0
 
+// Category list
 PUSH
 ORG $B12B04
-SHORT 1
+SHORT 1 // Dummy entry, this is necessary
 SHORT MechanicsCategory
 SHORT SetpiecesCategory
 SHORT CastCategory
 SHORT CrewCategory
 SHORT ThanksCategory
 SHORT PromotionCategory
-SHORT 0
+SHORT 0 // Terminator
 POP

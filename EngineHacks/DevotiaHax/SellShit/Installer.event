@@ -1,0 +1,15 @@
+#define ModifierPerChapterEntry(chapter, modifier) "PUSH; ORG ModifierPerChapterList+chapter; BYTE modifier; POP"
+
+ALIGN 4
+CryptocurrencyItem_Link:
+BYTE RedGem // Change to the item id of your crypto junk
+
+ALIGN 4
+ModifierPerChapterList:
+FILL 256
+
+// In order to support intervals of 0.1, make sure you multiply the modifier by 10 in your macros.
+// For example ModifierPerChapterEntry(0x0, 7) makes cryptocurrency in the Prologue worth 0.7 times as much as normal.
+// If you leave out a chapter in this list, the price will be the same as its normal value.
+
+#include "Cryptocurrency.lyn.event"

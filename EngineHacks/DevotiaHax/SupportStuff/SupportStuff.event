@@ -54,10 +54,14 @@ BYTE 0x40
 
 // Armory BGM
 ORG 0xB4C02
-BYTE MarowakDojoID
+BYTE TreasureTownID
 
 // Maintain prep theme in Base Convo select
 ORG 0x951FC
 SHORT 0x46C0 0x46C0
+
+// Make battle crit < 10 become 0
+ORG 0x02ACC0
+BYTE 0xA
 
 POP

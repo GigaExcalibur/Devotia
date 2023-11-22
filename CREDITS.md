@@ -11,7 +11,7 @@ Giselle - Cravat
 
 # Map Sprites
 Gremory - TyTheBub
-High Gremory - Pikmin, Unknown
+High Gremory - WhatIsAnAubin
 Princess - TopazLight
 Mercenary - Agro
 Runelord - Nuramon
@@ -37,6 +37,7 @@ Spellmaster - Jiege, TLP
 Light Mage - Leo_Link, L95
 Starseer - Melia
 Sorcerer - Pikmin, Nuramon, Der
+Mawlawi - Unknown
 Cleric - TopazLight
 Thaumaturge - Der
 Templar - Der
@@ -111,6 +112,40 @@ Dracorider - Flasuban
 Dracolord - Flasuban, Max Limit 
 Bombardier - EldritchAbomination, N426, Jj09
 Barbarossa - EldritchAbomination, Jj09
+
+# ItemIcons
+Healing Staves - Ereshkigal
+Warp/Rescue - Ereshkigal
+Buffing Staves - Zarg
+Legendary Staff - LordGlenn
+
+Fire Tomes - Leif
+Thunder Tomes - Leif
+Basic Winds - Leif
+Ice Tomes - Ereshkigal
+Earth Tomes - CardCafe
+Vexflame - Lisandra Brave
+Other Winds - LordGlenn
+Physical Tomes - CardCafe
+
+Basic Lights - Batima
+Jagged Lights - Batima
+Heavy Lights - Celice
+Surges - LordGlenn
+Vexaura - Ereshkigal
+Shooting Stars - Zarg
+Nosferatu - Batima
+Regalista - Batima
+
+Basic Darks - Ereshkigal
+Jagged Darks - Ereshkigal
+Heavy Darks - Ereshkigal
+Ranged Darks - Kyrads
+Vexshadow - Zarg
+Ruin - Batima
+Solstice - Batima
+Regoliath - LordGlenn
+
 
 # Skill contributors
 

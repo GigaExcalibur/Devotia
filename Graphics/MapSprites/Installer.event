@@ -86,6 +86,9 @@
 #define Wyvern_Lord_M_Helmless_Axe_flasubanstand 188 
 #define Wyvern_Rider_F_Axe_flasubanstand 189
 #define SigilTrapMapSprite 190 // arbitrary number
+#define MullahMapSprite 191
+#define MawlawiMapSprite 192
+#define CardinalAgastyaMapSprite 193
 
 //Copy from here 
 PUSH 
@@ -105,9 +108,9 @@ SetSMS(Cleric_F_Caped_Staff_topazlightstand, 0, Cleric_F_Caped_Staff_topazlights
 SetSMS(Custom_Flier_Deva_F_Ayrstand, 1, Custom_Flier_Deva_F_Ayrstand_Data) 
 SetSMS(Custom_Flier_Nephilim_F_Ayrstand, 1, Custom_Flier_Nephilim_F_Ayrstand_Data) 
 SetSMS(Dark_Knight_Hood_Pikmin_Nuramon_Derstand, 1, Dark_Knight_Hood_Pikmin_Nuramon_Derstand_Data) 
-SetSMS(Dragoon_M_v2_Lance_Pikmin_Unknownstand, 1, Dragoon_M_v2_Lance_Pikmin_Unknownstand_Data) 
+SetSMS(Dragoon_M_v2_Lance_Pikmin_Unknownstand, 0, Sage_M_Battle_Sage_Magic_Smug_Mug_Unknownwalk_Data) 
 SetSMS(Dread_Fighter_F_Nuramonstand, 0, Dread_Fighter_F_Nuramonstand_Data) 
-SetSMS(Druid_M_ISstand, 0, Druid_M_ISstand_Data) 
+SetSMS(Druid_M_ISstand, 0, Druid_M_ISstand_Data)
 SetSMS(Fighter_M_Revamped_Axe_Alusqstand, 0, Fighter_M_Revamped_Axe_Alusqstand_Data) 
 SetSMS(General_U_Sword_Norikinsstand, 1, General_U_Sword_Norikinsstand_Data) 
 SetSMS(Gold_Knight_M_Axe_Pikmin_Derstand, 1, Gold_Knight_M_Axe_Pikmin_Derstand_Data) 
@@ -122,7 +125,7 @@ SetSMS(Hero_F_ISstand, 0, Hero_F_ISstand_Data)
 SetSMS(Hunter_M_MeatOfJusticestand, 0, Hunter_M_MeatOfJusticestand_Data) 
 SetSMS(Juggernautstand, 1, Juggernautstand_Data) 
 SetSMS(King_U_Bulwark_Axe_bloodstand, 2, King_U_Bulwark_Axe_bloodstand_Data) 
-SetSMS(Knight_U_Axe_Agrostand, 1, Knight_U_Axe_Agrostand_Data) 
+SetSMS(Knight_U_Axe_Agrostand, 0, Knight_U_Axe_Agrostand_Data) 
 SetSMS(Knight_U_Bow_Agro_Blademasterstand, 0, Knight_U_Bow_Agro_Blademasterstand_Data) 
 SetSMS(Knight_U_FE10Style_Magic_flasubanstand, 0, Knight_U_FE10Style_Magic_flasubanstand_Data)
 SetSMS(Knight_U_Lance_Alt_16x16_Agrostand, 0, Knight_U_Lance_Alt_16x16_Agrostand_Data) 
@@ -173,6 +176,9 @@ SetSMS(Wicked_Flier_U_MeatOfJusticestand, 1, Wicked_Flier_U_MeatOfJusticestand_D
 SetSMS(Wyvern_Lord_M_Helmless_Axe_flasubanstand, 1, Wyvern_Lord_M_Helmless_Axe_flasubanstand_Data) 
 SetSMS(Wyvern_Rider_F_Axe_flasubanstand, 1, Wyvern_Rider_F_Axe_flasubanstand_Data)
 SetSMS(SigilTrapMapSprite, 0, SigilMapSpriteData) 
+SetSMS(MullahMapSprite, 0, Monk_M_ISstand_Data)
+SetSMS(MawlawiMapSprite, 0, Sage_M_Battle_Sage_Magic_Smug_Mug_Unknownstand_Data)
+SetSMS(CardinalAgastyaMapSprite, 0, Dark_Druid_M_16x16_ISstand_Data)
 
 SetMMS(Drifter-1, Archer_F_Improved_Derwalk_Data, DemonKingAP) 
 SetMMS(Spellmaster-1, Archsage_F_Brunnya_Jiege_TLPwalk_Data, DemonKingAP) 
@@ -190,8 +196,9 @@ SetMMS(Cleric-1, Cleric_F_Caped_Staff_topazlightwalk_Data, DemonKingAP)
 SetMMS(DaemonWing-1, Custom_Flier_Deva_F_Ayrwalk_Data, DemonKingAP) 
 SetMMS(Harrier-1, Custom_Flier_Nephilim_F_Ayrwalk_Data, DemonKingAP) 
 SetMMS(Sorcerer-1, Dark_Knight_Hood_Pikmin_Nuramon_Derwalk_Data, DemonKingAP) 
-SetMMS(HighGremory-1, Dragoon_M_v2_Lance_Pikmin_Unknownwalk_Data, DemonKingAP) 
-SetMMS(HighGremoryZakaria-1, Dragoon_M_v2_Lance_Pikmin_Unknownwalk_Data, DemonKingAP) 
+SetMMS(HighGremory-1, Malig_LordWalk_M__WhatIsAnAubin_Data, DemonKingAP) 
+SetMMS(Mullah-1, Monk_M_ISwalk_Data, DemonKingAP) 
+SetMMS(Mawlawi-1, Sage_M_Battle_Sage_Magic_Smug_Mug_Unknownwalk_Data, DemonKingAP)
 SetMMS(Runelord-1, Dread_Fighter_F_Nuramonwalk_Data, DemonKingAP) 
 SetMMS(Warlock-1, Druid_M_ISwalk_Data, DemonKingAP) 
 SetMMS(Woodsman-1, Fighter_M_Revamped_Axe_Alusqwalk_Data, DemonKingAP) 
@@ -230,7 +237,6 @@ SetMMS(Forestier-1, Paladin_F_Axe_L95walk_Data, DemonKingAP)
 SetMMS(Paladin-1, Paladin_F_Lance_L95walk_Data, DemonKingAP) 
 SetMMS(Hakkapeliitta-1, Paladin_F_Sword_RobertFPYwalk_Data, DemonKingAP) 
 SetMMS(Prince-1, Pegasi_F_T1_Staff_WarPathwalk_Data, DemonKingAP) 
-SetMMS(PrinceIntermission-1, Pegasi_F_T1_Staff_WarPathwalk_Data, DemonKingAP) 
 SetMMS(Windrider-1, Pegasi_F_T1_Sword_Flasubanwalk_Data, DemonKingAP) 
 SetMMS(Falconeer-1, Pegasi_F_T2_Lance_ISwalk_Data, DemonKingAP) 
 SetMMS(Pirate-1, Pirate_M_Axe_ISwalk_Data, DemonKingAP) 
@@ -261,6 +267,7 @@ SetMMS(Malignant-1, Wicked_Flier_U_MeatOfJusticewalk_Data, DemonKingAP)
 SetMMS(Melusine-1, Wicked_Flier_U_MeatOfJusticewalk_Data, DemonKingAP) 
 SetMMS(Dracolord-1, Wyvern_Lord_M_Helmless_Axe_flasubanwalk_Data, DemonKingAP) 
 SetMMS(Dracorider-1, Wyvern_Rider_F_Axe_flasubanwalk_Data, DemonKingAP) 
+SetMMS(HighAgastya-1, Dark_Druid_M_ISwalk_Data, DemonKingAP)
 POP 
 //Copy until here 
 

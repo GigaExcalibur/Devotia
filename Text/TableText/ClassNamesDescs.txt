@@ -2,33 +2,33 @@
 Gremory[X]
 
 ## GremoryDesc
-Adept members of House Ouahed,[N]
-classically educated in all schools of[N]
-magic for exemplary combat service.[X]
+To be worthy of House Ouahed's magical[N]
+legacy requires rigorous study of all[N]
+such schools, bordering on the demonic.[X]
 
 ## HighGremoryName
 High Gremory[X]
 
 ## HighGremoryDesc
-The greatest magister lord of House[N]
-Ouahed, whose brilliance with lances[N]
-and all magic belies their brutality.[X]
+The high magister of House Ouahed is[N]
+a beacon of justice, swift to deliver[N]
+with mastery of lances and all magic.[X]
 
 ## PrincessName
 Princess[X]
 
 ## PrincessDesc
-Noble members of the Sarka bloodline.[N]
-Naturally gifted in healing magic,[N]
-and deft as a fencer as well.[X]
+A decorative title, above all else,[N]
+although one of such regal bearing[N]
+will exemplify it with sword and staff.[X]
 
 ## VioletKnightName
 Violet Knight[X]
 
 ## VioletKnightDesc
-Combat-mastered nobles of House Sarka,[N]
-possessing aptitude in all physical[N]
-weapon types to dominate in battle.[X]
+Colors of House Sarka's banner streak[N]
+across the battlefield, flown by the[N]
+master knight who stands above all.[X]
 
 ## MyrmidonName
 Myrmidon[X]
@@ -37,12 +37,22 @@ Myrmidon[X]
 Sword students in training, instructed in[N]
 supremacy of speed and skill over power.[X]
 
+## MyrmidonPlayerDesc
+Studying the blade requires patience[N]
+and precision, not unlike that of a[N]
+brush stroke putting color to a canvas.[X]
+
 ## TruebladeName
 Trueblade[X]
 
 ## TruebladeDesc
 Sword masters of completed study, whose[N]
 peerlessness with swords is unmatched.[X]
+
+## TruebladePlayerDesc
+Critical slashes made blood gush from[N]
+open wounds, painting the ground red[N]
+in one gruesome, artistic display.[X]
 
 ## MercenaryName
 Mercenary[X]
@@ -51,6 +61,11 @@ Mercenary[X]
 All-rounded sellsword contractors[N]
 with a penchant for magic resistance.[X]
 
+## MercenaryPlayerDesc
+The life of a merc is at once banal[N]
+and thrilling: one second bored out[N]
+of your mind, the next at swordpoint.[X]
+
 ## HeroName
 Hero[X]
 
@@ -58,29 +73,46 @@ Hero[X]
 Legendary sword and axe brandishers[N]
 whose names go down in folk myth.[X]
 
+## HeroPlayerDesc
+Their cheers echoed through the land[N]
+and up to the heavens, carving her[N]
+exploits into the stars themselves.[X]
+
 ## RunelordName
 Runelord[X]
 
 ## RunelordDesc
 Renegade dread fighers of swords and[N]
-dark magic, forgoing duelists' honor.[N]
-Can steal enemies' possessions.[X]
+dark magic, forgoing duelists' honor.[X]
+
+## RunelordPlayerDesc
+A quick sidestep, a quicker enchant,[N]
+a flash of darkness, a stolen object,[N]
+and a slink back into the shadows.[X]
 
 ## ThiefName
 Thief[X]
 
 ## ThiefDesc
 Battlefield skulkers using swords[N]
-to open both locks and wounds.[N]
-Can steal enemies' possessions.[X]
+to open both locks and wounds.[X]
+
+## ThiefPlayerDesc
+Her eyes dart back and forth admidst[N]
+turmoil, scanning for life not as prey[N]
+does hunter, but as a hunter does prey.[X]
 
 ## RogueName
 Rogue[X]
 
 ## RogueDesc
 Crown prince of combat thieves, looting[N]
-all in sight with naught a whisper.[N]
-Can steal enemies' possessions.[X]
+all in sight with naught a whisper.[X]
+
+## RoguePlayerDesc
+Fingers tremble with excitement at the[N]
+knowledge that yes, one day, all she[N]
+desires will be within her grasp.[X]
 
 ## HunterName
 Hunter[X]
@@ -89,12 +121,22 @@ Hunter[X]
 Slow and steady bow infantry that[N]
 hunt all manner of living targets.[X]
 
+## HunterPlayerDesc
+With a deep breath and hitch of an[N]
+arrow, all his surroundings fade away,[N]
+save for the target within his sight.[X]
+
 ## MarksmanName
 Marksman[X]
 
 ## MarksmanDesc
 Saggitary snipers whose supremacy with[N]
 bows shreds the very skies themselves.[X]
+
+## MarksmanPlayerDesc
+Felling enemies from comfort yards[N]
+behind front lines, he began to view[N]
+his targets as naught but mere game.[X]
 
 ## TricksterName
 Trickster[X]
@@ -103,12 +145,22 @@ Trickster[X]
 Cunning and crafty combatants flexible[N]
 with both close swords and distant bows.[X]
 
+## TricksterPlayerDesc
+Karma had caught up to them a hundred[N]
+times over, a just punishment for a[N]
+life of upheaval and destruction.[X]
+
 ## LancerName
 Lancer[X]
 
 ## LancerDesc
 Distinctly non-mounted lance footsoldiers.[N]
 No noteworthy aspects, save disposability.[X]
+
+## LancerPlayerDesc
+Eyes wide as the axe came downward,[N]
+it just now dawned on him the fact[N]
+that he did not want to die.[X]
 
 ## HalberdierName
 Halberdier[X]
@@ -117,6 +169,11 @@ Halberdier[X]
 Proficient spearmen who've overcome the[N]
 mediocrity of their previous station.[X]
 
+## HalberdierPlayerDesc
+The enemy retreated, their dead left[N]
+for carrion feed, and now he knew he[N]
+would never be counted amongst them.[X]
+
 ## VillagerName
 Villager[X]
 
@@ -124,13 +181,18 @@ Villager[X]
 An ordinary civilian, forced to pick up[N]
 lances for combat rather than labor.[X]
 
+## VillagerPlayerDesc
+The lance itself stood taller than her,[N]
+but looking at her you'd know she was[N]
+liable to slay giants twice her height.[X]
+
 ## StarostaName
 Starosta[X]
 
 ## StarostaDesc
-Beth's rewarded position as a community[N]
-leader. With this position comes complete[N]
-dominance over the weapon triangle.[X]
+Klaudia handed her the cuirass and[N]
+shook her hand, and at long last her[N]
+efforts had finally borne fruit.[X]
 
 ## WarmasterName
 Warmaster[X]
@@ -139,12 +201,22 @@ Warmaster[X]
 Masters of arms who require no support[N]
 to single-handedly shred enemy formations.[X]
 
+## WarmasterPlayerDesc
+Given time, all battles blur together,[N]
+although one never forgets the face[N]
+of the first soul they extinguished.[X]
+
 ## WoodsmanName
 Woodsman[X]
 
 ## WoodsmanDesc
 Untrained fighters whose axe strength[N]
 comes from chopping logs, not heads.[X]
+
+## WoodsmanPlayerDesc
+One can speculate how he grew adept[N]
+with a hatchet, but seeing it, it[N]
+felt like an extension of his arm.[X]
 
 ## VarangianName
 Varangian[X]
@@ -153,6 +225,11 @@ Varangian[X]
 Burly yet reliable bodyguards able to[N]
 rend foes in half with axes and bows.[X]
 
+## VarangianPlayerDesc
+Beneath that inscrutable exterior was[N]
+a protective soul, putting himself in[N]
+harm's way with a silent devotion.[X]
+
 ## PirateName
 Pirate[X]
 
@@ -160,12 +237,22 @@ Pirate[X]
 Brash seamen who'd sacrifice any bit[N]
 of defense for the brawl of a lifetime.[X]
 
+## PiratePlayerDesc
+In any other life she'd be a knight of[N]
+great renown, although such a prospect[N]
+was never once bemoaned by her.[X]
+
 ## BerserkerName
 Berserker[X]
 
 ## BerserkerDesc
 Bullheaded glass cannon brutes who lash[N]
 forward without regard for any safety.[X]
+
+## BerserkerPlayerDesc
+The shieldwall buckled beneath her[N]
+axe, crashing down with the force[N]
+of a dozen looming tidal waves.[X]
 
 ## RaiderName
 Raider[X]
@@ -181,12 +268,22 @@ Ravager[X]
 Lone wolf highwaymen who rise above the[N]
 pack to be a beacon of destruction.[X]
 
+## RavagerPlayerDesc
+Under such a harsh expression was a[N]
+heart of gold, and woe on the poor[N]
+soul unlucky enough to break it.[X]
+
 ## SwordArmorName
 Sword Armor[X]
 
 ## SwordArmorDesc
 Armored vanguards that deflect hits.[N]
 This variant is trained in swords.[X]
+
+## SwordArmorPlayerDesc
+Enemy closed in, poised to kill in[N]
+one blow, until he drew steel with[N]
+heteroclite speed and a ghastly grin.[X]
 
 ## DreadnoughtName
 Dreadnought[X]
@@ -195,12 +292,22 @@ Dreadnought[X]
 Frontliners whose shining armor makes[N]
 them impervious from physical damage.[X]
 
+## DreadnoughtPlayerDesc
+And he reveled in the violence, the[N]
+carnage, the bloodshed, as foes could[N]
+not help but throw themselves at him.[X]
+
 ## LanceArmorName
 Lance Armor[X]
 
 ## LanceArmorDesc
 Armored vanguards that deflect hits.[N]
 This variant is trained in lances.[X]
+
+## LanceArmorPlayerDesc
+Said the armor was a size too big,[N]
+having inherited it as a hand-me-down,[N]
+but no less prideful of its sheen.[X]
 
 ## GendarmeName
 Gendarme[X]
@@ -209,12 +316,22 @@ Gendarme[X]
 Drekkan heavy cavalry of men-at-arms[N]
 whose footsteps quake the earth.[X]
 
+## GendarmePlayerDesc
+The steed had known her since she was[N]
+a babe, though how it found her here[N]
+is unknown. She seems appreciative.[X]
+
 ## AxeArmorName
 Axe Armor[X]
 
 ## AxeArmorDesc
 Armored vanguards that deflect hits.[N]
 This variant is trained in axes.[X]
+
+## AxeArmorPlayerDesc
+Tripped and fell a dozen times over,[N]
+almost crushing a peer's foot with his[N]
+axe, but always got back up afterward.[X]
 
 ## CataphractName
 Cataphract[X]
@@ -223,12 +340,22 @@ Cataphract[X]
 Meralian heavy cavalry of great knights[N]
 dutifully trampling enemies underfoot.[X]
 
+## CataphractPlayerDesc
+Nigh infinite momentum combined with[N]
+nigh boundless spunk, no one could[N]
+ever keep up or slow them down.[X]
+
 ## MageArmorName
 Mage Armor[X]
 
 ## MageArmorDesc
 Armored vanguards that deflect hits.[N]
 An exception to have studied light magic.[X]
+
+## MageArmorPlayerDesc
+Refused the traditional weapons of[N]
+knighthood, claiming weaving spells[N]
+was the only way to preserve sanity.[X]
 
 ## ThaumachineName
 Thaumachine[X]
@@ -237,66 +364,102 @@ Thaumachine[X]
 Hulking behemoths of armor that act as[N]
 catalysts for immense magical carnage.[X]
 
+## ThaumachinePlayerDesc
+Mana coursed the plates, crackling[N]
+energy searing all nearby, as she[N]
+lamented that it could be different.[X]
+
 ## HarbingerName
 Harbinger[X]
 
 ## HarbingerDesc
-Evelyn's alias as Drek's Knight General.[N]
-Atop her pitch-black warhorse, she[N]
-slays enemies with a reaper's force.[X]
+So too does the reaper claim souls with[N]
+a flick of his scythe, so too does she[N]
+slay all in her way atop her warhorse.[X]
 
 ## AnimaMageName
 Anima Mage[X]
 
 ## AnimaMageDesc
-Students of magic, often of high birth.[N]
+Curious and driven scholars of magic.[N]
 This variant studied the school of anima.[X]
+
+## AnimaMagePlayerDesc
+Hand trembled as they turned the page,[N]
+for to break proper ladylike form[N]
+invoked punishment worse than death.[X]
 
 ## SpellmasterName
 Spellmaster[X]
 
 ## SpellmasterDesc
-Astraea's graduated rank, awarded for[N]
-completion of their study and moving[N]
-on from the shadow of their past.[X]
+Klaudia handed over the seal, and a[N]
+smile grew on their face. Perhaps[N]
+they do deserve it, after all.[X]
 
 ## LightMageName
 Light Mage[X]
 
 ## LightMageDesc
-Students of magic, often of high birth.[N]
+Curious and driven scholars of magic.[N]
 This variant studied the school of light.[X]
+
+## LightMagePlayerDesc
+Laughter could be heard the continent[N]
+over, the guffaw of a woman too in her[N]
+own head to take the war seriously.[X]
 
 ## StarseerName
 Starseer[X]
 
 ## StarseerDesc
-Maris' bestowed moniker as a master[N]
-monk, lighting up the battlefield[N]
-both literally and figuratively.[X]
+Heavens know what she did to earn[N]
+this, though she beamed at the sight[N]
+and pledged to make the light proud.[X]
 
 ## DarkMageName
 Dark Mage[X]
 
 ## DarkMageDesc
-Students of magic, often of high birth.[N]
+Curious and driven scholars of magic.[N]
 This variant studied the school of dark.[X]
+
+## DarkMagePlayerDesc
+Felt the tug of madness, though he[N]
+shooed it away. He must be sound of[N]
+mind to reunite with his beloved.[X]
 
 ## NecromancerName
 Necromancer[X]
 
 ## NecromancerDesc
-Alma's reputed profession as a summoner[N]
-of the dead who casts away the sanctity[N]
-of life itself in their pursuits.[X]
+Was prepared to make any necessary[N]
+sacrifice, save for his own mind. How[N]
+far this will go, he did not say.[X]
 
 ## SageName
 Sage[X]
 
 ## SageDesc
-Orion's alias as Drek's Arcane General.[N]
+Calm disposition ill befits his position.[N]
 Staff in one hand and tome in the other,[N]
 he burns enemies with ironic remorse.[X]
+
+## MullahName
+Mullah[X]
+
+## MullahDesc
+The light shone in his eyes, spells[N]
+weaved with brilliant composure, until[N]
+he was to turn them on his fellow man.[X]
+
+## MawlawiName
+Mawlawi[X]
+
+## MawlawiDesc
+The light danced between his fingers,[N]
+gleaming the power to make miracles[N]
+wrought with his own two hands.[X]
 
 ## SorcererName
 Sorcerer[X]
@@ -305,12 +468,22 @@ Sorcerer[X]
 Elder magic casters decimating all in[N]
 their path atop a blitzing steed.[X]
 
+## SorcererPlayerDesc
+Life's research had been to find a[N]
+way to break the feeble limits of the[N]
+human body. But little time remains.[X]
+
 ## ClericName
 Cleric[X]
 
 ## ClericDesc
 Generous staff wielders who refuse to[N]
 fight, but support allies all the same.[X]
+
+## ClericPlayerDesc
+Stood on the field, disapprovement[N]
+writ plain on her face, but would[N]
+not budge until her duty was done.[X]
 
 ## ValkyrieName
 Valkyrie[X]
@@ -319,12 +492,22 @@ Valkyrie[X]
 Mounted medics wielding swords to defend[N]
 themselves while performing their duty.[X]
 
+## ValkyriePlayerDesc
+Ill-content with standing on the side,[N]
+she picked up a sword and rode into[N]
+battle to deliver her allies from harm.[X]
+
 ## TrobairitzName
 Trobairitz[X]
 
 ## TrobairitzDesc
 Traveling poets spinning their words[N]
 and using staves to heal allies.[X]
+
+## TrobairitzPlayerDesc
+War is a spectrum: from grand battles[N]
+to the intimiate moments thereafter,[N]
+and he will be there to spin it all.[X]
 
 ## ThaumaturgeName
 Thaumaturge[X]
@@ -333,12 +516,22 @@ Thaumaturge[X]
 Battle-maidens whose magical armaments[N]
 can spell both salvation and damnation.[X]
 
+## ThaumaturgePlayerDesc
+Thus was the war reduced to a tale: a[N]
+grand tale of loyalty, romance, and a[N]
+certain sonneteer's elusive war-magick.[X]
+
 ## TemplarName
 Templar[X]
 
 ## TemplarDesc
 Axe-wielding apothecaries prepared to[N]
 amputate any malignant tumor to heal.[X]
+
+## TemplarPlayerDesc
+Stared at the tumor with righteous[N]
+fury, took a deep breath, and drove[N]
+his axe into the malform with zeal.[X]
 
 ## SwordRiderName
 Sword Rider[X]
@@ -347,12 +540,22 @@ Sword Rider[X]
 Chivalrous horsemen nobly knighted.[N]
 This variant is trained in swords.[X]
 
+## SwordRiderPlayerDesc
+Combat was a subject, a set of rote[N]
+repetitions and sequences to follow.[N]
+And she was nothing, if not practiced.[X]
+
 ## HakkapeliittaName
 Hackapell[X]
 
 ## HakkapeliittaDesc
 Advanced knights whose gallop with[N]
 swords and axes tramples all foes.[X]
+
+## HakkapeliittaPlayerDesc
+Combat was a subject, a matter to[N]
+be refined and wholly understood.[N]
+And she was nothing, if not mastered.[X]
 
 ## LanceRiderName
 Lance Rider[X]
@@ -361,12 +564,22 @@ Lance Rider[X]
 Chivalrous horsemen nobly knighted.[N]
 This variant is trained in lances.[X]
 
+## LanceRiderPlayerDesc
+The very picture of loyalty, in her[N]
+own words. Nobly riding in, breaking[N]
+formations, all to save her lord.[X]
+
 ## PaladinName
 Paladin[X]
 
 ## PaladinDesc
 Royal knights advancing their master's[N]
 banner by wielding lances and staves.[X]
+
+## PaladinPlayerDesc
+The very exemplar of loyalty, in her[N]
+own words. Nobly riding in, ending the[N]
+war, all so she and her lord can...[X]
 
 ## AxeRiderName
 Axe Rider[X]
@@ -375,12 +588,22 @@ Axe Rider[X]
 Chivalrous horsemen nobly knighted.[N]
 This variant is trained in axes.[X]
 
+## AxeRiderPlayerDesc
+Seemed to drift off, their mind going[N]
+who knows where, until suddenly jolting[N]
+to life when an ally is endangered.[X]
+
 ## ForestierName
 Forestier[X]
 
 ## ForestierDesc
 Down-to-earth advanced horsemen who[N]
 have the upper hand on all terrain.[X]
+
+## ForestierPlayerDesc
+Took in the scenery, the lush plains[N]
+and the towering peaks, and reminded[N]
+themself of who they are within it.[X]
 
 ## ScoutName
 Scout[X]
@@ -389,12 +612,22 @@ Scout[X]
 Light cavalry whose job it is to pick[N]
 off fliers and fleeing wounded enemies.[X]
 
+## ScoutPlayerDesc
+Didn't bother to look her target in the[N]
+eye, picking them off and not giving[N]
+them a second glance before the next.[X]
+
 ## RangerName
 Ranger[X]
 
 ## RangerDesc
 Elite bow cavalry whose flurry of arrows[N]
 pierces holes in entire enemy formations.[X]
+
+## RangerPlayerDesc
+Refused to accept the seal at first,[N]
+though she seemed satisfied at finally[N]
+getting recognition for her hard work.[X]
 
 ## WindriderName
 Windrider[X]
@@ -403,12 +636,22 @@ Windrider[X]
 Meraly's famed pegasus riders, able to[N]
 absorb magic with their glorious sheen.[X]
 
+## WindriderPlayerDesc
+At that moment, staring down an archer[N]
+primed to fell him then and there, he[N]
+realized he was in way over his head.[X]
+
 ## SeraphWingName
 Seraph Wing[X]
 
 ## SeraphWingDesc
 Malakhim holy fliers who can both slay[N]
 enemies and heal allies from the sky.[X]
+
+## SeraphWingPlayerDesc
+At last earning his station, he graces[N]
+the skies as a beacon of hope,[N]
+delivering salvation from above.[X]
 
 ## HarrierName
 Harrier[X]
@@ -417,12 +660,22 @@ Harrier[X]
 Edgy fliers whose focus on airborne dark[N]
 magic comes at the steep cost of all bulk.[X]
 
+## HarrierPlayerDesc
+At that moment, staring down an archer[N]
+primed to fell her then and there, she[N]
+wished she hadn't skimped on training.[X]
+
 ## DaemonWingName
 Daemon Wing[X]
 
 ## DaemonWingDesc
 Hellion ebon riders whose magic opens[N]
 pitch-black rifts in the sky itself.[X]
+
+## DaemonWingPlayerDesc
+At last earning her station, she tears[N]
+the skies as a omen of despair,[N]
+delivering destruction from above.[X]
 
 ## DracoriderName
 Dracorider[X]
@@ -431,12 +684,22 @@ Dracorider[X]
 Stoflam's signature wyvern riders. They're[N]
 called the lords of the sky for a reason.[X]
 
+## DracoriderPlayerDesc
+It took a hardened disposition to heel[N]
+a wyvern, moreso to order it to fly[N]
+miles on end. She was a different sort.[X]
+
 ## DracolordName
 Dracolord[X]
 
 ## DracolordDesc
-Thought I was kidding about wyverns being[N]
-the lords of the sky? You'll regret that.[X]
+Thought I was kidding about wyverns and[N]
+lords of the sky? You'll regret that.[X]
+
+## DracolordPlayerDesc
+It took a steel disposition to master[N]
+a wyvern, moreso to order it into the[N]
+fray. But she was built differently.[X]
 
 ## BombardierName
 Bombardier[X]
@@ -445,12 +708,22 @@ Bombardier[X]
 Drek's pride and joy griffon riders. They[N]
 excel in shreddding other fliers' wings.[X]
 
+## BombardierPlayerDesc
+Loved the feeling of the wind on her[N]
+face, the sight of the clouds in the[N]
+sky, and the sound of an enemy choking.[X]
+
 ## BarbarossaName
 Barbarossa[X]
 
 ## BarbarossaDesc
 Drek's elite griffon knights, whose[N]
 barrages of arrows block out all light.[X]
+
+## BarbarossaPlayerDesc
+It was apparently a revelation to her[N]
+that mastery of airborne archery was,[N]
+in fact, difficult. She laughed it off.[X]
 
 ## FalconeerName
 Falconeer[X]
@@ -459,104 +732,114 @@ Falconeer[X]
 Falcon-eyed knights whose airborne[N]
 elegance and domination are unmatched.[X]
 
+## FalconeerPlayerDesc
+Claws honed from decades of experience,[N]
+and the motherly urge to protect her[N]
+children. Let none stand in her way.[X]
+
 ## BowArmorName
 Bow Armor[X]
 
 ## BowArmorDesc
-Armored vanguards that deflect hits.[N]
-An exception to be trained in bows.[X]
+Determined to prove them all wrong.[N]
+For every enemy with an arrow-hole in[N]
+the chest, their point is made better.[X]
 
 ## JuggernautName
 Juggernaut[X]
 
 ## JuggernautDesc
-Emerson's self-taught fighting style,[N]
-combining lances and bows into a[N]
-solo armored enemy decimator.[X]
+Proved them all wrong. Mastery of[N]
+lances and bows turns them into an[N]
+all-ranged solo enemy decimator.[X]
 
 ## MalignantName
 Malignant[X]
 
 ## MalignantDesc
-Frosty magic-wielding wyvern riders[N]
-that know no pack or master.[X]
+Wyverns are known to breathe fire, but[N]
+one cannot fault this one for turning[N]
+cold, not with a master like that.[X]
 
 ## MelusineName
 Melusine[X]
 
 ## MelusineDesc
-Nirav's signature magical dragon,[N]
-terrorizing the skies with lightning[N]
-axe bolts and anima magic blasts.[X]
+Ice crackles around them, the frost[N]
+dancing around their fingertips to[N]
+freeze all enemies for good.[X]
 
 ## DrifterName
 Drifter[X]
 
 ## DrifterDesc
-Wandering archers with little skill[N]
-other than lingering magic resistance.[X]
+Wandering with no possessions save for[N]
+the bow on her back, and perhaps some[N]
+accompanying lingering resistance.[X]
 
 ## AdventurerName
 Adventurer[X]
 
 ## AdventurerDesc
-Darina's self-proclaimed title, juggling[N]
-bows and staves to toy with enemies and[N]
-live up to her noble lineage.[X]
+World-traveled and wiser beyond her[N]
+years, she converts her experiences[N]
+into the ability to bring about change.[X]
 
 ## SpellstriderName
 Spellstrider[X]
 
 ## SpellstriderDesc
-Secretarial units surveying the battle[N]
-from horseback and assisting as needed.[X]
+Every manager needs a secretary: one[N]
+to handle paperwork, settle affairs,[N]
+and clean up any unfinished business.[X]
 
 ## StrategistName
 Strategist[X]
 
 ## StrategistDesc
-Eugenia's official clerkly position,[N]
-diligently managing the battlefield[N]
-with competence in anima and swords.[X]
+Behind every ruler is a brilliant[N]
+mind, ready to make the difficult[N]
+decisions to keep the gears turning.[X]
 
 ## SkirmisherName
 Skirmisher[X]
 
 ## SkirmisherDesc
-Guerrila bow cavalry specializing in[N]
-lightning-fast hit and run tactics.[X]
+Enemy didn't know what hit him, for[N]
+just as fast as the arrow was shot,[N]
+did he gallop back into the shadows.[X]
 
 ## OliphantierName
 Oliphantier[X]
 
 ## OliphantierDesc
-Ekaitz's trusty gilded horse. A lifetime[N]
-spent on the run together gave them an[N]
-unbreakable bond and synced movement.[X]
+Been through thick and thin together[N]
+their whole lives, surviving no matter[N]
+the cost: steed and rider as one.[X]
 
 ## WolfssegnerName
 Wolfssegner[X]
 
 ## WolfssegnerDesc
-Calvin's deragatory nickname, granted[N]
-for betraying his comrades 7 years ago.[N]
-At least it matches his wolf, though![X]
+A deragatory nickname, worn with pride,[N]
+granted for betraying his liege some[N]
+seven years prior. It matches his wolf![X]
 
 ## SaviorName
 Savior[X]
 
 ## SaviorDesc
-Clovis' pet name by Calvin. One could[N]
-argue it contradicts his aptitude for[N]
-dark magic, but Calvin would disagree.[X]
+A pet name, sheepishly accepted with[N]
+a blush. Some say it ill fits his dark[N]
+aptitude, but Calvin would disagree.[X]
 
 ## ChampionName
 Champion[X]
 
 ## ChampionDesc
-Aleyna's revered title as a commander.[N]
-They don't care for it, letting their[N]
-swords and axes speak for themselves.[X]
+Cares not for the title, believing[N]
+actions to speak louder than words.[N]
+And oh, will their actions scream.[X]
 
 ## WarlockName
 Warlock[X]
@@ -569,29 +852,30 @@ of all natural, holy, and elder magic.[X]
 Bard[X]
 
 ## BardDesc
-Performers whose refreshing cheers ill[N]
-befit the despair of conflict.[X]
+Stepped into the fray with no fear at[N]
+all, a sole belief that some higher[N]
+power will keep him safe, at all costs.[X]
 
 ## CrownPrinceName
 Crown Prince[X]
 
 ## CrownPrinceDesc
-Evren's title as the next in line[N]
-for House Sarka's throne. Clad in[N]
-heavy armor, he's a beacon to all.[X]
+Inlaid with dark violet jewels, he[N]
+stands as an immovable bulwark, a[N]
+symbol of Sarka's unchallenged might.[X]
 
 ## PrinceName
 Prince[X]
 
-## PrinceFirstDesc
-Cetus' title as the youngest member[N]
-of House Sarka. Of the pegasi he's[N]
-raised, this one is his favorite![X]
+## PrinceDesc
+Smile as radiant as the sun itself.[N]
+To wipe it from his face would be akin[N]
+to drowning the world in darkness.[X]
 
-## PrinceSecondDesc
-Cetus' title as the only remaining heir[N]
-to House Sarka. From his pegasus, he[N]
-delivers relief to allies from above.[X]
+## PrincePlayerDesc
+The last vestiges of a smile wiped[N]
+from his face long ago. All that[N]
+remains is a fervent desire to protect.[X]
 
 ## TherionName
 Therion[X]
@@ -605,9 +889,9 @@ wild beast that needs to be culled.[X]
 Scourge[X]
 
 ## ScourgeDesc
-Blaire's alias as Drek's Hawk General.[N]
-Forgoing moral conventions, she coats[N]
-her arrows and lances in deadly poison.[X]
+Scoffs at the mention of war "crimes",[N]
+for if such a concept exists, then her[N]
+barbed arrows and lances fit the bill.[X]
 
 ## OverlordName
 Sarkan Overlord[X]

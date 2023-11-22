@@ -58,8 +58,8 @@
 #include "OpeningSkips/OpeningSkips.event"
 // 7743, Nat, Circles
 
-#include "IgnoreTriangle/Installer.event"
-// Me!
+//#include "IgnoreTriangle/Installer.event"
+// Me! (Deprecated, not in use)
 
 #include "FE8-Walking Sounds Fix/FE8-Walking Sounds EA.txt"
 // Teq
@@ -79,3 +79,29 @@
 #include "EffectiveDebuffs/Installer.event"
 // Me!
 
+#include "PlayerClassDescs/Installer.event"
+// Me!
+
+#include "UnitGuideCheck/Installer.event"
+// 7743
+
+#include "IconDisplay/Installer.event"
+// Vesly
+
+#include "AffinityTextGetter/Installer.event"
+// Me!
+
+//#include "PrepThemeShit/Installer.event"
+// Me! (for Retina, not in use)
+
+//#include "SellShit/Installer.event"
+// Me! (for Doin Thangs, not in use)
+
+#include "WeaponTriangle/Installer.event"
+// Me!
+
+#include "IncreaseWLvlASMC/IncreaseWLvlASMC.lyn.event"
+// Me!
+
+//#include "WExpCap/Installer.event"
+// Me!

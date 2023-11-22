@@ -17,6 +17,8 @@
 #define LemnaMug 0x0D
 #define SamilMug 0x0E
 
+#define DarinaMug 0x1F
+
 // Intermission A gang
 #define FernyigesMug 0x0F
 #define ZakariaMug 0x10

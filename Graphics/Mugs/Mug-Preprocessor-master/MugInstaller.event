@@ -34,6 +34,13 @@ CrocodileMugLabel:
 #incbin "Crocodile_minimug.dmp"
 
 ALIGN 4
+DarinaMugLabel:
+#incbin "Darina_mug.dmp"
+#incbin "Darina_frames.dmp"
+#incbin "Darina_palette.dmp"
+#incbin "Darina_minimug.dmp"
+
+ALIGN 4
 EmersonMugLabel:
 #incbin "Emerson_mug.dmp"
 #incbin "Emerson_frames.dmp"

@@ -32,6 +32,7 @@ setMugEntry(CrocodileMug, CrocodileMugLabel, 3, 6, 3, 3)
 setMugEntry(AlligatorMug, AlligatorMugLabel, 3, 5, 3, 3)
 setMugEntry(LemnaMug, LemnaMugLabel, 2, 5, 3, 3)
 setMugEntry(0x2A, HongChenMugLabel, 4, 6, 4, 4)
+setMugEntry(DarinaMug, DarinaMugLabel, 2, 5, 3, 3)
 
 setMugEntry(BlueSoldierMug, BlueSoldierMugLabel, 3, 5, 3, 3)
 setMugEntry(RedSoldierMug, RedSoldierMugLabel, 3, 5, 3, 3)

@@ -3,6 +3,7 @@ Beth.png
 BlueSoldier.png
 Cam.png
 Crocodile.png
+Darina.png
 Emerson.png
 Giselle.png
 GreenSoldier.png

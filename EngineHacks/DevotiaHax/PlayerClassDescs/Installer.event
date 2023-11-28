@@ -7,7 +7,7 @@ FILL 0xFF*2
 PlayerClassDescEntry(Gremory, GremoryDesc)
 PlayerClassDescEntry(HighGremory, HighGremoryDesc)
 PlayerClassDescEntry(Princess, PrincessDesc)
-PlayerClassDescEntry(VioletKnight, VioletKnightDesc)
+PlayerClassDescEntry(VioletKnight, VioletKnightPlayerDesc)
 
 // Swordsmen
 PlayerClassDescEntry(Myrmidon, MyrmidonPlayerDesc)

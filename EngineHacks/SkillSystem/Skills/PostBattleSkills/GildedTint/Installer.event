@@ -7,8 +7,7 @@ WORD GildedTintID
 ALIGN 4
 GildedTintEvent:
 CAM1 0xFFFF
-CUMO 0xFFFF
-STAL 0x24
-GIVEITEMTOMAIN 0xFFFF
+SOUN 0xB9 // gold changing sound effect
+STAL 0x16
 NoFade
 ENDA

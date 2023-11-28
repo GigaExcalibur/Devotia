@@ -25,10 +25,15 @@ will exemplify it with sword and staff.[X]
 ## VioletKnightName
 Violet Knight[X]
 
-## VioletKnightDesc
+## VioletKnightPlayerDesc
 Colors of House Sarka's banner streak[N]
 across the battlefield, flown by the[N]
 master knight who stands above all.[X]
+
+## VioletKnightDesc
+Colors of House Sarka's banner streak[N]
+across the battlefield, a violet blaze[N]
+of sheer devotion to one above all.[X]
 
 ## MyrmidonName
 Myrmidon[X]
@@ -86,9 +91,9 @@ Renegade dread fighers of swords and[N]
 dark magic, forgoing duelists' honor.[X]
 
 ## RunelordPlayerDesc
-A quick sidestep, a quicker enchant,[N]
-a flash of darkness, a stolen object,[N]
-and a slink back into the shadows.[X]
+Light glinted off the blade as it was[N]
+drawn: a flash of blood, a stolen gem,[N]
+and a slink back into to the shadows.[X]
 
 ## ThiefName
 Thief[X]
@@ -98,9 +103,9 @@ Battlefield skulkers using swords[N]
 to open both locks and wounds.[X]
 
 ## ThiefPlayerDesc
-Her eyes dart back and forth admidst[N]
-turmoil, scanning for life not as prey[N]
-does hunter, but as a hunter does prey.[X]
+Eyes dart back and forth in the fray,[N]
+scanned the field not as prey does[N]
+a hunter, but a hunter does prey.[X]
 
 ## RogueName
 Rogue[X]
@@ -158,7 +163,7 @@ Distinctly non-mounted lance footsoldiers.[N]
 No noteworthy aspects, save disposability.[X]
 
 ## LancerPlayerDesc
-Eyes wide as the axe came downward,[N]
+Pupils widening as the axe came down,[N]
 it just now dawned on him the fact[N]
 that he did not want to die.[X]
 

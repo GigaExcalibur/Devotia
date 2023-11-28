@@ -1650,14 +1650,14 @@ with people. If foe couldn't counter,[N]
 she can move 2 spaces after combat.[X]
 
 ## SD_WaveShredder
-Wave Shredder: Unit can smite an[N]
-ally 2 spaces forward. Who the fuck[N]
-knows what else this'll do.[X]
+Wave Shredder: Cam is one with the[N]
+tides. She gets another action (full[N]
+MOV) after shoving an ally forward.[X]
 
 ## SD_NimbleFingers
 Nimble Fingers: Giselle's hands can't[N]
 stay still. She gets another action[N]
-after stealing or lockpicking (1/turn).[X]
+(full MOV) after stealing/lockpicking.[X]
 
 ## SD_SarkanPoise
 Violet Force: Levia always stands[N]
@@ -1680,4 +1680,4 @@ last in combat.[X]
 ## SD_GildedTint
 Gilded Tint: Darina keeps her eyes[N]
 on the prize. After initiating combat,[N]
-gain gold = damage done in last hit.[X]
+gain gold = damage she did in combat.[X]

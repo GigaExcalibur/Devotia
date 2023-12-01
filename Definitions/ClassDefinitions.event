@@ -58,7 +58,7 @@
 #define Cleric 0x2B
 #define Valkyrie 0x2C
 #define Trobairitz 0x2D
-#define Thaumaturge 0x2E
+#define Thaumaturge 0x2E; #define Melodist Thaumaturge
 #define Templar 0x2F
 
 // Horsemen
@@ -114,3 +114,21 @@
 #define Mullah 0x73
 #define Mawlawi 0x74
 #define HighAgastya 0x75
+
+#define Tent 0x79
+
+// tee hee
+#define Cantor 0x76
+#define ArchMage 0x77
+#define Tactician 0x78
+#define Vagrant 0x7A
+#define Alchemist 0x7B
+#define Astronomer 0x7C
+#define Runeblade 0x7D
+#define Illusionist 0x80 // skip two for trainees
+#define Upstart 0x81
+#define LaguzDruid 0x82
+#define Sleipnir 0x83
+#define Witch 0x84
+#define Basara 0x85
+#define Asura 0x86

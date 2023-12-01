@@ -515,7 +515,7 @@ to the intimiate moments thereafter,[N]
 and he will be there to spin it all.[X]
 
 ## ThaumaturgeName
-Thaumaturge[X]
+Melodist[X]
 
 ## ThaumaturgeDesc
 Battle-maidens whose magical armaments[N]

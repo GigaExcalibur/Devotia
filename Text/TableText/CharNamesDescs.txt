@@ -66,7 +66,7 @@ station, she prefers the company of one.[X]
 Stuart[X]
 
 ## StuartDesc
-Levia's assigned retainer. A born fighter[N]
+Levia's assigned retainer, a born fighter[N]
 with a temper to match to his skill with[N]
 a blade. Levia doesn't mind one bit.[X]
 
@@ -449,7 +449,7 @@ Surveyor[X]
 ## SurveyorDesc
 Dropout students of Drek's war-colleges,[N]
 turned to piracy from unwillingness to[N]
-sling fireballs as a rank-and-file magi.[X]
+serve as a rank-and-file soldier.[X]
 
 ## CamEnemyName
 Camilia[X]
@@ -530,6 +530,22 @@ Curtis[X]
 A member of House Calicos, ambitious and[N]
 eagle-eyed. With the head of the house[N]
 ailing, he's taken management upon himself.[X]
+
+## SquireName
+Squire[X]
+
+## SquireDesc
+A junior knight of a Meralian garrison,[N]
+rigidly drilled in weapon training and[N]
+the divinity of their chivalric duty.[X]
+
+## PrenticeName
+Prentice[X]
+
+## PrenticeDesc
+An acolyte pledged to a Meralian cause,[N]
+channeling arcane energy from the earth[N]
+of the country they cherish so.[X]
 
 ## TerranceName
 Terrance[X]

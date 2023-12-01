@@ -19,7 +19,7 @@ INLINE PersonalDataTable,Full Name,Pronouns,Hobby,Birthday,Age,Height,Promo,Desc
 0x11 Darina,DarinaFullName,SheHer,DarinaHobby,DarinaBirthday,Age35,FiveFootTen,AdventurerName,DarinaPromoDesc
 0x12 Eugenia,EugeniaFullName,SheThey,EugeniaHobby,EugeniaBirthday,Age35,SixFootOne,StrategistName,EugeniaPromoDesc
 0x13 Maris,MarisFullName,SheHer,MarisHobby,MarisBirthday,Age21,FiveFootFour,StarseerName,MarisPromoDesc
-0x14 Phillipa,PhillipaFullName,SheHer,0x0000,0x0000,0x0000,FiveFootNine,PaladinName,PhillipaPromoDesc
+0x14 Phillipa,PhillipaFullName,SheHer,0x0000,0x0000,Age23,FiveFootNine,PaladinName,PhillipaPromoDesc
 0x15 Maeve,MaeveFullName,SheHer,0x0000,0x0000,0x0000,FiveFootSix,RangerName,MaevePromoDesc
 0x16 Evren,EvrenFullName,HeThey,0x0000,0x0000,0x0000,FiveFootEleven,NAPromo,PrepromotePromoDesc
 0x17 Dane,DaneFullName,HeHim,0x0000,0x0000,0x0000,FiveFootTen,MarksmanName,0x0000

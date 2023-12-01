@@ -178,6 +178,7 @@ LOAD1 0x0 Units2
 ENUN
 LOAD1 0x0 MoreUnits
 ENUN
+
 // FADI 10
 // MOVE 0 Carlyle [7,10]
 // ENUN
@@ -269,7 +270,10 @@ ENDA
 
 ALIGN 4
 TooltipPrompt:
+TutorialText(ParadosOpeningCrawl1)
+TutorialText(ParadosOpeningCrawl2)
 TutorialText(ParadosDevotiaWelcomeText)
+TutorialText(ParadosConfirmationText)
 /*
 SVAL s1	0x1
 SET_HP Klaudia

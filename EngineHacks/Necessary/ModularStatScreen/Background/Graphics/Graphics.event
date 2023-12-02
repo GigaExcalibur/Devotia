@@ -4,6 +4,30 @@ ALIGN 4; SSS_MuralGfx:
 ALIGN 4; SSS_MuralPal:
 #incbin "Relief_pal.dmp"
 
+PUSH
+ORG 0x86C44
+POIN SSS_MuralGfx
+ORG 0x86CDC
+POIN SSS_MuralGfx
+ORG 0x86DB0
+POIN SSS_MuralGfx
+POP
+
+PUSH
+ORG 0x86BF8
+POIN SSS_MuralPal
+ORG 0x86C40
+POIN SSS_MuralPal
+ORG 0x86C8C
+POIN SSS_MuralPal
+ORG 0x86CD8
+POIN SSS_MuralPal
+ORG 0x86DAC
+POIN SSS_MuralPal
+ORG 0x8E194
+POIN SSS_MuralPal
+POP
+
 // Page on the right.
   // Tiles. Indexed by window option.
   ALIGN 4; SSS_PageAndPortraitGfx1:

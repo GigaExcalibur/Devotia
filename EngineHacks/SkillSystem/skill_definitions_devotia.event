@@ -29,8 +29,8 @@
 
 // Personal skills. Now we're getting to the good stuff
 
-// Fortunate Seven: If unit or foe's HP is divisible by 7, unit always doubles and foe cannot double (if weapon allows).
-#define FortunateSevenID 8
+// Crimson Force: Double wexp on second turn.
+#define CrimsonForceID 8
 
 // Soulblade: When attacking with swords, hit the average of foe's DEF and RES.
 #define SoulbladeID 9
@@ -50,8 +50,8 @@
 // Nimble Fingers: Cunning as a free action (maybe no speed check?)
 #define NimbleFingersID 14
 
-// Sarkan Poise:
-#define SarkanPoiseID 15
+// Violet Force: Levia's movement is halved on her second turn.
+#define SarkanPoiseID 15; #define VioletForceID SarkanPoiseID
 
 // Pent-Up Rage:
 #define PentUpRageID 16

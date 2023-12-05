@@ -1,5 +1,9 @@
 #include "NewComputeUnitBattleDefense.lyn.event"
 
 ALIGN 4
-SoulbladeIDLink:
+SoulbladeID_Link:
 WORD SoulbladeID
+
+ALIGN 4
+CrimsonForceID_Link:
+WORD CrimsonForceID

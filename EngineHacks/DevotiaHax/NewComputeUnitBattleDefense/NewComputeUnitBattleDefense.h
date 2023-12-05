@@ -7,4 +7,5 @@ void NewComputeBattleCrit(struct BattleUnit* attacker, struct BattleUnit* defend
 void NewComputeBattleCritAvoid(struct BattleUnit* attacker, struct BattleUnit* defender);
 
 extern bool SkillTester(Unit* unit, u8 skillID);
-extern u8 SoulbladeIDLink;
+extern u8 SoulbladeID_Link;
+extern u8 CrimsonForceID_Link;

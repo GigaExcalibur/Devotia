@@ -47,6 +47,7 @@
 #define Rami 0x2e		// Sorcerer
 #define Samil 0x2f		// Trickster
 #define Cetus 0x30		// Prince
+#define Marionette 0x31	// Alma's summon
 
 // A surprise tool that will help me much later
 #define Soline 0x37		// Cantor

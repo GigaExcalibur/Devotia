@@ -387,6 +387,14 @@ The youngest prince of House Sarka.[N]
 Too young to be scarred by war, but[N]
 then again, are we not all so?[X]
 
+## MarionetteName
+Marionette[X]
+
+## MarionetteDesc
+A repurposed corpse, soul now departed,[N]
+now tethered and puppeted to Alma's will[N]
+for the sake of his grander ambitions.[X]
+
 ## WisterName
 Wister[X]
 

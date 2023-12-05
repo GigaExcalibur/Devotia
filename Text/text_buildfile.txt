@@ -9,151 +9,151 @@ HP Bars[.][X]
 Set health bar display[X]
 
 # 0x4fe
-STR[X]
+Str[X]
 
 # 0x4ff
-MAG[X]
+Int[X]
 
 # 0x4EC
-DEX[X]
+Dex[X]
 
 # 0x4ed
-SPD[X]
+Agi[X]
 
 # 0x4ee
-LCK[X]
+Chm[X]
 
 # 0x4ef
-DEF[X]
+Def[X]
 
 # 0x4f0
-RES[X]
+Res[X]
 
 # 0x4F1
-AFN[X]
+Afn[X]
 
 # 0x4f6
-MOV[X]
+Mov[X]
 
 # 0x4f7
-CON[X]
+Bld[X]
 
 # 0x4f8
-AID[X]
+Aid[X]
 
 # 0x4f9
-TRV[X]
+Trv[X]
 
 # 0x4F3
-ATK[X]
+Atk[X]
 
 # 0x4F4
-HIT[X]
+Hit[X]
 
 # 0x4F5
-AVO[X]
+Avo[X]
 
 # 0x500
-RNG[X]
+Rng[X]
 
 # 0x501
-CRT[X]
+Crt[X]
 
 # 0x502
-WT[X]
+Wt[X]
 
 # 0x503
-MT[X]
+Mt[X]
 
 # 0x505
-SWD[X]
+Swd[X]
 
 # 0x0506
-LNC[X]
+Lnc[X]
 
 # 0x0507
-AXE[X]
+Axe[X]
 
 # 0x0508
-BOW[X]
+Bow[X]
 
 # 0x0509
-STF[X]
+Stf[X]
 
 # 0x050A
-ANM[X]
+Anm[X]
 
 # 0x050B
-LGT[X]
+Lgt[X]
 
 # 0x050C
-DRK[X]
+Drk[X]
 
 # 0x050D
-USE[X]
+Use[X]
 
 # 0x518
-DGE[X]
+C.Avo[X]
 
 # 0x542
-How much a unit has left to grow[N]
-before they hit their limit.[X]
+Level - how much more room a unit has[N]
+left to grow before reaching their limit.[X]
 
 # 0x543
-How much more time in battle a unit[N]
-needs to noticeably improve.[X]
+Experience - how much more time a unit[N]
+needs in battle to noticably improve.[X]
 
 # 0x544
-How much a unit can get the snot[N]
-beaten out of them at once.[X]
+Hit Points - how much this unit can[N]
+get the snot beat out of them.[X]
 
 # 0x546
-How many hours this unit[N]
-worked out at the gym.[X]
+Strength - how many hours this unit[N]
+worked out at the training yard.[X]
 
 # 0x547
-How many hours this unit[N]
-worked out at the library.[X]
+Intelligence - how many hours this[N]
+unit worked out at the library.[X]
 
 # 0x548
-How deft a unit is with their hands.[N]
-For magi, how fast they turn pages.[X]
+Dexterity - how deft a unit wields[N]
+their weapon, or turns its pages.[X]
 
 # 0x549
-The best stat in every[N]
-video game to ever exist.[X]
+Agility - how fast a unit's placement[N]
+skyrockets in viability rankings.[X]
 
 # 0x54A
-The likelihood a unit is to not[N]
-die from random heart failure.[X]
+Charisma - the likelihood for a unit's[N]
+'wiles' to miraculously distract a foe.[X]
 
 # 0x54B
-The stat that actually helps you[N]
-against 80% of enemy types.[X]
+Defense - How well a unit shrugs off[N]
+blows from 80% of all enemy types.[X]
 
 # 0x54C
-The stat that snake oil pure water[N]
-salesmen tell you is underrated.[X]
+Resistance - The stat pure water snake[N]
+oil salesman must pretend is necessary.[X]
 
 # 0x054D
-The stat people like to leverage[N]
-to nerf cavaliers into the ground.[X]
+Movement - The stat people leverage in[N]
+order to nerf cavaliers into the ground.[X]
 
 # 0x054E
-In some societies, a metric[N]
-of human sexual dimorphism.[X]
+Build - Body mass, and in some societies,[N]
+a metric of human sexual dimorphism.[X]
 
 # 0x054F
-In some societies, an example[N]
-of gendered double standards.[X]
+Aid - Carrying capacity, and in some[N]
+societies, a gendered double standard.[X]
 
 # 0x0550
-The name of the unit that's currently[N]
-being saddlebagged across the battle.[X]
+Traveler - The unit currently being[N]
+saddlebagged across the battle.[X]
 
 # 0x0551
-Pseudoscientific notions of a unit's[N]
-personality and compatibility.[X]
+Affinity - A pseudoscientific notion of[N]
+a unit's personality and compatibility.[X]
 
 # 0x690
  Ch. Status[X]

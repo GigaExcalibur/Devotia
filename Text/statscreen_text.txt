@@ -1,16 +1,16 @@
 #0x3B SS_TalkText
-TLK[X]
+Tlk[X]
 
 ## SS_SkillsText
-SKL[X]
+Skl[X]
 
 ## SS_TalkRText
-Character with whom this unit[N]
-may talk on the battlefield.[X]
+Talk - the name of one willing to have[N]
+a chat with this unit during battle.[X]
 
 ## SS_SkillsRText
-The unit's designated special[N]
-ability, or lack thereof.[X]
+Skill - a unit's designated unique[N]
+special ability, or lack thereof.[X]
 
 ## SS_SkillsDefaultRText
 No skill description found.[X]
@@ -98,42 +98,42 @@ Characters whom this unit gives and[N]
 receives bonuses from when adjacent.[X]
 
 ## AttackStatScreenDesc
-Attack = weapon Mt + STR or MAG.[X]
+Attack = weapon Mt + Str/Mag + triangle.[X]
 
 ## AttackSpeedStatScreenDesc
-Attack Speed = SPD - (weapon Wt[N]
-- CON) if weapon Wt > CON. The[N]
+Attack Speed = Agi - (weapon Wt[N]
+- Bld) if weapon Wt > Bld. The[N]
 doubling threshold is 3 AS.[X]
 
 ## HitStatScreenDesc
-Hit = weapon Hit + (DEX * 3) + LCK.[X]
+Hit = weapon Hit + (Dex * 3) + Chm.[X]
 
 ## AvoidStatScreenDesc
-Avoid = (LCK * 3) + SPD.[X]
+Avoid = (Chm * 3) + Agi.[X]
 
 ## CritStatScreenDesc
-Crit = weapon Crit + (DEX * 1.5).[N]
+Crit = weapon Crit + (Dex * 1.5).[N]
 If displayed crit against foe < 10,[N]
 unit cannot crit.[X]
 
 ## CritAvoidStatScreenDesc
-Crit Avoid = (LCK * 2).[X]
+Crit Avoid = (Chm * 2).[X]
 
 ## ChorusName
  Chorus[X]
  
 ## ChorusDesc
-Open your ears to the voices of the[N]
-chorus: beyond time, beyond walls.[X]
+A faint hum emanates from beyond the[N]
+fourth wall: beckoning all to hear.[X]
 
 ## BattlesDesc
-The number of times this[N]
-unit entered combat.[X]
+Battles - the number of times this[N]
+unit engaged in a round of combat.[X]
 
 ## WinsDesc
-The number of enemies[N]
-this unit killed in combat.[X]
+Wins - the number of rounds of combat[N]
+in which this unit defeated their foe.[X]
 
 ## LossesDesc
-The number of times you reset for[N]
-this unit, you filthy casual.[X]
+Losses - the number of times you reset[N]
+for this unit, you filthy casual.[X]

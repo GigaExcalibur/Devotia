@@ -1624,19 +1624,19 @@ Cunning: Unit can steal items[N]
 off foes and pick the locks of[N]
 any chest or door.[X]
 
-## SD_FortunateSeven
-Fortunate Seven: If Klaudia or her foe's[N]
-HP is divisible by 7, she always doubles[N]
-and foe never doubles (if weapon allows).[X]
+## SD_CrimsonForce
+Crimson Force: Klaudia always stands[N]
+primed. On her second action per turn,[N]
+she hits the lower of foe's Def/Res.[X]
 
 ## SD_Soulblade
 Soulblade: Zero cuts through his foe's[N]
 defensive stance, hitting the average[N]
-of their DEF and RES when using swords.[X]
+of their Def and Res when using swords.[X]
 
 ## SD_Serenade
 Serenade: Josephine recites her works,[N]
-granting +3 DEF/RES to allies in her[N]
+granting +3 Def/Res to allies in her[N]
 attack range for 1 turn after combat.[X]
 
 ## SD_RespectingElders
@@ -1672,6 +1672,11 @@ cannot miss and foe cannot crit.[X]
 ## SD_Shortstack
 Shortstack: Nirav is insecure about[N]
 their height.[X]
+
+## SD_NothingWasted
+Nothing Wasted: Alma always recycles.[N]
+On a player phase kill, revives foe[N]
+as an ally with (Alma's max HP/2) HP.[X]
 
 ## SD_Disvantage
 Disvantage: Unit always strikes[N]

@@ -1109,5 +1109,14 @@ ORG SkillIcon(RespectingEldersID)
 ORG SkillIcon(WallflowerID)
 #incbin "SkillIcons/Aptitude.dmp"
 
+ORG SkillIcon(VioletForceID)
+#incbin "SkillIcons/Galeforce.dmp"
+
+ORG SkillIcon(GildedTintID)
+#incbin "SkillIcons/Despoil.dmp"
+
+ORG SkillIcon(NothingWastedID)
+#incbin "SkillIcons/Summon.dmp"
+
 ORG SkillIcons+0x8000
 

@@ -236,3 +236,5 @@ ORG ItemIconEntry(RescueStaffIcon)
 ORG ItemIconEntry(LegendaryStaffIcon)
 #incbin "Staves/LegendaryStaff.dmp"
 
+ORG ItemIconEntry(IronSwordIcon)
+#incbin "Swords/IronSword.dmp"

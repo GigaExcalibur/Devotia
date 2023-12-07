@@ -26,6 +26,12 @@
 @echo Dark generated!
 @del png.txt
 
+@cd "%~dp0\Swords"
+@dir *.png /b > png.txt
+@for /f "tokens=*" %%m in (png.txt) do ("%Png2Dmp%" "%%~m")
+@echo Swords generated!
+@del png.txt
+
 echo Done!
 
 pause

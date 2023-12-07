@@ -178,3 +178,6 @@
 #undef WarpStaffIcon; #define WarpStaffIcon 0x48
 #undef RescueStaffIcon; #define RescueStaffIcon 0x49
 #define LegendaryStaffIcon 0x4A // temporary name
+
+// Swords
+#undef IronSwordIcon; #define IronSwordIcon 0x4B

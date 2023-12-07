@@ -1,0 +1,13 @@
+ALIGN 4
+NothingWastedID_Link:
+WORD NothingWastedID
+
+ALIGN 4
+NothingWastedEvent:
+CAM1 0xFFFF
+SOUN 0xDE // manakete roar sound effect
+STAL 0x16
+NoFade
+ENDA
+
+#include "NothingWasted.lyn.event"

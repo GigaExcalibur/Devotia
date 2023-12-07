@@ -1610,9 +1610,9 @@ with weapon triangle advantage,[N]
 unit makes a guaranteed follow-up.[X]
 
 ## SD_Generic
-As a faceless and generic member[N]
-of the ensemble cast, this unit[N]
-does not possess any skills.[X]
+Generic members of the ensemble cast,[N]
+as faceless and unskilled as they are,[N]
+are still the lifeblood of every show.[X]
 
 ## SD_Stalwart
 As a featured member of the ensemble[N]
@@ -1675,7 +1675,7 @@ their height.[X]
 
 ## SD_NothingWasted
 Nothing Wasted: Alma always recycles.[N]
-On a player phase kill, revives foe[N]
+On a player phase kill, he revives foe[N]
 as an ally with (Alma's max HP/2) HP.[X]
 
 ## SD_Disvantage

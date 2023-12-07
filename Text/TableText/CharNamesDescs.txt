@@ -392,7 +392,7 @@ Marionette[X]
 
 ## MarionetteDesc
 A repurposed corpse, soul now departed,[N]
-now tethered and puppeted to Alma's will[N]
+husk tethered and puppeted by Alma's will[N]
 for the sake of his grander ambitions.[X]
 
 ## WisterName

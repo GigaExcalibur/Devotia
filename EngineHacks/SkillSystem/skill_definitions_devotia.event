@@ -58,6 +58,9 @@
 
 // Bear skill
 
+// Nothing Wasted: Summoning but cool
+#define NothingWastedID 19
+
 // Gilded Tint: Damage given as gold post-battle
 #define GildedTintID 20
 

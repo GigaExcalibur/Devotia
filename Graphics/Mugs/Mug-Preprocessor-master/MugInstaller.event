@@ -6,6 +6,13 @@ AlligatorMugLabel:
 #incbin "Alligator_minimug.dmp"
 
 ALIGN 4
+AlmaMugLabel:
+#incbin "Alma_mug.dmp"
+#incbin "Alma_frames.dmp"
+#incbin "Alma_palette.dmp"
+#incbin "Alma_minimug.dmp"
+
+ALIGN 4
 BethMugLabel:
 #incbin "Beth_mug.dmp"
 #incbin "Beth_frames.dmp"

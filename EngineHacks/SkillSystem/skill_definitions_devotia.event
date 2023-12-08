@@ -64,6 +64,9 @@
 // Gilded Tint: Damage given as gold post-battle
 #define GildedTintID 20
 
+// Excogitation: the ffxiv skill
+#define ExcogitationID 21
+
 // Item skills. These go on items (except Disvantage)
 #undef BreathOfLifeID
 #define BreathOfLifeID 128

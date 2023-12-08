@@ -457,7 +457,7 @@ Surveyor[X]
 ## SurveyorDesc
 Dropout students of Drek's war-colleges,[N]
 turned to piracy from unwillingness to[N]
-serve as a rank-and-file soldier.[X]
+march as ordinary rank-and-file soldiers.[X]
 
 ## CamEnemyName
 Camilia[X]
@@ -555,10 +555,25 @@ An acolyte pledged to a Meralian cause,[N]
 channeling arcane energy from the earth[N]
 of the country they cherish so.[X]
 
+## HilltonName
+Hillton[X]
+
+## HilltonDesc
+GRAMINEA FORT's Knight Captain, drunk[N]
+on power and [X]
+
+## LanderName
+Lander[X]
+
+## LanderDesc
+Conscripted villager of GRAMINEA town.[N]
+Survived enough winters to know not to[N]
+uproot at the first sign of frost.[X]
+
 ## TerranceName
 Terrance[X]
 
 ## TerranceDesc
-Traditional border guard of GRAMINEA FORT.[N]
-Bored by his station, he passes time[N]
-building castles inside his head.[X]
+Graminea's stoic border commander.[N]
+Traditional to the point of refusing[N]
+to replace a single stone in the wall.[X]

@@ -1686,3 +1686,9 @@ last in combat.[X]
 Gilded Tint: Darina keeps her eyes[N]
 on the prize. After initiating combat,[N]
 gain gold = damage she did in combat.[X]
+
+## SD_Excogitation
+Excogitation: Jaufrea targets an ally,[N]
+granting an effect where next time[N]
+they go below 50% HP, heal 50% HP.[N]
+Usable 3x/map, Jaufrea's Int/2 Rng.[X]

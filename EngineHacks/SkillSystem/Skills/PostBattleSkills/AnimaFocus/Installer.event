@@ -1,0 +1,51 @@
+ALIGN 4
+AnimaFocusID_Link:
+WORD AnimaFocusID
+
+// weapon identifiers should be defined by this point
+ALIGN 4
+WindList_Link:
+BYTE Tradewinds
+BYTE TradeTempest
+BYTE VentusSaltare
+BYTE SweepingGale
+BYTE WindyRefrain
+BYTE HurricaneAxe
+BYTE DeathTempest
+BYTE Cataclysmaelstrom
+BYTE Regustalo
+BYTE GigaExcalibur
+BYTE 0 // terminator
+
+ALIGN 4
+FireList_Link:
+BYTE Fireball
+BYTE FireStorm
+BYTE IgnisArdere
+BYTE Spectacular
+BYTE Vexflame
+BYTE FlameLance
+BYTE Cataclysmaelstrom
+BYTE 0 // terminator
+
+ALIGN 4
+ThunderList_Link:
+BYTE LightningBolt
+BYTE LightningBlast
+BYTE TonitrusCanere
+BYTE LevinSword
+BYTE 0 // terminator
+
+ALIGN 4
+AnimaFocusWindAmount_Link:
+WORD 2 // mov penalty
+
+ALIGN 4
+AnimaFocusFireAmount_Link:
+WORD 3 // def penalty
+
+ALIGN 4
+AnimaFocusThunderAmount_Link:
+WORD 20 // hit penalty
+
+#include "AnimaFocus.lyn.event"

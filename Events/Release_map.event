@@ -168,10 +168,12 @@ BeginningScene:
 ENUT 0xB4
 ENUT 0x1 //no more boss quotes
 ENUT 0x2 //no more death quotes
+/*
 LOAD1 0x1 EnemyUnits
 ENUN
 LOAD1 0x1 EnemyUnits2
 ENUN
+*/
 LOAD1 0x0 Units1 //0x0 instead of 0x1 seems to be for allies on maps with prep screens
 ENUN
 LOAD1 0x0 Units2

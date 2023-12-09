@@ -70,3 +70,5 @@
 // Item skills. These go on items (except Disvantage)
 #undef BreathOfLifeID
 #define BreathOfLifeID 128
+
+#define AnimaFocusID 254

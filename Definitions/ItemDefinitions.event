@@ -8,7 +8,7 @@
 #define IronBroadsword 0x07
 #define SteelBroadsword 0x08
 #define SilverBroadsword 0x09
-#define LightBrand 0x0A
+#define LightBrand 0x0A; #define LevinSword LightBrand
 #define Wyrmslayer 0x0B
 #define Lancereaver 0x0C
 #define RubySword 0x0D
@@ -183,7 +183,7 @@
 #define ArrowOfFortune 0xD9 // Darina
 #define WindyRefrain 0xDA // Eugenia
 #define Clarion 0xDB // Maris
-// Phillipa
+#define FlameLance 0xDC // Phillipa
 // Maeve
 // Dane
 #define Eclipse 0xDF // Evie

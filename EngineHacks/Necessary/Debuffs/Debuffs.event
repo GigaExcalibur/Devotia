@@ -218,6 +218,12 @@ FomentBitOffset_Link:
 WORD MiscOffset+18
 StrideBitOffset_Link:
 WORD MiscOffset+19
+AnimaFocusWindOffset_Link:
+WORD MiscOffset+20
+AnimaFocusFireOffset_Link:
+WORD MiscOffset+21
+AnimaFocusThunderOffset_Link:
+WORD MiscOffset+22
 EngagePoisonBitOffset_Link:
 
 ALIGN 4 

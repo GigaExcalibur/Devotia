@@ -1692,3 +1692,8 @@ Excogitation: Jaufrea targets an ally,[N]
 granting an effect where next time[N]
 they go below 50% HP, heal 50% HP.[N]
 Usable 3x/map, Jaufrea's Int/2 Rng.[X]
+
+## SD_AnimaFocus
+Anima Focus: After combat, inflict -3[N]
+DEF with Fire, -20 Hit with Thunder,[N]
+and -2 Move with Wind tomes.[X]

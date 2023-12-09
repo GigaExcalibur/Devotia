@@ -67,7 +67,7 @@ Glows with arcane infusement.[N]
 Attacks are magical.[X]
 
 ## IronSwordName
-Iron sword[X]
+Orphic Glow[X]
 
 ## SteelSwordName
 Steel sword[X]
